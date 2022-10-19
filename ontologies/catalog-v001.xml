@@ -4,8 +4,8 @@
     <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/doid-extract" uri="doid-extract.owl"/>
     <uri id="User Entered Import Resolution" name="http://www.semanticweb.org/AdverseEventExtract" uri="AdverseEventExtract.owl"/>
     <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
-        <uri id="Automatically generated entry, Timestamp=1666194133395" name="http://who.int/icd" uri="icd.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1666194133395" name="http://www.semanticweb.org/AdverseEventExtract" uri="AdverseEventExtract.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1666194133395" name="http://www.ucsf.edu/brosner/ontologies/DOVeS" uri="root-ontology.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1666195958153" name="http://who.int/icd" uri="icd.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1666195958153" name="http://www.semanticweb.org/AdverseEventExtract" uri="AdverseEventExtract.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1666195958153" name="http://www.ucsf.edu/brosner/ontologies/DOVeS" uri="root-ontology.owl"/>
     </group>
 </catalog>
