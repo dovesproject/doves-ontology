@@ -1,0 +1,3392 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.ucsf.edu/brosner/ontologies/DOVeS#"
+     xml:base="http://www.ucsf.edu/brosner/ontologies/DOVeS"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+     xmlns:DOVeS="http://www.ucsf.edu/brosner/ontologies/DOVeS/"
+     xmlns:schema="http://id.who.int/icd/schema/"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
+     xmlns:webprotege="http://webprotege.stanford.edu/">
+    <owl:Ontology rdf:about="http://www.ucsf.edu/brosner/ontologies/DOVeS">
+        <owl:imports rdf:resource="http://who.int/icd"/>
+        <owl:imports rdf:resource="http://www.semanticweb.org/AdverseEventExtract"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.ucsf.edu/brosner/ontologies/DOVeS/RuJ3b9PXa509e0lpSKrXV2 -->
+
+    <owl:AnnotationProperty rdf:about="http://www.ucsf.edu/brosner/ontologies/DOVeS/RuJ3b9PXa509e0lpSKrXV2"/>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#label -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#label"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.ucsf.edu/brosner/ontologies/DOVeS/has_accuracy -->
+
+    <owl:ObjectProperty rdf:about="http://www.ucsf.edu/brosner/ontologies/DOVeS/has_accuracy"/>
+    
+
+
+    <!-- http://www.ucsf.edu/brosner/ontologies/DOVeS/has_age_group -->
+
+    <owl:ObjectProperty rdf:about="http://www.ucsf.edu/brosner/ontologies/DOVeS/has_age_group"/>
+    
+
+
+    <!-- http://www.ucsf.edu/brosner/ontologies/DOVeS/has_beneficiary -->
+
+    <owl:ObjectProperty rdf:about="http://www.ucsf.edu/brosner/ontologies/DOVeS/has_beneficiary"/>
+    
+
+
+    <!-- http://www.ucsf.edu/brosner/ontologies/DOVeS/has_condition -->
+
+    <owl:ObjectProperty rdf:about="http://www.ucsf.edu/brosner/ontologies/DOVeS/has_condition"/>
+    
+
+
+    <!-- http://www.ucsf.edu/brosner/ontologies/DOVeS/has_evidencetype -->
+
+    <owl:ObjectProperty rdf:about="http://www.ucsf.edu/brosner/ontologies/DOVeS/has_evidencetype"/>
+    
+
+
+    <!-- http://www.ucsf.edu/brosner/ontologies/DOVeS/has_outcome -->
+
+    <owl:ObjectProperty rdf:about="http://www.ucsf.edu/brosner/ontologies/DOVeS/has_outcome"/>
+    
+
+
+    <!-- http://www.ucsf.edu/brosner/ontologies/DOVeS/has_sex -->
+
+    <owl:ObjectProperty rdf:about="http://www.ucsf.edu/brosner/ontologies/DOVeS/has_sex"/>
+    
+
+
+    <!-- http://www.ucsf.edu/brosner/ontologies/DOVeS/has_specialty -->
+
+    <owl:ObjectProperty rdf:about="http://www.ucsf.edu/brosner/ontologies/DOVeS/has_specialty"/>
+    
+
+
+    <!-- http://www.ucsf.edu/brosner/ontologies/DOVeS/has_technology -->
+
+    <owl:ObjectProperty rdf:about="http://www.ucsf.edu/brosner/ontologies/DOVeS/has_technology">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000001 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OAE_0000001">
+        <rdfs:subClassOf rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/Safety_Event"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R0QXqHAweOlBh1akeVEXLL -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R0QXqHAweOlBh1akeVEXLL">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R81i1YUEPT2qi0NgAm9qfzg"/>
+        <rdfs:label xml:lang="en">FTE Reduction</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R3UtDhqKmruHQryFkhkeno -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R3UtDhqKmruHQryFkhkeno">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBJptQipHt05w93ezNTq9kY"/>
+        <rdfs:label xml:lang="en">Addiction Medicine</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R4FnJ6DqA4lHZidtiYeFbk -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R4FnJ6DqA4lHZidtiYeFbk">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBxP3aiIhnxfYauf6VExGvE"/>
+        <rdfs:label xml:lang="en">General Family Medicine</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R4PnWbXfUJ3LgTlP6b14yb -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R4PnWbXfUJ3LgTlP6b14yb">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDdbXYgzRYtcQrWcYdJ5VZi"/>
+        <rdfs:label xml:lang="en">Procedural No Show Rates</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R704Z9xUvmXRUNoL8rZI00a -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R704Z9xUvmXRUNoL8rZI00a">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDOOMfcvc8JT01SkoCO1iLh"/>
+        <rdfs:label xml:lang="en">Post-Operative Length of Stay</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7AyJI4jU6ZzDTUQtB0xsYN -->
+
+    <rdf:Description rdf:about="http://webprotege.stanford.edu/R7AyJI4jU6ZzDTUQtB0xsYN">
+        <rdfs:subClassOf rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/Digital_Medicine_Application"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RBDL1vSmEUP92ksknVkhVI"/>
+                <owl:someValuesFrom rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/Caregiver"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RBDL1vSmEUP92ksknVkhVI"/>
+                <owl:someValuesFrom rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/Patient"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RBDL1vSmEUP92ksknVkhVI"/>
+                <owl:someValuesFrom rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/Physician"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RBDL1vSmEUP92ksknVkhVI"/>
+                <owl:someValuesFrom rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/Physician_Assistant"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/has_outcome"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R9JQG8EfsRURpInt91c3p7x"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/has_outcome"/>
+                <owl:someValuesFrom rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/R7XjcjDzSybLHI7n79nzS9K"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/has_outcome"/>
+                <owl:someValuesFrom rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/R8f2emOhkyPB9oWznoiE9vF"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/has_outcome"/>
+                <owl:someValuesFrom rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/RBs12ny2jJ1lb1S6Wg1kWZL"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/has_technology"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RCmaA4c2iM0spfBVZgeWihm"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/has_technology"/>
+                <owl:someValuesFrom rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/Patient_generated_health_data_technology"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </rdf:Description>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7XHB8eR1xT5XwqKDzSvMiB -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7XHB8eR1xT5XwqKDzSvMiB">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8Ug0OXxhS65XrZHkDCrbR2"/>
+        <rdfs:label xml:lang="en">Hand/Wrist/Elbow</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7cp8CUXAI4L546uSdrlBvH -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7cp8CUXAI4L546uSdrlBvH">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8rYbxlVE3OaYO7pmAhcOzL"/>
+        <rdfs:label xml:lang="en">Diabetic Retinopathy Screening</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7eRB9F74E7yReHGp7UMFQq -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7eRB9F74E7yReHGp7UMFQq">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RY1VWY6ORFsW2JOIAevUTo"/>
+        <rdfs:label xml:lang="en">Geriatric Psychiatry</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7q0pknTO3m4dQS3PRVKjR8 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7q0pknTO3m4dQS3PRVKjR8">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDZxgfbe1SVYkof62vNClGt"/>
+        <rdfs:label xml:lang="en">Interventional Cardiology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7qLx4E7oAWa2vXBWJRi7t -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7qLx4E7oAWa2vXBWJRi7t">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBXwjhGBHB7jHE6cf6XnGoI"/>
+        <rdfs:label xml:lang="en">Ophthalmology Screening Rates</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7qlbwf1z1N4v777eWJDlL7 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7qlbwf1z1N4v777eWJDlL7">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDUr3jp1SgVT0dbieHOv7k3"/>
+        <rdfs:label xml:lang="en">Medical Genetics and Genomics</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7rDjjQ3OiTi6c6umKspLtz -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7rDjjQ3OiTi6c6umKspLtz">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8q7TsirmJhSSOp9nq75Zxy"/>
+        <rdfs:label xml:lang="en">Pediatric Otolaryngology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7yhfaEsS3zo8LtRSySdrfH -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7yhfaEsS3zo8LtRSySdrfH">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9iQ0kdUXw9nI3OY44ZmWYS"/>
+        <rdfs:label xml:lang="en">Blood Banking/Transfusion Medicine</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R81i1YUEPT2qi0NgAm9qfzg -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R81i1YUEPT2qi0NgAm9qfzg">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBAo5KHzMEgNymWKBOqMvVv"/>
+        <rdfs:label xml:lang="en">XRay</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R82o08Bbi9sKVoEYDKtPeaH -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R82o08Bbi9sKVoEYDKtPeaH">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDZxgfbe1SVYkof62vNClGt"/>
+        <rdfs:label xml:lang="en">Advanced Heart Failure</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8B8q2SUo9vB92dnMF0kjwv -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8B8q2SUo9vB92dnMF0kjwv">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDUr3jp1SgVT0dbieHOv7k3"/>
+        <rdfs:label xml:lang="en">Colon and Rectal Surgery</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8Bk5qpYgHv2iEh82CaBeN3 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8Bk5qpYgHv2iEh82CaBeN3">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9M9V6XuJbGvn8o0dsqxMda"/>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCIfAB9rjrINECNLljNGM4G"/>
+        <rdfs:label xml:lang="en">Hospice and Palliative Medicine</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8EAMQZxsB0Aefa8wPYAcBJ -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8EAMQZxsB0Aefa8wPYAcBJ">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCYrfu827L71xR1tBhRWlqa"/>
+        <rdfs:label xml:lang="en">Intra-Operative Monitoring</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8RUN2HMLU8LRIxWQKB65zB -->
+
+    <rdf:Description rdf:about="http://webprotege.stanford.edu/R8RUN2HMLU8LRIxWQKB65zB">
+        <rdfs:label>Digital Medicine Application Outcome</rdfs:label>
+        <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An outcome that is the result of the use, or of the application of, digital medicine application.</skos:definition>
+    </rdf:Description>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8Ug0OXxhS65XrZHkDCrbR2 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8Ug0OXxhS65XrZHkDCrbR2">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDUr3jp1SgVT0dbieHOv7k3"/>
+        <rdfs:label xml:lang="en">Orthopedic Surgery</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8bdkvRj9SyX1bNrEta7AHZ -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8bdkvRj9SyX1bNrEta7AHZ">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBNkdZJvQRQqhdWsQ13iwTl"/>
+        <rdfs:label xml:lang="en">Pediatric Rheumatology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8bhFhatUvC6hE9mYSq9XrN -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8bhFhatUvC6hE9mYSq9XrN">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBNkdZJvQRQqhdWsQ13iwTl"/>
+        <rdfs:label xml:lang="en">Neonatal-Perinatal Medicine</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8l3iaJWfMVUZeqCwZtLaIH -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8l3iaJWfMVUZeqCwZtLaIH">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDUr3jp1SgVT0dbieHOv7k3"/>
+        <rdfs:label xml:lang="en">General Surgery</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8pJsIbyg7ks5PIbN4YznR -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8pJsIbyg7ks5PIbN4YznR">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RNFmsZHdS4MiZv36HIwYzg"/>
+        <rdfs:label xml:lang="en">Neurocritical Care</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8q7TsirmJhSSOp9nq75Zxy -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8q7TsirmJhSSOp9nq75Zxy">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDUr3jp1SgVT0dbieHOv7k3"/>
+        <rdfs:label xml:lang="en">Otolaryngology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8rYbxlVE3OaYO7pmAhcOzL -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8rYbxlVE3OaYO7pmAhcOzL">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/Re39k6Ciphb7Qqo3MXLTfT"/>
+        <rdfs:label xml:lang="en">General Ophthalmology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8xUo2yaJLUgsLYQ62SDLtb -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8xUo2yaJLUgsLYQ62SDLtb">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBNkdZJvQRQqhdWsQ13iwTl"/>
+        <rdfs:label xml:lang="en">Pediatric Critical Care Medicine</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8yjrZ4sUsait4fPnj7LuIc -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8yjrZ4sUsait4fPnj7LuIc">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBAo5KHzMEgNymWKBOqMvVv"/>
+        <rdfs:label xml:lang="en">Neuroradiology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8zeKyllnZla3SmwktTvsjy -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8zeKyllnZla3SmwktTvsjy">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9iQ0kdUXw9nI3OY44ZmWYS"/>
+        <rdfs:label xml:lang="en">Clinical Pathology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R94EPDazJgc5xyql1nBJFHW -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R94EPDazJgc5xyql1nBJFHW">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9On05UE7PYnnPkyqs6rYGr"/>
+        <rdfs:label xml:lang="en">Reproductive Endocrinology and Infertility</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R94RUXL2rMKPpTo1dWtWDO6 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R94RUXL2rMKPpTo1dWtWDO6">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDUr3jp1SgVT0dbieHOv7k3"/>
+        <rdfs:label xml:lang="en">Dermatology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R98pwIuREPm4r9wGR1Rltsd -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R98pwIuREPm4r9wGR1Rltsd">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBAo5KHzMEgNymWKBOqMvVv"/>
+        <rdfs:label xml:lang="en">Ultrasound</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R99AULey4U4ulsLOukpwgZy -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R99AULey4U4ulsLOukpwgZy">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9iQ0kdUXw9nI3OY44ZmWYS"/>
+        <rdfs:label xml:lang="en">Molecular Genetic Pathology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9Am8awo882bYwhkqU76ib8 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9Am8awo882bYwhkqU76ib8">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9M9V6XuJbGvn8o0dsqxMda"/>
+        <rdfs:label xml:lang="en">Medical Oncology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9HTKzbsWf390cGxRt1mJw1 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9HTKzbsWf390cGxRt1mJw1">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDUr3jp1SgVT0dbieHOv7k3"/>
+        <rdfs:label xml:lang="en">Neurology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9JQG8EfsRURpInt91c3p7x -->
+
+    <rdf:Description rdf:about="http://webprotege.stanford.edu/R9JQG8EfsRURpInt91c3p7x">
+        <rdfs:label>Reduced Adverse Event Rate</rdfs:label>
+    </rdf:Description>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9KaCXnXaZU4F1N4ARMKL0x -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9KaCXnXaZU4F1N4ARMKL0x">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDUr3jp1SgVT0dbieHOv7k3"/>
+        <rdfs:label xml:lang="en">Vascular Surgery</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9M9V6XuJbGvn8o0dsqxMda -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9M9V6XuJbGvn8o0dsqxMda">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDUr3jp1SgVT0dbieHOv7k3"/>
+        <rdfs:label xml:lang="en">Internal Medicine</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9On05UE7PYnnPkyqs6rYGr -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9On05UE7PYnnPkyqs6rYGr">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDUr3jp1SgVT0dbieHOv7k3"/>
+        <rdfs:label xml:lang="en">Obstetrics and Gynecology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9PP52iIYM4d0pcpjQ2ZL9N -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9PP52iIYM4d0pcpjQ2ZL9N">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBh3YwX3szw3qZVKF7n1jvQ"/>
+        <rdfs:label xml:lang="en">Undersea and Hyperbaric Medicine</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9WlSDambjalOq7aLUWvYZ5 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9WlSDambjalOq7aLUWvYZ5">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R94RUXL2rMKPpTo1dWtWDO6"/>
+        <rdfs:label xml:lang="en">Pediatric Dermatology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9XaM6pgGnPoLY8pVrzkcNc -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9XaM6pgGnPoLY8pVrzkcNc">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDUr3jp1SgVT0dbieHOv7k3"/>
+        <rdfs:label xml:lang="en">Nuclear Medicine</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9ZOetQYPEsXPm2TFYf242B -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9ZOetQYPEsXPm2TFYf242B">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBJptQipHt05w93ezNTq9kY"/>
+        <rdfs:label xml:lang="en">Occupational Medicine</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9clGk4I5NaQf7lYxnAHXdk -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9clGk4I5NaQf7lYxnAHXdk">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDZxgfbe1SVYkof62vNClGt"/>
+        <rdfs:label xml:lang="en">Congenital Heart Disease</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9gb7kzhrAdOC1r1EoPJCpd -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9gb7kzhrAdOC1r1EoPJCpd">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDUr3jp1SgVT0dbieHOv7k3"/>
+        <rdfs:label xml:lang="en">Thoracic Surgery</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9iQ0kdUXw9nI3OY44ZmWYS -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9iQ0kdUXw9nI3OY44ZmWYS">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDUr3jp1SgVT0dbieHOv7k3"/>
+        <rdfs:label xml:lang="en">Pathology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9jcmApb3q14CcHGIYE2rzp -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9jcmApb3q14CcHGIYE2rzp">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9HTKzbsWf390cGxRt1mJw1"/>
+        <rdfs:label xml:lang="en">Neurodevelopmental Disabilities</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9kY1QbQPLreovKocYPmU1M -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9kY1QbQPLreovKocYPmU1M">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9M9V6XuJbGvn8o0dsqxMda"/>
+        <rdfs:label xml:lang="en">Infectious Disease</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9mLWWyG7GMmXw74rDXkel8 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9mLWWyG7GMmXw74rDXkel8">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R94RUXL2rMKPpTo1dWtWDO6"/>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9iQ0kdUXw9nI3OY44ZmWYS"/>
+        <rdfs:label xml:lang="en">Dermatopathology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9mUyCEiIDOP6gEpGZrkdYj -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9mUyCEiIDOP6gEpGZrkdYj">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9HTKzbsWf390cGxRt1mJw1"/>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCIfAB9rjrINECNLljNGM4G"/>
+        <rdfs:label xml:lang="en">Pain Medicine</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9qwd05buvu67WcgxIOtHLz -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9qwd05buvu67WcgxIOtHLz">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R94RUXL2rMKPpTo1dWtWDO6"/>
+        <rdfs:label xml:lang="en">General Dermatology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9rMI6LtxObbaE1SAOf4v8v -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9rMI6LtxObbaE1SAOf4v8v">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8Ug0OXxhS65XrZHkDCrbR2"/>
+        <rdfs:label xml:lang="en">Hip</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9uT5JOMM4aCZbzPmaUABYg -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9uT5JOMM4aCZbzPmaUABYg">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBJptQipHt05w93ezNTq9kY"/>
+        <rdfs:label xml:lang="en">Aerospace Medicine</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9zdKyCND8dCZH5YeaTcRF1 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9zdKyCND8dCZH5YeaTcRF1">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RY1VWY6ORFsW2JOIAevUTo"/>
+        <rdfs:label xml:lang="en">Addiction Psychiatry</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RB2HAQlOO1FhNRRGOxfnU2l -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RB2HAQlOO1FhNRRGOxfnU2l">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9On05UE7PYnnPkyqs6rYGr"/>
+        <rdfs:label xml:lang="en">Female Pelvic Medicine and Reconstructive Surgery</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RB3ceV8XtaniyBHbvgYSDtr -->
+
+    <rdf:Description rdf:about="http://webprotege.stanford.edu/RB3ceV8XtaniyBHbvgYSDtr">
+        <rdfs:subClassOf rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/#Refining_Value"/>
+        <rdfs:label>Technical Feature</rdfs:label>
+    </rdf:Description>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBA7O901X8KN4ToYyeL4Ktv -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBA7O901X8KN4ToYyeL4Ktv">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9M9V6XuJbGvn8o0dsqxMda"/>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCIfAB9rjrINECNLljNGM4G"/>
+        <rdfs:label xml:lang="en">Sleep Medicine</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBAo5KHzMEgNymWKBOqMvVv -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBAo5KHzMEgNymWKBOqMvVv">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDUr3jp1SgVT0dbieHOv7k3"/>
+        <rdfs:label xml:lang="en">Radiology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBDbaLIaAeEzHNIAvfKx8jd -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBDbaLIaAeEzHNIAvfKx8jd">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8Ug0OXxhS65XrZHkDCrbR2"/>
+        <rdfs:label xml:lang="en">Spine</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBJptQipHt05w93ezNTq9kY -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBJptQipHt05w93ezNTq9kY">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDUr3jp1SgVT0dbieHOv7k3"/>
+        <rdfs:label xml:lang="en">Preventive Medicine</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBKLkzHDHTwhxoi9hMBCiKA -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBKLkzHDHTwhxoi9hMBCiKA">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDUr3jp1SgVT0dbieHOv7k3"/>
+        <rdfs:label xml:lang="en">Transplant Surgery</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBKfLSkFhKgI7WlS4cWZAdk -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBKfLSkFhKgI7WlS4cWZAdk">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9M9V6XuJbGvn8o0dsqxMda"/>
+        <rdfs:label xml:lang="en">Nephrology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBNkdZJvQRQqhdWsQ13iwTl -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBNkdZJvQRQqhdWsQ13iwTl">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDUr3jp1SgVT0dbieHOv7k3"/>
+        <rdfs:label xml:lang="en">Pediatrics</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBP2E6VPqrLPcpKcDNg62rf -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBP2E6VPqrLPcpKcDNg62rf">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9iQ0kdUXw9nI3OY44ZmWYS"/>
+        <rdfs:label xml:lang="en">Forensic Pathology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBQWKjy7xXErA8PrznuUpe2 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBQWKjy7xXErA8PrznuUpe2">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDUr3jp1SgVT0dbieHOv7k3"/>
+        <rdfs:label xml:lang="en">Bariatrics</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBS0ejIqdRd33fxnTrhQWip -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBS0ejIqdRd33fxnTrhQWip">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBAo5KHzMEgNymWKBOqMvVv"/>
+        <rdfs:label xml:lang="en">Interventional Radiology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBW9X7DwTgsUDFNiPjHsvZz -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBW9X7DwTgsUDFNiPjHsvZz">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBNkdZJvQRQqhdWsQ13iwTl"/>
+        <rdfs:label xml:lang="en">Pediatric Transplant Hepatology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBX2aM4Nd6D3FguT4CYEycU -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBX2aM4Nd6D3FguT4CYEycU">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBNkdZJvQRQqhdWsQ13iwTl"/>
+        <rdfs:label xml:lang="en">Pediatric Infectious Disease</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBXwjhGBHB7jHE6cf6XnGoI -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBXwjhGBHB7jHE6cf6XnGoI">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/Re39k6Ciphb7Qqo3MXLTfT"/>
+        <rdfs:label xml:lang="en">Pediatric Ophthalmology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBaMSPbC6G952yvEUrGR28Y -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBaMSPbC6G952yvEUrGR28Y">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RY1VWY6ORFsW2JOIAevUTo"/>
+        <rdfs:label xml:lang="en">Child and Adolescent Psychiatry</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBbXd9Sd5THSBfialo9xiW8 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBbXd9Sd5THSBfialo9xiW8">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBh3YwX3szw3qZVKF7n1jvQ"/>
+        <rdfs:label xml:lang="en">Pediatric Emergency Medicine</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBh3YwX3szw3qZVKF7n1jvQ -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBh3YwX3szw3qZVKF7n1jvQ">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDUr3jp1SgVT0dbieHOv7k3"/>
+        <rdfs:label xml:lang="en">Emergency Medicine</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBilKIGRQBVMJ2eWmeHauD3 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBilKIGRQBVMJ2eWmeHauD3">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBNkdZJvQRQqhdWsQ13iwTl"/>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBxP3aiIhnxfYauf6VExGvE"/>
+        <rdfs:label xml:lang="en">Adolescent Medicine</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBjMZYeT75DJIlHhr7YATEn -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBjMZYeT75DJIlHhr7YATEn">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBAo5KHzMEgNymWKBOqMvVv"/>
+        <rdfs:label xml:lang="en">Computed Tomography</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBrU4wOriFeEEDADeKfMtec -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBrU4wOriFeEEDADeKfMtec">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBNkdZJvQRQqhdWsQ13iwTl"/>
+        <rdfs:label xml:lang="en">Pediatric Cardiology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBxP3aiIhnxfYauf6VExGvE -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBxP3aiIhnxfYauf6VExGvE">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDUr3jp1SgVT0dbieHOv7k3"/>
+        <rdfs:label xml:lang="en">Family Medicine</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RC4XR3LxTHGo5wWloyl5P1z -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RC4XR3LxTHGo5wWloyl5P1z">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBNkdZJvQRQqhdWsQ13iwTl"/>
+        <rdfs:label xml:lang="en">Pediatric Pulmonology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RC9a1c5rztejYPcNkM4FaM -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RC9a1c5rztejYPcNkM4FaM">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCWyGI10ppeHi73bfB5SkDi"/>
+        <rdfs:label xml:lang="en">Transplant Hepatology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCIfAB9rjrINECNLljNGM4G -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCIfAB9rjrINECNLljNGM4G">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDUr3jp1SgVT0dbieHOv7k3"/>
+        <rdfs:label xml:lang="en">Anesthesiology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCNgWd81DxyYTj4ZBcRkhAe -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCNgWd81DxyYTj4ZBcRkhAe">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8q7TsirmJhSSOp9nq75Zxy"/>
+        <rdfs:label xml:lang="en">Neurotology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCTRjEokycjWfDz8ldUfAAF -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCTRjEokycjWfDz8ldUfAAF">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9M9V6XuJbGvn8o0dsqxMda"/>
+        <rdfs:label xml:lang="en">Rheumatology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCWyGI10ppeHi73bfB5SkDi -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCWyGI10ppeHi73bfB5SkDi">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9M9V6XuJbGvn8o0dsqxMda"/>
+        <rdfs:label xml:lang="en">Gastroenterology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCYrfu827L71xR1tBhRWlqa -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCYrfu827L71xR1tBhRWlqa">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8l3iaJWfMVUZeqCwZtLaIH"/>
+        <rdfs:label xml:lang="en">Intra-Operative Processes</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCc1ppNq7yXZ1vFKkUxngNR -->
+
+    <rdf:Description rdf:about="http://webprotege.stanford.edu/RCc1ppNq7yXZ1vFKkUxngNR">
+        <rdfs:subClassOf rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/Accuracy"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCecDcfvSXRoTl6iSMLwpht -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCecDcfvSXRoTl6iSMLwpht">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBNkdZJvQRQqhdWsQ13iwTl"/>
+        <rdfs:label xml:lang="en">Pediatric Endocrinology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCfaxeRGiGRIdEJD11seHaS -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCfaxeRGiGRIdEJD11seHaS">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9On05UE7PYnnPkyqs6rYGr"/>
+        <rdfs:label xml:lang="en">Gynecologic Oncology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCfiIAWDpyV9oYwE9X2Q6oL -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCfiIAWDpyV9oYwE9X2Q6oL">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDZxgfbe1SVYkof62vNClGt"/>
+        <rdfs:label xml:lang="en">Transplant Cardiology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RClmjmR3fdkeCS0yhEjR3Gg -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RClmjmR3fdkeCS0yhEjR3Gg">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9M9V6XuJbGvn8o0dsqxMda"/>
+        <rdfs:label xml:lang="en">Endocrinology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCm4HU6I3PDkzEYUTapf2bM -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCm4HU6I3PDkzEYUTapf2bM">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBAo5KHzMEgNymWKBOqMvVv"/>
+        <rdfs:label xml:lang="en">Magnetic Resonance Imaging</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCmaA4c2iM0spfBVZgeWihm -->
+
+    <rdf:Description rdf:about="http://webprotege.stanford.edu/RCmaA4c2iM0spfBVZgeWihm">
+        <rdfs:subClassOf rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/Technology"/>
+        <rdfs:label>Remote Patient Monitoring Technology</rdfs:label>
+    </rdf:Description>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCojkKeNpHfIvUemyWzDY1J -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCojkKeNpHfIvUemyWzDY1J">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9M9V6XuJbGvn8o0dsqxMda"/>
+        <rdfs:label xml:lang="en">Sports Medicine</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCqHqDSD5P7wCopbocILOqu -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCqHqDSD5P7wCopbocILOqu">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBNkdZJvQRQqhdWsQ13iwTl"/>
+        <rdfs:label xml:lang="en">Pediatric Hematology-Oncology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCtTY5tafWG9sqzv7dtjwgy -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCtTY5tafWG9sqzv7dtjwgy">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8Ug0OXxhS65XrZHkDCrbR2"/>
+        <rdfs:label xml:lang="en">Orthopedic Sports Medicine</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCwXstUOqe9llxO8OXADs4I -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCwXstUOqe9llxO8OXADs4I">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDUr3jp1SgVT0dbieHOv7k3"/>
+        <rdfs:label xml:lang="en">Urology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDC9kJ7jOwv9eFw9jnbtVXv -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDC9kJ7jOwv9eFw9jnbtVXv">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9M9V6XuJbGvn8o0dsqxMda"/>
+        <rdfs:label xml:lang="en">General Internal Medicine</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDCSUpa2hijSjSswGBdHOPz -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDCSUpa2hijSjSswGBdHOPz">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDUr3jp1SgVT0dbieHOv7k3"/>
+        <rdfs:label xml:lang="en">Allergy and Immunology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDOOMfcvc8JT01SkoCO1iLh -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDOOMfcvc8JT01SkoCO1iLh">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8l3iaJWfMVUZeqCwZtLaIH"/>
+        <rdfs:label xml:lang="en">Post-Operative Processes</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDUXUfXJo0A4QhLURIrG3cm -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDUXUfXJo0A4QhLURIrG3cm">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8Ug0OXxhS65XrZHkDCrbR2"/>
+        <rdfs:label xml:lang="en">Pediatric Orthopedics</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDUr3jp1SgVT0dbieHOv7k3 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDUr3jp1SgVT0dbieHOv7k3">
+        <rdfs:subClassOf rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/#Refining_Value"/>
+        <rdfs:label xml:lang="en">Specialty</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDVRLRrBJwCX4Vte8CfFuhJ -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDVRLRrBJwCX4Vte8CfFuhJ">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9HTKzbsWf390cGxRt1mJw1"/>
+        <rdfs:label xml:lang="en">Epilepsy</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDZxgfbe1SVYkof62vNClGt -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDZxgfbe1SVYkof62vNClGt">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9M9V6XuJbGvn8o0dsqxMda"/>
+        <rdfs:label xml:lang="en">Cardiology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDd6MFn49QqcHE1wXkCXUDj -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDd6MFn49QqcHE1wXkCXUDj">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBNkdZJvQRQqhdWsQ13iwTl"/>
+        <rdfs:label xml:lang="en">Pediatric Hospital Medicine</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDdbXYgzRYtcQrWcYdJ5VZi -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDdbXYgzRYtcQrWcYdJ5VZi">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8l3iaJWfMVUZeqCwZtLaIH"/>
+        <rdfs:label xml:lang="en">Pre-Operative Processes</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDi4gXZZy9TlwGwNBHffmFy -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDi4gXZZy9TlwGwNBHffmFy">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9iQ0kdUXw9nI3OY44ZmWYS"/>
+        <rdfs:label xml:lang="en">Anatomic Pathology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDkMzY4lQDjB550kYPss8E3 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDkMzY4lQDjB550kYPss8E3">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCIfAB9rjrINECNLljNGM4G"/>
+        <rdfs:label xml:lang="en">Pediatric Anesthesiology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDkPS7PUo0whWKo9SHLP9Al -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDkPS7PUo0whWKo9SHLP9Al">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9qwd05buvu67WcgxIOtHLz"/>
+        <rdfs:subClassOf rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/Diagnosis"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RGZz0D0ELns4FBL6F7Mczw"/>
+                <owl:someValuesFrom rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/Accuracy"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">Diagnostic Accuracy</rdfs:label>
+        <rdfs:label xml:lang="en">Increased Diagnostic Accuracy</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RFvvkeUPXd9CCNJY3qzp40 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RFvvkeUPXd9CCNJY3qzp40">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R81i1YUEPT2qi0NgAm9qfzg"/>
+        <rdfs:label xml:lang="en">Efficiency</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RGFZrPTghF3CVh9iKA0fgY -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RGFZrPTghF3CVh9iKA0fgY">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBAo5KHzMEgNymWKBOqMvVv"/>
+        <rdfs:label xml:lang="en">Radiation Oncology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RGxTlNb8Z1ouwEeVCDGxSv -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RGxTlNb8Z1ouwEeVCDGxSv">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBh3YwX3szw3qZVKF7n1jvQ"/>
+        <rdfs:label xml:lang="en">Medical Toxicology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RHhT8EzGlzjQrDyY98sLqm -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RHhT8EzGlzjQrDyY98sLqm">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBNkdZJvQRQqhdWsQ13iwTl"/>
+        <rdfs:label xml:lang="en">Developmental-Behavioral Pediatrics</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RLyZjrKzRGAjZfNxgTbkqD -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RLyZjrKzRGAjZfNxgTbkqD">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9iQ0kdUXw9nI3OY44ZmWYS"/>
+        <rdfs:label xml:lang="en">Cytopathology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RMmdluVZovoMwAUdHYhjw7 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RMmdluVZovoMwAUdHYhjw7">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDUr3jp1SgVT0dbieHOv7k3"/>
+        <rdfs:label xml:lang="en">Physical Medicine and Rehabilitation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RNFmsZHdS4MiZv36HIwYzg -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RNFmsZHdS4MiZv36HIwYzg">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDUr3jp1SgVT0dbieHOv7k3"/>
+        <rdfs:label xml:lang="en">Neurological Surgery</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/ROOd03WQc3Uf6VFVSnRtXG -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/ROOd03WQc3Uf6VFVSnRtXG">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDUr3jp1SgVT0dbieHOv7k3"/>
+        <rdfs:label xml:lang="en">Plastic Surgery</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RQdmckpOE1FdhbKWJuW9Oc -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RQdmckpOE1FdhbKWJuW9Oc">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBJptQipHt05w93ezNTq9kY"/>
+        <rdfs:label xml:lang="en">Public Health and General Preventive Medicine</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RQnHSIIutd7lpHrILxGNDp -->
+
+    <rdf:Description rdf:about="http://webprotege.stanford.edu/RQnHSIIutd7lpHrILxGNDp">
+        <rdfs:subClassOf rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/Digital_Medicine_Application"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RBDL1vSmEUP92ksknVkhVI"/>
+                <owl:someValuesFrom rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/Physician"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/has_condition"/>
+                <owl:someValuesFrom rdf:resource="http://id.who.int/icd/entity/1006882070"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/has_outcome"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RDkPS7PUo0whWKo9SHLP9Al"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/has_outcome"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/Rxi77rVUGoqhdPO1brVXFN"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/has_specialty"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/Re39k6Ciphb7Qqo3MXLTfT"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/has_technology"/>
+                <owl:someValuesFrom rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/Artificial_intelligence_technology"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">For demo</rdfs:comment>
+        <rdfs:label>Demo - Diabetic Retinopathy Application</rdfs:label>
+        <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An digital medicine application that is designed to address outcomes associated with diabetic retinopathy.</skos:definition>
+    </rdf:Description>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RRSEAdkySYc9DKMKeO5Sfb -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RRSEAdkySYc9DKMKeO5Sfb">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBNkdZJvQRQqhdWsQ13iwTl"/>
+        <rdfs:label xml:lang="en">Pediatric Nephrology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RSnGhcL2PzGxomn3oS67xL -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RSnGhcL2PzGxomn3oS67xL">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBNkdZJvQRQqhdWsQ13iwTl"/>
+        <rdfs:label xml:lang="en">Pediatric Urology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RV0SG6ZO6OLJcBhsUwLuSU -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RV0SG6ZO6OLJcBhsUwLuSU">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9M9V6XuJbGvn8o0dsqxMda"/>
+        <rdfs:label xml:lang="en">Pulmonology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RY1VWY6ORFsW2JOIAevUTo -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RY1VWY6ORFsW2JOIAevUTo">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDUr3jp1SgVT0dbieHOv7k3"/>
+        <rdfs:label xml:lang="en">Psychiatry</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RY60AWqSmqvMB0MKJ62KRq -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RY60AWqSmqvMB0MKJ62KRq">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9M9V6XuJbGvn8o0dsqxMda"/>
+        <rdfs:label xml:lang="en">Hematology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RbapYqfAmgAt2f3JWudg7R -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RbapYqfAmgAt2f3JWudg7R">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9M9V6XuJbGvn8o0dsqxMda"/>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBxP3aiIhnxfYauf6VExGvE"/>
+        <rdfs:label xml:lang="en">Geriatric Medicine</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RdofobHJgepawk6u8KNc7x -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RdofobHJgepawk6u8KNc7x">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDUr3jp1SgVT0dbieHOv7k3"/>
+        <rdfs:label xml:lang="en">Podiatry</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/Re39k6Ciphb7Qqo3MXLTfT -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/Re39k6Ciphb7Qqo3MXLTfT">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDUr3jp1SgVT0dbieHOv7k3"/>
+        <rdfs:label xml:lang="en">Ophthalmology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/Rg3SW1bwPEj88Fo0V2ke2m -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/Rg3SW1bwPEj88Fo0V2ke2m">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8Ug0OXxhS65XrZHkDCrbR2"/>
+        <rdfs:label xml:lang="en">Knee</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RkkqcDIT54tXuWAGKzQMnO -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RkkqcDIT54tXuWAGKzQMnO">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8bhFhatUvC6hE9mYSq9XrN"/>
+        <rdfs:label xml:lang="en">Neonatal weight gain</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RliRh13QLYf1xkwEdXRuCH -->
+
+    <rdf:Description rdf:about="http://webprotege.stanford.edu/RliRh13QLYf1xkwEdXRuCH">
+        <rdfs:subClassOf rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/Accuracy"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RnQIElt1GPWfLt5jkxlhOQ -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RnQIElt1GPWfLt5jkxlhOQ">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8Ug0OXxhS65XrZHkDCrbR2"/>
+        <rdfs:label xml:lang="en">Ankle</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RqcSVX2wWEgeNsKaB049M8 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RqcSVX2wWEgeNsKaB049M8">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9iQ0kdUXw9nI3OY44ZmWYS"/>
+        <rdfs:label xml:lang="en">Hematopathology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RsgLnwQyBZnGyldsFJVr0S -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RsgLnwQyBZnGyldsFJVr0S">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R81i1YUEPT2qi0NgAm9qfzg"/>
+        <rdfs:label xml:lang="en">Cost Savings</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RtIo1Di5qyCu8t1V3g9qWD -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RtIo1Di5qyCu8t1V3g9qWD">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9On05UE7PYnnPkyqs6rYGr"/>
+        <rdfs:label xml:lang="en">Maternal-Fetal Medicine</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RxKFIwjDHhcW8esZ9PXwaO -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RxKFIwjDHhcW8esZ9PXwaO">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDZxgfbe1SVYkof62vNClGt"/>
+        <rdfs:label xml:lang="en">Electrophysiology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/Rxi77rVUGoqhdPO1brVXFN -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/Rxi77rVUGoqhdPO1brVXFN">
+        <rdfs:subClassOf rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/Diagnosis"/>
+        <rdfs:label xml:lang="en">Diagnostic Speed</rdfs:label>
+        <rdfs:label xml:lang="en">Increased Diagnostic Throughput</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RxyesCcjGIouHgqVJBPjZd -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RxyesCcjGIouHgqVJBPjZd">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8Ug0OXxhS65XrZHkDCrbR2"/>
+        <rdfs:label xml:lang="en">Shoulder</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://who.int/icd/ICD-11 -->
+
+    <rdf:Description rdf:about="http://who.int/icd/ICD-11">
+        <rdfs:subClassOf rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/#Refining_Value"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ICD-11</rdfs:label>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.ucsf.edu/brosner/ontologies/DOVeS/API_Access -->
+
+    <owl:Class rdf:about="http://www.ucsf.edu/brosner/ontologies/DOVeS/API_Access">
+        <rdfs:subClassOf rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/Interoperability"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ucsf.edu/brosner/ontologies/DOVeS/Accuracy -->
+
+    <owl:Class rdf:about="http://www.ucsf.edu/brosner/ontologies/DOVeS/Accuracy">
+        <rdfs:subClassOf rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/#Refining_Value"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Modified Accuracy</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ucsf.edu/brosner/ontologies/DOVeS/Administrator -->
+
+    <owl:Class rdf:about="http://www.ucsf.edu/brosner/ontologies/DOVeS/Administrator">
+        <rdfs:subClassOf rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/Role"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ucsf.edu/brosner/ontologies/DOVeS/Adolescent_boy_person -->
+
+    <owl:Class rdf:about="http://www.ucsf.edu/brosner/ontologies/DOVeS/Adolescent_boy_person">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.ucsf.edu/brosner/ontologies/DOVeS/Person"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/has_age_group"/>
+                        <owl:someValuesFrom rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/Adolescent_person"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/has_sex"/>
+                        <owl:someValuesFrom rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/Male_person"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ucsf.edu/brosner/ontologies/DOVeS/Adolescent_girl_person -->
+
+    <owl:Class rdf:about="http://www.ucsf.edu/brosner/ontologies/DOVeS/Adolescent_girl_person">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.ucsf.edu/brosner/ontologies/DOVeS/Person"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/has_age_group"/>
+                        <owl:someValuesFrom rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/Adolescent_person"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/has_sex"/>
+                        <owl:someValuesFrom rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/Female_person"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ucsf.edu/brosner/ontologies/DOVeS/Adolescent_person -->
+
+    <owl:Class rdf:about="http://www.ucsf.edu/brosner/ontologies/DOVeS/Adolescent_person">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.ucsf.edu/brosner/ontologies/DOVeS/Person"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/has_age_group"/>
+                        <owl:someValuesFrom rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/Adolescent_person"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/Age_Group"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ucsf.edu/brosner/ontologies/DOVeS/Adult_female_person -->
+
+    <owl:Class rdf:about="http://www.ucsf.edu/brosner/ontologies/DOVeS/Adult_female_person">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.ucsf.edu/brosner/ontologies/DOVeS/Person"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/has_age_group"/>
+                        <owl:someValuesFrom rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/Adult_person"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/has_sex"/>
+                        <owl:someValuesFrom rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/Female_person"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ucsf.edu/brosner/ontologies/DOVeS/Adult_male_person -->
+
+    <owl:Class rdf:about="http://www.ucsf.edu/brosner/ontologies/DOVeS/Adult_male_person">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.ucsf.edu/brosner/ontologies/DOVeS/Person"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/has_age_group"/>
+                        <owl:someValuesFrom rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/Adult_person"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/has_sex"/>
+                        <owl:someValuesFrom rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/Male_person"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ucsf.edu/brosner/ontologies/DOVeS/Adult_person -->
+
+    <owl:Class rdf:about="http://www.ucsf.edu/brosner/ontologies/DOVeS/Adult_person">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.ucsf.edu/brosner/ontologies/DOVeS/Person"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/has_age_group"/>
+                        <owl:someValuesFrom rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/Adult_person"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/Age_Group"/>
+        <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A person that is in the adult age group</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ucsf.edu/brosner/ontologies/DOVeS/Age_Group -->
+
+    <owl:Class rdf:about="http://www.ucsf.edu/brosner/ontologies/DOVeS/Age_Group">
+        <rdfs:subClassOf rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/#Refining_Value"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ucsf.edu/brosner/ontologies/DOVeS/Annual_Rolling_Uptime -->
+
+    <owl:Class rdf:about="http://www.ucsf.edu/brosner/ontologies/DOVeS/Annual_Rolling_Uptime">
+        <rdfs:subClassOf rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/Uptime"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ucsf.edu/brosner/ontologies/DOVeS/Artificial_intelligence_technology -->
+
+    <owl:Class rdf:about="http://www.ucsf.edu/brosner/ontologies/DOVeS/Artificial_intelligence_technology">
+        <rdfs:subClassOf rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/Technology"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ucsf.edu/brosner/ontologies/DOVeS/Best_Practice_Alerts -->
+
+    <owl:Class rdf:about="http://www.ucsf.edu/brosner/ontologies/DOVeS/Best_Practice_Alerts">
+        <rdfs:subClassOf rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/RBV5PU1ZFyZ0AW4YMP3QYBf"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ucsf.edu/brosner/ontologies/DOVeS/CIS_Controls_V8_Compliance -->
+
+    <owl:Class rdf:about="http://www.ucsf.edu/brosner/ontologies/DOVeS/CIS_Controls_V8_Compliance">
+        <rdfs:subClassOf rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/Cybersecurity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ucsf.edu/brosner/ontologies/DOVeS/Caregiver -->
+
+    <owl:Class rdf:about="http://www.ucsf.edu/brosner/ontologies/DOVeS/Caregiver">
+        <rdfs:subClassOf rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/Patient,Family,Caregiver"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ucsf.edu/brosner/ontologies/DOVeS/Child_boy_person -->
+
+    <owl:Class rdf:about="http://www.ucsf.edu/brosner/ontologies/DOVeS/Child_boy_person">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.ucsf.edu/brosner/ontologies/DOVeS/Person"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/has_age_group"/>
+                        <owl:someValuesFrom rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/Child_person"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/has_sex"/>
+                        <owl:someValuesFrom rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/Male_person"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ucsf.edu/brosner/ontologies/DOVeS/Child_girl_person -->
+
+    <owl:Class rdf:about="http://www.ucsf.edu/brosner/ontologies/DOVeS/Child_girl_person">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.ucsf.edu/brosner/ontologies/DOVeS/Person"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/has_age_group"/>
+                        <owl:someValuesFrom rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/Child_person"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/has_sex"/>
+                        <owl:someValuesFrom rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/Female_person"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ucsf.edu/brosner/ontologies/DOVeS/Child_person -->
+
+    <owl:Class rdf:about="http://www.ucsf.edu/brosner/ontologies/DOVeS/Child_person">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.ucsf.edu/brosner/ontologies/DOVeS/Person"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/has_age_group"/>
+                        <owl:someValuesFrom rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/Child_person"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/Pediatric"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ucsf.edu/brosner/ontologies/DOVeS/Clinical_Data_Transformation -->
+
+    <owl:Class rdf:about="http://www.ucsf.edu/brosner/ontologies/DOVeS/Clinical_Data_Transformation">
+        <rdfs:subClassOf rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/Clinical_Processes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ucsf.edu/brosner/ontologies/DOVeS/Clinical_Processes -->
+
+    <owl:Class rdf:about="http://www.ucsf.edu/brosner/ontologies/DOVeS/Clinical_Processes">
+        <rdfs:subClassOf rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/#Refining_Value"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ucsf.edu/brosner/ontologies/DOVeS/Clinician -->
+
+    <owl:Class rdf:about="http://www.ucsf.edu/brosner/ontologies/DOVeS/Clinician">
+        <rdfs:subClassOf rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/Role"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ucsf.edu/brosner/ontologies/DOVeS/Condition -->
+
+    <owl:Class rdf:about="http://www.ucsf.edu/brosner/ontologies/DOVeS/Condition">
+        <rdfs:subClassOf rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/#Refining_Value"/>
+        <webprotege:RxFpQj0XOjUocGK4ZebVx9 rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</webprotege:RxFpQj0XOjUocGK4ZebVx9>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Condition</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ucsf.edu/brosner/ontologies/DOVeS/Controlled_Trial -->
+
+    <owl:Class rdf:about="http://www.ucsf.edu/brosner/ontologies/DOVeS/Controlled_Trial">
+        <rdfs:subClassOf rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/Evidence_Type"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ucsf.edu/brosner/ontologies/DOVeS/Cybersecurity -->
+
+    <owl:Class rdf:about="http://www.ucsf.edu/brosner/ontologies/DOVeS/Cybersecurity">
+        <rdfs:subClassOf rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/Product_Performance_Non-Clinical"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cybersecurity Outcome</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ucsf.edu/brosner/ontologies/DOVeS/Data_Standards -->
+
+    <owl:Class rdf:about="http://www.ucsf.edu/brosner/ontologies/DOVeS/Data_Standards">
+        <rdfs:subClassOf rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/Interoperability"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ucsf.edu/brosner/ontologies/DOVeS/Decreased_Operating_Room_Cancellations_Per_Day -->
+
+    <owl:Class rdf:about="http://www.ucsf.edu/brosner/ontologies/DOVeS/Decreased_Operating_Room_Cancellations_Per_Day">
+        <rdfs:subClassOf rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/Operating_Room_Cancellation_Outcome"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ucsf.edu/brosner/ontologies/DOVeS/Dexterity_Impaired -->
+
+    <owl:Class rdf:about="http://www.ucsf.edu/brosner/ontologies/DOVeS/Dexterity_Impaired">
+        <rdfs:subClassOf rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/Universal_Design"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ucsf.edu/brosner/ontologies/DOVeS/Diagnosis -->
+
+    <owl:Class rdf:about="http://www.ucsf.edu/brosner/ontologies/DOVeS/Diagnosis">
+        <rdfs:subClassOf rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/Health_Benefits"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/has_accuracy"/>
+                <owl:someValuesFrom rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/Accuracy"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diagnosis Outcome</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Modified Diagnosis Outcome</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ucsf.edu/brosner/ontologies/DOVeS/Digital_Literacy -->
+
+    <owl:Class rdf:about="http://www.ucsf.edu/brosner/ontologies/DOVeS/Digital_Literacy">
+        <rdfs:subClassOf rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/Universal_Design"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ucsf.edu/brosner/ontologies/DOVeS/Digital_Medicine_Application -->
+
+    <owl:Class rdf:about="http://www.ucsf.edu/brosner/ontologies/DOVeS/Digital_Medicine_Application">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RBDL1vSmEUP92ksknVkhVI"/>
+                <owl:someValuesFrom rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/Person"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/has_beneficiary"/>
+                <owl:someValuesFrom rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/Person"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/has_condition"/>
+                <owl:someValuesFrom rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/Condition"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/has_evidencetype"/>
+                <owl:someValuesFrom rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/Evidence_Type"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/has_outcome"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R8RUN2HMLU8LRIxWQKB65zB"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/has_specialty"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RDUr3jp1SgVT0dbieHOv7k3"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/has_technology"/>
+                <owl:someValuesFrom rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/Technology"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A digital medicine application is an application that leverages digital technologies to address healthcare outcomes with one or more users, at least one of whom is a healthcare professional. Digital medicine applications are conceptually related to Software as a Medical Device (SaMD) or Software in a Medical Device (SiMD)</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ucsf.edu/brosner/ontologies/DOVeS/Disease_severity_identification -->
+
+    <owl:Class rdf:about="http://www.ucsf.edu/brosner/ontologies/DOVeS/Disease_severity_identification">
+        <rdfs:subClassOf rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/Health_Benefits"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Disease Severity Identification Outcome</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ucsf.edu/brosner/ontologies/DOVeS/Duration -->
+
+    <owl:Class rdf:about="http://www.ucsf.edu/brosner/ontologies/DOVeS/Duration">
+        <rdfs:subClassOf rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/#Refining_Value"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ucsf.edu/brosner/ontologies/DOVeS/EQ-5D -->
+
+    <owl:Class rdf:about="http://www.ucsf.edu/brosner/ontologies/DOVeS/EQ-5D">
+        <rdfs:subClassOf rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/Quality_of_Life_Outcome"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ucsf.edu/brosner/ontologies/DOVeS/Euro-Qol -->
+
+    <owl:Class rdf:about="http://www.ucsf.edu/brosner/ontologies/DOVeS/Euro-Qol">
+        <rdfs:subClassOf rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/Quality_of_Life_Outcome"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ucsf.edu/brosner/ontologies/DOVeS/Evidence_Type -->
+
+    <owl:Class rdf:about="http://www.ucsf.edu/brosner/ontologies/DOVeS/Evidence_Type">
+        <rdfs:subClassOf rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/#Refining_Value"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ucsf.edu/brosner/ontologies/DOVeS/F-1_Score -->
+
+    <owl:Class rdf:about="http://www.ucsf.edu/brosner/ontologies/DOVeS/F-1_Score">
+        <rdfs:subClassOf rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/Accuracy"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Increased F-1 Score</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ucsf.edu/brosner/ontologies/DOVeS/Family -->
+
+    <owl:Class rdf:about="http://www.ucsf.edu/brosner/ontologies/DOVeS/Family">
+        <rdfs:subClassOf rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/Patient,Family,Caregiver"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ucsf.edu/brosner/ontologies/DOVeS/Female_person -->
+
+    <owl:Class rdf:about="http://www.ucsf.edu/brosner/ontologies/DOVeS/Female_person">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.ucsf.edu/brosner/ontologies/DOVeS/Person"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/has_sex"/>
+                        <owl:someValuesFrom rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/Female_sex"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ucsf.edu/brosner/ontologies/DOVeS/Female_sex -->
+
+    <owl:Class rdf:about="http://www.ucsf.edu/brosner/ontologies/DOVeS/Female_sex">
+        <rdfs:subClassOf rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/Sex"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ucsf.edu/brosner/ontologies/DOVeS/Flesch-Kincaid_Reading_Level -->
+
+    <owl:Class rdf:about="http://www.ucsf.edu/brosner/ontologies/DOVeS/Flesch-Kincaid_Reading_Level">
+        <rdfs:subClassOf rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/Digital_Literacy"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ucsf.edu/brosner/ontologies/DOVeS/HIPAA_Compliance -->
+
+    <owl:Class rdf:about="http://www.ucsf.edu/brosner/ontologies/DOVeS/HIPAA_Compliance">
+        <rdfs:subClassOf rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/Cybersecurity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ucsf.edu/brosner/ontologies/DOVeS/HOOS -->
+
+    <owl:Class rdf:about="http://www.ucsf.edu/brosner/ontologies/DOVeS/HOOS">
+        <rdfs:subClassOf rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/Patient_Reported_Outcome"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ucsf.edu/brosner/ontologies/DOVeS/Health_Benefits -->
+
+    <owl:Class rdf:about="http://www.ucsf.edu/brosner/ontologies/DOVeS/Health_Benefits">
+        <rdfs:subClassOf rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/RCbgQMiWA8pcasyPXEis3NX"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Health Benefit</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Health Benefit Outcome</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ucsf.edu/brosner/ontologies/DOVeS/Health_Outcome -->
+
+    <owl:Class rdf:about="http://www.ucsf.edu/brosner/ontologies/DOVeS/Health_Outcome">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8RUN2HMLU8LRIxWQKB65zB"/>
+        <webprotege:RxFpQj0XOjUocGK4ZebVx9 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">See note</webprotege:RxFpQj0XOjUocGK4ZebVx9>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Healthcare Outcome</rdfs:label>
+        <skos:definition>A Healthcare Outcome is a measurable outcome that is related to a patient or user of a digital medicine application. It includes, for example, clinical outcomes, healthcare economic outcomes, process of care outcomes, healthcare operation outcomes, and education outcomes.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ucsf.edu/brosner/ontologies/DOVeS/HiTrust_Certification -->
+
+    <owl:Class rdf:about="http://www.ucsf.edu/brosner/ontologies/DOVeS/HiTrust_Certification">
+        <rdfs:subClassOf rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/Cybersecurity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ucsf.edu/brosner/ontologies/DOVeS/Human_Factors_and_Usability -->
+
+    <owl:Class rdf:about="http://www.ucsf.edu/brosner/ontologies/DOVeS/Human_Factors_and_Usability">
+        <rdfs:subClassOf rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/User_Experience"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ucsf.edu/brosner/ontologies/DOVeS/Increased_Operating_Room_Cases_Per_Day -->
+
+    <owl:Class rdf:about="http://www.ucsf.edu/brosner/ontologies/DOVeS/Increased_Operating_Room_Cases_Per_Day">
+        <rdfs:subClassOf rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/Operating_Room_Throughout_Outcome"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ucsf.edu/brosner/ontologies/DOVeS/Interoperability -->
+
+    <owl:Class rdf:about="http://www.ucsf.edu/brosner/ontologies/DOVeS/Interoperability">
+        <rdfs:subClassOf rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/Product_Performance_Non-Clinical"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Interoperability Outcome</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ucsf.edu/brosner/ontologies/DOVeS/Intra-procedural -->
+
+    <owl:Class rdf:about="http://www.ucsf.edu/brosner/ontologies/DOVeS/Intra-procedural">
+        <rdfs:subClassOf rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/Peri-procedural_Stages"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ucsf.edu/brosner/ontologies/DOVeS/Issue_Resolution -->
+
+    <owl:Class rdf:about="http://www.ucsf.edu/brosner/ontologies/DOVeS/Issue_Resolution">
+        <rdfs:subClassOf rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/Product_Performance_Non-Clinical"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ucsf.edu/brosner/ontologies/DOVeS/KOOS -->
+
+    <owl:Class rdf:about="http://www.ucsf.edu/brosner/ontologies/DOVeS/KOOS">
+        <rdfs:subClassOf rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/Patient_Reported_Outcome"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ucsf.edu/brosner/ontologies/DOVeS/Kappa_Statistic -->
+
+    <owl:Class rdf:about="http://www.ucsf.edu/brosner/ontologies/DOVeS/Kappa_Statistic">
+        <rdfs:subClassOf rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/Accuracy"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Increased Kappa Statistic</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ucsf.edu/brosner/ontologies/DOVeS/Life_Years -->
+
+    <owl:Class rdf:about="http://www.ucsf.edu/brosner/ontologies/DOVeS/Life_Years">
+        <rdfs:subClassOf rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/Health_Benefits"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Life Year Outcome</rdfs:label>
+        <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Average number of years claimed by the digital health tool to increase the user&apos;s life</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ucsf.edu/brosner/ontologies/DOVeS/Machine_learning_technology -->
+
+    <owl:Class rdf:about="http://www.ucsf.edu/brosner/ontologies/DOVeS/Machine_learning_technology">
+        <rdfs:subClassOf rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/Technology"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ucsf.edu/brosner/ontologies/DOVeS/Macro_F-1_Score -->
+
+    <owl:Class rdf:about="http://www.ucsf.edu/brosner/ontologies/DOVeS/Macro_F-1_Score">
+        <rdfs:subClassOf rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/Accuracy"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Increased Macro F-1 Score</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ucsf.edu/brosner/ontologies/DOVeS/Male_person -->
+
+    <owl:Class rdf:about="http://www.ucsf.edu/brosner/ontologies/DOVeS/Male_person">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.ucsf.edu/brosner/ontologies/DOVeS/Person"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/has_sex"/>
+                        <owl:someValuesFrom rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/Male_sex"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ucsf.edu/brosner/ontologies/DOVeS/Male_sex -->
+
+    <owl:Class rdf:about="http://www.ucsf.edu/brosner/ontologies/DOVeS/Male_sex">
+        <rdfs:subClassOf rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/Sex"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ucsf.edu/brosner/ontologies/DOVeS/Medical_Assistant -->
+
+    <owl:Class rdf:about="http://www.ucsf.edu/brosner/ontologies/DOVeS/Medical_Assistant">
+        <rdfs:subClassOf rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/Clinician"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ucsf.edu/brosner/ontologies/DOVeS/Medical_Calculations -->
+
+    <owl:Class rdf:about="http://www.ucsf.edu/brosner/ontologies/DOVeS/Medical_Calculations">
+        <rdfs:subClassOf rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/RBV5PU1ZFyZ0AW4YMP3QYBf"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ucsf.edu/brosner/ontologies/DOVeS/Medication_Dosing_Outcome -->
+
+    <owl:Class rdf:about="http://www.ucsf.edu/brosner/ontologies/DOVeS/Medication_Dosing_Outcome">
+        <rdfs:subClassOf rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/Health_Benefits"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Medication Dosing Outcome</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ucsf.edu/brosner/ontologies/DOVeS/Negative_Predictive_Value -->
+
+    <owl:Class rdf:about="http://www.ucsf.edu/brosner/ontologies/DOVeS/Negative_Predictive_Value">
+        <rdfs:subClassOf rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/Accuracy"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Increased Negative Predictive Value</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ucsf.edu/brosner/ontologies/DOVeS/Neonatal_person -->
+
+    <owl:Class rdf:about="http://www.ucsf.edu/brosner/ontologies/DOVeS/Neonatal_person">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.ucsf.edu/brosner/ontologies/DOVeS/Person"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/has_age_group"/>
+                        <owl:someValuesFrom rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/Neonate"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ucsf.edu/brosner/ontologies/DOVeS/Neonate -->
+
+    <owl:Class rdf:about="http://www.ucsf.edu/brosner/ontologies/DOVeS/Neonate">
+        <rdfs:subClassOf rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/Pediatric"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ucsf.edu/brosner/ontologies/DOVeS/Neonate_boy_person -->
+
+    <owl:Class rdf:about="http://www.ucsf.edu/brosner/ontologies/DOVeS/Neonate_boy_person">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.ucsf.edu/brosner/ontologies/DOVeS/Person"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/has_age_group"/>
+                        <owl:someValuesFrom rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/Neonate"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/has_sex"/>
+                        <owl:someValuesFrom rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/Male_person"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ucsf.edu/brosner/ontologies/DOVeS/Neonate_girl_person -->
+
+    <owl:Class rdf:about="http://www.ucsf.edu/brosner/ontologies/DOVeS/Neonate_girl_person">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.ucsf.edu/brosner/ontologies/DOVeS/Person"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/has_age_group"/>
+                        <owl:someValuesFrom rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/Neonate"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/has_sex"/>
+                        <owl:someValuesFrom rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/Female_person"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ucsf.edu/brosner/ontologies/DOVeS/Net_Promoter_Score -->
+
+    <owl:Class rdf:about="http://www.ucsf.edu/brosner/ontologies/DOVeS/Net_Promoter_Score">
+        <rdfs:subClassOf rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/Satisfaction"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ucsf.edu/brosner/ontologies/DOVeS/Nurse -->
+
+    <owl:Class rdf:about="http://www.ucsf.edu/brosner/ontologies/DOVeS/Nurse">
+        <rdfs:subClassOf rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/Clinician"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ucsf.edu/brosner/ontologies/DOVeS/Nutrition_Outcome -->
+
+    <owl:Class rdf:about="http://www.ucsf.edu/brosner/ontologies/DOVeS/Nutrition_Outcome">
+        <rdfs:subClassOf rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/Health_Benefits"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nutrition Outcome</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ucsf.edu/brosner/ontologies/DOVeS/Operating_Room_Cancellation_Outcome -->
+
+    <owl:Class rdf:about="http://www.ucsf.edu/brosner/ontologies/DOVeS/Operating_Room_Cancellation_Outcome">
+        <rdfs:subClassOf rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/RCb75ap9JMMD2Z54yXRcciN"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ucsf.edu/brosner/ontologies/DOVeS/Operating_Room_Throughout_Outcome -->
+
+    <owl:Class rdf:about="http://www.ucsf.edu/brosner/ontologies/DOVeS/Operating_Room_Throughout_Outcome">
+        <rdfs:subClassOf rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/RCb75ap9JMMD2Z54yXRcciN"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ucsf.edu/brosner/ontologies/DOVeS/PHQ-9 -->
+
+    <owl:Class rdf:about="http://www.ucsf.edu/brosner/ontologies/DOVeS/PHQ-9">
+        <rdfs:subClassOf rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/Patient_Reported_Outcome"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ucsf.edu/brosner/ontologies/DOVeS/Patient -->
+
+    <owl:Class rdf:about="http://www.ucsf.edu/brosner/ontologies/DOVeS/Patient">
+        <rdfs:subClassOf rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/Patient,Family,Caregiver"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ucsf.edu/brosner/ontologies/DOVeS/Patient_Records_Access_Outcome -->
+
+    <owl:Class rdf:about="http://www.ucsf.edu/brosner/ontologies/DOVeS/Patient_Records_Access_Outcome">
+        <rdfs:subClassOf rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/RDH4YfEPT2KDw2OCk2Vni96"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ucsf.edu/brosner/ontologies/DOVeS/Patient_Reported_Outcome -->
+
+    <owl:Class rdf:about="http://www.ucsf.edu/brosner/ontologies/DOVeS/Patient_Reported_Outcome">
+        <rdfs:subClassOf rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/Health_Outcome"/>
+        <rdfs:label>Patient Reported Outcome</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ucsf.edu/brosner/ontologies/DOVeS/Patient_generated_health_data_technology -->
+
+    <owl:Class rdf:about="http://www.ucsf.edu/brosner/ontologies/DOVeS/Patient_generated_health_data_technology">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCmaA4c2iM0spfBVZgeWihm"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ucsf.edu/brosner/ontologies/DOVeS/Patient_reported_outcome_measures -->
+
+    <owl:Class rdf:about="http://www.ucsf.edu/brosner/ontologies/DOVeS/Patient_reported_outcome_measures">
+        <rdfs:subClassOf rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/Patient_generated_health_data_technology"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ucsf.edu/brosner/ontologies/DOVeS/Pediatric -->
+
+    <owl:Class rdf:about="http://www.ucsf.edu/brosner/ontologies/DOVeS/Pediatric">
+        <rdfs:subClassOf rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/Age_Group"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ucsf.edu/brosner/ontologies/DOVeS/Peri-procedural_Stages -->
+
+    <owl:Class rdf:about="http://www.ucsf.edu/brosner/ontologies/DOVeS/Peri-procedural_Stages">
+        <rdfs:subClassOf rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/#Refining_Value"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ucsf.edu/brosner/ontologies/DOVeS/Person -->
+
+    <owl:Class rdf:about="http://www.ucsf.edu/brosner/ontologies/DOVeS/Person">
+        <rdfs:subClassOf rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/#Refining_Value"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/has_age_group"/>
+                <owl:someValuesFrom rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/Age_Group"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/has_sex"/>
+                <owl:someValuesFrom rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/Sex"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ucsf.edu/brosner/ontologies/DOVeS/Phase_1_Trial -->
+
+    <owl:Class rdf:about="http://www.ucsf.edu/brosner/ontologies/DOVeS/Phase_1_Trial">
+        <rdfs:subClassOf rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/Controlled_Trial"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ucsf.edu/brosner/ontologies/DOVeS/Phase_2_Trial -->
+
+    <owl:Class rdf:about="http://www.ucsf.edu/brosner/ontologies/DOVeS/Phase_2_Trial">
+        <rdfs:subClassOf rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/Controlled_Trial"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ucsf.edu/brosner/ontologies/DOVeS/Phase_3_Trial -->
+
+    <owl:Class rdf:about="http://www.ucsf.edu/brosner/ontologies/DOVeS/Phase_3_Trial">
+        <rdfs:subClassOf rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/Controlled_Trial"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ucsf.edu/brosner/ontologies/DOVeS/Physician -->
+
+    <owl:Class rdf:about="http://www.ucsf.edu/brosner/ontologies/DOVeS/Physician">
+        <rdfs:subClassOf rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/Clinician"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ucsf.edu/brosner/ontologies/DOVeS/Physician_Assistant -->
+
+    <owl:Class rdf:about="http://www.ucsf.edu/brosner/ontologies/DOVeS/Physician_Assistant">
+        <rdfs:subClassOf rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/Clinician"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ucsf.edu/brosner/ontologies/DOVeS/Post-procedural -->
+
+    <owl:Class rdf:about="http://www.ucsf.edu/brosner/ontologies/DOVeS/Post-procedural">
+        <rdfs:subClassOf rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/Peri-procedural_Stages"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ucsf.edu/brosner/ontologies/DOVeS/Pre-procedural -->
+
+    <owl:Class rdf:about="http://www.ucsf.edu/brosner/ontologies/DOVeS/Pre-procedural">
+        <rdfs:subClassOf rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/Peri-procedural_Stages"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ucsf.edu/brosner/ontologies/DOVeS/Product_Performance_Non-Clinical -->
+
+    <owl:Class rdf:about="http://www.ucsf.edu/brosner/ontologies/DOVeS/Product_Performance_Non-Clinical">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8RUN2HMLU8LRIxWQKB65zB"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ucsf.edu/brosner/ontologies/DOVeS/Quality_Adjusted_Life_Years -->
+
+    <owl:Class rdf:about="http://www.ucsf.edu/brosner/ontologies/DOVeS/Quality_Adjusted_Life_Years">
+        <rdfs:subClassOf rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/Health_Benefits"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Quality Adjusted Life Year Outcome</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ucsf.edu/brosner/ontologies/DOVeS/Quality_of_Life_Outcome -->
+
+    <owl:Class rdf:about="http://www.ucsf.edu/brosner/ontologies/DOVeS/Quality_of_Life_Outcome">
+        <rdfs:subClassOf rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/Patient_Reported_Outcome"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ucsf.edu/brosner/ontologies/DOVeS/R4DoLQH58FHJ4cxmKCRqmM -->
+
+    <owl:Class rdf:about="http://www.ucsf.edu/brosner/ontologies/DOVeS/R4DoLQH58FHJ4cxmKCRqmM">
+        <rdfs:subClassOf rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/R8f2emOhkyPB9oWznoiE9vF"/>
+        <rdfs:label xml:lang="en">90 Day All Cause Readmission Rate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ucsf.edu/brosner/ontologies/DOVeS/R7PF3sLtqszaLPkLo5At1NI -->
+
+    <owl:Class rdf:about="http://www.ucsf.edu/brosner/ontologies/DOVeS/R7PF3sLtqszaLPkLo5At1NI">
+        <rdfs:subClassOf rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/RsZ4toSrudFfMXJBqgQAzH"/>
+        <rdfs:label xml:lang="en">Patient Engagement</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ucsf.edu/brosner/ontologies/DOVeS/R7PFYP5SdvCOcgLS3Tvz8io -->
+
+    <owl:Class rdf:about="http://www.ucsf.edu/brosner/ontologies/DOVeS/R7PFYP5SdvCOcgLS3Tvz8io">
+        <rdfs:subClassOf rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/RsZ4toSrudFfMXJBqgQAzH"/>
+        <rdfs:label xml:lang="en">Medication Adherence</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ucsf.edu/brosner/ontologies/DOVeS/R7RQTEd8tsAtxMW7fII9ZKn -->
+
+    <owl:Class rdf:about="http://www.ucsf.edu/brosner/ontologies/DOVeS/R7RQTEd8tsAtxMW7fII9ZKn">
+        <rdfs:subClassOf rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/RBachEB74jlHFKc0DTn3XYs"/>
+        <rdfs:label xml:lang="en">Scheduling speed</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ucsf.edu/brosner/ontologies/DOVeS/R7XjcjDzSybLHI7n79nzS9K -->
+
+    <owl:Class rdf:about="http://www.ucsf.edu/brosner/ontologies/DOVeS/R7XjcjDzSybLHI7n79nzS9K">
+        <rdfs:subClassOf rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/R9lfRTNir1ypc6I4Fi8x6MO"/>
+        <rdfs:label xml:lang="en">Episode Total Cost of Care</rdfs:label>
+        <rdfs:label xml:lang="en">Reduced Episode Total Cost of Care</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ucsf.edu/brosner/ontologies/DOVeS/R7eZJpBN62jEsd6Try4Uv54 -->
+
+    <owl:Class rdf:about="http://www.ucsf.edu/brosner/ontologies/DOVeS/R7eZJpBN62jEsd6Try4Uv54">
+        <rdfs:subClassOf rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/RDH4YfEPT2KDw2OCk2Vni96"/>
+        <rdfs:label xml:lang="en">Appointment Scheduling Outcome</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ucsf.edu/brosner/ontologies/DOVeS/R7f4PT2LmkUTxyNTWG8Lhwx -->
+
+    <owl:Class rdf:about="http://www.ucsf.edu/brosner/ontologies/DOVeS/R7f4PT2LmkUTxyNTWG8Lhwx">
+        <rdfs:subClassOf rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/RDH4YfEPT2KDw2OCk2Vni96"/>
+        <rdfs:label xml:lang="en">Billing Outcome</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ucsf.edu/brosner/ontologies/DOVeS/R7lQbRIqBI03o22HnzI7jGd -->
+
+    <owl:Class rdf:about="http://www.ucsf.edu/brosner/ontologies/DOVeS/R7lQbRIqBI03o22HnzI7jGd">
+        <rdfs:subClassOf rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/RBjHQ6AWhknPqFEHQTA4VXd"/>
+        <rdfs:label xml:lang="en">Clinician Education Outcome</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ucsf.edu/brosner/ontologies/DOVeS/R7mTpBzgDDIzU6Qo8ziINXh -->
+
+    <owl:Class rdf:about="http://www.ucsf.edu/brosner/ontologies/DOVeS/R7mTpBzgDDIzU6Qo8ziINXh">
+        <rdfs:subClassOf rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/R7PFYP5SdvCOcgLS3Tvz8io"/>
+        <rdfs:label xml:lang="en">Prescription Fill Rate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ucsf.edu/brosner/ontologies/DOVeS/R7ph8k1CcaReVNORhJUHts5 -->
+
+    <owl:Class rdf:about="http://www.ucsf.edu/brosner/ontologies/DOVeS/R7ph8k1CcaReVNORhJUHts5">
+        <rdfs:subClassOf rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/RC4TfQmbNjHHytGS0EEjEVS"/>
+        <rdfs:label xml:lang="en">Price Transparency</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ucsf.edu/brosner/ontologies/DOVeS/R7v62iXaPMhH9mUmi0tK5Bo -->
+
+    <owl:Class rdf:about="http://www.ucsf.edu/brosner/ontologies/DOVeS/R7v62iXaPMhH9mUmi0tK5Bo">
+        <rdfs:subClassOf rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/RBachEB74jlHFKc0DTn3XYs"/>
+        <rdfs:label xml:lang="en">FTE Reduction</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ucsf.edu/brosner/ontologies/DOVeS/R7xWDTFU4S8yXZC2RYwWYBU -->
+
+    <owl:Class rdf:about="http://www.ucsf.edu/brosner/ontologies/DOVeS/R7xWDTFU4S8yXZC2RYwWYBU">
+        <rdfs:subClassOf rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/RCVn5yvj6Bs11JbDsLeXCNd"/>
+        <rdfs:label xml:lang="en">eFax</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ucsf.edu/brosner/ontologies/DOVeS/R8MDfxPSoXxBYQ55JMCPRHa -->
+
+    <owl:Class rdf:about="http://www.ucsf.edu/brosner/ontologies/DOVeS/R8MDfxPSoXxBYQ55JMCPRHa">
+        <rdfs:subClassOf rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/RDECNKT19F9yMdylfw7KdOs"/>
+        <rdfs:label xml:lang="en">Modified Primary Care Encounter Rate</rdfs:label>
+        <rdfs:label xml:lang="en">Primary Care Encounter Rates</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ucsf.edu/brosner/ontologies/DOVeS/R8QzUYrbacb1rV9HZ5NBFco -->
+
+    <owl:Class rdf:about="http://www.ucsf.edu/brosner/ontologies/DOVeS/R8QzUYrbacb1rV9HZ5NBFco">
+        <rdfs:subClassOf rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/RBs12ny2jJ1lb1S6Wg1kWZL"/>
+        <rdfs:label xml:lang="en">30 Day Revisit Rate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ucsf.edu/brosner/ontologies/DOVeS/R8RNFt0W2IriuNdu2Pvd1dv -->
+
+    <owl:Class rdf:about="http://www.ucsf.edu/brosner/ontologies/DOVeS/R8RNFt0W2IriuNdu2Pvd1dv">
+        <rdfs:subClassOf rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/R9lfRTNir1ypc6I4Fi8x6MO"/>
+        <rdfs:label xml:lang="en">Hospital Total Costs</rdfs:label>
+        <rdfs:label xml:lang="en">Reduced Hospital Total Costs</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ucsf.edu/brosner/ontologies/DOVeS/R8WQt8yAcMuBfZMQWc8r5MW -->
+
+    <owl:Class rdf:about="http://www.ucsf.edu/brosner/ontologies/DOVeS/R8WQt8yAcMuBfZMQWc8r5MW">
+        <rdfs:subClassOf rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/R7lQbRIqBI03o22HnzI7jGd"/>
+        <rdfs:label xml:lang="en">Doctor Education</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ucsf.edu/brosner/ontologies/DOVeS/R8f2emOhkyPB9oWznoiE9vF -->
+
+    <owl:Class rdf:about="http://www.ucsf.edu/brosner/ontologies/DOVeS/R8f2emOhkyPB9oWznoiE9vF">
+        <rdfs:subClassOf rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/RDECNKT19F9yMdylfw7KdOs"/>
+        <rdfs:label xml:lang="en">Reduced Hospital Readmission Rate</rdfs:label>
+        <rdfs:label xml:lang="en">Reduced Hospital Utilization</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ucsf.edu/brosner/ontologies/DOVeS/R8jfJhQ9WGVumYORtt13SDz -->
+
+    <owl:Class rdf:about="http://www.ucsf.edu/brosner/ontologies/DOVeS/R8jfJhQ9WGVumYORtt13SDz">
+        <rdfs:subClassOf rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/Health_Outcome"/>
+        <rdfs:label xml:lang="en">Healthcare Economic Outcome</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ucsf.edu/brosner/ontologies/DOVeS/R8kjJD3hRIAMIbpqiKU2qRz -->
+
+    <owl:Class rdf:about="http://www.ucsf.edu/brosner/ontologies/DOVeS/R8kjJD3hRIAMIbpqiKU2qRz">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RB3ceV8XtaniyBHbvgYSDtr"/>
+        <rdfs:label xml:lang="en">Medical Calculators</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ucsf.edu/brosner/ontologies/DOVeS/R8lEclUFEwTJShcimphaJLC -->
+
+    <owl:Class rdf:about="http://www.ucsf.edu/brosner/ontologies/DOVeS/R8lEclUFEwTJShcimphaJLC">
+        <rdfs:subClassOf rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/RCVn5yvj6Bs11JbDsLeXCNd"/>
+        <rdfs:label xml:lang="en">Release of Information</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ucsf.edu/brosner/ontologies/DOVeS/R8rgjn882VOGbjVc2I2U8M7 -->
+
+    <owl:Class rdf:about="http://www.ucsf.edu/brosner/ontologies/DOVeS/R8rgjn882VOGbjVc2I2U8M7">
+        <rdfs:subClassOf rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/RDECNKT19F9yMdylfw7KdOs"/>
+        <rdfs:label xml:lang="en">Hospital Length of Stay</rdfs:label>
+        <rdfs:label xml:lang="en">Reduced Hospital Length of Stay</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ucsf.edu/brosner/ontologies/DOVeS/R8uW5y7tRSMfushLpn0AVTu -->
+
+    <owl:Class rdf:about="http://www.ucsf.edu/brosner/ontologies/DOVeS/R8uW5y7tRSMfushLpn0AVTu">
+        <rdfs:subClassOf rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/RC4TfQmbNjHHytGS0EEjEVS"/>
+        <rdfs:label xml:lang="en">Materials accessed per invited patients per month</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ucsf.edu/brosner/ontologies/DOVeS/R8xkibh4xLglSePXdj0Vq9s -->
+
+    <owl:Class rdf:about="http://www.ucsf.edu/brosner/ontologies/DOVeS/R8xkibh4xLglSePXdj0Vq9s">
+        <rdfs:subClassOf rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/RBUoHwCPGj74WXtrDxR9NHp"/>
+        <rdfs:label xml:lang="en">Ordering Outcome</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ucsf.edu/brosner/ontologies/DOVeS/R8zWmWG61Aa8BawNLMe7Bko -->
+
+    <owl:Class rdf:about="http://www.ucsf.edu/brosner/ontologies/DOVeS/R8zWmWG61Aa8BawNLMe7Bko">
+        <rdfs:subClassOf rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/R8f2emOhkyPB9oWznoiE9vF"/>
+        <rdfs:label xml:lang="en">30 Day All Cause Readmission Rate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ucsf.edu/brosner/ontologies/DOVeS/R95HDh4ofblTEPw9R5DprxK -->
+
+    <owl:Class rdf:about="http://www.ucsf.edu/brosner/ontologies/DOVeS/R95HDh4ofblTEPw9R5DprxK">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RB3ceV8XtaniyBHbvgYSDtr"/>
+        <rdfs:subClassOf rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/Clinical_Processes"/>
+        <rdfs:label xml:lang="en">Shared Decision Making</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ucsf.edu/brosner/ontologies/DOVeS/R96axEy4aJblcBmbHbF4qlB -->
+
+    <owl:Class rdf:about="http://www.ucsf.edu/brosner/ontologies/DOVeS/R96axEy4aJblcBmbHbF4qlB">
+        <rdfs:subClassOf rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/R9xcCtdLy4i6ftb1w2uBWZ4"/>
+        <rdfs:label xml:lang="en">Transcription error reduction</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ucsf.edu/brosner/ontologies/DOVeS/R9AIQPkDmd3CnIRhq5zneAi -->
+
+    <owl:Class rdf:about="http://www.ucsf.edu/brosner/ontologies/DOVeS/R9AIQPkDmd3CnIRhq5zneAi">
+        <rdfs:subClassOf rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/RBV5PU1ZFyZ0AW4YMP3QYBf"/>
+        <rdfs:label xml:lang="en">Medication Dosing</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ucsf.edu/brosner/ontologies/DOVeS/R9PdEfW8cy9o8Y5tvojONI0 -->
+
+    <owl:Class rdf:about="http://www.ucsf.edu/brosner/ontologies/DOVeS/R9PdEfW8cy9o8Y5tvojONI0">
+        <rdfs:subClassOf rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/RDH4YfEPT2KDw2OCk2Vni96"/>
+        <rdfs:label xml:lang="en">Referral Coordination Outcome</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ucsf.edu/brosner/ontologies/DOVeS/R9eWxRKtCRbFpOzrQ0w8Fvf -->
+
+    <owl:Class rdf:about="http://www.ucsf.edu/brosner/ontologies/DOVeS/R9eWxRKtCRbFpOzrQ0w8Fvf">
+        <rdfs:subClassOf rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/R9xcCtdLy4i6ftb1w2uBWZ4"/>
+        <rdfs:label xml:lang="en">Time reduction</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ucsf.edu/brosner/ontologies/DOVeS/R9fZA0IDBPqshDO6DNm6BwP -->
+
+    <owl:Class rdf:about="http://www.ucsf.edu/brosner/ontologies/DOVeS/R9fZA0IDBPqshDO6DNm6BwP">
+        <rdfs:subClassOf rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/R7eZJpBN62jEsd6Try4Uv54"/>
+        <rdfs:label xml:lang="en">Not Self Scheduling</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ucsf.edu/brosner/ontologies/DOVeS/R9jeaaPTCRsGvmbn1Lcs1lv -->
+
+    <owl:Class rdf:about="http://www.ucsf.edu/brosner/ontologies/DOVeS/R9jeaaPTCRsGvmbn1Lcs1lv">
+        <rdfs:subClassOf rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/R7ph8k1CcaReVNORhJUHts5"/>
+        <rdfs:label xml:lang="en">Prescription Fill Rate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ucsf.edu/brosner/ontologies/DOVeS/R9lfRTNir1ypc6I4Fi8x6MO -->
+
+    <owl:Class rdf:about="http://www.ucsf.edu/brosner/ontologies/DOVeS/R9lfRTNir1ypc6I4Fi8x6MO">
+        <rdfs:subClassOf rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/R8jfJhQ9WGVumYORtt13SDz"/>
+        <rdfs:label xml:lang="en">Costs</rdfs:label>
+        <rdfs:label xml:lang="en">Reduced Costs</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ucsf.edu/brosner/ontologies/DOVeS/R9xcCtdLy4i6ftb1w2uBWZ4 -->
+
+    <owl:Class rdf:about="http://www.ucsf.edu/brosner/ontologies/DOVeS/R9xcCtdLy4i6ftb1w2uBWZ4">
+        <rdfs:subClassOf rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/RCVn5yvj6Bs11JbDsLeXCNd"/>
+        <rdfs:label xml:lang="en">Patient EHR Data</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ucsf.edu/brosner/ontologies/DOVeS/R9ySZyagipXv0MbJxbVOSfC -->
+
+    <owl:Class rdf:about="http://www.ucsf.edu/brosner/ontologies/DOVeS/R9ySZyagipXv0MbJxbVOSfC">
+        <rdfs:subClassOf rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/RDH4YfEPT2KDw2OCk2Vni96"/>
+        <rdfs:label xml:lang="en">Integrations Outcome</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ucsf.edu/brosner/ontologies/DOVeS/RBC1QxuaaIkWIpqQUZjSfSK -->
+
+    <owl:Class rdf:about="http://www.ucsf.edu/brosner/ontologies/DOVeS/RBC1QxuaaIkWIpqQUZjSfSK">
+        <rdfs:subClassOf rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/RYWD1GCDUTB9wmY6FJmg5k"/>
+        <rdfs:label xml:lang="en">Diabetic Foot Exam</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ucsf.edu/brosner/ontologies/DOVeS/RBEPrDEZDMBQX9QhR5neEU -->
+
+    <owl:Class rdf:about="http://www.ucsf.edu/brosner/ontologies/DOVeS/RBEPrDEZDMBQX9QhR5neEU">
+        <rdfs:subClassOf rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/R8jfJhQ9WGVumYORtt13SDz"/>
+        <rdfs:label xml:lang="en">Cost Effectiveness</rdfs:label>
+        <rdfs:label xml:lang="en">Increased Cost Effectiveness</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ucsf.edu/brosner/ontologies/DOVeS/RBRSfp30nhB7DgZZQPAQAmn -->
+
+    <owl:Class rdf:about="http://www.ucsf.edu/brosner/ontologies/DOVeS/RBRSfp30nhB7DgZZQPAQAmn">
+        <rdfs:subClassOf rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/R7PFYP5SdvCOcgLS3Tvz8io"/>
+        <rdfs:label xml:lang="en">Infusion Clinic No Show Rate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ucsf.edu/brosner/ontologies/DOVeS/RBUoHwCPGj74WXtrDxR9NHp -->
+
+    <owl:Class rdf:about="http://www.ucsf.edu/brosner/ontologies/DOVeS/RBUoHwCPGj74WXtrDxR9NHp">
+        <rdfs:subClassOf rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/Health_Outcome"/>
+        <rdfs:label xml:lang="en">Processes of Care Outcome</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ucsf.edu/brosner/ontologies/DOVeS/RBV5PU1ZFyZ0AW4YMP3QYBf -->
+
+    <owl:Class rdf:about="http://www.ucsf.edu/brosner/ontologies/DOVeS/RBV5PU1ZFyZ0AW4YMP3QYBf">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RB3ceV8XtaniyBHbvgYSDtr"/>
+        <rdfs:subClassOf rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/Clinical_Processes"/>
+        <rdfs:label xml:lang="en">Clinical Decision Support</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ucsf.edu/brosner/ontologies/DOVeS/RBachEB74jlHFKc0DTn3XYs -->
+
+    <owl:Class rdf:about="http://www.ucsf.edu/brosner/ontologies/DOVeS/RBachEB74jlHFKc0DTn3XYs">
+        <rdfs:subClassOf rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/R7eZJpBN62jEsd6Try4Uv54"/>
+        <rdfs:label xml:lang="en">Self Scheduling</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ucsf.edu/brosner/ontologies/DOVeS/RBg0KxVXVULe9iznDR5vvYx -->
+
+    <owl:Class rdf:about="http://www.ucsf.edu/brosner/ontologies/DOVeS/RBg0KxVXVULe9iznDR5vvYx">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RB3ceV8XtaniyBHbvgYSDtr"/>
+        <rdfs:label xml:lang="en">Billing Codes</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ucsf.edu/brosner/ontologies/DOVeS/RBjHQ6AWhknPqFEHQTA4VXd -->
+
+    <owl:Class rdf:about="http://www.ucsf.edu/brosner/ontologies/DOVeS/RBjHQ6AWhknPqFEHQTA4VXd">
+        <rdfs:subClassOf rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/Health_Outcome"/>
+        <webprotege:RxFpQj0XOjUocGK4ZebVx9 rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</webprotege:RxFpQj0XOjUocGK4ZebVx9>
+        <rdfs:label xml:lang="en">Education Outcome</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ucsf.edu/brosner/ontologies/DOVeS/RBs12ny2jJ1lb1S6Wg1kWZL -->
+
+    <owl:Class rdf:about="http://www.ucsf.edu/brosner/ontologies/DOVeS/RBs12ny2jJ1lb1S6Wg1kWZL">
+        <rdfs:subClassOf rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/RDECNKT19F9yMdylfw7KdOs"/>
+        <rdfs:label xml:lang="en">Emergency Department Utilization</rdfs:label>
+        <rdfs:label xml:lang="en">Reduced Emergency Department Utilization</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ucsf.edu/brosner/ontologies/DOVeS/RC4TfQmbNjHHytGS0EEjEVS -->
+
+    <owl:Class rdf:about="http://www.ucsf.edu/brosner/ontologies/DOVeS/RC4TfQmbNjHHytGS0EEjEVS">
+        <rdfs:subClassOf rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/RBjHQ6AWhknPqFEHQTA4VXd"/>
+        <rdfs:label xml:lang="en">Patient/Family Education Outcome</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ucsf.edu/brosner/ontologies/DOVeS/RC5fIJ4WxonLyfwpLRdT5Hp -->
+
+    <owl:Class rdf:about="http://www.ucsf.edu/brosner/ontologies/DOVeS/RC5fIJ4WxonLyfwpLRdT5Hp">
+        <rdfs:subClassOf rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/RDH4YfEPT2KDw2OCk2Vni96"/>
+        <rdfs:label xml:lang="en">Telemedicine</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ucsf.edu/brosner/ontologies/DOVeS/RCM5HvEE843t9DsX0vOlOB4 -->
+
+    <owl:Class rdf:about="http://www.ucsf.edu/brosner/ontologies/DOVeS/RCM5HvEE843t9DsX0vOlOB4">
+        <rdfs:subClassOf rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/R7PFYP5SdvCOcgLS3Tvz8io"/>
+        <rdfs:subClassOf rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/R7ph8k1CcaReVNORhJUHts5"/>
+        <rdfs:label xml:lang="en">Prescription Refill Rate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ucsf.edu/brosner/ontologies/DOVeS/RCROThxekZ9Y23ajfumifrf -->
+
+    <owl:Class rdf:about="http://www.ucsf.edu/brosner/ontologies/DOVeS/RCROThxekZ9Y23ajfumifrf">
+        <rdfs:subClassOf rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/RsZ4toSrudFfMXJBqgQAzH"/>
+        <rdfs:label xml:lang="en">Patient Activation</rdfs:label>
+        <rdfs:label>Patient_Engagement</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ucsf.edu/brosner/ontologies/DOVeS/RCTaBbQ2LnSBRzTopOrKMF5 -->
+
+    <owl:Class rdf:about="http://www.ucsf.edu/brosner/ontologies/DOVeS/RCTaBbQ2LnSBRzTopOrKMF5">
+        <rdfs:subClassOf rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/R7lQbRIqBI03o22HnzI7jGd"/>
+        <rdfs:label xml:lang="en">Trainee Education</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ucsf.edu/brosner/ontologies/DOVeS/RCVn5yvj6Bs11JbDsLeXCNd -->
+
+    <owl:Class rdf:about="http://www.ucsf.edu/brosner/ontologies/DOVeS/RCVn5yvj6Bs11JbDsLeXCNd">
+        <rdfs:subClassOf rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/RDH4YfEPT2KDw2OCk2Vni96"/>
+        <rdfs:label xml:lang="en">Data Transfer Outcome</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ucsf.edu/brosner/ontologies/DOVeS/RCVoMtwa1qrIe0dbgRMlrud -->
+
+    <owl:Class rdf:about="http://www.ucsf.edu/brosner/ontologies/DOVeS/RCVoMtwa1qrIe0dbgRMlrud">
+        <rdfs:subClassOf rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/RDECNKT19F9yMdylfw7KdOs"/>
+        <rdfs:label xml:lang="en">Procedural No Show Rate</rdfs:label>
+        <rdfs:label xml:lang="en">Reduced Procedural No Show Rate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ucsf.edu/brosner/ontologies/DOVeS/RCYjn6BVs7idi7jijdBjMiG -->
+
+    <owl:Class rdf:about="http://www.ucsf.edu/brosner/ontologies/DOVeS/RCYjn6BVs7idi7jijdBjMiG">
+        <rdfs:subClassOf rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/RYWD1GCDUTB9wmY6FJmg5k"/>
+        <rdfs:label xml:lang="en">Diabetic Retinopahty Screening</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ucsf.edu/brosner/ontologies/DOVeS/RCa0kF0jhWTaHTYIRypnu2K -->
+
+    <owl:Class rdf:about="http://www.ucsf.edu/brosner/ontologies/DOVeS/RCa0kF0jhWTaHTYIRypnu2K">
+        <rdfs:subClassOf rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/RBachEB74jlHFKc0DTn3XYs"/>
+        <rdfs:label xml:lang="en">Scheduled/Available</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ucsf.edu/brosner/ontologies/DOVeS/RCb75ap9JMMD2Z54yXRcciN -->
+
+    <owl:Class rdf:about="http://www.ucsf.edu/brosner/ontologies/DOVeS/RCb75ap9JMMD2Z54yXRcciN">
+        <rdfs:subClassOf rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/RDH4YfEPT2KDw2OCk2Vni96"/>
+        <rdfs:label xml:lang="en">Operating Room Outcome</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ucsf.edu/brosner/ontologies/DOVeS/RCbgQMiWA8pcasyPXEis3NX -->
+
+    <owl:Class rdf:about="http://www.ucsf.edu/brosner/ontologies/DOVeS/RCbgQMiWA8pcasyPXEis3NX">
+        <rdfs:subClassOf rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/Health_Outcome"/>
+        <rdfs:label xml:lang="en">Clinical Care Outcome</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ucsf.edu/brosner/ontologies/DOVeS/RCdACVAe8t9fRcO5aXXGszp -->
+
+    <owl:Class rdf:about="http://www.ucsf.edu/brosner/ontologies/DOVeS/RCdACVAe8t9fRcO5aXXGszp">
+        <rdfs:subClassOf rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/RBs12ny2jJ1lb1S6Wg1kWZL"/>
+        <rdfs:label xml:lang="en">30 Day Risk Adjusted Revisit Rate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ucsf.edu/brosner/ontologies/DOVeS/RCdTRvqFTnmEsaDjxHLt23V -->
+
+    <owl:Class rdf:about="http://www.ucsf.edu/brosner/ontologies/DOVeS/RCdTRvqFTnmEsaDjxHLt23V">
+        <rdfs:subClassOf rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/RBV5PU1ZFyZ0AW4YMP3QYBf"/>
+        <rdfs:label xml:lang="en">Medical Calculators</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ucsf.edu/brosner/ontologies/DOVeS/RDECNKT19F9yMdylfw7KdOs -->
+
+    <owl:Class rdf:about="http://www.ucsf.edu/brosner/ontologies/DOVeS/RDECNKT19F9yMdylfw7KdOs">
+        <rdfs:subClassOf rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/Health_Outcome"/>
+        <rdfs:label xml:lang="en">Healthcare Utilization Outcome</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ucsf.edu/brosner/ontologies/DOVeS/RDH4YfEPT2KDw2OCk2Vni96 -->
+
+    <owl:Class rdf:about="http://www.ucsf.edu/brosner/ontologies/DOVeS/RDH4YfEPT2KDw2OCk2Vni96">
+        <rdfs:subClassOf rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/Health_Outcome"/>
+        <rdfs:label xml:lang="en">Healthcare Operation Outcome</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ucsf.edu/brosner/ontologies/DOVeS/RDLg2lNzRSVXPDZn2zaYtyw -->
+
+    <owl:Class rdf:about="http://www.ucsf.edu/brosner/ontologies/DOVeS/RDLg2lNzRSVXPDZn2zaYtyw">
+        <rdfs:subClassOf rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/R9lfRTNir1ypc6I4Fi8x6MO"/>
+        <rdfs:label xml:lang="en">Hospital Allowed Costs</rdfs:label>
+        <rdfs:label xml:lang="en">Reduced Hospital Allowed Costs</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ucsf.edu/brosner/ontologies/DOVeS/RDR9AvuXkm8W7RaiykccjRG -->
+
+    <owl:Class rdf:about="http://www.ucsf.edu/brosner/ontologies/DOVeS/RDR9AvuXkm8W7RaiykccjRG">
+        <rdfs:subClassOf rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/RC4TfQmbNjHHytGS0EEjEVS"/>
+        <rdfs:label xml:lang="en">Comprehension</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ucsf.edu/brosner/ontologies/DOVeS/RDbqZ421yFXZjhSpZqITnox -->
+
+    <owl:Class rdf:about="http://www.ucsf.edu/brosner/ontologies/DOVeS/RDbqZ421yFXZjhSpZqITnox">
+        <rdfs:subClassOf rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/RCVn5yvj6Bs11JbDsLeXCNd"/>
+        <rdfs:label xml:lang="en">Registry and Quality Reporting</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ucsf.edu/brosner/ontologies/DOVeS/RDh27dAQnyY3M2qCLcHfgqh -->
+
+    <owl:Class rdf:about="http://www.ucsf.edu/brosner/ontologies/DOVeS/RDh27dAQnyY3M2qCLcHfgqh">
+        <rdfs:subClassOf rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/RZnPtxGggYvon6f3RQjION"/>
+        <rdfs:label xml:lang="en">HEDIS Measures</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ucsf.edu/brosner/ontologies/DOVeS/RDsAEuCDoygyRmxpIQvJvLA -->
+
+    <owl:Class rdf:about="http://www.ucsf.edu/brosner/ontologies/DOVeS/RDsAEuCDoygyRmxpIQvJvLA">
+        <rdfs:subClassOf rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/RC5fIJ4WxonLyfwpLRdT5Hp"/>
+        <rdfs:label xml:lang="en">Change in encounter volume per day relative to in-person</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ucsf.edu/brosner/ontologies/DOVeS/RDtCw1ZvAR4qX7pQnMU8cN3 -->
+
+    <owl:Class rdf:about="http://www.ucsf.edu/brosner/ontologies/DOVeS/RDtCw1ZvAR4qX7pQnMU8cN3">
+        <rdfs:subClassOf rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/R8xkibh4xLglSePXdj0Vq9s"/>
+        <rdfs:label xml:lang="en">Durable Medical Equipment</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ucsf.edu/brosner/ontologies/DOVeS/RFM92zjpPGh9BNEbJmmZLH -->
+
+    <owl:Class rdf:about="http://www.ucsf.edu/brosner/ontologies/DOVeS/RFM92zjpPGh9BNEbJmmZLH">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RB3ceV8XtaniyBHbvgYSDtr"/>
+        <rdfs:subClassOf rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/Clinical_Processes"/>
+        <rdfs:label xml:lang="en">Clinical Data Aggregation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ucsf.edu/brosner/ontologies/DOVeS/RYWD1GCDUTB9wmY6FJmg5k -->
+
+    <owl:Class rdf:about="http://www.ucsf.edu/brosner/ontologies/DOVeS/RYWD1GCDUTB9wmY6FJmg5k">
+        <rdfs:subClassOf rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/RDh27dAQnyY3M2qCLcHfgqh"/>
+        <rdfs:label xml:lang="en">Diabetes Care</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ucsf.edu/brosner/ontologies/DOVeS/RZnPtxGggYvon6f3RQjION -->
+
+    <owl:Class rdf:about="http://www.ucsf.edu/brosner/ontologies/DOVeS/RZnPtxGggYvon6f3RQjION">
+        <rdfs:subClassOf rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/RBUoHwCPGj74WXtrDxR9NHp"/>
+        <rdfs:label xml:lang="en">Process of Care Gap Closure</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ucsf.edu/brosner/ontologies/DOVeS/RaEXEgWfvYbYczVVbOkR9q -->
+
+    <owl:Class rdf:about="http://www.ucsf.edu/brosner/ontologies/DOVeS/RaEXEgWfvYbYczVVbOkR9q">
+        <rdfs:subClassOf rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/RBs12ny2jJ1lb1S6Wg1kWZL"/>
+        <rdfs:label xml:lang="en">Leave Without Being Seen Rate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ucsf.edu/brosner/ontologies/DOVeS/RcgxMUBX4vhIo2Npk63HQi -->
+
+    <owl:Class rdf:about="http://www.ucsf.edu/brosner/ontologies/DOVeS/RcgxMUBX4vhIo2Npk63HQi">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RB3ceV8XtaniyBHbvgYSDtr"/>
+        <rdfs:label xml:lang="en">Data Processing Synthesis or Visualization</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ucsf.edu/brosner/ontologies/DOVeS/Real_World_Evidence -->
+
+    <owl:Class rdf:about="http://www.ucsf.edu/brosner/ontologies/DOVeS/Real_World_Evidence">
+        <rdfs:subClassOf rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/Evidence_Type"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ucsf.edu/brosner/ontologies/DOVeS/Resolution_Time -->
+
+    <owl:Class rdf:about="http://www.ucsf.edu/brosner/ontologies/DOVeS/Resolution_Time">
+        <rdfs:subClassOf rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/Issue_Resolution"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ucsf.edu/brosner/ontologies/DOVeS/Response_Time -->
+
+    <owl:Class rdf:about="http://www.ucsf.edu/brosner/ontologies/DOVeS/Response_Time">
+        <rdfs:subClassOf rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/Issue_Resolution"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ucsf.edu/brosner/ontologies/DOVeS/Risk_Prediction_Outcome -->
+
+    <owl:Class rdf:about="http://www.ucsf.edu/brosner/ontologies/DOVeS/Risk_Prediction_Outcome">
+        <rdfs:subClassOf rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/Health_Benefits"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Risk Prediction Outcome</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ucsf.edu/brosner/ontologies/DOVeS/RkA0lovpLy0Idyw3Syv0Jp -->
+
+    <owl:Class rdf:about="http://www.ucsf.edu/brosner/ontologies/DOVeS/RkA0lovpLy0Idyw3Syv0Jp">
+        <rdfs:subClassOf rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/R7lQbRIqBI03o22HnzI7jGd"/>
+        <rdfs:label xml:lang="en">Mid-Level Practitioner Education</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ucsf.edu/brosner/ontologies/DOVeS/RkUBCcH05wybPYmOdMElto -->
+
+    <owl:Class rdf:about="http://www.ucsf.edu/brosner/ontologies/DOVeS/RkUBCcH05wybPYmOdMElto">
+        <rdfs:subClassOf rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/RBachEB74jlHFKc0DTn3XYs"/>
+        <rdfs:label xml:lang="en">Appeared/Scheduled</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ucsf.edu/brosner/ontologies/DOVeS/Role -->
+
+    <owl:Class rdf:about="http://www.ucsf.edu/brosner/ontologies/DOVeS/Role">
+        <rdfs:subClassOf rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/#Refining_Value"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ucsf.edu/brosner/ontologies/DOVeS/RsZ4toSrudFfMXJBqgQAzH -->
+
+    <owl:Class rdf:about="http://www.ucsf.edu/brosner/ontologies/DOVeS/RsZ4toSrudFfMXJBqgQAzH">
+        <rdfs:subClassOf rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/Health_Outcome"/>
+        <webprotege:RxFpQj0XOjUocGK4ZebVx9 rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</webprotege:RxFpQj0XOjUocGK4ZebVx9>
+        <rdfs:label xml:lang="en">Engagement and Adherence Outcome</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ucsf.edu/brosner/ontologies/DOVeS/RzDTckj8IipR2F4QB37VDV -->
+
+    <owl:Class rdf:about="http://www.ucsf.edu/brosner/ontologies/DOVeS/RzDTckj8IipR2F4QB37VDV">
+        <rdfs:subClassOf rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/RBjHQ6AWhknPqFEHQTA4VXd"/>
+        <rdfs:label xml:lang="en">Public Health Education Outcome</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ucsf.edu/brosner/ontologies/DOVeS/SF-36 -->
+
+    <owl:Class rdf:about="http://www.ucsf.edu/brosner/ontologies/DOVeS/SF-36">
+        <rdfs:subClassOf rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/Quality_of_Life_Outcome"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ucsf.edu/brosner/ontologies/DOVeS/SOC2_Certification -->
+
+    <owl:Class rdf:about="http://www.ucsf.edu/brosner/ontologies/DOVeS/SOC2_Certification">
+        <rdfs:subClassOf rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/Cybersecurity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ucsf.edu/brosner/ontologies/DOVeS/Safety_Event -->
+
+    <owl:Class rdf:about="http://www.ucsf.edu/brosner/ontologies/DOVeS/Safety_Event">
+        <rdfs:subClassOf rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/RCbgQMiWA8pcasyPXEis3NX"/>
+        <webprotege:RxFpQj0XOjUocGK4ZebVx9 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Textual definition</webprotege:RxFpQj0XOjUocGK4ZebVx9>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ucsf.edu/brosner/ontologies/DOVeS/Satisfaction -->
+
+    <owl:Class rdf:about="http://www.ucsf.edu/brosner/ontologies/DOVeS/Satisfaction">
+        <rdfs:subClassOf rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/User_Experience"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ucsf.edu/brosner/ontologies/DOVeS/Sensors -->
+
+    <owl:Class rdf:about="http://www.ucsf.edu/brosner/ontologies/DOVeS/Sensors">
+        <rdfs:subClassOf rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/Patient_generated_health_data_technology"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ucsf.edu/brosner/ontologies/DOVeS/Sex -->
+
+    <owl:Class rdf:about="http://www.ucsf.edu/brosner/ontologies/DOVeS/Sex">
+        <rdfs:subClassOf rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/#Refining_Value"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ucsf.edu/brosner/ontologies/DOVeS/Specificity -->
+
+    <owl:Class rdf:about="http://www.ucsf.edu/brosner/ontologies/DOVeS/Specificity">
+        <rdfs:subClassOf rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/Accuracy"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Increased Specificity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ucsf.edu/brosner/ontologies/DOVeS/Speech_Impaired -->
+
+    <owl:Class rdf:about="http://www.ucsf.edu/brosner/ontologies/DOVeS/Speech_Impaired">
+        <rdfs:subClassOf rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/Universal_Design"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ucsf.edu/brosner/ontologies/DOVeS/Star_Ranking -->
+
+    <owl:Class rdf:about="http://www.ucsf.edu/brosner/ontologies/DOVeS/Star_Ranking">
+        <rdfs:subClassOf rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/Satisfaction"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ucsf.edu/brosner/ontologies/DOVeS/System_Availability -->
+
+    <owl:Class rdf:about="http://www.ucsf.edu/brosner/ontologies/DOVeS/System_Availability">
+        <rdfs:subClassOf rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/Technical"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ucsf.edu/brosner/ontologies/DOVeS/Technical -->
+
+    <owl:Class rdf:about="http://www.ucsf.edu/brosner/ontologies/DOVeS/Technical">
+        <rdfs:subClassOf rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/Product_Performance_Non-Clinical"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Technical Outcome</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ucsf.edu/brosner/ontologies/DOVeS/Technology -->
+
+    <owl:Class rdf:about="http://www.ucsf.edu/brosner/ontologies/DOVeS/Technology">
+        <rdfs:subClassOf rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/#Refining_Value"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ucsf.edu/brosner/ontologies/DOVeS/Triage_outcome -->
+
+    <owl:Class rdf:about="http://www.ucsf.edu/brosner/ontologies/DOVeS/Triage_outcome">
+        <rdfs:subClassOf rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/RDECNKT19F9yMdylfw7KdOs"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ucsf.edu/brosner/ontologies/DOVeS/USCDI -->
+
+    <owl:Class rdf:about="http://www.ucsf.edu/brosner/ontologies/DOVeS/USCDI">
+        <rdfs:subClassOf rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/Data_Standards"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ucsf.edu/brosner/ontologies/DOVeS/USCDI_V1 -->
+
+    <owl:Class rdf:about="http://www.ucsf.edu/brosner/ontologies/DOVeS/USCDI_V1">
+        <rdfs:subClassOf rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/USCDI"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ucsf.edu/brosner/ontologies/DOVeS/USCDI_V2 -->
+
+    <owl:Class rdf:about="http://www.ucsf.edu/brosner/ontologies/DOVeS/USCDI_V2">
+        <rdfs:subClassOf rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/USCDI"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ucsf.edu/brosner/ontologies/DOVeS/USCDI_V3 -->
+
+    <owl:Class rdf:about="http://www.ucsf.edu/brosner/ontologies/DOVeS/USCDI_V3">
+        <rdfs:subClassOf rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/USCDI"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ucsf.edu/brosner/ontologies/DOVeS/Universal_Design -->
+
+    <owl:Class rdf:about="http://www.ucsf.edu/brosner/ontologies/DOVeS/Universal_Design">
+        <rdfs:subClassOf rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/Human_Factors_and_Usability"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ucsf.edu/brosner/ontologies/DOVeS/Uptime -->
+
+    <owl:Class rdf:about="http://www.ucsf.edu/brosner/ontologies/DOVeS/Uptime">
+        <rdfs:subClassOf rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/System_Availability"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ucsf.edu/brosner/ontologies/DOVeS/User_Experience -->
+
+    <owl:Class rdf:about="http://www.ucsf.edu/brosner/ontologies/DOVeS/User_Experience">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8RUN2HMLU8LRIxWQKB65zB"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ucsf.edu/brosner/ontologies/DOVeS/Vision_Impaired -->
+
+    <owl:Class rdf:about="http://www.ucsf.edu/brosner/ontologies/DOVeS/Vision_Impaired">
+        <rdfs:subClassOf rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/Universal_Design"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ucsf.edu/brosner/ontologies/DOVeS/#Refining_Value -->
+
+    <owl:Class rdf:about="http://www.ucsf.edu/brosner/ontologies/DOVeS/#Refining_Value">
+        <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A value that can be used to refine the description of a digital medicine application</skos:definition>
+        <skos:editorialNote rdf:datatype="http://www.w3.org/2001/XMLSchema#string">At some point it would be good to locate subclasses of this class in the appropriate BFO hierarchy location</skos:editorialNote>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ucsf.edu/brosner/ontologies/DOVeS/Data_Processing,_Synthesis,_and_Visualization -->
+
+    <owl:Class rdf:about="http://www.ucsf.edu/brosner/ontologies/DOVeS/Data_Processing,_Synthesis,_and_Visualization">
+        <rdfs:subClassOf rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/Clinical_Processes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ucsf.edu/brosner/ontologies/DOVeS/Patient,Family,Caregiver -->
+
+    <owl:Class rdf:about="http://www.ucsf.edu/brosner/ontologies/DOVeS/Patient,Family,Caregiver">
+        <rdfs:subClassOf rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/Role"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ucsf.edu/brosner/ontologies/DOVeS/Patient_Activation_Measure_(PAM) -->
+
+    <owl:Class rdf:about="http://www.ucsf.edu/brosner/ontologies/DOVeS/Patient_Activation_Measure_(PAM)">
+        <rdfs:subClassOf rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/RCROThxekZ9Y23ajfumifrf"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ucsf.edu/brosner/ontologies/DOVeS/Positive_Predictive_Value_(Precision) -->
+
+    <owl:Class rdf:about="http://www.ucsf.edu/brosner/ontologies/DOVeS/Positive_Predictive_Value_(Precision)">
+        <rdfs:subClassOf rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/Accuracy"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Increased Positive Predictive Value</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ucsf.edu/brosner/ontologies/DOVeS/Sensitivity_(Recall) -->
+
+    <owl:Class rdf:about="http://www.ucsf.edu/brosner/ontologies/DOVeS/Sensitivity_(Recall)">
+        <rdfs:subClassOf rdf:resource="http://www.ucsf.edu/brosner/ontologies/DOVeS/Accuracy"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Increased Sensitivity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotations
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description rdf:about="http://webprotege.stanford.edu/RDCofJ4Tr5t0xLdypMtR8Xf">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Earlier Time to Diagnosis Outcome</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://webprotege.stanford.edu/RfqDQs04HI1dhnv20FZC37">
+        <rdfs:label>Decreased Cost per Quality Adjusted Life Years</rdfs:label>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
