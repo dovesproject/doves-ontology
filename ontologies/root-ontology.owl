@@ -1548,7 +1548,7 @@ SubClassOf(DOVeS:R8RNFt0W2IriuNdu2Pvd1dv DOVeS:R9lfRTNir1ypc6I4Fi8x6MO)
 AnnotationAssertion(rdfs:label DOVeS:R8WQt8yAcMuBfZMQWc8r5MW "Doctor Education"@en)
 SubClassOf(DOVeS:R8WQt8yAcMuBfZMQWc8r5MW DOVeS:R7lQbRIqBI03o22HnzI7jGd)
 
-# Class: DOVeS:R8f2emOhkyPB9oWznoiE9vF (Reduced Hospital Utilization)
+# Class: DOVeS:R8f2emOhkyPB9oWznoiE9vF (Reduced Hospital Readmission Rate)
 
 AnnotationAssertion(rdfs:label DOVeS:R8f2emOhkyPB9oWznoiE9vF "Reduced Hospital Readmission Rate"@en)
 AnnotationAssertion(rdfs:label DOVeS:R8f2emOhkyPB9oWznoiE9vF "Reduced Hospital Utilization"@en)
@@ -1949,6 +1949,7 @@ SubClassOf(DOVeS:Uptime DOVeS:System_Availability)
 
 # Class: DOVeS:User_Experience (User Experience Outcome)
 
+AnnotationAssertion(skos:definition DOVeS:User_Experience "User experience outcome describes one or more users' \"ratings\" of the application. Examples may include Net Promoter Score, star ratings, or other types.")
 SubClassOf(DOVeS:User_Experience webprotege:R8RUN2HMLU8LRIxWQKB65zB)
 
 # Class: DOVeS:Vision_Impaired (DOVeS:Vision_Impaired)
