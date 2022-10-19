@@ -1746,6 +1746,7 @@ SubClassOf(DOVeS:RCb75ap9JMMD2Z54yXRcciN DOVeS:RDH4YfEPT2KDw2OCk2Vni96)
 # Class: DOVeS:RCbgQMiWA8pcasyPXEis3NX (Clinical Care Outcome)
 
 AnnotationAssertion(rdfs:label DOVeS:RCbgQMiWA8pcasyPXEis3NX "Clinical Care Outcome"@en)
+AnnotationAssertion(skos:definition DOVeS:RCbgQMiWA8pcasyPXEis3NX "A Clinical Care Outcome is a broad outcome related to health outcomes resulting from the digital health tool.")
 SubClassOf(DOVeS:RCbgQMiWA8pcasyPXEis3NX DOVeS:Health_Outcome)
 
 # Class: DOVeS:RCdACVAe8t9fRcO5aXXGszp (30 Day Risk Adjusted Revisit Rate)
