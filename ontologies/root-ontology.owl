@@ -1268,7 +1268,6 @@ SubClassOf(DOVeS:Health_Benefits DOVeS:RCbgQMiWA8pcasyPXEis3NX)
 
 # Class: DOVeS:Health_Outcome (Healthcare Outcome)
 
-AnnotationAssertion(webprotege:RxFpQj0XOjUocGK4ZebVx9 DOVeS:Health_Outcome "See note"^^xsd:string)
 AnnotationAssertion(rdfs:label DOVeS:Health_Outcome "Healthcare Outcome"^^xsd:string)
 AnnotationAssertion(skos:definition DOVeS:Health_Outcome "A Healthcare Outcome is a measurable outcome that is related to a patient or user of a digital medicine application. It includes, for example, clinical outcomes, healthcare economic outcomes, process of care outcomes, healthcare operation outcomes, and education outcomes.")
 SubClassOf(DOVeS:Health_Outcome webprotege:R8RUN2HMLU8LRIxWQKB65zB)
