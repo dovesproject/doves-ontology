@@ -441,7 +441,7 @@ SubClassOf(obo:OAE_0000001 <https://purl.org/doves/840177a9-3e6d-4978-ac7a-8580c
 
 # Class: <http://who.int/icd/ICD-11> (ICD-11)
 
-AnnotationAssertion(rdfs:label <http://who.int/icd/ICD-11> "ICD-11"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://who.int/icd/ICD-11> "ICD-11"@en)
 SubClassOf(<http://who.int/icd/ICD-11> <https://purl.org/doves/78ceb509-e44b-4d8c-bd47-b457f9d835cb>)
 
 # Class: <https://purl.org/doves/a01b3bf3-a332-4213-8b6d-0ae97be1f128> (Aerospace Medicine)
@@ -482,7 +482,7 @@ SubClassOf(<https://purl.org/doves/a3b02116-232d-4dd4-b60c-315dcc69d601> <https:
 
 # Class: <https://purl.org/doves/a5627207-3c76-4b6c-8c81-f24283570b23> (Increased Sensitivity)
 
-AnnotationAssertion(rdfs:label <https://purl.org/doves/a5627207-3c76-4b6c-8c81-f24283570b23> "Increased Sensitivity"^^xsd:string)
+AnnotationAssertion(rdfs:label <https://purl.org/doves/a5627207-3c76-4b6c-8c81-f24283570b23> "Increased Sensitivity"@en)
 SubClassOf(<https://purl.org/doves/a5627207-3c76-4b6c-8c81-f24283570b23> <https://purl.org/doves/e8a3913a-2e3c-42c6-b662-a35736ffcada>)
 
 # Class: <https://purl.org/doves/a735f242-018e-44c0-9aed-ed18d81632b8> (Medical Calculations)
@@ -497,14 +497,14 @@ SubClassOf(<https://purl.org/doves/a93a87f9-7853-4885-9856-28eb1fa52b3b> <https:
 
 # Class: <https://purl.org/doves/ac479ea7-df23-4ae6-8879-cd2f8d455da3> (Condition)
 
-AnnotationAssertion(rdfs:label <https://purl.org/doves/ac479ea7-df23-4ae6-8879-cd2f8d455da3> "Condition"^^xsd:string)
+AnnotationAssertion(rdfs:label <https://purl.org/doves/ac479ea7-df23-4ae6-8879-cd2f8d455da3> "Condition"@en)
 AnnotationAssertion(<https://purl.org/doves/073169f2-4e43-4e6f-a720-a6a6b2d8642a> <https://purl.org/doves/ac479ea7-df23-4ae6-8879-cd2f8d455da3> "true"^^xsd:boolean)
 SubClassOf(<https://purl.org/doves/ac479ea7-df23-4ae6-8879-cd2f8d455da3> <https://purl.org/doves/78ceb509-e44b-4d8c-bd47-b457f9d835cb>)
 
 # Class: <https://purl.org/doves/acb718e4-eb5d-4c70-aa21-06bddeb9fd05> (Demo - Diabetic Retinopathy Application)
 
 AnnotationAssertion(rdfs:comment <https://purl.org/doves/acb718e4-eb5d-4c70-aa21-06bddeb9fd05> "For demo"^^xsd:string)
-AnnotationAssertion(rdfs:label <https://purl.org/doves/acb718e4-eb5d-4c70-aa21-06bddeb9fd05> "Demo - Diabetic Retinopathy Application")
+AnnotationAssertion(rdfs:label <https://purl.org/doves/acb718e4-eb5d-4c70-aa21-06bddeb9fd05> "Demo - Diabetic Retinopathy Application"@en)
 AnnotationAssertion(skos:definition <https://purl.org/doves/acb718e4-eb5d-4c70-aa21-06bddeb9fd05> "An digital medicine application that is designed to address outcomes associated with diabetic retinopathy."^^xsd:string)
 SubClassOf(<https://purl.org/doves/acb718e4-eb5d-4c70-aa21-06bddeb9fd05> <https://purl.org/doves/d9e2bafb-40d3-433f-8047-5f7a81973790>)
 SubClassOf(<https://purl.org/doves/acb718e4-eb5d-4c70-aa21-06bddeb9fd05> ObjectSomeValuesFrom(<https://purl.org/doves/bc0c195d-054f-46ef-b11a-7098ecac8258> <https://purl.org/doves/37a002b3-8eec-4341-b3d0-6ccb97d8e42d>))
@@ -686,7 +686,7 @@ SubClassOf(<https://purl.org/doves/c8696978-6ad4-40a4-8569-2a5286f518b1> ObjectS
 
 # Class: <https://purl.org/doves/c8b90c91-6b19-4865-985d-ae552056150e> (Disease Severity Identification Outcome)
 
-AnnotationAssertion(rdfs:label <https://purl.org/doves/c8b90c91-6b19-4865-985d-ae552056150e> "Disease Severity Identification Outcome"^^xsd:string)
+AnnotationAssertion(rdfs:label <https://purl.org/doves/c8b90c91-6b19-4865-985d-ae552056150e> "Disease Severity Identification Outcome"@en)
 SubClassOf(<https://purl.org/doves/c8b90c91-6b19-4865-985d-ae552056150e> <https://purl.org/doves/8e9f2330-e042-4723-a5f6-422f7565f1ee>)
 
 # Class: <https://purl.org/doves/c8c2f65d-6731-408f-b01b-a39fb47a2764> (Pediatric Ophthalmology)
@@ -696,7 +696,7 @@ SubClassOf(<https://purl.org/doves/c8c2f65d-6731-408f-b01b-a39fb47a2764> <https:
 
 # Class: <https://purl.org/doves/c9013f84-d508-4ab7-88b9-b85ac089eaa8> (Increased Macro Precision)
 
-AnnotationAssertion(rdfs:label <https://purl.org/doves/c9013f84-d508-4ab7-88b9-b85ac089eaa8> "Increased Macro Precision"^^xsd:string)
+AnnotationAssertion(rdfs:label <https://purl.org/doves/c9013f84-d508-4ab7-88b9-b85ac089eaa8> "Increased Macro Precision"@en)
 SubClassOf(<https://purl.org/doves/c9013f84-d508-4ab7-88b9-b85ac089eaa8> <https://purl.org/doves/e8a3913a-2e3c-42c6-b662-a35736ffcada>)
 
 # Class: <https://purl.org/doves/ca36addf-e79a-40f6-b2c2-5cb5b46d6dab> (Neurology)
@@ -721,7 +721,7 @@ SubClassOf(<https://purl.org/doves/cd27d2cf-0101-410d-95d3-651f1245749d> <https:
 
 # Class: <https://purl.org/doves/cd866c42-9c5a-40d7-901d-68102336838f> (Increased Kappa Statistic)
 
-AnnotationAssertion(rdfs:label <https://purl.org/doves/cd866c42-9c5a-40d7-901d-68102336838f> "Increased Kappa Statistic"^^xsd:string)
+AnnotationAssertion(rdfs:label <https://purl.org/doves/cd866c42-9c5a-40d7-901d-68102336838f> "Increased Kappa Statistic"@en)
 SubClassOf(<https://purl.org/doves/cd866c42-9c5a-40d7-901d-68102336838f> <https://purl.org/doves/e8a3913a-2e3c-42c6-b662-a35736ffcada>)
 
 # Class: <https://purl.org/doves/cdec99b1-f3e5-4009-bdc5-49ea965dc503> (Reduced Emergency Department Utilization)
@@ -767,7 +767,7 @@ SubClassOf(<https://purl.org/doves/d20f03be-e7bc-4fdc-830b-0ad2afb01298> <https:
 
 # Class: <https://purl.org/doves/d3f9b329-68f0-4f5b-be4e-6de480313639> (Increased Macro F-1 Score)
 
-AnnotationAssertion(rdfs:label <https://purl.org/doves/d3f9b329-68f0-4f5b-be4e-6de480313639> "Increased Macro F-1 Score"^^xsd:string)
+AnnotationAssertion(rdfs:label <https://purl.org/doves/d3f9b329-68f0-4f5b-be4e-6de480313639> "Increased Macro F-1 Score"@en)
 SubClassOf(<https://purl.org/doves/d3f9b329-68f0-4f5b-be4e-6de480313639> <https://purl.org/doves/e8a3913a-2e3c-42c6-b662-a35736ffcada>)
 
 # Class: <https://purl.org/doves/d629c2b2-e13f-4130-9ff5-d64843449e90> (Rheumatology)
@@ -884,7 +884,7 @@ SubClassOf(<https://purl.org/doves/e664555f-ac26-4050-b63e-4bfa6725a165> <https:
 
 # Class: <https://purl.org/doves/e677ffb2-3a5a-4e16-a017-a7268e348735> (Reduced Adverse Event Rate)
 
-AnnotationAssertion(rdfs:label <https://purl.org/doves/e677ffb2-3a5a-4e16-a017-a7268e348735> "Reduced Adverse Event Rate")
+AnnotationAssertion(rdfs:label <https://purl.org/doves/e677ffb2-3a5a-4e16-a017-a7268e348735> "Reduced Adverse Event Rate"@en)
 SubClassOf(<https://purl.org/doves/e677ffb2-3a5a-4e16-a017-a7268e348735> <https://purl.org/doves/840177a9-3e6d-4978-ac7a-8580c78443d6>)
 SubClassOf(<https://purl.org/doves/e677ffb2-3a5a-4e16-a017-a7268e348735> ObjectSomeValuesFrom(<https://purl.org/doves/35053043-d428-432d-9044-1c3c91f72451> obo:OAE_0000001))
 
@@ -895,17 +895,17 @@ SubClassOf(<https://purl.org/doves/e809c41b-c28d-4364-91d0-d62b8d900f73> <https:
 
 # Class: <https://purl.org/doves/e849bada-9fc3-4799-b3d4-625dc79093f4> (Digital Medicine Application Outcome)
 
-AnnotationAssertion(rdfs:label <https://purl.org/doves/e849bada-9fc3-4799-b3d4-625dc79093f4> "Digital Medicine Application Outcome")
+AnnotationAssertion(rdfs:label <https://purl.org/doves/e849bada-9fc3-4799-b3d4-625dc79093f4> "Digital Medicine Application Outcome"@en)
 AnnotationAssertion(skos:definition <https://purl.org/doves/e849bada-9fc3-4799-b3d4-625dc79093f4> "An outcome that is the result of the use, or of the application of, digital medicine application."^^xsd:string)
 
 # Class: <https://purl.org/doves/e8a3913a-2e3c-42c6-b662-a35736ffcada> (Modified Accuracy)
 
-AnnotationAssertion(rdfs:label <https://purl.org/doves/e8a3913a-2e3c-42c6-b662-a35736ffcada> "Modified Accuracy"^^xsd:string)
+AnnotationAssertion(rdfs:label <https://purl.org/doves/e8a3913a-2e3c-42c6-b662-a35736ffcada> "Modified Accuracy"@en)
 SubClassOf(<https://purl.org/doves/e8a3913a-2e3c-42c6-b662-a35736ffcada> <https://purl.org/doves/78ceb509-e44b-4d8c-bd47-b457f9d835cb>)
 
 # Class: <https://purl.org/doves/e99c9629-5449-42f1-b439-cbd9856c19f3> (Nutrition Outcome)
 
-AnnotationAssertion(rdfs:label <https://purl.org/doves/e99c9629-5449-42f1-b439-cbd9856c19f3> "Nutrition Outcome"^^xsd:string)
+AnnotationAssertion(rdfs:label <https://purl.org/doves/e99c9629-5449-42f1-b439-cbd9856c19f3> "Nutrition Outcome"@en)
 SubClassOf(<https://purl.org/doves/e99c9629-5449-42f1-b439-cbd9856c19f3> <https://purl.org/doves/8e9f2330-e042-4723-a5f6-422f7565f1ee>)
 
 # Class: <https://purl.org/doves/ec2cd378-2780-47d1-bcfb-a7c4a1ec60eb> (Radiology)
@@ -935,12 +935,12 @@ SubClassOf(<https://purl.org/doves/eebb534e-96d3-45d9-9815-72b59056ebec> <https:
 
 # Class: <https://purl.org/doves/eec4d9eb-9db4-44f5-9523-c8b481cf4293> (Interoperability Outcome)
 
-AnnotationAssertion(rdfs:label <https://purl.org/doves/eec4d9eb-9db4-44f5-9523-c8b481cf4293> "Interoperability Outcome"^^xsd:string)
+AnnotationAssertion(rdfs:label <https://purl.org/doves/eec4d9eb-9db4-44f5-9523-c8b481cf4293> "Interoperability Outcome"@en)
 SubClassOf(<https://purl.org/doves/eec4d9eb-9db4-44f5-9523-c8b481cf4293> <https://purl.org/doves/707c8680-500a-46e6-9b54-5658cefc409f>)
 
 # Class: <https://purl.org/doves/efd50c0f-cb79-46f8-9266-1d6afed04248> (Life Year Outcome)
 
-AnnotationAssertion(rdfs:label <https://purl.org/doves/efd50c0f-cb79-46f8-9266-1d6afed04248> "Life Year Outcome"^^xsd:string)
+AnnotationAssertion(rdfs:label <https://purl.org/doves/efd50c0f-cb79-46f8-9266-1d6afed04248> "Life Year Outcome"@en)
 AnnotationAssertion(skos:definition <https://purl.org/doves/efd50c0f-cb79-46f8-9266-1d6afed04248> "Average number of years claimed by the digital health tool to increase the user's life"^^xsd:string)
 SubClassOf(<https://purl.org/doves/efd50c0f-cb79-46f8-9266-1d6afed04248> <https://purl.org/doves/8e9f2330-e042-4723-a5f6-422f7565f1ee>)
 
@@ -957,7 +957,7 @@ SubClassOf(<https://purl.org/doves/f13faa32-33d2-48c3-b9ce-9e0279af659c> <https:
 
 # Class: <https://purl.org/doves/f17801e2-a13c-406b-b395-cb6c0165dfb2> (Increased Negative Predictive Value)
 
-AnnotationAssertion(rdfs:label <https://purl.org/doves/f17801e2-a13c-406b-b395-cb6c0165dfb2> "Increased Negative Predictive Value"^^xsd:string)
+AnnotationAssertion(rdfs:label <https://purl.org/doves/f17801e2-a13c-406b-b395-cb6c0165dfb2> "Increased Negative Predictive Value"@en)
 SubClassOf(<https://purl.org/doves/f17801e2-a13c-406b-b395-cb6c0165dfb2> <https://purl.org/doves/e8a3913a-2e3c-42c6-b662-a35736ffcada>)
 
 # Class: <https://purl.org/doves/f232fec5-bc9c-4b23-845c-0a4672a5be36> (eFax)
@@ -997,7 +997,7 @@ SubClassOf(<https://purl.org/doves/f587aae7-957e-4b04-8883-7f8a4a72dfc4> <https:
 
 # Class: <https://purl.org/doves/f5b0061b-5a83-4dbd-8b51-2da931c6e9b7> (Increased F-1 Score)
 
-AnnotationAssertion(rdfs:label <https://purl.org/doves/f5b0061b-5a83-4dbd-8b51-2da931c6e9b7> "Increased F-1 Score"^^xsd:string)
+AnnotationAssertion(rdfs:label <https://purl.org/doves/f5b0061b-5a83-4dbd-8b51-2da931c6e9b7> "Increased F-1 Score"@en)
 SubClassOf(<https://purl.org/doves/f5b0061b-5a83-4dbd-8b51-2da931c6e9b7> <https://purl.org/doves/e8a3913a-2e3c-42c6-b662-a35736ffcada>)
 
 # Class: <https://purl.org/doves/f5bbbf82-bddb-4bd5-ad9d-e6669d65fca1> (Referral Coordination Outcome)
@@ -1013,7 +1013,7 @@ SubClassOf(<https://purl.org/doves/f70ac7b3-c718-4511-9f13-2f4ab13050b8> <https:
 
 # Class: <https://purl.org/doves/f740a23e-7565-4e5f-be22-7ba9e652fc45> (Decreased Cost per Quality Adjusted Life Years)
 
-AnnotationAssertion(rdfs:label <https://purl.org/doves/f740a23e-7565-4e5f-be22-7ba9e652fc45> "Decreased Cost per Quality Adjusted Life Years")
+AnnotationAssertion(rdfs:label <https://purl.org/doves/f740a23e-7565-4e5f-be22-7ba9e652fc45> "Decreased Cost per Quality Adjusted Life Years"@en)
 SubClassOf(<https://purl.org/doves/f740a23e-7565-4e5f-be22-7ba9e652fc45> <https://purl.org/doves/fbee41fa-7ca0-44ad-85fa-7ab771b2b169>)
 
 # Class: <https://purl.org/doves/f7c5ecc6-56e3-4644-a133-e22d52d80686> (Hospital Allowed Costs)
@@ -1051,7 +1051,7 @@ SubClassOf(<https://purl.org/doves/f9324bd5-9ac2-4fc9-8e5c-cdc026a8f03c> <https:
 
 # Class: <https://purl.org/doves/f972b78e-ca4f-4811-990b-89b9eb375c93> (Remote Patient Monitoring Technology)
 
-AnnotationAssertion(rdfs:label <https://purl.org/doves/f972b78e-ca4f-4811-990b-89b9eb375c93> "Remote Patient Monitoring Technology")
+AnnotationAssertion(rdfs:label <https://purl.org/doves/f972b78e-ca4f-4811-990b-89b9eb375c93> "Remote Patient Monitoring Technology"@en)
 SubClassOf(<https://purl.org/doves/f972b78e-ca4f-4811-990b-89b9eb375c93> <https://purl.org/doves/894b0e16-237d-40f2-87f0-adaa02cab8c8>)
 
 # Class: <https://purl.org/doves/f999b34f-5269-4945-9673-88ab1b9c7906> (Maternal-Fetal Medicine)
@@ -1093,7 +1093,7 @@ SubClassOf(<https://purl.org/doves/fee7cbba-ae36-462f-b0ae-8eefa7460270> <https:
 
 # Class: <https://purl.org/doves/ff617266-46f1-4941-9053-81d4c3531170> (Modified Diagnosis Outcome)
 
-AnnotationAssertion(rdfs:label <https://purl.org/doves/ff617266-46f1-4941-9053-81d4c3531170> "Modified Diagnosis Outcome"^^xsd:string)
+AnnotationAssertion(rdfs:label <https://purl.org/doves/ff617266-46f1-4941-9053-81d4c3531170> "Modified Diagnosis Outcome"@en)
 SubClassOf(<https://purl.org/doves/ff617266-46f1-4941-9053-81d4c3531170> <https://purl.org/doves/8e9f2330-e042-4723-a5f6-422f7565f1ee>)
 SubClassOf(<https://purl.org/doves/ff617266-46f1-4941-9053-81d4c3531170> ObjectSomeValuesFrom(<https://purl.org/doves/24dcb20e-39ed-4469-9d8a-ea3808f4fb16> <https://purl.org/doves/e8a3913a-2e3c-42c6-b662-a35736ffcada>))
 
@@ -1119,7 +1119,7 @@ SubClassOf(<https://purl.org/doves/0affbb06-3be7-44c4-8bbd-2ca9dd0dc388> <https:
 
 # Class: <https://purl.org/doves/0b7a7c80-8dcc-4597-b980-cd04efe70a78> (User Experience Outcome)
 
-AnnotationAssertion(rdfs:label <https://purl.org/doves/0b7a7c80-8dcc-4597-b980-cd04efe70a78> "User Experience Outcome"^^xsd:string)
+AnnotationAssertion(rdfs:label <https://purl.org/doves/0b7a7c80-8dcc-4597-b980-cd04efe70a78> "User Experience Outcome"@en)
 SubClassOf(<https://purl.org/doves/0b7a7c80-8dcc-4597-b980-cd04efe70a78> <https://purl.org/doves/e849bada-9fc3-4799-b3d4-625dc79093f4>)
 
 # Class: <https://purl.org/doves/0b869525-4011-41c4-b250-c261f0a2a2c9> (Adult female person)
@@ -1130,7 +1130,7 @@ EquivalentClasses(<https://purl.org/doves/0b869525-4011-41c4-b250-c261f0a2a2c9> 
 # Class: <https://purl.org/doves/0bd86ad9-6ecc-4226-9627-b458ee64cfb1> (Demo - Peri-operative Guidance Application)
 
 AnnotationAssertion(rdfs:comment <https://purl.org/doves/0bd86ad9-6ecc-4226-9627-b458ee64cfb1> "For demo"^^xsd:string)
-AnnotationAssertion(rdfs:label <https://purl.org/doves/0bd86ad9-6ecc-4226-9627-b458ee64cfb1> "Demo - Peri-operative Guidance Application")
+AnnotationAssertion(rdfs:label <https://purl.org/doves/0bd86ad9-6ecc-4226-9627-b458ee64cfb1> "Demo - Peri-operative Guidance Application"@en)
 SubClassOf(<https://purl.org/doves/0bd86ad9-6ecc-4226-9627-b458ee64cfb1> <https://purl.org/doves/d9e2bafb-40d3-433f-8047-5f7a81973790>)
 SubClassOf(<https://purl.org/doves/0bd86ad9-6ecc-4226-9627-b458ee64cfb1> ObjectSomeValuesFrom(<https://purl.org/doves/bc0c195d-054f-46ef-b11a-7098ecac8258> <https://purl.org/doves/b129abd1-3d08-42e9-b1b3-7ed9f235fe93>))
 SubClassOf(<https://purl.org/doves/0bd86ad9-6ecc-4226-9627-b458ee64cfb1> ObjectSomeValuesFrom(<https://purl.org/doves/bc0c195d-054f-46ef-b11a-7098ecac8258> <https://purl.org/doves/03bebc2e-f81a-47d4-ba3b-829f2158b366>))
@@ -1243,7 +1243,7 @@ SubClassOf(<https://purl.org/doves/09288a8b-606a-4f9b-8efc-ad9b12c4f490> <https:
 
 # Class: <https://purl.org/doves/0997c29d-ec17-40f9-8056-80c70b5953f7> (Medication Dosing Outcome)
 
-AnnotationAssertion(rdfs:label <https://purl.org/doves/0997c29d-ec17-40f9-8056-80c70b5953f7> "Medication Dosing Outcome"^^xsd:string)
+AnnotationAssertion(rdfs:label <https://purl.org/doves/0997c29d-ec17-40f9-8056-80c70b5953f7> "Medication Dosing Outcome"@en)
 SubClassOf(<https://purl.org/doves/0997c29d-ec17-40f9-8056-80c70b5953f7> <https://purl.org/doves/8e9f2330-e042-4723-a5f6-422f7565f1ee>)
 
 # Class: <https://purl.org/doves/1a3cc2db-d71a-4dee-8dea-2003f2dddf78> (Blood Banking/Transfusion Medicine)
@@ -1263,7 +1263,7 @@ SubClassOf(<https://purl.org/doves/1c1d0e62-5c9b-4344-8ff1-9e71d1debb38> <https:
 
 # Class: <https://purl.org/doves/1ce5511a-c36f-4fb4-97a6-8e1b0642a27d> (Technical Feature)
 
-AnnotationAssertion(rdfs:label <https://purl.org/doves/1ce5511a-c36f-4fb4-97a6-8e1b0642a27d> "Technical Feature")
+AnnotationAssertion(rdfs:label <https://purl.org/doves/1ce5511a-c36f-4fb4-97a6-8e1b0642a27d> "Technical Feature"@en)
 SubClassOf(<https://purl.org/doves/1ce5511a-c36f-4fb4-97a6-8e1b0642a27d> <https://purl.org/doves/78ceb509-e44b-4d8c-bd47-b457f9d835cb>)
 
 # Class: <https://purl.org/doves/1d38e6de-d0dc-42a1-bf44-e01339371c7b> (HIPAA Compliance)
@@ -1541,7 +1541,7 @@ SubClassOf(<https://purl.org/doves/4df28317-0241-45a9-b39a-69ef066fd4d5> <https:
 
 # Class: <https://purl.org/doves/4e10ca8c-ec8b-4953-b2d5-cbeee634f6fe> (Increased Positive Predictive Value)
 
-AnnotationAssertion(rdfs:label <https://purl.org/doves/4e10ca8c-ec8b-4953-b2d5-cbeee634f6fe> "Increased Positive Predictive Value"^^xsd:string)
+AnnotationAssertion(rdfs:label <https://purl.org/doves/4e10ca8c-ec8b-4953-b2d5-cbeee634f6fe> "Increased Positive Predictive Value"@en)
 SubClassOf(<https://purl.org/doves/4e10ca8c-ec8b-4953-b2d5-cbeee634f6fe> <https://purl.org/doves/e8a3913a-2e3c-42c6-b662-a35736ffcada>)
 
 # Class: <https://purl.org/doves/400ff4af-ca07-49cd-9114-2dd65f8c34a7> (Electrophysiology)
@@ -1702,13 +1702,13 @@ SubClassOf(<https://purl.org/doves/6ae90853-5950-416b-b796-e28d61767f92> <https:
 
 # Class: <https://purl.org/doves/6b215ace-0c48-42dc-bcb3-20c7007c2705> (Risk Prediction Outcome)
 
-AnnotationAssertion(rdfs:label <https://purl.org/doves/6b215ace-0c48-42dc-bcb3-20c7007c2705> "Risk Prediction Outcome"^^xsd:string)
+AnnotationAssertion(rdfs:label <https://purl.org/doves/6b215ace-0c48-42dc-bcb3-20c7007c2705> "Risk Prediction Outcome"@en)
 SubClassOf(<https://purl.org/doves/6b215ace-0c48-42dc-bcb3-20c7007c2705> <https://purl.org/doves/8e9f2330-e042-4723-a5f6-422f7565f1ee>)
 
-# Class: <https://purl.org/doves/6ca84b77-899d-4fd4-a9ef-b9d1831ce4e6> (Patient_Engagement)
+# Class: <https://purl.org/doves/6ca84b77-899d-4fd4-a9ef-b9d1831ce4e6> (Patient Activation)
 
 AnnotationAssertion(rdfs:label <https://purl.org/doves/6ca84b77-899d-4fd4-a9ef-b9d1831ce4e6> "Patient Activation"@en)
-AnnotationAssertion(rdfs:label <https://purl.org/doves/6ca84b77-899d-4fd4-a9ef-b9d1831ce4e6> "Patient_Engagement")
+AnnotationAssertion(rdfs:label <https://purl.org/doves/6ca84b77-899d-4fd4-a9ef-b9d1831ce4e6> "Patient_Engagement"@en)
 SubClassOf(<https://purl.org/doves/6ca84b77-899d-4fd4-a9ef-b9d1831ce4e6> <https://purl.org/doves/f70ac7b3-c718-4511-9f13-2f4ab13050b8>)
 
 # Class: <https://purl.org/doves/6e987b1b-9abe-47b2-b210-99b45049f434> (Appeared/Scheduled)
@@ -1728,7 +1728,7 @@ SubClassOf(<https://purl.org/doves/6f732e5a-3cb8-47b2-a83e-7e7d24512e77> <https:
 
 # Class: <https://purl.org/doves/6fdf5e33-7497-42d7-b016-72567185a0e3> (Technical Outcome)
 
-AnnotationAssertion(rdfs:label <https://purl.org/doves/6fdf5e33-7497-42d7-b016-72567185a0e3> "Technical Outcome"^^xsd:string)
+AnnotationAssertion(rdfs:label <https://purl.org/doves/6fdf5e33-7497-42d7-b016-72567185a0e3> "Technical Outcome"@en)
 SubClassOf(<https://purl.org/doves/6fdf5e33-7497-42d7-b016-72567185a0e3> <https://purl.org/doves/707c8680-500a-46e6-9b54-5658cefc409f>)
 
 # Class: <https://purl.org/doves/604c0eff-ca87-4934-b96a-e19837c08e8f> (Reduced Episode Total Cost of Care)
@@ -1754,7 +1754,7 @@ SubClassOf(<https://purl.org/doves/6093bed9-a9fb-4553-8546-fc771ed68ba6> <https:
 
 # Class: <https://purl.org/doves/636f2a6e-16d9-4276-84d3-3d6c89b25bd2> (Increased Macro Recall)
 
-AnnotationAssertion(rdfs:label <https://purl.org/doves/636f2a6e-16d9-4276-84d3-3d6c89b25bd2> "Increased Macro Recall"^^xsd:string)
+AnnotationAssertion(rdfs:label <https://purl.org/doves/636f2a6e-16d9-4276-84d3-3d6c89b25bd2> "Increased Macro Recall"@en)
 SubClassOf(<https://purl.org/doves/636f2a6e-16d9-4276-84d3-3d6c89b25bd2> <https://purl.org/doves/e8a3913a-2e3c-42c6-b662-a35736ffcada>)
 
 # Class: <https://purl.org/doves/64d90c0b-9bed-47d3-ae2b-51a001220b27> (Post-procedural)
@@ -1810,7 +1810,7 @@ SubClassOf(<https://purl.org/doves/68f07994-1faf-4213-b49d-57c03bd04037> <https:
 
 # Class: <https://purl.org/doves/688d9ea3-75b2-4b97-ac0b-05414d6acc97> (Quality Adjusted Life Year Outcome)
 
-AnnotationAssertion(rdfs:label <https://purl.org/doves/688d9ea3-75b2-4b97-ac0b-05414d6acc97> "Quality Adjusted Life Year Outcome"^^xsd:string)
+AnnotationAssertion(rdfs:label <https://purl.org/doves/688d9ea3-75b2-4b97-ac0b-05414d6acc97> "Quality Adjusted Life Year Outcome"@en)
 SubClassOf(<https://purl.org/doves/688d9ea3-75b2-4b97-ac0b-05414d6acc97> <https://purl.org/doves/8e9f2330-e042-4723-a5f6-422f7565f1ee>)
 
 # Class: <https://purl.org/doves/7a09f42e-d2c9-4fd5-b1ff-af3f82219976> (Star Ranking)
@@ -1862,7 +1862,7 @@ SubClassOf(<https://purl.org/doves/70c5d7ce-82b7-4ee3-aea7-e8957e97b622> <https:
 
 # Class: <https://purl.org/doves/707c8680-500a-46e6-9b54-5658cefc409f> (Product Performance Non-Clinical Outcome)
 
-AnnotationAssertion(rdfs:label <https://purl.org/doves/707c8680-500a-46e6-9b54-5658cefc409f> "Product Performance Non-Clinical Outcome"^^xsd:string)
+AnnotationAssertion(rdfs:label <https://purl.org/doves/707c8680-500a-46e6-9b54-5658cefc409f> "Product Performance Non-Clinical Outcome"@en)
 SubClassOf(<https://purl.org/doves/707c8680-500a-46e6-9b54-5658cefc409f> <https://purl.org/doves/e849bada-9fc3-4799-b3d4-625dc79093f4>)
 
 # Class: <https://purl.org/doves/711fcca4-517f-4fc4-afc6-8923760ef42f> (Billing Outcome)
@@ -1893,7 +1893,7 @@ SubClassOf(<https://purl.org/doves/7276b5d7-a2c8-48e1-81ca-e5cfd0e9221e> <https:
 
 # Class: <https://purl.org/doves/741ca7e5-34fa-4b3b-9d13-ca8f6bcc942d> (Increased Specificity)
 
-AnnotationAssertion(rdfs:label <https://purl.org/doves/741ca7e5-34fa-4b3b-9d13-ca8f6bcc942d> "Increased Specificity"^^xsd:string)
+AnnotationAssertion(rdfs:label <https://purl.org/doves/741ca7e5-34fa-4b3b-9d13-ca8f6bcc942d> "Increased Specificity"@en)
 SubClassOf(<https://purl.org/doves/741ca7e5-34fa-4b3b-9d13-ca8f6bcc942d> <https://purl.org/doves/e8a3913a-2e3c-42c6-b662-a35736ffcada>)
 
 # Class: <https://purl.org/doves/76e45aca-9c3c-456a-a781-ecce14d24187> (Diabetic Retinopahty Screening)
@@ -1969,12 +1969,12 @@ SubClassOf(<https://purl.org/doves/8d7a95b0-92d1-4312-9894-93b00a1266a4> <https:
 
 # Class: <https://purl.org/doves/8e9f2330-e042-4723-a5f6-422f7565f1ee> (Health Benefit Outcome)
 
-AnnotationAssertion(rdfs:label <https://purl.org/doves/8e9f2330-e042-4723-a5f6-422f7565f1ee> "Health Benefit Outcome"^^xsd:string)
+AnnotationAssertion(rdfs:label <https://purl.org/doves/8e9f2330-e042-4723-a5f6-422f7565f1ee> "Health Benefit Outcome"@en)
 SubClassOf(<https://purl.org/doves/8e9f2330-e042-4723-a5f6-422f7565f1ee> <https://purl.org/doves/93556eac-f0d7-4905-a6f2-6951892fcd82>)
 
 # Class: <https://purl.org/doves/8f5cfb55-bba6-475f-a508-30424e7532bc> (Earlier Time to Diagnosis Outcome)
 
-AnnotationAssertion(rdfs:label <https://purl.org/doves/8f5cfb55-bba6-475f-a508-30424e7532bc> "Earlier Time to Diagnosis Outcome"^^xsd:string)
+AnnotationAssertion(rdfs:label <https://purl.org/doves/8f5cfb55-bba6-475f-a508-30424e7532bc> "Earlier Time to Diagnosis Outcome"@en)
 SubClassOf(<https://purl.org/doves/8f5cfb55-bba6-475f-a508-30424e7532bc> <https://purl.org/doves/ff617266-46f1-4941-9053-81d4c3531170>)
 
 # Class: <https://purl.org/doves/80509963-5d53-4d25-94b1-2da4fd4a2b5d> (Pediatric Pulmonology)
@@ -1984,7 +1984,7 @@ SubClassOf(<https://purl.org/doves/80509963-5d53-4d25-94b1-2da4fd4a2b5d> <https:
 
 # Class: <https://purl.org/doves/8081940e-b77f-4aa1-bfcf-0b979f0a2158> (Healthcare Outcome)
 
-AnnotationAssertion(rdfs:label <https://purl.org/doves/8081940e-b77f-4aa1-bfcf-0b979f0a2158> "Healthcare Outcome"^^xsd:string)
+AnnotationAssertion(rdfs:label <https://purl.org/doves/8081940e-b77f-4aa1-bfcf-0b979f0a2158> "Healthcare Outcome"@en)
 AnnotationAssertion(skos:definition <https://purl.org/doves/8081940e-b77f-4aa1-bfcf-0b979f0a2158> "A Healthcare Outcome is a measurable outcome that is related to a patient or user of a digital medicine application. It includes, for example, clinical outcomes, healthcare economic outcomes, process of care outcomes, healthcare operation outcomes, and education outcomes.")
 SubClassOf(<https://purl.org/doves/8081940e-b77f-4aa1-bfcf-0b979f0a2158> <https://purl.org/doves/e849bada-9fc3-4799-b3d4-625dc79093f4>)
 
@@ -2088,7 +2088,7 @@ SubClassOf(<https://purl.org/doves/9c7d3336-6f55-44fc-86c6-56869858b624> <https:
 
 # Class: <https://purl.org/doves/9caa2510-f3a6-4de8-adcb-c554e91aeba7> (Patient Reported Outcome)
 
-AnnotationAssertion(rdfs:label <https://purl.org/doves/9caa2510-f3a6-4de8-adcb-c554e91aeba7> "Patient Reported Outcome")
+AnnotationAssertion(rdfs:label <https://purl.org/doves/9caa2510-f3a6-4de8-adcb-c554e91aeba7> "Patient Reported Outcome"@en)
 SubClassOf(<https://purl.org/doves/9caa2510-f3a6-4de8-adcb-c554e91aeba7> <https://purl.org/doves/8081940e-b77f-4aa1-bfcf-0b979f0a2158>)
 
 # Class: <https://purl.org/doves/9caefbe3-4e93-461c-ae16-cfd0840e4d89> (Primary Care Encounter Rates)
@@ -2124,7 +2124,7 @@ SubClassOf(<https://purl.org/doves/91de7815-31aa-4fc2-8838-584be35a8690> <https:
 
 # Class: <https://purl.org/doves/9345fc0a-25dd-4d30-8275-da199ca93713> (Cybersecurity Outcome)
 
-AnnotationAssertion(rdfs:label <https://purl.org/doves/9345fc0a-25dd-4d30-8275-da199ca93713> "Cybersecurity Outcome"^^xsd:string)
+AnnotationAssertion(rdfs:label <https://purl.org/doves/9345fc0a-25dd-4d30-8275-da199ca93713> "Cybersecurity Outcome"@en)
 SubClassOf(<https://purl.org/doves/9345fc0a-25dd-4d30-8275-da199ca93713> <https://purl.org/doves/707c8680-500a-46e6-9b54-5658cefc409f>)
 
 # Class: <https://purl.org/doves/93556eac-f0d7-4905-a6f2-6951892fcd82> (Clinical Care Outcome)
