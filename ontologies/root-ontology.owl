@@ -13,7 +13,7 @@ Prefix(oboInOwl:=<http://www.geneontology.org/formats/oboInOwl#>)
 Prefix(webprotege:=<http://webprotege.stanford.edu/>)
 
 
-Ontology(<http://www.ucsf.edu/brosner/ontologies/DOVeS>
+Ontology(<http://purl.org/doves/doves-ontology>
 Import(<http://who.int/icd>)
 Import(<http://www.semanticweb.org/AdverseEventExtract>)
 
@@ -112,6 +112,7 @@ Declaration(Class(<https://purl.org/doves/R4DoLQH58FHJ4cxmKCRqmM>))
 Declaration(Class(<https://purl.org/doves/R4FnJ6DqA4lHZidtiYeFbk>))
 Declaration(Class(<https://purl.org/doves/R4PnWbXfUJ3LgTlP6b14yb>))
 Declaration(Class(<https://purl.org/doves/R704Z9xUvmXRUNoL8rZI00a>))
+Declaration(Class(<https://purl.org/doves/R7AyJI4jU6ZzDTUQtB0xsYN>))
 Declaration(Class(<https://purl.org/doves/R7PF3sLtqszaLPkLo5At1NI>))
 Declaration(Class(<https://purl.org/doves/R7PFYP5SdvCOcgLS3Tvz8io>))
 Declaration(Class(<https://purl.org/doves/R7RQTEd8tsAtxMW7fII9ZKn>))
@@ -139,6 +140,7 @@ Declaration(Class(<https://purl.org/doves/R8EAMQZxsB0Aefa8wPYAcBJ>))
 Declaration(Class(<https://purl.org/doves/R8MDfxPSoXxBYQ55JMCPRHa>))
 Declaration(Class(<https://purl.org/doves/R8QzUYrbacb1rV9HZ5NBFco>))
 Declaration(Class(<https://purl.org/doves/R8RNFt0W2IriuNdu2Pvd1dv>))
+Declaration(Class(<https://purl.org/doves/R8RUN2HMLU8LRIxWQKB65zB>))
 Declaration(Class(<https://purl.org/doves/R8Ug0OXxhS65XrZHkDCrbR2>))
 Declaration(Class(<https://purl.org/doves/R8WQt8yAcMuBfZMQWc8r5MW>))
 Declaration(Class(<https://purl.org/doves/R8bdkvRj9SyX1bNrEta7AHZ>))
@@ -167,6 +169,7 @@ Declaration(Class(<https://purl.org/doves/R99AULey4U4ulsLOukpwgZy>))
 Declaration(Class(<https://purl.org/doves/R9AIQPkDmd3CnIRhq5zneAi>))
 Declaration(Class(<https://purl.org/doves/R9Am8awo882bYwhkqU76ib8>))
 Declaration(Class(<https://purl.org/doves/R9HTKzbsWf390cGxRt1mJw1>))
+Declaration(Class(<https://purl.org/doves/R9JQG8EfsRURpInt91c3p7x>))
 Declaration(Class(<https://purl.org/doves/R9KaCXnXaZU4F1N4ARMKL0x>))
 Declaration(Class(<https://purl.org/doves/R9M9V6XuJbGvn8o0dsqxMda>))
 Declaration(Class(<https://purl.org/doves/R9On05UE7PYnnPkyqs6rYGr>))
@@ -193,6 +196,7 @@ Declaration(Class(<https://purl.org/doves/R9xcCtdLy4i6ftb1w2uBWZ4>))
 Declaration(Class(<https://purl.org/doves/R9ySZyagipXv0MbJxbVOSfC>))
 Declaration(Class(<https://purl.org/doves/R9zdKyCND8dCZH5YeaTcRF1>))
 Declaration(Class(<https://purl.org/doves/RB2HAQlOO1FhNRRGOxfnU2l>))
+Declaration(Class(<https://purl.org/doves/RB3ceV8XtaniyBHbvgYSDtr>))
 Declaration(Class(<https://purl.org/doves/RBA7O901X8KN4ToYyeL4Ktv>))
 Declaration(Class(<https://purl.org/doves/RBAo5KHzMEgNymWKBOqMvVv>))
 Declaration(Class(<https://purl.org/doves/RBC1QxuaaIkWIpqQUZjSfSK>))
@@ -240,6 +244,7 @@ Declaration(Class(<https://purl.org/doves/RCYrfu827L71xR1tBhRWlqa>))
 Declaration(Class(<https://purl.org/doves/RCa0kF0jhWTaHTYIRypnu2K>))
 Declaration(Class(<https://purl.org/doves/RCb75ap9JMMD2Z54yXRcciN>))
 Declaration(Class(<https://purl.org/doves/RCbgQMiWA8pcasyPXEis3NX>))
+Declaration(Class(<https://purl.org/doves/RCc1ppNq7yXZ1vFKkUxngNR>))
 Declaration(Class(<https://purl.org/doves/RCdACVAe8t9fRcO5aXXGszp>))
 Declaration(Class(<https://purl.org/doves/RCdTRvqFTnmEsaDjxHLt23V>))
 Declaration(Class(<https://purl.org/doves/RCecDcfvSXRoTl6iSMLwpht>))
@@ -247,6 +252,7 @@ Declaration(Class(<https://purl.org/doves/RCfaxeRGiGRIdEJD11seHaS>))
 Declaration(Class(<https://purl.org/doves/RCfiIAWDpyV9oYwE9X2Q6oL>))
 Declaration(Class(<https://purl.org/doves/RClmjmR3fdkeCS0yhEjR3Gg>))
 Declaration(Class(<https://purl.org/doves/RCm4HU6I3PDkzEYUTapf2bM>))
+Declaration(Class(<https://purl.org/doves/RCmaA4c2iM0spfBVZgeWihm>))
 Declaration(Class(<https://purl.org/doves/RCojkKeNpHfIvUemyWzDY1J>))
 Declaration(Class(<https://purl.org/doves/RCqHqDSD5P7wCopbocILOqu>))
 Declaration(Class(<https://purl.org/doves/RCtTY5tafWG9sqzv7dtjwgy>))
@@ -281,6 +287,7 @@ Declaration(Class(<https://purl.org/doves/RMmdluVZovoMwAUdHYhjw7>))
 Declaration(Class(<https://purl.org/doves/RNFmsZHdS4MiZv36HIwYzg>))
 Declaration(Class(<https://purl.org/doves/ROOd03WQc3Uf6VFVSnRtXG>))
 Declaration(Class(<https://purl.org/doves/RQdmckpOE1FdhbKWJuW9Oc>))
+Declaration(Class(<https://purl.org/doves/RQnHSIIutd7lpHrILxGNDp>))
 Declaration(Class(<https://purl.org/doves/RRSEAdkySYc9DKMKeO5Sfb>))
 Declaration(Class(<https://purl.org/doves/RSnGhcL2PzGxomn3oS67xL>))
 Declaration(Class(<https://purl.org/doves/RV0SG6ZO6OLJcBhsUwLuSU>))
@@ -302,6 +309,7 @@ Declaration(Class(<https://purl.org/doves/Risk_Prediction_Outcome>))
 Declaration(Class(<https://purl.org/doves/RkA0lovpLy0Idyw3Syv0Jp>))
 Declaration(Class(<https://purl.org/doves/RkUBCcH05wybPYmOdMElto>))
 Declaration(Class(<https://purl.org/doves/RkkqcDIT54tXuWAGKzQMnO>))
+Declaration(Class(<https://purl.org/doves/RliRh13QLYf1xkwEdXRuCH>))
 Declaration(Class(<https://purl.org/doves/RnQIElt1GPWfLt5jkxlhOQ>))
 Declaration(Class(<https://purl.org/doves/Role>))
 Declaration(Class(<https://purl.org/doves/RqcSVX2wWEgeNsKaB049M8>))
@@ -338,6 +346,8 @@ Declaration(Class(<https://purl.org/doves/Patient,Family,Caregiver>))
 Declaration(Class(<https://purl.org/doves/Patient_Activation_Measure_(PAM)>))
 Declaration(Class(<https://purl.org/doves/Positive_Predictive_Value_(Precision)>))
 Declaration(Class(<https://purl.org/doves/Sensitivity_(Recall)>))
+Declaration(ObjectProperty(<https://purl.org/doves/RBDL1vSmEUP92ksknVkhVI>))
+Declaration(ObjectProperty(<https://purl.org/doves/RGZz0D0ELns4FBL6F7Mczw>))
 Declaration(ObjectProperty(<https://purl.org/doves/has_accuracy>))
 Declaration(ObjectProperty(<https://purl.org/doves/has_age_group>))
 Declaration(ObjectProperty(<https://purl.org/doves/has_beneficiary>))
@@ -349,6 +359,7 @@ Declaration(ObjectProperty(<https://purl.org/doves/has_specialty>))
 Declaration(ObjectProperty(<https://purl.org/doves/has_technology>))
 Declaration(AnnotationProperty(rdfs:label))
 Declaration(AnnotationProperty(<https://purl.org/doves/RuJ3b9PXa509e0lpSKrXV2>))
+Declaration(AnnotationProperty(<https://purl.org/doves/RxFpQj0XOjUocGK4ZebVx9>))
 
 ############################
 #   Object Properties
@@ -752,7 +763,7 @@ SubClassOf(<https://purl.org/doves/Post-procedural> <https://purl.org/doves/Peri
 
 SubClassOf(<https://purl.org/doves/Pre-procedural> <https://purl.org/doves/Peri-procedural_Stages>)
 
-# Class: <https://purl.org/doves/Product_Performance_Non-Clinical> (Product Performance Non-Clinical Outcome)
+# Class: <https://purl.org/doves/Product_Performance_Non-Clinical> (<https://purl.org/doves/Product_Performance_Non-Clinical>)
 
 SubClassOf(<https://purl.org/doves/Product_Performance_Non-Clinical> <https://purl.org/doves/R8RUN2HMLU8LRIxWQKB65zB>)
 
@@ -795,7 +806,7 @@ SubClassOf(<https://purl.org/doves/R4PnWbXfUJ3LgTlP6b14yb> <https://purl.org/dov
 AnnotationAssertion(rdfs:label <https://purl.org/doves/R704Z9xUvmXRUNoL8rZI00a> "Post-Operative Length of Stay"@en)
 SubClassOf(<https://purl.org/doves/R704Z9xUvmXRUNoL8rZI00a> <https://purl.org/doves/RDOOMfcvc8JT01SkoCO1iLh>)
 
-# Class: <https://purl.org/doves/R7AyJI4jU6ZzDTUQtB0xsYN> (Demo - Peri-operative Guidance Application)
+# Class: <https://purl.org/doves/R7AyJI4jU6ZzDTUQtB0xsYN> (<https://purl.org/doves/R7AyJI4jU6ZzDTUQtB0xsYN>)
 
 SubClassOf(<https://purl.org/doves/R7AyJI4jU6ZzDTUQtB0xsYN> <https://purl.org/doves/Digital_Medicine_Application>)
 SubClassOf(<https://purl.org/doves/R7AyJI4jU6ZzDTUQtB0xsYN> ObjectSomeValuesFrom(<https://purl.org/doves/RBDL1vSmEUP92ksknVkhVI> <https://purl.org/doves/Caregiver>))
@@ -973,7 +984,7 @@ SubClassOf(<https://purl.org/doves/R8bdkvRj9SyX1bNrEta7AHZ> <https://purl.org/do
 AnnotationAssertion(rdfs:label <https://purl.org/doves/R8bhFhatUvC6hE9mYSq9XrN> "Neonatal-Perinatal Medicine"@en)
 SubClassOf(<https://purl.org/doves/R8bhFhatUvC6hE9mYSq9XrN> <https://purl.org/doves/RBNkdZJvQRQqhdWsQ13iwTl>)
 
-# Class: <https://purl.org/doves/R8f2emOhkyPB9oWznoiE9vF> (Reduced Hospital Readmission Rate)
+# Class: <https://purl.org/doves/R8f2emOhkyPB9oWznoiE9vF> (Reduced Hospital Utilization)
 
 AnnotationAssertion(rdfs:label <https://purl.org/doves/R8f2emOhkyPB9oWznoiE9vF> "Reduced Hospital Readmission Rate"@en)
 AnnotationAssertion(rdfs:label <https://purl.org/doves/R8f2emOhkyPB9oWznoiE9vF> "Reduced Hospital Utilization"@en)
@@ -1482,7 +1493,7 @@ SubClassOf(<https://purl.org/doves/RCb75ap9JMMD2Z54yXRcciN> <https://purl.org/do
 AnnotationAssertion(rdfs:label <https://purl.org/doves/RCbgQMiWA8pcasyPXEis3NX> "Clinical Care Outcome"@en)
 SubClassOf(<https://purl.org/doves/RCbgQMiWA8pcasyPXEis3NX> <https://purl.org/doves/Health_Outcome>)
 
-# Class: <https://purl.org/doves/RCc1ppNq7yXZ1vFKkUxngNR> (Increased Macro Precision)
+# Class: <https://purl.org/doves/RCc1ppNq7yXZ1vFKkUxngNR> (<https://purl.org/doves/RCc1ppNq7yXZ1vFKkUxngNR>)
 
 SubClassOf(<https://purl.org/doves/RCc1ppNq7yXZ1vFKkUxngNR> <https://purl.org/doves/Accuracy>)
 
@@ -1817,7 +1828,7 @@ SubClassOf(<https://purl.org/doves/RkUBCcH05wybPYmOdMElto> <https://purl.org/dov
 AnnotationAssertion(rdfs:label <https://purl.org/doves/RkkqcDIT54tXuWAGKzQMnO> "Neonatal weight gain"@en)
 SubClassOf(<https://purl.org/doves/RkkqcDIT54tXuWAGKzQMnO> <https://purl.org/doves/R8bhFhatUvC6hE9mYSq9XrN>)
 
-# Class: <https://purl.org/doves/RliRh13QLYf1xkwEdXRuCH> (Increased Macro Recall)
+# Class: <https://purl.org/doves/RliRh13QLYf1xkwEdXRuCH> (<https://purl.org/doves/RliRh13QLYf1xkwEdXRuCH>)
 
 SubClassOf(<https://purl.org/doves/RliRh13QLYf1xkwEdXRuCH> <https://purl.org/doves/Accuracy>)
 
@@ -1951,7 +1962,7 @@ SubClassOf(<https://purl.org/doves/Universal_Design> <https://purl.org/doves/Hum
 
 SubClassOf(<https://purl.org/doves/Uptime> <https://purl.org/doves/System_Availability>)
 
-# Class: <https://purl.org/doves/User_Experience> (User Experience Outcome)
+# Class: <https://purl.org/doves/User_Experience> (<https://purl.org/doves/User_Experience>)
 
 SubClassOf(<https://purl.org/doves/User_Experience> <https://purl.org/doves/R8RUN2HMLU8LRIxWQKB65zB>)
 
