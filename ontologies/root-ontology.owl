@@ -259,6 +259,7 @@ Declaration(Class(<https://purl.org/doves/RCtTY5tafWG9sqzv7dtjwgy>))
 Declaration(Class(<https://purl.org/doves/RCwXstUOqe9llxO8OXADs4I>))
 Declaration(Class(<https://purl.org/doves/RDC9kJ7jOwv9eFw9jnbtVXv>))
 Declaration(Class(<https://purl.org/doves/RDCSUpa2hijSjSswGBdHOPz>))
+Declaration(Class(<https://purl.org/doves/RDCofJ4Tr5t0xLdypMtR8Xf>))
 Declaration(Class(<https://purl.org/doves/RDECNKT19F9yMdylfw7KdOs>))
 Declaration(Class(<https://purl.org/doves/RDH4YfEPT2KDw2OCk2Vni96>))
 Declaration(Class(<https://purl.org/doves/RDLg2lNzRSVXPDZn2zaYtyw>))
@@ -304,6 +305,7 @@ Declaration(Class(<https://purl.org/doves/Real_World_Evidence>))
 Declaration(Class(<https://purl.org/doves/Refining_Value>))
 Declaration(Class(<https://purl.org/doves/Resolution_Time>))
 Declaration(Class(<https://purl.org/doves/Response_Time>))
+Declaration(Class(<https://purl.org/doves/RfqDQs04HI1dhnv20FZC37>))
 Declaration(Class(<https://purl.org/doves/Rg3SW1bwPEj88Fo0V2ke2m>))
 Declaration(Class(<https://purl.org/doves/Risk_Prediction_Outcome>))
 Declaration(Class(<https://purl.org/doves/RkA0lovpLy0Idyw3Syv0Jp>))
@@ -763,8 +765,9 @@ SubClassOf(<https://purl.org/doves/Post-procedural> <https://purl.org/doves/Peri
 
 SubClassOf(<https://purl.org/doves/Pre-procedural> <https://purl.org/doves/Peri-procedural_Stages>)
 
-# Class: <https://purl.org/doves/Product_Performance_Non-Clinical> (<https://purl.org/doves/Product_Performance_Non-Clinical>)
+# Class: <https://purl.org/doves/Product_Performance_Non-Clinical> (Product Performance Non-Clinical Outcome)
 
+AnnotationAssertion(rdfs:label <https://purl.org/doves/Product_Performance_Non-Clinical> "Product Performance Non-Clinical Outcome"^^xsd:string)
 SubClassOf(<https://purl.org/doves/Product_Performance_Non-Clinical> <https://purl.org/doves/R8RUN2HMLU8LRIxWQKB65zB>)
 
 # Class: <https://purl.org/doves/Quality_Adjusted_Life_Years> (Quality Adjusted Life Year Outcome)
@@ -806,8 +809,10 @@ SubClassOf(<https://purl.org/doves/R4PnWbXfUJ3LgTlP6b14yb> <https://purl.org/dov
 AnnotationAssertion(rdfs:label <https://purl.org/doves/R704Z9xUvmXRUNoL8rZI00a> "Post-Operative Length of Stay"@en)
 SubClassOf(<https://purl.org/doves/R704Z9xUvmXRUNoL8rZI00a> <https://purl.org/doves/RDOOMfcvc8JT01SkoCO1iLh>)
 
-# Class: <https://purl.org/doves/R7AyJI4jU6ZzDTUQtB0xsYN> (<https://purl.org/doves/R7AyJI4jU6ZzDTUQtB0xsYN>)
+# Class: <https://purl.org/doves/R7AyJI4jU6ZzDTUQtB0xsYN> (Demo - Peri-operative Guidance Application)
 
+AnnotationAssertion(rdfs:comment <https://purl.org/doves/R7AyJI4jU6ZzDTUQtB0xsYN> "For demo"^^xsd:string)
+AnnotationAssertion(rdfs:label <https://purl.org/doves/R7AyJI4jU6ZzDTUQtB0xsYN> "Demo - Peri-operative Guidance Application")
 SubClassOf(<https://purl.org/doves/R7AyJI4jU6ZzDTUQtB0xsYN> <https://purl.org/doves/Digital_Medicine_Application>)
 SubClassOf(<https://purl.org/doves/R7AyJI4jU6ZzDTUQtB0xsYN> ObjectSomeValuesFrom(<https://purl.org/doves/RBDL1vSmEUP92ksknVkhVI> <https://purl.org/doves/Caregiver>))
 SubClassOf(<https://purl.org/doves/R7AyJI4jU6ZzDTUQtB0xsYN> ObjectSomeValuesFrom(<https://purl.org/doves/RBDL1vSmEUP92ksknVkhVI> <https://purl.org/doves/Patient>))
@@ -1110,6 +1115,8 @@ SubClassOf(<https://purl.org/doves/R9HTKzbsWf390cGxRt1mJw1> <https://purl.org/do
 # Class: <https://purl.org/doves/R9JQG8EfsRURpInt91c3p7x> (Reduced Adverse Event Rate)
 
 AnnotationAssertion(rdfs:label <https://purl.org/doves/R9JQG8EfsRURpInt91c3p7x> "Reduced Adverse Event Rate")
+SubClassOf(<https://purl.org/doves/R9JQG8EfsRURpInt91c3p7x> <https://purl.org/doves/Safety_Event>)
+SubClassOf(<https://purl.org/doves/R9JQG8EfsRURpInt91c3p7x> ObjectSomeValuesFrom(<https://purl.org/doves/RWi6sNFIyQX2S6jFizTBlu> obo:OAE_0000001))
 
 # Class: <https://purl.org/doves/R9KaCXnXaZU4F1N4ARMKL0x> (Vascular Surgery)
 
@@ -1493,8 +1500,9 @@ SubClassOf(<https://purl.org/doves/RCb75ap9JMMD2Z54yXRcciN> <https://purl.org/do
 AnnotationAssertion(rdfs:label <https://purl.org/doves/RCbgQMiWA8pcasyPXEis3NX> "Clinical Care Outcome"@en)
 SubClassOf(<https://purl.org/doves/RCbgQMiWA8pcasyPXEis3NX> <https://purl.org/doves/Health_Outcome>)
 
-# Class: <https://purl.org/doves/RCc1ppNq7yXZ1vFKkUxngNR> (<https://purl.org/doves/RCc1ppNq7yXZ1vFKkUxngNR>)
+# Class: <https://purl.org/doves/RCc1ppNq7yXZ1vFKkUxngNR> (Increased Macro Precision)
 
+AnnotationAssertion(rdfs:label <https://purl.org/doves/RCc1ppNq7yXZ1vFKkUxngNR> "Increased Macro Precision"^^xsd:string)
 SubClassOf(<https://purl.org/doves/RCc1ppNq7yXZ1vFKkUxngNR> <https://purl.org/doves/Accuracy>)
 
 # Class: <https://purl.org/doves/RCdACVAe8t9fRcO5aXXGszp> (30 Day Risk Adjusted Revisit Rate)
@@ -1566,6 +1574,11 @@ SubClassOf(<https://purl.org/doves/RDC9kJ7jOwv9eFw9jnbtVXv> <https://purl.org/do
 
 AnnotationAssertion(rdfs:label <https://purl.org/doves/RDCSUpa2hijSjSswGBdHOPz> "Allergy and Immunology"@en)
 SubClassOf(<https://purl.org/doves/RDCSUpa2hijSjSswGBdHOPz> <https://purl.org/doves/RDUr3jp1SgVT0dbieHOv7k3>)
+
+# Class: <https://purl.org/doves/RDCofJ4Tr5t0xLdypMtR8Xf> (Earlier Time to Diagnosis Outcome)
+
+AnnotationAssertion(rdfs:label <https://purl.org/doves/RDCofJ4Tr5t0xLdypMtR8Xf> "Earlier Time to Diagnosis Outcome"^^xsd:string)
+SubClassOf(<https://purl.org/doves/RDCofJ4Tr5t0xLdypMtR8Xf> <https://purl.org/doves/Diagnosis>)
 
 # Class: <https://purl.org/doves/RDECNKT19F9yMdylfw7KdOs> (Healthcare Utilization Outcome)
 
@@ -1803,6 +1816,11 @@ SubClassOf(<https://purl.org/doves/Resolution_Time> <https://purl.org/doves/Issu
 
 SubClassOf(<https://purl.org/doves/Response_Time> <https://purl.org/doves/Issue_Resolution>)
 
+# Class: <https://purl.org/doves/RfqDQs04HI1dhnv20FZC37> (Decreased Cost per Quality Adjusted Life Years)
+
+AnnotationAssertion(rdfs:label <https://purl.org/doves/RfqDQs04HI1dhnv20FZC37> "Decreased Cost per Quality Adjusted Life Years")
+SubClassOf(<https://purl.org/doves/RfqDQs04HI1dhnv20FZC37> <https://purl.org/doves/RBEPrDEZDMBQX9QhR5neEU>)
+
 # Class: <https://purl.org/doves/Rg3SW1bwPEj88Fo0V2ke2m> (Knee)
 
 AnnotationAssertion(rdfs:label <https://purl.org/doves/Rg3SW1bwPEj88Fo0V2ke2m> "Knee"@en)
@@ -1828,8 +1846,9 @@ SubClassOf(<https://purl.org/doves/RkUBCcH05wybPYmOdMElto> <https://purl.org/dov
 AnnotationAssertion(rdfs:label <https://purl.org/doves/RkkqcDIT54tXuWAGKzQMnO> "Neonatal weight gain"@en)
 SubClassOf(<https://purl.org/doves/RkkqcDIT54tXuWAGKzQMnO> <https://purl.org/doves/R8bhFhatUvC6hE9mYSq9XrN>)
 
-# Class: <https://purl.org/doves/RliRh13QLYf1xkwEdXRuCH> (<https://purl.org/doves/RliRh13QLYf1xkwEdXRuCH>)
+# Class: <https://purl.org/doves/RliRh13QLYf1xkwEdXRuCH> (Increased Macro Recall)
 
+AnnotationAssertion(rdfs:label <https://purl.org/doves/RliRh13QLYf1xkwEdXRuCH> "Increased Macro Recall"^^xsd:string)
 SubClassOf(<https://purl.org/doves/RliRh13QLYf1xkwEdXRuCH> <https://purl.org/doves/Accuracy>)
 
 # Class: <https://purl.org/doves/RnQIElt1GPWfLt5jkxlhOQ> (Ankle)
@@ -1962,8 +1981,9 @@ SubClassOf(<https://purl.org/doves/Universal_Design> <https://purl.org/doves/Hum
 
 SubClassOf(<https://purl.org/doves/Uptime> <https://purl.org/doves/System_Availability>)
 
-# Class: <https://purl.org/doves/User_Experience> (<https://purl.org/doves/User_Experience>)
+# Class: <https://purl.org/doves/User_Experience> (User Experience Outcome)
 
+AnnotationAssertion(rdfs:label <https://purl.org/doves/User_Experience> "User Experience Outcome"^^xsd:string)
 SubClassOf(<https://purl.org/doves/User_Experience> <https://purl.org/doves/R8RUN2HMLU8LRIxWQKB65zB>)
 
 # Class: <https://purl.org/doves/Vision_Impaired> (<https://purl.org/doves/Vision_Impaired>)
@@ -1993,6 +2013,4 @@ AnnotationAssertion(rdfs:label <https://purl.org/doves/Sensitivity_(Recall)> "In
 SubClassOf(<https://purl.org/doves/Sensitivity_(Recall)> <https://purl.org/doves/Accuracy>)
 
 
-AnnotationAssertion(rdfs:label <https://purl.org/doves/RDCofJ4Tr5t0xLdypMtR8Xf> "Earlier Time to Diagnosis Outcome"^^xsd:string)
-AnnotationAssertion(rdfs:label <https://purl.org/doves/RfqDQs04HI1dhnv20FZC37> "Decreased Cost per Quality Adjusted Life Years")
 )
