@@ -524,9 +524,9 @@ SubClassOf(<https://purl.org/doves/ad49b249-3b61-45af-91ea-1ec2bf61eff4> <https:
 AnnotationAssertion(rdfs:label <https://purl.org/doves/ae3e5479-6f31-4619-992c-16509fef95fb> "Adolescent girl person"@en)
 EquivalentClasses(<https://purl.org/doves/ae3e5479-6f31-4619-992c-16509fef95fb> ObjectIntersectionOf(<https://purl.org/doves/01d40506-2d2f-4237-a87b-229e268c2f14> ObjectSomeValuesFrom(<https://purl.org/doves/e352e4b8-9c80-45f1-a877-a397b5b33cc1> <https://purl.org/doves/f13faa32-33d2-48c3-b9ce-9e0279af659c>) ObjectSomeValuesFrom(<https://purl.org/doves/4b61e411-782f-4ccd-9f96-ba45caef73b6> <https://purl.org/doves/edd2c14b-bbc5-4eec-8c18-26acc71bcda5>)))
 
-# Class: <https://purl.org/doves/afa90ae5-da23-4f28-8fd4-ce2d8ce18b40> (Price Transparency)
+# Class: <https://purl.org/doves/afa90ae5-da23-4f28-8fd4-ce2d8ce18b40> (Price Transparency Outcome)
 
-AnnotationAssertion(rdfs:label <https://purl.org/doves/afa90ae5-da23-4f28-8fd4-ce2d8ce18b40> "Price Transparency"@en)
+AnnotationAssertion(rdfs:label <https://purl.org/doves/afa90ae5-da23-4f28-8fd4-ce2d8ce18b40> "Price Transparency Outcome"@en)
 SubClassOf(<https://purl.org/doves/afa90ae5-da23-4f28-8fd4-ce2d8ce18b40> <https://purl.org/doves/0323ba81-5b6f-417d-9829-263c5403582f>)
 
 # Class: <https://purl.org/doves/b10b1490-4dce-4970-bd31-5e59471fa6fb> (Patient EHR Data)
@@ -582,6 +582,7 @@ SubClassOf(<https://purl.org/doves/b76a7263-551f-43d2-8834-72ae47c14777> <https:
 # Class: <https://purl.org/doves/b7809475-8b09-4213-b83a-b4d970cb21ac> (Public Health Education Outcome)
 
 AnnotationAssertion(rdfs:label <https://purl.org/doves/b7809475-8b09-4213-b83a-b4d970cb21ac> "Public Health Education Outcome"@en)
+AnnotationAssertion(skos:definition <https://purl.org/doves/b7809475-8b09-4213-b83a-b4d970cb21ac> "A Public Health Education Outcome is an Education Outcome that is reflected in an aggregate measure of the public's understanding of a disease or condition relative to a comparator state of the public's understanding.")
 SubClassOf(<https://purl.org/doves/b7809475-8b09-4213-b83a-b4d970cb21ac> <https://purl.org/doves/7da308ef-fe88-4e97-9805-fff9b829d538>)
 
 # Class: <https://purl.org/doves/b8499147-fac1-4186-87c2-c937f0450fc7> (Phase 1 Trial)
@@ -672,14 +673,16 @@ SubClassOf(<https://purl.org/doves/c420321e-c648-4ee8-bf15-9df9800e8bde> <https:
 AnnotationAssertion(rdfs:label <https://purl.org/doves/c6593bc1-6feb-427e-a736-28842e1208bc> "Billing Codes"@en)
 SubClassOf(<https://purl.org/doves/c6593bc1-6feb-427e-a736-28842e1208bc> <https://purl.org/doves/1ce5511a-c36f-4fb4-97a6-8e1b0642a27d>)
 
-# Class: <https://purl.org/doves/c6ffecc1-9d5b-4509-806d-fe7464f6421a> (Comprehension)
+# Class: <https://purl.org/doves/c6ffecc1-9d5b-4509-806d-fe7464f6421a> (Comprehension Outcome)
 
-AnnotationAssertion(rdfs:label <https://purl.org/doves/c6ffecc1-9d5b-4509-806d-fe7464f6421a> "Comprehension"@en)
+AnnotationAssertion(rdfs:label <https://purl.org/doves/c6ffecc1-9d5b-4509-806d-fe7464f6421a> "Comprehension Outcome"@en)
+AnnotationAssertion(skos:definition <https://purl.org/doves/c6ffecc1-9d5b-4509-806d-fe7464f6421a> "A Comprehension Outcome is a Patient/Family Education Outcome that is a measure of comprehension.")
 SubClassOf(<https://purl.org/doves/c6ffecc1-9d5b-4509-806d-fe7464f6421a> <https://purl.org/doves/0323ba81-5b6f-417d-9829-263c5403582f>)
 
-# Class: <https://purl.org/doves/c8696978-6ad4-40a4-8569-2a5286f518b1> (Increased Diagnostic Accuracy)
+# Class: <https://purl.org/doves/c8696978-6ad4-40a4-8569-2a5286f518b1> (Increased Diagnostic Accuracy Outcome)
 
-AnnotationAssertion(rdfs:label <https://purl.org/doves/c8696978-6ad4-40a4-8569-2a5286f518b1> "Increased Diagnostic Accuracy"@en)
+AnnotationAssertion(rdfs:label <https://purl.org/doves/c8696978-6ad4-40a4-8569-2a5286f518b1> "Increased Diagnostic Accuracy Outcome"@en)
+AnnotationAssertion(skos:definition <https://purl.org/doves/c8696978-6ad4-40a4-8569-2a5286f518b1> "Increased Diagnositc Accuracy Outcome is a Modified Diagnosis Outcome describing the capacity for a Digital Medicine Application to modify the accuracy of a diagnosis relative to that of a comparator means (e.g. current care, another digital medicine application, etc.)")
 SubClassOf(<https://purl.org/doves/c8696978-6ad4-40a4-8569-2a5286f518b1> <https://purl.org/doves/ff617266-46f1-4941-9053-81d4c3531170>)
 SubClassOf(<https://purl.org/doves/c8696978-6ad4-40a4-8569-2a5286f518b1> <https://purl.org/doves/5ccd05b6-2fbd-4874-b61a-c52c1dcfbe64>)
 SubClassOf(<https://purl.org/doves/c8696978-6ad4-40a4-8569-2a5286f518b1> ObjectSomeValuesFrom(<https://purl.org/doves/0b2c1bd0-14ae-4a1e-87de-ebe24e30c891> <https://purl.org/doves/e8a3913a-2e3c-42c6-b662-a35736ffcada>))
@@ -687,6 +690,7 @@ SubClassOf(<https://purl.org/doves/c8696978-6ad4-40a4-8569-2a5286f518b1> ObjectS
 # Class: <https://purl.org/doves/c8b90c91-6b19-4865-985d-ae552056150e> (Disease Severity Identification Outcome)
 
 AnnotationAssertion(rdfs:label <https://purl.org/doves/c8b90c91-6b19-4865-985d-ae552056150e> "Disease Severity Identification Outcome"@en)
+AnnotationAssertion(skos:definition <https://purl.org/doves/c8b90c91-6b19-4865-985d-ae552056150e> "A Disease Severity Identification Outcome is a Health Benefit Outcome that a Digital Medicine Application may help identify or quantify. It is a measure of the severity of a disease.")
 SubClassOf(<https://purl.org/doves/c8b90c91-6b19-4865-985d-ae552056150e> <https://purl.org/doves/8e9f2330-e042-4723-a5f6-422f7565f1ee>)
 
 # Class: <https://purl.org/doves/c8c2f65d-6731-408f-b01b-a39fb47a2764> (Pediatric Ophthalmology)
@@ -798,7 +802,7 @@ SubClassOf(<https://purl.org/doves/d8921308-6f79-4d16-8633-d63e9d8ed046> <https:
 # Class: <https://purl.org/doves/d9e2bafb-40d3-433f-8047-5f7a81973790> (Digital Medicine Application)
 
 AnnotationAssertion(rdfs:label <https://purl.org/doves/d9e2bafb-40d3-433f-8047-5f7a81973790> "Digital Medicine Application"@en)
-AnnotationAssertion(skos:definition <https://purl.org/doves/d9e2bafb-40d3-433f-8047-5f7a81973790> "A digital medicine application is an application that leverages digital technologies to address healthcare outcomes with one or more users, at least one of whom is a healthcare professional. Digital medicine applications are conceptually related to Software as a Medical Device (SaMD) or Software in a Medical Device (SiMD)"^^xsd:string)
+AnnotationAssertion(skos:definition <https://purl.org/doves/d9e2bafb-40d3-433f-8047-5f7a81973790> "A digital medicine application is an application that leverages digital technologies to address healthcare outcomes relating to one or more diseases or specialties, using one or more technological approaches, with one or more users at least one of whom is a healthcare professional. Digital medicine applications are conceptually related to Software as a Medical Device (SaMD) or Software in a Medical Device (SiMD)"^^xsd:string)
 SubClassOf(<https://purl.org/doves/d9e2bafb-40d3-433f-8047-5f7a81973790> ObjectSomeValuesFrom(<https://purl.org/doves/a9867165-15f1-42bd-98ea-98879909af88> <https://purl.org/doves/42032214-7b35-46e0-98f9-cd903d8fd464>))
 SubClassOf(<https://purl.org/doves/d9e2bafb-40d3-433f-8047-5f7a81973790> ObjectSomeValuesFrom(<https://purl.org/doves/bc0c195d-054f-46ef-b11a-7098ecac8258> <https://purl.org/doves/01d40506-2d2f-4237-a87b-229e268c2f14>))
 SubClassOf(<https://purl.org/doves/d9e2bafb-40d3-433f-8047-5f7a81973790> ObjectSomeValuesFrom(<https://purl.org/doves/e9bd6438-a483-4c69-a6e6-281376bca09c> <https://purl.org/doves/1d62d176-3b08-4743-819c-ba79585f3a38>))
@@ -906,6 +910,7 @@ SubClassOf(<https://purl.org/doves/e8a3913a-2e3c-42c6-b662-a35736ffcada> <https:
 # Class: <https://purl.org/doves/e99c9629-5449-42f1-b439-cbd9856c19f3> (Nutrition Outcome)
 
 AnnotationAssertion(rdfs:label <https://purl.org/doves/e99c9629-5449-42f1-b439-cbd9856c19f3> "Nutrition Outcome"@en)
+AnnotationAssertion(skos:definition <https://purl.org/doves/e99c9629-5449-42f1-b439-cbd9856c19f3> "Nutrition Outcome is a Health Benefit Outcome that describes a nutritional outcome (e.g. calorie, weight, etc.) deriving in whole or in part from a Digital Medicine Application.")
 SubClassOf(<https://purl.org/doves/e99c9629-5449-42f1-b439-cbd9856c19f3> <https://purl.org/doves/8e9f2330-e042-4723-a5f6-422f7565f1ee>)
 
 # Class: <https://purl.org/doves/ec2cd378-2780-47d1-bcfb-a7c4a1ec60eb> (Radiology)
@@ -941,7 +946,7 @@ SubClassOf(<https://purl.org/doves/eec4d9eb-9db4-44f5-9523-c8b481cf4293> <https:
 # Class: <https://purl.org/doves/efd50c0f-cb79-46f8-9266-1d6afed04248> (Life Year Outcome)
 
 AnnotationAssertion(rdfs:label <https://purl.org/doves/efd50c0f-cb79-46f8-9266-1d6afed04248> "Life Year Outcome"@en)
-AnnotationAssertion(skos:definition <https://purl.org/doves/efd50c0f-cb79-46f8-9266-1d6afed04248> "Average number of years claimed by the digital health tool to increase the user's life"^^xsd:string)
+AnnotationAssertion(skos:definition <https://purl.org/doves/efd50c0f-cb79-46f8-9266-1d6afed04248> "A Life Year Outcome is a Health Benefit Outcome that pertains to quantifying the number of life years impacted, directly or indirectly, by a given Digital Medicine Application."^^xsd:string)
 SubClassOf(<https://purl.org/doves/efd50c0f-cb79-46f8-9266-1d6afed04248> <https://purl.org/doves/8e9f2330-e042-4723-a5f6-422f7565f1ee>)
 
 # Class: <https://purl.org/doves/efd57ad7-5a59-475e-a84f-361a6b56185c> (Scheduling speed)
@@ -1094,6 +1099,7 @@ SubClassOf(<https://purl.org/doves/fee7cbba-ae36-462f-b0ae-8eefa7460270> <https:
 # Class: <https://purl.org/doves/ff617266-46f1-4941-9053-81d4c3531170> (Modified Diagnosis Outcome)
 
 AnnotationAssertion(rdfs:label <https://purl.org/doves/ff617266-46f1-4941-9053-81d4c3531170> "Modified Diagnosis Outcome"@en)
+AnnotationAssertion(skos:definition <https://purl.org/doves/ff617266-46f1-4941-9053-81d4c3531170> "A Modified Diagnosis Outcome is a Health Benefit Outcome pertaining to a Digital Medicine Application's ability to modify the timeliness or accuracy of a diagnosis.")
 SubClassOf(<https://purl.org/doves/ff617266-46f1-4941-9053-81d4c3531170> <https://purl.org/doves/8e9f2330-e042-4723-a5f6-422f7565f1ee>)
 SubClassOf(<https://purl.org/doves/ff617266-46f1-4941-9053-81d4c3531170> ObjectSomeValuesFrom(<https://purl.org/doves/24dcb20e-39ed-4469-9d8a-ea3808f4fb16> <https://purl.org/doves/e8a3913a-2e3c-42c6-b662-a35736ffcada>))
 
@@ -1199,6 +1205,7 @@ SubClassOf(<https://purl.org/doves/03d77b9b-3826-4fc8-ae93-d953da207de4> <https:
 # Class: <https://purl.org/doves/0323ba81-5b6f-417d-9829-263c5403582f> (Patient/Family Education Outcome)
 
 AnnotationAssertion(rdfs:label <https://purl.org/doves/0323ba81-5b6f-417d-9829-263c5403582f> "Patient/Family Education Outcome"@en)
+AnnotationAssertion(skos:definition <https://purl.org/doves/0323ba81-5b6f-417d-9829-263c5403582f> "A Patient/Family Education Outcome is an Education Outcome that is reflected in a patient or family member's understanding of a disease or condition relative to a comparator state of the the patient or family member's understanding.")
 SubClassOf(<https://purl.org/doves/0323ba81-5b6f-417d-9829-263c5403582f> <https://purl.org/doves/7da308ef-fe88-4e97-9805-fff9b829d538>)
 
 # Class: <https://purl.org/doves/0362170c-0c07-4857-adde-9ca253726780> (Vascular Surgery)
@@ -1244,6 +1251,7 @@ SubClassOf(<https://purl.org/doves/09288a8b-606a-4f9b-8efc-ad9b12c4f490> <https:
 # Class: <https://purl.org/doves/0997c29d-ec17-40f9-8056-80c70b5953f7> (Medication Dosing Outcome)
 
 AnnotationAssertion(rdfs:label <https://purl.org/doves/0997c29d-ec17-40f9-8056-80c70b5953f7> "Medication Dosing Outcome"@en)
+AnnotationAssertion(skos:definition <https://purl.org/doves/0997c29d-ec17-40f9-8056-80c70b5953f7> "A Medication Dosing Outcome is a Health Benefit Outcome that pertains to optimally identifying dosing of a medication based on a variety of input parameters.")
 SubClassOf(<https://purl.org/doves/0997c29d-ec17-40f9-8056-80c70b5953f7> <https://purl.org/doves/8e9f2330-e042-4723-a5f6-422f7565f1ee>)
 
 # Class: <https://purl.org/doves/1a3cc2db-d71a-4dee-8dea-2003f2dddf78> (Blood Banking/Transfusion Medicine)
@@ -1630,14 +1638,16 @@ SubClassOf(<https://purl.org/doves/5ccd05b6-2fbd-4874-b61a-c52c1dcfbe64> <https:
 AnnotationAssertion(rdfs:label <https://purl.org/doves/5d419b76-6e84-464a-b671-f8c899f6cb81> "Operating Room Outcome"@en)
 SubClassOf(<https://purl.org/doves/5d419b76-6e84-464a-b671-f8c899f6cb81> <https://purl.org/doves/1ae3245a-1b7f-40b2-ae3b-74706699204a>)
 
-# Class: <https://purl.org/doves/5facd265-e889-49c1-a9bf-4c2f63794a52> (Trainee Education)
+# Class: <https://purl.org/doves/5facd265-e889-49c1-a9bf-4c2f63794a52> (Trainee Education Outcome)
 
-AnnotationAssertion(rdfs:label <https://purl.org/doves/5facd265-e889-49c1-a9bf-4c2f63794a52> "Trainee Education"@en)
+AnnotationAssertion(rdfs:label <https://purl.org/doves/5facd265-e889-49c1-a9bf-4c2f63794a52> "Trainee Education Outcome"@en)
+AnnotationAssertion(skos:definition <https://purl.org/doves/5facd265-e889-49c1-a9bf-4c2f63794a52> "A Trainee Education Outcome is a Clinician Education Outcome that pertains to a clinical trainee (e.g. medical student, resident).")
 SubClassOf(<https://purl.org/doves/5facd265-e889-49c1-a9bf-4c2f63794a52> <https://purl.org/doves/6063f39d-33f9-488b-b104-1f4145e9e4d8>)
 
 # Class: <https://purl.org/doves/50ad7f77-d002-4a47-b6ea-4863ea375eca> (Mid-Level Practitioner Education)
 
 AnnotationAssertion(rdfs:label <https://purl.org/doves/50ad7f77-d002-4a47-b6ea-4863ea375eca> "Mid-Level Practitioner Education"@en)
+AnnotationAssertion(skos:definition <https://purl.org/doves/50ad7f77-d002-4a47-b6ea-4863ea375eca> "A Mid-Level Practitioner Education Outcome is a Clinician Education Outcome that pertains to a mid-level practitioner such as a Physician Assistant or a Nurse Practitioner.")
 SubClassOf(<https://purl.org/doves/50ad7f77-d002-4a47-b6ea-4863ea375eca> <https://purl.org/doves/6063f39d-33f9-488b-b104-1f4145e9e4d8>)
 
 # Class: <https://purl.org/doves/500dd687-ce4f-49a9-a3dd-3482f3891230> (Pre-procedural)
@@ -1670,10 +1680,10 @@ SubClassOf(<https://purl.org/doves/56b9fc8a-386d-4c88-b7b3-6bc1708c65fc> <https:
 AnnotationAssertion(rdfs:label <https://purl.org/doves/5687bea0-97bc-42d1-9bfb-fc590b4cb4ee> "Spine"@en)
 SubClassOf(<https://purl.org/doves/5687bea0-97bc-42d1-9bfb-fc590b4cb4ee> <https://purl.org/doves/f578ffc9-e13e-44ba-828b-fe600d844430>)
 
-# Class: <https://purl.org/doves/58687062-857c-43f5-9e50-d6961a84a9b0> (Increased Diagnostic Throughput)
+# Class: <https://purl.org/doves/58687062-857c-43f5-9e50-d6961a84a9b0> (Increased Diagnostic Throughput Outcome)
 
-AnnotationAssertion(rdfs:label <https://purl.org/doves/58687062-857c-43f5-9e50-d6961a84a9b0> "Increased Diagnostic Throughput"@en)
-SubClassOf(<https://purl.org/doves/58687062-857c-43f5-9e50-d6961a84a9b0> <https://purl.org/doves/ff617266-46f1-4941-9053-81d4c3531170>)
+AnnotationAssertion(rdfs:label <https://purl.org/doves/58687062-857c-43f5-9e50-d6961a84a9b0> "Increased Diagnostic Throughput Outcome"@en)
+SubClassOf(<https://purl.org/doves/58687062-857c-43f5-9e50-d6961a84a9b0> <https://purl.org/doves/1ae3245a-1b7f-40b2-ae3b-74706699204a>)
 
 # Class: <https://purl.org/doves/590aa3dd-91ac-4473-9a47-142c4d83bb64> (Pediatric Anesthesiology)
 
@@ -1703,6 +1713,7 @@ SubClassOf(<https://purl.org/doves/6ae90853-5950-416b-b796-e28d61767f92> <https:
 # Class: <https://purl.org/doves/6b215ace-0c48-42dc-bcb3-20c7007c2705> (Risk Prediction Outcome)
 
 AnnotationAssertion(rdfs:label <https://purl.org/doves/6b215ace-0c48-42dc-bcb3-20c7007c2705> "Risk Prediction Outcome"@en)
+AnnotationAssertion(skos:definition <https://purl.org/doves/6b215ace-0c48-42dc-bcb3-20c7007c2705> "A Risk Prediction Outcome is a Health Benefit Outcome that describes a probability of condition or disease based on a variety of digital inputs.")
 SubClassOf(<https://purl.org/doves/6b215ace-0c48-42dc-bcb3-20c7007c2705> <https://purl.org/doves/8e9f2330-e042-4723-a5f6-422f7565f1ee>)
 
 # Class: <https://purl.org/doves/6ca84b77-899d-4fd4-a9ef-b9d1831ce4e6> (Patient Activation)
@@ -1740,6 +1751,7 @@ SubClassOf(<https://purl.org/doves/604c0eff-ca87-4934-b96a-e19837c08e8f> <https:
 # Class: <https://purl.org/doves/6063f39d-33f9-488b-b104-1f4145e9e4d8> (Clinician Education Outcome)
 
 AnnotationAssertion(rdfs:label <https://purl.org/doves/6063f39d-33f9-488b-b104-1f4145e9e4d8> "Clinician Education Outcome"@en)
+AnnotationAssertion(skos:definition <https://purl.org/doves/6063f39d-33f9-488b-b104-1f4145e9e4d8> "A Clinician Education Outcome is an Education Outcome that is reflected in a clinician's understanding of a disease or condition relative to a comparator state of the clinician's understanding.")
 SubClassOf(<https://purl.org/doves/6063f39d-33f9-488b-b104-1f4145e9e4d8> <https://purl.org/doves/7da308ef-fe88-4e97-9805-fff9b829d538>)
 
 # Class: <https://purl.org/doves/60664c15-d39e-460b-9e48-98e660cb8b57> (HEDIS Measures)
@@ -1767,9 +1779,10 @@ SubClassOf(<https://purl.org/doves/64d90c0b-9bed-47d3-ae2b-51a001220b27> <https:
 AnnotationAssertion(rdfs:label <https://purl.org/doves/65bc9f69-6a0b-4fa7-a27f-f14c7befcca0> "30 Day All Cause Readmission Rate"@en)
 SubClassOf(<https://purl.org/doves/65bc9f69-6a0b-4fa7-a27f-f14c7befcca0> <https://purl.org/doves/68ea2f3e-8efc-4c00-8c78-772dffcf09de>)
 
-# Class: <https://purl.org/doves/65fb3268-8c4a-4718-ab02-57a0f43a9c3d> (Doctor Education)
+# Class: <https://purl.org/doves/65fb3268-8c4a-4718-ab02-57a0f43a9c3d> (Doctor Education Outcome)
 
-AnnotationAssertion(rdfs:label <https://purl.org/doves/65fb3268-8c4a-4718-ab02-57a0f43a9c3d> "Doctor Education"@en)
+AnnotationAssertion(rdfs:label <https://purl.org/doves/65fb3268-8c4a-4718-ab02-57a0f43a9c3d> "Doctor Education Outcome"@en)
+AnnotationAssertion(skos:definition <https://purl.org/doves/65fb3268-8c4a-4718-ab02-57a0f43a9c3d> "A Doctor Education Outcome is a Clinician Education Outcome that pertains to a physician (MD or DO).")
 SubClassOf(<https://purl.org/doves/65fb3268-8c4a-4718-ab02-57a0f43a9c3d> <https://purl.org/doves/6063f39d-33f9-488b-b104-1f4145e9e4d8>)
 
 # Class: <https://purl.org/doves/653ff95b-ac79-4656-a8c1-3bb52f74d8a3> (Child girl person)
@@ -1811,6 +1824,7 @@ SubClassOf(<https://purl.org/doves/68f07994-1faf-4213-b49d-57c03bd04037> <https:
 # Class: <https://purl.org/doves/688d9ea3-75b2-4b97-ac0b-05414d6acc97> (Quality Adjusted Life Year Outcome)
 
 AnnotationAssertion(rdfs:label <https://purl.org/doves/688d9ea3-75b2-4b97-ac0b-05414d6acc97> "Quality Adjusted Life Year Outcome"@en)
+AnnotationAssertion(skos:definition <https://purl.org/doves/688d9ea3-75b2-4b97-ac0b-05414d6acc97> "A Quality Adjusted Life Year Outcome is a Health Benefit Outcome that describes the number of quality adjusted life years impacted, in whole or in part, by a Digital Medicine Application.")
 SubClassOf(<https://purl.org/doves/688d9ea3-75b2-4b97-ac0b-05414d6acc97> <https://purl.org/doves/8e9f2330-e042-4723-a5f6-422f7565f1ee>)
 
 # Class: <https://purl.org/doves/7a09f42e-d2c9-4fd5-b1ff-af3f82219976> (Star Ranking)
@@ -1841,6 +1855,7 @@ SubClassOf(<https://purl.org/doves/7d739656-06a3-4b6c-96c2-52e6b45bc838> <https:
 # Class: <https://purl.org/doves/7da308ef-fe88-4e97-9805-fff9b829d538> (Education Outcome)
 
 AnnotationAssertion(rdfs:label <https://purl.org/doves/7da308ef-fe88-4e97-9805-fff9b829d538> "Education Outcome"@en)
+AnnotationAssertion(skos:definition <https://purl.org/doves/7da308ef-fe88-4e97-9805-fff9b829d538> "An Education Outcome is a measurable Healthcare Outcome that described the impact of a Digital Medicine Application on a user or beneficiary's education relative to a comparator state, about a given medical condition or disease, or the management of that condition or disease.")
 AnnotationAssertion(<https://purl.org/doves/073169f2-4e43-4e6f-a720-a6a6b2d8642a> <https://purl.org/doves/7da308ef-fe88-4e97-9805-fff9b829d538> "true"^^xsd:boolean)
 SubClassOf(<https://purl.org/doves/7da308ef-fe88-4e97-9805-fff9b829d538> <https://purl.org/doves/8081940e-b77f-4aa1-bfcf-0b979f0a2158>)
 
@@ -1906,9 +1921,9 @@ SubClassOf(<https://purl.org/doves/76e45aca-9c3c-456a-a781-ecce14d24187> <https:
 AnnotationAssertion(rdfs:label <https://purl.org/doves/77ef3fb2-da9d-4bb2-9114-b02a2bd95dd7> "Cost Savings"@en)
 SubClassOf(<https://purl.org/doves/77ef3fb2-da9d-4bb2-9114-b02a2bd95dd7> <https://purl.org/doves/f4629b84-b36a-4289-b94f-dd16d8446cc5>)
 
-# Class: <https://purl.org/doves/77117758-cad7-4295-83e8-ce5df05237e2> (Materials accessed per invited patients per month)
+# Class: <https://purl.org/doves/77117758-cad7-4295-83e8-ce5df05237e2> (Materials Accessed per Invited User Per Time Outcome)
 
-AnnotationAssertion(rdfs:label <https://purl.org/doves/77117758-cad7-4295-83e8-ce5df05237e2> "Materials accessed per invited patients per month"@en)
+AnnotationAssertion(rdfs:label <https://purl.org/doves/77117758-cad7-4295-83e8-ce5df05237e2> "Materials Accessed per Invited User Per Time Outcome"@en)
 SubClassOf(<https://purl.org/doves/77117758-cad7-4295-83e8-ce5df05237e2> <https://purl.org/doves/0323ba81-5b6f-417d-9829-263c5403582f>)
 
 # Class: <https://purl.org/doves/77781100-d4c7-44b5-8c07-6588bb65e3fb> (Annual Rolling Uptime)
@@ -1970,11 +1985,13 @@ SubClassOf(<https://purl.org/doves/8d7a95b0-92d1-4312-9894-93b00a1266a4> <https:
 # Class: <https://purl.org/doves/8e9f2330-e042-4723-a5f6-422f7565f1ee> (Health Benefit Outcome)
 
 AnnotationAssertion(rdfs:label <https://purl.org/doves/8e9f2330-e042-4723-a5f6-422f7565f1ee> "Health Benefit Outcome"@en)
+AnnotationAssertion(skos:definition <https://purl.org/doves/8e9f2330-e042-4723-a5f6-422f7565f1ee> "A Health Benefit Outcome is a Clinical Care Outcome that pertains to a the direct or indirect health benefit for the beneficiary of a digital medicine application.")
 SubClassOf(<https://purl.org/doves/8e9f2330-e042-4723-a5f6-422f7565f1ee> <https://purl.org/doves/93556eac-f0d7-4905-a6f2-6951892fcd82>)
 
-# Class: <https://purl.org/doves/8f5cfb55-bba6-475f-a508-30424e7532bc> (Earlier Time to Diagnosis Outcome)
+# Class: <https://purl.org/doves/8f5cfb55-bba6-475f-a508-30424e7532bc> (Time to Diagnosis Outcome)
 
-AnnotationAssertion(rdfs:label <https://purl.org/doves/8f5cfb55-bba6-475f-a508-30424e7532bc> "Earlier Time to Diagnosis Outcome"@en)
+AnnotationAssertion(rdfs:label <https://purl.org/doves/8f5cfb55-bba6-475f-a508-30424e7532bc> "Time to Diagnosis Outcome"@en)
+AnnotationAssertion(skos:definition <https://purl.org/doves/8f5cfb55-bba6-475f-a508-30424e7532bc> "Time to Diagnosis Outcome is a Modified Diagnosis Outcome describing a Digital Medicine Application's capacity to impact the time required to arrive at a diagnosis.")
 SubClassOf(<https://purl.org/doves/8f5cfb55-bba6-475f-a508-30424e7532bc> <https://purl.org/doves/ff617266-46f1-4941-9053-81d4c3531170>)
 
 # Class: <https://purl.org/doves/80509963-5d53-4d25-94b1-2da4fd4a2b5d> (Pediatric Pulmonology)
@@ -1985,7 +2002,7 @@ SubClassOf(<https://purl.org/doves/80509963-5d53-4d25-94b1-2da4fd4a2b5d> <https:
 # Class: <https://purl.org/doves/8081940e-b77f-4aa1-bfcf-0b979f0a2158> (Healthcare Outcome)
 
 AnnotationAssertion(rdfs:label <https://purl.org/doves/8081940e-b77f-4aa1-bfcf-0b979f0a2158> "Healthcare Outcome"@en)
-AnnotationAssertion(skos:definition <https://purl.org/doves/8081940e-b77f-4aa1-bfcf-0b979f0a2158> "A Healthcare Outcome is a measurable outcome that is related to a patient or user of a digital medicine application. It includes, for example, clinical outcomes, healthcare economic outcomes, process of care outcomes, healthcare operation outcomes, and education outcomes.")
+AnnotationAssertion(skos:definition <https://purl.org/doves/8081940e-b77f-4aa1-bfcf-0b979f0a2158> "A Healthcare Outcome is a measurable Digital Medicine Application Outcome that is atrributable in whole or part to a user of a digital medicine application. It includes, for example, clinical outcomes, healthcare economic outcomes, process of care outcomes, healthcare operation outcomes, and education outcomes.")
 SubClassOf(<https://purl.org/doves/8081940e-b77f-4aa1-bfcf-0b979f0a2158> <https://purl.org/doves/e849bada-9fc3-4799-b3d4-625dc79093f4>)
 
 # Class: <https://purl.org/doves/81955a73-7b46-4cb4-bbae-5c34311aa8a0> (Sex)
@@ -2014,9 +2031,10 @@ AnnotationAssertion(rdfs:label <https://purl.org/doves/84c77263-1ffa-4e24-9f74-2
 SubClassOf(<https://purl.org/doves/84c77263-1ffa-4e24-9f74-2f3547475dbf> <https://purl.org/doves/1ff5e67f-968a-4bb0-b693-cde80e30f967>)
 SubClassOf(<https://purl.org/doves/84c77263-1ffa-4e24-9f74-2f3547475dbf> <https://purl.org/doves/9c7d3336-6f55-44fc-86c6-56869858b624>)
 
-# Class: <https://purl.org/doves/840177a9-3e6d-4978-ac7a-8580c78443d6> (Safety Event)
+# Class: <https://purl.org/doves/840177a9-3e6d-4978-ac7a-8580c78443d6> (Safety Event Outcome)
 
-AnnotationAssertion(rdfs:label <https://purl.org/doves/840177a9-3e6d-4978-ac7a-8580c78443d6> "Safety Event"@en)
+AnnotationAssertion(rdfs:label <https://purl.org/doves/840177a9-3e6d-4978-ac7a-8580c78443d6> "Safety Event Outcome"@en)
+AnnotationAssertion(skos:definition <https://purl.org/doves/840177a9-3e6d-4978-ac7a-8580c78443d6> "A Safety Event Outcome is a Clinical Care Outcome that describes the mitigation (or worsening) of a safety event or side effect that a Digital Medicine Application may help mitigate, or that a Digital Medicine Application may cause.")
 AnnotationAssertion(<https://purl.org/doves/073169f2-4e43-4e6f-a720-a6a6b2d8642a> <https://purl.org/doves/840177a9-3e6d-4978-ac7a-8580c78443d6> "Textual definition"^^xsd:string)
 SubClassOf(<https://purl.org/doves/840177a9-3e6d-4978-ac7a-8580c78443d6> <https://purl.org/doves/93556eac-f0d7-4905-a6f2-6951892fcd82>)
 
@@ -2130,6 +2148,7 @@ SubClassOf(<https://purl.org/doves/9345fc0a-25dd-4d30-8275-da199ca93713> <https:
 # Class: <https://purl.org/doves/93556eac-f0d7-4905-a6f2-6951892fcd82> (Clinical Care Outcome)
 
 AnnotationAssertion(rdfs:label <https://purl.org/doves/93556eac-f0d7-4905-a6f2-6951892fcd82> "Clinical Care Outcome"@en)
+AnnotationAssertion(skos:definition <https://purl.org/doves/93556eac-f0d7-4905-a6f2-6951892fcd82> "A Clinical Care Outcome is a Healthcare Outcome that pertains to a change in a disease state or a condition of a patient.")
 SubClassOf(<https://purl.org/doves/93556eac-f0d7-4905-a6f2-6951892fcd82> <https://purl.org/doves/8081940e-b77f-4aa1-bfcf-0b979f0a2158>)
 
 # Class: <https://purl.org/doves/94f4763c-ef68-4267-8b54-7f2e2a9b4b9e> (Resolution Time)
