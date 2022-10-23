@@ -527,6 +527,7 @@ EquivalentClasses(<https://purl.org/doves/ae3e5479-6f31-4619-992c-16509fef95fb> 
 # Class: <https://purl.org/doves/afa90ae5-da23-4f28-8fd4-ce2d8ce18b40> (Price Transparency Outcome)
 
 AnnotationAssertion(rdfs:label <https://purl.org/doves/afa90ae5-da23-4f28-8fd4-ce2d8ce18b40> "Price Transparency Outcome"@en)
+AnnotationAssertion(skos:definition <https://purl.org/doves/afa90ae5-da23-4f28-8fd4-ce2d8ce18b40> "Price Transparency Outcome is a Patient/Family Education Outcome that pertains to healthcare cost transparency.")
 SubClassOf(<https://purl.org/doves/afa90ae5-da23-4f28-8fd4-ce2d8ce18b40> <https://purl.org/doves/0323ba81-5b6f-417d-9829-263c5403582f>)
 
 # Class: <https://purl.org/doves/b10b1490-4dce-4970-bd31-5e59471fa6fb> (Patient EHR Data)
@@ -1013,6 +1014,7 @@ SubClassOf(<https://purl.org/doves/f5bbbf82-bddb-4bd5-ad9d-e6669d65fca1> <https:
 # Class: <https://purl.org/doves/f70ac7b3-c718-4511-9f13-2f4ab13050b8> (Engagement and Adherence Outcome)
 
 AnnotationAssertion(rdfs:label <https://purl.org/doves/f70ac7b3-c718-4511-9f13-2f4ab13050b8> "Engagement and Adherence Outcome"@en)
+AnnotationAssertion(skos:definition <https://purl.org/doves/f70ac7b3-c718-4511-9f13-2f4ab13050b8> "Engagement and Adherence Outcome is a Healthcare Outcome that pertains to the engagement of a user of a Digital Medicine Application and/or the impact that a Digital Medicine Application has on a patient's healthcare engagement or adherence to a healthcare action plan or medication.")
 AnnotationAssertion(<https://purl.org/doves/073169f2-4e43-4e6f-a720-a6a6b2d8642a> <https://purl.org/doves/f70ac7b3-c718-4511-9f13-2f4ab13050b8> "true"^^xsd:boolean)
 SubClassOf(<https://purl.org/doves/f70ac7b3-c718-4511-9f13-2f4ab13050b8> <https://purl.org/doves/8081940e-b77f-4aa1-bfcf-0b979f0a2158>)
 
