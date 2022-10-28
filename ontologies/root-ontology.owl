@@ -680,9 +680,9 @@ AnnotationAssertion(rdfs:label <https://purl.org/doves/c6ffecc1-9d5b-4509-806d-f
 AnnotationAssertion(skos:definition <https://purl.org/doves/c6ffecc1-9d5b-4509-806d-fe7464f6421a> "A Comprehension Outcome is a Patient/Family Education Outcome that is a measure of comprehension.")
 SubClassOf(<https://purl.org/doves/c6ffecc1-9d5b-4509-806d-fe7464f6421a> <https://purl.org/doves/0323ba81-5b6f-417d-9829-263c5403582f>)
 
-# Class: <https://purl.org/doves/c8696978-6ad4-40a4-8569-2a5286f518b1> (Increased Diagnostic Accuracy Outcome)
+# Class: <https://purl.org/doves/c8696978-6ad4-40a4-8569-2a5286f518b1> (Modified Diagnostic Accuracy Outcome)
 
-AnnotationAssertion(rdfs:label <https://purl.org/doves/c8696978-6ad4-40a4-8569-2a5286f518b1> "Increased Diagnostic Accuracy Outcome"@en)
+AnnotationAssertion(rdfs:label <https://purl.org/doves/c8696978-6ad4-40a4-8569-2a5286f518b1> "Modified Diagnostic Accuracy Outcome"@en)
 AnnotationAssertion(skos:definition <https://purl.org/doves/c8696978-6ad4-40a4-8569-2a5286f518b1> "Increased Diagnositc Accuracy Outcome is a Modified Diagnosis Outcome describing the capacity for a Digital Medicine Application to modify the accuracy of a diagnosis relative to that of a comparator means (e.g. current care, another digital medicine application, etc.)")
 SubClassOf(<https://purl.org/doves/c8696978-6ad4-40a4-8569-2a5286f518b1> <https://purl.org/doves/ff617266-46f1-4941-9053-81d4c3531170>)
 SubClassOf(<https://purl.org/doves/c8696978-6ad4-40a4-8569-2a5286f518b1> ObjectSomeValuesFrom(<https://purl.org/doves/24dcb20e-39ed-4469-9d8a-ea3808f4fb16> <https://purl.org/doves/e8a3913a-2e3c-42c6-b662-a35736ffcada>))
@@ -902,9 +902,9 @@ SubClassOf(<https://purl.org/doves/e809c41b-c28d-4364-91d0-d62b8d900f73> <https:
 AnnotationAssertion(rdfs:label <https://purl.org/doves/e849bada-9fc3-4799-b3d4-625dc79093f4> "Digital Medicine Application Outcome"@en)
 AnnotationAssertion(skos:definition <https://purl.org/doves/e849bada-9fc3-4799-b3d4-625dc79093f4> "An outcome that is the result of the use, or of the application of, digital medicine application."^^xsd:string)
 
-# Class: <https://purl.org/doves/e8a3913a-2e3c-42c6-b662-a35736ffcada> (Modified Accuracy)
+# Class: <https://purl.org/doves/e8a3913a-2e3c-42c6-b662-a35736ffcada> (Increased Accuracy)
 
-AnnotationAssertion(rdfs:label <https://purl.org/doves/e8a3913a-2e3c-42c6-b662-a35736ffcada> "Modified Accuracy"@en)
+AnnotationAssertion(rdfs:label <https://purl.org/doves/e8a3913a-2e3c-42c6-b662-a35736ffcada> "Increased Accuracy"@en)
 SubClassOf(<https://purl.org/doves/e8a3913a-2e3c-42c6-b662-a35736ffcada> <https://purl.org/doves/78ceb509-e44b-4d8c-bd47-b457f9d835cb>)
 
 # Class: <https://purl.org/doves/e99c9629-5449-42f1-b439-cbd9856c19f3> (Nutrition Outcome)
