@@ -685,6 +685,7 @@ SubClassOf(<https://purl.org/doves/c6ffecc1-9d5b-4509-806d-fe7464f6421a> <https:
 AnnotationAssertion(rdfs:label <https://purl.org/doves/c8696978-6ad4-40a4-8569-2a5286f518b1> "Increased Diagnostic Accuracy Outcome"@en)
 AnnotationAssertion(skos:definition <https://purl.org/doves/c8696978-6ad4-40a4-8569-2a5286f518b1> "Increased Diagnositc Accuracy Outcome is a Modified Diagnosis Outcome describing the capacity for a Digital Medicine Application to modify the accuracy of a diagnosis relative to that of a comparator means (e.g. current care, another digital medicine application, etc.)")
 SubClassOf(<https://purl.org/doves/c8696978-6ad4-40a4-8569-2a5286f518b1> <https://purl.org/doves/ff617266-46f1-4941-9053-81d4c3531170>)
+SubClassOf(<https://purl.org/doves/c8696978-6ad4-40a4-8569-2a5286f518b1> ObjectSomeValuesFrom(<https://purl.org/doves/24dcb20e-39ed-4469-9d8a-ea3808f4fb16> <https://purl.org/doves/e8a3913a-2e3c-42c6-b662-a35736ffcada>))
 
 # Class: <https://purl.org/doves/c8b90c91-6b19-4865-985d-ae552056150e> (Disease Severity Identification Outcome)
 
@@ -1101,7 +1102,6 @@ SubClassOf(<https://purl.org/doves/fee7cbba-ae36-462f-b0ae-8eefa7460270> <https:
 AnnotationAssertion(rdfs:label <https://purl.org/doves/ff617266-46f1-4941-9053-81d4c3531170> "Modified Diagnosis Outcome"@en)
 AnnotationAssertion(skos:definition <https://purl.org/doves/ff617266-46f1-4941-9053-81d4c3531170> "A Modified Diagnosis Outcome is a Health Benefit Outcome pertaining to a Digital Medicine Application's ability to modify the timeliness or accuracy of a diagnosis.")
 SubClassOf(<https://purl.org/doves/ff617266-46f1-4941-9053-81d4c3531170> <https://purl.org/doves/8e9f2330-e042-4723-a5f6-422f7565f1ee>)
-SubClassOf(<https://purl.org/doves/ff617266-46f1-4941-9053-81d4c3531170> ObjectSomeValuesFrom(<https://purl.org/doves/24dcb20e-39ed-4469-9d8a-ea3808f4fb16> <https://purl.org/doves/e8a3913a-2e3c-42c6-b662-a35736ffcada>))
 
 # Class: <https://purl.org/doves/ffa41d5f-ac78-4968-bac4-f1db43842960> (Speech Impaired)
 
