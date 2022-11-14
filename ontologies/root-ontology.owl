@@ -27,7 +27,6 @@ Declaration(Class(<https://purl.org/doves/a3b02116-232d-4dd4-b60c-315dcc69d601>)
 Declaration(Class(<https://purl.org/doves/a5627207-3c76-4b6c-8c81-f24283570b23>))
 Declaration(Class(<https://purl.org/doves/a735f242-018e-44c0-9aed-ed18d81632b8>))
 Declaration(Class(<https://purl.org/doves/a93a87f9-7853-4885-9856-28eb1fa52b3b>))
-Declaration(Class(<https://purl.org/doves/ac479ea7-df23-4ae6-8879-cd2f8d455da3>))
 Declaration(Class(<https://purl.org/doves/acb718e4-eb5d-4c70-aa21-06bddeb9fd05>))
 Declaration(Class(<https://purl.org/doves/ad49b249-3b61-45af-91ea-1ec2bf61eff4>))
 Declaration(Class(<https://purl.org/doves/ae3e5479-6f31-4619-992c-16509fef95fb>))
@@ -473,11 +472,6 @@ SubClassOf(<https://purl.org/doves/a735f242-018e-44c0-9aed-ed18d81632b8> <https:
 AnnotationAssertion(rdfs:label <https://purl.org/doves/a93a87f9-7853-4885-9856-28eb1fa52b3b> "General Surgery"@en)
 SubClassOf(<https://purl.org/doves/a93a87f9-7853-4885-9856-28eb1fa52b3b> <https://purl.org/doves/1d62d176-3b08-4743-819c-ba79585f3a38>)
 
-# Class: <https://purl.org/doves/ac479ea7-df23-4ae6-8879-cd2f8d455da3> (Condition)
-
-AnnotationAssertion(rdfs:label <https://purl.org/doves/ac479ea7-df23-4ae6-8879-cd2f8d455da3> "Condition"@en)
-SubClassOf(<https://purl.org/doves/ac479ea7-df23-4ae6-8879-cd2f8d455da3> <https://purl.org/doves/78ceb509-e44b-4d8c-bd47-b457f9d835cb>)
-
 # Class: <https://purl.org/doves/acb718e4-eb5d-4c70-aa21-06bddeb9fd05> (Demo - Diabetic Retinopathy Application)
 
 AnnotationAssertion(rdfs:comment <https://purl.org/doves/acb718e4-eb5d-4c70-aa21-06bddeb9fd05> "For demo"^^xsd:string)
@@ -785,7 +779,6 @@ SubClassOf(<https://purl.org/doves/d9e2bafb-40d3-433f-8047-5f7a81973790> ObjectS
 SubClassOf(<https://purl.org/doves/d9e2bafb-40d3-433f-8047-5f7a81973790> ObjectSomeValuesFrom(<https://purl.org/doves/e9bd6438-a483-4c69-a6e6-281376bca09c> <https://purl.org/doves/1d62d176-3b08-4743-819c-ba79585f3a38>))
 SubClassOf(<https://purl.org/doves/d9e2bafb-40d3-433f-8047-5f7a81973790> ObjectSomeValuesFrom(<https://purl.org/doves/0f7444a8-2cef-4af2-b3e9-b4d0d5e0b55c> <https://purl.org/doves/894b0e16-237d-40f2-87f0-adaa02cab8c8>))
 SubClassOf(<https://purl.org/doves/d9e2bafb-40d3-433f-8047-5f7a81973790> ObjectSomeValuesFrom(<https://purl.org/doves/100faaf8-90b4-4831-9f11-10f4d0c155eb> <https://purl.org/doves/01d40506-2d2f-4237-a87b-229e268c2f14>))
-SubClassOf(<https://purl.org/doves/d9e2bafb-40d3-433f-8047-5f7a81973790> ObjectSomeValuesFrom(<https://purl.org/doves/2d8bd602-011c-4327-ad38-86436d9fa943> <https://purl.org/doves/ac479ea7-df23-4ae6-8879-cd2f8d455da3>))
 SubClassOf(<https://purl.org/doves/d9e2bafb-40d3-433f-8047-5f7a81973790> ObjectSomeValuesFrom(<https://purl.org/doves/5b5e21c9-08f7-4c4f-a8ab-18f3914fdabc> <https://purl.org/doves/e849bada-9fc3-4799-b3d4-625dc79093f4>))
 
 # Class: <https://purl.org/doves/da3392c3-0c35-4aed-8a3a-c3307314a65e> (Ultrasound)
