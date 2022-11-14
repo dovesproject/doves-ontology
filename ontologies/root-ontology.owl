@@ -359,21 +359,8 @@ Declaration(ObjectProperty(<https://purl.org/doves/24dcb20e-39ed-4469-9d8a-ea380
 Declaration(ObjectProperty(<https://purl.org/doves/35053043-d428-432d-9044-1c3c91f72451>))
 Declaration(ObjectProperty(<https://purl.org/doves/4b61e411-782f-4ccd-9f96-ba45caef73b6>))
 Declaration(ObjectProperty(<https://purl.org/doves/5b5e21c9-08f7-4c4f-a8ab-18f3914fdabc>))
+Declaration(NamedIndividual(<http://purl.org/doves/4bedc15f_c338_435e_8489_48fe5adb7304>))
 Declaration(AnnotationProperty(rdfs:label))
-Declaration(AnnotationProperty(<https://purl.org/doves/0e30e02d-fe38-4b7b-bca2-7f07aff70b89>))
-Declaration(AnnotationProperty(<https://purl.org/doves/073169f2-4e43-4e6f-a720-a6a6b2d8642a>))
-############################
-#   Annotation Properties
-############################
-
-# Annotation Property: <https://purl.org/doves/0e30e02d-fe38-4b7b-bca2-7f07aff70b89> (RuJ3b9PXa509e0lpSKrXV2)
-
-AnnotationAssertion(rdfs:label <https://purl.org/doves/0e30e02d-fe38-4b7b-bca2-7f07aff70b89> "RuJ3b9PXa509e0lpSKrXV2"@en)
-
-# Annotation Property: <https://purl.org/doves/073169f2-4e43-4e6f-a720-a6a6b2d8642a> (RxFpQj0XOjUocGK4ZebVx9)
-
-AnnotationAssertion(rdfs:label <https://purl.org/doves/073169f2-4e43-4e6f-a720-a6a6b2d8642a> "RxFpQj0XOjUocGK4ZebVx9"@en)
-
 
 ############################
 #   Object Properties
@@ -489,7 +476,6 @@ SubClassOf(<https://purl.org/doves/a93a87f9-7853-4885-9856-28eb1fa52b3b> <https:
 # Class: <https://purl.org/doves/ac479ea7-df23-4ae6-8879-cd2f8d455da3> (Condition)
 
 AnnotationAssertion(rdfs:label <https://purl.org/doves/ac479ea7-df23-4ae6-8879-cd2f8d455da3> "Condition"@en)
-AnnotationAssertion(<https://purl.org/doves/073169f2-4e43-4e6f-a720-a6a6b2d8642a> <https://purl.org/doves/ac479ea7-df23-4ae6-8879-cd2f8d455da3> "true"^^xsd:boolean)
 SubClassOf(<https://purl.org/doves/ac479ea7-df23-4ae6-8879-cd2f8d455da3> <https://purl.org/doves/78ceb509-e44b-4d8c-bd47-b457f9d835cb>)
 
 # Class: <https://purl.org/doves/acb718e4-eb5d-4c70-aa21-06bddeb9fd05> (Demo - Diabetic Retinopathy Application)
@@ -1005,7 +991,6 @@ SubClassOf(<https://purl.org/doves/f5bbbf82-bddb-4bd5-ad9d-e6669d65fca1> <https:
 
 AnnotationAssertion(rdfs:label <https://purl.org/doves/f70ac7b3-c718-4511-9f13-2f4ab13050b8> "Engagement and Adherence Outcome"@en)
 AnnotationAssertion(skos:definition <https://purl.org/doves/f70ac7b3-c718-4511-9f13-2f4ab13050b8> "Engagement and Adherence Outcome is a Healthcare Outcome that pertains to the engagement of a user of a Digital Medicine Application and/or the impact that a Digital Medicine Application has on a patient's healthcare engagement or adherence to a healthcare action plan or medication.")
-AnnotationAssertion(<https://purl.org/doves/073169f2-4e43-4e6f-a720-a6a6b2d8642a> <https://purl.org/doves/f70ac7b3-c718-4511-9f13-2f4ab13050b8> "true"^^xsd:boolean)
 SubClassOf(<https://purl.org/doves/f70ac7b3-c718-4511-9f13-2f4ab13050b8> <https://purl.org/doves/8081940e-b77f-4aa1-bfcf-0b979f0a2158>)
 
 # Class: <https://purl.org/doves/f740a23e-7565-4e5f-be22-7ba9e652fc45> (Decreased Cost per Quality Adjusted Life Years)
@@ -1847,7 +1832,6 @@ SubClassOf(<https://purl.org/doves/7d739656-06a3-4b6c-96c2-52e6b45bc838> <https:
 
 AnnotationAssertion(rdfs:label <https://purl.org/doves/7da308ef-fe88-4e97-9805-fff9b829d538> "Education Outcome"@en)
 AnnotationAssertion(skos:definition <https://purl.org/doves/7da308ef-fe88-4e97-9805-fff9b829d538> "An Education Outcome is a measurable Healthcare Outcome that described the impact of a Digital Medicine Application on a user or beneficiary's education relative to a comparator state, about a given medical condition or disease, or the management of that condition or disease.")
-AnnotationAssertion(<https://purl.org/doves/073169f2-4e43-4e6f-a720-a6a6b2d8642a> <https://purl.org/doves/7da308ef-fe88-4e97-9805-fff9b829d538> "true"^^xsd:boolean)
 SubClassOf(<https://purl.org/doves/7da308ef-fe88-4e97-9805-fff9b829d538> <https://purl.org/doves/8081940e-b77f-4aa1-bfcf-0b979f0a2158>)
 
 # Class: <https://purl.org/doves/7e6b1054-c27e-4024-9446-95e5386bc66e> (Hospice and Palliative Medicine)
@@ -2026,7 +2010,6 @@ SubClassOf(<https://purl.org/doves/84c77263-1ffa-4e24-9f74-2f3547475dbf> <https:
 
 AnnotationAssertion(rdfs:label <https://purl.org/doves/840177a9-3e6d-4978-ac7a-8580c78443d6> "Safety Event Outcome"@en)
 AnnotationAssertion(skos:definition <https://purl.org/doves/840177a9-3e6d-4978-ac7a-8580c78443d6> "A Safety Event Outcome is a Clinical Care Outcome that describes the mitigation (or worsening) of a safety event or side effect that a Digital Medicine Application may help mitigate, or that a Digital Medicine Application may cause.")
-AnnotationAssertion(<https://purl.org/doves/073169f2-4e43-4e6f-a720-a6a6b2d8642a> <https://purl.org/doves/840177a9-3e6d-4978-ac7a-8580c78443d6> "Textual definition"^^xsd:string)
 SubClassOf(<https://purl.org/doves/840177a9-3e6d-4978-ac7a-8580c78443d6> <https://purl.org/doves/93556eac-f0d7-4905-a6f2-6951892fcd82>)
 
 # Class: <https://purl.org/doves/8412e50d-1da0-4f69-bb23-66021ba49442> (Best Practice Alerts)
@@ -2172,6 +2155,16 @@ EquivalentClasses(<https://purl.org/doves/967da42d-4ea7-43a6-9ac1-39ec98083995> 
 
 AnnotationAssertion(rdfs:label <https://purl.org/doves/98dc125c-ede7-40df-957c-abbf44527ba0> "Flesch-Kincaid Reading Level"@en)
 SubClassOf(<https://purl.org/doves/98dc125c-ede7-40df-957c-abbf44527ba0> <https://purl.org/doves/8a5d41a7-0ee9-4e6c-860a-68f5eee22867>)
+
+
+############################
+#   Named Individuals
+############################
+
+# Individual: <http://purl.org/doves/4bedc15f_c338_435e_8489_48fe5adb7304> (USCDI-V1)
+
+AnnotationAssertion(rdfs:label <http://purl.org/doves/4bedc15f_c338_435e_8489_48fe5adb7304> "USCDI-V1"@en)
+ClassAssertion(<https://purl.org/doves/9f90a5e3-6d96-4127-bcff-143c2831b5bc> <http://purl.org/doves/4bedc15f_c338_435e_8489_48fe5adb7304>)
 
 
 )
