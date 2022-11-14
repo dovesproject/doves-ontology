@@ -384,10 +384,6 @@ AnnotationAssertion(rdfs:label <https://purl.org/doves/073169f2-4e43-4e6f-a720-a
 
 AnnotationAssertion(rdfs:label <https://purl.org/doves/a9867165-15f1-42bd-98ea-98879909af88> "has evidencetype"@en)
 
-# Object Property: <https://purl.org/doves/bc0c195d-054f-46ef-b11a-7098ecac8258> (RBDL1vSmEUP92ksknVkhVI)
-
-AnnotationAssertion(rdfs:label <https://purl.org/doves/bc0c195d-054f-46ef-b11a-7098ecac8258> "RBDL1vSmEUP92ksknVkhVI"@en)
-
 # Object Property: <https://purl.org/doves/e352e4b8-9c80-45f1-a877-a397b5b33cc1> (has age group)
 
 AnnotationAssertion(rdfs:label <https://purl.org/doves/e352e4b8-9c80-45f1-a877-a397b5b33cc1> "has age group"@en)
@@ -395,10 +391,6 @@ AnnotationAssertion(rdfs:label <https://purl.org/doves/e352e4b8-9c80-45f1-a877-a
 # Object Property: <https://purl.org/doves/e9bd6438-a483-4c69-a6e6-281376bca09c> (has specialty)
 
 AnnotationAssertion(rdfs:label <https://purl.org/doves/e9bd6438-a483-4c69-a6e6-281376bca09c> "has specialty"@en)
-
-# Object Property: <https://purl.org/doves/0b2c1bd0-14ae-4a1e-87de-ebe24e30c891> (RGZz0D0ELns4FBL6F7Mczw)
-
-AnnotationAssertion(rdfs:label <https://purl.org/doves/0b2c1bd0-14ae-4a1e-87de-ebe24e30c891> "RGZz0D0ELns4FBL6F7Mczw"@en)
 
 # Object Property: <https://purl.org/doves/0f7444a8-2cef-4af2-b3e9-b4d0d5e0b55c> (has technology)
 
@@ -416,10 +408,6 @@ AnnotationAssertion(rdfs:label <https://purl.org/doves/2d8bd602-011c-4327-ad38-8
 # Object Property: <https://purl.org/doves/24dcb20e-39ed-4469-9d8a-ea3808f4fb16> (has accuracy)
 
 AnnotationAssertion(rdfs:label <https://purl.org/doves/24dcb20e-39ed-4469-9d8a-ea3808f4fb16> "has accuracy"@en)
-
-# Object Property: <https://purl.org/doves/35053043-d428-432d-9044-1c3c91f72451> (RWi6sNFIyQX2S6jFizTBlu)
-
-AnnotationAssertion(rdfs:label <https://purl.org/doves/35053043-d428-432d-9044-1c3c91f72451> "RWi6sNFIyQX2S6jFizTBlu"@en)
 
 # Object Property: <https://purl.org/doves/4b61e411-782f-4ccd-9f96-ba45caef73b6> (has sex)
 
@@ -907,9 +895,9 @@ AnnotationAssertion(skos:definition <https://purl.org/doves/e849bada-9fc3-4799-b
 AnnotationAssertion(rdfs:label <https://purl.org/doves/e8a3913a-2e3c-42c6-b662-a35736ffcada> "Increased Accuracy"@en)
 SubClassOf(<https://purl.org/doves/e8a3913a-2e3c-42c6-b662-a35736ffcada> <https://purl.org/doves/78ceb509-e44b-4d8c-bd47-b457f9d835cb>)
 
-# Class: <https://purl.org/doves/e99c9629-5449-42f1-b439-cbd9856c19f3> (Nutrition Outcome)
+# Class: <https://purl.org/doves/e99c9629-5449-42f1-b439-cbd9856c19f3> (Modified Nutrition Outcome)
 
-AnnotationAssertion(rdfs:label <https://purl.org/doves/e99c9629-5449-42f1-b439-cbd9856c19f3> "Nutrition Outcome"@en)
+AnnotationAssertion(rdfs:label <https://purl.org/doves/e99c9629-5449-42f1-b439-cbd9856c19f3> "Modified Nutrition Outcome"@en)
 AnnotationAssertion(skos:definition <https://purl.org/doves/e99c9629-5449-42f1-b439-cbd9856c19f3> "Nutrition Outcome is a Health Benefit Outcome that describes a nutritional outcome (e.g. calorie, weight, etc.) deriving in whole or in part from a Digital Medicine Application.")
 SubClassOf(<https://purl.org/doves/e99c9629-5449-42f1-b439-cbd9856c19f3> <https://purl.org/doves/8e9f2330-e042-4723-a5f6-422f7565f1ee>)
 
@@ -1710,9 +1698,9 @@ SubClassOf(<https://purl.org/doves/6aaf988b-9b27-4dd7-8594-92c1a5c5becd> <https:
 AnnotationAssertion(rdfs:label <https://purl.org/doves/6ae90853-5950-416b-b796-e28d61767f92> "Patient Engagement"@en)
 SubClassOf(<https://purl.org/doves/6ae90853-5950-416b-b796-e28d61767f92> <https://purl.org/doves/f70ac7b3-c718-4511-9f13-2f4ab13050b8>)
 
-# Class: <https://purl.org/doves/6b215ace-0c48-42dc-bcb3-20c7007c2705> (Risk Prediction Outcome)
+# Class: <https://purl.org/doves/6b215ace-0c48-42dc-bcb3-20c7007c2705> (Modified Risk Prediction Outcome)
 
-AnnotationAssertion(rdfs:label <https://purl.org/doves/6b215ace-0c48-42dc-bcb3-20c7007c2705> "Risk Prediction Outcome"@en)
+AnnotationAssertion(rdfs:label <https://purl.org/doves/6b215ace-0c48-42dc-bcb3-20c7007c2705> "Modified Risk Prediction Outcome"@en)
 AnnotationAssertion(skos:definition <https://purl.org/doves/6b215ace-0c48-42dc-bcb3-20c7007c2705> "A Risk Prediction Outcome is a Health Benefit Outcome that describes a probability of condition or disease based on a variety of digital inputs.")
 SubClassOf(<https://purl.org/doves/6b215ace-0c48-42dc-bcb3-20c7007c2705> <https://purl.org/doves/8e9f2330-e042-4723-a5f6-422f7565f1ee>)
 
@@ -1810,7 +1798,7 @@ SubClassOf(<https://purl.org/doves/67142e0d-81bd-4b1c-84a6-9823c9a31f80> <https:
 AnnotationAssertion(rdfs:label <https://purl.org/doves/67600c95-166e-4d65-8c52-79982d7f6a98> "Interventional Radiology"@en)
 SubClassOf(<https://purl.org/doves/67600c95-166e-4d65-8c52-79982d7f6a98> <https://purl.org/doves/ec2cd378-2780-47d1-bcfb-a7c4a1ec60eb>)
 
-# Class: <https://purl.org/doves/68ea2f3e-8efc-4c00-8c78-772dffcf09de> (Reduced Hospital Readmission Rate)
+# Class: <https://purl.org/doves/68ea2f3e-8efc-4c00-8c78-772dffcf09de> (Reduced Hospital Utilization)
 
 AnnotationAssertion(rdfs:label <https://purl.org/doves/68ea2f3e-8efc-4c00-8c78-772dffcf09de> "Reduced Hospital Readmission Rate"@en)
 AnnotationAssertion(rdfs:label <https://purl.org/doves/68ea2f3e-8efc-4c00-8c78-772dffcf09de> "Reduced Hospital Utilization"@en)
@@ -1821,9 +1809,9 @@ SubClassOf(<https://purl.org/doves/68ea2f3e-8efc-4c00-8c78-772dffcf09de> <https:
 AnnotationAssertion(rdfs:label <https://purl.org/doves/68f07994-1faf-4213-b49d-57c03bd04037> "Nephrology"@en)
 SubClassOf(<https://purl.org/doves/68f07994-1faf-4213-b49d-57c03bd04037> <https://purl.org/doves/0affbb06-3be7-44c4-8bbd-2ca9dd0dc388>)
 
-# Class: <https://purl.org/doves/688d9ea3-75b2-4b97-ac0b-05414d6acc97> (Quality Adjusted Life Year Outcome)
+# Class: <https://purl.org/doves/688d9ea3-75b2-4b97-ac0b-05414d6acc97> (Modified Quality Adjusted Life Year Outcome)
 
-AnnotationAssertion(rdfs:label <https://purl.org/doves/688d9ea3-75b2-4b97-ac0b-05414d6acc97> "Quality Adjusted Life Year Outcome"@en)
+AnnotationAssertion(rdfs:label <https://purl.org/doves/688d9ea3-75b2-4b97-ac0b-05414d6acc97> "Modified Quality Adjusted Life Year Outcome"@en)
 AnnotationAssertion(skos:definition <https://purl.org/doves/688d9ea3-75b2-4b97-ac0b-05414d6acc97> "A Quality Adjusted Life Year Outcome is a Health Benefit Outcome that describes the number of quality adjusted life years impacted, in whole or in part, by a Digital Medicine Application.")
 SubClassOf(<https://purl.org/doves/688d9ea3-75b2-4b97-ac0b-05414d6acc97> <https://purl.org/doves/8e9f2330-e042-4723-a5f6-422f7565f1ee>)
 
@@ -1988,9 +1976,9 @@ AnnotationAssertion(rdfs:label <https://purl.org/doves/8e9f2330-e042-4723-a5f6-4
 AnnotationAssertion(skos:definition <https://purl.org/doves/8e9f2330-e042-4723-a5f6-422f7565f1ee> "A Health Benefit Outcome is a Clinical Care Outcome that pertains to a the direct or indirect health benefit for the beneficiary of a digital medicine application.")
 SubClassOf(<https://purl.org/doves/8e9f2330-e042-4723-a5f6-422f7565f1ee> <https://purl.org/doves/93556eac-f0d7-4905-a6f2-6951892fcd82>)
 
-# Class: <https://purl.org/doves/8f5cfb55-bba6-475f-a508-30424e7532bc> (Time to Diagnosis Outcome)
+# Class: <https://purl.org/doves/8f5cfb55-bba6-475f-a508-30424e7532bc> (Modified Time to Diagnosis Outcome)
 
-AnnotationAssertion(rdfs:label <https://purl.org/doves/8f5cfb55-bba6-475f-a508-30424e7532bc> "Time to Diagnosis Outcome"@en)
+AnnotationAssertion(rdfs:label <https://purl.org/doves/8f5cfb55-bba6-475f-a508-30424e7532bc> "Modified Time to Diagnosis Outcome"@en)
 AnnotationAssertion(skos:definition <https://purl.org/doves/8f5cfb55-bba6-475f-a508-30424e7532bc> "Time to Diagnosis Outcome is a Modified Diagnosis Outcome describing a Digital Medicine Application's capacity to impact the time required to arrive at a diagnosis.")
 SubClassOf(<https://purl.org/doves/8f5cfb55-bba6-475f-a508-30424e7532bc> <https://purl.org/doves/ff617266-46f1-4941-9053-81d4c3531170>)
 
