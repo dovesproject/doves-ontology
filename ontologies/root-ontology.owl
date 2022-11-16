@@ -17,6 +17,7 @@ Ontology(<http://purl.org/doves/doves-ontology>
 Import(<http://who.int/icd>)
 Import(<http://www.semanticweb.org/AdverseEventExtract>)
 
+Declaration(Class(<http://purl.org/doves/8818ad03_a459_476e_98c4_213c01f406c4>))
 Declaration(Class(<https://purl.org/doves/a01b3bf3-a332-4213-8b6d-0ae97be1f128>))
 Declaration(Class(<https://purl.org/doves/a0885d3f-beaa-4dbe-a81a-78484cb2757b>))
 Declaration(Class(<https://purl.org/doves/a100d2ec-67bd-4eb3-b08d-065e3d90f677>))
@@ -415,6 +416,11 @@ AnnotationAssertion(rdfs:label <https://purl.org/doves/5b5e21c9-08f7-4c4f-a8ab-1
 # Class: obo:OAE_0000001 (adverse event)
 
 SubClassOf(obo:OAE_0000001 <https://purl.org/doves/840177a9-3e6d-4978-ac7a-8580c78443d6>)
+
+# Class: <http://purl.org/doves/8818ad03_a459_476e_98c4_213c01f406c4> (Percent of Prior Authorization Approvals Outcome)
+
+AnnotationAssertion(rdfs:label <http://purl.org/doves/8818ad03_a459_476e_98c4_213c01f406c4> "Percent of Prior Authorization Approvals Outcome"@en)
+SubClassOf(<http://purl.org/doves/8818ad03_a459_476e_98c4_213c01f406c4> <https://purl.org/doves/711fcca4-517f-4fc4-afc6-8923760ef42f>)
 
 # Class: <http://who.int/icd/ICD-11> (ICD-11)
 
@@ -1779,7 +1785,7 @@ SubClassOf(<https://purl.org/doves/67142e0d-81bd-4b1c-84a6-9823c9a31f80> <https:
 AnnotationAssertion(rdfs:label <https://purl.org/doves/67600c95-166e-4d65-8c52-79982d7f6a98> "Interventional Radiology"@en)
 SubClassOf(<https://purl.org/doves/67600c95-166e-4d65-8c52-79982d7f6a98> <https://purl.org/doves/ec2cd378-2780-47d1-bcfb-a7c4a1ec60eb>)
 
-# Class: <https://purl.org/doves/68ea2f3e-8efc-4c00-8c78-772dffcf09de> (Reduced Hospital Utilization)
+# Class: <https://purl.org/doves/68ea2f3e-8efc-4c00-8c78-772dffcf09de> (Reduced Hospital Readmission Rate)
 
 AnnotationAssertion(rdfs:label <https://purl.org/doves/68ea2f3e-8efc-4c00-8c78-772dffcf09de> "Reduced Hospital Readmission Rate"@en)
 AnnotationAssertion(rdfs:label <https://purl.org/doves/68ea2f3e-8efc-4c00-8c78-772dffcf09de> "Reduced Hospital Utilization"@en)
