@@ -936,9 +936,9 @@ AnnotationAssertion(rdfs:label <https://purl.org/doves/efd50c0f-cb79-46f8-9266-1
 AnnotationAssertion(skos:definition <https://purl.org/doves/efd50c0f-cb79-46f8-9266-1d6afed04248> "An Estimated Life Years Impacted Outcome is a Health Benefit Outcome that pertains to quantifying the number of life years impacted, directly or indirectly, by a given Digital Medicine Application."^^xsd:string)
 SubClassOf(<https://purl.org/doves/efd50c0f-cb79-46f8-9266-1d6afed04248> <https://purl.org/doves/8e9f2330-e042-4723-a5f6-422f7565f1ee>)
 
-# Class: <https://purl.org/doves/efd57ad7-5a59-475e-a84f-361a6b56185c> (Scheduling speed)
+# Class: <https://purl.org/doves/efd57ad7-5a59-475e-a84f-361a6b56185c> (Increased Scheduling Speed Outcome)
 
-AnnotationAssertion(rdfs:label <https://purl.org/doves/efd57ad7-5a59-475e-a84f-361a6b56185c> "Scheduling speed"@en)
+AnnotationAssertion(rdfs:label <https://purl.org/doves/efd57ad7-5a59-475e-a84f-361a6b56185c> "Increased Scheduling Speed Outcome"@en)
 SubClassOf(<https://purl.org/doves/efd57ad7-5a59-475e-a84f-361a6b56185c> <https://purl.org/doves/4ac898a5-abf6-4bfa-bb64-8d57dddd0dce>)
 
 # Class: <https://purl.org/doves/f13faa32-33d2-48c3-b9ce-9e0279af659c> (Adolescent person)
