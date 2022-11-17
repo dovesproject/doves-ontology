@@ -696,9 +696,9 @@ SubClassOf(<https://purl.org/doves/c9013f84-d508-4ab7-88b9-b85ac089eaa8> <https:
 AnnotationAssertion(rdfs:label <https://purl.org/doves/ca36addf-e79a-40f6-b2c2-5cb5b46d6dab> "Neurology"@en)
 SubClassOf(<https://purl.org/doves/ca36addf-e79a-40f6-b2c2-5cb5b46d6dab> <https://purl.org/doves/1d62d176-3b08-4743-819c-ba79585f3a38>)
 
-# Class: <https://purl.org/doves/ccf65a8d-246e-43d7-b378-c840c50a5f36> (Peri-procedural Stages)
+# Class: <https://purl.org/doves/ccf65a8d-246e-43d7-b378-c840c50a5f36> (Peri-procedural Stage)
 
-AnnotationAssertion(rdfs:label <https://purl.org/doves/ccf65a8d-246e-43d7-b378-c840c50a5f36> "Peri-procedural Stages"@en)
+AnnotationAssertion(rdfs:label <https://purl.org/doves/ccf65a8d-246e-43d7-b378-c840c50a5f36> "Peri-procedural Stage"@en)
 SubClassOf(<https://purl.org/doves/ccf65a8d-246e-43d7-b378-c840c50a5f36> <https://purl.org/doves/78ceb509-e44b-4d8c-bd47-b457f9d835cb>)
 
 # Class: <https://purl.org/doves/ccfeb03c-e2a3-4686-87d6-b07272789813> (Urology)
