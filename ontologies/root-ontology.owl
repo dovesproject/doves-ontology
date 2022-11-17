@@ -1031,9 +1031,9 @@ SubClassOf(<https://purl.org/doves/f972b78e-ca4f-4811-990b-89b9eb375c93> <https:
 AnnotationAssertion(rdfs:label <https://purl.org/doves/f999b34f-5269-4945-9673-88ab1b9c7906> "Maternal-Fetal Medicine"@en)
 SubClassOf(<https://purl.org/doves/f999b34f-5269-4945-9673-88ab1b9c7906> <https://purl.org/doves/e1b32055-f68c-4f72-a5bb-0122d5fe2023>)
 
-# Class: <https://purl.org/doves/fa9f1a07-dfaa-4d58-926b-ed0b754eb242> (30 Day Risk Adjusted Revisit Rate)
+# Class: <https://purl.org/doves/fa9f1a07-dfaa-4d58-926b-ed0b754eb242> (Reduced 30 Day Risk Adjusted Emergency Department Revisit Rate)
 
-AnnotationAssertion(rdfs:label <https://purl.org/doves/fa9f1a07-dfaa-4d58-926b-ed0b754eb242> "30 Day Risk Adjusted Revisit Rate"@en)
+AnnotationAssertion(rdfs:label <https://purl.org/doves/fa9f1a07-dfaa-4d58-926b-ed0b754eb242> "Reduced 30 Day Risk Adjusted Emergency Department Revisit Rate"@en)
 SubClassOf(<https://purl.org/doves/fa9f1a07-dfaa-4d58-926b-ed0b754eb242> <https://purl.org/doves/cdec99b1-f3e5-4009-bdc5-49ea965dc503>)
 
 # Class: <https://purl.org/doves/fbee41fa-7ca0-44ad-85fa-7ab771b2b169> (Increased Cost Effectiveness)
