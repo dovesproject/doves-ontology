@@ -1731,9 +1731,9 @@ SubClassOf(<https://purl.org/doves/636f2a6e-16d9-4276-84d3-3d6c89b25bd2> <https:
 AnnotationAssertion(rdfs:label <https://purl.org/doves/64d90c0b-9bed-47d3-ae2b-51a001220b27> "Post-procedural"@en)
 SubClassOf(<https://purl.org/doves/64d90c0b-9bed-47d3-ae2b-51a001220b27> <https://purl.org/doves/ccf65a8d-246e-43d7-b378-c840c50a5f36>)
 
-# Class: <https://purl.org/doves/65bc9f69-6a0b-4fa7-a27f-f14c7befcca0> (30 Day All Cause Readmission Rate)
+# Class: <https://purl.org/doves/65bc9f69-6a0b-4fa7-a27f-f14c7befcca0> (Reduced 30 Day All Cause Readmission Rate Outcome)
 
-AnnotationAssertion(rdfs:label <https://purl.org/doves/65bc9f69-6a0b-4fa7-a27f-f14c7befcca0> "30 Day All Cause Readmission Rate"@en)
+AnnotationAssertion(rdfs:label <https://purl.org/doves/65bc9f69-6a0b-4fa7-a27f-f14c7befcca0> "Reduced 30 Day All Cause Readmission Rate Outcome"@en)
 SubClassOf(<https://purl.org/doves/65bc9f69-6a0b-4fa7-a27f-f14c7befcca0> <https://purl.org/doves/68ea2f3e-8efc-4c00-8c78-772dffcf09de>)
 
 # Class: <https://purl.org/doves/65fb3268-8c4a-4718-ab02-57a0f43a9c3d> (Doctor Education Outcome)
@@ -2062,9 +2062,9 @@ SubClassOf(<https://purl.org/doves/9c7d3336-6f55-44fc-86c6-56869858b624> <https:
 AnnotationAssertion(rdfs:label <https://purl.org/doves/9caa2510-f3a6-4de8-adcb-c554e91aeba7> "Patient Reported Outcome"@en)
 SubClassOf(<https://purl.org/doves/9caa2510-f3a6-4de8-adcb-c554e91aeba7> <https://purl.org/doves/8081940e-b77f-4aa1-bfcf-0b979f0a2158>)
 
-# Class: <https://purl.org/doves/9caefbe3-4e93-461c-ae16-cfd0840e4d89> (Modified Primary Care Encounter Rate)
+# Class: <https://purl.org/doves/9caefbe3-4e93-461c-ae16-cfd0840e4d89> (Modified Primary Care Encounter Rate Outcome)
 
-AnnotationAssertion(rdfs:label <https://purl.org/doves/9caefbe3-4e93-461c-ae16-cfd0840e4d89> "Modified Primary Care Encounter Rate"@en)
+AnnotationAssertion(rdfs:label <https://purl.org/doves/9caefbe3-4e93-461c-ae16-cfd0840e4d89> "Modified Primary Care Encounter Rate Outcome"@en)
 SubClassOf(<https://purl.org/doves/9caefbe3-4e93-461c-ae16-cfd0840e4d89> <https://purl.org/doves/089409f3-106f-4742-a91a-df135a4b4102>)
 
 # Class: <https://purl.org/doves/9d40685f-544b-4fa0-a28f-54066a83a262> (Procedural No Show Rates)
