@@ -860,9 +860,9 @@ AnnotationAssertion(rdfs:label <https://purl.org/doves/e677ffb2-3a5a-4e16-a017-a
 SubClassOf(<https://purl.org/doves/e677ffb2-3a5a-4e16-a017-a7268e348735> <https://purl.org/doves/840177a9-3e6d-4978-ac7a-8580c78443d6>)
 SubClassOf(<https://purl.org/doves/e677ffb2-3a5a-4e16-a017-a7268e348735> ObjectSomeValuesFrom(<https://purl.org/doves/35053043-d428-432d-9044-1c3c91f72451> obo:OAE_0000001))
 
-# Class: <https://purl.org/doves/e809c41b-c28d-4364-91d0-d62b8d900f73> (90 Day All Cause Readmission Rate)
+# Class: <https://purl.org/doves/e809c41b-c28d-4364-91d0-d62b8d900f73> (Reduced 90 Day All Cause Readmission Rate Outcome)
 
-AnnotationAssertion(rdfs:label <https://purl.org/doves/e809c41b-c28d-4364-91d0-d62b8d900f73> "90 Day All Cause Readmission Rate"@en)
+AnnotationAssertion(rdfs:label <https://purl.org/doves/e809c41b-c28d-4364-91d0-d62b8d900f73> "Reduced 90 Day All Cause Readmission Rate Outcome"@en)
 SubClassOf(<https://purl.org/doves/e809c41b-c28d-4364-91d0-d62b8d900f73> <https://purl.org/doves/68ea2f3e-8efc-4c00-8c78-772dffcf09de>)
 
 # Class: <https://purl.org/doves/e849bada-9fc3-4799-b3d4-625dc79093f4> (Digital Medicine Application Outcome)
