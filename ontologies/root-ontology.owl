@@ -1679,9 +1679,9 @@ SubClassOf(<https://purl.org/doves/6aaf988b-9b27-4dd7-8594-92c1a5c5becd> <https:
 AnnotationAssertion(rdfs:label <https://purl.org/doves/6ae90853-5950-416b-b796-e28d61767f92> "Patient Engagement"@en)
 SubClassOf(<https://purl.org/doves/6ae90853-5950-416b-b796-e28d61767f92> <https://purl.org/doves/f70ac7b3-c718-4511-9f13-2f4ab13050b8>)
 
-# Class: <https://purl.org/doves/6b215ace-0c48-42dc-bcb3-20c7007c2705> (Modified Risk Prediction Outcome)
+# Class: <https://purl.org/doves/6b215ace-0c48-42dc-bcb3-20c7007c2705> (Risk Prediction Outcome)
 
-AnnotationAssertion(rdfs:label <https://purl.org/doves/6b215ace-0c48-42dc-bcb3-20c7007c2705> "Modified Risk Prediction Outcome"@en)
+AnnotationAssertion(rdfs:label <https://purl.org/doves/6b215ace-0c48-42dc-bcb3-20c7007c2705> "Risk Prediction Outcome"@en)
 AnnotationAssertion(skos:definition <https://purl.org/doves/6b215ace-0c48-42dc-bcb3-20c7007c2705> "A Risk Prediction Outcome is a Health Benefit Outcome that describes a probability of condition or disease based on a variety of digital inputs.")
 SubClassOf(<https://purl.org/doves/6b215ace-0c48-42dc-bcb3-20c7007c2705> <https://purl.org/doves/8e9f2330-e042-4723-a5f6-422f7565f1ee>)
 
@@ -1779,7 +1779,7 @@ SubClassOf(<https://purl.org/doves/67142e0d-81bd-4b1c-84a6-9823c9a31f80> <https:
 AnnotationAssertion(rdfs:label <https://purl.org/doves/67600c95-166e-4d65-8c52-79982d7f6a98> "Interventional Radiology"@en)
 SubClassOf(<https://purl.org/doves/67600c95-166e-4d65-8c52-79982d7f6a98> <https://purl.org/doves/ec2cd378-2780-47d1-bcfb-a7c4a1ec60eb>)
 
-# Class: <https://purl.org/doves/68ea2f3e-8efc-4c00-8c78-772dffcf09de> (Reduced Hospital Utilization)
+# Class: <https://purl.org/doves/68ea2f3e-8efc-4c00-8c78-772dffcf09de> (Reduced Hospital Readmission Rate)
 
 AnnotationAssertion(rdfs:label <https://purl.org/doves/68ea2f3e-8efc-4c00-8c78-772dffcf09de> "Reduced Hospital Readmission Rate"@en)
 AnnotationAssertion(rdfs:label <https://purl.org/doves/68ea2f3e-8efc-4c00-8c78-772dffcf09de> "Reduced Hospital Utilization"@en)
