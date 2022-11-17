@@ -1515,9 +1515,9 @@ SubClassOf(<https://purl.org/doves/387b42f5-23f9-4218-97c8-4b992629b7c6> <https:
 AnnotationAssertion(rdfs:label <https://purl.org/doves/4ac898a5-abf6-4bfa-bb64-8d57dddd0dce> "Self Scheduling Outcome"@en)
 SubClassOf(<https://purl.org/doves/4ac898a5-abf6-4bfa-bb64-8d57dddd0dce> <https://purl.org/doves/499b8963-8ab3-4708-bffb-ed0acdb84002>)
 
-# Class: <https://purl.org/doves/4d6d76b2-faab-4560-bfef-63c1436f2f4e> (Sensors)
+# Class: <https://purl.org/doves/4d6d76b2-faab-4560-bfef-63c1436f2f4e> (Sensor Technology)
 
-AnnotationAssertion(rdfs:label <https://purl.org/doves/4d6d76b2-faab-4560-bfef-63c1436f2f4e> "Sensors"@en)
+AnnotationAssertion(rdfs:label <https://purl.org/doves/4d6d76b2-faab-4560-bfef-63c1436f2f4e> "Sensor Technology"@en)
 SubClassOf(<https://purl.org/doves/4d6d76b2-faab-4560-bfef-63c1436f2f4e> <https://purl.org/doves/d12f4245-989e-4d9a-a72a-4fc8c9e5a254>)
 
 # Class: <https://purl.org/doves/4dcb77b8-51f4-4b3a-8a61-a4dd9e2c72ae> (Satisfaction)
