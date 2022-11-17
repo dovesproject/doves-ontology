@@ -1,0 +1,15 @@
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+SELECT ?x (STR(?lab) AS ?label) WHERE {
+	?x rdf:type owl:Class .
+	?x rdfs:subClassOf <https://purl.org/doves/e849bada-9fc3-4799-b3d4-625dc79093f4>
+	MINUS {
+		?x rdfs:subClassOf <http://purl.obolibrary.org/obo/OAE_0000001>
+	}
+	OPTIONAL {?x rdfs:label ?lab}
+	FILTER ( !REGEX(?lab, "Outcome$"))
+
+}
+ORDER BY ?label
