@@ -496,9 +496,10 @@ SubClassOf(<https://purl.org/doves/acb718e4-eb5d-4c70-aa21-06bddeb9fd05> ObjectS
 SubClassOf(<https://purl.org/doves/acb718e4-eb5d-4c70-aa21-06bddeb9fd05> ObjectSomeValuesFrom(<https://purl.org/doves/5b5e21c9-08f7-4c4f-a8ab-18f3914fdabc> <https://purl.org/doves/c8696978-6ad4-40a4-8569-2a5286f518b1>))
 SubClassOf(<https://purl.org/doves/acb718e4-eb5d-4c70-aa21-06bddeb9fd05> ObjectSomeValuesFrom(<https://purl.org/doves/5b5e21c9-08f7-4c4f-a8ab-18f3914fdabc> <https://purl.org/doves/58687062-857c-43f5-9e50-d6961a84a9b0>))
 
-# Class: <https://purl.org/doves/ad49b249-3b61-45af-91ea-1ec2bf61eff4> (Durable Medical Equipment)
+# Class: <https://purl.org/doves/ad49b249-3b61-45af-91ea-1ec2bf61eff4> (Durable Medical Equipment Ordering Outcome)
 
-AnnotationAssertion(rdfs:label <https://purl.org/doves/ad49b249-3b61-45af-91ea-1ec2bf61eff4> "Durable Medical Equipment"@en)
+AnnotationAssertion(rdfs:label <https://purl.org/doves/ad49b249-3b61-45af-91ea-1ec2bf61eff4> "Durable Medical Equipment Ordering Outcome"@en)
+AnnotationAssertion(skos:altLabel <https://purl.org/doves/ad49b249-3b61-45af-91ea-1ec2bf61eff4> "DME Ordering Outcome"@en)
 SubClassOf(<https://purl.org/doves/ad49b249-3b61-45af-91ea-1ec2bf61eff4> <https://purl.org/doves/fde9693d-2c71-48e4-9077-5f47633ba99e>)
 
 # Class: <https://purl.org/doves/ae3e5479-6f31-4619-992c-16509fef95fb> (Adolescent girl person)
