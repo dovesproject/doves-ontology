@@ -1546,9 +1546,9 @@ SubClassOf(<https://purl.org/doves/44069093-74c5-49c9-bf1f-f15f45ba21bb> <https:
 AnnotationAssertion(rdfs:label <https://purl.org/doves/4663e837-50a1-4cfe-ae5d-b44a6396947d> "Reproductive Endocrinology and Infertility"@en)
 SubClassOf(<https://purl.org/doves/4663e837-50a1-4cfe-ae5d-b44a6396947d> <https://purl.org/doves/e1b32055-f68c-4f72-a5bb-0122d5fe2023>)
 
-# Class: <https://purl.org/doves/48e82efa-4411-43fc-a750-995a002e0639> (Infusion Clinic No Show Rate)
+# Class: <https://purl.org/doves/48e82efa-4411-43fc-a750-995a002e0639> (Reduced Infusion Clinic No Show Rate Outcome)
 
-AnnotationAssertion(rdfs:label <https://purl.org/doves/48e82efa-4411-43fc-a750-995a002e0639> "Infusion Clinic No Show Rate"@en)
+AnnotationAssertion(rdfs:label <https://purl.org/doves/48e82efa-4411-43fc-a750-995a002e0639> "Reduced Infusion Clinic No Show Rate Outcome"@en)
 SubClassOf(<https://purl.org/doves/48e82efa-4411-43fc-a750-995a002e0639> <https://purl.org/doves/1c1d0e62-5c9b-4344-8ff1-9e71d1debb38>)
 
 # Class: <https://purl.org/doves/487ba129-e6ff-4f8f-bdbb-e1074b485360> (Plastic Surgery)
