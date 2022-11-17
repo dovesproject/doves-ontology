@@ -699,6 +699,7 @@ SubClassOf(<https://purl.org/doves/ca36addf-e79a-40f6-b2c2-5cb5b46d6dab> <https:
 # Class: <https://purl.org/doves/ccf65a8d-246e-43d7-b378-c840c50a5f36> (Peri-procedural Stage)
 
 AnnotationAssertion(rdfs:label <https://purl.org/doves/ccf65a8d-246e-43d7-b378-c840c50a5f36> "Peri-procedural Stage"@en)
+AnnotationAssertion(skos:definition <https://purl.org/doves/ccf65a8d-246e-43d7-b378-c840c50a5f36> "A stage of a periprocedural action.  A periprocedural action occurs soon before, during, or soon after the performance of a medical procedure."@en)
 SubClassOf(<https://purl.org/doves/ccf65a8d-246e-43d7-b378-c840c50a5f36> <https://purl.org/doves/78ceb509-e44b-4d8c-bd47-b457f9d835cb>)
 
 # Class: <https://purl.org/doves/ccfeb03c-e2a3-4686-87d6-b07272789813> (Urology)
@@ -1136,9 +1137,9 @@ SubClassOf(<https://purl.org/doves/0bd86ad9-6ecc-4226-9627-b458ee64cfb1> ObjectS
 AnnotationAssertion(rdfs:label <https://purl.org/doves/0bf8ad00-2abc-4360-a2f0-13d4ad3caf96> "Addiction Psychiatry"@en)
 SubClassOf(<https://purl.org/doves/0bf8ad00-2abc-4360-a2f0-13d4ad3caf96> <https://purl.org/doves/1576b7a1-9d3f-4628-b363-8784e22c47d8>)
 
-# Class: <https://purl.org/doves/0d2f9a6c-76c9-4d13-8676-78d34b2be85d> (Intra-procedural)
+# Class: <https://purl.org/doves/0d2f9a6c-76c9-4d13-8676-78d34b2be85d> (Intra-procedural Stage)
 
-AnnotationAssertion(rdfs:label <https://purl.org/doves/0d2f9a6c-76c9-4d13-8676-78d34b2be85d> "Intra-procedural"@en)
+AnnotationAssertion(rdfs:label <https://purl.org/doves/0d2f9a6c-76c9-4d13-8676-78d34b2be85d> "Intra-procedural Stage"@en)
 SubClassOf(<https://purl.org/doves/0d2f9a6c-76c9-4d13-8676-78d34b2be85d> <https://purl.org/doves/ccf65a8d-246e-43d7-b378-c840c50a5f36>)
 
 # Class: <https://purl.org/doves/0d47a235-ce6d-4eee-8fad-ba181ada2ae2> (Time reduction)
@@ -1629,9 +1630,9 @@ AnnotationAssertion(rdfs:label <https://purl.org/doves/50ad7f77-d002-4a47-b6ea-4
 AnnotationAssertion(skos:definition <https://purl.org/doves/50ad7f77-d002-4a47-b6ea-4863ea375eca> "A Mid-Level Practitioner Education Outcome is a Clinician Education Outcome that pertains to a mid-level practitioner such as a Physician Assistant or a Nurse Practitioner.")
 SubClassOf(<https://purl.org/doves/50ad7f77-d002-4a47-b6ea-4863ea375eca> <https://purl.org/doves/6063f39d-33f9-488b-b104-1f4145e9e4d8>)
 
-# Class: <https://purl.org/doves/500dd687-ce4f-49a9-a3dd-3482f3891230> (Pre-procedural)
+# Class: <https://purl.org/doves/500dd687-ce4f-49a9-a3dd-3482f3891230> (Pre-procedural Stage)
 
-AnnotationAssertion(rdfs:label <https://purl.org/doves/500dd687-ce4f-49a9-a3dd-3482f3891230> "Pre-procedural"@en)
+AnnotationAssertion(rdfs:label <https://purl.org/doves/500dd687-ce4f-49a9-a3dd-3482f3891230> "Pre-procedural Stage"@en)
 SubClassOf(<https://purl.org/doves/500dd687-ce4f-49a9-a3dd-3482f3891230> <https://purl.org/doves/ccf65a8d-246e-43d7-b378-c840c50a5f36>)
 
 # Class: <https://purl.org/doves/5010a2fe-0e1f-4ac9-8a91-275fe7418701> (Pediatric Urology)
@@ -1741,9 +1742,9 @@ SubClassOf(<https://purl.org/doves/6093bed9-a9fb-4553-8546-fc771ed68ba6> <https:
 AnnotationAssertion(rdfs:label <https://purl.org/doves/636f2a6e-16d9-4276-84d3-3d6c89b25bd2> "Increased Macro Recall"@en)
 SubClassOf(<https://purl.org/doves/636f2a6e-16d9-4276-84d3-3d6c89b25bd2> <https://purl.org/doves/e8a3913a-2e3c-42c6-b662-a35736ffcada>)
 
-# Class: <https://purl.org/doves/64d90c0b-9bed-47d3-ae2b-51a001220b27> (Post-procedural)
+# Class: <https://purl.org/doves/64d90c0b-9bed-47d3-ae2b-51a001220b27> (Post-procedural Stage)
 
-AnnotationAssertion(rdfs:label <https://purl.org/doves/64d90c0b-9bed-47d3-ae2b-51a001220b27> "Post-procedural"@en)
+AnnotationAssertion(rdfs:label <https://purl.org/doves/64d90c0b-9bed-47d3-ae2b-51a001220b27> "Post-procedural Stage"@en)
 SubClassOf(<https://purl.org/doves/64d90c0b-9bed-47d3-ae2b-51a001220b27> <https://purl.org/doves/ccf65a8d-246e-43d7-b378-c840c50a5f36>)
 
 # Class: <https://purl.org/doves/65bc9f69-6a0b-4fa7-a27f-f14c7befcca0> (Reduced 30 Day All Cause Hospital Readmission Rate Outcome)
