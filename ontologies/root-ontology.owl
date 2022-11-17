@@ -913,10 +913,10 @@ SubClassOf(<https://purl.org/doves/eebb534e-96d3-45d9-9815-72b59056ebec> <https:
 AnnotationAssertion(rdfs:label <https://purl.org/doves/eec4d9eb-9db4-44f5-9523-c8b481cf4293> "Interoperability Outcome"@en)
 SubClassOf(<https://purl.org/doves/eec4d9eb-9db4-44f5-9523-c8b481cf4293> <https://purl.org/doves/707c8680-500a-46e6-9b54-5658cefc409f>)
 
-# Class: <https://purl.org/doves/efd50c0f-cb79-46f8-9266-1d6afed04248> (Life Year Outcome)
+# Class: <https://purl.org/doves/efd50c0f-cb79-46f8-9266-1d6afed04248> (Estimated Life Years Impacted Outcome)
 
-AnnotationAssertion(rdfs:label <https://purl.org/doves/efd50c0f-cb79-46f8-9266-1d6afed04248> "Life Year Outcome"@en)
-AnnotationAssertion(skos:definition <https://purl.org/doves/efd50c0f-cb79-46f8-9266-1d6afed04248> "A Life Year Outcome is a Health Benefit Outcome that pertains to quantifying the number of life years impacted, directly or indirectly, by a given Digital Medicine Application."^^xsd:string)
+AnnotationAssertion(rdfs:label <https://purl.org/doves/efd50c0f-cb79-46f8-9266-1d6afed04248> "Estimated Life Years Impacted Outcome"@en)
+AnnotationAssertion(skos:definition <https://purl.org/doves/efd50c0f-cb79-46f8-9266-1d6afed04248> "An Estimated Life Years Impacted Outcome is a Health Benefit Outcome that pertains to quantifying the number of life years impacted, directly or indirectly, by a given Digital Medicine Application."^^xsd:string)
 SubClassOf(<https://purl.org/doves/efd50c0f-cb79-46f8-9266-1d6afed04248> <https://purl.org/doves/8e9f2330-e042-4723-a5f6-422f7565f1ee>)
 
 # Class: <https://purl.org/doves/efd57ad7-5a59-475e-a84f-361a6b56185c> (Scheduling speed)
