@@ -1706,7 +1706,6 @@ SubClassOf(<https://purl.org/doves/6fdf5e33-7497-42d7-b016-72567185a0e3> <https:
 
 # Class: <https://purl.org/doves/604c0eff-ca87-4934-b96a-e19837c08e8f> (Reduced Episode Total Cost of Care)
 
-AnnotationAssertion(rdfs:label <https://purl.org/doves/604c0eff-ca87-4934-b96a-e19837c08e8f> "Episode Total Cost of Care"@en)
 AnnotationAssertion(rdfs:label <https://purl.org/doves/604c0eff-ca87-4934-b96a-e19837c08e8f> "Reduced Episode Total Cost of Care"@en)
 SubClassOf(<https://purl.org/doves/604c0eff-ca87-4934-b96a-e19837c08e8f> <https://purl.org/doves/7124f3ed-a489-431c-90ce-c2a5fe7d95bb>)
 
