@@ -1202,9 +1202,10 @@ SubClassOf(<https://purl.org/doves/06391804-feed-4d6e-aae0-801fd5975913> <https:
 AnnotationAssertion(rdfs:label <https://purl.org/doves/0831a639-c60a-428a-8d1b-ead517c906fc> "Thoracic Surgery"@en)
 SubClassOf(<https://purl.org/doves/0831a639-c60a-428a-8d1b-ead517c906fc> <https://purl.org/doves/1d62d176-3b08-4743-819c-ba79585f3a38>)
 
-# Class: <https://purl.org/doves/0868f80c-aeed-460d-93e4-6e47a22dc993> (Patient Activation Measure (PAM))
+# Class: <https://purl.org/doves/0868f80c-aeed-460d-93e4-6e47a22dc993> (Patient Activation Measure)
 
-AnnotationAssertion(rdfs:label <https://purl.org/doves/0868f80c-aeed-460d-93e4-6e47a22dc993> "Patient Activation Measure (PAM)"@en)
+AnnotationAssertion(rdfs:label <https://purl.org/doves/0868f80c-aeed-460d-93e4-6e47a22dc993> "Patient Activation Measure"@en)
+AnnotationAssertion(skos:altLabel <https://purl.org/doves/0868f80c-aeed-460d-93e4-6e47a22dc993> "PAM"@en)
 SubClassOf(<https://purl.org/doves/0868f80c-aeed-460d-93e4-6e47a22dc993> <https://purl.org/doves/6ca84b77-899d-4fd4-a9ef-b9d1831ce4e6>)
 
 # Class: <https://purl.org/doves/089409f3-106f-4742-a91a-df135a4b4102> (Healthcare Utilization Outcome)
