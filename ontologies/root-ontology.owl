@@ -1731,9 +1731,9 @@ SubClassOf(<https://purl.org/doves/636f2a6e-16d9-4276-84d3-3d6c89b25bd2> <https:
 AnnotationAssertion(rdfs:label <https://purl.org/doves/64d90c0b-9bed-47d3-ae2b-51a001220b27> "Post-procedural"@en)
 SubClassOf(<https://purl.org/doves/64d90c0b-9bed-47d3-ae2b-51a001220b27> <https://purl.org/doves/ccf65a8d-246e-43d7-b378-c840c50a5f36>)
 
-# Class: <https://purl.org/doves/65bc9f69-6a0b-4fa7-a27f-f14c7befcca0> (Reduced 30 Day All Cause Readmission Rate Outcome)
+# Class: <https://purl.org/doves/65bc9f69-6a0b-4fa7-a27f-f14c7befcca0> (Reduced 30 Day All Cause Hospital Readmission Rate Outcome)
 
-AnnotationAssertion(rdfs:label <https://purl.org/doves/65bc9f69-6a0b-4fa7-a27f-f14c7befcca0> "Reduced 30 Day All Cause Readmission Rate Outcome"@en)
+AnnotationAssertion(rdfs:label <https://purl.org/doves/65bc9f69-6a0b-4fa7-a27f-f14c7befcca0> "Reduced 30 Day All Cause Hospital Readmission Rate Outcome"@en)
 SubClassOf(<https://purl.org/doves/65bc9f69-6a0b-4fa7-a27f-f14c7befcca0> <https://purl.org/doves/68ea2f3e-8efc-4c00-8c78-772dffcf09de>)
 
 # Class: <https://purl.org/doves/65fb3268-8c4a-4718-ab02-57a0f43a9c3d> (Doctor Education Outcome)
