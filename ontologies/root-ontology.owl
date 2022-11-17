@@ -1910,9 +1910,10 @@ AnnotationAssertion(skos:editorialNote <https://purl.org/doves/78ceb509-e44b-4d8
 AnnotationAssertion(rdfs:label <https://purl.org/doves/78ec0745-1e65-427c-ac33-79d8d72aec4c> "Computed Tomography"@en)
 SubClassOf(<https://purl.org/doves/78ec0745-1e65-427c-ac33-79d8d72aec4c> <https://purl.org/doves/ec2cd378-2780-47d1-bcfb-a7c4a1ec60eb>)
 
-# Class: <https://purl.org/doves/79b7b57d-1a50-4ddd-a2cf-253a2911e05a> (PHQ-9)
+# Class: <https://purl.org/doves/79b7b57d-1a50-4ddd-a2cf-253a2911e05a> (PHQ-9 Score Outcome)
 
-AnnotationAssertion(rdfs:label <https://purl.org/doves/79b7b57d-1a50-4ddd-a2cf-253a2911e05a> "PHQ-9"@en)
+AnnotationAssertion(rdfs:label <https://purl.org/doves/79b7b57d-1a50-4ddd-a2cf-253a2911e05a> "PHQ-9 Score Outcome"@en)
+AnnotationAssertion(skos:altLabel <https://purl.org/doves/79b7b57d-1a50-4ddd-a2cf-253a2911e05a> "Patient Health Questionnaire-9 Score Outcome"@en)
 SubClassOf(<https://purl.org/doves/79b7b57d-1a50-4ddd-a2cf-253a2911e05a> <https://purl.org/doves/9caa2510-f3a6-4de8-adcb-c554e91aeba7>)
 
 # Class: <https://purl.org/doves/8a18d7c1-1c39-49a3-a267-1d9cd9ce0246> (Allergy and Immunology)
