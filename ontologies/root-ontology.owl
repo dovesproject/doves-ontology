@@ -523,9 +523,9 @@ SubClassOf(<https://purl.org/doves/afa90ae5-da23-4f28-8fd4-ce2d8ce18b40> <https:
 AnnotationAssertion(rdfs:label <https://purl.org/doves/b10b1490-4dce-4970-bd31-5e59471fa6fb> "Patient EHR Data"@en)
 SubClassOf(<https://purl.org/doves/b10b1490-4dce-4970-bd31-5e59471fa6fb> <https://purl.org/doves/5cc0bc79-8861-4578-9694-f06e3b845f69>)
 
-# Class: <https://purl.org/doves/b129abd1-3d08-42e9-b1b3-7ed9f235fe93> (Patient)
+# Class: <https://purl.org/doves/b129abd1-3d08-42e9-b1b3-7ed9f235fe93> (Patient Role)
 
-AnnotationAssertion(rdfs:label <https://purl.org/doves/b129abd1-3d08-42e9-b1b3-7ed9f235fe93> "Patient"@en)
+AnnotationAssertion(rdfs:label <https://purl.org/doves/b129abd1-3d08-42e9-b1b3-7ed9f235fe93> "Patient Role"@en)
 SubClassOf(<https://purl.org/doves/b129abd1-3d08-42e9-b1b3-7ed9f235fe93> <https://purl.org/doves/4df28317-0241-45a9-b39a-69ef066fd4d5>)
 
 # Class: <https://purl.org/doves/b2153ef6-a877-4374-be7f-8ff972c324be> (USCDI V1)
@@ -802,9 +802,9 @@ SubClassOf(<https://purl.org/doves/d9e2bafb-40d3-433f-8047-5f7a81973790> ObjectS
 AnnotationAssertion(rdfs:label <https://purl.org/doves/da3392c3-0c35-4aed-8a3a-c3307314a65e> "Ultrasound"@en)
 SubClassOf(<https://purl.org/doves/da3392c3-0c35-4aed-8a3a-c3307314a65e> <https://purl.org/doves/ec2cd378-2780-47d1-bcfb-a7c4a1ec60eb>)
 
-# Class: <https://purl.org/doves/da5b1476-bbe6-4a2a-8267-886475bcc6f4> (Administrator)
+# Class: <https://purl.org/doves/da5b1476-bbe6-4a2a-8267-886475bcc6f4> (Administrator Role)
 
-AnnotationAssertion(rdfs:label <https://purl.org/doves/da5b1476-bbe6-4a2a-8267-886475bcc6f4> "Administrator"@en)
+AnnotationAssertion(rdfs:label <https://purl.org/doves/da5b1476-bbe6-4a2a-8267-886475bcc6f4> "Administrator Role"@en)
 SubClassOf(<https://purl.org/doves/da5b1476-bbe6-4a2a-8267-886475bcc6f4> <https://purl.org/doves/38552094-2ddf-4e81-b33d-080f5b904cd7>)
 
 # Class: <https://purl.org/doves/daed7098-b42f-4e48-8275-d0a97ef33b43> (Neurological Surgery)
@@ -904,9 +904,9 @@ SubClassOf(<https://purl.org/doves/e99c9629-5449-42f1-b439-cbd9856c19f3> <https:
 AnnotationAssertion(rdfs:label <https://purl.org/doves/ec2cd378-2780-47d1-bcfb-a7c4a1ec60eb> "Radiology"@en)
 SubClassOf(<https://purl.org/doves/ec2cd378-2780-47d1-bcfb-a7c4a1ec60eb> <https://purl.org/doves/1d62d176-3b08-4743-819c-ba79585f3a38>)
 
-# Class: <https://purl.org/doves/ecb2896b-027f-4dbb-b63c-d0a230014bb2> (Family)
+# Class: <https://purl.org/doves/ecb2896b-027f-4dbb-b63c-d0a230014bb2> (Family Role)
 
-AnnotationAssertion(rdfs:label <https://purl.org/doves/ecb2896b-027f-4dbb-b63c-d0a230014bb2> "Family"@en)
+AnnotationAssertion(rdfs:label <https://purl.org/doves/ecb2896b-027f-4dbb-b63c-d0a230014bb2> "Family Role"@en)
 SubClassOf(<https://purl.org/doves/ecb2896b-027f-4dbb-b63c-d0a230014bb2> <https://purl.org/doves/4df28317-0241-45a9-b39a-69ef066fd4d5>)
 
 # Class: <https://purl.org/doves/edd2c14b-bbc5-4eec-8c18-26acc71bcda5> (Female person)
@@ -962,9 +962,9 @@ AnnotationAssertion(rdfs:label <https://purl.org/doves/f27262fb-abb0-40d3-86a6-4
 AnnotationAssertion(skos:altLabel <https://purl.org/doves/f27262fb-abb0-40d3-86a6-4f080883d020> "Hip Disability and Osteoarthritis Outcome Score Outcome"@en)
 SubClassOf(<https://purl.org/doves/f27262fb-abb0-40d3-86a6-4f080883d020> <https://purl.org/doves/9caa2510-f3a6-4de8-adcb-c554e91aeba7>)
 
-# Class: <https://purl.org/doves/f36e2870-61e7-4b51-abcd-8752df25ea68> (Medical Assistant)
+# Class: <https://purl.org/doves/f36e2870-61e7-4b51-abcd-8752df25ea68> (Medical Assistant Role)
 
-AnnotationAssertion(rdfs:label <https://purl.org/doves/f36e2870-61e7-4b51-abcd-8752df25ea68> "Medical Assistant"@en)
+AnnotationAssertion(rdfs:label <https://purl.org/doves/f36e2870-61e7-4b51-abcd-8752df25ea68> "Medical Assistant Role"@en)
 SubClassOf(<https://purl.org/doves/f36e2870-61e7-4b51-abcd-8752df25ea68> <https://purl.org/doves/13c1b5fc-1104-44fe-9975-74c60a26595f>)
 
 # Class: <https://purl.org/doves/f4629b84-b36a-4289-b94f-dd16d8446cc5> (XRay)
@@ -1296,9 +1296,9 @@ SubClassOf(<https://purl.org/doves/104df283-76d5-44ae-b558-bd7dbffdde03> <https:
 AnnotationAssertion(rdfs:label <https://purl.org/doves/12d53a9c-2ead-4a45-8c5f-03b264289d65> "Hand/Wrist/Elbow"@en)
 SubClassOf(<https://purl.org/doves/12d53a9c-2ead-4a45-8c5f-03b264289d65> <https://purl.org/doves/f578ffc9-e13e-44ba-828b-fe600d844430>)
 
-# Class: <https://purl.org/doves/13c1b5fc-1104-44fe-9975-74c60a26595f> (Clinician)
+# Class: <https://purl.org/doves/13c1b5fc-1104-44fe-9975-74c60a26595f> (Clinician Role)
 
-AnnotationAssertion(rdfs:label <https://purl.org/doves/13c1b5fc-1104-44fe-9975-74c60a26595f> "Clinician"@en)
+AnnotationAssertion(rdfs:label <https://purl.org/doves/13c1b5fc-1104-44fe-9975-74c60a26595f> "Clinician Role"@en)
 SubClassOf(<https://purl.org/doves/13c1b5fc-1104-44fe-9975-74c60a26595f> <https://purl.org/doves/38552094-2ddf-4e81-b33d-080f5b904cd7>)
 
 # Class: <https://purl.org/doves/14f7b565-fd23-485a-99ce-0e8019271ea7> (Physical Medicine and Rehabilitation)
@@ -1419,9 +1419,9 @@ SubClassOf(<https://purl.org/doves/266a5802-7c7e-45ba-adf3-9991ec3acbed> <https:
 AnnotationAssertion(rdfs:label <https://purl.org/doves/2687f9f2-22d6-4a64-8a86-bb9b3a7de2d5> "Reduced Leave Without Being Seen Rate Outcome"@en)
 SubClassOf(<https://purl.org/doves/2687f9f2-22d6-4a64-8a86-bb9b3a7de2d5> <https://purl.org/doves/cdec99b1-f3e5-4009-bdc5-49ea965dc503>)
 
-# Class: <https://purl.org/doves/29dcd95d-567e-485e-84af-7fb536fa08a4> (Nurse)
+# Class: <https://purl.org/doves/29dcd95d-567e-485e-84af-7fb536fa08a4> (Nurse Role)
 
-AnnotationAssertion(rdfs:label <https://purl.org/doves/29dcd95d-567e-485e-84af-7fb536fa08a4> "Nurse"@en)
+AnnotationAssertion(rdfs:label <https://purl.org/doves/29dcd95d-567e-485e-84af-7fb536fa08a4> "Nurse Role"@en)
 SubClassOf(<https://purl.org/doves/29dcd95d-567e-485e-84af-7fb536fa08a4> <https://purl.org/doves/13c1b5fc-1104-44fe-9975-74c60a26595f>)
 
 # Class: <https://purl.org/doves/293fef7c-6978-4696-92bc-935d964ebf9d> (Bariatrics)
@@ -1481,9 +1481,9 @@ SubClassOf(<https://purl.org/doves/34b6e0c7-74aa-4c1b-9832-92701e4238cb> <https:
 AnnotationAssertion(rdfs:label <https://purl.org/doves/360937f7-f234-49f5-9783-73abd2409d9c> "Response Time"@en)
 SubClassOf(<https://purl.org/doves/360937f7-f234-49f5-9783-73abd2409d9c> <https://purl.org/doves/c420321e-c648-4ee8-bf15-9df9800e8bde>)
 
-# Class: <https://purl.org/doves/37a002b3-8eec-4341-b3d0-6ccb97d8e42d> (Physician)
+# Class: <https://purl.org/doves/37a002b3-8eec-4341-b3d0-6ccb97d8e42d> (Physician Role)
 
-AnnotationAssertion(rdfs:label <https://purl.org/doves/37a002b3-8eec-4341-b3d0-6ccb97d8e42d> "Physician"@en)
+AnnotationAssertion(rdfs:label <https://purl.org/doves/37a002b3-8eec-4341-b3d0-6ccb97d8e42d> "Physician Role"@en)
 SubClassOf(<https://purl.org/doves/37a002b3-8eec-4341-b3d0-6ccb97d8e42d> <https://purl.org/doves/13c1b5fc-1104-44fe-9975-74c60a26595f>)
 
 # Class: <https://purl.org/doves/3781adc3-8d90-49e5-82d9-bb7186db46e8> (Hip)
@@ -1521,9 +1521,9 @@ SubClassOf(<https://purl.org/doves/4d6d76b2-faab-4560-bfef-63c1436f2f4e> <https:
 AnnotationAssertion(rdfs:label <https://purl.org/doves/4dcb77b8-51f4-4b3a-8a61-a4dd9e2c72ae> "Satisfaction"@en)
 SubClassOf(<https://purl.org/doves/4dcb77b8-51f4-4b3a-8a61-a4dd9e2c72ae> <https://purl.org/doves/0b7a7c80-8dcc-4597-b980-cd04efe70a78>)
 
-# Class: <https://purl.org/doves/4df28317-0241-45a9-b39a-69ef066fd4d5> (Caregiver)
+# Class: <https://purl.org/doves/4df28317-0241-45a9-b39a-69ef066fd4d5> (Caregiver Role)
 
-AnnotationAssertion(rdfs:label <https://purl.org/doves/4df28317-0241-45a9-b39a-69ef066fd4d5> "Caregiver"@en)
+AnnotationAssertion(rdfs:label <https://purl.org/doves/4df28317-0241-45a9-b39a-69ef066fd4d5> "Caregiver Role"@en)
 SubClassOf(<https://purl.org/doves/4df28317-0241-45a9-b39a-69ef066fd4d5> <https://purl.org/doves/38552094-2ddf-4e81-b33d-080f5b904cd7>)
 
 # Class: <https://purl.org/doves/4e10ca8c-ec8b-4953-b2d5-cbeee634f6fe> (Increased Positive Predictive Value)
@@ -1762,9 +1762,9 @@ SubClassOf(<https://purl.org/doves/65fb3268-8c4a-4718-ab02-57a0f43a9c3d> <https:
 AnnotationAssertion(rdfs:label <https://purl.org/doves/653ff95b-ac79-4656-a8c1-3bb52f74d8a3> "Child girl person"@en)
 EquivalentClasses(<https://purl.org/doves/653ff95b-ac79-4656-a8c1-3bb52f74d8a3> ObjectIntersectionOf(<https://purl.org/doves/01d40506-2d2f-4237-a87b-229e268c2f14> ObjectSomeValuesFrom(<https://purl.org/doves/e352e4b8-9c80-45f1-a877-a397b5b33cc1> <https://purl.org/doves/bdce4b1c-c192-4384-b138-911ec298fd2f>) ObjectSomeValuesFrom(<https://purl.org/doves/4b61e411-782f-4ccd-9f96-ba45caef73b6> <https://purl.org/doves/edd2c14b-bbc5-4eec-8c18-26acc71bcda5>)))
 
-# Class: <https://purl.org/doves/657b9d62-19a9-4e32-a7d3-677a72ee4a6e> (Physician Assistant)
+# Class: <https://purl.org/doves/657b9d62-19a9-4e32-a7d3-677a72ee4a6e> (Physician Assistant Role)
 
-AnnotationAssertion(rdfs:label <https://purl.org/doves/657b9d62-19a9-4e32-a7d3-677a72ee4a6e> "Physician Assistant"@en)
+AnnotationAssertion(rdfs:label <https://purl.org/doves/657b9d62-19a9-4e32-a7d3-677a72ee4a6e> "Physician Assistant Role"@en)
 SubClassOf(<https://purl.org/doves/657b9d62-19a9-4e32-a7d3-677a72ee4a6e> <https://purl.org/doves/13c1b5fc-1104-44fe-9975-74c60a26595f>)
 
 # Class: <https://purl.org/doves/67a19612-dc87-48c2-89c6-8c0636e1fa88> (Neonate girl person)
