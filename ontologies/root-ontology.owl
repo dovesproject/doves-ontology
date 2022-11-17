@@ -851,9 +851,9 @@ SubClassOf(<https://purl.org/doves/e15cbe9f-c88e-47ea-8727-d088fe7b767d> <https:
 AnnotationAssertion(rdfs:label <https://purl.org/doves/e1b32055-f68c-4f72-a5bb-0122d5fe2023> "Obstetrics and Gynecology"@en)
 SubClassOf(<https://purl.org/doves/e1b32055-f68c-4f72-a5bb-0122d5fe2023> <https://purl.org/doves/1d62d176-3b08-4743-819c-ba79585f3a38>)
 
-# Class: <https://purl.org/doves/e3b2aa1f-da25-4ddb-ba0a-a275d22cb2d4> (Quality of Life Outcome)
+# Class: <https://purl.org/doves/e3b2aa1f-da25-4ddb-ba0a-a275d22cb2d4> (Patient Reported Quality of Life Outcome)
 
-AnnotationAssertion(rdfs:label <https://purl.org/doves/e3b2aa1f-da25-4ddb-ba0a-a275d22cb2d4> "Quality of Life Outcome"@en)
+AnnotationAssertion(rdfs:label <https://purl.org/doves/e3b2aa1f-da25-4ddb-ba0a-a275d22cb2d4> "Patient Reported Quality of Life Outcome"@en)
 SubClassOf(<https://purl.org/doves/e3b2aa1f-da25-4ddb-ba0a-a275d22cb2d4> <https://purl.org/doves/9caa2510-f3a6-4de8-adcb-c554e91aeba7>)
 
 # Class: <https://purl.org/doves/e3e08f27-e18a-4db8-937b-5ec4ba9c6c58> (Medical Genetics and Genomics)
