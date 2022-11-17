@@ -1685,10 +1685,9 @@ AnnotationAssertion(rdfs:label <https://purl.org/doves/6b215ace-0c48-42dc-bcb3-2
 AnnotationAssertion(skos:definition <https://purl.org/doves/6b215ace-0c48-42dc-bcb3-20c7007c2705> "A Risk Prediction Outcome is a Health Benefit Outcome that describes a probability of condition or disease based on a variety of digital inputs.")
 SubClassOf(<https://purl.org/doves/6b215ace-0c48-42dc-bcb3-20c7007c2705> <https://purl.org/doves/8e9f2330-e042-4723-a5f6-422f7565f1ee>)
 
-# Class: <https://purl.org/doves/6ca84b77-899d-4fd4-a9ef-b9d1831ce4e6> (Patient Activation)
+# Class: <https://purl.org/doves/6ca84b77-899d-4fd4-a9ef-b9d1831ce4e6> (Patient Engagement Outcome)
 
-AnnotationAssertion(rdfs:label <https://purl.org/doves/6ca84b77-899d-4fd4-a9ef-b9d1831ce4e6> "Patient Activation"@en)
-AnnotationAssertion(rdfs:label <https://purl.org/doves/6ca84b77-899d-4fd4-a9ef-b9d1831ce4e6> "Patient_Engagement"@en)
+AnnotationAssertion(rdfs:label <https://purl.org/doves/6ca84b77-899d-4fd4-a9ef-b9d1831ce4e6> "Patient Engagement Outcome"@en)
 SubClassOf(<https://purl.org/doves/6ca84b77-899d-4fd4-a9ef-b9d1831ce4e6> <https://purl.org/doves/f70ac7b3-c718-4511-9f13-2f4ab13050b8>)
 
 # Class: <https://purl.org/doves/6e987b1b-9abe-47b2-b210-99b45049f434> (Appeared/Scheduled)
