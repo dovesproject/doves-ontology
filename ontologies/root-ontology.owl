@@ -1807,9 +1807,10 @@ SubClassOf(<https://purl.org/doves/7a09f42e-d2c9-4fd5-b1ff-af3f82219976> <https:
 AnnotationAssertion(rdfs:label <https://purl.org/doves/7a5d7ad8-ce82-4bbc-a577-a9a72d2afb9d> "Prescription Fill Rate"@en)
 SubClassOf(<https://purl.org/doves/7a5d7ad8-ce82-4bbc-a577-a9a72d2afb9d> <https://purl.org/doves/1c1d0e62-5c9b-4344-8ff1-9e71d1debb38>)
 
-# Class: <https://purl.org/doves/7b737888-87d5-4848-97b1-94580aa93a7d> (EQ-5D)
+# Class: <https://purl.org/doves/7b737888-87d5-4848-97b1-94580aa93a7d> (EQ-5D Score Outcome)
 
-AnnotationAssertion(rdfs:label <https://purl.org/doves/7b737888-87d5-4848-97b1-94580aa93a7d> "EQ-5D"@en)
+AnnotationAssertion(rdfs:label <https://purl.org/doves/7b737888-87d5-4848-97b1-94580aa93a7d> "EQ-5D Score Outcome"@en)
+AnnotationAssertion(skos:altLabel <https://purl.org/doves/7b737888-87d5-4848-97b1-94580aa93a7d> "EuroQol-5 Dimension Score Outcome"@en)
 SubClassOf(<https://purl.org/doves/7b737888-87d5-4848-97b1-94580aa93a7d> <https://purl.org/doves/e3b2aa1f-da25-4ddb-ba0a-a275d22cb2d4>)
 
 # Class: <https://purl.org/doves/7c438f59-5039-44a1-be83-bffdb4daa7ce> (HiTrust Certification)
