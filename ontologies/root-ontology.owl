@@ -856,9 +856,9 @@ SubClassOf(<https://purl.org/doves/e3e08f27-e18a-4db8-937b-5ec4ba9c6c58> <https:
 AnnotationAssertion(rdfs:label <https://purl.org/doves/e664555f-ac26-4050-b63e-4bfa6725a165> "Infectious Disease"@en)
 SubClassOf(<https://purl.org/doves/e664555f-ac26-4050-b63e-4bfa6725a165> <https://purl.org/doves/0affbb06-3be7-44c4-8bbd-2ca9dd0dc388>)
 
-# Class: <https://purl.org/doves/e677ffb2-3a5a-4e16-a017-a7268e348735> (Reduced Adverse Event Rate)
+# Class: <https://purl.org/doves/e677ffb2-3a5a-4e16-a017-a7268e348735> (Reduced Adverse Event Rate Outcome)
 
-AnnotationAssertion(rdfs:label <https://purl.org/doves/e677ffb2-3a5a-4e16-a017-a7268e348735> "Reduced Adverse Event Rate"@en)
+AnnotationAssertion(rdfs:label <https://purl.org/doves/e677ffb2-3a5a-4e16-a017-a7268e348735> "Reduced Adverse Event Rate Outcome"@en)
 SubClassOf(<https://purl.org/doves/e677ffb2-3a5a-4e16-a017-a7268e348735> <https://purl.org/doves/840177a9-3e6d-4978-ac7a-8580c78443d6>)
 SubClassOf(<https://purl.org/doves/e677ffb2-3a5a-4e16-a017-a7268e348735> ObjectSomeValuesFrom(<https://purl.org/doves/35053043-d428-432d-9044-1c3c91f72451> obo:OAE_0000001))
 
