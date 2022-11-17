@@ -1852,9 +1852,8 @@ SubClassOf(<https://purl.org/doves/711fcca4-517f-4fc4-afc6-8923760ef42f> <https:
 AnnotationAssertion(rdfs:label <https://purl.org/doves/711ff8c1-cf75-4e87-952b-2bc40c35502c> "Medication Dosing"@en)
 SubClassOf(<https://purl.org/doves/711ff8c1-cf75-4e87-952b-2bc40c35502c> <https://purl.org/doves/49f0075d-4218-44ed-a958-1f63ae7f0529>)
 
-# Class: <https://purl.org/doves/7124f3ed-a489-431c-90ce-c2a5fe7d95bb> (Costs)
+# Class: <https://purl.org/doves/7124f3ed-a489-431c-90ce-c2a5fe7d95bb> (Reduced Costs)
 
-AnnotationAssertion(rdfs:label <https://purl.org/doves/7124f3ed-a489-431c-90ce-c2a5fe7d95bb> "Costs"@en)
 AnnotationAssertion(rdfs:label <https://purl.org/doves/7124f3ed-a489-431c-90ce-c2a5fe7d95bb> "Reduced Costs"@en)
 SubClassOf(<https://purl.org/doves/7124f3ed-a489-431c-90ce-c2a5fe7d95bb> <https://purl.org/doves/f4c71cb0-20ca-4838-bea8-c8aa68037a97>)
 
