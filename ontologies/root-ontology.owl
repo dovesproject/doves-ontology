@@ -1233,9 +1233,9 @@ SubClassOf(<https://purl.org/doves/1a3cc2db-d71a-4dee-8dea-2003f2dddf78> <https:
 AnnotationAssertion(rdfs:label <https://purl.org/doves/1ae3245a-1b7f-40b2-ae3b-74706699204a> "Healthcare Operation Outcome"@en)
 SubClassOf(<https://purl.org/doves/1ae3245a-1b7f-40b2-ae3b-74706699204a> <https://purl.org/doves/8081940e-b77f-4aa1-bfcf-0b979f0a2158>)
 
-# Class: <https://purl.org/doves/1c1d0e62-5c9b-4344-8ff1-9e71d1debb38> (Medication Adherence)
+# Class: <https://purl.org/doves/1c1d0e62-5c9b-4344-8ff1-9e71d1debb38> (Medication Adherence Outcome)
 
-AnnotationAssertion(rdfs:label <https://purl.org/doves/1c1d0e62-5c9b-4344-8ff1-9e71d1debb38> "Medication Adherence"@en)
+AnnotationAssertion(rdfs:label <https://purl.org/doves/1c1d0e62-5c9b-4344-8ff1-9e71d1debb38> "Medication Adherence Outcome"@en)
 SubClassOf(<https://purl.org/doves/1c1d0e62-5c9b-4344-8ff1-9e71d1debb38> <https://purl.org/doves/f70ac7b3-c718-4511-9f13-2f4ab13050b8>)
 
 # Class: <https://purl.org/doves/1ce5511a-c36f-4fb4-97a6-8e1b0642a27d> (Technical Feature)
