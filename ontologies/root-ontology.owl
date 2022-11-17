@@ -2029,9 +2029,9 @@ SubClassOf(<https://purl.org/doves/85406ebf-9cfc-42b3-8e57-1eda3cf81380> <https:
 AnnotationAssertion(rdfs:label <https://purl.org/doves/86599532-085b-41dd-b525-64fbbaac0317> "Podiatry"@en)
 SubClassOf(<https://purl.org/doves/86599532-085b-41dd-b525-64fbbaac0317> <https://purl.org/doves/1d62d176-3b08-4743-819c-ba79585f3a38>)
 
-# Class: <https://purl.org/doves/8773470f-b184-4f06-84ed-fcb2a1108574> (Clinical Processes)
+# Class: <https://purl.org/doves/8773470f-b184-4f06-84ed-fcb2a1108574> (Clinical Process)
 
-AnnotationAssertion(rdfs:label <https://purl.org/doves/8773470f-b184-4f06-84ed-fcb2a1108574> "Clinical Processes"@en)
+AnnotationAssertion(rdfs:label <https://purl.org/doves/8773470f-b184-4f06-84ed-fcb2a1108574> "Clinical Process"@en)
 SubClassOf(<https://purl.org/doves/8773470f-b184-4f06-84ed-fcb2a1108574> <https://purl.org/doves/78ceb509-e44b-4d8c-bd47-b457f9d835cb>)
 
 # Class: <https://purl.org/doves/888b27ef-4a37-4f2d-b918-a9291ac2b878> (Clinical Data Transformation)
