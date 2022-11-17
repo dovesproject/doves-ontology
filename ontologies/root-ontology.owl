@@ -1411,9 +1411,9 @@ SubClassOf(<https://purl.org/doves/26296d7b-09d5-4eae-9c0e-e22fe6c5d78c> <https:
 AnnotationAssertion(rdfs:label <https://purl.org/doves/266a5802-7c7e-45ba-adf3-9991ec3acbed> "Prescription Fill Rate"@en)
 SubClassOf(<https://purl.org/doves/266a5802-7c7e-45ba-adf3-9991ec3acbed> <https://purl.org/doves/afa90ae5-da23-4f28-8fd4-ce2d8ce18b40>)
 
-# Class: <https://purl.org/doves/2687f9f2-22d6-4a64-8a86-bb9b3a7de2d5> (Reduced Leave Without Being Seen Rate)
+# Class: <https://purl.org/doves/2687f9f2-22d6-4a64-8a86-bb9b3a7de2d5> (Reduced Leave Without Being Seen Rate Outcome)
 
-AnnotationAssertion(rdfs:label <https://purl.org/doves/2687f9f2-22d6-4a64-8a86-bb9b3a7de2d5> "Reduced Leave Without Being Seen Rate"@en)
+AnnotationAssertion(rdfs:label <https://purl.org/doves/2687f9f2-22d6-4a64-8a86-bb9b3a7de2d5> "Reduced Leave Without Being Seen Rate Outcome"@en)
 SubClassOf(<https://purl.org/doves/2687f9f2-22d6-4a64-8a86-bb9b3a7de2d5> <https://purl.org/doves/cdec99b1-f3e5-4009-bdc5-49ea965dc503>)
 
 # Class: <https://purl.org/doves/29dcd95d-567e-485e-84af-7fb536fa08a4> (Nurse)
