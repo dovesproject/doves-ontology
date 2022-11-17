@@ -698,9 +698,9 @@ SubClassOf(<https://purl.org/doves/cd27d2cf-0101-410d-95d3-651f1245749d> <https:
 AnnotationAssertion(rdfs:label <https://purl.org/doves/cd866c42-9c5a-40d7-901d-68102336838f> "Increased Kappa Statistic"@en)
 SubClassOf(<https://purl.org/doves/cd866c42-9c5a-40d7-901d-68102336838f> <https://purl.org/doves/e8a3913a-2e3c-42c6-b662-a35736ffcada>)
 
-# Class: <https://purl.org/doves/cdec99b1-f3e5-4009-bdc5-49ea965dc503> (Reduced Emergency Department Utilization)
+# Class: <https://purl.org/doves/cdec99b1-f3e5-4009-bdc5-49ea965dc503> (Reduced Emergency Department Utilization Outcome)
 
-AnnotationAssertion(rdfs:label <https://purl.org/doves/cdec99b1-f3e5-4009-bdc5-49ea965dc503> "Reduced Emergency Department Utilization"@en)
+AnnotationAssertion(rdfs:label <https://purl.org/doves/cdec99b1-f3e5-4009-bdc5-49ea965dc503> "Reduced Emergency Department Utilization Outcome"@en)
 SubClassOf(<https://purl.org/doves/cdec99b1-f3e5-4009-bdc5-49ea965dc503> <https://purl.org/doves/089409f3-106f-4742-a91a-df135a4b4102>)
 
 # Class: <https://purl.org/doves/d042fc04-644c-4ce3-9ea9-c51efd5ac25a> (Data Processing Synthesis or Visualization)
