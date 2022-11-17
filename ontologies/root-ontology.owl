@@ -158,7 +158,6 @@ Declaration(Class(<https://purl.org/doves/0f628b08-c7ca-425d-9a96-a609e72e49c2>)
 Declaration(Class(<https://purl.org/doves/01d40506-2d2f-4237-a87b-229e268c2f14>))
 Declaration(Class(<https://purl.org/doves/01452e51-c0e3-45b8-a954-7b0af8fdb609>))
 Declaration(Class(<https://purl.org/doves/028c0b85-9a85-4962-97c3-4a6af994781c>))
-Declaration(Class(<https://purl.org/doves/03bebc2e-f81a-47d4-ba3b-829f2158b366>))
 Declaration(Class(<https://purl.org/doves/03d77b9b-3826-4fc8-ae93-d953da207de4>))
 Declaration(Class(<https://purl.org/doves/0323ba81-5b6f-417d-9829-263c5403582f>))
 Declaration(Class(<https://purl.org/doves/0362170c-0c07-4857-adde-9ca253726780>))
@@ -1123,7 +1122,6 @@ AnnotationAssertion(rdfs:comment <https://purl.org/doves/0bd86ad9-6ecc-4226-9627
 AnnotationAssertion(rdfs:label <https://purl.org/doves/0bd86ad9-6ecc-4226-9627-b458ee64cfb1> "Demo - Peri-operative Guidance Application"@en)
 SubClassOf(<https://purl.org/doves/0bd86ad9-6ecc-4226-9627-b458ee64cfb1> <https://purl.org/doves/d9e2bafb-40d3-433f-8047-5f7a81973790>)
 SubClassOf(<https://purl.org/doves/0bd86ad9-6ecc-4226-9627-b458ee64cfb1> ObjectSomeValuesFrom(<https://purl.org/doves/bc0c195d-054f-46ef-b11a-7098ecac8258> <https://purl.org/doves/b129abd1-3d08-42e9-b1b3-7ed9f235fe93>))
-SubClassOf(<https://purl.org/doves/0bd86ad9-6ecc-4226-9627-b458ee64cfb1> ObjectSomeValuesFrom(<https://purl.org/doves/bc0c195d-054f-46ef-b11a-7098ecac8258> <https://purl.org/doves/03bebc2e-f81a-47d4-ba3b-829f2158b366>))
 SubClassOf(<https://purl.org/doves/0bd86ad9-6ecc-4226-9627-b458ee64cfb1> ObjectSomeValuesFrom(<https://purl.org/doves/bc0c195d-054f-46ef-b11a-7098ecac8258> <https://purl.org/doves/37a002b3-8eec-4341-b3d0-6ccb97d8e42d>))
 SubClassOf(<https://purl.org/doves/0bd86ad9-6ecc-4226-9627-b458ee64cfb1> ObjectSomeValuesFrom(<https://purl.org/doves/bc0c195d-054f-46ef-b11a-7098ecac8258> <https://purl.org/doves/657b9d62-19a9-4e32-a7d3-677a72ee4a6e>))
 SubClassOf(<https://purl.org/doves/0bd86ad9-6ecc-4226-9627-b458ee64cfb1> ObjectSomeValuesFrom(<https://purl.org/doves/0f7444a8-2cef-4af2-b3e9-b4d0d5e0b55c> <https://purl.org/doves/d12f4245-989e-4d9a-a72a-4fc8c9e5a254>))
@@ -1174,11 +1172,6 @@ SubClassOf(<https://purl.org/doves/01452e51-c0e3-45b8-a954-7b0af8fdb609> <https:
 
 AnnotationAssertion(rdfs:label <https://purl.org/doves/028c0b85-9a85-4962-97c3-4a6af994781c> "Artificial intelligence technology"@en)
 SubClassOf(<https://purl.org/doves/028c0b85-9a85-4962-97c3-4a6af994781c> <https://purl.org/doves/894b0e16-237d-40f2-87f0-adaa02cab8c8>)
-
-# Class: <https://purl.org/doves/03bebc2e-f81a-47d4-ba3b-829f2158b366> (Caregiver)
-
-AnnotationAssertion(rdfs:label <https://purl.org/doves/03bebc2e-f81a-47d4-ba3b-829f2158b366> "Caregiver"@en)
-SubClassOf(<https://purl.org/doves/03bebc2e-f81a-47d4-ba3b-829f2158b366> <https://purl.org/doves/4df28317-0241-45a9-b39a-69ef066fd4d5>)
 
 # Class: <https://purl.org/doves/03d77b9b-3826-4fc8-ae93-d953da207de4> (USCDI V2)
 
