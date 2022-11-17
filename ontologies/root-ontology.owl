@@ -2116,7 +2116,6 @@ SubClassOf(<https://purl.org/doves/94f4763c-ef68-4267-8b54-7f2e2a9b4b9e> <https:
 
 # Class: <https://purl.org/doves/9479abfd-b4df-4005-9a53-66eeef5dfc10> (Reduced Hospital Total Costs)
 
-AnnotationAssertion(rdfs:label <https://purl.org/doves/9479abfd-b4df-4005-9a53-66eeef5dfc10> "Hospital Total Costs"@en)
 AnnotationAssertion(rdfs:label <https://purl.org/doves/9479abfd-b4df-4005-9a53-66eeef5dfc10> "Reduced Hospital Total Costs"@en)
 SubClassOf(<https://purl.org/doves/9479abfd-b4df-4005-9a53-66eeef5dfc10> <https://purl.org/doves/7124f3ed-a489-431c-90ce-c2a5fe7d95bb>)
 
