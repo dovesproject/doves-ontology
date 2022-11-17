@@ -860,9 +860,9 @@ AnnotationAssertion(rdfs:label <https://purl.org/doves/e677ffb2-3a5a-4e16-a017-a
 SubClassOf(<https://purl.org/doves/e677ffb2-3a5a-4e16-a017-a7268e348735> <https://purl.org/doves/840177a9-3e6d-4978-ac7a-8580c78443d6>)
 SubClassOf(<https://purl.org/doves/e677ffb2-3a5a-4e16-a017-a7268e348735> ObjectSomeValuesFrom(<https://purl.org/doves/35053043-d428-432d-9044-1c3c91f72451> obo:OAE_0000001))
 
-# Class: <https://purl.org/doves/e809c41b-c28d-4364-91d0-d62b8d900f73> (Reduced 90 Day All Cause Readmission Rate Outcome)
+# Class: <https://purl.org/doves/e809c41b-c28d-4364-91d0-d62b8d900f73> (Reduced 90 Day All Cause Hospital Readmission Rate Outcome)
 
-AnnotationAssertion(rdfs:label <https://purl.org/doves/e809c41b-c28d-4364-91d0-d62b8d900f73> "Reduced 90 Day All Cause Readmission Rate Outcome"@en)
+AnnotationAssertion(rdfs:label <https://purl.org/doves/e809c41b-c28d-4364-91d0-d62b8d900f73> "Reduced 90 Day All Cause Hospital Readmission Rate Outcome"@en)
 SubClassOf(<https://purl.org/doves/e809c41b-c28d-4364-91d0-d62b8d900f73> <https://purl.org/doves/68ea2f3e-8efc-4c00-8c78-772dffcf09de>)
 
 # Class: <https://purl.org/doves/e849bada-9fc3-4799-b3d4-625dc79093f4> (Digital Medicine Application Outcome)
@@ -1133,9 +1133,9 @@ SubClassOf(<https://purl.org/doves/0d47a235-ce6d-4eee-8fad-ba181ada2ae2> <https:
 AnnotationAssertion(rdfs:label <https://purl.org/doves/0eb5511a-4ba9-43ad-bdca-2bb3a3d75faa> "Ankle"@en)
 SubClassOf(<https://purl.org/doves/0eb5511a-4ba9-43ad-bdca-2bb3a3d75faa> <https://purl.org/doves/f578ffc9-e13e-44ba-828b-fe600d844430>)
 
-# Class: <https://purl.org/doves/0f628b08-c7ca-425d-9a96-a609e72e49c2> (Reduced Hospital Length of Stay)
+# Class: <https://purl.org/doves/0f628b08-c7ca-425d-9a96-a609e72e49c2> (Reduced Hospital Length of Stay Outcome)
 
-AnnotationAssertion(rdfs:label <https://purl.org/doves/0f628b08-c7ca-425d-9a96-a609e72e49c2> "Reduced Hospital Length of Stay"@en)
+AnnotationAssertion(rdfs:label <https://purl.org/doves/0f628b08-c7ca-425d-9a96-a609e72e49c2> "Reduced Hospital Length of Stay Outcome"@en)
 SubClassOf(<https://purl.org/doves/0f628b08-c7ca-425d-9a96-a609e72e49c2> <https://purl.org/doves/089409f3-106f-4742-a91a-df135a4b4102>)
 
 # Class: <https://purl.org/doves/01d40506-2d2f-4237-a87b-229e268c2f14> (Person)
