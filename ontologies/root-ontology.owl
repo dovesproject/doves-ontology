@@ -1039,7 +1039,6 @@ SubClassOf(<https://purl.org/doves/fa9f1a07-dfaa-4d58-926b-ed0b754eb242> <https:
 
 # Class: <https://purl.org/doves/fbee41fa-7ca0-44ad-85fa-7ab771b2b169> (Increased Cost Effectiveness)
 
-AnnotationAssertion(rdfs:label <https://purl.org/doves/fbee41fa-7ca0-44ad-85fa-7ab771b2b169> "Cost Effectiveness Outcome"@en)
 AnnotationAssertion(rdfs:label <https://purl.org/doves/fbee41fa-7ca0-44ad-85fa-7ab771b2b169> "Increased Cost Effectiveness"@en)
 SubClassOf(<https://purl.org/doves/fbee41fa-7ca0-44ad-85fa-7ab771b2b169> <https://purl.org/doves/f4c71cb0-20ca-4838-bea8-c8aa68037a97>)
 
