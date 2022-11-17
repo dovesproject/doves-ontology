@@ -990,9 +990,8 @@ SubClassOf(<https://purl.org/doves/f70ac7b3-c718-4511-9f13-2f4ab13050b8> <https:
 AnnotationAssertion(rdfs:label <https://purl.org/doves/f740a23e-7565-4e5f-be22-7ba9e652fc45> "Decreased Cost per Quality Adjusted Life Years"@en)
 SubClassOf(<https://purl.org/doves/f740a23e-7565-4e5f-be22-7ba9e652fc45> <https://purl.org/doves/fbee41fa-7ca0-44ad-85fa-7ab771b2b169>)
 
-# Class: <https://purl.org/doves/f7c5ecc6-56e3-4644-a133-e22d52d80686> (Hospital Allowed Costs)
+# Class: <https://purl.org/doves/f7c5ecc6-56e3-4644-a133-e22d52d80686> (Reduced Hospital Allowed Costs)
 
-AnnotationAssertion(rdfs:label <https://purl.org/doves/f7c5ecc6-56e3-4644-a133-e22d52d80686> "Hospital Allowed Costs"@en)
 AnnotationAssertion(rdfs:label <https://purl.org/doves/f7c5ecc6-56e3-4644-a133-e22d52d80686> "Reduced Hospital Allowed Costs"@en)
 SubClassOf(<https://purl.org/doves/f7c5ecc6-56e3-4644-a133-e22d52d80686> <https://purl.org/doves/7124f3ed-a489-431c-90ce-c2a5fe7d95bb>)
 
