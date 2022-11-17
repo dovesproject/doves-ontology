@@ -1730,9 +1730,9 @@ SubClassOf(<https://purl.org/doves/6063f39d-33f9-488b-b104-1f4145e9e4d8> <https:
 AnnotationAssertion(rdfs:label <https://purl.org/doves/60664c15-d39e-460b-9e48-98e660cb8b57> "HEDIS Measures"@en)
 SubClassOf(<https://purl.org/doves/60664c15-d39e-460b-9e48-98e660cb8b57> <https://purl.org/doves/cd27d2cf-0101-410d-95d3-651f1245749d>)
 
-# Class: <https://purl.org/doves/6093bed9-a9fb-4553-8546-fc771ed68ba6> (Euro-Qol)
+# Class: <https://purl.org/doves/6093bed9-a9fb-4553-8546-fc771ed68ba6> (Euro-Qol Score Outcome)
 
-AnnotationAssertion(rdfs:label <https://purl.org/doves/6093bed9-a9fb-4553-8546-fc771ed68ba6> "Euro-Qol"@en)
+AnnotationAssertion(rdfs:label <https://purl.org/doves/6093bed9-a9fb-4553-8546-fc771ed68ba6> "Euro-Qol Score Outcome"@en)
 SubClassOf(<https://purl.org/doves/6093bed9-a9fb-4553-8546-fc771ed68ba6> <https://purl.org/doves/e3b2aa1f-da25-4ddb-ba0a-a275d22cb2d4>)
 
 # Class: <https://purl.org/doves/636f2a6e-16d9-4276-84d3-3d6c89b25bd2> (Increased Macro Recall)
