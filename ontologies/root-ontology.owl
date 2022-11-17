@@ -1341,9 +1341,10 @@ SubClassOf(<https://purl.org/doves/18760099-e169-4910-854a-094ef0a38ca6> <https:
 AnnotationAssertion(rdfs:label <https://purl.org/doves/19e1853a-dd3f-4c25-bbce-79e267330574> "Hematopathology"@en)
 SubClassOf(<https://purl.org/doves/19e1853a-dd3f-4c25-bbce-79e267330574> <https://purl.org/doves/1ff5e67f-968a-4bb0-b693-cde80e30f967>)
 
-# Class: <https://purl.org/doves/2aae1995-e7dc-4da6-86dd-edbb3e073378> (KOOS)
+# Class: <https://purl.org/doves/2aae1995-e7dc-4da6-86dd-edbb3e073378> (KOOS Outcome)
 
-AnnotationAssertion(rdfs:label <https://purl.org/doves/2aae1995-e7dc-4da6-86dd-edbb3e073378> "KOOS"@en)
+AnnotationAssertion(rdfs:label <https://purl.org/doves/2aae1995-e7dc-4da6-86dd-edbb3e073378> "KOOS Outcome"@en)
+AnnotationAssertion(skos:altLabel <https://purl.org/doves/2aae1995-e7dc-4da6-86dd-edbb3e073378> "Knee injury and Osteoarthritis Outcome Score Outcome"@en)
 SubClassOf(<https://purl.org/doves/2aae1995-e7dc-4da6-86dd-edbb3e073378> <https://purl.org/doves/9caa2510-f3a6-4de8-adcb-c554e91aeba7>)
 
 # Class: <https://purl.org/doves/2abbef4a-0dab-4cda-a13a-a0bfcd7d86bf> (Geriatric Medicine)
