@@ -1321,9 +1321,10 @@ SubClassOf(<https://purl.org/doves/1559869c-e8b1-4820-bf25-459b2e0fdb4f> <https:
 AnnotationAssertion(rdfs:label <https://purl.org/doves/1576b7a1-9d3f-4628-b363-8784e22c47d8> "Psychiatry"@en)
 SubClassOf(<https://purl.org/doves/1576b7a1-9d3f-4628-b363-8784e22c47d8> <https://purl.org/doves/1d62d176-3b08-4743-819c-ba79585f3a38>)
 
-# Class: <https://purl.org/doves/17b084a0-4395-4acd-a051-1cdc79dbb68d> (SF-36)
+# Class: <https://purl.org/doves/17b084a0-4395-4acd-a051-1cdc79dbb68d> (SF-36 Profile Outcome)
 
-AnnotationAssertion(rdfs:label <https://purl.org/doves/17b084a0-4395-4acd-a051-1cdc79dbb68d> "SF-36"@en)
+AnnotationAssertion(rdfs:label <https://purl.org/doves/17b084a0-4395-4acd-a051-1cdc79dbb68d> "SF-36 Profile Outcome"@en)
+AnnotationAssertion(skos:altLabel <https://purl.org/doves/17b084a0-4395-4acd-a051-1cdc79dbb68d> "Short Form-36 Profile Outcome"@en)
 SubClassOf(<https://purl.org/doves/17b084a0-4395-4acd-a051-1cdc79dbb68d> <https://purl.org/doves/e3b2aa1f-da25-4ddb-ba0a-a275d22cb2d4>)
 
 # Class: <https://purl.org/doves/17663798-be21-4341-b9f3-3429393d5087> (Medical Oncology)
