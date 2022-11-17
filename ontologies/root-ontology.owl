@@ -215,7 +215,6 @@ Declaration(Class(<https://purl.org/doves/3e2dd533-3e2d-4d1a-a752-570ccebe9fa1>)
 Declaration(Class(<https://purl.org/doves/3fc2ee05-614a-4b7a-b49e-06244bd3901e>))
 Declaration(Class(<https://purl.org/doves/30d8c4b2-30d1-44bb-9903-f64acf72cbb0>))
 Declaration(Class(<https://purl.org/doves/3002baf7-d232-4c53-8fd6-42475c802599>))
-Declaration(Class(<https://purl.org/doves/33b8b77a-1f38-4612-a2ed-594681b6a8d0>))
 Declaration(Class(<https://purl.org/doves/34b6e0c7-74aa-4c1b-9832-92701e4238cb>))
 Declaration(Class(<https://purl.org/doves/360937f7-f234-49f5-9783-73abd2409d9c>))
 Declaration(Class(<https://purl.org/doves/37a002b3-8eec-4341-b3d0-6ccb97d8e42d>))
@@ -1466,11 +1465,6 @@ SubClassOf(<https://purl.org/doves/30d8c4b2-30d1-44bb-9903-f64acf72cbb0> <https:
 
 AnnotationAssertion(rdfs:label <https://purl.org/doves/3002baf7-d232-4c53-8fd6-42475c802599> "Machine learning technology"@en)
 SubClassOf(<https://purl.org/doves/3002baf7-d232-4c53-8fd6-42475c802599> <https://purl.org/doves/894b0e16-237d-40f2-87f0-adaa02cab8c8>)
-
-# Class: <https://purl.org/doves/33b8b77a-1f38-4612-a2ed-594681b6a8d0> ( and Visualization)
-
-AnnotationAssertion(rdfs:label <https://purl.org/doves/33b8b77a-1f38-4612-a2ed-594681b6a8d0> " and Visualization"@en)
-SubClassOf(<https://purl.org/doves/33b8b77a-1f38-4612-a2ed-594681b6a8d0> <https://purl.org/doves/8773470f-b184-4f06-84ed-fcb2a1108574>)
 
 # Class: <https://purl.org/doves/34b6e0c7-74aa-4c1b-9832-92701e4238cb> (Pediatric Hematology-Oncology)
 
