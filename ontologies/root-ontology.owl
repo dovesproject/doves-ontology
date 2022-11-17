@@ -256,7 +256,6 @@ Declaration(Class(<https://purl.org/doves/590aa3dd-91ac-4473-9a47-142c4d83bb64>)
 Declaration(Class(<https://purl.org/doves/59207e75-22cc-45c2-82f4-9c3f2b30d00e>))
 Declaration(Class(<https://purl.org/doves/6aabe7eb-e21b-44c2-ba14-45574fcf6c42>))
 Declaration(Class(<https://purl.org/doves/6aaf988b-9b27-4dd7-8594-92c1a5c5becd>))
-Declaration(Class(<https://purl.org/doves/6ae90853-5950-416b-b796-e28d61767f92>))
 Declaration(Class(<https://purl.org/doves/6b215ace-0c48-42dc-bcb3-20c7007c2705>))
 Declaration(Class(<https://purl.org/doves/6ca84b77-899d-4fd4-a9ef-b9d1831ce4e6>))
 Declaration(Class(<https://purl.org/doves/6e987b1b-9abe-47b2-b210-99b45049f434>))
@@ -1674,11 +1673,6 @@ SubClassOf(<https://purl.org/doves/6aabe7eb-e21b-44c2-ba14-45574fcf6c42> <https:
 
 AnnotationAssertion(rdfs:label <https://purl.org/doves/6aaf988b-9b27-4dd7-8594-92c1a5c5becd> "Pulmonology"@en)
 SubClassOf(<https://purl.org/doves/6aaf988b-9b27-4dd7-8594-92c1a5c5becd> <https://purl.org/doves/0affbb06-3be7-44c4-8bbd-2ca9dd0dc388>)
-
-# Class: <https://purl.org/doves/6ae90853-5950-416b-b796-e28d61767f92> (Patient Engagement)
-
-AnnotationAssertion(rdfs:label <https://purl.org/doves/6ae90853-5950-416b-b796-e28d61767f92> "Patient Engagement"@en)
-SubClassOf(<https://purl.org/doves/6ae90853-5950-416b-b796-e28d61767f92> <https://purl.org/doves/f70ac7b3-c718-4511-9f13-2f4ab13050b8>)
 
 # Class: <https://purl.org/doves/6b215ace-0c48-42dc-bcb3-20c7007c2705> (Risk Prediction Outcome)
 
