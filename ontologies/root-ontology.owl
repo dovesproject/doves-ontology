@@ -530,9 +530,9 @@ SubClassOf(<https://purl.org/doves/b34f875c-61e8-4846-b5f4-8f9959ecc5b0> <https:
 AnnotationAssertion(rdfs:label <https://purl.org/doves/b483ae0e-a5bb-4d99-b155-5c1b33db8f83> "Pediatric Otolaryngology"@en)
 SubClassOf(<https://purl.org/doves/b483ae0e-a5bb-4d99-b155-5c1b33db8f83> <https://purl.org/doves/96a7fd52-c1f4-431d-872d-f4b420977a36>)
 
-# Class: <https://purl.org/doves/b4dfc8ef-6118-472c-a2f1-957eaa14dc1e> (Reduced 30 Day Revisit Rate)
+# Class: <https://purl.org/doves/b4dfc8ef-6118-472c-a2f1-957eaa14dc1e> (Reduced 30 Day Emergency Department Revisit Rate)
 
-AnnotationAssertion(rdfs:label <https://purl.org/doves/b4dfc8ef-6118-472c-a2f1-957eaa14dc1e> "Reduced 30 Day Revisit Rate"@en)
+AnnotationAssertion(rdfs:label <https://purl.org/doves/b4dfc8ef-6118-472c-a2f1-957eaa14dc1e> "Reduced 30 Day Emergency Department Revisit Rate"@en)
 SubClassOf(<https://purl.org/doves/b4dfc8ef-6118-472c-a2f1-957eaa14dc1e> <https://purl.org/doves/cdec99b1-f3e5-4009-bdc5-49ea965dc503>)
 
 # Class: <https://purl.org/doves/b52b3a8f-db53-4261-b6a9-17a98841e791> (Neonate boy person)
