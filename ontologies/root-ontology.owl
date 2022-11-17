@@ -950,9 +950,10 @@ SubClassOf(<https://purl.org/doves/f17801e2-a13c-406b-b395-cb6c0165dfb2> <https:
 AnnotationAssertion(rdfs:label <https://purl.org/doves/f232fec5-bc9c-4b23-845c-0a4672a5be36> "eFax Outcome"@en)
 SubClassOf(<https://purl.org/doves/f232fec5-bc9c-4b23-845c-0a4672a5be36> <https://purl.org/doves/5cc0bc79-8861-4578-9694-f06e3b845f69>)
 
-# Class: <https://purl.org/doves/f27262fb-abb0-40d3-86a6-4f080883d020> (HOOS)
+# Class: <https://purl.org/doves/f27262fb-abb0-40d3-86a6-4f080883d020> (HOOS Outcome)
 
-AnnotationAssertion(rdfs:label <https://purl.org/doves/f27262fb-abb0-40d3-86a6-4f080883d020> "HOOS"@en)
+AnnotationAssertion(rdfs:label <https://purl.org/doves/f27262fb-abb0-40d3-86a6-4f080883d020> "HOOS Outcome"@en)
+AnnotationAssertion(skos:altLabel <https://purl.org/doves/f27262fb-abb0-40d3-86a6-4f080883d020> "Hip Disability and Osteoarthritis Outcome Score Outcome"@en)
 SubClassOf(<https://purl.org/doves/f27262fb-abb0-40d3-86a6-4f080883d020> <https://purl.org/doves/9caa2510-f3a6-4de8-adcb-c554e91aeba7>)
 
 # Class: <https://purl.org/doves/f36e2870-61e7-4b51-abcd-8752df25ea68> (Medical Assistant)
