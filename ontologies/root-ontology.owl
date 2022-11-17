@@ -574,9 +574,9 @@ AnnotationAssertion(rdfs:label <https://purl.org/doves/b7809475-8b09-4213-b83a-b
 AnnotationAssertion(skos:definition <https://purl.org/doves/b7809475-8b09-4213-b83a-b4d970cb21ac> "A Public Health Education Outcome is an Education Outcome that is reflected in an aggregate measure of the public's understanding of a disease or condition relative to a comparator state of the public's understanding.")
 SubClassOf(<https://purl.org/doves/b7809475-8b09-4213-b83a-b4d970cb21ac> <https://purl.org/doves/7da308ef-fe88-4e97-9805-fff9b829d538>)
 
-# Class: <https://purl.org/doves/b8499147-fac1-4186-87c2-c937f0450fc7> (Phase 1 Trial)
+# Class: <https://purl.org/doves/b8499147-fac1-4186-87c2-c937f0450fc7> (Phase 1 Trial Evidence)
 
-AnnotationAssertion(rdfs:label <https://purl.org/doves/b8499147-fac1-4186-87c2-c937f0450fc7> "Phase 1 Trial"@en)
+AnnotationAssertion(rdfs:label <https://purl.org/doves/b8499147-fac1-4186-87c2-c937f0450fc7> "Phase 1 Trial Evidence"@en)
 SubClassOf(<https://purl.org/doves/b8499147-fac1-4186-87c2-c937f0450fc7> <https://purl.org/doves/01452e51-c0e3-45b8-a954-7b0af8fdb609>)
 
 # Class: <https://purl.org/doves/b870f67f-2e8c-4eb9-9edf-9ce09bc91220> (Sleep Medicine)
@@ -1164,9 +1164,9 @@ SubClassOf(<https://purl.org/doves/01d40506-2d2f-4237-a87b-229e268c2f14> <https:
 SubClassOf(<https://purl.org/doves/01d40506-2d2f-4237-a87b-229e268c2f14> ObjectSomeValuesFrom(<https://purl.org/doves/e352e4b8-9c80-45f1-a877-a397b5b33cc1> <https://purl.org/doves/d7fdedbd-6d0d-4d67-bd98-03f4c80c944b>))
 SubClassOf(<https://purl.org/doves/01d40506-2d2f-4237-a87b-229e268c2f14> ObjectSomeValuesFrom(<https://purl.org/doves/4b61e411-782f-4ccd-9f96-ba45caef73b6> <https://purl.org/doves/81955a73-7b46-4cb4-bbae-5c34311aa8a0>))
 
-# Class: <https://purl.org/doves/01452e51-c0e3-45b8-a954-7b0af8fdb609> (Controlled Trial)
+# Class: <https://purl.org/doves/01452e51-c0e3-45b8-a954-7b0af8fdb609> (Controlled Trial Evidence)
 
-AnnotationAssertion(rdfs:label <https://purl.org/doves/01452e51-c0e3-45b8-a954-7b0af8fdb609> "Controlled Trial"@en)
+AnnotationAssertion(rdfs:label <https://purl.org/doves/01452e51-c0e3-45b8-a954-7b0af8fdb609> "Controlled Trial Evidence"@en)
 SubClassOf(<https://purl.org/doves/01452e51-c0e3-45b8-a954-7b0af8fdb609> <https://purl.org/doves/42032214-7b35-46e0-98f9-cd903d8fd464>)
 
 # Class: <https://purl.org/doves/028c0b85-9a85-4962-97c3-4a6af994781c> (Artificial intelligence technology)
@@ -1267,9 +1267,9 @@ SubClassOf(<https://purl.org/doves/1d5f0f8a-b554-4a19-a598-29a058f9c696> <https:
 AnnotationAssertion(rdfs:label <https://purl.org/doves/1d62d176-3b08-4743-819c-ba79585f3a38> "Specialty"@en)
 SubClassOf(<https://purl.org/doves/1d62d176-3b08-4743-819c-ba79585f3a38> <https://purl.org/doves/78ceb509-e44b-4d8c-bd47-b457f9d835cb>)
 
-# Class: <https://purl.org/doves/1e5fba11-4526-4d36-8799-50f3deb56f12> (Phase 3 Trial)
+# Class: <https://purl.org/doves/1e5fba11-4526-4d36-8799-50f3deb56f12> (Phase 3 Trial Evidence)
 
-AnnotationAssertion(rdfs:label <https://purl.org/doves/1e5fba11-4526-4d36-8799-50f3deb56f12> "Phase 3 Trial"@en)
+AnnotationAssertion(rdfs:label <https://purl.org/doves/1e5fba11-4526-4d36-8799-50f3deb56f12> "Phase 3 Trial Evidence"@en)
 SubClassOf(<https://purl.org/doves/1e5fba11-4526-4d36-8799-50f3deb56f12> <https://purl.org/doves/01452e51-c0e3-45b8-a954-7b0af8fdb609>)
 
 # Class: <https://purl.org/doves/1f0e2698-e615-4540-a4e1-4c5ebe6cd660> (Occupational Medicine)
@@ -1537,9 +1537,9 @@ SubClassOf(<https://purl.org/doves/4e10ca8c-ec8b-4953-b2d5-cbeee634f6fe> <https:
 AnnotationAssertion(rdfs:label <https://purl.org/doves/400ff4af-ca07-49cd-9114-2dd65f8c34a7> "Electrophysiology"@en)
 SubClassOf(<https://purl.org/doves/400ff4af-ca07-49cd-9114-2dd65f8c34a7> <https://purl.org/doves/2db872c0-72a7-46c4-a6f6-d260452aefff>)
 
-# Class: <https://purl.org/doves/42032214-7b35-46e0-98f9-cd903d8fd464> (Evidence Type)
+# Class: <https://purl.org/doves/42032214-7b35-46e0-98f9-cd903d8fd464> (Evidence)
 
-AnnotationAssertion(rdfs:label <https://purl.org/doves/42032214-7b35-46e0-98f9-cd903d8fd464> "Evidence Type"@en)
+AnnotationAssertion(rdfs:label <https://purl.org/doves/42032214-7b35-46e0-98f9-cd903d8fd464> "Evidence"@en)
 SubClassOf(<https://purl.org/doves/42032214-7b35-46e0-98f9-cd903d8fd464> <https://purl.org/doves/78ceb509-e44b-4d8c-bd47-b457f9d835cb>)
 
 # Class: <https://purl.org/doves/422939fc-63b9-46c1-8891-7a45450a15c8> (Medical Calculators)
@@ -1547,9 +1547,9 @@ SubClassOf(<https://purl.org/doves/42032214-7b35-46e0-98f9-cd903d8fd464> <https:
 AnnotationAssertion(rdfs:label <https://purl.org/doves/422939fc-63b9-46c1-8891-7a45450a15c8> "Medical Calculators"@en)
 SubClassOf(<https://purl.org/doves/422939fc-63b9-46c1-8891-7a45450a15c8> <https://purl.org/doves/1ce5511a-c36f-4fb4-97a6-8e1b0642a27d>)
 
-# Class: <https://purl.org/doves/44069093-74c5-49c9-bf1f-f15f45ba21bb> (Phase 2 Trial)
+# Class: <https://purl.org/doves/44069093-74c5-49c9-bf1f-f15f45ba21bb> (Phase 2 Trial Evidence)
 
-AnnotationAssertion(rdfs:label <https://purl.org/doves/44069093-74c5-49c9-bf1f-f15f45ba21bb> "Phase 2 Trial"@en)
+AnnotationAssertion(rdfs:label <https://purl.org/doves/44069093-74c5-49c9-bf1f-f15f45ba21bb> "Phase 2 Trial Evidence"@en)
 SubClassOf(<https://purl.org/doves/44069093-74c5-49c9-bf1f-f15f45ba21bb> <https://purl.org/doves/01452e51-c0e3-45b8-a954-7b0af8fdb609>)
 
 # Class: <https://purl.org/doves/4663e837-50a1-4cfe-ae5d-b44a6396947d> (Reproductive Endocrinology and Infertility)
