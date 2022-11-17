@@ -14,12 +14,15 @@ Prefix(webprotege:=<http://webprotege.stanford.edu/>)
 
 
 Ontology(<http://purl.org/doves/doves-ontology>
-Import(<http://who.int/icd>)
 Import(<http://www.semanticweb.org/AdverseEventExtract>)
 
+Declaration(Class(<http://id.who.int/icd/entity/1006882070>))
+Declaration(Class(<http://purl.org/doves/a61dbcd2_0d2c_4269_a9dd_c34cb9fd5965>))
 Declaration(Class(<http://purl.org/doves/b80c62bc_fe83_4ea8_bd0d_280adf6aa06b>))
+Declaration(Class(<http://purl.org/doves/0b28937e_45cc_4f6f_b7d5_2d9ae70f61a0>))
 Declaration(Class(<http://purl.org/doves/2fc9b6ba_e3c4_457f_80a0_487b89884fcb>))
 Declaration(Class(<http://purl.org/doves/8818ad03_a459_476e_98c4_213c01f406c4>))
+Declaration(Class(<http://who.int/icd/ICD-11>))
 Declaration(Class(<https://purl.org/doves/a01b3bf3-a332-4213-8b6d-0ae97be1f128>))
 Declaration(Class(<https://purl.org/doves/a0885d3f-beaa-4dbe-a81a-78484cb2757b>))
 Declaration(Class(<https://purl.org/doves/a100d2ec-67bd-4eb3-b08d-065e3d90f677>))
@@ -360,6 +363,7 @@ Declaration(ObjectProperty(<https://purl.org/doves/4b61e411-782f-4ccd-9f96-ba45c
 Declaration(ObjectProperty(<https://purl.org/doves/5b5e21c9-08f7-4c4f-a8ab-18f3914fdabc>))
 Declaration(NamedIndividual(<http://purl.org/doves/4bedc15f_c338_435e_8489_48fe5adb7304>))
 Declaration(AnnotationProperty(rdfs:label))
+Declaration(AnnotationProperty(skos:altLabel))
 
 ############################
 #   Object Properties
@@ -416,10 +420,20 @@ AnnotationAssertion(rdfs:label <https://purl.org/doves/5b5e21c9-08f7-4c4f-a8ab-1
 
 SubClassOf(obo:OAE_0000001 <https://purl.org/doves/840177a9-3e6d-4978-ac7a-8580c78443d6>)
 
+# Class: <http://purl.org/doves/a61dbcd2_0d2c_4269_a9dd_c34cb9fd5965> (Adolescent Age Group)
+
+AnnotationAssertion(rdfs:label <http://purl.org/doves/a61dbcd2_0d2c_4269_a9dd_c34cb9fd5965> "Adolescent Age Group"@en)
+SubClassOf(<http://purl.org/doves/a61dbcd2_0d2c_4269_a9dd_c34cb9fd5965> <https://purl.org/doves/d7fdedbd-6d0d-4d67-bd98-03f4c80c944b>)
+
 # Class: <http://purl.org/doves/b80c62bc_fe83_4ea8_bd0d_280adf6aa06b> (Increased Primary Care Encounter Rate Outcome)
 
 AnnotationAssertion(rdfs:label <http://purl.org/doves/b80c62bc_fe83_4ea8_bd0d_280adf6aa06b> "Increased Primary Care Encounter Rate Outcome"@en)
 SubClassOf(<http://purl.org/doves/b80c62bc_fe83_4ea8_bd0d_280adf6aa06b> <https://purl.org/doves/9caefbe3-4e93-461c-ae16-cfd0840e4d89>)
+
+# Class: <http://purl.org/doves/0b28937e_45cc_4f6f_b7d5_2d9ae70f61a0> (Adult Age Group)
+
+AnnotationAssertion(rdfs:label <http://purl.org/doves/0b28937e_45cc_4f6f_b7d5_2d9ae70f61a0> "Adult Age Group"@en)
+SubClassOf(<http://purl.org/doves/0b28937e_45cc_4f6f_b7d5_2d9ae70f61a0> <https://purl.org/doves/d7fdedbd-6d0d-4d67-bd98-03f4c80c944b>)
 
 # Class: <http://purl.org/doves/2fc9b6ba_e3c4_457f_80a0_487b89884fcb> (Decreased Primary Care Encounter Rate Outcome)
 
@@ -509,7 +523,7 @@ SubClassOf(<https://purl.org/doves/ad49b249-3b61-45af-91ea-1ec2bf61eff4> <https:
 # Class: <https://purl.org/doves/ae3e5479-6f31-4619-992c-16509fef95fb> (Adolescent girl person)
 
 AnnotationAssertion(rdfs:label <https://purl.org/doves/ae3e5479-6f31-4619-992c-16509fef95fb> "Adolescent girl person"@en)
-EquivalentClasses(<https://purl.org/doves/ae3e5479-6f31-4619-992c-16509fef95fb> ObjectIntersectionOf(<https://purl.org/doves/01d40506-2d2f-4237-a87b-229e268c2f14> ObjectSomeValuesFrom(<https://purl.org/doves/e352e4b8-9c80-45f1-a877-a397b5b33cc1> <https://purl.org/doves/f13faa32-33d2-48c3-b9ce-9e0279af659c>) ObjectSomeValuesFrom(<https://purl.org/doves/4b61e411-782f-4ccd-9f96-ba45caef73b6> <https://purl.org/doves/edd2c14b-bbc5-4eec-8c18-26acc71bcda5>)))
+EquivalentClasses(<https://purl.org/doves/ae3e5479-6f31-4619-992c-16509fef95fb> ObjectIntersectionOf(<https://purl.org/doves/01d40506-2d2f-4237-a87b-229e268c2f14> ObjectSomeValuesFrom(<https://purl.org/doves/e352e4b8-9c80-45f1-a877-a397b5b33cc1> <http://purl.org/doves/a61dbcd2_0d2c_4269_a9dd_c34cb9fd5965>) ObjectSomeValuesFrom(<https://purl.org/doves/4b61e411-782f-4ccd-9f96-ba45caef73b6> <https://purl.org/doves/edd2c14b-bbc5-4eec-8c18-26acc71bcda5>)))
 
 # Class: <https://purl.org/doves/afa90ae5-da23-4f28-8fd4-ce2d8ce18b40> (Price Transparency Outcome)
 
@@ -535,7 +549,7 @@ SubClassOf(<https://purl.org/doves/b2153ef6-a877-4374-be7f-8ff972c324be> <https:
 # Class: <https://purl.org/doves/b273e6c7-4b77-4244-8e80-f9b2f2ac864d> (Child boy person)
 
 AnnotationAssertion(rdfs:label <https://purl.org/doves/b273e6c7-4b77-4244-8e80-f9b2f2ac864d> "Child boy person"@en)
-EquivalentClasses(<https://purl.org/doves/b273e6c7-4b77-4244-8e80-f9b2f2ac864d> ObjectIntersectionOf(<https://purl.org/doves/01d40506-2d2f-4237-a87b-229e268c2f14> ObjectSomeValuesFrom(<https://purl.org/doves/e352e4b8-9c80-45f1-a877-a397b5b33cc1> <https://purl.org/doves/bdce4b1c-c192-4384-b138-911ec298fd2f>) ObjectSomeValuesFrom(<https://purl.org/doves/4b61e411-782f-4ccd-9f96-ba45caef73b6> <https://purl.org/doves/967da42d-4ea7-43a6-9ac1-39ec98083995>)))
+EquivalentClasses(<https://purl.org/doves/b273e6c7-4b77-4244-8e80-f9b2f2ac864d> ObjectIntersectionOf(<https://purl.org/doves/01d40506-2d2f-4237-a87b-229e268c2f14> ObjectSomeValuesFrom(<https://purl.org/doves/e352e4b8-9c80-45f1-a877-a397b5b33cc1> <https://purl.org/doves/6f732e5a-3cb8-47b2-a83e-7e7d24512e77>) ObjectSomeValuesFrom(<https://purl.org/doves/4b61e411-782f-4ccd-9f96-ba45caef73b6> <https://purl.org/doves/967da42d-4ea7-43a6-9ac1-39ec98083995>)))
 
 # Class: <https://purl.org/doves/b34f875c-61e8-4846-b5f4-8f9959ecc5b0> (General Family Medicine)
 
@@ -592,8 +606,7 @@ SubClassOf(<https://purl.org/doves/bc6eb865-33bb-43b0-a9e4-b8c1545eca7b> <https:
 # Class: <https://purl.org/doves/bdce4b1c-c192-4384-b138-911ec298fd2f> (Child person)
 
 AnnotationAssertion(rdfs:label <https://purl.org/doves/bdce4b1c-c192-4384-b138-911ec298fd2f> "Child person"@en)
-EquivalentClasses(<https://purl.org/doves/bdce4b1c-c192-4384-b138-911ec298fd2f> ObjectIntersectionOf(<https://purl.org/doves/01d40506-2d2f-4237-a87b-229e268c2f14> ObjectSomeValuesFrom(<https://purl.org/doves/e352e4b8-9c80-45f1-a877-a397b5b33cc1> <https://purl.org/doves/bdce4b1c-c192-4384-b138-911ec298fd2f>)))
-SubClassOf(<https://purl.org/doves/bdce4b1c-c192-4384-b138-911ec298fd2f> <https://purl.org/doves/6f732e5a-3cb8-47b2-a83e-7e7d24512e77>)
+EquivalentClasses(<https://purl.org/doves/bdce4b1c-c192-4384-b138-911ec298fd2f> ObjectIntersectionOf(<https://purl.org/doves/01d40506-2d2f-4237-a87b-229e268c2f14> ObjectSomeValuesFrom(<https://purl.org/doves/e352e4b8-9c80-45f1-a877-a397b5b33cc1> <https://purl.org/doves/6f732e5a-3cb8-47b2-a83e-7e7d24512e77>)))
 
 # Class: <https://purl.org/doves/bdd73cee-c6bb-434d-98ca-8beb1c6aa521> (Intra-Operative Processes)
 
@@ -917,7 +930,7 @@ EquivalentClasses(<https://purl.org/doves/edd2c14b-bbc5-4eec-8c18-26acc71bcda5> 
 # Class: <https://purl.org/doves/ee861978-0ba8-4b2c-a1f9-855683af0cac> (Adolescent boy person)
 
 AnnotationAssertion(rdfs:label <https://purl.org/doves/ee861978-0ba8-4b2c-a1f9-855683af0cac> "Adolescent boy person"@en)
-EquivalentClasses(<https://purl.org/doves/ee861978-0ba8-4b2c-a1f9-855683af0cac> ObjectIntersectionOf(<https://purl.org/doves/01d40506-2d2f-4237-a87b-229e268c2f14> ObjectSomeValuesFrom(<https://purl.org/doves/e352e4b8-9c80-45f1-a877-a397b5b33cc1> <https://purl.org/doves/f13faa32-33d2-48c3-b9ce-9e0279af659c>) ObjectSomeValuesFrom(<https://purl.org/doves/4b61e411-782f-4ccd-9f96-ba45caef73b6> <https://purl.org/doves/967da42d-4ea7-43a6-9ac1-39ec98083995>)))
+EquivalentClasses(<https://purl.org/doves/ee861978-0ba8-4b2c-a1f9-855683af0cac> ObjectIntersectionOf(<https://purl.org/doves/01d40506-2d2f-4237-a87b-229e268c2f14> ObjectSomeValuesFrom(<https://purl.org/doves/e352e4b8-9c80-45f1-a877-a397b5b33cc1> <http://purl.org/doves/a61dbcd2_0d2c_4269_a9dd_c34cb9fd5965>) ObjectSomeValuesFrom(<https://purl.org/doves/4b61e411-782f-4ccd-9f96-ba45caef73b6> <https://purl.org/doves/967da42d-4ea7-43a6-9ac1-39ec98083995>)))
 
 # Class: <https://purl.org/doves/eebb534e-96d3-45d9-9815-72b59056ebec> (Colon and Rectal Surgery)
 
@@ -943,8 +956,7 @@ SubClassOf(<https://purl.org/doves/efd57ad7-5a59-475e-a84f-361a6b56185c> <https:
 # Class: <https://purl.org/doves/f13faa32-33d2-48c3-b9ce-9e0279af659c> (Adolescent person)
 
 AnnotationAssertion(rdfs:label <https://purl.org/doves/f13faa32-33d2-48c3-b9ce-9e0279af659c> "Adolescent person"@en)
-EquivalentClasses(<https://purl.org/doves/f13faa32-33d2-48c3-b9ce-9e0279af659c> ObjectIntersectionOf(<https://purl.org/doves/01d40506-2d2f-4237-a87b-229e268c2f14> ObjectSomeValuesFrom(<https://purl.org/doves/e352e4b8-9c80-45f1-a877-a397b5b33cc1> <https://purl.org/doves/f13faa32-33d2-48c3-b9ce-9e0279af659c>)))
-SubClassOf(<https://purl.org/doves/f13faa32-33d2-48c3-b9ce-9e0279af659c> <https://purl.org/doves/d7fdedbd-6d0d-4d67-bd98-03f4c80c944b>)
+EquivalentClasses(<https://purl.org/doves/f13faa32-33d2-48c3-b9ce-9e0279af659c> ObjectIntersectionOf(<https://purl.org/doves/01d40506-2d2f-4237-a87b-229e268c2f14> ObjectSomeValuesFrom(<https://purl.org/doves/e352e4b8-9c80-45f1-a877-a397b5b33cc1> <http://purl.org/doves/a61dbcd2_0d2c_4269_a9dd_c34cb9fd5965>)))
 
 # Class: <https://purl.org/doves/f17801e2-a13c-406b-b395-cb6c0165dfb2> (Increased Negative Predictive Value)
 
@@ -1028,7 +1040,6 @@ SubClassOf(<https://purl.org/doves/f7effc2c-2d5b-405d-840e-9f83b47f3875> <https:
 AnnotationAssertion(rdfs:label <https://purl.org/doves/f8c83883-9b87-4aa7-9406-6e361358faea> "Adult person"@en)
 AnnotationAssertion(skos:definition <https://purl.org/doves/f8c83883-9b87-4aa7-9406-6e361358faea> "A person that is in the adult age group"^^xsd:string)
 EquivalentClasses(<https://purl.org/doves/f8c83883-9b87-4aa7-9406-6e361358faea> ObjectIntersectionOf(<https://purl.org/doves/01d40506-2d2f-4237-a87b-229e268c2f14> ObjectSomeValuesFrom(<https://purl.org/doves/e352e4b8-9c80-45f1-a877-a397b5b33cc1> <https://purl.org/doves/f8c83883-9b87-4aa7-9406-6e361358faea>)))
-SubClassOf(<https://purl.org/doves/f8c83883-9b87-4aa7-9406-6e361358faea> <https://purl.org/doves/d7fdedbd-6d0d-4d67-bd98-03f4c80c944b>)
 
 # Class: <https://purl.org/doves/f921a0bd-b02b-446a-a2c9-6e4a80e8122c> (Not Self Scheduling)
 
@@ -1114,7 +1125,7 @@ SubClassOf(<https://purl.org/doves/0b7a7c80-8dcc-4597-b980-cd04efe70a78> <https:
 # Class: <https://purl.org/doves/0b869525-4011-41c4-b250-c261f0a2a2c9> (Adult female person)
 
 AnnotationAssertion(rdfs:label <https://purl.org/doves/0b869525-4011-41c4-b250-c261f0a2a2c9> "Adult female person"@en)
-EquivalentClasses(<https://purl.org/doves/0b869525-4011-41c4-b250-c261f0a2a2c9> ObjectIntersectionOf(<https://purl.org/doves/01d40506-2d2f-4237-a87b-229e268c2f14> ObjectSomeValuesFrom(<https://purl.org/doves/e352e4b8-9c80-45f1-a877-a397b5b33cc1> <https://purl.org/doves/f8c83883-9b87-4aa7-9406-6e361358faea>) ObjectSomeValuesFrom(<https://purl.org/doves/4b61e411-782f-4ccd-9f96-ba45caef73b6> <https://purl.org/doves/edd2c14b-bbc5-4eec-8c18-26acc71bcda5>)))
+EquivalentClasses(<https://purl.org/doves/0b869525-4011-41c4-b250-c261f0a2a2c9> ObjectIntersectionOf(<https://purl.org/doves/01d40506-2d2f-4237-a87b-229e268c2f14> ObjectSomeValuesFrom(<https://purl.org/doves/e352e4b8-9c80-45f1-a877-a397b5b33cc1> <http://purl.org/doves/0b28937e_45cc_4f6f_b7d5_2d9ae70f61a0>) ObjectSomeValuesFrom(<https://purl.org/doves/4b61e411-782f-4ccd-9f96-ba45caef73b6> <https://purl.org/doves/edd2c14b-bbc5-4eec-8c18-26acc71bcda5>)))
 
 # Class: <https://purl.org/doves/0bd86ad9-6ecc-4226-9627-b458ee64cfb1> (Demo - Peri-operative Guidance Application)
 
@@ -1700,9 +1711,9 @@ SubClassOf(<https://purl.org/doves/6e987b1b-9abe-47b2-b210-99b45049f434> <https:
 AnnotationAssertion(rdfs:label <https://purl.org/doves/6eab4a0d-9237-4010-b11e-c4bea0e4b24f> "Medical Toxicology"@en)
 SubClassOf(<https://purl.org/doves/6eab4a0d-9237-4010-b11e-c4bea0e4b24f> <https://purl.org/doves/8d7a95b0-92d1-4312-9894-93b00a1266a4>)
 
-# Class: <https://purl.org/doves/6f732e5a-3cb8-47b2-a83e-7e7d24512e77> (Pediatric)
+# Class: <https://purl.org/doves/6f732e5a-3cb8-47b2-a83e-7e7d24512e77> (Pediatric Age Group)
 
-AnnotationAssertion(rdfs:label <https://purl.org/doves/6f732e5a-3cb8-47b2-a83e-7e7d24512e77> "Pediatric"@en)
+AnnotationAssertion(rdfs:label <https://purl.org/doves/6f732e5a-3cb8-47b2-a83e-7e7d24512e77> "Pediatric Age Group"@en)
 SubClassOf(<https://purl.org/doves/6f732e5a-3cb8-47b2-a83e-7e7d24512e77> <https://purl.org/doves/d7fdedbd-6d0d-4d67-bd98-03f4c80c944b>)
 
 # Class: <https://purl.org/doves/6fdf5e33-7497-42d7-b016-72567185a0e3> (Technical Outcome)
@@ -1755,7 +1766,7 @@ SubClassOf(<https://purl.org/doves/65fb3268-8c4a-4718-ab02-57a0f43a9c3d> <https:
 # Class: <https://purl.org/doves/653ff95b-ac79-4656-a8c1-3bb52f74d8a3> (Child girl person)
 
 AnnotationAssertion(rdfs:label <https://purl.org/doves/653ff95b-ac79-4656-a8c1-3bb52f74d8a3> "Child girl person"@en)
-EquivalentClasses(<https://purl.org/doves/653ff95b-ac79-4656-a8c1-3bb52f74d8a3> ObjectIntersectionOf(<https://purl.org/doves/01d40506-2d2f-4237-a87b-229e268c2f14> ObjectSomeValuesFrom(<https://purl.org/doves/e352e4b8-9c80-45f1-a877-a397b5b33cc1> <https://purl.org/doves/bdce4b1c-c192-4384-b138-911ec298fd2f>) ObjectSomeValuesFrom(<https://purl.org/doves/4b61e411-782f-4ccd-9f96-ba45caef73b6> <https://purl.org/doves/edd2c14b-bbc5-4eec-8c18-26acc71bcda5>)))
+EquivalentClasses(<https://purl.org/doves/653ff95b-ac79-4656-a8c1-3bb52f74d8a3> ObjectIntersectionOf(<https://purl.org/doves/01d40506-2d2f-4237-a87b-229e268c2f14> ObjectSomeValuesFrom(<https://purl.org/doves/e352e4b8-9c80-45f1-a877-a397b5b33cc1> <https://purl.org/doves/6f732e5a-3cb8-47b2-a83e-7e7d24512e77>) ObjectSomeValuesFrom(<https://purl.org/doves/4b61e411-782f-4ccd-9f96-ba45caef73b6> <https://purl.org/doves/edd2c14b-bbc5-4eec-8c18-26acc71bcda5>)))
 
 # Class: <https://purl.org/doves/657b9d62-19a9-4e32-a7d3-677a72ee4a6e> (Physician Assistant Role)
 
@@ -2092,7 +2103,7 @@ SubClassOf(<https://purl.org/doves/9f90a5e3-6d96-4127-bcff-143c2831b5bc> <https:
 # Class: <https://purl.org/doves/90f9964d-9699-4ca6-b902-b90dca606701> (Adult male person)
 
 AnnotationAssertion(rdfs:label <https://purl.org/doves/90f9964d-9699-4ca6-b902-b90dca606701> "Adult male person"@en)
-EquivalentClasses(<https://purl.org/doves/90f9964d-9699-4ca6-b902-b90dca606701> ObjectIntersectionOf(<https://purl.org/doves/01d40506-2d2f-4237-a87b-229e268c2f14> ObjectSomeValuesFrom(<https://purl.org/doves/e352e4b8-9c80-45f1-a877-a397b5b33cc1> <https://purl.org/doves/f8c83883-9b87-4aa7-9406-6e361358faea>) ObjectSomeValuesFrom(<https://purl.org/doves/4b61e411-782f-4ccd-9f96-ba45caef73b6> <https://purl.org/doves/967da42d-4ea7-43a6-9ac1-39ec98083995>)))
+EquivalentClasses(<https://purl.org/doves/90f9964d-9699-4ca6-b902-b90dca606701> ObjectIntersectionOf(<https://purl.org/doves/01d40506-2d2f-4237-a87b-229e268c2f14> ObjectSomeValuesFrom(<https://purl.org/doves/e352e4b8-9c80-45f1-a877-a397b5b33cc1> <http://purl.org/doves/0b28937e_45cc_4f6f_b7d5_2d9ae70f61a0>) ObjectSomeValuesFrom(<https://purl.org/doves/4b61e411-782f-4ccd-9f96-ba45caef73b6> <https://purl.org/doves/967da42d-4ea7-43a6-9ac1-39ec98083995>)))
 
 # Class: <https://purl.org/doves/9099e9d4-b835-48ca-96d6-6d4d535ce85f> (Neonatal-Perinatal Medicine)
 
@@ -2125,9 +2136,9 @@ SubClassOf(<https://purl.org/doves/94f4763c-ef68-4267-8b54-7f2e2a9b4b9e> <https:
 AnnotationAssertion(rdfs:label <https://purl.org/doves/9479abfd-b4df-4005-9a53-66eeef5dfc10> "Reduced Hospital Total Costs"@en)
 SubClassOf(<https://purl.org/doves/9479abfd-b4df-4005-9a53-66eeef5dfc10> <https://purl.org/doves/7124f3ed-a489-431c-90ce-c2a5fe7d95bb>)
 
-# Class: <https://purl.org/doves/9597d5d0-d59c-47e9-808d-6827b75664ae> (Neonate)
+# Class: <https://purl.org/doves/9597d5d0-d59c-47e9-808d-6827b75664ae> (Neonate Age Group)
 
-AnnotationAssertion(rdfs:label <https://purl.org/doves/9597d5d0-d59c-47e9-808d-6827b75664ae> "Neonate"@en)
+AnnotationAssertion(rdfs:label <https://purl.org/doves/9597d5d0-d59c-47e9-808d-6827b75664ae> "Neonate Age Group"@en)
 SubClassOf(<https://purl.org/doves/9597d5d0-d59c-47e9-808d-6827b75664ae> <https://purl.org/doves/6f732e5a-3cb8-47b2-a83e-7e7d24512e77>)
 
 # Class: <https://purl.org/doves/96a7fd52-c1f4-431d-872d-f4b420977a36> (Otolaryngology)
