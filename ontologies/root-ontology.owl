@@ -1217,10 +1217,10 @@ SubClassOf(<https://purl.org/doves/089409f3-106f-4742-a91a-df135a4b4102> <https:
 AnnotationAssertion(rdfs:label <https://purl.org/doves/09288a8b-606a-4f9b-8efc-ad9b12c4f490> "SOC2 Certification"@en)
 SubClassOf(<https://purl.org/doves/09288a8b-606a-4f9b-8efc-ad9b12c4f490> <https://purl.org/doves/9345fc0a-25dd-4d30-8275-da199ca93713>)
 
-# Class: <https://purl.org/doves/0997c29d-ec17-40f9-8056-80c70b5953f7> (Medication Dosing Outcome)
+# Class: <https://purl.org/doves/0997c29d-ec17-40f9-8056-80c70b5953f7> (Optimal Medication Dosing Outcome)
 
-AnnotationAssertion(rdfs:label <https://purl.org/doves/0997c29d-ec17-40f9-8056-80c70b5953f7> "Medication Dosing Outcome"@en)
-AnnotationAssertion(skos:definition <https://purl.org/doves/0997c29d-ec17-40f9-8056-80c70b5953f7> "A Medication Dosing Outcome is a Health Benefit Outcome that pertains to optimally identifying dosing of a medication based on a variety of input parameters.")
+AnnotationAssertion(rdfs:label <https://purl.org/doves/0997c29d-ec17-40f9-8056-80c70b5953f7> "Optimal Medication Dosing Outcome"@en)
+AnnotationAssertion(skos:definition <https://purl.org/doves/0997c29d-ec17-40f9-8056-80c70b5953f7> "An Optimal Medication Dosing Outcome is a Health Benefit Outcome that pertains to optimally identifying dosing of a medication based on a variety of input parameters."@en)
 SubClassOf(<https://purl.org/doves/0997c29d-ec17-40f9-8056-80c70b5953f7> <https://purl.org/doves/8e9f2330-e042-4723-a5f6-422f7565f1ee>)
 
 # Class: <https://purl.org/doves/1a3cc2db-d71a-4dee-8dea-2003f2dddf78> (Blood Banking/Transfusion Medicine)
