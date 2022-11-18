@@ -121,7 +121,6 @@ Declaration(Class(<https://purl.org/doves/ee861978-0ba8-4b2c-a1f9-855683af0cac>)
 Declaration(Class(<https://purl.org/doves/eebb534e-96d3-45d9-9815-72b59056ebec>))
 Declaration(Class(<https://purl.org/doves/eec4d9eb-9db4-44f5-9523-c8b481cf4293>))
 Declaration(Class(<https://purl.org/doves/efd50c0f-cb79-46f8-9266-1d6afed04248>))
-Declaration(Class(<https://purl.org/doves/efd57ad7-5a59-475e-a84f-361a6b56185c>))
 Declaration(Class(<https://purl.org/doves/f13faa32-33d2-48c3-b9ce-9e0279af659c>))
 Declaration(Class(<https://purl.org/doves/f17801e2-a13c-406b-b395-cb6c0165dfb2>))
 Declaration(Class(<https://purl.org/doves/f232fec5-bc9c-4b23-845c-0a4672a5be36>))
@@ -448,9 +447,9 @@ SubClassOf(<http://purl.org/doves/0b28937e_45cc_4f6f_b7d5_2d9ae70f61a0> <https:/
 AnnotationAssertion(rdfs:label <http://purl.org/doves/076aaae9_4c06_4338_8a74_c81235747135> "NIST Certification Outcome"@en)
 SubClassOf(<http://purl.org/doves/076aaae9_4c06_4338_8a74_c81235747135> <https://purl.org/doves/6fdf5e33-7497-42d7-b016-72567185a0e3>)
 
-# Class: <http://purl.org/doves/09a5d403_43ff_432e_ac86_d3b86d7d2c21> (Number of Appointments Scheduled per Worker-Time Unit Outcome)
+# Class: <http://purl.org/doves/09a5d403_43ff_432e_ac86_d3b86d7d2c21> (Decreased Number of Appointments Scheduled per Worker-Time Unit Outcome)
 
-AnnotationAssertion(rdfs:label <http://purl.org/doves/09a5d403_43ff_432e_ac86_d3b86d7d2c21> "Number of Appointments Scheduled per Worker-Time Unit Outcome"@en)
+AnnotationAssertion(rdfs:label <http://purl.org/doves/09a5d403_43ff_432e_ac86_d3b86d7d2c21> "Decreased Number of Appointments Scheduled per Worker-Time Unit Outcome"@en)
 SubClassOf(<http://purl.org/doves/09a5d403_43ff_432e_ac86_d3b86d7d2c21> <https://purl.org/doves/499b8963-8ab3-4708-bffb-ed0acdb84002>)
 
 # Class: <http://purl.org/doves/2fc9b6ba_e3c4_457f_80a0_487b89884fcb> (Decreased Primary Care Encounter Rate Outcome)
@@ -646,9 +645,9 @@ SubClassOf(<https://purl.org/doves/be939100-e527-489d-ab9a-94aa852245f6> <https:
 AnnotationAssertion(rdfs:label <https://purl.org/doves/c07c9209-0f8c-4e8d-9a1d-246baa2c4030> "CIS Controls V8 Compliance"@en)
 SubClassOf(<https://purl.org/doves/c07c9209-0f8c-4e8d-9a1d-246baa2c4030> <https://purl.org/doves/9345fc0a-25dd-4d30-8275-da199ca93713>)
 
-# Class: <https://purl.org/doves/c0d7e632-dd5d-4843-9f1d-4fd5820e04fa> (Scheduled/Available)
+# Class: <https://purl.org/doves/c0d7e632-dd5d-4843-9f1d-4fd5820e04fa> (Increased Scheduled/Available Appointment Outcome)
 
-AnnotationAssertion(rdfs:label <https://purl.org/doves/c0d7e632-dd5d-4843-9f1d-4fd5820e04fa> "Scheduled/Available"@en)
+AnnotationAssertion(rdfs:label <https://purl.org/doves/c0d7e632-dd5d-4843-9f1d-4fd5820e04fa> "Increased Scheduled/Available Appointment Outcome"@en)
 SubClassOf(<https://purl.org/doves/c0d7e632-dd5d-4843-9f1d-4fd5820e04fa> <https://purl.org/doves/499b8963-8ab3-4708-bffb-ed0acdb84002>)
 
 # Class: <https://purl.org/doves/c0ee0de7-f797-47e8-bfc1-991e473018c3> (Undersea and Hyperbaric Medicine)
@@ -970,11 +969,6 @@ SubClassOf(<https://purl.org/doves/eec4d9eb-9db4-44f5-9523-c8b481cf4293> <https:
 AnnotationAssertion(rdfs:label <https://purl.org/doves/efd50c0f-cb79-46f8-9266-1d6afed04248> "Estimated Life Years Impacted Outcome"@en)
 AnnotationAssertion(skos:definition <https://purl.org/doves/efd50c0f-cb79-46f8-9266-1d6afed04248> "An Estimated Life Years Impacted Outcome is a Health Benefit Outcome that pertains to quantifying the number of life years impacted, directly or indirectly, by a given Digital Medicine Application."^^xsd:string)
 SubClassOf(<https://purl.org/doves/efd50c0f-cb79-46f8-9266-1d6afed04248> <https://purl.org/doves/8e9f2330-e042-4723-a5f6-422f7565f1ee>)
-
-# Class: <https://purl.org/doves/efd57ad7-5a59-475e-a84f-361a6b56185c> (Increased Scheduling Speed Outcome)
-
-AnnotationAssertion(rdfs:label <https://purl.org/doves/efd57ad7-5a59-475e-a84f-361a6b56185c> "Increased Scheduling Speed Outcome"@en)
-SubClassOf(<https://purl.org/doves/efd57ad7-5a59-475e-a84f-361a6b56185c> <https://purl.org/doves/499b8963-8ab3-4708-bffb-ed0acdb84002>)
 
 # Class: <https://purl.org/doves/f13faa32-33d2-48c3-b9ce-9e0279af659c> (Adolescent person)
 
@@ -1320,10 +1314,11 @@ SubClassOf(<https://purl.org/doves/1feb26b5-4d03-4ca2-9066-51b334a843c8> <https:
 AnnotationAssertion(rdfs:label <https://purl.org/doves/1ff5e67f-968a-4bb0-b693-cde80e30f967> "Pathology"@en)
 SubClassOf(<https://purl.org/doves/1ff5e67f-968a-4bb0-b693-cde80e30f967> <https://purl.org/doves/1d62d176-3b08-4743-819c-ba79585f3a38>)
 
-# Class: <https://purl.org/doves/104df283-76d5-44ae-b558-bd7dbffdde03> (FTE Reduction)
+# Class: <https://purl.org/doves/104df283-76d5-44ae-b558-bd7dbffdde03> (FTE Reduction Outcome)
 
-AnnotationAssertion(rdfs:label <https://purl.org/doves/104df283-76d5-44ae-b558-bd7dbffdde03> "FTE Reduction"@en)
-SubClassOf(<https://purl.org/doves/104df283-76d5-44ae-b558-bd7dbffdde03> <https://purl.org/doves/499b8963-8ab3-4708-bffb-ed0acdb84002>)
+AnnotationAssertion(rdfs:label <https://purl.org/doves/104df283-76d5-44ae-b558-bd7dbffdde03> "FTE Reduction Outcome"@en)
+AnnotationAssertion(skos:definition <https://purl.org/doves/104df283-76d5-44ae-b558-bd7dbffdde03> "A healthcare operation outcome which reduces the number of full time employees needed.")
+SubClassOf(<https://purl.org/doves/104df283-76d5-44ae-b558-bd7dbffdde03> <https://purl.org/doves/1ae3245a-1b7f-40b2-ae3b-74706699204a>)
 
 # Class: <https://purl.org/doves/12d53a9c-2ead-4a45-8c5f-03b264289d65> (Hand/Wrist/Elbow)
 
