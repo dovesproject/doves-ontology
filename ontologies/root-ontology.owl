@@ -14,9 +14,9 @@ Prefix(webprotege:=<http://webprotege.stanford.edu/>)
 
 
 Ontology(<http://purl.org/doves/doves-ontology>
-Import(<http://who.int/icd>)
 Import(<http://www.semanticweb.org/AdverseEventExtract>)
 
+Declaration(Class(<http://id.who.int/icd/entity/1006882070>))
 Declaration(Class(<http://purl.org/doves/a61dbcd2_0d2c_4269_a9dd_c34cb9fd5965>))
 Declaration(Class(<http://purl.org/doves/b80c62bc_fe83_4ea8_bd0d_280adf6aa06b>))
 Declaration(Class(<http://purl.org/doves/efe61c04_f9aa_484c_846c_d7ee7cb02f58>))
@@ -25,6 +25,7 @@ Declaration(Class(<http://purl.org/doves/076aaae9_4c06_4338_8a74_c81235747135>))
 Declaration(Class(<http://purl.org/doves/2fc9b6ba_e3c4_457f_80a0_487b89884fcb>))
 Declaration(Class(<http://purl.org/doves/282607d5_c13d_4079_acec_40c79e8469d2>))
 Declaration(Class(<http://purl.org/doves/8818ad03_a459_476e_98c4_213c01f406c4>))
+Declaration(Class(<http://who.int/icd/ICD-11>))
 Declaration(Class(<https://purl.org/doves/a01b3bf3-a332-4213-8b6d-0ae97be1f128>))
 Declaration(Class(<https://purl.org/doves/a0885d3f-beaa-4dbe-a81a-78484cb2757b>))
 Declaration(Class(<https://purl.org/doves/a100d2ec-67bd-4eb3-b08d-065e3d90f677>))
@@ -364,6 +365,7 @@ Declaration(ObjectProperty(<https://purl.org/doves/4b61e411-782f-4ccd-9f96-ba45c
 Declaration(ObjectProperty(<https://purl.org/doves/5b5e21c9-08f7-4c4f-a8ab-18f3914fdabc>))
 Declaration(NamedIndividual(<http://purl.org/doves/4bedc15f_c338_435e_8489_48fe5adb7304>))
 Declaration(AnnotationProperty(rdfs:label))
+Declaration(AnnotationProperty(skos:altLabel))
 
 ############################
 #   Object Properties
