@@ -19,6 +19,7 @@ Import(<http://www.semanticweb.org/AdverseEventExtract>)
 
 Declaration(Class(<http://purl.org/doves/a61dbcd2_0d2c_4269_a9dd_c34cb9fd5965>))
 Declaration(Class(<http://purl.org/doves/b80c62bc_fe83_4ea8_bd0d_280adf6aa06b>))
+Declaration(Class(<http://purl.org/doves/efe61c04_f9aa_484c_846c_d7ee7cb02f58>))
 Declaration(Class(<http://purl.org/doves/0b28937e_45cc_4f6f_b7d5_2d9ae70f61a0>))
 Declaration(Class(<http://purl.org/doves/076aaae9_4c06_4338_8a74_c81235747135>))
 Declaration(Class(<http://purl.org/doves/2fc9b6ba_e3c4_457f_80a0_487b89884fcb>))
@@ -428,6 +429,11 @@ SubClassOf(<http://purl.org/doves/a61dbcd2_0d2c_4269_a9dd_c34cb9fd5965> <https:/
 
 AnnotationAssertion(rdfs:label <http://purl.org/doves/b80c62bc_fe83_4ea8_bd0d_280adf6aa06b> "Increased Primary Care Encounter Rate Outcome"@en)
 SubClassOf(<http://purl.org/doves/b80c62bc_fe83_4ea8_bd0d_280adf6aa06b> <https://purl.org/doves/9caefbe3-4e93-461c-ae16-cfd0840e4d89>)
+
+# Class: <http://purl.org/doves/efe61c04_f9aa_484c_846c_d7ee7cb02f58> (Gender)
+
+AnnotationAssertion(rdfs:label <http://purl.org/doves/efe61c04_f9aa_484c_846c_d7ee7cb02f58> "Gender"@en)
+SubClassOf(<http://purl.org/doves/efe61c04_f9aa_484c_846c_d7ee7cb02f58> <https://purl.org/doves/78ceb509-e44b-4d8c-bd47-b457f9d835cb>)
 
 # Class: <http://purl.org/doves/0b28937e_45cc_4f6f_b7d5_2d9ae70f61a0> (Adult Age Group)
 
@@ -1987,9 +1993,9 @@ AnnotationAssertion(rdfs:label <https://purl.org/doves/8081940e-b77f-4aa1-bfcf-0
 AnnotationAssertion(skos:definition <https://purl.org/doves/8081940e-b77f-4aa1-bfcf-0b979f0a2158> "A Healthcare Outcome is a measurable Digital Medicine Application Outcome that is atrributable in whole or part to a user of a digital medicine application. It includes, for example, clinical outcomes, healthcare economic outcomes, process of care outcomes, healthcare operation outcomes, and education outcomes.")
 SubClassOf(<https://purl.org/doves/8081940e-b77f-4aa1-bfcf-0b979f0a2158> <https://purl.org/doves/e849bada-9fc3-4799-b3d4-625dc79093f4>)
 
-# Class: <https://purl.org/doves/81955a73-7b46-4cb4-bbae-5c34311aa8a0> (Sex)
+# Class: <https://purl.org/doves/81955a73-7b46-4cb4-bbae-5c34311aa8a0> (Sex Assigned At Birth)
 
-AnnotationAssertion(rdfs:label <https://purl.org/doves/81955a73-7b46-4cb4-bbae-5c34311aa8a0> "Sex"@en)
+AnnotationAssertion(rdfs:label <https://purl.org/doves/81955a73-7b46-4cb4-bbae-5c34311aa8a0> "Sex Assigned At Birth"@en)
 SubClassOf(<https://purl.org/doves/81955a73-7b46-4cb4-bbae-5c34311aa8a0> <https://purl.org/doves/78ceb509-e44b-4d8c-bd47-b457f9d835cb>)
 
 # Class: <https://purl.org/doves/83bd6951-a315-4e58-bfc5-ef3e6aa80af9> (Public Health and General Preventive Medicine)
