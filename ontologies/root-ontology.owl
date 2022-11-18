@@ -18,7 +18,9 @@ Import(<http://who.int/icd>)
 Import(<http://www.semanticweb.org/AdverseEventExtract>)
 
 Declaration(Class(<http://purl.org/doves/b80c62bc_fe83_4ea8_bd0d_280adf6aa06b>))
+Declaration(Class(<http://purl.org/doves/076aaae9_4c06_4338_8a74_c81235747135>))
 Declaration(Class(<http://purl.org/doves/2fc9b6ba_e3c4_457f_80a0_487b89884fcb>))
+Declaration(Class(<http://purl.org/doves/282607d5_c13d_4079_acec_40c79e8469d2>))
 Declaration(Class(<http://purl.org/doves/8818ad03_a459_476e_98c4_213c01f406c4>))
 Declaration(Class(<https://purl.org/doves/a01b3bf3-a332-4213-8b6d-0ae97be1f128>))
 Declaration(Class(<https://purl.org/doves/a0885d3f-beaa-4dbe-a81a-78484cb2757b>))
@@ -423,10 +425,20 @@ SubClassOf(obo:OAE_0000001 <https://purl.org/doves/840177a9-3e6d-4978-ac7a-8580c
 AnnotationAssertion(rdfs:label <http://purl.org/doves/b80c62bc_fe83_4ea8_bd0d_280adf6aa06b> "Increased Primary Care Encounter Rate Outcome"@en)
 SubClassOf(<http://purl.org/doves/b80c62bc_fe83_4ea8_bd0d_280adf6aa06b> <https://purl.org/doves/9caefbe3-4e93-461c-ae16-cfd0840e4d89>)
 
+# Class: <http://purl.org/doves/076aaae9_4c06_4338_8a74_c81235747135> (NIST Certification Outcome)
+
+AnnotationAssertion(rdfs:label <http://purl.org/doves/076aaae9_4c06_4338_8a74_c81235747135> "NIST Certification Outcome"@en)
+SubClassOf(<http://purl.org/doves/076aaae9_4c06_4338_8a74_c81235747135> <https://purl.org/doves/6fdf5e33-7497-42d7-b016-72567185a0e3>)
+
 # Class: <http://purl.org/doves/2fc9b6ba_e3c4_457f_80a0_487b89884fcb> (Decreased Primary Care Encounter Rate Outcome)
 
 AnnotationAssertion(rdfs:label <http://purl.org/doves/2fc9b6ba_e3c4_457f_80a0_487b89884fcb> "Decreased Primary Care Encounter Rate Outcome"@en)
 SubClassOf(<http://purl.org/doves/2fc9b6ba_e3c4_457f_80a0_487b89884fcb> <https://purl.org/doves/9caefbe3-4e93-461c-ae16-cfd0840e4d89>)
+
+# Class: <http://purl.org/doves/282607d5_c13d_4079_acec_40c79e8469d2> (ISO Certification Outcome)
+
+AnnotationAssertion(rdfs:label <http://purl.org/doves/282607d5_c13d_4079_acec_40c79e8469d2> "ISO Certification Outcome"@en)
+SubClassOf(<http://purl.org/doves/282607d5_c13d_4079_acec_40c79e8469d2> <https://purl.org/doves/6fdf5e33-7497-42d7-b016-72567185a0e3>)
 
 # Class: <http://purl.org/doves/8818ad03_a459_476e_98c4_213c01f406c4> (Percent of Prior Authorization Approvals Outcome)
 
