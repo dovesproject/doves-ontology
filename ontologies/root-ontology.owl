@@ -22,6 +22,7 @@ Declaration(Class(<http://purl.org/doves/b80c62bc_fe83_4ea8_bd0d_280adf6aa06b>))
 Declaration(Class(<http://purl.org/doves/efe61c04_f9aa_484c_846c_d7ee7cb02f58>))
 Declaration(Class(<http://purl.org/doves/0b28937e_45cc_4f6f_b7d5_2d9ae70f61a0>))
 Declaration(Class(<http://purl.org/doves/076aaae9_4c06_4338_8a74_c81235747135>))
+Declaration(Class(<http://purl.org/doves/09a5d403_43ff_432e_ac86_d3b86d7d2c21>))
 Declaration(Class(<http://purl.org/doves/2fc9b6ba_e3c4_457f_80a0_487b89884fcb>))
 Declaration(Class(<http://purl.org/doves/282607d5_c13d_4079_acec_40c79e8469d2>))
 Declaration(Class(<http://purl.org/doves/8818ad03_a459_476e_98c4_213c01f406c4>))
@@ -447,6 +448,11 @@ SubClassOf(<http://purl.org/doves/0b28937e_45cc_4f6f_b7d5_2d9ae70f61a0> <https:/
 AnnotationAssertion(rdfs:label <http://purl.org/doves/076aaae9_4c06_4338_8a74_c81235747135> "NIST Certification Outcome"@en)
 SubClassOf(<http://purl.org/doves/076aaae9_4c06_4338_8a74_c81235747135> <https://purl.org/doves/6fdf5e33-7497-42d7-b016-72567185a0e3>)
 
+# Class: <http://purl.org/doves/09a5d403_43ff_432e_ac86_d3b86d7d2c21> (Number of Appointments Scheduled per Worker-Time Unit Outcome)
+
+AnnotationAssertion(rdfs:label <http://purl.org/doves/09a5d403_43ff_432e_ac86_d3b86d7d2c21> "Number of Appointments Scheduled per Worker-Time Unit Outcome"@en)
+SubClassOf(<http://purl.org/doves/09a5d403_43ff_432e_ac86_d3b86d7d2c21> <https://purl.org/doves/499b8963-8ab3-4708-bffb-ed0acdb84002>)
+
 # Class: <http://purl.org/doves/2fc9b6ba_e3c4_457f_80a0_487b89884fcb> (Decreased Primary Care Encounter Rate Outcome)
 
 AnnotationAssertion(rdfs:label <http://purl.org/doves/2fc9b6ba_e3c4_457f_80a0_487b89884fcb> "Decreased Primary Care Encounter Rate Outcome"@en)
@@ -643,7 +649,7 @@ SubClassOf(<https://purl.org/doves/c07c9209-0f8c-4e8d-9a1d-246baa2c4030> <https:
 # Class: <https://purl.org/doves/c0d7e632-dd5d-4843-9f1d-4fd5820e04fa> (Scheduled/Available)
 
 AnnotationAssertion(rdfs:label <https://purl.org/doves/c0d7e632-dd5d-4843-9f1d-4fd5820e04fa> "Scheduled/Available"@en)
-SubClassOf(<https://purl.org/doves/c0d7e632-dd5d-4843-9f1d-4fd5820e04fa> <https://purl.org/doves/4ac898a5-abf6-4bfa-bb64-8d57dddd0dce>)
+SubClassOf(<https://purl.org/doves/c0d7e632-dd5d-4843-9f1d-4fd5820e04fa> <https://purl.org/doves/499b8963-8ab3-4708-bffb-ed0acdb84002>)
 
 # Class: <https://purl.org/doves/c0ee0de7-f797-47e8-bfc1-991e473018c3> (Undersea and Hyperbaric Medicine)
 
@@ -968,7 +974,7 @@ SubClassOf(<https://purl.org/doves/efd50c0f-cb79-46f8-9266-1d6afed04248> <https:
 # Class: <https://purl.org/doves/efd57ad7-5a59-475e-a84f-361a6b56185c> (Increased Scheduling Speed Outcome)
 
 AnnotationAssertion(rdfs:label <https://purl.org/doves/efd57ad7-5a59-475e-a84f-361a6b56185c> "Increased Scheduling Speed Outcome"@en)
-SubClassOf(<https://purl.org/doves/efd57ad7-5a59-475e-a84f-361a6b56185c> <https://purl.org/doves/4ac898a5-abf6-4bfa-bb64-8d57dddd0dce>)
+SubClassOf(<https://purl.org/doves/efd57ad7-5a59-475e-a84f-361a6b56185c> <https://purl.org/doves/499b8963-8ab3-4708-bffb-ed0acdb84002>)
 
 # Class: <https://purl.org/doves/f13faa32-33d2-48c3-b9ce-9e0279af659c> (Adolescent person)
 
@@ -1058,10 +1064,10 @@ AnnotationAssertion(rdfs:label <https://purl.org/doves/f8c83883-9b87-4aa7-9406-6
 AnnotationAssertion(skos:definition <https://purl.org/doves/f8c83883-9b87-4aa7-9406-6e361358faea> "A person that is in the adult age group"^^xsd:string)
 EquivalentClasses(<https://purl.org/doves/f8c83883-9b87-4aa7-9406-6e361358faea> ObjectIntersectionOf(<https://purl.org/doves/01d40506-2d2f-4237-a87b-229e268c2f14> ObjectSomeValuesFrom(<https://purl.org/doves/e352e4b8-9c80-45f1-a877-a397b5b33cc1> <https://purl.org/doves/f8c83883-9b87-4aa7-9406-6e361358faea>)))
 
-# Class: <https://purl.org/doves/f921a0bd-b02b-446a-a2c9-6e4a80e8122c> (Not Self Scheduling)
+# Class: <https://purl.org/doves/f921a0bd-b02b-446a-a2c9-6e4a80e8122c> (Non-Patient Appointment Scheduling Feature)
 
-AnnotationAssertion(rdfs:label <https://purl.org/doves/f921a0bd-b02b-446a-a2c9-6e4a80e8122c> "Not Self Scheduling"@en)
-SubClassOf(<https://purl.org/doves/f921a0bd-b02b-446a-a2c9-6e4a80e8122c> <https://purl.org/doves/499b8963-8ab3-4708-bffb-ed0acdb84002>)
+AnnotationAssertion(rdfs:label <https://purl.org/doves/f921a0bd-b02b-446a-a2c9-6e4a80e8122c> "Non-Patient Appointment Scheduling Feature"@en)
+SubClassOf(<https://purl.org/doves/f921a0bd-b02b-446a-a2c9-6e4a80e8122c> <https://purl.org/doves/1ce5511a-c36f-4fb4-97a6-8e1b0642a27d>)
 
 # Class: <https://purl.org/doves/f9324bd5-9ac2-4fc9-8e5c-cdc026a8f03c> (Diabetic Foot Exam)
 
@@ -1317,7 +1323,7 @@ SubClassOf(<https://purl.org/doves/1ff5e67f-968a-4bb0-b693-cde80e30f967> <https:
 # Class: <https://purl.org/doves/104df283-76d5-44ae-b558-bd7dbffdde03> (FTE Reduction)
 
 AnnotationAssertion(rdfs:label <https://purl.org/doves/104df283-76d5-44ae-b558-bd7dbffdde03> "FTE Reduction"@en)
-SubClassOf(<https://purl.org/doves/104df283-76d5-44ae-b558-bd7dbffdde03> <https://purl.org/doves/4ac898a5-abf6-4bfa-bb64-8d57dddd0dce>)
+SubClassOf(<https://purl.org/doves/104df283-76d5-44ae-b558-bd7dbffdde03> <https://purl.org/doves/499b8963-8ab3-4708-bffb-ed0acdb84002>)
 
 # Class: <https://purl.org/doves/12d53a9c-2ead-4a45-8c5f-03b264289d65> (Hand/Wrist/Elbow)
 
@@ -1525,10 +1531,10 @@ SubClassOf(<https://purl.org/doves/38552094-2ddf-4e81-b33d-080f5b904cd7> <https:
 AnnotationAssertion(rdfs:label <https://purl.org/doves/386d296c-279d-486b-a316-c8c08390cfd3> "Pediatric Dermatology"@en)
 SubClassOf(<https://purl.org/doves/386d296c-279d-486b-a316-c8c08390cfd3> <https://purl.org/doves/9c7d3336-6f55-44fc-86c6-56869858b624>)
 
-# Class: <https://purl.org/doves/4ac898a5-abf6-4bfa-bb64-8d57dddd0dce> (Self Scheduling Outcome)
+# Class: <https://purl.org/doves/4ac898a5-abf6-4bfa-bb64-8d57dddd0dce> (Patient Appointment Scheduling Feature)
 
-AnnotationAssertion(rdfs:label <https://purl.org/doves/4ac898a5-abf6-4bfa-bb64-8d57dddd0dce> "Self Scheduling Outcome"@en)
-SubClassOf(<https://purl.org/doves/4ac898a5-abf6-4bfa-bb64-8d57dddd0dce> <https://purl.org/doves/499b8963-8ab3-4708-bffb-ed0acdb84002>)
+AnnotationAssertion(rdfs:label <https://purl.org/doves/4ac898a5-abf6-4bfa-bb64-8d57dddd0dce> "Patient Appointment Scheduling Feature"@en)
+SubClassOf(<https://purl.org/doves/4ac898a5-abf6-4bfa-bb64-8d57dddd0dce> <https://purl.org/doves/1ce5511a-c36f-4fb4-97a6-8e1b0642a27d>)
 
 # Class: <https://purl.org/doves/4d6d76b2-faab-4560-bfef-63c1436f2f4e> (Sensor Technology)
 
@@ -1714,10 +1720,10 @@ SubClassOf(<https://purl.org/doves/6b215ace-0c48-42dc-bcb3-20c7007c2705> <https:
 AnnotationAssertion(rdfs:label <https://purl.org/doves/6ca84b77-899d-4fd4-a9ef-b9d1831ce4e6> "Patient Engagement Outcome"@en)
 SubClassOf(<https://purl.org/doves/6ca84b77-899d-4fd4-a9ef-b9d1831ce4e6> <https://purl.org/doves/f70ac7b3-c718-4511-9f13-2f4ab13050b8>)
 
-# Class: <https://purl.org/doves/6e987b1b-9abe-47b2-b210-99b45049f434> (Appeared/Scheduled)
+# Class: <https://purl.org/doves/6e987b1b-9abe-47b2-b210-99b45049f434> (Increased Appointment Show Rate Outcome)
 
-AnnotationAssertion(rdfs:label <https://purl.org/doves/6e987b1b-9abe-47b2-b210-99b45049f434> "Appeared/Scheduled"@en)
-SubClassOf(<https://purl.org/doves/6e987b1b-9abe-47b2-b210-99b45049f434> <https://purl.org/doves/4ac898a5-abf6-4bfa-bb64-8d57dddd0dce>)
+AnnotationAssertion(rdfs:label <https://purl.org/doves/6e987b1b-9abe-47b2-b210-99b45049f434> "Increased Appointment Show Rate Outcome"@en)
+SubClassOf(<https://purl.org/doves/6e987b1b-9abe-47b2-b210-99b45049f434> <https://purl.org/doves/499b8963-8ab3-4708-bffb-ed0acdb84002>)
 
 # Class: <https://purl.org/doves/6eab4a0d-9237-4010-b11e-c4bea0e4b24f> (Medical Toxicology)
 
