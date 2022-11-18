@@ -433,6 +433,7 @@ SubClassOf(<http://purl.org/doves/b80c62bc_fe83_4ea8_bd0d_280adf6aa06b> <https:/
 
 AnnotationAssertion(rdfs:label <http://purl.org/doves/0b28937e_45cc_4f6f_b7d5_2d9ae70f61a0> "Adult Age Group"@en)
 SubClassOf(<http://purl.org/doves/0b28937e_45cc_4f6f_b7d5_2d9ae70f61a0> <https://purl.org/doves/d7fdedbd-6d0d-4d67-bd98-03f4c80c944b>)
+
 # Class: <http://purl.org/doves/076aaae9_4c06_4338_8a74_c81235747135> (NIST Certification Outcome)
 
 AnnotationAssertion(rdfs:label <http://purl.org/doves/076aaae9_4c06_4338_8a74_c81235747135> "NIST Certification Outcome"@en)
@@ -1451,6 +1452,7 @@ SubClassOf(<https://purl.org/doves/293fef7c-6978-4696-92bc-935d964ebf9d> <https:
 # Class: <https://purl.org/doves/3b077e54-f977-4750-aad8-2f1f1b978a96> (Real World Evidence)
 
 AnnotationAssertion(rdfs:label <https://purl.org/doves/3b077e54-f977-4750-aad8-2f1f1b978a96> "Real World Evidence"@en)
+AnnotationAssertion(skos:definition <https://purl.org/doves/3b077e54-f977-4750-aad8-2f1f1b978a96> "Real world evidence is evidence collected in a non-controlled manner with any/all users who use the product in a natural context.")
 SubClassOf(<https://purl.org/doves/3b077e54-f977-4750-aad8-2f1f1b978a96> <https://purl.org/doves/42032214-7b35-46e0-98f9-cd903d8fd464>)
 
 # Class: <https://purl.org/doves/3cf66fed-b3a2-4973-8778-aedf493e96c0> (Adolescent Medicine)
