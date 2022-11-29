@@ -37,7 +37,6 @@ Declaration(Class(<https://purl.org/doves/a100d2ec-67bd-4eb3-b08d-065e3d90f677>)
 Declaration(Class(<https://purl.org/doves/a141b618-7ee2-4bdd-8037-d072efc97740>))
 Declaration(Class(<https://purl.org/doves/a2137378-288c-4e21-a277-b907e7654030>))
 Declaration(Class(<https://purl.org/doves/a35064d9-a2f4-480d-9574-708a531398a7>))
-Declaration(Class(<https://purl.org/doves/a3b02116-232d-4dd4-b60c-315dcc69d601>))
 Declaration(Class(<https://purl.org/doves/a5627207-3c76-4b6c-8c81-f24283570b23>))
 Declaration(Class(<https://purl.org/doves/a735f242-018e-44c0-9aed-ed18d81632b8>))
 Declaration(Class(<https://purl.org/doves/a93a87f9-7853-4885-9856-28eb1fa52b3b>))
@@ -526,12 +525,6 @@ SubClassOf(<https://purl.org/doves/a2137378-288c-4e21-a277-b907e7654030> <https:
 
 AnnotationAssertion(rdfs:label <https://purl.org/doves/a35064d9-a2f4-480d-9574-708a531398a7> "Ophthalmology Screening Rates"@en)
 SubClassOf(<https://purl.org/doves/a35064d9-a2f4-480d-9574-708a531398a7> <https://purl.org/doves/c8c2f65d-6731-408f-b01b-a39fb47a2764>)
-
-# Class: <https://purl.org/doves/a3b02116-232d-4dd4-b60c-315dcc69d601> (Prescription Refill Rate)
-
-AnnotationAssertion(rdfs:label <https://purl.org/doves/a3b02116-232d-4dd4-b60c-315dcc69d601> "Prescription Refill Rate"@en)
-SubClassOf(<https://purl.org/doves/a3b02116-232d-4dd4-b60c-315dcc69d601> <https://purl.org/doves/afa90ae5-da23-4f28-8fd4-ce2d8ce18b40>)
-SubClassOf(<https://purl.org/doves/a3b02116-232d-4dd4-b60c-315dcc69d601> <https://purl.org/doves/1c1d0e62-5c9b-4344-8ff1-9e71d1debb38>)
 
 # Class: <https://purl.org/doves/a5627207-3c76-4b6c-8c81-f24283570b23> (Increased Sensitivity)
 
@@ -1128,9 +1121,9 @@ SubClassOf(<https://purl.org/doves/fdd05704-4a38-479d-82eb-dcc76abd28aa> <https:
 AnnotationAssertion(rdfs:label <https://purl.org/doves/fde9693d-2c71-48e4-9077-5f47633ba99e> "Ordering Outcome"@en)
 SubClassOf(<https://purl.org/doves/fde9693d-2c71-48e4-9077-5f47633ba99e> <https://purl.org/doves/05a3280a-f553-4fd6-b624-90fa23a0e858>)
 
-# Class: <https://purl.org/doves/fee7cbba-ae36-462f-b0ae-8eefa7460270> (Reduced Procedural No Show Rate Outcome)
+# Class: <https://purl.org/doves/fee7cbba-ae36-462f-b0ae-8eefa7460270> (Reduced Appointment No Show Rate Outcome)
 
-AnnotationAssertion(rdfs:label <https://purl.org/doves/fee7cbba-ae36-462f-b0ae-8eefa7460270> "Reduced Procedural No Show Rate Outcome"@en)
+AnnotationAssertion(rdfs:label <https://purl.org/doves/fee7cbba-ae36-462f-b0ae-8eefa7460270> "Reduced Appointment No Show Rate Outcome"@en)
 SubClassOf(<https://purl.org/doves/fee7cbba-ae36-462f-b0ae-8eefa7460270> <https://purl.org/doves/089409f3-106f-4742-a91a-df135a4b4102>)
 
 # Class: <https://purl.org/doves/ff617266-46f1-4941-9053-81d4c3531170> (Modified Diagnosis Outcome)
@@ -1265,8 +1258,8 @@ SubClassOf(<https://purl.org/doves/0831a639-c60a-428a-8d1b-ead517c906fc> <https:
 # Class: <https://purl.org/doves/0868f80c-aeed-460d-93e4-6e47a22dc993> (Patient Activation Measure)
 
 AnnotationAssertion(rdfs:label <https://purl.org/doves/0868f80c-aeed-460d-93e4-6e47a22dc993> "Patient Activation Measure"@en)
-AnnotationAssertion(skos:altLabel <https://purl.org/doves/0868f80c-aeed-460d-93e4-6e47a22dc993> "PAM"@en)
-SubClassOf(<https://purl.org/doves/0868f80c-aeed-460d-93e4-6e47a22dc993> <https://purl.org/doves/6ca84b77-899d-4fd4-a9ef-b9d1831ce4e6>)
+AnnotationAssertion(skos:altLabel <https://purl.org/doves/0868f80c-aeed-460d-93e4-6e47a22dc993> "Patient Activation Measure Outcome is a measure based on the wotk by Juddith Hibbard and the formal metric referred to as the Patient Activation Measure (PAM). PAM is a 10 or 13 item survey with a survey score that assesses an individual's knowlegde, skills, and confidence integral to managing one's own health and healthcare. See https://www.insigniahealth.com/products/pam"@en)
+SubClassOf(<https://purl.org/doves/0868f80c-aeed-460d-93e4-6e47a22dc993> <https://purl.org/doves/f70ac7b3-c718-4511-9f13-2f4ab13050b8>)
 
 # Class: <https://purl.org/doves/089409f3-106f-4742-a91a-df135a4b4102> (Healthcare Utilization Outcome)
 
@@ -1297,6 +1290,7 @@ SubClassOf(<https://purl.org/doves/1ae3245a-1b7f-40b2-ae3b-74706699204a> <https:
 # Class: <https://purl.org/doves/1c1d0e62-5c9b-4344-8ff1-9e71d1debb38> (Medication Adherence Outcome)
 
 AnnotationAssertion(rdfs:label <https://purl.org/doves/1c1d0e62-5c9b-4344-8ff1-9e71d1debb38> "Medication Adherence Outcome"@en)
+AnnotationAssertion(skos:definition <https://purl.org/doves/1c1d0e62-5c9b-4344-8ff1-9e71d1debb38> "Medication Adherence Outcome is an Engagement and Adherence Outcome that reflects an individual's degree of adherence to taking their medications as recommended.")
 SubClassOf(<https://purl.org/doves/1c1d0e62-5c9b-4344-8ff1-9e71d1debb38> <https://purl.org/doves/f70ac7b3-c718-4511-9f13-2f4ab13050b8>)
 
 # Class: <https://purl.org/doves/1ce5511a-c36f-4fb4-97a6-8e1b0642a27d> (Technical Feature)
@@ -1466,7 +1460,8 @@ SubClassOf(<https://purl.org/doves/26296d7b-09d5-4eae-9c0e-e22fe6c5d78c> <https:
 # Class: <https://purl.org/doves/266a5802-7c7e-45ba-adf3-9991ec3acbed> (Prescription Fill Rate Outcome)
 
 AnnotationAssertion(rdfs:label <https://purl.org/doves/266a5802-7c7e-45ba-adf3-9991ec3acbed> "Prescription Fill Rate Outcome"@en)
-SubClassOf(<https://purl.org/doves/266a5802-7c7e-45ba-adf3-9991ec3acbed> <https://purl.org/doves/afa90ae5-da23-4f28-8fd4-ce2d8ce18b40>)
+AnnotationAssertion(skos:definition <https://purl.org/doves/266a5802-7c7e-45ba-adf3-9991ec3acbed> "Prescription Fill Rate Outcome is a Medication Adherence Outcome that reflects the rate at which one or more individuals fill new prescription(s) as recommended.")
+SubClassOf(<https://purl.org/doves/266a5802-7c7e-45ba-adf3-9991ec3acbed> <https://purl.org/doves/1c1d0e62-5c9b-4344-8ff1-9e71d1debb38>)
 
 # Class: <https://purl.org/doves/2687f9f2-22d6-4a64-8a86-bb9b3a7de2d5> (Reduced Leave Without Being Seen Rate Outcome)
 
@@ -1598,6 +1593,8 @@ SubClassOf(<https://purl.org/doves/4663e837-50a1-4cfe-ae5d-b44a6396947d> <https:
 # Class: <https://purl.org/doves/48e82efa-4411-43fc-a750-995a002e0639> (Reduced Infusion Clinic No Show Rate Outcome)
 
 AnnotationAssertion(rdfs:label <https://purl.org/doves/48e82efa-4411-43fc-a750-995a002e0639> "Reduced Infusion Clinic No Show Rate Outcome"@en)
+AnnotationAssertion(skos:definition <https://purl.org/doves/48e82efa-4411-43fc-a750-995a002e0639> "Reduced Infusion Clinic No Show Rate Outcome is both a Medication Adherence Outcome (because it reflects an appointment for administering medication), and a Reduced Appointment No Show Rate Outcome (because it is a subclass of Appointment No Show Rate specific to a certain kind of appointment).")
+SubClassOf(<https://purl.org/doves/48e82efa-4411-43fc-a750-995a002e0639> <https://purl.org/doves/fee7cbba-ae36-462f-b0ae-8eefa7460270>)
 SubClassOf(<https://purl.org/doves/48e82efa-4411-43fc-a750-995a002e0639> <https://purl.org/doves/1c1d0e62-5c9b-4344-8ff1-9e71d1debb38>)
 
 # Class: <https://purl.org/doves/487ba129-e6ff-4f8f-bdbb-e1074b485360> (Plastic Surgery)
@@ -1732,6 +1729,7 @@ SubClassOf(<https://purl.org/doves/6b215ace-0c48-42dc-bcb3-20c7007c2705> <https:
 # Class: <https://purl.org/doves/6ca84b77-899d-4fd4-a9ef-b9d1831ce4e6> (Patient Engagement Outcome)
 
 AnnotationAssertion(rdfs:label <https://purl.org/doves/6ca84b77-899d-4fd4-a9ef-b9d1831ce4e6> "Patient Engagement Outcome"@en)
+AnnotationAssertion(skos:definition <https://purl.org/doves/6ca84b77-899d-4fd4-a9ef-b9d1831ce4e6> "Patient Engagement Outcome is a Engagement and Adherence Outcome that represents the degree to which a patient is engaged with a given healthcare intervention.")
 SubClassOf(<https://purl.org/doves/6ca84b77-899d-4fd4-a9ef-b9d1831ce4e6> <https://purl.org/doves/f70ac7b3-c718-4511-9f13-2f4ab13050b8>)
 
 # Class: <https://purl.org/doves/6e987b1b-9abe-47b2-b210-99b45049f434> (Increased Appointment Show Rate Outcome)
@@ -1842,9 +1840,10 @@ SubClassOf(<https://purl.org/doves/688d9ea3-75b2-4b97-ac0b-05414d6acc97> <https:
 AnnotationAssertion(rdfs:label <https://purl.org/doves/7a09f42e-d2c9-4fd5-b1ff-af3f82219976> "Star Ranking"@en)
 SubClassOf(<https://purl.org/doves/7a09f42e-d2c9-4fd5-b1ff-af3f82219976> <https://purl.org/doves/4dcb77b8-51f4-4b3a-8a61-a4dd9e2c72ae>)
 
-# Class: <https://purl.org/doves/7a5d7ad8-ce82-4bbc-a577-a9a72d2afb9d> (Prescription Fill Rate)
+# Class: <https://purl.org/doves/7a5d7ad8-ce82-4bbc-a577-a9a72d2afb9d> (Prescription Refill Rate Outcome)
 
-AnnotationAssertion(rdfs:label <https://purl.org/doves/7a5d7ad8-ce82-4bbc-a577-a9a72d2afb9d> "Prescription Fill Rate"@en)
+AnnotationAssertion(rdfs:label <https://purl.org/doves/7a5d7ad8-ce82-4bbc-a577-a9a72d2afb9d> "Prescription Refill Rate Outcome"@en)
+AnnotationAssertion(skos:definition <https://purl.org/doves/7a5d7ad8-ce82-4bbc-a577-a9a72d2afb9d> "A Prescription Refill Rate Outcome is a Medication Adherence Outcome that reflects the rate at which one or more individuals refill existing prescription(s) as recommended. For example, if a patient has been given a prescription that lasts 30 days as well as 2 refills, what is the rate at which the patient picks up the refills around days 30 and 60?")
 SubClassOf(<https://purl.org/doves/7a5d7ad8-ce82-4bbc-a577-a9a72d2afb9d> <https://purl.org/doves/1c1d0e62-5c9b-4344-8ff1-9e71d1debb38>)
 
 # Class: <https://purl.org/doves/7b737888-87d5-4848-97b1-94580aa93a7d> (EQ-5D Score Outcome)
