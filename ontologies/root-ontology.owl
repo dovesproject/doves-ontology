@@ -23,7 +23,9 @@ Declaration(Class(<http://purl.org/doves/efe61c04_f9aa_484c_846c_d7ee7cb02f58>))
 Declaration(Class(<http://purl.org/doves/0b28937e_45cc_4f6f_b7d5_2d9ae70f61a0>))
 Declaration(Class(<http://purl.org/doves/076aaae9_4c06_4338_8a74_c81235747135>))
 Declaration(Class(<http://purl.org/doves/09a5d403_43ff_432e_ac86_d3b86d7d2c21>))
+Declaration(Class(<http://purl.org/doves/158f4ae0_7b5e_497b_b880_76df4cdd5fc2>))
 Declaration(Class(<http://purl.org/doves/2fc9b6ba_e3c4_457f_80a0_487b89884fcb>))
+Declaration(Class(<http://purl.org/doves/23303eb4_0fb1_4163_a8a8_b1f7c69ece81>))
 Declaration(Class(<http://purl.org/doves/282607d5_c13d_4079_acec_40c79e8469d2>))
 Declaration(Class(<http://purl.org/doves/6731f96a_7ed3_4c4f_aba0_96da62fd3349>))
 Declaration(Class(<http://purl.org/doves/8818ad03_a459_476e_98c4_213c01f406c4>))
@@ -453,10 +455,22 @@ SubClassOf(<http://purl.org/doves/076aaae9_4c06_4338_8a74_c81235747135> <https:/
 AnnotationAssertion(rdfs:label <http://purl.org/doves/09a5d403_43ff_432e_ac86_d3b86d7d2c21> "Decreased Number of Appointments Scheduled per Worker-Time Unit Outcome"@en)
 SubClassOf(<http://purl.org/doves/09a5d403_43ff_432e_ac86_d3b86d7d2c21> <https://purl.org/doves/499b8963-8ab3-4708-bffb-ed0acdb84002>)
 
+# Class: <http://purl.org/doves/158f4ae0_7b5e_497b_b880_76df4cdd5fc2> (Glycemic Control Outcome)
+
+AnnotationAssertion(rdfs:label <http://purl.org/doves/158f4ae0_7b5e_497b_b880_76df4cdd5fc2> "Glycemic Control Outcome"@en)
+AnnotationAssertion(skos:definition <http://purl.org/doves/158f4ae0_7b5e_497b_b880_76df4cdd5fc2> "A glycemic control outcome is a Health Benefit Outcome that reflects the control of blood sugars, particularly in individuals with diabetes. It may be reflected by improvements in hemglobin A1c (HbA1c), average glucose, fewer hypoglycemic events, fewer hyperglycemic events, fewer diabetic ketoacidosis events, among others.")
+SubClassOf(<http://purl.org/doves/158f4ae0_7b5e_497b_b880_76df4cdd5fc2> <https://purl.org/doves/8e9f2330-e042-4723-a5f6-422f7565f1ee>)
+
 # Class: <http://purl.org/doves/2fc9b6ba_e3c4_457f_80a0_487b89884fcb> (Decreased Primary Care Encounter Rate Outcome)
 
 AnnotationAssertion(rdfs:label <http://purl.org/doves/2fc9b6ba_e3c4_457f_80a0_487b89884fcb> "Decreased Primary Care Encounter Rate Outcome"@en)
 SubClassOf(<http://purl.org/doves/2fc9b6ba_e3c4_457f_80a0_487b89884fcb> <https://purl.org/doves/9caefbe3-4e93-461c-ae16-cfd0840e4d89>)
+
+# Class: <http://purl.org/doves/23303eb4_0fb1_4163_a8a8_b1f7c69ece81> (Blood Pressure Control Outcome)
+
+AnnotationAssertion(rdfs:label <http://purl.org/doves/23303eb4_0fb1_4163_a8a8_b1f7c69ece81> "Blood Pressure Control Outcome"@en)
+AnnotationAssertion(skos:definition <http://purl.org/doves/23303eb4_0fb1_4163_a8a8_b1f7c69ece81> "A Blood Pressure Control Outcome is a Health Benefit Outcome that reflects the control of blood pressure, particularly in individuals with hypertension, but also potentially in individuals with hypotension. It may be reflected by improvements in being within a desired blood pressure range, fewer hypertnsive urgency / emergency events, fewer hypotensive events, and lower rates of end organ damage, among others.")
+SubClassOf(<http://purl.org/doves/23303eb4_0fb1_4163_a8a8_b1f7c69ece81> <https://purl.org/doves/8e9f2330-e042-4723-a5f6-422f7565f1ee>)
 
 # Class: <http://purl.org/doves/282607d5_c13d_4079_acec_40c79e8469d2> (ISO Certification Outcome)
 
@@ -1449,9 +1463,9 @@ SubClassOf(<https://purl.org/doves/26f78cca-ee92-43cd-afa5-eca44e314c63> <https:
 AnnotationAssertion(rdfs:label <https://purl.org/doves/26296d7b-09d5-4eae-9c0e-e22fe6c5d78c> "Neurotology"@en)
 SubClassOf(<https://purl.org/doves/26296d7b-09d5-4eae-9c0e-e22fe6c5d78c> <https://purl.org/doves/96a7fd52-c1f4-431d-872d-f4b420977a36>)
 
-# Class: <https://purl.org/doves/266a5802-7c7e-45ba-adf3-9991ec3acbed> (Prescription Fill Rate)
+# Class: <https://purl.org/doves/266a5802-7c7e-45ba-adf3-9991ec3acbed> (Prescription Fill Rate Outcome)
 
-AnnotationAssertion(rdfs:label <https://purl.org/doves/266a5802-7c7e-45ba-adf3-9991ec3acbed> "Prescription Fill Rate"@en)
+AnnotationAssertion(rdfs:label <https://purl.org/doves/266a5802-7c7e-45ba-adf3-9991ec3acbed> "Prescription Fill Rate Outcome"@en)
 SubClassOf(<https://purl.org/doves/266a5802-7c7e-45ba-adf3-9991ec3acbed> <https://purl.org/doves/afa90ae5-da23-4f28-8fd4-ce2d8ce18b40>)
 
 # Class: <https://purl.org/doves/2687f9f2-22d6-4a64-8a86-bb9b3a7de2d5> (Reduced Leave Without Being Seen Rate Outcome)
@@ -1916,9 +1930,10 @@ SubClassOf(<https://purl.org/doves/76e45aca-9c3c-456a-a781-ecce14d24187> <https:
 AnnotationAssertion(rdfs:label <https://purl.org/doves/77ef3fb2-da9d-4bb2-9114-b02a2bd95dd7> "Cost Savings"@en)
 SubClassOf(<https://purl.org/doves/77ef3fb2-da9d-4bb2-9114-b02a2bd95dd7> <https://purl.org/doves/f4629b84-b36a-4289-b94f-dd16d8446cc5>)
 
-# Class: <https://purl.org/doves/77117758-cad7-4295-83e8-ce5df05237e2> (Materials Accessed per Invited User Per Time Outcome)
+# Class: <https://purl.org/doves/77117758-cad7-4295-83e8-ce5df05237e2> (Educational Materials Accessed Outcome)
 
-AnnotationAssertion(rdfs:label <https://purl.org/doves/77117758-cad7-4295-83e8-ce5df05237e2> "Materials Accessed per Invited User Per Time Outcome"@en)
+AnnotationAssertion(rdfs:label <https://purl.org/doves/77117758-cad7-4295-83e8-ce5df05237e2> "Educational Materials Accessed Outcome"@en)
+AnnotationAssertion(skos:definition <https://purl.org/doves/77117758-cad7-4295-83e8-ce5df05237e2> "Educational Materials Accessed Outcome is a Patient/Family Education Outcome that reflects educational materials accessed by patients and/or family members about a clinical condition, medication, care plan, procedure preparation, follow up, or other care plan.")
 SubClassOf(<https://purl.org/doves/77117758-cad7-4295-83e8-ce5df05237e2> <https://purl.org/doves/0323ba81-5b6f-417d-9829-263c5403582f>)
 
 # Class: <https://purl.org/doves/77781100-d4c7-44b5-8c07-6588bb65e3fb> (Annual Rolling Uptime)
