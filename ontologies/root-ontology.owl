@@ -25,6 +25,7 @@ Declaration(Class(<http://purl.org/doves/076aaae9_4c06_4338_8a74_c81235747135>))
 Declaration(Class(<http://purl.org/doves/09a5d403_43ff_432e_ac86_d3b86d7d2c21>))
 Declaration(Class(<http://purl.org/doves/2fc9b6ba_e3c4_457f_80a0_487b89884fcb>))
 Declaration(Class(<http://purl.org/doves/282607d5_c13d_4079_acec_40c79e8469d2>))
+Declaration(Class(<http://purl.org/doves/6731f96a_7ed3_4c4f_aba0_96da62fd3349>))
 Declaration(Class(<http://purl.org/doves/8818ad03_a459_476e_98c4_213c01f406c4>))
 Declaration(Class(<http://purl.org/doves/9f8e3004_5e43_4300_b586_e59ecc353ac8>))
 Declaration(Class(<http://who.int/icd/ICD-11>))
@@ -461,6 +462,11 @@ SubClassOf(<http://purl.org/doves/2fc9b6ba_e3c4_457f_80a0_487b89884fcb> <https:/
 
 AnnotationAssertion(rdfs:label <http://purl.org/doves/282607d5_c13d_4079_acec_40c79e8469d2> "ISO Certification Outcome"@en)
 SubClassOf(<http://purl.org/doves/282607d5_c13d_4079_acec_40c79e8469d2> <https://purl.org/doves/6fdf5e33-7497-42d7-b016-72567185a0e3>)
+
+# Class: <http://purl.org/doves/6731f96a_7ed3_4c4f_aba0_96da62fd3349> (Reduction in Paid Claims Outcome)
+
+AnnotationAssertion(rdfs:label <http://purl.org/doves/6731f96a_7ed3_4c4f_aba0_96da62fd3349> "Reduction in Paid Claims Outcome"@en)
+SubClassOf(<http://purl.org/doves/6731f96a_7ed3_4c4f_aba0_96da62fd3349> <https://purl.org/doves/7124f3ed-a489-431c-90ce-c2a5fe7d95bb>)
 
 # Class: <http://purl.org/doves/8818ad03_a459_476e_98c4_213c01f406c4> (Percent of Prior Authorization Approvals Outcome)
 
