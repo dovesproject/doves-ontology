@@ -26,6 +26,7 @@ Declaration(Class(<http://purl.org/doves/09a5d403_43ff_432e_ac86_d3b86d7d2c21>))
 Declaration(Class(<http://purl.org/doves/2fc9b6ba_e3c4_457f_80a0_487b89884fcb>))
 Declaration(Class(<http://purl.org/doves/282607d5_c13d_4079_acec_40c79e8469d2>))
 Declaration(Class(<http://purl.org/doves/8818ad03_a459_476e_98c4_213c01f406c4>))
+Declaration(Class(<http://purl.org/doves/9f8e3004_5e43_4300_b586_e59ecc353ac8>))
 Declaration(Class(<http://who.int/icd/ICD-11>))
 Declaration(Class(<https://purl.org/doves/a01b3bf3-a332-4213-8b6d-0ae97be1f128>))
 Declaration(Class(<https://purl.org/doves/a0885d3f-beaa-4dbe-a81a-78484cb2757b>))
@@ -218,7 +219,6 @@ Declaration(Class(<https://purl.org/doves/3b077e54-f977-4750-aad8-2f1f1b978a96>)
 Declaration(Class(<https://purl.org/doves/3cf66fed-b3a2-4973-8778-aedf493e96c0>))
 Declaration(Class(<https://purl.org/doves/3d59b32e-e247-44e4-a69c-1c704af0c574>))
 Declaration(Class(<https://purl.org/doves/3e2dd533-3e2d-4d1a-a752-570ccebe9fa1>))
-Declaration(Class(<https://purl.org/doves/3fc2ee05-614a-4b7a-b49e-06244bd3901e>))
 Declaration(Class(<https://purl.org/doves/30d8c4b2-30d1-44bb-9903-f64acf72cbb0>))
 Declaration(Class(<https://purl.org/doves/3002baf7-d232-4c53-8fd6-42475c802599>))
 Declaration(Class(<https://purl.org/doves/34b6e0c7-74aa-4c1b-9832-92701e4238cb>))
@@ -466,6 +466,11 @@ SubClassOf(<http://purl.org/doves/282607d5_c13d_4079_acec_40c79e8469d2> <https:/
 
 AnnotationAssertion(rdfs:label <http://purl.org/doves/8818ad03_a459_476e_98c4_213c01f406c4> "Percent of Prior Authorization Approvals Outcome"@en)
 SubClassOf(<http://purl.org/doves/8818ad03_a459_476e_98c4_213c01f406c4> <https://purl.org/doves/711fcca4-517f-4fc4-afc6-8923760ef42f>)
+
+# Class: <http://purl.org/doves/9f8e3004_5e43_4300_b586_e59ecc353ac8> (HOSCAHPS)
+
+AnnotationAssertion(rdfs:label <http://purl.org/doves/9f8e3004_5e43_4300_b586_e59ecc353ac8> "HOSCAHPS"@en)
+SubClassOf(<http://purl.org/doves/9f8e3004_5e43_4300_b586_e59ecc353ac8> <https://purl.org/doves/9caa2510-f3a6-4de8-adcb-c554e91aeba7>)
 
 # Class: <http://who.int/icd/ICD-11> (ICD-11)
 
@@ -1479,12 +1484,6 @@ SubClassOf(<https://purl.org/doves/3d59b32e-e247-44e4-a69c-1c704af0c574> <https:
 
 AnnotationAssertion(rdfs:label <https://purl.org/doves/3e2dd533-3e2d-4d1a-a752-570ccebe9fa1> "Male sex"@en)
 SubClassOf(<https://purl.org/doves/3e2dd533-3e2d-4d1a-a752-570ccebe9fa1> <https://purl.org/doves/81955a73-7b46-4cb4-bbae-5c34311aa8a0>)
-
-# Class: <https://purl.org/doves/3fc2ee05-614a-4b7a-b49e-06244bd3901e> (Shared Decision Making)
-
-AnnotationAssertion(rdfs:label <https://purl.org/doves/3fc2ee05-614a-4b7a-b49e-06244bd3901e> "Shared Decision Making"@en)
-SubClassOf(<https://purl.org/doves/3fc2ee05-614a-4b7a-b49e-06244bd3901e> <https://purl.org/doves/1ce5511a-c36f-4fb4-97a6-8e1b0642a27d>)
-SubClassOf(<https://purl.org/doves/3fc2ee05-614a-4b7a-b49e-06244bd3901e> <https://purl.org/doves/8773470f-b184-4f06-84ed-fcb2a1108574>)
 
 # Class: <https://purl.org/doves/30d8c4b2-30d1-44bb-9903-f64acf72cbb0> (USCDI)
 
