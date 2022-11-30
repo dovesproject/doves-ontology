@@ -571,9 +571,10 @@ AnnotationAssertion(rdfs:label <https://purl.org/doves/afa90ae5-da23-4f28-8fd4-c
 AnnotationAssertion(skos:definition <https://purl.org/doves/afa90ae5-da23-4f28-8fd4-ce2d8ce18b40> "Price Transparency Outcome is a Patient/Family Education Outcome that pertains to healthcare cost transparency.")
 SubClassOf(<https://purl.org/doves/afa90ae5-da23-4f28-8fd4-ce2d8ce18b40> <https://purl.org/doves/0323ba81-5b6f-417d-9829-263c5403582f>)
 
-# Class: <https://purl.org/doves/b10b1490-4dce-4970-bd31-5e59471fa6fb> (Patient EHR Data)
+# Class: <https://purl.org/doves/b10b1490-4dce-4970-bd31-5e59471fa6fb> (EHR Data Transfer Outcome)
 
-AnnotationAssertion(rdfs:label <https://purl.org/doves/b10b1490-4dce-4970-bd31-5e59471fa6fb> "Patient EHR Data"@en)
+AnnotationAssertion(rdfs:label <https://purl.org/doves/b10b1490-4dce-4970-bd31-5e59471fa6fb> "EHR Data Transfer Outcome"@en)
+AnnotationAssertion(skos:definition <https://purl.org/doves/b10b1490-4dce-4970-bd31-5e59471fa6fb> "EHR Data Transfer Outcome is a Data Transfer Outcome that pertains to transfer of electronic health record (EHR) data, including the use of tools to increase the efficiency of transfer of these data.")
 SubClassOf(<https://purl.org/doves/b10b1490-4dce-4970-bd31-5e59471fa6fb> <https://purl.org/doves/5cc0bc79-8861-4578-9694-f06e3b845f69>)
 
 # Class: <https://purl.org/doves/b129abd1-3d08-42e9-b1b3-7ed9f235fe93> (Patient Role)
@@ -998,9 +999,10 @@ EquivalentClasses(<https://purl.org/doves/f13faa32-33d2-48c3-b9ce-9e0279af659c> 
 AnnotationAssertion(rdfs:label <https://purl.org/doves/f17801e2-a13c-406b-b395-cb6c0165dfb2> "Increased Negative Predictive Value"@en)
 SubClassOf(<https://purl.org/doves/f17801e2-a13c-406b-b395-cb6c0165dfb2> <https://purl.org/doves/e8a3913a-2e3c-42c6-b662-a35736ffcada>)
 
-# Class: <https://purl.org/doves/f232fec5-bc9c-4b23-845c-0a4672a5be36> (eFax Outcome)
+# Class: <https://purl.org/doves/f232fec5-bc9c-4b23-845c-0a4672a5be36> (eFax Data Transfer Outcome)
 
-AnnotationAssertion(rdfs:label <https://purl.org/doves/f232fec5-bc9c-4b23-845c-0a4672a5be36> "eFax Outcome"@en)
+AnnotationAssertion(rdfs:label <https://purl.org/doves/f232fec5-bc9c-4b23-845c-0a4672a5be36> "eFax Data Transfer Outcome"@en)
+AnnotationAssertion(skos:definition <https://purl.org/doves/f232fec5-bc9c-4b23-845c-0a4672a5be36> "An eFax Outcome is a Data Transfer Outcome that is specific to electronic fac, and may pertain to improved data transfer outcomes of electronic faxes compared to another data transfer method.")
 SubClassOf(<https://purl.org/doves/f232fec5-bc9c-4b23-845c-0a4672a5be36> <https://purl.org/doves/5cc0bc79-8861-4578-9694-f06e3b845f69>)
 
 # Class: <https://purl.org/doves/f27262fb-abb0-40d3-86a6-4f080883d020> (HOOS Outcome)
@@ -1022,6 +1024,7 @@ SubClassOf(<https://purl.org/doves/f4629b84-b36a-4289-b94f-dd16d8446cc5> <https:
 # Class: <https://purl.org/doves/f4c71cb0-20ca-4838-bea8-c8aa68037a97> (Healthcare Economic Outcome)
 
 AnnotationAssertion(rdfs:label <https://purl.org/doves/f4c71cb0-20ca-4838-bea8-c8aa68037a97> "Healthcare Economic Outcome"@en)
+AnnotationAssertion(skos:definition <https://purl.org/doves/f4c71cb0-20ca-4838-bea8-c8aa68037a97> "A Healthcare Ecnonomic Outcome is an outcome that pertains to costs or cost savings associated with health, healthcare, healthcare interventions, or the healthcare system.")
 SubClassOf(<https://purl.org/doves/f4c71cb0-20ca-4838-bea8-c8aa68037a97> <https://purl.org/doves/8081940e-b77f-4aa1-bfcf-0b979f0a2158>)
 
 # Class: <https://purl.org/doves/f578ffc9-e13e-44ba-828b-fe600d844430> (Orthopedic Surgery)
@@ -1101,9 +1104,10 @@ SubClassOf(<https://purl.org/doves/f999b34f-5269-4945-9673-88ab1b9c7906> <https:
 AnnotationAssertion(rdfs:label <https://purl.org/doves/fa9f1a07-dfaa-4d58-926b-ed0b754eb242> "Reduced 30 Day Risk Adjusted Emergency Department Revisit Rate"@en)
 SubClassOf(<https://purl.org/doves/fa9f1a07-dfaa-4d58-926b-ed0b754eb242> <https://purl.org/doves/cdec99b1-f3e5-4009-bdc5-49ea965dc503>)
 
-# Class: <https://purl.org/doves/fbee41fa-7ca0-44ad-85fa-7ab771b2b169> (Increased Cost Effectiveness)
+# Class: <https://purl.org/doves/fbee41fa-7ca0-44ad-85fa-7ab771b2b169> (Increased Cost Effectiveness Outcome)
 
-AnnotationAssertion(rdfs:label <https://purl.org/doves/fbee41fa-7ca0-44ad-85fa-7ab771b2b169> "Increased Cost Effectiveness"@en)
+AnnotationAssertion(rdfs:label <https://purl.org/doves/fbee41fa-7ca0-44ad-85fa-7ab771b2b169> "Increased Cost Effectiveness Outcome"@en)
+AnnotationAssertion(skos:definition <https://purl.org/doves/fbee41fa-7ca0-44ad-85fa-7ab771b2b169> "Increased Cost Effectiveness Outcome is a Healthcare Economic Outcome that is a ratio of dollars spent relative to the quality adjusted life years gained, often called cost/QALY.")
 SubClassOf(<https://purl.org/doves/fbee41fa-7ca0-44ad-85fa-7ab771b2b169> <https://purl.org/doves/f4c71cb0-20ca-4838-bea8-c8aa68037a97>)
 
 # Class: <https://purl.org/doves/fd4beb3a-3aaa-4fb3-b223-3fc7b1b6106c> (Vision Impaired)
@@ -1137,9 +1141,10 @@ SubClassOf(<https://purl.org/doves/ff617266-46f1-4941-9053-81d4c3531170> <https:
 AnnotationAssertion(rdfs:label <https://purl.org/doves/ffa41d5f-ac78-4968-bac4-f1db43842960> "Speech Impaired"@en)
 SubClassOf(<https://purl.org/doves/ffa41d5f-ac78-4968-bac4-f1db43842960> <https://purl.org/doves/9bb2f32f-d1a2-4f62-8535-d517793b6dca>)
 
-# Class: <https://purl.org/doves/0a7f7e5f-769d-488f-b5f6-475d60002898> (Release of Information)
+# Class: <https://purl.org/doves/0a7f7e5f-769d-488f-b5f6-475d60002898> (Release of Information Outcome)
 
-AnnotationAssertion(rdfs:label <https://purl.org/doves/0a7f7e5f-769d-488f-b5f6-475d60002898> "Release of Information"@en)
+AnnotationAssertion(rdfs:label <https://purl.org/doves/0a7f7e5f-769d-488f-b5f6-475d60002898> "Release of Information Outcome"@en)
+AnnotationAssertion(skos:definition <https://purl.org/doves/0a7f7e5f-769d-488f-b5f6-475d60002898> "Release of Information Outcome is a Data Transfer Outcome that pertains to the release of patient information and may include increased efficiency and/or increased throughtput.")
 SubClassOf(<https://purl.org/doves/0a7f7e5f-769d-488f-b5f6-475d60002898> <https://purl.org/doves/5cc0bc79-8861-4578-9694-f06e3b845f69>)
 
 # Class: <https://purl.org/doves/0aa8a2fa-d770-49f9-8d20-cc7a11c3565d> (Pediatric Transplant Hepatology)
@@ -1255,9 +1260,9 @@ SubClassOf(<https://purl.org/doves/06391804-feed-4d6e-aae0-801fd5975913> <https:
 AnnotationAssertion(rdfs:label <https://purl.org/doves/0831a639-c60a-428a-8d1b-ead517c906fc> "Thoracic Surgery"@en)
 SubClassOf(<https://purl.org/doves/0831a639-c60a-428a-8d1b-ead517c906fc> <https://purl.org/doves/1d62d176-3b08-4743-819c-ba79585f3a38>)
 
-# Class: <https://purl.org/doves/0868f80c-aeed-460d-93e4-6e47a22dc993> (Patient Activation Measure)
+# Class: <https://purl.org/doves/0868f80c-aeed-460d-93e4-6e47a22dc993> (Patient Activation Measure Outcome)
 
-AnnotationAssertion(rdfs:label <https://purl.org/doves/0868f80c-aeed-460d-93e4-6e47a22dc993> "Patient Activation Measure"@en)
+AnnotationAssertion(rdfs:label <https://purl.org/doves/0868f80c-aeed-460d-93e4-6e47a22dc993> "Patient Activation Measure Outcome"@en)
 AnnotationAssertion(skos:altLabel <https://purl.org/doves/0868f80c-aeed-460d-93e4-6e47a22dc993> "Patient Activation Measure Outcome is a measure based on the wotk by Juddith Hibbard and the formal metric referred to as the Patient Activation Measure (PAM). PAM is a 10 or 13 item survey with a survey score that assesses an individual's knowlegde, skills, and confidence integral to managing one's own health and healthcare. See https://www.insigniahealth.com/products/pam"@en)
 SubClassOf(<https://purl.org/doves/0868f80c-aeed-460d-93e4-6e47a22dc993> <https://purl.org/doves/f70ac7b3-c718-4511-9f13-2f4ab13050b8>)
 
@@ -1285,6 +1290,7 @@ SubClassOf(<https://purl.org/doves/1a3cc2db-d71a-4dee-8dea-2003f2dddf78> <https:
 # Class: <https://purl.org/doves/1ae3245a-1b7f-40b2-ae3b-74706699204a> (Healthcare Operation Outcome)
 
 AnnotationAssertion(rdfs:label <https://purl.org/doves/1ae3245a-1b7f-40b2-ae3b-74706699204a> "Healthcare Operation Outcome"@en)
+AnnotationAssertion(skos:definition <https://purl.org/doves/1ae3245a-1b7f-40b2-ae3b-74706699204a> "A Healthcare operation Outcome is a Healthcare Outcome that pertains to operations associated with running healthcare facilities. These may include, for example, operational efficiencies, scheduling, throughput, etc.")
 SubClassOf(<https://purl.org/doves/1ae3245a-1b7f-40b2-ae3b-74706699204a> <https://purl.org/doves/8081940e-b77f-4aa1-bfcf-0b979f0a2158>)
 
 # Class: <https://purl.org/doves/1c1d0e62-5c9b-4344-8ff1-9e71d1debb38> (Medication Adherence Outcome)
@@ -1323,9 +1329,10 @@ SubClassOf(<https://purl.org/doves/1e5fba11-4526-4d36-8799-50f3deb56f12> <https:
 AnnotationAssertion(rdfs:label <https://purl.org/doves/1f0e2698-e615-4540-a4e1-4c5ebe6cd660> "Occupational Medicine"@en)
 SubClassOf(<https://purl.org/doves/1f0e2698-e615-4540-a4e1-4c5ebe6cd660> <https://purl.org/doves/2e69559c-5fae-4974-9c27-e289e6c3b534>)
 
-# Class: <https://purl.org/doves/1feb26b5-4d03-4ca2-9066-51b334a843c8> (Registry and Quality Reporting)
+# Class: <https://purl.org/doves/1feb26b5-4d03-4ca2-9066-51b334a843c8> (Registry and Quality Reporting Data Transfer Outcome)
 
-AnnotationAssertion(rdfs:label <https://purl.org/doves/1feb26b5-4d03-4ca2-9066-51b334a843c8> "Registry and Quality Reporting"@en)
+AnnotationAssertion(rdfs:label <https://purl.org/doves/1feb26b5-4d03-4ca2-9066-51b334a843c8> "Registry and Quality Reporting Data Transfer Outcome"@en)
+AnnotationAssertion(skos:definition <https://purl.org/doves/1feb26b5-4d03-4ca2-9066-51b334a843c8> "Registry and Quality Reporting Data Transfer Outcome is a Data Transfer Outcome pertaining to transmitting data to/from registries and/or quality reporting databases that may include, for example, increased efficiency or fidelity of transferring the data to/from these entities.")
 SubClassOf(<https://purl.org/doves/1feb26b5-4d03-4ca2-9066-51b334a843c8> <https://purl.org/doves/5cc0bc79-8861-4578-9694-f06e3b845f69>)
 
 # Class: <https://purl.org/doves/1ff5e67f-968a-4bb0-b693-cde80e30f967> (Pathology)
@@ -1336,7 +1343,7 @@ SubClassOf(<https://purl.org/doves/1ff5e67f-968a-4bb0-b693-cde80e30f967> <https:
 # Class: <https://purl.org/doves/104df283-76d5-44ae-b558-bd7dbffdde03> (FTE Reduction Outcome)
 
 AnnotationAssertion(rdfs:label <https://purl.org/doves/104df283-76d5-44ae-b558-bd7dbffdde03> "FTE Reduction Outcome"@en)
-AnnotationAssertion(skos:definition <https://purl.org/doves/104df283-76d5-44ae-b558-bd7dbffdde03> "A healthcare operation outcome which reduces the number of full time employees needed.")
+AnnotationAssertion(skos:definition <https://purl.org/doves/104df283-76d5-44ae-b558-bd7dbffdde03> "A FTE Reduction Outcome is a Healthcare Operation Outcome which achieves efficiencies thereby reducing the number of full time employees.")
 SubClassOf(<https://purl.org/doves/104df283-76d5-44ae-b558-bd7dbffdde03> <https://purl.org/doves/1ae3245a-1b7f-40b2-ae3b-74706699204a>)
 
 # Class: <https://purl.org/doves/12d53a9c-2ead-4a45-8c5f-03b264289d65> (Hand/Wrist/Elbow)
@@ -1616,6 +1623,7 @@ SubClassOf(<https://purl.org/doves/494ac5f1-e8d5-40dc-9028-07bbe6f34373> <https:
 # Class: <https://purl.org/doves/499b8963-8ab3-4708-bffb-ed0acdb84002> (Appointment Scheduling Outcome)
 
 AnnotationAssertion(rdfs:label <https://purl.org/doves/499b8963-8ab3-4708-bffb-ed0acdb84002> "Appointment Scheduling Outcome"@en)
+AnnotationAssertion(skos:definition <https://purl.org/doves/499b8963-8ab3-4708-bffb-ed0acdb84002> "Appointment Scheduing Outcome is a Healthcare Operation Outcome pertaining to scheduling patient appointments, and may include, for example, increasing efficiency or throughput in appointment scheduling.")
 SubClassOf(<https://purl.org/doves/499b8963-8ab3-4708-bffb-ed0acdb84002> <https://purl.org/doves/1ae3245a-1b7f-40b2-ae3b-74706699204a>)
 
 # Class: <https://purl.org/doves/5a97ef81-687f-415e-aa47-39657151dfa2> (Nuclear Medicine)
@@ -1641,6 +1649,7 @@ EquivalentClasses(<https://purl.org/doves/5c9975e9-77a7-46a2-858a-c859ef7e34ec> 
 # Class: <https://purl.org/doves/5cc0bc79-8861-4578-9694-f06e3b845f69> (Data Transfer Outcome)
 
 AnnotationAssertion(rdfs:label <https://purl.org/doves/5cc0bc79-8861-4578-9694-f06e3b845f69> "Data Transfer Outcome"@en)
+AnnotationAssertion(skos:definition <https://purl.org/doves/5cc0bc79-8861-4578-9694-f06e3b845f69> "A Data Transfer Outcome is a Healthcare Operaration Outcome that pertains to transferring data. This may include, for example, increased data transfer rates, lower effort to transfer data, among others.")
 SubClassOf(<https://purl.org/doves/5cc0bc79-8861-4578-9694-f06e3b845f69> <https://purl.org/doves/1ae3245a-1b7f-40b2-ae3b-74706699204a>)
 
 # Class: <https://purl.org/doves/5ccd05b6-2fbd-4874-b61a-c52c1dcfbe64> (General Dermatology)
@@ -1892,6 +1901,7 @@ SubClassOf(<https://purl.org/doves/707c8680-500a-46e6-9b54-5658cefc409f> <https:
 # Class: <https://purl.org/doves/711fcca4-517f-4fc4-afc6-8923760ef42f> (Billing Outcome)
 
 AnnotationAssertion(rdfs:label <https://purl.org/doves/711fcca4-517f-4fc4-afc6-8923760ef42f> "Billing Outcome"@en)
+AnnotationAssertion(skos:definition <https://purl.org/doves/711fcca4-517f-4fc4-afc6-8923760ef42f> "A Billing Outcome is a Healthcare Operation Outcome pertaining to the process of billing and/or reimbursement. This may include, for example, increased efficiency in the billing process, among others.")
 SubClassOf(<https://purl.org/doves/711fcca4-517f-4fc4-afc6-8923760ef42f> <https://purl.org/doves/1ae3245a-1b7f-40b2-ae3b-74706699204a>)
 
 # Class: <https://purl.org/doves/711ff8c1-cf75-4e87-952b-2bc40c35502c> (Medication Dosing)
@@ -1899,9 +1909,10 @@ SubClassOf(<https://purl.org/doves/711fcca4-517f-4fc4-afc6-8923760ef42f> <https:
 AnnotationAssertion(rdfs:label <https://purl.org/doves/711ff8c1-cf75-4e87-952b-2bc40c35502c> "Medication Dosing"@en)
 SubClassOf(<https://purl.org/doves/711ff8c1-cf75-4e87-952b-2bc40c35502c> <https://purl.org/doves/49f0075d-4218-44ed-a958-1f63ae7f0529>)
 
-# Class: <https://purl.org/doves/7124f3ed-a489-431c-90ce-c2a5fe7d95bb> (Reduced Costs)
+# Class: <https://purl.org/doves/7124f3ed-a489-431c-90ce-c2a5fe7d95bb> (Reduced Costs Outcome)
 
-AnnotationAssertion(rdfs:label <https://purl.org/doves/7124f3ed-a489-431c-90ce-c2a5fe7d95bb> "Reduced Costs"@en)
+AnnotationAssertion(rdfs:label <https://purl.org/doves/7124f3ed-a489-431c-90ce-c2a5fe7d95bb> "Reduced Costs Outcome"@en)
+AnnotationAssertion(skos:definition <https://purl.org/doves/7124f3ed-a489-431c-90ce-c2a5fe7d95bb> "Reduced Cost Outcome is a Healthcare Ecoomic Outcome that is a reflection of reduced absolute costs, specified around an episode of care, a timeframe, and/or over a population.")
 SubClassOf(<https://purl.org/doves/7124f3ed-a489-431c-90ce-c2a5fe7d95bb> <https://purl.org/doves/f4c71cb0-20ca-4838-bea8-c8aa68037a97>)
 
 # Class: <https://purl.org/doves/72005c22-448a-43d2-a4c9-5fa834d125ff> (Transcription error reduction)
