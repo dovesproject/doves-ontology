@@ -27,6 +27,8 @@ Declaration(Class(<http://purl.org/doves/158f4ae0_7b5e_497b_b880_76df4cdd5fc2>))
 Declaration(Class(<http://purl.org/doves/2fc9b6ba_e3c4_457f_80a0_487b89884fcb>))
 Declaration(Class(<http://purl.org/doves/23303eb4_0fb1_4163_a8a8_b1f7c69ece81>))
 Declaration(Class(<http://purl.org/doves/282607d5_c13d_4079_acec_40c79e8469d2>))
+Declaration(Class(<http://purl.org/doves/3a6e2b12_29a0_4da5_9e82_f86f2b4eab90>))
+Declaration(Class(<http://purl.org/doves/36e57509_8558_4378_ba65_55ae88ab64dd>))
 Declaration(Class(<http://purl.org/doves/6731f96a_7ed3_4c4f_aba0_96da62fd3349>))
 Declaration(Class(<http://purl.org/doves/8818ad03_a459_476e_98c4_213c01f406c4>))
 Declaration(Class(<http://purl.org/doves/9f8e3004_5e43_4300_b586_e59ecc353ac8>))
@@ -475,6 +477,16 @@ SubClassOf(<http://purl.org/doves/23303eb4_0fb1_4163_a8a8_b1f7c69ece81> <https:/
 
 AnnotationAssertion(rdfs:label <http://purl.org/doves/282607d5_c13d_4079_acec_40c79e8469d2> "ISO Certification Outcome"@en)
 SubClassOf(<http://purl.org/doves/282607d5_c13d_4079_acec_40c79e8469d2> <https://purl.org/doves/6fdf5e33-7497-42d7-b016-72567185a0e3>)
+
+# Class: <http://purl.org/doves/3a6e2b12_29a0_4da5_9e82_f86f2b4eab90> (Screening Process of Care)
+
+AnnotationAssertion(rdfs:label <http://purl.org/doves/3a6e2b12_29a0_4da5_9e82_f86f2b4eab90> "Screening Process of Care"@en)
+SubClassOf(<http://purl.org/doves/3a6e2b12_29a0_4da5_9e82_f86f2b4eab90> <https://purl.org/doves/05a3280a-f553-4fd6-b624-90fa23a0e858>)
+
+# Class: <http://purl.org/doves/36e57509_8558_4378_ba65_55ae88ab64dd> (Modified Menopause Symptoms Outcome)
+
+AnnotationAssertion(rdfs:label <http://purl.org/doves/36e57509_8558_4378_ba65_55ae88ab64dd> "Modified Menopause Symptoms Outcome"@en)
+SubClassOf(<http://purl.org/doves/36e57509_8558_4378_ba65_55ae88ab64dd> <https://purl.org/doves/8e9f2330-e042-4723-a5f6-422f7565f1ee>)
 
 # Class: <http://purl.org/doves/6731f96a_7ed3_4c4f_aba0_96da62fd3349> (Reduction in Paid Claims Outcome)
 
