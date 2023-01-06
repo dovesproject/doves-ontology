@@ -14,6 +14,7 @@ Prefix(webprotege:=<http://webprotege.stanford.edu/>)
 
 
 Ontology(<http://purl.org/doves/doves-ontology>
+Import(<http://who.int/icd>)
 Import(<http://www.semanticweb.org/AdverseEventExtract>)
 
 Declaration(Class(<http://id.who.int/icd/entity/1006882070>))
