@@ -14,7 +14,7 @@ Prefix(webprotege:=<http://webprotege.stanford.edu/>)
 
 
 Ontology(<http://purl.org/doves/doves-ontology>
-Import(<http://purl.obolibrary.org/obo/mondo-extract.owl>)
+Import(<http://purl.obolibrary.org/obo/mondo-human-disease-extract.owl>)
 Import(<http://www.semanticweb.org/AdverseEventExtract>)
 
 Declaration(Class(<http://purl.org/doves/a43ca2f5_8117_40d7_8487_72f616a86366>))
