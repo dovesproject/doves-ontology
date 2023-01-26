@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/mondo-human-disease-extract.owl" uri="mondo-human-disease.owl"/>
     <uri id="Imports Wizard Entry" name="http://who.int/releases/2019-04/icd" uri="2020.02.16.icd.owl"/>
     <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/doid-extract" uri="doid-extract.owl"/>
     <uri id="User Entered Import Resolution" name="http://www.semanticweb.org/AdverseEventExtract" uri="AdverseEventExtract.owl"/>
     <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
-        <uri id="Automatically generated entry, Timestamp=1674511686661" name="http://purl.obolibrary.org/obo/mondo-extract.owl" uri="mondo-extract.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1674511686661" name="http://who.int/icd" uri="icd.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1674511686661" name="http://www.semanticweb.org/AdverseEventExtract" uri="AdverseEventExtract.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1674702568710" name="http://purl.obolibrary.org/obo/mondo-extract.owl" uri="mondo-human-disease.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1674702568710" name="http://who.int/icd" uri="icd.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1674702568710" name="http://www.semanticweb.org/AdverseEventExtract" uri="AdverseEventExtract.owl"/>
     </group>
 </catalog>
