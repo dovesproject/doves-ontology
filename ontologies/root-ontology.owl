@@ -34,6 +34,7 @@ Declaration(Class(<http://purl.org/doves/36e57509_8558_4378_ba65_55ae88ab64dd>))
 Declaration(Class(<http://purl.org/doves/6731f96a_7ed3_4c4f_aba0_96da62fd3349>))
 Declaration(Class(<http://purl.org/doves/8818ad03_a459_476e_98c4_213c01f406c4>))
 Declaration(Class(<http://purl.org/doves/9f8e3004_5e43_4300_b586_e59ecc353ac8>))
+Declaration(Class(<http://purl.org/doves/doves-ontology#Health_Literacy_Outcome>))
 Declaration(Class(<http://who.int/icd/ICD-11>))
 Declaration(Class(<https://purl.org/doves/a01b3bf3-a332-4213-8b6d-0ae97be1f128>))
 Declaration(Class(<https://purl.org/doves/a0885d3f-beaa-4dbe-a81a-78484cb2757b>))
@@ -512,6 +513,10 @@ SubClassOf(<http://purl.org/doves/8818ad03_a459_476e_98c4_213c01f406c4> <https:/
 
 AnnotationAssertion(rdfs:label <http://purl.org/doves/9f8e3004_5e43_4300_b586_e59ecc353ac8> "HOSCAHPS"@en)
 SubClassOf(<http://purl.org/doves/9f8e3004_5e43_4300_b586_e59ecc353ac8> <https://purl.org/doves/9caa2510-f3a6-4de8-adcb-c554e91aeba7>)
+
+# Class: <http://purl.org/doves/doves-ontology#Health_Literacy_Outcome> (<http://purl.org/doves/doves-ontology#Health_Literacy_Outcome>)
+
+SubClassOf(<http://purl.org/doves/doves-ontology#Health_Literacy_Outcome> <https://purl.org/doves/0323ba81-5b6f-417d-9829-263c5403582f>)
 
 # Class: <http://who.int/icd/ICD-11> (ICD-11)
 
