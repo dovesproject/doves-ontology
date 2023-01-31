@@ -33,6 +33,29 @@ Declaration(Class(<http://purl.org/doves/36e57509_8558_4378_ba65_55ae88ab64dd>))
 Declaration(Class(<http://purl.org/doves/6731f96a_7ed3_4c4f_aba0_96da62fd3349>))
 Declaration(Class(<http://purl.org/doves/8818ad03_a459_476e_98c4_213c01f406c4>))
 Declaration(Class(<http://purl.org/doves/9f8e3004_5e43_4300_b586_e59ecc353ac8>))
+Declaration(Class(<http://purl.org/doves/doves-ontology#Ante-partum_Age_Group>))
+Declaration(Class(<http://purl.org/doves/doves-ontology#Cancer_Outcomes>))
+Declaration(Class(<http://purl.org/doves/doves-ontology#Child_Age_Group>))
+Declaration(Class(<http://purl.org/doves/doves-ontology#DICOM>))
+Declaration(Class(<http://purl.org/doves/doves-ontology#Disease_Course_Modification_Outcome>))
+Declaration(Class(<http://purl.org/doves/doves-ontology#Disease_Course_Outcome>))
+Declaration(Class(<http://purl.org/doves/doves-ontology#Electronic_Health_Record_Integration_Outcome>))
+Declaration(Class(<http://purl.org/doves/doves-ontology#Five_Year_Survival_Outcome>))
+Declaration(Class(<http://purl.org/doves/doves-ontology#GDPR_Compliance_Outcome>))
+Declaration(Class(<http://purl.org/doves/doves-ontology#HL7_Access_Outcome>))
+Declaration(Class(<http://purl.org/doves/doves-ontology#Health_Literacy_Outcome>))
+Declaration(Class(<http://purl.org/doves/doves-ontology#Increased_Treatment_Throughput_Outcome>))
+Declaration(Class(<http://purl.org/doves/doves-ontology#Irritable_Bowel_Syndrome_Symptom_Control_Outcome>))
+Declaration(Class(<http://purl.org/doves/doves-ontology#Lifestyle_Adherence_Outcome>))
+Declaration(Class(<http://purl.org/doves/doves-ontology#Percent_of_Issues_Open_Outcome>))
+Declaration(Class(<http://purl.org/doves/doves-ontology#Proportion_of_Images_Gradable_by_Algorithm_Outcome>))
+Declaration(Class(<http://purl.org/doves/doves-ontology#Sign_Control_Outcome>))
+Declaration(Class(<http://purl.org/doves/doves-ontology#Symptom_Control_Outcome>))
+Declaration(Class(<http://purl.org/doves/doves-ontology#Technical_Certification_Outcome>))
+Declaration(Class(<http://purl.org/doves/doves-ontology#Toddler_Age_Group>))
+Declaration(Class(<http://purl.org/doves/doves-ontology#Turnaround_Time_Outcome>))
+Declaration(Class(<http://purl.org/doves/doves-ontology#Fast_Healthcare_Interoperability_Resources_(FHIR)_API_Outcome>))
+Declaration(Class(<http://purl.org/doves/doves-ontology#Representational_State_Transfer_(REST)_Outcome>))
 Declaration(Class(<https://purl.org/doves/a01b3bf3-a332-4213-8b6d-0ae97be1f128>))
 Declaration(Class(<https://purl.org/doves/a0885d3f-beaa-4dbe-a81a-78484cb2757b>))
 Declaration(Class(<https://purl.org/doves/a100d2ec-67bd-4eb3-b08d-065e3d90f677>))
@@ -55,7 +78,6 @@ Declaration(Class(<https://purl.org/doves/b483ae0e-a5bb-4d99-b155-5c1b33db8f83>)
 Declaration(Class(<https://purl.org/doves/b4dfc8ef-6118-472c-a2f1-957eaa14dc1e>))
 Declaration(Class(<https://purl.org/doves/b52b3a8f-db53-4261-b6a9-17a98841e791>))
 Declaration(Class(<https://purl.org/doves/b532868a-cffa-4387-a74e-90dc255d2fe0>))
-Declaration(Class(<https://purl.org/doves/b76a7263-551f-43d2-8834-72ae47c14777>))
 Declaration(Class(<https://purl.org/doves/b7809475-8b09-4213-b83a-b4d970cb21ac>))
 Declaration(Class(<https://purl.org/doves/b8499147-fac1-4186-87c2-c937f0450fc7>))
 Declaration(Class(<https://purl.org/doves/b870f67f-2e8c-4eb9-9edf-9ce09bc91220>))
@@ -71,7 +93,6 @@ Declaration(Class(<https://purl.org/doves/c1c003fc-196b-4f8b-b53b-330ad3f6336b>)
 Declaration(Class(<https://purl.org/doves/c23323b6-fe6c-445d-8ce8-c8a2b9c0d50b>))
 Declaration(Class(<https://purl.org/doves/c242c72d-5ced-4b37-8670-f2834907d963>))
 Declaration(Class(<https://purl.org/doves/c28dc506-592e-49a4-a783-c382a7b65c35>))
-Declaration(Class(<https://purl.org/doves/c2cb0f9f-dad5-40a8-90dc-98abc522aae6>))
 Declaration(Class(<https://purl.org/doves/c420321e-c648-4ee8-bf15-9df9800e8bde>))
 Declaration(Class(<https://purl.org/doves/c6593bc1-6feb-427e-a736-28842e1208bc>))
 Declaration(Class(<https://purl.org/doves/c6ffecc1-9d5b-4509-806d-fe7464f6421a>))
@@ -458,7 +479,7 @@ SubClassOf(<http://purl.org/doves/0b28937e_45cc_4f6f_b7d5_2d9ae70f61a0> <https:/
 # Class: <http://purl.org/doves/076aaae9_4c06_4338_8a74_c81235747135> (NIST Certification Outcome)
 
 AnnotationAssertion(rdfs:label <http://purl.org/doves/076aaae9_4c06_4338_8a74_c81235747135> "NIST Certification Outcome"@en)
-SubClassOf(<http://purl.org/doves/076aaae9_4c06_4338_8a74_c81235747135> <https://purl.org/doves/6fdf5e33-7497-42d7-b016-72567185a0e3>)
+SubClassOf(<http://purl.org/doves/076aaae9_4c06_4338_8a74_c81235747135> <http://purl.org/doves/doves-ontology#Technical_Certification_Outcome>)
 
 # Class: <http://purl.org/doves/09a5d403_43ff_432e_ac86_d3b86d7d2c21> (Decreased Number of Appointments Scheduled per Worker-Time Unit Outcome)
 
@@ -469,7 +490,7 @@ SubClassOf(<http://purl.org/doves/09a5d403_43ff_432e_ac86_d3b86d7d2c21> <https:/
 
 AnnotationAssertion(rdfs:label <http://purl.org/doves/158f4ae0_7b5e_497b_b880_76df4cdd5fc2> "Glycemic Control Outcome"@en)
 AnnotationAssertion(skos:definition <http://purl.org/doves/158f4ae0_7b5e_497b_b880_76df4cdd5fc2> "A glycemic control outcome is a Health Condition Control Outcome that reflects the control of blood sugars, particularly in individuals with diabetes. It may be reflected by improvements in hemglobin A1c (HbA1c), average glucose, fewer hypoglycemic events, fewer hyperglycemic events, fewer diabetic ketoacidosis events, among others.")
-SubClassOf(<http://purl.org/doves/158f4ae0_7b5e_497b_b880_76df4cdd5fc2> <http://purl.org/doves/a43ca2f5_8117_40d7_8487_72f616a86366>)
+SubClassOf(<http://purl.org/doves/158f4ae0_7b5e_497b_b880_76df4cdd5fc2> <http://purl.org/doves/doves-ontology#Sign_Control_Outcome>)
 
 # Class: <http://purl.org/doves/2fc9b6ba_e3c4_457f_80a0_487b89884fcb> (Decreased Primary Care Encounter Rate Outcome)
 
@@ -480,22 +501,22 @@ SubClassOf(<http://purl.org/doves/2fc9b6ba_e3c4_457f_80a0_487b89884fcb> <https:/
 
 AnnotationAssertion(rdfs:label <http://purl.org/doves/23303eb4_0fb1_4163_a8a8_b1f7c69ece81> "Blood Pressure Control Outcome"@en)
 AnnotationAssertion(skos:definition <http://purl.org/doves/23303eb4_0fb1_4163_a8a8_b1f7c69ece81> "A Blood Pressure Control Outcome is a Health Condition Control Outcome that reflects the control of blood pressure, particularly in individuals with hypertension, but also potentially in individuals with hypotension. It may be reflected by improvements in being within a desired blood pressure range, fewer hypertnsive urgency / emergency events, fewer hypotensive events, and lower rates of end organ damage, among others.")
-SubClassOf(<http://purl.org/doves/23303eb4_0fb1_4163_a8a8_b1f7c69ece81> <http://purl.org/doves/a43ca2f5_8117_40d7_8487_72f616a86366>)
+SubClassOf(<http://purl.org/doves/23303eb4_0fb1_4163_a8a8_b1f7c69ece81> <http://purl.org/doves/doves-ontology#Sign_Control_Outcome>)
 
 # Class: <http://purl.org/doves/282607d5_c13d_4079_acec_40c79e8469d2> (ISO Certification Outcome)
 
 AnnotationAssertion(rdfs:label <http://purl.org/doves/282607d5_c13d_4079_acec_40c79e8469d2> "ISO Certification Outcome"@en)
-SubClassOf(<http://purl.org/doves/282607d5_c13d_4079_acec_40c79e8469d2> <https://purl.org/doves/6fdf5e33-7497-42d7-b016-72567185a0e3>)
+SubClassOf(<http://purl.org/doves/282607d5_c13d_4079_acec_40c79e8469d2> <http://purl.org/doves/doves-ontology#Technical_Certification_Outcome>)
 
 # Class: <http://purl.org/doves/3a6e2b12_29a0_4da5_9e82_f86f2b4eab90> (Screening Process of Care)
 
 AnnotationAssertion(rdfs:label <http://purl.org/doves/3a6e2b12_29a0_4da5_9e82_f86f2b4eab90> "Screening Process of Care"@en)
 SubClassOf(<http://purl.org/doves/3a6e2b12_29a0_4da5_9e82_f86f2b4eab90> <https://purl.org/doves/05a3280a-f553-4fd6-b624-90fa23a0e858>)
 
-# Class: <http://purl.org/doves/36e57509_8558_4378_ba65_55ae88ab64dd> (Modified Menopause Symptoms Outcome)
+# Class: <http://purl.org/doves/36e57509_8558_4378_ba65_55ae88ab64dd> (Menopause Symptom Control Outcome)
 
-AnnotationAssertion(rdfs:label <http://purl.org/doves/36e57509_8558_4378_ba65_55ae88ab64dd> "Modified Menopause Symptoms Outcome"@en)
-SubClassOf(<http://purl.org/doves/36e57509_8558_4378_ba65_55ae88ab64dd> <http://purl.org/doves/a43ca2f5_8117_40d7_8487_72f616a86366>)
+AnnotationAssertion(rdfs:label <http://purl.org/doves/36e57509_8558_4378_ba65_55ae88ab64dd> "Menopause Symptom Control Outcome"@en)
+SubClassOf(<http://purl.org/doves/36e57509_8558_4378_ba65_55ae88ab64dd> <http://purl.org/doves/doves-ontology#Symptom_Control_Outcome>)
 
 # Class: <http://purl.org/doves/6731f96a_7ed3_4c4f_aba0_96da62fd3349> (Reduction in Paid Claims Outcome)
 
@@ -512,10 +533,127 @@ SubClassOf(<http://purl.org/doves/8818ad03_a459_476e_98c4_213c01f406c4> <https:/
 AnnotationAssertion(rdfs:label <http://purl.org/doves/9f8e3004_5e43_4300_b586_e59ecc353ac8> "HOSCAHPS"@en)
 SubClassOf(<http://purl.org/doves/9f8e3004_5e43_4300_b586_e59ecc353ac8> <https://purl.org/doves/9caa2510-f3a6-4de8-adcb-c554e91aeba7>)
 
+# Class: <http://purl.org/doves/doves-ontology#Ante-partum_Age_Group> (In Utero Age Group)
+
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Ante-partum_Age_Group> "In Utero Age Group")
+SubClassOf(<http://purl.org/doves/doves-ontology#Ante-partum_Age_Group> <https://purl.org/doves/d7fdedbd-6d0d-4d67-bd98-03f4c80c944b>)
+
+# Class: <http://purl.org/doves/doves-ontology#Cancer_Outcomes> (Cancer Outcomes)
+
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Cancer_Outcomes> "Cancer Outcomes")
+AnnotationAssertion(skos:definition <http://purl.org/doves/doves-ontology#Cancer_Outcomes> "Cancer Outcomes are Health Benefit Outcomes describing the outcomes of digital health applications on cancer.")
+SubClassOf(<http://purl.org/doves/doves-ontology#Cancer_Outcomes> <https://purl.org/doves/8e9f2330-e042-4723-a5f6-422f7565f1ee>)
+
+# Class: <http://purl.org/doves/doves-ontology#Child_Age_Group> (Child Age Group)
+
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Child_Age_Group> "Child Age Group")
+SubClassOf(<http://purl.org/doves/doves-ontology#Child_Age_Group> <https://purl.org/doves/6f732e5a-3cb8-47b2-a83e-7e7d24512e77>)
+
+# Class: <http://purl.org/doves/doves-ontology#DICOM> (DICOM Compliance Outcome)
+
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#DICOM> "DICOM Compliance Outcome")
+SubClassOf(<http://purl.org/doves/doves-ontology#DICOM> <https://purl.org/doves/9f90a5e3-6d96-4127-bcff-143c2831b5bc>)
+
+# Class: <http://purl.org/doves/doves-ontology#Disease_Course_Modification_Outcome> (Disease Course Modification Outcome)
+
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Disease_Course_Modification_Outcome> "Disease Course Modification Outcome")
+AnnotationAssertion(skos:definition <http://purl.org/doves/doves-ontology#Disease_Course_Modification_Outcome> "Disease Course Modification Outcome is a Health Benefit Outcome that reflects a digital health tool's ability to modify the course of a disease.")
+SubClassOf(<http://purl.org/doves/doves-ontology#Disease_Course_Modification_Outcome> <https://purl.org/doves/8e9f2330-e042-4723-a5f6-422f7565f1ee>)
+
+# Class: <http://purl.org/doves/doves-ontology#Disease_Course_Outcome> (Disease Course Insight Outcome)
+
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Disease_Course_Outcome> "Disease Course Insight Outcome")
+AnnotationAssertion(skos:definition <http://purl.org/doves/doves-ontology#Disease_Course_Outcome> "Disease Course Insight Outcome is a Health Benefit Outcome that describes the ability to better understand the course or natural progression of a disease, including sugns and symptoms, that subsequently facilitates better management insights and options.")
+SubClassOf(<http://purl.org/doves/doves-ontology#Disease_Course_Outcome> <https://purl.org/doves/8e9f2330-e042-4723-a5f6-422f7565f1ee>)
+
+# Class: <http://purl.org/doves/doves-ontology#Electronic_Health_Record_Integration_Outcome> (EHR Integration Outcome)
+
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Electronic_Health_Record_Integration_Outcome> "EHR Integration Outcome")
+AnnotationAssertion(skos:definition <http://purl.org/doves/doves-ontology#Electronic_Health_Record_Integration_Outcome> "EHR Integration Outcome is a Refining Value that describes the types of electronic health record (EHR) platforms with which the digital health application integrates, including \"not applicable\" or \"none.\"")
+SubClassOf(<http://purl.org/doves/doves-ontology#Electronic_Health_Record_Integration_Outcome> <https://purl.org/doves/78ceb509-e44b-4d8c-bd47-b457f9d835cb>)
+
+# Class: <http://purl.org/doves/doves-ontology#Five_Year_Survival_Outcome> (Five Year Survival Outcome)
+
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Five_Year_Survival_Outcome> "Five Year Survival Outcome")
+SubClassOf(<http://purl.org/doves/doves-ontology#Five_Year_Survival_Outcome> <http://purl.org/doves/doves-ontology#Cancer_Outcomes>)
+
+# Class: <http://purl.org/doves/doves-ontology#GDPR_Compliance_Outcome> (GDPR Compliance Outcome)
+
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#GDPR_Compliance_Outcome> "GDPR Compliance Outcome")
+SubClassOf(<http://purl.org/doves/doves-ontology#GDPR_Compliance_Outcome> <https://purl.org/doves/9345fc0a-25dd-4d30-8275-da199ca93713>)
+
+# Class: <http://purl.org/doves/doves-ontology#HL7_Access_Outcome> (HL7 Access Outcome)
+
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#HL7_Access_Outcome> "HL7 Access Outcome")
+SubClassOf(<http://purl.org/doves/doves-ontology#HL7_Access_Outcome> <https://purl.org/doves/eec4d9eb-9db4-44f5-9523-c8b481cf4293>)
+
 # Class: <http://purl.org/doves/doves-ontology#Health_Literacy_Outcome> (<http://purl.org/doves/doves-ontology#Health_Literacy_Outcome>)
 
 SubClassOf(<http://purl.org/doves/doves-ontology#Health_Literacy_Outcome> <https://purl.org/doves/0323ba81-5b6f-417d-9829-263c5403582f>)
 
+# Class: <http://purl.org/doves/doves-ontology#Increased_Treatment_Throughput_Outcome> (Increased Treatment Throughput Outcome)
+
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Increased_Treatment_Throughput_Outcome> "Increased Treatment Throughput Outcome")
+AnnotationAssertion(skos:definition <http://purl.org/doves/doves-ontology#Increased_Treatment_Throughput_Outcome> "Increased Treatment Throughput Outcome is a Healthcare operation OPutcome that reflects higher patient or treatment throughput relative to current or other forms of care.")
+SubClassOf(<http://purl.org/doves/doves-ontology#Increased_Treatment_Throughput_Outcome> <https://purl.org/doves/1ae3245a-1b7f-40b2-ae3b-74706699204a>)
+
+# Class: <http://purl.org/doves/doves-ontology#Irritable_Bowel_Syndrome_Symptom_Control_Outcome> (Irritable Bowel Syndrome Symptom Control Outcome)
+
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Irritable_Bowel_Syndrome_Symptom_Control_Outcome> "Irritable Bowel Syndrome Symptom Control Outcome")
+SubClassOf(<http://purl.org/doves/doves-ontology#Irritable_Bowel_Syndrome_Symptom_Control_Outcome> <http://purl.org/doves/doves-ontology#Symptom_Control_Outcome>)
+
+# Class: <http://purl.org/doves/doves-ontology#Lifestyle_Adherence_Outcome> (Lifestyle Adherence Outcome)
+
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Lifestyle_Adherence_Outcome> "Lifestyle Adherence Outcome")
+AnnotationAssertion(skos:definition <http://purl.org/doves/doves-ontology#Lifestyle_Adherence_Outcome> "Lifestyle Adherence Outcome is an Engagement and Adherence Outcome that describes adherence to lifestyle modifications including diet, exercise, smoking, alcohol consumption, etc.")
+SubClassOf(<http://purl.org/doves/doves-ontology#Lifestyle_Adherence_Outcome> <https://purl.org/doves/f70ac7b3-c718-4511-9f13-2f4ab13050b8>)
+
+# Class: <http://purl.org/doves/doves-ontology#Percent_of_Issues_Open_Outcome> (<http://purl.org/doves/doves-ontology#Percent_of_Issues_Open_Outcome>)
+
+AnnotationAssertion(skos:definition <http://purl.org/doves/doves-ontology#Percent_of_Issues_Open_Outcome> "Percent of Issues Open Outcome is an Issue Resolution Outcome that describes the proportion of filed issues that are unresolved (open).")
+SubClassOf(<http://purl.org/doves/doves-ontology#Percent_of_Issues_Open_Outcome> <https://purl.org/doves/c420321e-c648-4ee8-bf15-9df9800e8bde>)
+
+# Class: <http://purl.org/doves/doves-ontology#Proportion_of_Images_Gradable_by_Algorithm_Outcome> (Proportion of Images Gradable by Algorithm)
+
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Proportion_of_Images_Gradable_by_Algorithm_Outcome> "Proportion of Images Gradable by Algorithm")
+AnnotationAssertion(skos:definition <http://purl.org/doves/doves-ontology#Proportion_of_Images_Gradable_by_Algorithm_Outcome> "The Proportion of Images Gradable by Algorithm Outcome is a Healthcare Operation Outcome that describes the number of images (such as radiology images, retinal scans, etc.) divided by total number of images, that can be graded or interpreted by a given algorithm (e.g. artificial intelligence or machine learning).")
+SubClassOf(<http://purl.org/doves/doves-ontology#Proportion_of_Images_Gradable_by_Algorithm_Outcome> <https://purl.org/doves/1ae3245a-1b7f-40b2-ae3b-74706699204a>)
+
+# Class: <http://purl.org/doves/doves-ontology#Sign_Control_Outcome> (<http://purl.org/doves/doves-ontology#Sign_Control_Outcome>)
+
+SubClassOf(<http://purl.org/doves/doves-ontology#Sign_Control_Outcome> <http://purl.org/doves/a43ca2f5_8117_40d7_8487_72f616a86366>)
+
+# Class: <http://purl.org/doves/doves-ontology#Symptom_Control_Outcome> (Symptom Control Outcome)
+
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Symptom_Control_Outcome> "Symptom Control Outcome")
+AnnotationAssertion(skos:definition <http://purl.org/doves/doves-ontology#Symptom_Control_Outcome> "Symptom Control Outcome is a Health Condition Control Outcome that describes the influence of a digital health application on an individual's symptoms.")
+SubClassOf(<http://purl.org/doves/doves-ontology#Symptom_Control_Outcome> <http://purl.org/doves/a43ca2f5_8117_40d7_8487_72f616a86366>)
+
+# Class: <http://purl.org/doves/doves-ontology#Technical_Certification_Outcome> (<http://purl.org/doves/doves-ontology#Technical_Certification_Outcome>)
+
+SubClassOf(<http://purl.org/doves/doves-ontology#Technical_Certification_Outcome> <https://purl.org/doves/6fdf5e33-7497-42d7-b016-72567185a0e3>)
+
+# Class: <http://purl.org/doves/doves-ontology#Toddler_Age_Group> (Toddler Age Group)
+
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Toddler_Age_Group> "Toddler Age Group")
+SubClassOf(<http://purl.org/doves/doves-ontology#Toddler_Age_Group> <https://purl.org/doves/6f732e5a-3cb8-47b2-a83e-7e7d24512e77>)
+
+# Class: <http://purl.org/doves/doves-ontology#Turnaround_Time_Outcome> (Turnaround Time Outcome)
+
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Turnaround_Time_Outcome> "Turnaround Time Outcome")
+AnnotationAssertion(skos:definition <http://purl.org/doves/doves-ontology#Turnaround_Time_Outcome> "Turnaround Time Outcome is a Healthcare Operation Outcome that describes the time between a given item's intake and it's completion.")
+SubClassOf(<http://purl.org/doves/doves-ontology#Turnaround_Time_Outcome> <https://purl.org/doves/1ae3245a-1b7f-40b2-ae3b-74706699204a>)
+
+# Class: <http://purl.org/doves/doves-ontology#Fast_Healthcare_Interoperability_Resources_(FHIR)_API_Outcome> (Fast Healthcare Interoperability Resources (FHIR) API Outcome)
+
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Fast_Healthcare_Interoperability_Resources_(FHIR)_API_Outcome> "Fast Healthcare Interoperability Resources (FHIR) API Outcome")
+SubClassOf(<http://purl.org/doves/doves-ontology#Fast_Healthcare_Interoperability_Resources_(FHIR)_API_Outcome> <https://purl.org/doves/3d59b32e-e247-44e4-a69c-1c704af0c574>)
+
+# Class: <http://purl.org/doves/doves-ontology#Representational_State_Transfer_(REST)_Outcome> (Representational State Transfer (REST) Outcome)
+
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Representational_State_Transfer_(REST)_Outcome> "Representational State Transfer (REST) Outcome")
+AnnotationAssertion(skos:definition <http://purl.org/doves/doves-ontology#Representational_State_Transfer_(REST)_Outcome> "REST outcome is an API Access Outcome that is a method of exchanging information using the World Wide Web standard transfer protocol HTTP, the underlying internet standard that forms the basis for all website data exchange.")
+SubClassOf(<http://purl.org/doves/doves-ontology#Representational_State_Transfer_(REST)_Outcome> <https://purl.org/doves/3d59b32e-e247-44e4-a69c-1c704af0c574>)
 
 # Class: <https://purl.org/doves/a01b3bf3-a332-4213-8b6d-0ae97be1f128> (Aerospace Medicine)
 
@@ -637,11 +775,6 @@ EquivalentClasses(<https://purl.org/doves/b52b3a8f-db53-4261-b6a9-17a98841e791> 
 AnnotationAssertion(rdfs:label <https://purl.org/doves/b532868a-cffa-4387-a74e-90dc255d2fe0> "Endocrinology"@en)
 SubClassOf(<https://purl.org/doves/b532868a-cffa-4387-a74e-90dc255d2fe0> <https://purl.org/doves/0affbb06-3be7-44c4-8bbd-2ca9dd0dc388>)
 
-# Class: <https://purl.org/doves/b76a7263-551f-43d2-8834-72ae47c14777> (Telemedicine)
-
-AnnotationAssertion(rdfs:label <https://purl.org/doves/b76a7263-551f-43d2-8834-72ae47c14777> "Telemedicine"@en)
-SubClassOf(<https://purl.org/doves/b76a7263-551f-43d2-8834-72ae47c14777> <https://purl.org/doves/1ae3245a-1b7f-40b2-ae3b-74706699204a>)
-
 # Class: <https://purl.org/doves/b7809475-8b09-4213-b83a-b4d970cb21ac> (Public Health Education Outcome)
 
 AnnotationAssertion(rdfs:label <https://purl.org/doves/b7809475-8b09-4213-b83a-b4d970cb21ac> "Public Health Education Outcome"@en)
@@ -679,9 +812,9 @@ SubClassOf(<https://purl.org/doves/bdd73cee-c6bb-434d-98ca-8beb1c6aa521> <https:
 AnnotationAssertion(rdfs:label <https://purl.org/doves/be939100-e527-489d-ab9a-94aa852245f6> "Human Factors and Usability"@en)
 SubClassOf(<https://purl.org/doves/be939100-e527-489d-ab9a-94aa852245f6> <https://purl.org/doves/0b7a7c80-8dcc-4597-b980-cd04efe70a78>)
 
-# Class: <https://purl.org/doves/c07c9209-0f8c-4e8d-9a1d-246baa2c4030> (CIS Controls V8 Compliance)
+# Class: <https://purl.org/doves/c07c9209-0f8c-4e8d-9a1d-246baa2c4030> (CIS Controls V8 Compliance Outcome)
 
-AnnotationAssertion(rdfs:label <https://purl.org/doves/c07c9209-0f8c-4e8d-9a1d-246baa2c4030> "CIS Controls V8 Compliance"@en)
+AnnotationAssertion(rdfs:label <https://purl.org/doves/c07c9209-0f8c-4e8d-9a1d-246baa2c4030> "CIS Controls V8 Compliance Outcome"@en)
 SubClassOf(<https://purl.org/doves/c07c9209-0f8c-4e8d-9a1d-246baa2c4030> <https://purl.org/doves/9345fc0a-25dd-4d30-8275-da199ca93713>)
 
 # Class: <https://purl.org/doves/c0d7e632-dd5d-4843-9f1d-4fd5820e04fa> (Increased Scheduled/Available Appointment Outcome)
@@ -720,14 +853,9 @@ SubClassOf(<https://purl.org/doves/c242c72d-5ced-4b37-8670-f2834907d963> <https:
 AnnotationAssertion(rdfs:label <https://purl.org/doves/c28dc506-592e-49a4-a783-c382a7b65c35> "Post-Operative Length of Stay"@en)
 SubClassOf(<https://purl.org/doves/c28dc506-592e-49a4-a783-c382a7b65c35> <https://purl.org/doves/f587aae7-957e-4b04-8883-7f8a4a72dfc4>)
 
-# Class: <https://purl.org/doves/c2cb0f9f-dad5-40a8-90dc-98abc522aae6> (Change in encounter volume per day relative to in-person)
+# Class: <https://purl.org/doves/c420321e-c648-4ee8-bf15-9df9800e8bde> (Issue Resolution Outcome)
 
-AnnotationAssertion(rdfs:label <https://purl.org/doves/c2cb0f9f-dad5-40a8-90dc-98abc522aae6> "Change in encounter volume per day relative to in-person"@en)
-SubClassOf(<https://purl.org/doves/c2cb0f9f-dad5-40a8-90dc-98abc522aae6> <https://purl.org/doves/b76a7263-551f-43d2-8834-72ae47c14777>)
-
-# Class: <https://purl.org/doves/c420321e-c648-4ee8-bf15-9df9800e8bde> (Issue Resolution)
-
-AnnotationAssertion(rdfs:label <https://purl.org/doves/c420321e-c648-4ee8-bf15-9df9800e8bde> "Issue Resolution"@en)
+AnnotationAssertion(rdfs:label <https://purl.org/doves/c420321e-c648-4ee8-bf15-9df9800e8bde> "Issue Resolution Outcome"@en)
 SubClassOf(<https://purl.org/doves/c420321e-c648-4ee8-bf15-9df9800e8bde> <https://purl.org/doves/707c8680-500a-46e6-9b54-5658cefc409f>)
 
 # Class: <https://purl.org/doves/c6593bc1-6feb-427e-a736-28842e1208bc> (Billing Codes)
@@ -1291,9 +1419,9 @@ SubClassOf(<https://purl.org/doves/0868f80c-aeed-460d-93e4-6e47a22dc993> <https:
 AnnotationAssertion(rdfs:label <https://purl.org/doves/089409f3-106f-4742-a91a-df135a4b4102> "Healthcare Utilization Outcome"@en)
 SubClassOf(<https://purl.org/doves/089409f3-106f-4742-a91a-df135a4b4102> <https://purl.org/doves/8081940e-b77f-4aa1-bfcf-0b979f0a2158>)
 
-# Class: <https://purl.org/doves/09288a8b-606a-4f9b-8efc-ad9b12c4f490> (SOC2 Certification)
+# Class: <https://purl.org/doves/09288a8b-606a-4f9b-8efc-ad9b12c4f490> (SOC2 Certification Outcome)
 
-AnnotationAssertion(rdfs:label <https://purl.org/doves/09288a8b-606a-4f9b-8efc-ad9b12c4f490> "SOC2 Certification"@en)
+AnnotationAssertion(rdfs:label <https://purl.org/doves/09288a8b-606a-4f9b-8efc-ad9b12c4f490> "SOC2 Certification Outcome"@en)
 SubClassOf(<https://purl.org/doves/09288a8b-606a-4f9b-8efc-ad9b12c4f490> <https://purl.org/doves/9345fc0a-25dd-4d30-8275-da199ca93713>)
 
 # Class: <https://purl.org/doves/0997c29d-ec17-40f9-8056-80c70b5953f7> (Optimal Medication Dosing Outcome)
@@ -1324,9 +1452,9 @@ SubClassOf(<https://purl.org/doves/1c1d0e62-5c9b-4344-8ff1-9e71d1debb38> <https:
 AnnotationAssertion(rdfs:label <https://purl.org/doves/1ce5511a-c36f-4fb4-97a6-8e1b0642a27d> "Technical Feature"@en)
 SubClassOf(<https://purl.org/doves/1ce5511a-c36f-4fb4-97a6-8e1b0642a27d> <https://purl.org/doves/78ceb509-e44b-4d8c-bd47-b457f9d835cb>)
 
-# Class: <https://purl.org/doves/1d38e6de-d0dc-42a1-bf44-e01339371c7b> (HIPAA Compliance)
+# Class: <https://purl.org/doves/1d38e6de-d0dc-42a1-bf44-e01339371c7b> (HIPAA Compliance Outcome)
 
-AnnotationAssertion(rdfs:label <https://purl.org/doves/1d38e6de-d0dc-42a1-bf44-e01339371c7b> "HIPAA Compliance"@en)
+AnnotationAssertion(rdfs:label <https://purl.org/doves/1d38e6de-d0dc-42a1-bf44-e01339371c7b> "HIPAA Compliance Outcome"@en)
 SubClassOf(<https://purl.org/doves/1d38e6de-d0dc-42a1-bf44-e01339371c7b> <https://purl.org/doves/9345fc0a-25dd-4d30-8275-da199ca93713>)
 
 # Class: <https://purl.org/doves/1d5f0f8a-b554-4a19-a598-29a058f9c696> (Pediatrics)
@@ -1517,9 +1645,9 @@ AnnotationAssertion(rdfs:label <https://purl.org/doves/3cf66fed-b3a2-4973-8778-a
 SubClassOf(<https://purl.org/doves/3cf66fed-b3a2-4973-8778-aedf493e96c0> <https://purl.org/doves/fdd05704-4a38-479d-82eb-dcc76abd28aa>)
 SubClassOf(<https://purl.org/doves/3cf66fed-b3a2-4973-8778-aedf493e96c0> <https://purl.org/doves/1d5f0f8a-b554-4a19-a598-29a058f9c696>)
 
-# Class: <https://purl.org/doves/3d59b32e-e247-44e4-a69c-1c704af0c574> (API Access)
+# Class: <https://purl.org/doves/3d59b32e-e247-44e4-a69c-1c704af0c574> (API Access Outcome)
 
-AnnotationAssertion(rdfs:label <https://purl.org/doves/3d59b32e-e247-44e4-a69c-1c704af0c574> "API Access"@en)
+AnnotationAssertion(rdfs:label <https://purl.org/doves/3d59b32e-e247-44e4-a69c-1c704af0c574> "API Access Outcome"@en)
 SubClassOf(<https://purl.org/doves/3d59b32e-e247-44e4-a69c-1c704af0c574> <https://purl.org/doves/eec4d9eb-9db4-44f5-9523-c8b481cf4293>)
 
 # Class: <https://purl.org/doves/3e2dd533-3e2d-4d1a-a752-570ccebe9fa1> (Male sex)
@@ -1527,9 +1655,9 @@ SubClassOf(<https://purl.org/doves/3d59b32e-e247-44e4-a69c-1c704af0c574> <https:
 AnnotationAssertion(rdfs:label <https://purl.org/doves/3e2dd533-3e2d-4d1a-a752-570ccebe9fa1> "Male sex"@en)
 SubClassOf(<https://purl.org/doves/3e2dd533-3e2d-4d1a-a752-570ccebe9fa1> <https://purl.org/doves/81955a73-7b46-4cb4-bbae-5c34311aa8a0>)
 
-# Class: <https://purl.org/doves/30d8c4b2-30d1-44bb-9903-f64acf72cbb0> (USCDI)
+# Class: <https://purl.org/doves/30d8c4b2-30d1-44bb-9903-f64acf72cbb0> (USCDI Compliance Outcome)
 
-AnnotationAssertion(rdfs:label <https://purl.org/doves/30d8c4b2-30d1-44bb-9903-f64acf72cbb0> "USCDI"@en)
+AnnotationAssertion(rdfs:label <https://purl.org/doves/30d8c4b2-30d1-44bb-9903-f64acf72cbb0> "USCDI Compliance Outcome"@en)
 SubClassOf(<https://purl.org/doves/30d8c4b2-30d1-44bb-9903-f64acf72cbb0> <https://purl.org/doves/9f90a5e3-6d96-4127-bcff-143c2831b5bc>)
 
 # Class: <https://purl.org/doves/3002baf7-d232-4c53-8fd6-42475c802599> (Machine learning technology)
@@ -1542,9 +1670,10 @@ SubClassOf(<https://purl.org/doves/3002baf7-d232-4c53-8fd6-42475c802599> <https:
 AnnotationAssertion(rdfs:label <https://purl.org/doves/34b6e0c7-74aa-4c1b-9832-92701e4238cb> "Pediatric Hematology-Oncology"@en)
 SubClassOf(<https://purl.org/doves/34b6e0c7-74aa-4c1b-9832-92701e4238cb> <https://purl.org/doves/1d5f0f8a-b554-4a19-a598-29a058f9c696>)
 
-# Class: <https://purl.org/doves/360937f7-f234-49f5-9783-73abd2409d9c> (Response Time)
+# Class: <https://purl.org/doves/360937f7-f234-49f5-9783-73abd2409d9c> (Issue Response Time Outcome)
 
-AnnotationAssertion(rdfs:label <https://purl.org/doves/360937f7-f234-49f5-9783-73abd2409d9c> "Response Time"@en)
+AnnotationAssertion(rdfs:label <https://purl.org/doves/360937f7-f234-49f5-9783-73abd2409d9c> "Issue Response Time Outcome"@en)
+AnnotationAssertion(skos:definition <https://purl.org/doves/360937f7-f234-49f5-9783-73abd2409d9c> "Issue Response Time Outcome is an Issue Resolution Outcome that describes the amount of time that has elapsed between when an issue is filed, and a non-automated response is generated back to the individual filing the issue.")
 SubClassOf(<https://purl.org/doves/360937f7-f234-49f5-9783-73abd2409d9c> <https://purl.org/doves/c420321e-c648-4ee8-bf15-9df9800e8bde>)
 
 # Class: <https://purl.org/doves/37a002b3-8eec-4341-b3d0-6ccb97d8e42d> (Physician Role)
@@ -1881,9 +2010,9 @@ AnnotationAssertion(rdfs:label <https://purl.org/doves/7b737888-87d5-4848-97b1-9
 AnnotationAssertion(skos:altLabel <https://purl.org/doves/7b737888-87d5-4848-97b1-94580aa93a7d> "EuroQol-5 Dimension Score Outcome"@en)
 SubClassOf(<https://purl.org/doves/7b737888-87d5-4848-97b1-94580aa93a7d> <https://purl.org/doves/e3b2aa1f-da25-4ddb-ba0a-a275d22cb2d4>)
 
-# Class: <https://purl.org/doves/7c438f59-5039-44a1-be83-bffdb4daa7ce> (HiTrust Certification)
+# Class: <https://purl.org/doves/7c438f59-5039-44a1-be83-bffdb4daa7ce> (HiTrust Certification Outcome)
 
-AnnotationAssertion(rdfs:label <https://purl.org/doves/7c438f59-5039-44a1-be83-bffdb4daa7ce> "HiTrust Certification"@en)
+AnnotationAssertion(rdfs:label <https://purl.org/doves/7c438f59-5039-44a1-be83-bffdb4daa7ce> "HiTrust Certification Outcome"@en)
 SubClassOf(<https://purl.org/doves/7c438f59-5039-44a1-be83-bffdb4daa7ce> <https://purl.org/doves/9345fc0a-25dd-4d30-8275-da199ca93713>)
 
 # Class: <https://purl.org/doves/7d739656-06a3-4b6c-96c2-52e6b45bc838> (Female sex)
@@ -2026,7 +2155,7 @@ SubClassOf(<https://purl.org/doves/8d7a95b0-92d1-4312-9894-93b00a1266a4> <https:
 # Class: <https://purl.org/doves/8e9f2330-e042-4723-a5f6-422f7565f1ee> (Health Benefit Outcome)
 
 AnnotationAssertion(rdfs:label <https://purl.org/doves/8e9f2330-e042-4723-a5f6-422f7565f1ee> "Health Benefit Outcome"@en)
-AnnotationAssertion(skos:definition <https://purl.org/doves/8e9f2330-e042-4723-a5f6-422f7565f1ee> "A Health Benefit Outcome is a Clinical Care Outcome that pertains to a the direct or indirect health benefit for the beneficiary of a digital medicine application.")
+AnnotationAssertion(skos:definition <https://purl.org/doves/8e9f2330-e042-4723-a5f6-422f7565f1ee> "A Health Benefit Outcome is a Clinical Care Outcome that pertains to the direct or indirect health benefit for the beneficiary of a digital medicine application.")
 SubClassOf(<https://purl.org/doves/8e9f2330-e042-4723-a5f6-422f7565f1ee> <https://purl.org/doves/93556eac-f0d7-4905-a6f2-6951892fcd82>)
 
 # Class: <https://purl.org/doves/8f5cfb55-bba6-475f-a508-30424e7532bc> (Modified Time to Diagnosis Outcome)
@@ -2159,9 +2288,9 @@ SubClassOf(<https://purl.org/doves/9caefbe3-4e93-461c-ae16-cfd0840e4d89> <https:
 AnnotationAssertion(rdfs:label <https://purl.org/doves/9d40685f-544b-4fa0-a28f-54066a83a262> "Procedural No Show Rates"@en)
 SubClassOf(<https://purl.org/doves/9d40685f-544b-4fa0-a28f-54066a83a262> <https://purl.org/doves/6aabe7eb-e21b-44c2-ba14-45574fcf6c42>)
 
-# Class: <https://purl.org/doves/9f90a5e3-6d96-4127-bcff-143c2831b5bc> (Data Standards)
+# Class: <https://purl.org/doves/9f90a5e3-6d96-4127-bcff-143c2831b5bc> (Data Standards Outcome)
 
-AnnotationAssertion(rdfs:label <https://purl.org/doves/9f90a5e3-6d96-4127-bcff-143c2831b5bc> "Data Standards"@en)
+AnnotationAssertion(rdfs:label <https://purl.org/doves/9f90a5e3-6d96-4127-bcff-143c2831b5bc> "Data Standards Outcome"@en)
 SubClassOf(<https://purl.org/doves/9f90a5e3-6d96-4127-bcff-143c2831b5bc> <https://purl.org/doves/eec4d9eb-9db4-44f5-9523-c8b481cf4293>)
 
 # Class: <https://purl.org/doves/90f9964d-9699-4ca6-b902-b90dca606701> (Adult male person)
@@ -2190,9 +2319,10 @@ AnnotationAssertion(rdfs:label <https://purl.org/doves/93556eac-f0d7-4905-a6f2-6
 AnnotationAssertion(skos:definition <https://purl.org/doves/93556eac-f0d7-4905-a6f2-6951892fcd82> "A Clinical Care Outcome is a Healthcare Outcome that pertains to a change in a disease state or a condition of a patient.")
 SubClassOf(<https://purl.org/doves/93556eac-f0d7-4905-a6f2-6951892fcd82> <https://purl.org/doves/8081940e-b77f-4aa1-bfcf-0b979f0a2158>)
 
-# Class: <https://purl.org/doves/94f4763c-ef68-4267-8b54-7f2e2a9b4b9e> (Resolution Time)
+# Class: <https://purl.org/doves/94f4763c-ef68-4267-8b54-7f2e2a9b4b9e> (Issue Resolution Time Outcome)
 
-AnnotationAssertion(rdfs:label <https://purl.org/doves/94f4763c-ef68-4267-8b54-7f2e2a9b4b9e> "Resolution Time"@en)
+AnnotationAssertion(rdfs:label <https://purl.org/doves/94f4763c-ef68-4267-8b54-7f2e2a9b4b9e> "Issue Resolution Time Outcome"@en)
+AnnotationAssertion(skos:definition <https://purl.org/doves/94f4763c-ef68-4267-8b54-7f2e2a9b4b9e> "Issue Resolution Time Outcome is an Issue Resolution Outcome that describes the amount of time that has elapsed between when an issue is filed, and when the issue is considered resolved.")
 SubClassOf(<https://purl.org/doves/94f4763c-ef68-4267-8b54-7f2e2a9b4b9e> <https://purl.org/doves/c420321e-c648-4ee8-bf15-9df9800e8bde>)
 
 # Class: <https://purl.org/doves/9479abfd-b4df-4005-9a53-66eeef5dfc10> (Reduced Hospital Total Costs)
