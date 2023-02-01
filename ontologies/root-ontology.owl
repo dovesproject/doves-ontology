@@ -63,6 +63,7 @@ Declaration(Class(<http://purl.org/doves/doves-ontology#Proportion_of_Images_Gra
 Declaration(Class(<http://purl.org/doves/doves-ontology#Reduced_Per_Member_Per_Month_Cost_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Reduced_Prescription_Drug_Cost_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Return_on_Investment_Outcome>))
+Declaration(Class(<http://purl.org/doves/doves-ontology#Shared_Decision_Making>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Sign_Control_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Symptom_Control_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Technical_Certification_Outcome>))
@@ -79,7 +80,6 @@ Declaration(Class(<https://purl.org/doves/a141b618-7ee2-4bdd-8037-d072efc97740>)
 Declaration(Class(<https://purl.org/doves/a2137378-288c-4e21-a277-b907e7654030>))
 Declaration(Class(<https://purl.org/doves/a35064d9-a2f4-480d-9574-708a531398a7>))
 Declaration(Class(<https://purl.org/doves/a5627207-3c76-4b6c-8c81-f24283570b23>))
-Declaration(Class(<https://purl.org/doves/a735f242-018e-44c0-9aed-ed18d81632b8>))
 Declaration(Class(<https://purl.org/doves/a93a87f9-7853-4885-9856-28eb1fa52b3b>))
 Declaration(Class(<https://purl.org/doves/acb718e4-eb5d-4c70-aa21-06bddeb9fd05>))
 Declaration(Class(<https://purl.org/doves/ad49b249-3b61-45af-91ea-1ec2bf61eff4>))
@@ -716,6 +716,12 @@ AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Return_on_I
 AnnotationAssertion(skos:definition <http://purl.org/doves/doves-ontology#Return_on_Investment_Outcome> "Return on Investment Outcome is a Healthcare Economic Outcome that is reflected by a digital health application's ability to dteremine or influence the return on investment of the application itself, or of another application.")
 SubClassOf(<http://purl.org/doves/doves-ontology#Return_on_Investment_Outcome> <https://purl.org/doves/f4c71cb0-20ca-4838-bea8-c8aa68037a97>)
 
+# Class: <http://purl.org/doves/doves-ontology#Shared_Decision_Making> (Shared Decision Making)
+
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Shared_Decision_Making> "Shared Decision Making")
+AnnotationAssertion(skos:definition <http://purl.org/doves/doves-ontology#Shared_Decision_Making> "Shared Decision Making is a Technical Feature that describes digital health applications that facilitate the shared decision making between a healthcare professional and a patient, family member, or friend of the patient.")
+SubClassOf(<http://purl.org/doves/doves-ontology#Shared_Decision_Making> <https://purl.org/doves/1ce5511a-c36f-4fb4-97a6-8e1b0642a27d>)
+
 # Class: <http://purl.org/doves/doves-ontology#Sign_Control_Outcome> (Sign Control Outcome)
 
 AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Sign_Control_Outcome> "Sign Control Outcome")
@@ -798,11 +804,6 @@ SubClassOf(<https://purl.org/doves/a35064d9-a2f4-480d-9574-708a531398a7> <https:
 
 AnnotationAssertion(rdfs:label <https://purl.org/doves/a5627207-3c76-4b6c-8c81-f24283570b23> "Increased Sensitivity"@en)
 SubClassOf(<https://purl.org/doves/a5627207-3c76-4b6c-8c81-f24283570b23> <https://purl.org/doves/e8a3913a-2e3c-42c6-b662-a35736ffcada>)
-
-# Class: <https://purl.org/doves/a735f242-018e-44c0-9aed-ed18d81632b8> (Medical Calculations)
-
-AnnotationAssertion(rdfs:label <https://purl.org/doves/a735f242-018e-44c0-9aed-ed18d81632b8> "Medical Calculations"@en)
-SubClassOf(<https://purl.org/doves/a735f242-018e-44c0-9aed-ed18d81632b8> <https://purl.org/doves/49f0075d-4218-44ed-a958-1f63ae7f0529>)
 
 # Class: <https://purl.org/doves/a93a87f9-7853-4885-9856-28eb1fa52b3b> (General Surgery)
 
