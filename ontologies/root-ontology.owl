@@ -33,6 +33,7 @@ Declaration(Class(<http://purl.org/doves/36e57509_8558_4378_ba65_55ae88ab64dd>))
 Declaration(Class(<http://purl.org/doves/6731f96a_7ed3_4c4f_aba0_96da62fd3349>))
 Declaration(Class(<http://purl.org/doves/8818ad03_a459_476e_98c4_213c01f406c4>))
 Declaration(Class(<http://purl.org/doves/9f8e3004_5e43_4300_b586_e59ecc353ac8>))
+Declaration(Class(<http://purl.org/doves/doves-ontology#Acute_Rehabilitation_Facility>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Ante-partum_Age_Group>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Anxiety_Control_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Cancer_Outcomes>))
@@ -44,6 +45,7 @@ Declaration(Class(<http://purl.org/doves/doves-ontology#Depression_Control_Outco
 Declaration(Class(<http://purl.org/doves/doves-ontology#Disease_Course_Modification_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Disease_Course_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Electronic_Health_Record_Integration_Outcome>))
+Declaration(Class(<http://purl.org/doves/doves-ontology#Emergency_Department>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Five_Year_Survival_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Formulary_Transparency_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#GDPR_Compliance_Outcome>))
@@ -53,6 +55,7 @@ Declaration(Class(<http://purl.org/doves/doves-ontology#Improving_Healthcare_Tea
 Declaration(Class(<http://purl.org/doves/doves-ontology#Improving_Transitions_in_Care_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Increased_Specialty_Care_Encounter_Rate_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Increased_Treatment_Throughput_Outcome>))
+Declaration(Class(<http://purl.org/doves/doves-ontology#Inpatient>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Irritable_Bowel_Syndrome_Symptom_Control_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Lifestyle_Adherence_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Modified_Specialty_Care_Encounter_Rate_Outcome>))
@@ -63,6 +66,7 @@ Declaration(Class(<http://purl.org/doves/doves-ontology#Proportion_of_Images_Gra
 Declaration(Class(<http://purl.org/doves/doves-ontology#Reduced_Per_Member_Per_Month_Cost_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Reduced_Prescription_Drug_Cost_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Return_on_Investment_Outcome>))
+Declaration(Class(<http://purl.org/doves/doves-ontology#Setting>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Shared_Decision_Making>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Sign_Control_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Symptom_Control_Outcome>))
@@ -549,6 +553,10 @@ SubClassOf(<http://purl.org/doves/8818ad03_a459_476e_98c4_213c01f406c4> <https:/
 AnnotationAssertion(rdfs:label <http://purl.org/doves/9f8e3004_5e43_4300_b586_e59ecc353ac8> "HOSCAHPS"@en)
 SubClassOf(<http://purl.org/doves/9f8e3004_5e43_4300_b586_e59ecc353ac8> <https://purl.org/doves/9caa2510-f3a6-4de8-adcb-c554e91aeba7>)
 
+# Class: <http://purl.org/doves/doves-ontology#Acute_Rehabilitation_Facility> (<http://purl.org/doves/doves-ontology#Acute_Rehabilitation_Facility>)
+
+SubClassOf(<http://purl.org/doves/doves-ontology#Acute_Rehabilitation_Facility> <http://purl.org/doves/doves-ontology#Setting>)
+
 # Class: <http://purl.org/doves/doves-ontology#Ante-partum_Age_Group> (In Utero Age Group)
 
 AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Ante-partum_Age_Group> "In Utero Age Group")
@@ -609,6 +617,10 @@ AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Electronic_
 AnnotationAssertion(skos:definition <http://purl.org/doves/doves-ontology#Electronic_Health_Record_Integration_Outcome> "EHR Integration Outcome is a Refining Value that describes the types of electronic health record (EHR) platforms with which the digital health application integrates, including \"not applicable\" or \"none.\"")
 SubClassOf(<http://purl.org/doves/doves-ontology#Electronic_Health_Record_Integration_Outcome> <https://purl.org/doves/78ceb509-e44b-4d8c-bd47-b457f9d835cb>)
 
+# Class: <http://purl.org/doves/doves-ontology#Emergency_Department> (<http://purl.org/doves/doves-ontology#Emergency_Department>)
+
+SubClassOf(<http://purl.org/doves/doves-ontology#Emergency_Department> <http://purl.org/doves/doves-ontology#Setting>)
+
 # Class: <http://purl.org/doves/doves-ontology#Five_Year_Survival_Outcome> (Five Year Survival Outcome)
 
 AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Five_Year_Survival_Outcome> "Five Year Survival Outcome")
@@ -657,6 +669,10 @@ SubClassOf(<http://purl.org/doves/doves-ontology#Increased_Specialty_Care_Encoun
 AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Increased_Treatment_Throughput_Outcome> "Increased Treatment Throughput Outcome")
 AnnotationAssertion(skos:definition <http://purl.org/doves/doves-ontology#Increased_Treatment_Throughput_Outcome> "Increased Treatment Throughput Outcome is a Healthcare operation OPutcome that reflects higher patient or treatment throughput relative to current or other forms of care.")
 SubClassOf(<http://purl.org/doves/doves-ontology#Increased_Treatment_Throughput_Outcome> <https://purl.org/doves/1ae3245a-1b7f-40b2-ae3b-74706699204a>)
+
+# Class: <http://purl.org/doves/doves-ontology#Inpatient> (<http://purl.org/doves/doves-ontology#Inpatient>)
+
+SubClassOf(<http://purl.org/doves/doves-ontology#Inpatient> <http://purl.org/doves/doves-ontology#Setting>)
 
 # Class: <http://purl.org/doves/doves-ontology#Irritable_Bowel_Syndrome_Symptom_Control_Outcome> (Irritable Bowel Syndrome Symptom Control Outcome)
 
@@ -715,6 +731,10 @@ SubClassOf(<http://purl.org/doves/doves-ontology#Reduced_Prescription_Drug_Cost_
 AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Return_on_Investment_Outcome> "Return on Investment Outcome")
 AnnotationAssertion(skos:definition <http://purl.org/doves/doves-ontology#Return_on_Investment_Outcome> "Return on Investment Outcome is a Healthcare Economic Outcome that is reflected by a digital health application's ability to dteremine or influence the return on investment of the application itself, or of another application.")
 SubClassOf(<http://purl.org/doves/doves-ontology#Return_on_Investment_Outcome> <https://purl.org/doves/f4c71cb0-20ca-4838-bea8-c8aa68037a97>)
+
+# Class: <http://purl.org/doves/doves-ontology#Setting> (<http://purl.org/doves/doves-ontology#Setting>)
+
+SubClassOf(<http://purl.org/doves/doves-ontology#Setting> <https://purl.org/doves/78ceb509-e44b-4d8c-bd47-b457f9d835cb>)
 
 # Class: <http://purl.org/doves/doves-ontology#Shared_Decision_Making> (Shared Decision Making)
 
@@ -848,7 +868,7 @@ SubClassOf(<https://purl.org/doves/b10b1490-4dce-4970-bd31-5e59471fa6fb> <https:
 # Class: <https://purl.org/doves/b129abd1-3d08-42e9-b1b3-7ed9f235fe93> (Patient Role)
 
 AnnotationAssertion(rdfs:label <https://purl.org/doves/b129abd1-3d08-42e9-b1b3-7ed9f235fe93> "Patient Role"@en)
-SubClassOf(<https://purl.org/doves/b129abd1-3d08-42e9-b1b3-7ed9f235fe93> <https://purl.org/doves/4df28317-0241-45a9-b39a-69ef066fd4d5>)
+SubClassOf(<https://purl.org/doves/b129abd1-3d08-42e9-b1b3-7ed9f235fe93> <https://purl.org/doves/38552094-2ddf-4e81-b33d-080f5b904cd7>)
 
 # Class: <https://purl.org/doves/b2153ef6-a877-4374-be7f-8ff972c324be> (USCDI V1)
 
@@ -1219,7 +1239,7 @@ SubClassOf(<https://purl.org/doves/ec2cd378-2780-47d1-bcfb-a7c4a1ec60eb> <https:
 # Class: <https://purl.org/doves/ecb2896b-027f-4dbb-b63c-d0a230014bb2> (Family Role)
 
 AnnotationAssertion(rdfs:label <https://purl.org/doves/ecb2896b-027f-4dbb-b63c-d0a230014bb2> "Family Role"@en)
-SubClassOf(<https://purl.org/doves/ecb2896b-027f-4dbb-b63c-d0a230014bb2> <https://purl.org/doves/4df28317-0241-45a9-b39a-69ef066fd4d5>)
+SubClassOf(<https://purl.org/doves/ecb2896b-027f-4dbb-b63c-d0a230014bb2> <https://purl.org/doves/38552094-2ddf-4e81-b33d-080f5b904cd7>)
 
 # Class: <https://purl.org/doves/edd2c14b-bbc5-4eec-8c18-26acc71bcda5> (Female person)
 
