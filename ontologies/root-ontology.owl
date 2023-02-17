@@ -34,6 +34,7 @@ Declaration(Class(<http://purl.org/doves/6731f96a_7ed3_4c4f_aba0_96da62fd3349>))
 Declaration(Class(<http://purl.org/doves/8818ad03_a459_476e_98c4_213c01f406c4>))
 Declaration(Class(<http://purl.org/doves/9f8e3004_5e43_4300_b586_e59ecc353ac8>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Acute_Rehabilitation_Facility>))
+Declaration(Class(<http://purl.org/doves/doves-ontology#Ambulatory>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Ante-partum_Age_Group>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Anxiety_Control_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Cancer_Outcomes>))
@@ -46,6 +47,11 @@ Declaration(Class(<http://purl.org/doves/doves-ontology#Disease_Course_Modificat
 Declaration(Class(<http://purl.org/doves/doves-ontology#Disease_Course_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Electronic_Health_Record_Integration_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Emergency_Department>))
+Declaration(Class(<http://purl.org/doves/doves-ontology#Ethnicity>))
+Declaration(Class(<http://purl.org/doves/doves-ontology#FDA>))
+Declaration(Class(<http://purl.org/doves/doves-ontology#FDA_Approved>))
+Declaration(Class(<http://purl.org/doves/doves-ontology#FDA_Cleared>))
+Declaration(Class(<http://purl.org/doves/doves-ontology#FDA_Granted>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Five_Year_Survival_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Formulary_Transparency_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#GDPR_Compliance_Outcome>))
@@ -56,6 +62,7 @@ Declaration(Class(<http://purl.org/doves/doves-ontology#Improving_Transitions_in
 Declaration(Class(<http://purl.org/doves/doves-ontology#Increased_Specialty_Care_Encounter_Rate_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Increased_Treatment_Throughput_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Inpatient>))
+Declaration(Class(<http://purl.org/doves/doves-ontology#Intesive_Care_Unit>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Irritable_Bowel_Syndrome_Symptom_Control_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Lifestyle_Adherence_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Modified_Specialty_Care_Encounter_Rate_Outcome>))
@@ -63,19 +70,25 @@ Declaration(Class(<http://purl.org/doves/doves-ontology#Pain_Control_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Percent_of_Issues_Open_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Proportion_of_Days_Covered_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Proportion_of_Images_Gradable_by_Algorithm_Outcome>))
+Declaration(Class(<http://purl.org/doves/doves-ontology#Race>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Reduced_Per_Member_Per_Month_Cost_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Reduced_Prescription_Drug_Cost_Outcome>))
+Declaration(Class(<http://purl.org/doves/doves-ontology#Regulatory_Approval>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Return_on_Investment_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Setting>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Shared_Decision_Making>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Sign_Control_Outcome>))
+Declaration(Class(<http://purl.org/doves/doves-ontology#Skilled_Nursing_Facility>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Symptom_Control_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Technical_Certification_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Time_to_Talk_to_a_Human_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Toddler_Age_Group>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Turnaround_Time_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Weight_Control_Outcome>))
+Declaration(Class(<http://purl.org/doves/doves-ontology#Cardiac_Intensive_Care_Unit_(CICU)>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Fast_Healthcare_Interoperability_Resources_(FHIR)_API_Outcome>))
+Declaration(Class(<http://purl.org/doves/doves-ontology#Neonatal_Intensive_Care_Unit_(NICU)>))
+Declaration(Class(<http://purl.org/doves/doves-ontology#Pediatric_Intensive_Care_Unit_(PICU)>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Representational_State_Transfer_(REST)_Outcome>))
 Declaration(Class(<https://purl.org/doves/a01b3bf3-a332-4213-8b6d-0ae97be1f128>))
 Declaration(Class(<https://purl.org/doves/a0885d3f-beaa-4dbe-a81a-78484cb2757b>))
@@ -557,6 +570,10 @@ SubClassOf(<http://purl.org/doves/9f8e3004_5e43_4300_b586_e59ecc353ac8> <https:/
 
 SubClassOf(<http://purl.org/doves/doves-ontology#Acute_Rehabilitation_Facility> <http://purl.org/doves/doves-ontology#Setting>)
 
+# Class: <http://purl.org/doves/doves-ontology#Ambulatory> (<http://purl.org/doves/doves-ontology#Ambulatory>)
+
+SubClassOf(<http://purl.org/doves/doves-ontology#Ambulatory> <http://purl.org/doves/doves-ontology#Setting>)
+
 # Class: <http://purl.org/doves/doves-ontology#Ante-partum_Age_Group> (In Utero Age Group)
 
 AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Ante-partum_Age_Group> "In Utero Age Group")
@@ -621,6 +638,26 @@ SubClassOf(<http://purl.org/doves/doves-ontology#Electronic_Health_Record_Integr
 
 SubClassOf(<http://purl.org/doves/doves-ontology#Emergency_Department> <http://purl.org/doves/doves-ontology#Setting>)
 
+# Class: <http://purl.org/doves/doves-ontology#Ethnicity> (<http://purl.org/doves/doves-ontology#Ethnicity>)
+
+SubClassOf(<http://purl.org/doves/doves-ontology#Ethnicity> <https://purl.org/doves/78ceb509-e44b-4d8c-bd47-b457f9d835cb>)
+
+# Class: <http://purl.org/doves/doves-ontology#FDA> (<http://purl.org/doves/doves-ontology#FDA>)
+
+SubClassOf(<http://purl.org/doves/doves-ontology#FDA> <http://purl.org/doves/doves-ontology#Regulatory_Approval>)
+
+# Class: <http://purl.org/doves/doves-ontology#FDA_Approved> (<http://purl.org/doves/doves-ontology#FDA_Approved>)
+
+SubClassOf(<http://purl.org/doves/doves-ontology#FDA_Approved> <http://purl.org/doves/doves-ontology#FDA>)
+
+# Class: <http://purl.org/doves/doves-ontology#FDA_Cleared> (<http://purl.org/doves/doves-ontology#FDA_Cleared>)
+
+SubClassOf(<http://purl.org/doves/doves-ontology#FDA_Cleared> <http://purl.org/doves/doves-ontology#FDA>)
+
+# Class: <http://purl.org/doves/doves-ontology#FDA_Granted> (<http://purl.org/doves/doves-ontology#FDA_Granted>)
+
+SubClassOf(<http://purl.org/doves/doves-ontology#FDA_Granted> <http://purl.org/doves/doves-ontology#FDA>)
+
 # Class: <http://purl.org/doves/doves-ontology#Five_Year_Survival_Outcome> (Five Year Survival Outcome)
 
 AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Five_Year_Survival_Outcome> "Five Year Survival Outcome")
@@ -674,6 +711,10 @@ SubClassOf(<http://purl.org/doves/doves-ontology#Increased_Treatment_Throughput_
 
 SubClassOf(<http://purl.org/doves/doves-ontology#Inpatient> <http://purl.org/doves/doves-ontology#Setting>)
 
+# Class: <http://purl.org/doves/doves-ontology#Intesive_Care_Unit> (<http://purl.org/doves/doves-ontology#Intesive_Care_Unit>)
+
+SubClassOf(<http://purl.org/doves/doves-ontology#Intesive_Care_Unit> <http://purl.org/doves/doves-ontology#Inpatient>)
+
 # Class: <http://purl.org/doves/doves-ontology#Irritable_Bowel_Syndrome_Symptom_Control_Outcome> (Irritable Bowel Syndrome Symptom Control Outcome)
 
 AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Irritable_Bowel_Syndrome_Symptom_Control_Outcome> "Irritable Bowel Syndrome Symptom Control Outcome")
@@ -714,6 +755,10 @@ AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Proportion_
 AnnotationAssertion(skos:definition <http://purl.org/doves/doves-ontology#Proportion_of_Images_Gradable_by_Algorithm_Outcome> "The Proportion of Images Gradable by Algorithm Outcome is a Healthcare Operation Outcome that describes the number of images (such as radiology images, retinal scans, etc.) divided by total number of images, that can be graded or interpreted by a given algorithm (e.g. artificial intelligence or machine learning).")
 SubClassOf(<http://purl.org/doves/doves-ontology#Proportion_of_Images_Gradable_by_Algorithm_Outcome> <https://purl.org/doves/1ae3245a-1b7f-40b2-ae3b-74706699204a>)
 
+# Class: <http://purl.org/doves/doves-ontology#Race> (<http://purl.org/doves/doves-ontology#Race>)
+
+SubClassOf(<http://purl.org/doves/doves-ontology#Race> <https://purl.org/doves/78ceb509-e44b-4d8c-bd47-b457f9d835cb>)
+
 # Class: <http://purl.org/doves/doves-ontology#Reduced_Per_Member_Per_Month_Cost_Outcome> (Reduced Per Member Per Month Cost Outcome)
 
 AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Reduced_Per_Member_Per_Month_Cost_Outcome> "Reduced Per Member Per Month Cost Outcome")
@@ -725,6 +770,10 @@ SubClassOf(<http://purl.org/doves/doves-ontology#Reduced_Per_Member_Per_Month_Co
 AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Reduced_Prescription_Drug_Cost_Outcome> "Reduced Prescription Drug Cost Outcome")
 AnnotationAssertion(skos:definition <http://purl.org/doves/doves-ontology#Reduced_Prescription_Drug_Cost_Outcome> "Reduced Prescription Drug Cost Outcome is a Reduced Cost Outcome that reflects a digital health application's influence on a patient needing (or not needing) as many prescription medications, thereby reducing prescription medication cost.")
 SubClassOf(<http://purl.org/doves/doves-ontology#Reduced_Prescription_Drug_Cost_Outcome> <https://purl.org/doves/7124f3ed-a489-431c-90ce-c2a5fe7d95bb>)
+
+# Class: <http://purl.org/doves/doves-ontology#Regulatory_Approval> (<http://purl.org/doves/doves-ontology#Regulatory_Approval>)
+
+SubClassOf(<http://purl.org/doves/doves-ontology#Regulatory_Approval> <https://purl.org/doves/78ceb509-e44b-4d8c-bd47-b457f9d835cb>)
 
 # Class: <http://purl.org/doves/doves-ontology#Return_on_Investment_Outcome> (Return on Investment Outcome)
 
@@ -746,6 +795,10 @@ SubClassOf(<http://purl.org/doves/doves-ontology#Shared_Decision_Making> <https:
 
 AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Sign_Control_Outcome> "Sign Control Outcome")
 SubClassOf(<http://purl.org/doves/doves-ontology#Sign_Control_Outcome> <http://purl.org/doves/a43ca2f5_8117_40d7_8487_72f616a86366>)
+
+# Class: <http://purl.org/doves/doves-ontology#Skilled_Nursing_Facility> (<http://purl.org/doves/doves-ontology#Skilled_Nursing_Facility>)
+
+SubClassOf(<http://purl.org/doves/doves-ontology#Skilled_Nursing_Facility> <http://purl.org/doves/doves-ontology#Setting>)
 
 # Class: <http://purl.org/doves/doves-ontology#Symptom_Control_Outcome> (Symptom Control Outcome)
 
@@ -779,10 +832,22 @@ SubClassOf(<http://purl.org/doves/doves-ontology#Turnaround_Time_Outcome> <https
 AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Weight_Control_Outcome> "Weight Control Outcome")
 SubClassOf(<http://purl.org/doves/doves-ontology#Weight_Control_Outcome> <http://purl.org/doves/doves-ontology#Sign_Control_Outcome>)
 
+# Class: <http://purl.org/doves/doves-ontology#Cardiac_Intensive_Care_Unit_(CICU)> (<http://purl.org/doves/doves-ontology#Cardiac_Intensive_Care_Unit_(CICU)>)
+
+SubClassOf(<http://purl.org/doves/doves-ontology#Cardiac_Intensive_Care_Unit_(CICU)> <http://purl.org/doves/doves-ontology#Intesive_Care_Unit>)
+
 # Class: <http://purl.org/doves/doves-ontology#Fast_Healthcare_Interoperability_Resources_(FHIR)_API_Outcome> (Fast Healthcare Interoperability Resources (FHIR) API Outcome)
 
 AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Fast_Healthcare_Interoperability_Resources_(FHIR)_API_Outcome> "Fast Healthcare Interoperability Resources (FHIR) API Outcome")
 SubClassOf(<http://purl.org/doves/doves-ontology#Fast_Healthcare_Interoperability_Resources_(FHIR)_API_Outcome> <https://purl.org/doves/3d59b32e-e247-44e4-a69c-1c704af0c574>)
+
+# Class: <http://purl.org/doves/doves-ontology#Neonatal_Intensive_Care_Unit_(NICU)> (<http://purl.org/doves/doves-ontology#Neonatal_Intensive_Care_Unit_(NICU)>)
+
+SubClassOf(<http://purl.org/doves/doves-ontology#Neonatal_Intensive_Care_Unit_(NICU)> <http://purl.org/doves/doves-ontology#Intesive_Care_Unit>)
+
+# Class: <http://purl.org/doves/doves-ontology#Pediatric_Intensive_Care_Unit_(PICU)> (<http://purl.org/doves/doves-ontology#Pediatric_Intensive_Care_Unit_(PICU)>)
+
+SubClassOf(<http://purl.org/doves/doves-ontology#Pediatric_Intensive_Care_Unit_(PICU)> <http://purl.org/doves/doves-ontology#Intesive_Care_Unit>)
 
 # Class: <http://purl.org/doves/doves-ontology#Representational_State_Transfer_(REST)_Outcome> (Representational State Transfer (REST) Outcome)
 
