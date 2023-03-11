@@ -476,10 +476,6 @@ AnnotationAssertion(rdfs:label <https://purl.org/doves/5b5e21c9-08f7-4c4f-a8ab-1
 #   Classes
 ############################
 
-# Class: obo:MONDO_0700096 (human disease or disorder)
-
-SubClassOf(obo:MONDO_0700096 <https://purl.org/doves/78ceb509-e44b-4d8c-bd47-b457f9d835cb>)
-
 # Class: obo:OAE_0000001 (adverse event)
 
 SubClassOf(obo:OAE_0000001 <https://purl.org/doves/840177a9-3e6d-4978-ac7a-8580c78443d6>)
