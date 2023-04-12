@@ -19,20 +19,31 @@ Import(<http://www.semanticweb.org/AdverseEventExtract>)
 
 Declaration(Class(<http://purl.org/doves/a43ca2f5_8117_40d7_8487_72f616a86366>))
 Declaration(Class(<http://purl.org/doves/a61dbcd2_0d2c_4269_a9dd_c34cb9fd5965>))
+Declaration(Class(<http://purl.org/doves/ad3e8f0e_7216_4aeb_a35a_1c9802d501c2>))
+Declaration(Class(<http://purl.org/doves/b2d3030b_40f0_4dd1_aff3_54541392be23>))
+Declaration(Class(<http://purl.org/doves/b66e23da_fb2f_44cf_a6b0_632a066bd00a>))
 Declaration(Class(<http://purl.org/doves/b80c62bc_fe83_4ea8_bd0d_280adf6aa06b>))
+Declaration(Class(<http://purl.org/doves/c79ccb8f_0c35_4c25_bf04_037bdd603325>))
+Declaration(Class(<http://purl.org/doves/ca912fb6_a4a7_487e_9646_f0844650b77f>))
 Declaration(Class(<http://purl.org/doves/efe61c04_f9aa_484c_846c_d7ee7cb02f58>))
 Declaration(Class(<http://purl.org/doves/0b28937e_45cc_4f6f_b7d5_2d9ae70f61a0>))
 Declaration(Class(<http://purl.org/doves/076aaae9_4c06_4338_8a74_c81235747135>))
 Declaration(Class(<http://purl.org/doves/09a5d403_43ff_432e_ac86_d3b86d7d2c21>))
+Declaration(Class(<http://purl.org/doves/095a10bf_86d5_42fd_a30b_4739a084da86>))
 Declaration(Class(<http://purl.org/doves/158f4ae0_7b5e_497b_b880_76df4cdd5fc2>))
 Declaration(Class(<http://purl.org/doves/2fc9b6ba_e3c4_457f_80a0_487b89884fcb>))
 Declaration(Class(<http://purl.org/doves/23303eb4_0fb1_4163_a8a8_b1f7c69ece81>))
 Declaration(Class(<http://purl.org/doves/282607d5_c13d_4079_acec_40c79e8469d2>))
 Declaration(Class(<http://purl.org/doves/3a6e2b12_29a0_4da5_9e82_f86f2b4eab90>))
 Declaration(Class(<http://purl.org/doves/36e57509_8558_4378_ba65_55ae88ab64dd>))
+Declaration(Class(<http://purl.org/doves/40cf2995_5d61_4033_9bb6_19893e7e8b93>))
+Declaration(Class(<http://purl.org/doves/5c7fc88b_0984_4a0c_9de6_76e196d595ad>))
 Declaration(Class(<http://purl.org/doves/6731f96a_7ed3_4c4f_aba0_96da62fd3349>))
 Declaration(Class(<http://purl.org/doves/8818ad03_a459_476e_98c4_213c01f406c4>))
+Declaration(Class(<http://purl.org/doves/9db1e98e_f762_49e4_82fc_c622686a25f9>))
+Declaration(Class(<http://purl.org/doves/9dee6af8_663e_4f00_9025_e3e5432608f8>))
 Declaration(Class(<http://purl.org/doves/9f8e3004_5e43_4300_b586_e59ecc353ac8>))
+Declaration(Class(<http://purl.org/doves/984d6b58_ca68_4969_88a6_dc41fbece229>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Acute_Rehabilitation_Facility>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Ambulatory>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Ante-partum_Age_Group>))
@@ -483,10 +494,6 @@ AnnotationAssertion(rdfs:label <https://purl.org/doves/5b5e21c9-08f7-4c4f-a8ab-1
 #   Classes
 ############################
 
-# Class: obo:MONDO_0700096 (human disease or disorder)
-
-SubClassOf(obo:MONDO_0700096 <https://purl.org/doves/78ceb509-e44b-4d8c-bd47-b457f9d835cb>)
-
 # Class: obo:OAE_0000001 (adverse event)
 
 SubClassOf(obo:OAE_0000001 <https://purl.org/doves/840177a9-3e6d-4978-ac7a-8580c78443d6>)
@@ -501,10 +508,36 @@ SubClassOf(<http://purl.org/doves/a43ca2f5_8117_40d7_8487_72f616a86366> <https:/
 AnnotationAssertion(rdfs:label <http://purl.org/doves/a61dbcd2_0d2c_4269_a9dd_c34cb9fd5965> "Adolescent Age Group"@en)
 SubClassOf(<http://purl.org/doves/a61dbcd2_0d2c_4269_a9dd_c34cb9fd5965> <https://purl.org/doves/d7fdedbd-6d0d-4d67-bd98-03f4c80c944b>)
 
+# Class: <http://purl.org/doves/ad3e8f0e_7216_4aeb_a35a_1c9802d501c2> (Reduction in Hypoglycemic Events Outcome)
+
+AnnotationAssertion(rdfs:label <http://purl.org/doves/ad3e8f0e_7216_4aeb_a35a_1c9802d501c2> "Reduction in Hypoglycemic Events Outcome"@en)
+SubClassOf(<http://purl.org/doves/ad3e8f0e_7216_4aeb_a35a_1c9802d501c2> <http://purl.org/doves/984d6b58_ca68_4969_88a6_dc41fbece229>)
+
+# Class: <http://purl.org/doves/b2d3030b_40f0_4dd1_aff3_54541392be23> (Reduction in Hyperglycemic Events Outcome)
+
+AnnotationAssertion(rdfs:label <http://purl.org/doves/b2d3030b_40f0_4dd1_aff3_54541392be23> "Reduction in Hyperglycemic Events Outcome"@en)
+SubClassOf(<http://purl.org/doves/b2d3030b_40f0_4dd1_aff3_54541392be23> <http://purl.org/doves/984d6b58_ca68_4969_88a6_dc41fbece229>)
+
+# Class: <http://purl.org/doves/b66e23da_fb2f_44cf_a6b0_632a066bd00a> (Blood Glucose Time Above Range Outcome)
+
+AnnotationAssertion(rdfs:label <http://purl.org/doves/b66e23da_fb2f_44cf_a6b0_632a066bd00a> "Blood Glucose Time Above Range Outcome"@en)
+SubClassOf(<http://purl.org/doves/b66e23da_fb2f_44cf_a6b0_632a066bd00a> <http://purl.org/doves/158f4ae0_7b5e_497b_b880_76df4cdd5fc2>)
+
 # Class: <http://purl.org/doves/b80c62bc_fe83_4ea8_bd0d_280adf6aa06b> (Increased Primary Care Encounter Rate Outcome)
 
 AnnotationAssertion(rdfs:label <http://purl.org/doves/b80c62bc_fe83_4ea8_bd0d_280adf6aa06b> "Increased Primary Care Encounter Rate Outcome"@en)
 SubClassOf(<http://purl.org/doves/b80c62bc_fe83_4ea8_bd0d_280adf6aa06b> <https://purl.org/doves/9caefbe3-4e93-461c-ae16-cfd0840e4d89>)
+
+# Class: <http://purl.org/doves/c79ccb8f_0c35_4c25_bf04_037bdd603325> (Reduction in Diabetic Ketoacidosis Events Outcome)
+
+AnnotationAssertion(rdfs:label <http://purl.org/doves/c79ccb8f_0c35_4c25_bf04_037bdd603325> "Reduction in Diabetic Ketoacidosis Events Outcome"@en)
+AnnotationAssertion(skos:altLabel <http://purl.org/doves/c79ccb8f_0c35_4c25_bf04_037bdd603325> "Reduction in DKA Events Outcome"@en)
+SubClassOf(<http://purl.org/doves/c79ccb8f_0c35_4c25_bf04_037bdd603325> <http://purl.org/doves/b2d3030b_40f0_4dd1_aff3_54541392be23>)
+
+# Class: <http://purl.org/doves/ca912fb6_a4a7_487e_9646_f0844650b77f> (Blood Glucose Time in Range Outcome)
+
+AnnotationAssertion(rdfs:label <http://purl.org/doves/ca912fb6_a4a7_487e_9646_f0844650b77f> "Blood Glucose Time in Range Outcome"@en)
+SubClassOf(<http://purl.org/doves/ca912fb6_a4a7_487e_9646_f0844650b77f> <http://purl.org/doves/158f4ae0_7b5e_497b_b880_76df4cdd5fc2>)
 
 # Class: <http://purl.org/doves/efe61c04_f9aa_484c_846c_d7ee7cb02f58> (Gender)
 
@@ -525,6 +558,13 @@ SubClassOf(<http://purl.org/doves/076aaae9_4c06_4338_8a74_c81235747135> <http://
 
 AnnotationAssertion(rdfs:label <http://purl.org/doves/09a5d403_43ff_432e_ac86_d3b86d7d2c21> "Decreased Number of Appointments Scheduled per Worker-Time Unit Outcome"@en)
 SubClassOf(<http://purl.org/doves/09a5d403_43ff_432e_ac86_d3b86d7d2c21> <https://purl.org/doves/499b8963-8ab3-4708-bffb-ed0acdb84002>)
+
+# Class: <http://purl.org/doves/095a10bf_86d5_42fd_a30b_4739a084da86> (Continuous Glucose Monitor Coefficient of Variation Control Outcome)
+
+AnnotationAssertion(rdfs:label <http://purl.org/doves/095a10bf_86d5_42fd_a30b_4739a084da86> "Continuous Glucose Monitor Coefficient of Variation Control Outcome"@en)
+AnnotationAssertion(skos:altLabel <http://purl.org/doves/095a10bf_86d5_42fd_a30b_4739a084da86> "CGM CV Control Outcome"@en)
+AnnotationAssertion(skos:altLabel <http://purl.org/doves/095a10bf_86d5_42fd_a30b_4739a084da86> "CGM Coefficient of Variation Control Outcome"@en)
+SubClassOf(<http://purl.org/doves/095a10bf_86d5_42fd_a30b_4739a084da86> <http://purl.org/doves/158f4ae0_7b5e_497b_b880_76df4cdd5fc2>)
 
 # Class: <http://purl.org/doves/158f4ae0_7b5e_497b_b880_76df4cdd5fc2> (Glycemic Control Outcome)
 
@@ -558,6 +598,21 @@ SubClassOf(<http://purl.org/doves/3a6e2b12_29a0_4da5_9e82_f86f2b4eab90> <https:/
 AnnotationAssertion(rdfs:label <http://purl.org/doves/36e57509_8558_4378_ba65_55ae88ab64dd> "Menopause Symptom Control Outcome"@en)
 SubClassOf(<http://purl.org/doves/36e57509_8558_4378_ba65_55ae88ab64dd> <http://purl.org/doves/doves-ontology#Symptom_Control_Outcome>)
 
+# Class: <http://purl.org/doves/40cf2995_5d61_4033_9bb6_19893e7e8b93> (Hemoglobin A1C Control Outcome)
+
+AnnotationAssertion(rdfs:label <http://purl.org/doves/40cf2995_5d61_4033_9bb6_19893e7e8b93> "Hemoglobin A1C Control Outcome"@en)
+AnnotationAssertion(skos:altLabel <http://purl.org/doves/40cf2995_5d61_4033_9bb6_19893e7e8b93> "Hb A1C Control Outcome"@en)
+AnnotationAssertion(skos:altLabel <http://purl.org/doves/40cf2995_5d61_4033_9bb6_19893e7e8b93> "HbA1C Control Outcome"@en)
+SubClassOf(<http://purl.org/doves/40cf2995_5d61_4033_9bb6_19893e7e8b93> <http://purl.org/doves/158f4ae0_7b5e_497b_b880_76df4cdd5fc2>)
+
+# Class: <http://purl.org/doves/5c7fc88b_0984_4a0c_9de6_76e196d595ad> (Continuous Glucose Monitor Glucose Management Indicator Control Outcome)
+
+AnnotationAssertion(rdfs:label <http://purl.org/doves/5c7fc88b_0984_4a0c_9de6_76e196d595ad> "Continuous Glucose Monitor Glucose Management Indicator Control Outcome"@en)
+AnnotationAssertion(skos:altLabel <http://purl.org/doves/5c7fc88b_0984_4a0c_9de6_76e196d595ad> "CGM Glucose Management Indicator Control Outcome"@en)
+AnnotationAssertion(skos:altLabel <http://purl.org/doves/5c7fc88b_0984_4a0c_9de6_76e196d595ad> "Continuous Glucose Monitor GMI Control Outcome"@en)
+AnnotationAssertion(skos:altLabel <http://purl.org/doves/5c7fc88b_0984_4a0c_9de6_76e196d595ad> "Continuous Glucose Monitor Glucose Management Indicator Control Outcome"@en)
+SubClassOf(<http://purl.org/doves/5c7fc88b_0984_4a0c_9de6_76e196d595ad> <http://purl.org/doves/158f4ae0_7b5e_497b_b880_76df4cdd5fc2>)
+
 # Class: <http://purl.org/doves/6731f96a_7ed3_4c4f_aba0_96da62fd3349> (Reduction in Paid Claims Outcome)
 
 AnnotationAssertion(rdfs:label <http://purl.org/doves/6731f96a_7ed3_4c4f_aba0_96da62fd3349> "Reduction in Paid Claims Outcome"@en)
@@ -568,10 +623,26 @@ SubClassOf(<http://purl.org/doves/6731f96a_7ed3_4c4f_aba0_96da62fd3349> <https:/
 AnnotationAssertion(rdfs:label <http://purl.org/doves/8818ad03_a459_476e_98c4_213c01f406c4> "Percent of Prior Authorization Approvals Outcome"@en)
 SubClassOf(<http://purl.org/doves/8818ad03_a459_476e_98c4_213c01f406c4> <https://purl.org/doves/711fcca4-517f-4fc4-afc6-8923760ef42f>)
 
+# Class: <http://purl.org/doves/9db1e98e_f762_49e4_82fc_c622686a25f9> (Blood Glucose Time Below Range Outcome)
+
+AnnotationAssertion(rdfs:label <http://purl.org/doves/9db1e98e_f762_49e4_82fc_c622686a25f9> "Blood Glucose Time Below Range Outcome"@en)
+SubClassOf(<http://purl.org/doves/9db1e98e_f762_49e4_82fc_c622686a25f9> <http://purl.org/doves/158f4ae0_7b5e_497b_b880_76df4cdd5fc2>)
+
+# Class: <http://purl.org/doves/9dee6af8_663e_4f00_9025_e3e5432608f8> (Reduction in Hyperosmolar Hyperglycemic State Events Outcome)
+
+AnnotationAssertion(rdfs:label <http://purl.org/doves/9dee6af8_663e_4f00_9025_e3e5432608f8> "Reduction in Hyperosmolar Hyperglycemic State Events Outcome"@en)
+AnnotationAssertion(skos:altLabel <http://purl.org/doves/9dee6af8_663e_4f00_9025_e3e5432608f8> "Reduction in HSS Events Outcome"@en)
+SubClassOf(<http://purl.org/doves/9dee6af8_663e_4f00_9025_e3e5432608f8> <http://purl.org/doves/b2d3030b_40f0_4dd1_aff3_54541392be23>)
+
 # Class: <http://purl.org/doves/9f8e3004_5e43_4300_b586_e59ecc353ac8> (HOSCAHPS)
 
 AnnotationAssertion(rdfs:label <http://purl.org/doves/9f8e3004_5e43_4300_b586_e59ecc353ac8> "HOSCAHPS"@en)
 SubClassOf(<http://purl.org/doves/9f8e3004_5e43_4300_b586_e59ecc353ac8> <https://purl.org/doves/9caa2510-f3a6-4de8-adcb-c554e91aeba7>)
+
+# Class: <http://purl.org/doves/984d6b58_ca68_4969_88a6_dc41fbece229> (Reduction in Glycemic Events Outcome)
+
+AnnotationAssertion(rdfs:label <http://purl.org/doves/984d6b58_ca68_4969_88a6_dc41fbece229> "Reduction in Glycemic Events Outcome"@en)
+SubClassOf(<http://purl.org/doves/984d6b58_ca68_4969_88a6_dc41fbece229> <http://purl.org/doves/158f4ae0_7b5e_497b_b880_76df4cdd5fc2>)
 
 # Class: <http://purl.org/doves/doves-ontology#Acute_Rehabilitation_Facility> (<http://purl.org/doves/doves-ontology#Acute_Rehabilitation_Facility>)
 
