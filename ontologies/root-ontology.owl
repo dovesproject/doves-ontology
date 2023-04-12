@@ -37,10 +37,12 @@ Declaration(Class(<http://purl.org/doves/doves-ontology#Acute_Rehabilitation_Fac
 Declaration(Class(<http://purl.org/doves/doves-ontology#Ambulatory>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Ante-partum_Age_Group>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Anxiety_Control_Outcome>))
+Declaration(Class(<http://purl.org/doves/doves-ontology#Area_Under_the_Curve>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Cancer_Outcomes>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Child_Age_Group>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Completion_Rate_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#DICOM>))
+Declaration(Class(<http://purl.org/doves/doves-ontology#Decreased_Diagnostic_Terst_Unit_Cost_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Decreased_Specialty_Care_Encounter_Rate_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Depression_Control_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Disease_Course_Modification_Outcome>))
@@ -59,8 +61,12 @@ Declaration(Class(<http://purl.org/doves/doves-ontology#HL7_Access_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Health_Literacy_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Improving_Healthcare_Team_Communication_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Improving_Transitions_in_Care_Outcome>))
+Declaration(Class(<http://purl.org/doves/doves-ontology#Increased_Magnetic_Resonance_Imaging_Throughput_Outcome>))
+Declaration(Class(<http://purl.org/doves/doves-ontology#Increased_Radiology_Throughput_Outcome>))
+Declaration(Class(<http://purl.org/doves/doves-ontology#Increased_Revenue_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Increased_Specialty_Care_Encounter_Rate_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Increased_Treatment_Throughput_Outcome>))
+Declaration(Class(<http://purl.org/doves/doves-ontology#Increased_Ultrasonography_Throughput_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Inpatient>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Intesive_Care_Unit>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Irritable_Bowel_Syndrome_Symptom_Control_Outcome>))
@@ -78,6 +84,7 @@ Declaration(Class(<http://purl.org/doves/doves-ontology#Return_on_Investment_Out
 Declaration(Class(<http://purl.org/doves/doves-ontology#Setting>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Shared_Decision_Making>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Sign_Control_Outcome>))
+Declaration(Class(<http://purl.org/doves/doves-ontology#Site_of_Care_Shift_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Skilled_Nursing_Facility>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Symptom_Control_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Technical_Certification_Outcome>))
@@ -584,6 +591,10 @@ SubClassOf(<http://purl.org/doves/doves-ontology#Ante-partum_Age_Group> <https:/
 AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Anxiety_Control_Outcome> "Anxiety Control Outcome")
 SubClassOf(<http://purl.org/doves/doves-ontology#Anxiety_Control_Outcome> <http://purl.org/doves/doves-ontology#Symptom_Control_Outcome>)
 
+# Class: <http://purl.org/doves/doves-ontology#Area_Under_the_Curve> (<http://purl.org/doves/doves-ontology#Area_Under_the_Curve>)
+
+SubClassOf(<http://purl.org/doves/doves-ontology#Area_Under_the_Curve> <https://purl.org/doves/e8a3913a-2e3c-42c6-b662-a35736ffcada>)
+
 # Class: <http://purl.org/doves/doves-ontology#Cancer_Outcomes> (Cancer Outcomes)
 
 AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Cancer_Outcomes> "Cancer Outcomes")
@@ -605,6 +616,10 @@ SubClassOf(<http://purl.org/doves/doves-ontology#Completion_Rate_Outcome> <https
 
 AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#DICOM> "DICOM Compliance Outcome")
 SubClassOf(<http://purl.org/doves/doves-ontology#DICOM> <https://purl.org/doves/9f90a5e3-6d96-4127-bcff-143c2831b5bc>)
+
+# Class: <http://purl.org/doves/doves-ontology#Decreased_Diagnostic_Terst_Unit_Cost_Outcome> (<http://purl.org/doves/doves-ontology#Decreased_Diagnostic_Terst_Unit_Cost_Outcome>)
+
+SubClassOf(<http://purl.org/doves/doves-ontology#Decreased_Diagnostic_Terst_Unit_Cost_Outcome> <https://purl.org/doves/7124f3ed-a489-431c-90ce-c2a5fe7d95bb>)
 
 # Class: <http://purl.org/doves/doves-ontology#Decreased_Specialty_Care_Encounter_Rate_Outcome> (Decreased Specialty Care Encounter Rate Outcome)
 
@@ -696,6 +711,18 @@ AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Improving_T
 AnnotationAssertion(skos:definition <http://purl.org/doves/doves-ontology#Improving_Transitions_in_Care_Outcome> "Improving Transitions in Care Outcome is a Healthcare Operations Outcome that is influenced by digital health applications that facilitate transitions in care such as discharge from the hospital, hand-offs from one healthcare provider to another, or transitions between acute or post-acute healthcare facilities.")
 SubClassOf(<http://purl.org/doves/doves-ontology#Improving_Transitions_in_Care_Outcome> <https://purl.org/doves/1ae3245a-1b7f-40b2-ae3b-74706699204a>)
 
+# Class: <http://purl.org/doves/doves-ontology#Increased_Magnetic_Resonance_Imaging_Throughput_Outcome> (<http://purl.org/doves/doves-ontology#Increased_Magnetic_Resonance_Imaging_Throughput_Outcome>)
+
+SubClassOf(<http://purl.org/doves/doves-ontology#Increased_Magnetic_Resonance_Imaging_Throughput_Outcome> <http://purl.org/doves/doves-ontology#Increased_Radiology_Throughput_Outcome>)
+
+# Class: <http://purl.org/doves/doves-ontology#Increased_Radiology_Throughput_Outcome> (<http://purl.org/doves/doves-ontology#Increased_Radiology_Throughput_Outcome>)
+
+SubClassOf(<http://purl.org/doves/doves-ontology#Increased_Radiology_Throughput_Outcome> <https://purl.org/doves/58687062-857c-43f5-9e50-d6961a84a9b0>)
+
+# Class: <http://purl.org/doves/doves-ontology#Increased_Revenue_Outcome> (<http://purl.org/doves/doves-ontology#Increased_Revenue_Outcome>)
+
+SubClassOf(<http://purl.org/doves/doves-ontology#Increased_Revenue_Outcome> <https://purl.org/doves/f4c71cb0-20ca-4838-bea8-c8aa68037a97>)
+
 # Class: <http://purl.org/doves/doves-ontology#Increased_Specialty_Care_Encounter_Rate_Outcome> (Increased Specialty Care Encounter Rate Outcome)
 
 AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Increased_Specialty_Care_Encounter_Rate_Outcome> "Increased Specialty Care Encounter Rate Outcome")
@@ -706,6 +733,10 @@ SubClassOf(<http://purl.org/doves/doves-ontology#Increased_Specialty_Care_Encoun
 AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Increased_Treatment_Throughput_Outcome> "Increased Treatment Throughput Outcome")
 AnnotationAssertion(skos:definition <http://purl.org/doves/doves-ontology#Increased_Treatment_Throughput_Outcome> "Increased Treatment Throughput Outcome is a Healthcare operation OPutcome that reflects higher patient or treatment throughput relative to current or other forms of care.")
 SubClassOf(<http://purl.org/doves/doves-ontology#Increased_Treatment_Throughput_Outcome> <https://purl.org/doves/1ae3245a-1b7f-40b2-ae3b-74706699204a>)
+
+# Class: <http://purl.org/doves/doves-ontology#Increased_Ultrasonography_Throughput_Outcome> (<http://purl.org/doves/doves-ontology#Increased_Ultrasonography_Throughput_Outcome>)
+
+SubClassOf(<http://purl.org/doves/doves-ontology#Increased_Ultrasonography_Throughput_Outcome> <http://purl.org/doves/doves-ontology#Increased_Radiology_Throughput_Outcome>)
 
 # Class: <http://purl.org/doves/doves-ontology#Inpatient> (<http://purl.org/doves/doves-ontology#Inpatient>)
 
@@ -795,6 +826,10 @@ SubClassOf(<http://purl.org/doves/doves-ontology#Shared_Decision_Making> <https:
 
 AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Sign_Control_Outcome> "Sign Control Outcome")
 SubClassOf(<http://purl.org/doves/doves-ontology#Sign_Control_Outcome> <http://purl.org/doves/a43ca2f5_8117_40d7_8487_72f616a86366>)
+
+# Class: <http://purl.org/doves/doves-ontology#Site_of_Care_Shift_Outcome> (<http://purl.org/doves/doves-ontology#Site_of_Care_Shift_Outcome>)
+
+SubClassOf(<http://purl.org/doves/doves-ontology#Site_of_Care_Shift_Outcome> <https://purl.org/doves/089409f3-106f-4742-a91a-df135a4b4102>)
 
 # Class: <http://purl.org/doves/doves-ontology#Skilled_Nursing_Facility> (<http://purl.org/doves/doves-ontology#Skilled_Nursing_Facility>)
 
