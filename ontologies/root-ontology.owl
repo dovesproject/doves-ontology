@@ -87,6 +87,7 @@ Declaration(Class(<http://purl.org/doves/doves-ontology#Inpatient>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Intesive_Care_Unit>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Irritable_Bowel_Syndrome_Symptom_Control_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Lifestyle_Adherence_Outcome>))
+Declaration(Class(<http://purl.org/doves/doves-ontology#Modified_Procedural_Encounter_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Modified_Specialty_Care_Encounter_Rate_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Pain_Control_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Percent_of_Issues_Open_Outcome>))
@@ -105,6 +106,7 @@ Declaration(Class(<http://purl.org/doves/doves-ontology#Site_of_Care_Shift_Outco
 Declaration(Class(<http://purl.org/doves/doves-ontology#Skilled_Nursing_Facility>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Staffing_Level_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Symptom_Control_Outcome>))
+Declaration(Class(<http://purl.org/doves/doves-ontology#System_Usability_Scale_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Technical_Certification_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Time_to_Talk_to_a_Human_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Toddler_Age_Group>))
@@ -858,6 +860,10 @@ AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Lifestyle_A
 AnnotationAssertion(skos:definition <http://purl.org/doves/doves-ontology#Lifestyle_Adherence_Outcome> "Lifestyle Adherence Outcome is an Engagement and Adherence Outcome that describes adherence to lifestyle modifications including diet, exercise, smoking, alcohol consumption, etc.")
 SubClassOf(<http://purl.org/doves/doves-ontology#Lifestyle_Adherence_Outcome> <https://purl.org/doves/f70ac7b3-c718-4511-9f13-2f4ab13050b8>)
 
+# Class: <http://purl.org/doves/doves-ontology#Modified_Procedural_Encounter_Outcome> (<http://purl.org/doves/doves-ontology#Modified_Procedural_Encounter_Outcome>)
+
+SubClassOf(<http://purl.org/doves/doves-ontology#Modified_Procedural_Encounter_Outcome> <https://purl.org/doves/089409f3-106f-4742-a91a-df135a4b4102>)
+
 # Class: <http://purl.org/doves/doves-ontology#Modified_Specialty_Care_Encounter_Rate_Outcome> (Modified Specialty Care Encounter Rate Outcome)
 
 AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Modified_Specialty_Care_Encounter_Rate_Outcome> "Modified Specialty Care Encounter Rate Outcome")
@@ -949,6 +955,10 @@ SubClassOf(<http://purl.org/doves/doves-ontology#Staffing_Level_Outcome> <http:/
 AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Symptom_Control_Outcome> "Symptom Control Outcome")
 AnnotationAssertion(skos:definition <http://purl.org/doves/doves-ontology#Symptom_Control_Outcome> "Symptom Control Outcome is a Health Condition Control Outcome that describes the influence of a digital health application on an individual's symptoms.")
 SubClassOf(<http://purl.org/doves/doves-ontology#Symptom_Control_Outcome> <http://purl.org/doves/a43ca2f5_8117_40d7_8487_72f616a86366>)
+
+# Class: <http://purl.org/doves/doves-ontology#System_Usability_Scale_Outcome> (<http://purl.org/doves/doves-ontology#System_Usability_Scale_Outcome>)
+
+SubClassOf(<http://purl.org/doves/doves-ontology#System_Usability_Scale_Outcome> <https://purl.org/doves/be939100-e527-489d-ab9a-94aa852245f6>)
 
 # Class: <http://purl.org/doves/doves-ontology#Technical_Certification_Outcome> (<http://purl.org/doves/doves-ontology#Technical_Certification_Outcome>)
 
