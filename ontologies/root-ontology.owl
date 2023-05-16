@@ -44,6 +44,7 @@ Declaration(Class(<http://purl.org/doves/9dee6af8_663e_4f00_9025_e3e5432608f8>))
 Declaration(Class(<http://purl.org/doves/9f8e3004_5e43_4300_b586_e59ecc353ac8>))
 Declaration(Class(<http://purl.org/doves/984d6b58_ca68_4969_88a6_dc41fbece229>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Acute_Rehabilitation_Facility>))
+Declaration(Class(<http://purl.org/doves/doves-ontology#Alcohol_Use_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Ambulatory>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Ante-partum_Age_Group>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Anxiety_Control_Outcome>))
@@ -56,12 +57,14 @@ Declaration(Class(<http://purl.org/doves/doves-ontology#DICOM>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Decreased_Diagnostic_Terst_Unit_Cost_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Decreased_Specialty_Care_Encounter_Rate_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Depression_Control_Outcome>))
+Declaration(Class(<http://purl.org/doves/doves-ontology#Dietary_Adherence_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Disease_Course_Modification_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Disease_Course_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Electronic_Health_Record_Integration_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Emergency_Department>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Employee_Burnout_Reduction_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Ethnicity>))
+Declaration(Class(<http://purl.org/doves/doves-ontology#Exercise_Adherence_outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#FDA>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#FDA_Approved>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#FDA_Cleared>))
@@ -71,6 +74,7 @@ Declaration(Class(<http://purl.org/doves/doves-ontology#Formulary_Transparency_O
 Declaration(Class(<http://purl.org/doves/doves-ontology#GDPR_Compliance_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#HL7_Access_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Health_Literacy_Outcome>))
+Declaration(Class(<http://purl.org/doves/doves-ontology#Healthy_Eating_Index_Score_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#ICU_Bounce_Back_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#ISO_13485_Certification_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#ISO_27001_Certification_Outcome>))
@@ -104,6 +108,7 @@ Declaration(Class(<http://purl.org/doves/doves-ontology#Shared_Decision_Making>)
 Declaration(Class(<http://purl.org/doves/doves-ontology#Sign_Control_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Site_of_Care_Shift_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Skilled_Nursing_Facility>))
+Declaration(Class(<http://purl.org/doves/doves-ontology#Smoking_Cessation_Adherence_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Staffing_Level_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Symptom_Control_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#System_Usability_Scale_Outcome>))
@@ -652,6 +657,10 @@ SubClassOf(<http://purl.org/doves/984d6b58_ca68_4969_88a6_dc41fbece229> <http://
 
 SubClassOf(<http://purl.org/doves/doves-ontology#Acute_Rehabilitation_Facility> <http://purl.org/doves/doves-ontology#Setting>)
 
+# Class: <http://purl.org/doves/doves-ontology#Alcohol_Use_Outcome> (<http://purl.org/doves/doves-ontology#Alcohol_Use_Outcome>)
+
+SubClassOf(<http://purl.org/doves/doves-ontology#Alcohol_Use_Outcome> <http://purl.org/doves/doves-ontology#Lifestyle_Adherence_Outcome>)
+
 # Class: <http://purl.org/doves/doves-ontology#Ambulatory> (<http://purl.org/doves/doves-ontology#Ambulatory>)
 
 SubClassOf(<http://purl.org/doves/doves-ontology#Ambulatory> <http://purl.org/doves/doves-ontology#Setting>)
@@ -710,6 +719,10 @@ SubClassOf(<http://purl.org/doves/doves-ontology#Decreased_Specialty_Care_Encoun
 AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Depression_Control_Outcome> "Depression Control Outcome")
 SubClassOf(<http://purl.org/doves/doves-ontology#Depression_Control_Outcome> <http://purl.org/doves/doves-ontology#Symptom_Control_Outcome>)
 
+# Class: <http://purl.org/doves/doves-ontology#Dietary_Adherence_Outcome> (<http://purl.org/doves/doves-ontology#Dietary_Adherence_Outcome>)
+
+SubClassOf(<http://purl.org/doves/doves-ontology#Dietary_Adherence_Outcome> <http://purl.org/doves/doves-ontology#Lifestyle_Adherence_Outcome>)
+
 # Class: <http://purl.org/doves/doves-ontology#Disease_Course_Modification_Outcome> (Disease Course Modification Outcome)
 
 AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Disease_Course_Modification_Outcome> "Disease Course Modification Outcome")
@@ -739,6 +752,10 @@ SubClassOf(<http://purl.org/doves/doves-ontology#Employee_Burnout_Reduction_Outc
 # Class: <http://purl.org/doves/doves-ontology#Ethnicity> (<http://purl.org/doves/doves-ontology#Ethnicity>)
 
 SubClassOf(<http://purl.org/doves/doves-ontology#Ethnicity> <https://purl.org/doves/78ceb509-e44b-4d8c-bd47-b457f9d835cb>)
+
+# Class: <http://purl.org/doves/doves-ontology#Exercise_Adherence_outcome> (<http://purl.org/doves/doves-ontology#Exercise_Adherence_outcome>)
+
+SubClassOf(<http://purl.org/doves/doves-ontology#Exercise_Adherence_outcome> <http://purl.org/doves/doves-ontology#Lifestyle_Adherence_Outcome>)
 
 # Class: <http://purl.org/doves/doves-ontology#FDA> (<http://purl.org/doves/doves-ontology#FDA>)
 
@@ -781,6 +798,11 @@ SubClassOf(<http://purl.org/doves/doves-ontology#HL7_Access_Outcome> <https://pu
 
 AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Health_Literacy_Outcome> "Health Literacy Outcome")
 SubClassOf(<http://purl.org/doves/doves-ontology#Health_Literacy_Outcome> <https://purl.org/doves/0323ba81-5b6f-417d-9829-263c5403582f>)
+
+# Class: <http://purl.org/doves/doves-ontology#Healthy_Eating_Index_Score_Outcome> (<http://purl.org/doves/doves-ontology#Healthy_Eating_Index_Score_Outcome>)
+
+AnnotationAssertion(skos:definition <http://purl.org/doves/doves-ontology#Healthy_Eating_Index_Score_Outcome> "The Healthy Eating Index (HEI) is a measure of diet quality used to assess how well a set of foods aligns with key recommendations of the Dietary Guidelines for Americans. The Dietary Guidelines for Americans is designed for nutrition and health professionals to help individuals and families to consume a healthful and nutritionally adequate diet. The HEI uses a scoring system to evaluate a set of foods. The scores range from 0 to 100. An ideal overall HEI score of 100 reflects that the set of foods aligns with key dietary recommendations from the Dietary Guidelines for Americans. https://www.fns.usda.gov/healthy-eating-index-hei")
+SubClassOf(<http://purl.org/doves/doves-ontology#Healthy_Eating_Index_Score_Outcome> <http://purl.org/doves/doves-ontology#Dietary_Adherence_Outcome>)
 
 # Class: <http://purl.org/doves/doves-ontology#ICU_Bounce_Back_Outcome> (<http://purl.org/doves/doves-ontology#ICU_Bounce_Back_Outcome>)
 
@@ -945,6 +967,10 @@ SubClassOf(<http://purl.org/doves/doves-ontology#Site_of_Care_Shift_Outcome> <ht
 # Class: <http://purl.org/doves/doves-ontology#Skilled_Nursing_Facility> (<http://purl.org/doves/doves-ontology#Skilled_Nursing_Facility>)
 
 SubClassOf(<http://purl.org/doves/doves-ontology#Skilled_Nursing_Facility> <http://purl.org/doves/doves-ontology#Setting>)
+
+# Class: <http://purl.org/doves/doves-ontology#Smoking_Cessation_Adherence_Outcome> (<http://purl.org/doves/doves-ontology#Smoking_Cessation_Adherence_Outcome>)
+
+SubClassOf(<http://purl.org/doves/doves-ontology#Smoking_Cessation_Adherence_Outcome> <http://purl.org/doves/doves-ontology#Lifestyle_Adherence_Outcome>)
 
 # Class: <http://purl.org/doves/doves-ontology#Staffing_Level_Outcome> (<http://purl.org/doves/doves-ontology#Staffing_Level_Outcome>)
 
