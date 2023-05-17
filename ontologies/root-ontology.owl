@@ -46,10 +46,13 @@ Declaration(Class(<http://purl.org/doves/984d6b58_ca68_4969_88a6_dc41fbece229>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Acute_Rehabilitation_Facility>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Alcohol_Use_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Ambulatory>))
+Declaration(Class(<http://purl.org/doves/doves-ontology#American_Indian_or_Alaska_Native>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Ante-partum_Age_Group>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Anxiety_Control_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Area_Under_the_Curve>))
+Declaration(Class(<http://purl.org/doves/doves-ontology#Asian>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Bed_Control_Outcome>))
+Declaration(Class(<http://purl.org/doves/doves-ontology#Black_or_African_American>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Cancer_Outcomes>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Child_Age_Group>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Completion_Rate_Outcome>))
@@ -77,6 +80,7 @@ Declaration(Class(<http://purl.org/doves/doves-ontology#GDPR_Compliance_Outcome>
 Declaration(Class(<http://purl.org/doves/doves-ontology#HL7_Access_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Health_Literacy_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Healthy_Eating_Index_Score_Outcome>))
+Declaration(Class(<http://purl.org/doves/doves-ontology#Hispanic_or_Latino>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#ICU_Bounce_Back_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#ISO_13485_Certification_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#ISO_27001_Certification_Outcome>))
@@ -104,6 +108,8 @@ Declaration(Class(<http://purl.org/doves/doves-ontology#Lifestyle_Adherence_Outc
 Declaration(Class(<http://purl.org/doves/doves-ontology#Middle-Age_Age_Group>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Modified_Procedural_Encounter_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Modified_Specialty_Care_Encounter_Rate_Outcome>))
+Declaration(Class(<http://purl.org/doves/doves-ontology#Native_Hawaiian_or_Other_Pacific_Islander>))
+Declaration(Class(<http://purl.org/doves/doves-ontology#Not_Hispanic_or_Latino>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Older_Adult_Age_Group>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Pain_Control_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Percent_of_Issues_Open_Outcome>))
@@ -124,6 +130,7 @@ Declaration(Class(<http://purl.org/doves/doves-ontology#Skilled_Nursing_Facility
 Declaration(Class(<http://purl.org/doves/doves-ontology#Sleep_Disorder_Sign_Control_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Sleep_Disorder_Symptom_Scale>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Smoking_Cessation_Adherence_Outcome>))
+Declaration(Class(<http://purl.org/doves/doves-ontology#Some_Other_Race>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Staffing_Level_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Symptom_Control_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#System_Usability_Scale_Outcome>))
@@ -132,8 +139,10 @@ Declaration(Class(<http://purl.org/doves/doves-ontology#Time_to_Talk_to_a_Human_
 Declaration(Class(<http://purl.org/doves/doves-ontology#Toddler_Age_Group>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Turnaround_Time_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Weight_Control_Outcome>))
+Declaration(Class(<http://purl.org/doves/doves-ontology#White>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Young_Adult_Age_Group>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Cardiac_Intensive_Care_Unit_(CICU)>))
+Declaration(Class(<http://purl.org/doves/doves-ontology#Conformite_Europeenne_(CE)>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Fast_Healthcare_Interoperability_Resources_(FHIR)_API_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Neonatal_Intensive_Care_Unit_(NICU)>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Pediatric_Intensive_Care_Unit_(PICU)>))
@@ -684,6 +693,10 @@ SubClassOf(<http://purl.org/doves/doves-ontology#Alcohol_Use_Outcome> <http://pu
 
 SubClassOf(<http://purl.org/doves/doves-ontology#Ambulatory> <http://purl.org/doves/doves-ontology#Setting>)
 
+# Class: <http://purl.org/doves/doves-ontology#American_Indian_or_Alaska_Native> (<http://purl.org/doves/doves-ontology#American_Indian_or_Alaska_Native>)
+
+SubClassOf(<http://purl.org/doves/doves-ontology#American_Indian_or_Alaska_Native> <http://purl.org/doves/doves-ontology#Race>)
+
 # Class: <http://purl.org/doves/doves-ontology#Ante-partum_Age_Group> (In Utero Age Group)
 
 AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Ante-partum_Age_Group> "In Utero Age Group")
@@ -698,9 +711,17 @@ SubClassOf(<http://purl.org/doves/doves-ontology#Anxiety_Control_Outcome> <http:
 
 SubClassOf(<http://purl.org/doves/doves-ontology#Area_Under_the_Curve> <https://purl.org/doves/e8a3913a-2e3c-42c6-b662-a35736ffcada>)
 
+# Class: <http://purl.org/doves/doves-ontology#Asian> (<http://purl.org/doves/doves-ontology#Asian>)
+
+SubClassOf(<http://purl.org/doves/doves-ontology#Asian> <http://purl.org/doves/doves-ontology#Race>)
+
 # Class: <http://purl.org/doves/doves-ontology#Bed_Control_Outcome> (<http://purl.org/doves/doves-ontology#Bed_Control_Outcome>)
 
 SubClassOf(<http://purl.org/doves/doves-ontology#Bed_Control_Outcome> <http://purl.org/doves/doves-ontology#Resource_Utilization_Outcome>)
+
+# Class: <http://purl.org/doves/doves-ontology#Black_or_African_American> (<http://purl.org/doves/doves-ontology#Black_or_African_American>)
+
+SubClassOf(<http://purl.org/doves/doves-ontology#Black_or_African_American> <http://purl.org/doves/doves-ontology#Race>)
 
 # Class: <http://purl.org/doves/doves-ontology#Cancer_Outcomes> (Cancer Outcomes)
 
@@ -779,6 +800,7 @@ SubClassOf(<http://purl.org/doves/doves-ontology#Employee_Burnout_Reduction_Outc
 
 # Class: <http://purl.org/doves/doves-ontology#Ethnicity> (<http://purl.org/doves/doves-ontology#Ethnicity>)
 
+AnnotationAssertion(skos:definition <http://purl.org/doves/doves-ontology#Ethnicity> "Ethnicity is defined according to the United States Census Bureai Aug 4, 2021 https://www.census.gov/newsroom/blogs/random-samplings/2021/08/measuring-racial-ethnic-diversity-2020-census.html")
 SubClassOf(<http://purl.org/doves/doves-ontology#Ethnicity> <https://purl.org/doves/78ceb509-e44b-4d8c-bd47-b457f9d835cb>)
 
 # Class: <http://purl.org/doves/doves-ontology#Exercise_Adherence_outcome> (<http://purl.org/doves/doves-ontology#Exercise_Adherence_outcome>)
@@ -789,16 +811,19 @@ SubClassOf(<http://purl.org/doves/doves-ontology#Exercise_Adherence_outcome> <ht
 
 SubClassOf(<http://purl.org/doves/doves-ontology#FDA> <http://purl.org/doves/doves-ontology#Regulatory_Approval>)
 
-# Class: <http://purl.org/doves/doves-ontology#FDA_Approved> (<http://purl.org/doves/doves-ontology#FDA_Approved>)
+# Class: <http://purl.org/doves/doves-ontology#FDA_Approved> (FDA Approved)
 
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#FDA_Approved> "FDA Approved")
 SubClassOf(<http://purl.org/doves/doves-ontology#FDA_Approved> <http://purl.org/doves/doves-ontology#FDA>)
 
-# Class: <http://purl.org/doves/doves-ontology#FDA_Cleared> (<http://purl.org/doves/doves-ontology#FDA_Cleared>)
+# Class: <http://purl.org/doves/doves-ontology#FDA_Cleared> (FDA Cleared)
 
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#FDA_Cleared> "FDA Cleared")
 SubClassOf(<http://purl.org/doves/doves-ontology#FDA_Cleared> <http://purl.org/doves/doves-ontology#FDA>)
 
-# Class: <http://purl.org/doves/doves-ontology#FDA_Granted> (<http://purl.org/doves/doves-ontology#FDA_Granted>)
+# Class: <http://purl.org/doves/doves-ontology#FDA_Granted> (FDA Granted)
 
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#FDA_Granted> "FDA Granted")
 SubClassOf(<http://purl.org/doves/doves-ontology#FDA_Granted> <http://purl.org/doves/doves-ontology#FDA>)
 
 # Class: <http://purl.org/doves/doves-ontology#Five_Year_Survival_Outcome> (Five Year Survival Outcome)
@@ -831,6 +856,11 @@ SubClassOf(<http://purl.org/doves/doves-ontology#Health_Literacy_Outcome> <https
 
 AnnotationAssertion(skos:definition <http://purl.org/doves/doves-ontology#Healthy_Eating_Index_Score_Outcome> "The Healthy Eating Index (HEI) is a measure of diet quality used to assess how well a set of foods aligns with key recommendations of the Dietary Guidelines for Americans. The Dietary Guidelines for Americans is designed for nutrition and health professionals to help individuals and families to consume a healthful and nutritionally adequate diet. The HEI uses a scoring system to evaluate a set of foods. The scores range from 0 to 100. An ideal overall HEI score of 100 reflects that the set of foods aligns with key dietary recommendations from the Dietary Guidelines for Americans. https://www.fns.usda.gov/healthy-eating-index-hei")
 SubClassOf(<http://purl.org/doves/doves-ontology#Healthy_Eating_Index_Score_Outcome> <http://purl.org/doves/doves-ontology#Dietary_Adherence_Outcome>)
+
+# Class: <http://purl.org/doves/doves-ontology#Hispanic_or_Latino> (Hispanic or Latino)
+
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Hispanic_or_Latino> "Hispanic or Latino")
+SubClassOf(<http://purl.org/doves/doves-ontology#Hispanic_or_Latino> <http://purl.org/doves/doves-ontology#Ethnicity>)
 
 # Class: <http://purl.org/doves/doves-ontology#ICU_Bounce_Back_Outcome> (<http://purl.org/doves/doves-ontology#ICU_Bounce_Back_Outcome>)
 
@@ -956,6 +986,15 @@ AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Modified_Sp
 AnnotationAssertion(skos:definition <http://purl.org/doves/doves-ontology#Modified_Specialty_Care_Encounter_Rate_Outcome> "Modified Specialty Care Encounter Rate Outcome is a Healthcare Utilization Outcome that is influenced by digital health applications that increase appropriate or decrease inappropriate healthcare utilization in medical specialties.")
 SubClassOf(<http://purl.org/doves/doves-ontology#Modified_Specialty_Care_Encounter_Rate_Outcome> <https://purl.org/doves/089409f3-106f-4742-a91a-df135a4b4102>)
 
+# Class: <http://purl.org/doves/doves-ontology#Native_Hawaiian_or_Other_Pacific_Islander> (<http://purl.org/doves/doves-ontology#Native_Hawaiian_or_Other_Pacific_Islander>)
+
+SubClassOf(<http://purl.org/doves/doves-ontology#Native_Hawaiian_or_Other_Pacific_Islander> <http://purl.org/doves/doves-ontology#Race>)
+
+# Class: <http://purl.org/doves/doves-ontology#Not_Hispanic_or_Latino> (Not Hispanic or Latino)
+
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Not_Hispanic_or_Latino> "Not Hispanic or Latino")
+SubClassOf(<http://purl.org/doves/doves-ontology#Not_Hispanic_or_Latino> <http://purl.org/doves/doves-ontology#Ethnicity>)
+
 # Class: <http://purl.org/doves/doves-ontology#Older_Adult_Age_Group> (Older Adult Age Group)
 
 AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Older_Adult_Age_Group> "Older Adult Age Group")
@@ -987,6 +1026,7 @@ SubClassOf(<http://purl.org/doves/doves-ontology#Proportion_of_Images_Gradable_b
 
 # Class: <http://purl.org/doves/doves-ontology#Race> (<http://purl.org/doves/doves-ontology#Race>)
 
+AnnotationAssertion(skos:definition <http://purl.org/doves/doves-ontology#Race> "Categories of race follow guidance from the United States Census Bureau as of Aug 4, 2021. https://www.census.gov/newsroom/blogs/random-samplings/2021/08/measuring-racial-ethnic-diversity-2020-census.html")
 SubClassOf(<http://purl.org/doves/doves-ontology#Race> <https://purl.org/doves/78ceb509-e44b-4d8c-bd47-b457f9d835cb>)
 
 # Class: <http://purl.org/doves/doves-ontology#Reduced_Per_Member_Per_Month_Cost_Outcome> (Reduced Per Member Per Month Cost Outcome)
@@ -1054,6 +1094,10 @@ SubClassOf(<http://purl.org/doves/doves-ontology#Sleep_Disorder_Symptom_Scale> <
 
 SubClassOf(<http://purl.org/doves/doves-ontology#Smoking_Cessation_Adherence_Outcome> <http://purl.org/doves/doves-ontology#Lifestyle_Adherence_Outcome>)
 
+# Class: <http://purl.org/doves/doves-ontology#Some_Other_Race> (<http://purl.org/doves/doves-ontology#Some_Other_Race>)
+
+SubClassOf(<http://purl.org/doves/doves-ontology#Some_Other_Race> <http://purl.org/doves/doves-ontology#Race>)
+
 # Class: <http://purl.org/doves/doves-ontology#Staffing_Level_Outcome> (<http://purl.org/doves/doves-ontology#Staffing_Level_Outcome>)
 
 SubClassOf(<http://purl.org/doves/doves-ontology#Staffing_Level_Outcome> <http://purl.org/doves/doves-ontology#Resource_Utilization_Outcome>)
@@ -1095,6 +1139,10 @@ SubClassOf(<http://purl.org/doves/doves-ontology#Turnaround_Time_Outcome> <https
 AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Weight_Control_Outcome> "Weight Control Outcome")
 SubClassOf(<http://purl.org/doves/doves-ontology#Weight_Control_Outcome> <http://purl.org/doves/doves-ontology#Sign_Control_Outcome>)
 
+# Class: <http://purl.org/doves/doves-ontology#White> (<http://purl.org/doves/doves-ontology#White>)
+
+SubClassOf(<http://purl.org/doves/doves-ontology#White> <http://purl.org/doves/doves-ontology#Race>)
+
 # Class: <http://purl.org/doves/doves-ontology#Young_Adult_Age_Group> (Young Adult Age Group)
 
 AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Young_Adult_Age_Group> "Young Adult Age Group")
@@ -1104,6 +1152,11 @@ SubClassOf(<http://purl.org/doves/doves-ontology#Young_Adult_Age_Group> <http://
 # Class: <http://purl.org/doves/doves-ontology#Cardiac_Intensive_Care_Unit_(CICU)> (<http://purl.org/doves/doves-ontology#Cardiac_Intensive_Care_Unit_(CICU)>)
 
 SubClassOf(<http://purl.org/doves/doves-ontology#Cardiac_Intensive_Care_Unit_(CICU)> <http://purl.org/doves/doves-ontology#Intesive_Care_Unit>)
+
+# Class: <http://purl.org/doves/doves-ontology#Conformite_Europeenne_(CE)> (Conformite Europeenne (CE))
+
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Conformite_Europeenne_(CE)> "Conformite Europeenne (CE)")
+SubClassOf(<http://purl.org/doves/doves-ontology#Conformite_Europeenne_(CE)> <http://purl.org/doves/doves-ontology#Regulatory_Approval>)
 
 # Class: <http://purl.org/doves/doves-ontology#Fast_Healthcare_Interoperability_Resources_(FHIR)_API_Outcome> (Fast Healthcare Interoperability Resources (FHIR) API Outcome)
 
