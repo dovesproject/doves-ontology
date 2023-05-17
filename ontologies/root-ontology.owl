@@ -55,6 +55,8 @@ Declaration(Class(<http://purl.org/doves/doves-ontology#Child_Age_Group>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Completion_Rate_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#DICOM>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Decreased_Diagnostic_Terst_Unit_Cost_Outcome>))
+Declaration(Class(<http://purl.org/doves/doves-ontology#Decreased_Sleep_Interruption_Outcome>))
+Declaration(Class(<http://purl.org/doves/doves-ontology#Decreased_Sleep_Latency_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Decreased_Specialty_Care_Encounter_Rate_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Depression_Control_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Dietary_Adherence_Outcome>))
@@ -79,20 +81,30 @@ Declaration(Class(<http://purl.org/doves/doves-ontology#ICU_Bounce_Back_Outcome>
 Declaration(Class(<http://purl.org/doves/doves-ontology#ISO_13485_Certification_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#ISO_27001_Certification_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#ISO_9241-210_Certification_Outcome>))
+Declaration(Class(<http://purl.org/doves/doves-ontology#Improvement_in_Pittsbrgh_Sleep_Quality_Index_Outcome>))
+Declaration(Class(<http://purl.org/doves/doves-ontology#Improvement_in_Pittsburgh_Sleep_Quality_Index_Outcome>))
+Declaration(Class(<http://purl.org/doves/doves-ontology#Improvement_in_Trauma_Related_Nightmare_Symptoms_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Improving_Healthcare_Team_Communication_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Improving_Transitions_in_Care_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Increased_Magnetic_Resonance_Imaging_Throughput_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Increased_Radiology_Throughput_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Increased_Revenue_Outcome>))
+Declaration(Class(<http://purl.org/doves/doves-ontology#Increased_Sleep_Quantity_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Increased_Specialty_Care_Encounter_Rate_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Increased_Treatment_Throughput_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Increased_Ultrasonography_Throughput_Outcome>))
+Declaration(Class(<http://purl.org/doves/doves-ontology#Infant_Age_Group>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Inpatient>))
+Declaration(Class(<http://purl.org/doves/doves-ontology#Insomnia_Control_Outcome>))
+Declaration(Class(<http://purl.org/doves/doves-ontology#Insomnia_Sign_Control_Outcome>))
+Declaration(Class(<http://purl.org/doves/doves-ontology#Insomnia_Symptom_Control_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Intesive_Care_Unit>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Irritable_Bowel_Syndrome_Symptom_Control_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Lifestyle_Adherence_Outcome>))
+Declaration(Class(<http://purl.org/doves/doves-ontology#Middle-Age_Age_Group>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Modified_Procedural_Encounter_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Modified_Specialty_Care_Encounter_Rate_Outcome>))
+Declaration(Class(<http://purl.org/doves/doves-ontology#Older_Adult_Age_Group>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Pain_Control_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Percent_of_Issues_Open_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Proportion_of_Days_Covered_Outcome>))
@@ -103,11 +115,14 @@ Declaration(Class(<http://purl.org/doves/doves-ontology#Reduced_Prescription_Dru
 Declaration(Class(<http://purl.org/doves/doves-ontology#Regulatory_Approval>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Resource_Utilization_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Return_on_Investment_Outcome>))
+Declaration(Class(<http://purl.org/doves/doves-ontology#Self-efficacy>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Setting>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Shared_Decision_Making>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Sign_Control_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Site_of_Care_Shift_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Skilled_Nursing_Facility>))
+Declaration(Class(<http://purl.org/doves/doves-ontology#Sleep_Disorder_Sign_Control_Outcome>))
+Declaration(Class(<http://purl.org/doves/doves-ontology#Sleep_Disorder_Symptom_Scale>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Smoking_Cessation_Adherence_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Staffing_Level_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Symptom_Control_Outcome>))
@@ -117,6 +132,7 @@ Declaration(Class(<http://purl.org/doves/doves-ontology#Time_to_Talk_to_a_Human_
 Declaration(Class(<http://purl.org/doves/doves-ontology#Toddler_Age_Group>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Turnaround_Time_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Weight_Control_Outcome>))
+Declaration(Class(<http://purl.org/doves/doves-ontology#Young_Adult_Age_Group>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Cardiac_Intensive_Care_Unit_(CICU)>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Fast_Healthcare_Interoperability_Resources_(FHIR)_API_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Neonatal_Intensive_Care_Unit_(NICU)>))
@@ -454,6 +470,7 @@ Declaration(ObjectProperty(<https://purl.org/doves/35053043-d428-432d-9044-1c3c9
 Declaration(ObjectProperty(<https://purl.org/doves/4b61e411-782f-4ccd-9f96-ba45caef73b6>))
 Declaration(ObjectProperty(<https://purl.org/doves/5b5e21c9-08f7-4c4f-a8ab-18f3914fdabc>))
 Declaration(NamedIndividual(<http://purl.org/doves/4bedc15f_c338_435e_8489_48fe5adb7304>))
+Declaration(AnnotationProperty(<http://purl.org/doves/doves-ontology#relates_to>))
 Declaration(AnnotationProperty(rdfs:label))
 Declaration(AnnotationProperty(skos:altLabel))
 
@@ -520,6 +537,7 @@ SubClassOf(<http://purl.org/doves/a43ca2f5_8117_40d7_8487_72f616a86366> <https:/
 # Class: <http://purl.org/doves/a61dbcd2_0d2c_4269_a9dd_c34cb9fd5965> (Adolescent Age Group)
 
 AnnotationAssertion(rdfs:label <http://purl.org/doves/a61dbcd2_0d2c_4269_a9dd_c34cb9fd5965> "Adolescent Age Group"@en)
+AnnotationAssertion(skos:definition <http://purl.org/doves/a61dbcd2_0d2c_4269_a9dd_c34cb9fd5965> "Adolescent Age Group is defined according to the NIH as individuals 13-17 years olf. Accoridng to the NIH, they may also be referred to as teenagers depending on the context. https://www.nih.gov/nih-style-guide/age")
 SubClassOf(<http://purl.org/doves/a61dbcd2_0d2c_4269_a9dd_c34cb9fd5965> <https://purl.org/doves/d7fdedbd-6d0d-4d67-bd98-03f4c80c944b>)
 
 # Class: <http://purl.org/doves/ad3e8f0e_7216_4aeb_a35a_1c9802d501c2> (Reduction in Hypoglycemic Events Outcome)
@@ -561,6 +579,7 @@ SubClassOf(<http://purl.org/doves/efe61c04_f9aa_484c_846c_d7ee7cb02f58> <https:/
 # Class: <http://purl.org/doves/0b28937e_45cc_4f6f_b7d5_2d9ae70f61a0> (Adult Age Group)
 
 AnnotationAssertion(rdfs:label <http://purl.org/doves/0b28937e_45cc_4f6f_b7d5_2d9ae70f61a0> "Adult Age Group"@en)
+AnnotationAssertion(skos:definition <http://purl.org/doves/0b28937e_45cc_4f6f_b7d5_2d9ae70f61a0> "Adult Age Group is defined by the NIH as those individuals 18 years old or older. https://www.nih.gov/nih-style-guide/age")
 SubClassOf(<http://purl.org/doves/0b28937e_45cc_4f6f_b7d5_2d9ae70f61a0> <https://purl.org/doves/d7fdedbd-6d0d-4d67-bd98-03f4c80c944b>)
 
 # Class: <http://purl.org/doves/076aaae9_4c06_4338_8a74_c81235747135> (NIST Certification Outcome)
@@ -692,6 +711,7 @@ SubClassOf(<http://purl.org/doves/doves-ontology#Cancer_Outcomes> <https://purl.
 # Class: <http://purl.org/doves/doves-ontology#Child_Age_Group> (Child Age Group)
 
 AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Child_Age_Group> "Child Age Group")
+AnnotationAssertion(skos:definition <http://purl.org/doves/doves-ontology#Child_Age_Group> "Child Age Group is defined by the NIH as thos eindividuals 1 year to 12 years old. https://www.nih.gov/nih-style-guide/age")
 SubClassOf(<http://purl.org/doves/doves-ontology#Child_Age_Group> <https://purl.org/doves/6f732e5a-3cb8-47b2-a83e-7e7d24512e77>)
 
 # Class: <http://purl.org/doves/doves-ontology#Completion_Rate_Outcome> (Completion Rate Outcome)
@@ -708,6 +728,14 @@ SubClassOf(<http://purl.org/doves/doves-ontology#DICOM> <https://purl.org/doves/
 # Class: <http://purl.org/doves/doves-ontology#Decreased_Diagnostic_Terst_Unit_Cost_Outcome> (<http://purl.org/doves/doves-ontology#Decreased_Diagnostic_Terst_Unit_Cost_Outcome>)
 
 SubClassOf(<http://purl.org/doves/doves-ontology#Decreased_Diagnostic_Terst_Unit_Cost_Outcome> <https://purl.org/doves/7124f3ed-a489-431c-90ce-c2a5fe7d95bb>)
+
+# Class: <http://purl.org/doves/doves-ontology#Decreased_Sleep_Interruption_Outcome> (<http://purl.org/doves/doves-ontology#Decreased_Sleep_Interruption_Outcome>)
+
+SubClassOf(<http://purl.org/doves/doves-ontology#Decreased_Sleep_Interruption_Outcome> <http://purl.org/doves/doves-ontology#Insomnia_Sign_Control_Outcome>)
+
+# Class: <http://purl.org/doves/doves-ontology#Decreased_Sleep_Latency_Outcome> (<http://purl.org/doves/doves-ontology#Decreased_Sleep_Latency_Outcome>)
+
+SubClassOf(<http://purl.org/doves/doves-ontology#Decreased_Sleep_Latency_Outcome> <http://purl.org/doves/doves-ontology#Insomnia_Sign_Control_Outcome>)
 
 # Class: <http://purl.org/doves/doves-ontology#Decreased_Specialty_Care_Encounter_Rate_Outcome> (Decreased Specialty Care Encounter Rate Outcome)
 
@@ -824,6 +852,18 @@ SubClassOf(<http://purl.org/doves/doves-ontology#ISO_27001_Certification_Outcome
 AnnotationAssertion(skos:definition <http://purl.org/doves/doves-ontology#ISO_9241-210_Certification_Outcome> "skos:definition \"ISO 9241-210 is a Human Factors and Usability outcome that indicates a product's certification to the International Organization for Standardization's Ergonomics for human-system interaction Part 210 Human-centered design for interactive systems.  https://www.iso.org/standard/77520.html\"")
 SubClassOf(<http://purl.org/doves/doves-ontology#ISO_9241-210_Certification_Outcome> <https://purl.org/doves/be939100-e527-489d-ab9a-94aa852245f6>)
 
+# Class: <http://purl.org/doves/doves-ontology#Improvement_in_Pittsbrgh_Sleep_Quality_Index_Outcome> (<http://purl.org/doves/doves-ontology#Improvement_in_Pittsbrgh_Sleep_Quality_Index_Outcome>)
+
+SubClassOf(<http://purl.org/doves/doves-ontology#Improvement_in_Pittsbrgh_Sleep_Quality_Index_Outcome> <http://purl.org/doves/doves-ontology#Sleep_Disorder_Symptom_Scale>)
+
+# Class: <http://purl.org/doves/doves-ontology#Improvement_in_Pittsburgh_Sleep_Quality_Index_Outcome> (<http://purl.org/doves/doves-ontology#Improvement_in_Pittsburgh_Sleep_Quality_Index_Outcome>)
+
+SubClassOf(<http://purl.org/doves/doves-ontology#Improvement_in_Pittsburgh_Sleep_Quality_Index_Outcome> <http://purl.org/doves/doves-ontology#Insomnia_Control_Outcome>)
+
+# Class: <http://purl.org/doves/doves-ontology#Improvement_in_Trauma_Related_Nightmare_Symptoms_Outcome> (<http://purl.org/doves/doves-ontology#Improvement_in_Trauma_Related_Nightmare_Symptoms_Outcome>)
+
+SubClassOf(<http://purl.org/doves/doves-ontology#Improvement_in_Trauma_Related_Nightmare_Symptoms_Outcome> <http://purl.org/doves/doves-ontology#Sleep_Disorder_Symptom_Scale>)
+
 # Class: <http://purl.org/doves/doves-ontology#Improving_Healthcare_Team_Communication_Outcome> (Improving Healthcare Team Communication Outcome)
 
 AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Improving_Healthcare_Team_Communication_Outcome> "Improving Healthcare Team Communication Outcome")
@@ -848,6 +888,10 @@ SubClassOf(<http://purl.org/doves/doves-ontology#Increased_Radiology_Throughput_
 
 SubClassOf(<http://purl.org/doves/doves-ontology#Increased_Revenue_Outcome> <https://purl.org/doves/f4c71cb0-20ca-4838-bea8-c8aa68037a97>)
 
+# Class: <http://purl.org/doves/doves-ontology#Increased_Sleep_Quantity_Outcome> (<http://purl.org/doves/doves-ontology#Increased_Sleep_Quantity_Outcome>)
+
+SubClassOf(<http://purl.org/doves/doves-ontology#Increased_Sleep_Quantity_Outcome> <http://purl.org/doves/doves-ontology#Insomnia_Sign_Control_Outcome>)
+
 # Class: <http://purl.org/doves/doves-ontology#Increased_Specialty_Care_Encounter_Rate_Outcome> (Increased Specialty Care Encounter Rate Outcome)
 
 AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Increased_Specialty_Care_Encounter_Rate_Outcome> "Increased Specialty Care Encounter Rate Outcome")
@@ -863,9 +907,23 @@ SubClassOf(<http://purl.org/doves/doves-ontology#Increased_Treatment_Throughput_
 
 SubClassOf(<http://purl.org/doves/doves-ontology#Increased_Ultrasonography_Throughput_Outcome> <http://purl.org/doves/doves-ontology#Increased_Radiology_Throughput_Outcome>)
 
+# Class: <http://purl.org/doves/doves-ontology#Infant_Age_Group> (Infant Age Group)
+
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Infant_Age_Group> "Infant Age Group")
+AnnotationAssertion(skos:definition <http://purl.org/doves/doves-ontology#Infant_Age_Group> "Infant Age Group is defined by the NIH as those individuals 1 month to 1 year old. https://www.nih.gov/nih-style-guide/age")
+SubClassOf(<http://purl.org/doves/doves-ontology#Infant_Age_Group> <https://purl.org/doves/6f732e5a-3cb8-47b2-a83e-7e7d24512e77>)
+
 # Class: <http://purl.org/doves/doves-ontology#Inpatient> (<http://purl.org/doves/doves-ontology#Inpatient>)
 
 SubClassOf(<http://purl.org/doves/doves-ontology#Inpatient> <http://purl.org/doves/doves-ontology#Setting>)
+
+# Class: <http://purl.org/doves/doves-ontology#Insomnia_Sign_Control_Outcome> (<http://purl.org/doves/doves-ontology#Insomnia_Sign_Control_Outcome>)
+
+SubClassOf(<http://purl.org/doves/doves-ontology#Insomnia_Sign_Control_Outcome> <http://purl.org/doves/doves-ontology#Sleep_Disorder_Sign_Control_Outcome>)
+
+# Class: <http://purl.org/doves/doves-ontology#Insomnia_Symptom_Control_Outcome> (<http://purl.org/doves/doves-ontology#Insomnia_Symptom_Control_Outcome>)
+
+SubClassOf(<http://purl.org/doves/doves-ontology#Insomnia_Symptom_Control_Outcome> <http://purl.org/doves/doves-ontology#Sleep_Disorder_Symptom_Scale>)
 
 # Class: <http://purl.org/doves/doves-ontology#Intesive_Care_Unit> (<http://purl.org/doves/doves-ontology#Intesive_Care_Unit>)
 
@@ -882,6 +940,12 @@ AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Lifestyle_A
 AnnotationAssertion(skos:definition <http://purl.org/doves/doves-ontology#Lifestyle_Adherence_Outcome> "Lifestyle Adherence Outcome is an Engagement and Adherence Outcome that describes adherence to lifestyle modifications including diet, exercise, smoking, alcohol consumption, etc.")
 SubClassOf(<http://purl.org/doves/doves-ontology#Lifestyle_Adherence_Outcome> <https://purl.org/doves/f70ac7b3-c718-4511-9f13-2f4ab13050b8>)
 
+# Class: <http://purl.org/doves/doves-ontology#Middle-Age_Age_Group> (Middle-Age Age Group)
+
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Middle-Age_Age_Group> "Middle-Age Age Group")
+AnnotationAssertion(skos:definition <http://purl.org/doves/doves-ontology#Middle-Age_Age_Group> "Middle Age Age Group is defined by Brittanica as those individuals between the ages of 40-60. https://www.britannica.com/science/middle-age")
+SubClassOf(<http://purl.org/doves/doves-ontology#Middle-Age_Age_Group> <http://purl.org/doves/0b28937e_45cc_4f6f_b7d5_2d9ae70f61a0>)
+
 # Class: <http://purl.org/doves/doves-ontology#Modified_Procedural_Encounter_Outcome> (<http://purl.org/doves/doves-ontology#Modified_Procedural_Encounter_Outcome>)
 
 SubClassOf(<http://purl.org/doves/doves-ontology#Modified_Procedural_Encounter_Outcome> <https://purl.org/doves/089409f3-106f-4742-a91a-df135a4b4102>)
@@ -891,6 +955,12 @@ SubClassOf(<http://purl.org/doves/doves-ontology#Modified_Procedural_Encounter_O
 AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Modified_Specialty_Care_Encounter_Rate_Outcome> "Modified Specialty Care Encounter Rate Outcome")
 AnnotationAssertion(skos:definition <http://purl.org/doves/doves-ontology#Modified_Specialty_Care_Encounter_Rate_Outcome> "Modified Specialty Care Encounter Rate Outcome is a Healthcare Utilization Outcome that is influenced by digital health applications that increase appropriate or decrease inappropriate healthcare utilization in medical specialties.")
 SubClassOf(<http://purl.org/doves/doves-ontology#Modified_Specialty_Care_Encounter_Rate_Outcome> <https://purl.org/doves/089409f3-106f-4742-a91a-df135a4b4102>)
+
+# Class: <http://purl.org/doves/doves-ontology#Older_Adult_Age_Group> (Older Adult Age Group)
+
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Older_Adult_Age_Group> "Older Adult Age Group")
+AnnotationAssertion(skos:definition <http://purl.org/doves/doves-ontology#Older_Adult_Age_Group> "Older Adults are defined by the NIH and the National Institute on Aging as any individual 65 years and older. https://www.nih.gov/nih-style-guide/age")
+SubClassOf(<http://purl.org/doves/doves-ontology#Older_Adult_Age_Group> <http://purl.org/doves/0b28937e_45cc_4f6f_b7d5_2d9ae70f61a0>)
 
 # Class: <http://purl.org/doves/doves-ontology#Pain_Control_Outcome> (Pain Control Outcome)
 
@@ -945,6 +1015,10 @@ AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Return_on_I
 AnnotationAssertion(skos:definition <http://purl.org/doves/doves-ontology#Return_on_Investment_Outcome> "Return on Investment Outcome is a Healthcare Economic Outcome that is reflected by a digital health application's ability to dteremine or influence the return on investment of the application itself, or of another application.")
 SubClassOf(<http://purl.org/doves/doves-ontology#Return_on_Investment_Outcome> <https://purl.org/doves/f4c71cb0-20ca-4838-bea8-c8aa68037a97>)
 
+# Class: <http://purl.org/doves/doves-ontology#Self-efficacy> (<http://purl.org/doves/doves-ontology#Self-efficacy>)
+
+SubClassOf(<http://purl.org/doves/doves-ontology#Self-efficacy> <https://purl.org/doves/4dcb77b8-51f4-4b3a-8a61-a4dd9e2c72ae>)
+
 # Class: <http://purl.org/doves/doves-ontology#Setting> (<http://purl.org/doves/doves-ontology#Setting>)
 
 SubClassOf(<http://purl.org/doves/doves-ontology#Setting> <https://purl.org/doves/78ceb509-e44b-4d8c-bd47-b457f9d835cb>)
@@ -967,6 +1041,14 @@ SubClassOf(<http://purl.org/doves/doves-ontology#Site_of_Care_Shift_Outcome> <ht
 # Class: <http://purl.org/doves/doves-ontology#Skilled_Nursing_Facility> (<http://purl.org/doves/doves-ontology#Skilled_Nursing_Facility>)
 
 SubClassOf(<http://purl.org/doves/doves-ontology#Skilled_Nursing_Facility> <http://purl.org/doves/doves-ontology#Setting>)
+
+# Class: <http://purl.org/doves/doves-ontology#Sleep_Disorder_Sign_Control_Outcome> (<http://purl.org/doves/doves-ontology#Sleep_Disorder_Sign_Control_Outcome>)
+
+SubClassOf(<http://purl.org/doves/doves-ontology#Sleep_Disorder_Sign_Control_Outcome> <http://purl.org/doves/doves-ontology#Sign_Control_Outcome>)
+
+# Class: <http://purl.org/doves/doves-ontology#Sleep_Disorder_Symptom_Scale> (<http://purl.org/doves/doves-ontology#Sleep_Disorder_Symptom_Scale>)
+
+SubClassOf(<http://purl.org/doves/doves-ontology#Sleep_Disorder_Symptom_Scale> <http://purl.org/doves/doves-ontology#Symptom_Control_Outcome>)
 
 # Class: <http://purl.org/doves/doves-ontology#Smoking_Cessation_Adherence_Outcome> (<http://purl.org/doves/doves-ontology#Smoking_Cessation_Adherence_Outcome>)
 
@@ -999,7 +1081,8 @@ SubClassOf(<http://purl.org/doves/doves-ontology#Time_to_Talk_to_a_Human_Outcome
 # Class: <http://purl.org/doves/doves-ontology#Toddler_Age_Group> (Toddler Age Group)
 
 AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Toddler_Age_Group> "Toddler Age Group")
-SubClassOf(<http://purl.org/doves/doves-ontology#Toddler_Age_Group> <https://purl.org/doves/6f732e5a-3cb8-47b2-a83e-7e7d24512e77>)
+AnnotationAssertion(skos:definition <http://purl.org/doves/doves-ontology#Toddler_Age_Group> "Toddler Age Group is a Child Age Group defined by the CDC as conatining individuals aged 1-3 years of age.  https://www.cdc.gov/ncbddd/childdevelopment/positiveparenting/toddlers2.html#:~:text=Toddlers%20(2%2D3%20years%20of%20age)")
+SubClassOf(<http://purl.org/doves/doves-ontology#Toddler_Age_Group> <http://purl.org/doves/doves-ontology#Child_Age_Group>)
 
 # Class: <http://purl.org/doves/doves-ontology#Turnaround_Time_Outcome> (Turnaround Time Outcome)
 
@@ -1011,6 +1094,12 @@ SubClassOf(<http://purl.org/doves/doves-ontology#Turnaround_Time_Outcome> <https
 
 AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Weight_Control_Outcome> "Weight Control Outcome")
 SubClassOf(<http://purl.org/doves/doves-ontology#Weight_Control_Outcome> <http://purl.org/doves/doves-ontology#Sign_Control_Outcome>)
+
+# Class: <http://purl.org/doves/doves-ontology#Young_Adult_Age_Group> (Young Adult Age Group)
+
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Young_Adult_Age_Group> "Young Adult Age Group")
+AnnotationAssertion(skos:definition <http://purl.org/doves/doves-ontology#Young_Adult_Age_Group> "Young Adult Age Group is defined as consisting of those individuals age 18-26. https://www.ncbi.nlm.nih.gov/books/NBK284791/#:~:text=Young%20adulthood%2C%20spanning%20approximately%20ages,and%20engaged%20members%20of%20the")
+SubClassOf(<http://purl.org/doves/doves-ontology#Young_Adult_Age_Group> <http://purl.org/doves/0b28937e_45cc_4f6f_b7d5_2d9ae70f61a0>)
 
 # Class: <http://purl.org/doves/doves-ontology#Cardiac_Intensive_Care_Unit_(CICU)> (<http://purl.org/doves/doves-ontology#Cardiac_Intensive_Care_Unit_(CICU)>)
 
@@ -2231,6 +2320,7 @@ SubClassOf(<https://purl.org/doves/5687bea0-97bc-42d1-9bfb-fc590b4cb4ee> <https:
 # Class: <https://purl.org/doves/58687062-857c-43f5-9e50-d6961a84a9b0> (Increased Diagnostic Throughput Outcome)
 
 AnnotationAssertion(rdfs:label <https://purl.org/doves/58687062-857c-43f5-9e50-d6961a84a9b0> "Increased Diagnostic Throughput Outcome"@en)
+AnnotationAssertion(skos:definition <https://purl.org/doves/58687062-857c-43f5-9e50-d6961a84a9b0> "Increased Diagnostic Throughput Outcome is a Healthcare operation Outcome that describes a greater number of diagnostic tests that can be performed and/or interpreted per unit of person-time. For example, this may be achieved through some degree of automation.")
 SubClassOf(<https://purl.org/doves/58687062-857c-43f5-9e50-d6961a84a9b0> <https://purl.org/doves/1ae3245a-1b7f-40b2-ae3b-74706699204a>)
 
 # Class: <https://purl.org/doves/590aa3dd-91ac-4473-9a47-142c4d83bb64> (Pediatric Anesthesiology)
@@ -2533,10 +2623,10 @@ AnnotationAssertion(rdfs:label <https://purl.org/doves/8e9f2330-e042-4723-a5f6-4
 AnnotationAssertion(skos:definition <https://purl.org/doves/8e9f2330-e042-4723-a5f6-422f7565f1ee> "A Health Benefit Outcome is a Clinical Care Outcome that pertains to the direct or indirect health benefit for the beneficiary of a digital medicine application.")
 SubClassOf(<https://purl.org/doves/8e9f2330-e042-4723-a5f6-422f7565f1ee> <https://purl.org/doves/93556eac-f0d7-4905-a6f2-6951892fcd82>)
 
-# Class: <https://purl.org/doves/8f5cfb55-bba6-475f-a508-30424e7532bc> (Modified Time to Diagnosis Outcome)
+# Class: <https://purl.org/doves/8f5cfb55-bba6-475f-a508-30424e7532bc> (Decreased Time to Diagnosis Outcome)
 
-AnnotationAssertion(rdfs:label <https://purl.org/doves/8f5cfb55-bba6-475f-a508-30424e7532bc> "Modified Time to Diagnosis Outcome"@en)
-AnnotationAssertion(skos:definition <https://purl.org/doves/8f5cfb55-bba6-475f-a508-30424e7532bc> "Time to Diagnosis Outcome is a Modified Diagnosis Outcome describing a Digital Medicine Application's capacity to impact the time required to arrive at a diagnosis.")
+AnnotationAssertion(rdfs:label <https://purl.org/doves/8f5cfb55-bba6-475f-a508-30424e7532bc> "Decreased Time to Diagnosis Outcome"@en)
+AnnotationAssertion(skos:definition <https://purl.org/doves/8f5cfb55-bba6-475f-a508-30424e7532bc> "Decreased Time to Diagnosis Outcome is a Modified Diagnosis Outcome describing a Digital Medicine Application's capacity to impact the time required to arrive at a diagnosis. Unlike Increased Diagnostic Throughput Outcome whose unit of measure is number of diagnostic tests/person-time, Modified Time to Diagnosis Outcome has a unit of measure that is only time.")
 SubClassOf(<https://purl.org/doves/8f5cfb55-bba6-475f-a508-30424e7532bc> <https://purl.org/doves/ff617266-46f1-4941-9053-81d4c3531170>)
 
 # Class: <https://purl.org/doves/80509963-5d53-4d25-94b1-2da4fd4a2b5d> (Pediatric Pulmonology)
@@ -2709,6 +2799,7 @@ SubClassOf(<https://purl.org/doves/9479abfd-b4df-4005-9a53-66eeef5dfc10> <https:
 # Class: <https://purl.org/doves/9597d5d0-d59c-47e9-808d-6827b75664ae> (Neonate Age Group)
 
 AnnotationAssertion(rdfs:label <https://purl.org/doves/9597d5d0-d59c-47e9-808d-6827b75664ae> "Neonate Age Group"@en)
+AnnotationAssertion(skos:definition <https://purl.org/doves/9597d5d0-d59c-47e9-808d-6827b75664ae> "Neonate Age Group is defined by the NIH as those individuals from birth to 1 month old. https://www.nih.gov/nih-style-guide/age")
 SubClassOf(<https://purl.org/doves/9597d5d0-d59c-47e9-808d-6827b75664ae> <https://purl.org/doves/6f732e5a-3cb8-47b2-a83e-7e7d24512e77>)
 
 # Class: <https://purl.org/doves/96a7fd52-c1f4-431d-872d-f4b420977a36> (Otolaryngology)
