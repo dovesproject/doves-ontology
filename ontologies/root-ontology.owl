@@ -53,6 +53,7 @@ Declaration(Class(<http://purl.org/doves/doves-ontology#Asian>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Bed_Control_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Biofeedback_Technology>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Black_or_African_American>))
+Declaration(Class(<http://purl.org/doves/doves-ontology#Bladder_Emptying_Time_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Cancer_Outcomes>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Child_Age_Group>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Completion_Rate_Outcome>))
@@ -97,6 +98,8 @@ Declaration(Class(<http://purl.org/doves/doves-ontology#ISO_27001_Certification_
 Declaration(Class(<http://purl.org/doves/doves-ontology#ISO_9241-210_Certification_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Improvement_in_Pittsbrgh_Sleep_Quality_Index_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Improvement_in_Pittsburgh_Sleep_Quality_Index_Outcome>))
+Declaration(Class(<http://purl.org/doves/doves-ontology#Improvement_in_Sleep_Disturbance_Scale_for_Children_Outcome>))
+Declaration(Class(<http://purl.org/doves/doves-ontology#Improvement_in_Sleep_Quality_Scale_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Improvement_in_Trauma_Related_Nightmare_Symptoms_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Improving_Healthcare_Team_Communication_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Improving_Transitions_in_Care_Outcome>))
@@ -156,6 +159,7 @@ Declaration(Class(<http://purl.org/doves/doves-ontology#Time_to_Talk_to_a_Human_
 Declaration(Class(<http://purl.org/doves/doves-ontology#Toddler_Age_Group>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Turnaround_Time_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Unknown>))
+Declaration(Class(<http://purl.org/doves/doves-ontology#Urinary_Sign_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Weight_Control_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#White>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Young_Adult_Age_Group>))
@@ -165,13 +169,16 @@ Declaration(Class(<http://purl.org/doves/doves-ontology#Chronic_Respiratory_Dise
 Declaration(Class(<http://purl.org/doves/doves-ontology#Conformite_Europeenne_(CE)>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Fast_Healthcare_Interoperability_Resources_(FHIR)_API_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Hospital_COnsumer_Assessment_of_Healthcare_Providers_and_Systems_(HCAHPS)_Outcome>))
+Declaration(Class(<http://purl.org/doves/doves-ontology#MDS-Unified_Parkinson's_Disease_Rating_Scale_(MDS-UPRDRS)_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Modified_Ashworth_Scale_(MAS)_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Modified_Medical_Research_Council_(MMRC)_Dyspnea_Scale>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Neonatal_Intensive_Care_Unit_(NICU)>))
+Declaration(Class(<http://purl.org/doves/doves-ontology#O'Leary-Sant_Symptom_Index_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Oswestry_Disability_Index_(ODI)_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#PTSD_Checklist_for_DSM-5_(PCL-5)>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Patient_Activation_Measure_(PAM)_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Pediatric_Intensive_Care_Unit_(PICU)>))
+Declaration(Class(<http://purl.org/doves/doves-ontology#Pelvic_Floor_Disability_Index_(PFDI-20)_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Representational_State_Transfer_(REST)_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Self_Efficacy_to_Manage_Chronic_Disease_(SEMCD)_Scale_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#St._George's_Respiratory_Questionnaire_(SGRT)_Outcome>))
@@ -749,6 +756,11 @@ SubClassOf(<http://purl.org/doves/doves-ontology#Biofeedback_Technology> <https:
 
 SubClassOf(<http://purl.org/doves/doves-ontology#Black_or_African_American> <http://purl.org/doves/doves-ontology#Race>)
 
+# Class: <http://purl.org/doves/doves-ontology#Bladder_Emptying_Time_Outcome> (Bladder Emptying Time Outcome)
+
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Bladder_Emptying_Time_Outcome> "Bladder Emptying Time Outcome")
+SubClassOf(<http://purl.org/doves/doves-ontology#Bladder_Emptying_Time_Outcome> <http://purl.org/doves/doves-ontology#Urinary_Sign_Outcome>)
+
 # Class: <http://purl.org/doves/doves-ontology#Cancer_Outcomes> (Cancer Outcomes)
 
 AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Cancer_Outcomes> "Cancer Outcomes")
@@ -995,16 +1007,28 @@ SubClassOf(<http://purl.org/doves/doves-ontology#ISO_27001_Certification_Outcome
 AnnotationAssertion(skos:definition <http://purl.org/doves/doves-ontology#ISO_9241-210_Certification_Outcome> "skos:definition \"ISO 9241-210 is a Human Factors and Usability outcome that indicates a product's certification to the International Organization for Standardization's Ergonomics for human-system interaction Part 210 Human-centered design for interactive systems.  https://www.iso.org/standard/77520.html\"")
 SubClassOf(<http://purl.org/doves/doves-ontology#ISO_9241-210_Certification_Outcome> <https://purl.org/doves/be939100-e527-489d-ab9a-94aa852245f6>)
 
-# Class: <http://purl.org/doves/doves-ontology#Improvement_in_Pittsbrgh_Sleep_Quality_Index_Outcome> (<http://purl.org/doves/doves-ontology#Improvement_in_Pittsbrgh_Sleep_Quality_Index_Outcome>)
+# Class: <http://purl.org/doves/doves-ontology#Improvement_in_Pittsbrgh_Sleep_Quality_Index_Outcome> (Improvement in Pittsburgh Sleep Quality Index Outcome)
 
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Improvement_in_Pittsbrgh_Sleep_Quality_Index_Outcome> "Improvement in Pittsburgh Sleep Quality Index Outcome")
 SubClassOf(<http://purl.org/doves/doves-ontology#Improvement_in_Pittsbrgh_Sleep_Quality_Index_Outcome> <http://purl.org/doves/doves-ontology#Sleep_Disorder_Symptom_Scale>)
 
 # Class: <http://purl.org/doves/doves-ontology#Improvement_in_Pittsburgh_Sleep_Quality_Index_Outcome> (<http://purl.org/doves/doves-ontology#Improvement_in_Pittsburgh_Sleep_Quality_Index_Outcome>)
 
 SubClassOf(<http://purl.org/doves/doves-ontology#Improvement_in_Pittsburgh_Sleep_Quality_Index_Outcome> <http://purl.org/doves/doves-ontology#Insomnia_Control_Outcome>)
 
-# Class: <http://purl.org/doves/doves-ontology#Improvement_in_Trauma_Related_Nightmare_Symptoms_Outcome> (<http://purl.org/doves/doves-ontology#Improvement_in_Trauma_Related_Nightmare_Symptoms_Outcome>)
+# Class: <http://purl.org/doves/doves-ontology#Improvement_in_Sleep_Disturbance_Scale_for_Children_Outcome> (Improvement in Sleep Disturbance Scale for Children Outcome)
 
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Improvement_in_Sleep_Disturbance_Scale_for_Children_Outcome> "Improvement in Sleep Disturbance Scale for Children Outcome")
+SubClassOf(<http://purl.org/doves/doves-ontology#Improvement_in_Sleep_Disturbance_Scale_for_Children_Outcome> <http://purl.org/doves/doves-ontology#Sleep_Disorder_Symptom_Scale>)
+
+# Class: <http://purl.org/doves/doves-ontology#Improvement_in_Sleep_Quality_Scale_Outcome> (Improvement in Sleep Quality Scale Outcome)
+
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Improvement_in_Sleep_Quality_Scale_Outcome> "Improvement in Sleep Quality Scale Outcome")
+SubClassOf(<http://purl.org/doves/doves-ontology#Improvement_in_Sleep_Quality_Scale_Outcome> <http://purl.org/doves/doves-ontology#Sleep_Disorder_Symptom_Scale>)
+
+# Class: <http://purl.org/doves/doves-ontology#Improvement_in_Trauma_Related_Nightmare_Symptoms_Outcome> (Improvement in Trauma Related Nightmare Symptoms Outcome)
+
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Improvement_in_Trauma_Related_Nightmare_Symptoms_Outcome> "Improvement in Trauma Related Nightmare Symptoms Outcome")
 SubClassOf(<http://purl.org/doves/doves-ontology#Improvement_in_Trauma_Related_Nightmare_Symptoms_Outcome> <http://purl.org/doves/doves-ontology#Sleep_Disorder_Symptom_Scale>)
 
 # Class: <http://purl.org/doves/doves-ontology#Improving_Healthcare_Team_Communication_Outcome> (Improving Healthcare Team Communication Outcome)
@@ -1065,8 +1089,9 @@ SubClassOf(<http://purl.org/doves/doves-ontology#Inpatient> <http://purl.org/dov
 
 SubClassOf(<http://purl.org/doves/doves-ontology#Insomnia_Sign_Control_Outcome> <http://purl.org/doves/doves-ontology#Sleep_Disorder_Sign_Control_Outcome>)
 
-# Class: <http://purl.org/doves/doves-ontology#Insomnia_Symptom_Control_Outcome> (<http://purl.org/doves/doves-ontology#Insomnia_Symptom_Control_Outcome>)
+# Class: <http://purl.org/doves/doves-ontology#Insomnia_Symptom_Control_Outcome> (Improvement in Insomnia Symptom Control Outcome)
 
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Insomnia_Symptom_Control_Outcome> "Improvement in Insomnia Symptom Control Outcome")
 SubClassOf(<http://purl.org/doves/doves-ontology#Insomnia_Symptom_Control_Outcome> <http://purl.org/doves/doves-ontology#Sleep_Disorder_Symptom_Scale>)
 
 # Class: <http://purl.org/doves/doves-ontology#Intesive_Care_Unit> (<http://purl.org/doves/doves-ontology#Intesive_Care_Unit>)
@@ -1233,13 +1258,15 @@ SubClassOf(<http://purl.org/doves/doves-ontology#Site_of_Care_Shift_Outcome> <ht
 
 SubClassOf(<http://purl.org/doves/doves-ontology#Skilled_Nursing_Facility> <http://purl.org/doves/doves-ontology#Setting>)
 
-# Class: <http://purl.org/doves/doves-ontology#Sleep_Disorder_Sign_Control_Outcome> (<http://purl.org/doves/doves-ontology#Sleep_Disorder_Sign_Control_Outcome>)
+# Class: <http://purl.org/doves/doves-ontology#Sleep_Disorder_Sign_Control_Outcome> (Sleep Disorder Sign Control Outcome)
 
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Sleep_Disorder_Sign_Control_Outcome> "Sleep Disorder Sign Control Outcome")
 SubClassOf(<http://purl.org/doves/doves-ontology#Sleep_Disorder_Sign_Control_Outcome> <http://purl.org/doves/doves-ontology#Sign_Control_Outcome>)
 
-# Class: <http://purl.org/doves/doves-ontology#Sleep_Disorder_Symptom_Scale> (<http://purl.org/doves/doves-ontology#Sleep_Disorder_Symptom_Scale>)
+# Class: <http://purl.org/doves/doves-ontology#Sleep_Disorder_Symptom_Scale> (Sleep Disorder Symptom Scale Outcomes)
 
-SubClassOf(<http://purl.org/doves/doves-ontology#Sleep_Disorder_Symptom_Scale> <http://purl.org/doves/doves-ontology#Symptom_Control_Outcome>)
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Sleep_Disorder_Symptom_Scale> "Sleep Disorder Symptom Scale Outcomes")
+SubClassOf(<http://purl.org/doves/doves-ontology#Sleep_Disorder_Symptom_Scale> <https://purl.org/doves/9caa2510-f3a6-4de8-adcb-c554e91aeba7>)
 
 # Class: <http://purl.org/doves/doves-ontology#Smoking_Cessation_Adherence_Outcome> (<http://purl.org/doves/doves-ontology#Smoking_Cessation_Adherence_Outcome>)
 
@@ -1289,6 +1316,11 @@ SubClassOf(<http://purl.org/doves/doves-ontology#Turnaround_Time_Outcome> <https
 
 SubClassOf(<http://purl.org/doves/doves-ontology#Unknown> <https://purl.org/doves/81955a73-7b46-4cb4-bbae-5c34311aa8a0>)
 
+# Class: <http://purl.org/doves/doves-ontology#Urinary_Sign_Outcome> (Urinary Sign Outcome)
+
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Urinary_Sign_Outcome> "Urinary Sign Outcome")
+SubClassOf(<http://purl.org/doves/doves-ontology#Urinary_Sign_Outcome> <http://purl.org/doves/doves-ontology#Sign_Control_Outcome>)
+
 # Class: <http://purl.org/doves/doves-ontology#Weight_Control_Outcome> (Weight Control Outcome)
 
 AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Weight_Control_Outcome> "Weight Control Outcome")
@@ -1333,6 +1365,11 @@ SubClassOf(<http://purl.org/doves/doves-ontology#Fast_Healthcare_Interoperabilit
 AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Hospital_COnsumer_Assessment_of_Healthcare_Providers_and_Systems_(HCAHPS)_Outcome> "Hospital Consumer Assessment of Healthcare Providers and Systems (HCAHPS) Outcome")
 SubClassOf(<http://purl.org/doves/doves-ontology#Hospital_COnsumer_Assessment_of_Healthcare_Providers_and_Systems_(HCAHPS)_Outcome> <https://purl.org/doves/9caa2510-f3a6-4de8-adcb-c554e91aeba7>)
 
+# Class: <http://purl.org/doves/doves-ontology#MDS-Unified_Parkinson's_Disease_Rating_Scale_(MDS-UPRDRS)_Outcome> (MDS-Unified Parkinson's Disease Rating Scale (MDS-UPRDRS) Outcome)
+
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#MDS-Unified_Parkinson's_Disease_Rating_Scale_(MDS-UPRDRS)_Outcome> "MDS-Unified Parkinson's Disease Rating Scale (MDS-UPRDRS) Outcome")
+SubClassOf(<http://purl.org/doves/doves-ontology#MDS-Unified_Parkinson's_Disease_Rating_Scale_(MDS-UPRDRS)_Outcome> <https://purl.org/doves/9caa2510-f3a6-4de8-adcb-c554e91aeba7>)
+
 # Class: <http://purl.org/doves/doves-ontology#Modified_Ashworth_Scale_(MAS)_Outcome> (Modified Ashworth Scale (MAS) Outcome)
 
 AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Modified_Ashworth_Scale_(MAS)_Outcome> "Modified Ashworth Scale (MAS) Outcome")
@@ -1355,6 +1392,11 @@ SubClassOf(<http://purl.org/doves/doves-ontology#Modified_Medical_Research_Counc
 
 SubClassOf(<http://purl.org/doves/doves-ontology#Neonatal_Intensive_Care_Unit_(NICU)> <http://purl.org/doves/doves-ontology#Intesive_Care_Unit>)
 
+# Class: <http://purl.org/doves/doves-ontology#O'Leary-Sant_Symptom_Index_Outcome> (O'Leary-Sant Symptom Index Outcome)
+
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#O'Leary-Sant_Symptom_Index_Outcome> "O'Leary-Sant Symptom Index Outcome")
+SubClassOf(<http://purl.org/doves/doves-ontology#O'Leary-Sant_Symptom_Index_Outcome> <https://purl.org/doves/9caa2510-f3a6-4de8-adcb-c554e91aeba7>)
+
 # Class: <http://purl.org/doves/doves-ontology#Oswestry_Disability_Index_(ODI)_Outcome> (Oswestry Disability Index (ODI) Outcome)
 
 AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Oswestry_Disability_Index_(ODI)_Outcome> "Oswestry Disability Index (ODI) Outcome")
@@ -1373,6 +1415,11 @@ SubClassOf(<http://purl.org/doves/doves-ontology#Patient_Activation_Measure_(PAM
 # Class: <http://purl.org/doves/doves-ontology#Pediatric_Intensive_Care_Unit_(PICU)> (<http://purl.org/doves/doves-ontology#Pediatric_Intensive_Care_Unit_(PICU)>)
 
 SubClassOf(<http://purl.org/doves/doves-ontology#Pediatric_Intensive_Care_Unit_(PICU)> <http://purl.org/doves/doves-ontology#Intesive_Care_Unit>)
+
+# Class: <http://purl.org/doves/doves-ontology#Pelvic_Floor_Disability_Index_(PFDI-20)_Outcome> (Pelvic Floor Disability Index (PFDI-20) Outcome)
+
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Pelvic_Floor_Disability_Index_(PFDI-20)_Outcome> "Pelvic Floor Disability Index (PFDI-20) Outcome")
+SubClassOf(<http://purl.org/doves/doves-ontology#Pelvic_Floor_Disability_Index_(PFDI-20)_Outcome> <https://purl.org/doves/9caa2510-f3a6-4de8-adcb-c554e91aeba7>)
 
 # Class: <http://purl.org/doves/doves-ontology#Representational_State_Transfer_(REST)_Outcome> (Representational State Transfer (REST) Outcome)
 
