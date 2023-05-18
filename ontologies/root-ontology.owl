@@ -97,7 +97,6 @@ Declaration(Class(<http://purl.org/doves/doves-ontology#ISO_13485_Certification_
 Declaration(Class(<http://purl.org/doves/doves-ontology#ISO_27001_Certification_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#ISO_9241-210_Certification_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Improvement_in_Pittsbrgh_Sleep_Quality_Index_Outcome>))
-Declaration(Class(<http://purl.org/doves/doves-ontology#Improvement_in_Pittsburgh_Sleep_Quality_Index_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Improvement_in_Sleep_Disturbance_Scale_for_Children_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Improvement_in_Sleep_Quality_Scale_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Improvement_in_Trauma_Related_Nightmare_Symptoms_Outcome>))
@@ -105,9 +104,11 @@ Declaration(Class(<http://purl.org/doves/doves-ontology#Improving_Healthcare_Tea
 Declaration(Class(<http://purl.org/doves/doves-ontology#Improving_Transitions_in_Care_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Increased_Magnetic_Resonance_Imaging_Throughput_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Increased_Radiology_Throughput_Outcome>))
+Declaration(Class(<http://purl.org/doves/doves-ontology#Increased_Rate_of_Return_to_Work_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Increased_Revenue_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Increased_Sleep_Quantity_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Increased_Specialty_Care_Encounter_Rate_Outcome>))
+Declaration(Class(<http://purl.org/doves/doves-ontology#Increased_Speed_of_Return_to_Work_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Increased_Treatment_Throughput_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Increased_Ultrasonography_Throughput_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Infant_Age_Group>))
@@ -128,6 +129,7 @@ Declaration(Class(<http://purl.org/doves/doves-ontology#Not_Hispanic_or_Latino>)
 Declaration(Class(<http://purl.org/doves/doves-ontology#Offline_Availability_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Older_Adult_Age_Group>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Pain_Control_Outcome>))
+Declaration(Class(<http://purl.org/doves/doves-ontology#Patient_Socioeconomic_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Percent_of_Issues_Open_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Pittsburgh_Sleep_Quality_Index>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Pittsburgh_Sleep_Quality_Index_Addendum_for_PTSD>))
@@ -136,6 +138,8 @@ Declaration(Class(<http://purl.org/doves/doves-ontology#Proportion_of_Days_Per_M
 Declaration(Class(<http://purl.org/doves/doves-ontology#Proportion_of_Images_Gradable_by_Algorithm_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Race>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Reduced_Calendar_Year_Total_Cost_of_Care_Outcome>))
+Declaration(Class(<http://purl.org/doves/doves-ontology#Reduced_Hypertensive_Emergency_Outcome>))
+Declaration(Class(<http://purl.org/doves/doves-ontology#Reduced_Hypertensive_Urgency_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Reduced_Per_Member_Per_Month_Cost_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Reduced_Prescription_Drug_Cost_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Regulatory_Approval>))
@@ -163,13 +167,17 @@ Declaration(Class(<http://purl.org/doves/doves-ontology#Urinary_Sign_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Weight_Control_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#White>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Young_Adult_Age_Group>))
+Declaration(Class(<http://purl.org/doves/doves-ontology#Barthel_Index_(BI)_Outcome>))
+Declaration(Class(<http://purl.org/doves/doves-ontology#Berg_Balance_Scale_(BBS)_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#COPD_Assessment_Test_(CAT)>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Cardiac_Intensive_Care_Unit_(CICU)>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Chronic_Respiratory_Disease_Questionnaire_(CRQ)_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Conformite_Europeenne_(CE)>))
+Declaration(Class(<http://purl.org/doves/doves-ontology#Dynamic_Gait_Index_(DGI)_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Fast_Healthcare_Interoperability_Resources_(FHIR)_API_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Hospital_COnsumer_Assessment_of_Healthcare_Providers_and_Systems_(HCAHPS)_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#MDS-Unified_Parkinson's_Disease_Rating_Scale_(MDS-UPRDRS)_Outcome>))
+Declaration(Class(<http://purl.org/doves/doves-ontology#Manual_Muscle_Testing_(MMT)_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Modified_Ashworth_Scale_(MAS)_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Modified_Medical_Research_Council_(MMRC)_Dyspnea_Scale>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Neonatal_Intensive_Care_Unit_(NICU)>))
@@ -1012,10 +1020,6 @@ SubClassOf(<http://purl.org/doves/doves-ontology#ISO_9241-210_Certification_Outc
 AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Improvement_in_Pittsbrgh_Sleep_Quality_Index_Outcome> "Improvement in Pittsburgh Sleep Quality Index Outcome")
 SubClassOf(<http://purl.org/doves/doves-ontology#Improvement_in_Pittsbrgh_Sleep_Quality_Index_Outcome> <http://purl.org/doves/doves-ontology#Sleep_Disorder_Symptom_Scale>)
 
-# Class: <http://purl.org/doves/doves-ontology#Improvement_in_Pittsburgh_Sleep_Quality_Index_Outcome> (<http://purl.org/doves/doves-ontology#Improvement_in_Pittsburgh_Sleep_Quality_Index_Outcome>)
-
-SubClassOf(<http://purl.org/doves/doves-ontology#Improvement_in_Pittsburgh_Sleep_Quality_Index_Outcome> <http://purl.org/doves/doves-ontology#Insomnia_Control_Outcome>)
-
 # Class: <http://purl.org/doves/doves-ontology#Improvement_in_Sleep_Disturbance_Scale_for_Children_Outcome> (Improvement in Sleep Disturbance Scale for Children Outcome)
 
 AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Improvement_in_Sleep_Disturbance_Scale_for_Children_Outcome> "Improvement in Sleep Disturbance Scale for Children Outcome")
@@ -1051,6 +1055,11 @@ SubClassOf(<http://purl.org/doves/doves-ontology#Increased_Magnetic_Resonance_Im
 
 SubClassOf(<http://purl.org/doves/doves-ontology#Increased_Radiology_Throughput_Outcome> <https://purl.org/doves/58687062-857c-43f5-9e50-d6961a84a9b0>)
 
+# Class: <http://purl.org/doves/doves-ontology#Increased_Rate_of_Return_to_Work_Outcome> (Increased Rate of Return to Work Outcome)
+
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Increased_Rate_of_Return_to_Work_Outcome> "Increased Rate of Return to Work Outcome")
+SubClassOf(<http://purl.org/doves/doves-ontology#Increased_Rate_of_Return_to_Work_Outcome> <http://purl.org/doves/doves-ontology#Patient_Socioeconomic_Outcome>)
+
 # Class: <http://purl.org/doves/doves-ontology#Increased_Revenue_Outcome> (Increased Revenue Outcome)
 
 AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Increased_Revenue_Outcome> "Increased Revenue Outcome")
@@ -1064,6 +1073,11 @@ SubClassOf(<http://purl.org/doves/doves-ontology#Increased_Sleep_Quantity_Outcom
 
 AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Increased_Specialty_Care_Encounter_Rate_Outcome> "Increased Specialty Care Encounter Rate Outcome")
 SubClassOf(<http://purl.org/doves/doves-ontology#Increased_Specialty_Care_Encounter_Rate_Outcome> <http://purl.org/doves/doves-ontology#Modified_Specialty_Care_Encounter_Rate_Outcome>)
+
+# Class: <http://purl.org/doves/doves-ontology#Increased_Speed_of_Return_to_Work_Outcome> (Increased Speed of Return to Work Outcome)
+
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Increased_Speed_of_Return_to_Work_Outcome> "Increased Speed of Return to Work Outcome")
+SubClassOf(<http://purl.org/doves/doves-ontology#Increased_Speed_of_Return_to_Work_Outcome> <http://purl.org/doves/doves-ontology#Patient_Socioeconomic_Outcome>)
 
 # Class: <http://purl.org/doves/doves-ontology#Increased_Treatment_Throughput_Outcome> (Increased Treatment Throughput Outcome)
 
@@ -1084,6 +1098,11 @@ SubClassOf(<http://purl.org/doves/doves-ontology#Infant_Age_Group> <https://purl
 # Class: <http://purl.org/doves/doves-ontology#Inpatient> (<http://purl.org/doves/doves-ontology#Inpatient>)
 
 SubClassOf(<http://purl.org/doves/doves-ontology#Inpatient> <http://purl.org/doves/doves-ontology#Setting>)
+
+# Class: <http://purl.org/doves/doves-ontology#Insomnia_Control_Outcome> (Insomnia Control Outcome)
+
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Insomnia_Control_Outcome> "Insomnia Control Outcome")
+SubClassOf(<http://purl.org/doves/doves-ontology#Insomnia_Control_Outcome> <http://purl.org/doves/doves-ontology#Symptom_Control_Outcome>)
 
 # Class: <http://purl.org/doves/doves-ontology#Insomnia_Sign_Control_Outcome> (<http://purl.org/doves/doves-ontology#Insomnia_Sign_Control_Outcome>)
 
@@ -1161,6 +1180,11 @@ SubClassOf(<http://purl.org/doves/doves-ontology#Older_Adult_Age_Group> <http://
 AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Pain_Control_Outcome> "Pain Control Outcome")
 SubClassOf(<http://purl.org/doves/doves-ontology#Pain_Control_Outcome> <http://purl.org/doves/doves-ontology#Symptom_Control_Outcome>)
 
+# Class: <http://purl.org/doves/doves-ontology#Patient_Socioeconomic_Outcome> (Patient Socioeconomic Outcome)
+
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Patient_Socioeconomic_Outcome> "Patient Socioeconomic Outcome")
+SubClassOf(<http://purl.org/doves/doves-ontology#Patient_Socioeconomic_Outcome> <https://purl.org/doves/8081940e-b77f-4aa1-bfcf-0b979f0a2158>)
+
 # Class: <http://purl.org/doves/doves-ontology#Percent_of_Issues_Open_Outcome> (Percent of Issues Open Outcome)
 
 AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Percent_of_Issues_Open_Outcome> "Percent of Issues Open Outcome")
@@ -1203,6 +1227,16 @@ SubClassOf(<http://purl.org/doves/doves-ontology#Race> <https://purl.org/doves/7
 
 AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Reduced_Calendar_Year_Total_Cost_of_Care_Outcome> "Reduced Calendar Year Total Cost of Care Outcome")
 SubClassOf(<http://purl.org/doves/doves-ontology#Reduced_Calendar_Year_Total_Cost_of_Care_Outcome> <https://purl.org/doves/7124f3ed-a489-431c-90ce-c2a5fe7d95bb>)
+
+# Class: <http://purl.org/doves/doves-ontology#Reduced_Hypertensive_Emergency_Outcome> (Reduced Hypertensive Urgency Outcome)
+
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Reduced_Hypertensive_Emergency_Outcome> "Reduced Hypertensive Urgency Outcome")
+SubClassOf(<http://purl.org/doves/doves-ontology#Reduced_Hypertensive_Emergency_Outcome> <http://purl.org/doves/23303eb4_0fb1_4163_a8a8_b1f7c69ece81>)
+
+# Class: <http://purl.org/doves/doves-ontology#Reduced_Hypertensive_Urgency_Outcome> (Reduced Hypertensive Urgency Outcome)
+
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Reduced_Hypertensive_Urgency_Outcome> "Reduced Hypertensive Urgency Outcome")
+SubClassOf(<http://purl.org/doves/doves-ontology#Reduced_Hypertensive_Urgency_Outcome> <http://purl.org/doves/23303eb4_0fb1_4163_a8a8_b1f7c69ece81>)
 
 # Class: <http://purl.org/doves/doves-ontology#Reduced_Per_Member_Per_Month_Cost_Outcome> (Reduced Per Member Per Month Cost Outcome)
 
@@ -1336,6 +1370,17 @@ AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Young_Adult
 AnnotationAssertion(skos:definition <http://purl.org/doves/doves-ontology#Young_Adult_Age_Group> "Young Adult Age Group is defined as consisting of those individuals age 18-26. https://www.ncbi.nlm.nih.gov/books/NBK284791/#:~:text=Young%20adulthood%2C%20spanning%20approximately%20ages,and%20engaged%20members%20of%20the")
 SubClassOf(<http://purl.org/doves/doves-ontology#Young_Adult_Age_Group> <http://purl.org/doves/0b28937e_45cc_4f6f_b7d5_2d9ae70f61a0>)
 
+# Class: <http://purl.org/doves/doves-ontology#Barthel_Index_(BI)_Outcome> (Barthel Index (BI) Outcome)
+
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Barthel_Index_(BI)_Outcome> "Barthel Index (BI) Outcome")
+SubClassOf(<http://purl.org/doves/doves-ontology#Barthel_Index_(BI)_Outcome> <http://purl.org/doves/doves-ontology#Healthcare_Provider_Reported_Outcome>)
+
+# Class: <http://purl.org/doves/doves-ontology#Berg_Balance_Scale_(BBS)_Outcome> (Berg Balance Scale (BBS) Outcome)
+
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Berg_Balance_Scale_(BBS)_Outcome> "Berg Balance Scale (BBS) Outcome")
+AnnotationAssertion(skos:definition <http://purl.org/doves/doves-ontology#Berg_Balance_Scale_(BBS)_Outcome> "The Berg Balance Score (BBS) is an objective measurement tool, originally designed to measure balance in older individuals. It consists of 14 items scored on an ordinal scale of 0 to 4 for a total of 56 points (a higher score indicates lower fall risk).")
+SubClassOf(<http://purl.org/doves/doves-ontology#Berg_Balance_Scale_(BBS)_Outcome> <http://purl.org/doves/doves-ontology#Healthcare_Provider_Reported_Outcome>)
+
 # Class: <http://purl.org/doves/doves-ontology#COPD_Assessment_Test_(CAT)> (COPD Assessment Test (CAT) Outcome)
 
 AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#COPD_Assessment_Test_(CAT)> "COPD Assessment Test (CAT) Outcome")
@@ -1355,6 +1400,11 @@ SubClassOf(<http://purl.org/doves/doves-ontology#Chronic_Respiratory_Disease_Que
 AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Conformite_Europeenne_(CE)> "Conformite Europeenne (CE)")
 SubClassOf(<http://purl.org/doves/doves-ontology#Conformite_Europeenne_(CE)> <http://purl.org/doves/doves-ontology#Regulatory_Approval>)
 
+# Class: <http://purl.org/doves/doves-ontology#Dynamic_Gait_Index_(DGI)_Outcome> (Dynamic Gait Index (DGI) Outcome)
+
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Dynamic_Gait_Index_(DGI)_Outcome> "Dynamic Gait Index (DGI) Outcome")
+SubClassOf(<http://purl.org/doves/doves-ontology#Dynamic_Gait_Index_(DGI)_Outcome> <http://purl.org/doves/doves-ontology#Healthcare_Provider_Reported_Outcome>)
+
 # Class: <http://purl.org/doves/doves-ontology#Fast_Healthcare_Interoperability_Resources_(FHIR)_API_Outcome> (Fast Healthcare Interoperability Resources (FHIR) API Outcome)
 
 AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Fast_Healthcare_Interoperability_Resources_(FHIR)_API_Outcome> "Fast Healthcare Interoperability Resources (FHIR) API Outcome")
@@ -1369,6 +1419,12 @@ SubClassOf(<http://purl.org/doves/doves-ontology#Hospital_COnsumer_Assessment_of
 
 AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#MDS-Unified_Parkinson's_Disease_Rating_Scale_(MDS-UPRDRS)_Outcome> "MDS-Unified Parkinson's Disease Rating Scale (MDS-UPRDRS) Outcome")
 SubClassOf(<http://purl.org/doves/doves-ontology#MDS-Unified_Parkinson's_Disease_Rating_Scale_(MDS-UPRDRS)_Outcome> <https://purl.org/doves/9caa2510-f3a6-4de8-adcb-c554e91aeba7>)
+
+# Class: <http://purl.org/doves/doves-ontology#Manual_Muscle_Testing_(MMT)_Outcome> (Manual Muscle Testing (MMT) Outcome)
+
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Manual_Muscle_Testing_(MMT)_Outcome> "Manual Muscle Testing (MMT) Outcome")
+AnnotationAssertion(skos:definition <http://purl.org/doves/doves-ontology#Manual_Muscle_Testing_(MMT)_Outcome> "MMT grades are usually labelled with the following terms: “zero,” “trace,” “poor,” “fair,” “good,” and “normal.” In addition, manual muscle testing grades can be further described using a numerical scale from 0 through 5.")
+SubClassOf(<http://purl.org/doves/doves-ontology#Manual_Muscle_Testing_(MMT)_Outcome> <http://purl.org/doves/doves-ontology#Healthcare_Provider_Reported_Outcome>)
 
 # Class: <http://purl.org/doves/doves-ontology#Modified_Ashworth_Scale_(MAS)_Outcome> (Modified Ashworth Scale (MAS) Outcome)
 
