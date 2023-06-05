@@ -87,6 +87,7 @@ Declaration(Class(<http://purl.org/doves/doves-ontology#HEDIS_Diabetes_Blood_Pre
 Declaration(Class(<http://purl.org/doves/doves-ontology#HEDIS_Diabetic_Nephropathy_Screening_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#HEDIS_HbA1c_Control>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#HL7_Access_Outcome>))
+Declaration(Class(<http://purl.org/doves/doves-ontology#Headache_Control_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Health_Literacy_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Healthcare_Provider_Reported_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Healthy_Eating_Index_Score_Outcome>))
@@ -967,6 +968,10 @@ SubClassOf(<http://purl.org/doves/doves-ontology#HEDIS_HbA1c_Control> <https://p
 
 AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#HL7_Access_Outcome> "HL7 Access Outcome")
 SubClassOf(<http://purl.org/doves/doves-ontology#HL7_Access_Outcome> <https://purl.org/doves/eec4d9eb-9db4-44f5-9523-c8b481cf4293>)
+
+# Class: <http://purl.org/doves/doves-ontology#Headache_Control_Outcome> (<http://purl.org/doves/doves-ontology#Headache_Control_Outcome>)
+
+SubClassOf(<http://purl.org/doves/doves-ontology#Headache_Control_Outcome> <http://purl.org/doves/doves-ontology#Pain_Control_Outcome>)
 
 # Class: <http://purl.org/doves/doves-ontology#Health_Literacy_Outcome> (Health Literacy Outcome)
 
