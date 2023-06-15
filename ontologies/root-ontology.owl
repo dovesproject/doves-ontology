@@ -47,6 +47,7 @@ Declaration(Class(<http://purl.org/doves/doves-ontology#Alcohol_Use_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Ambulatory>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#American_Indian_or_Alaska_Native>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Ante-partum_Age_Group>))
+Declaration(Class(<http://purl.org/doves/doves-ontology#Anxiety_Control>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Anxiety_Control_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Area_Under_the_Curve>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Asian>))
@@ -63,6 +64,7 @@ Declaration(Class(<http://purl.org/doves/doves-ontology#Decreased_Proportion_of_
 Declaration(Class(<http://purl.org/doves/doves-ontology#Decreased_Sleep_Interruption_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Decreased_Sleep_Latency_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Decreased_Specialty_Care_Encounter_Rate_Outcome>))
+Declaration(Class(<http://purl.org/doves/doves-ontology#Depression_Control>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Depression_Control_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Diabetic_Retinopathy_Exam_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Dietary_Adherence_Outcome>))
@@ -92,6 +94,7 @@ Declaration(Class(<http://purl.org/doves/doves-ontology#Health_Literacy_Outcome>
 Declaration(Class(<http://purl.org/doves/doves-ontology#Healthcare_Provider_Reported_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Healthy_Eating_Index_Score_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Hispanic_or_Latino>))
+Declaration(Class(<http://purl.org/doves/doves-ontology#Hot_Flashes_Control>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Hybrid_Healthcare_Provider-Patient_Reported_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#ICU_Bounce_Back_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#ISO_13485_Certification_Outcome>))
@@ -126,6 +129,7 @@ Declaration(Class(<http://purl.org/doves/doves-ontology#Modified_Ambulatory_Care
 Declaration(Class(<http://purl.org/doves/doves-ontology#Modified_Procedural_Encounter_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Modified_Specialty_Care_Encounter_Rate_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Native_Hawaiian_or_Other_Pacific_Islander>))
+Declaration(Class(<http://purl.org/doves/doves-ontology#Night_Sweat_Control>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Not_Hispanic_or_Latino>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Offline_Availability_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Older_Adult_Age_Group>))
@@ -176,6 +180,7 @@ Declaration(Class(<http://purl.org/doves/doves-ontology#Chronic_Respiratory_Dise
 Declaration(Class(<http://purl.org/doves/doves-ontology#Conformite_Europeenne_(CE)>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Dynamic_Gait_Index_(DGI)_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Fast_Healthcare_Interoperability_Resources_(FHIR)_API_Outcome>))
+Declaration(Class(<http://purl.org/doves/doves-ontology#Greene_Climacteric_Scale_(GCS)_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Hospital_COnsumer_Assessment_of_Healthcare_Providers_and_Systems_(HCAHPS)_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#MDS-Unified_Parkinson's_Disease_Rating_Scale_(MDS-UPRDRS)_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Manual_Muscle_Testing_(MMT)_Outcome>))
@@ -739,6 +744,11 @@ SubClassOf(<http://purl.org/doves/doves-ontology#American_Indian_or_Alaska_Nativ
 AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Ante-partum_Age_Group> "In Utero Age Group")
 SubClassOf(<http://purl.org/doves/doves-ontology#Ante-partum_Age_Group> <https://purl.org/doves/d7fdedbd-6d0d-4d67-bd98-03f4c80c944b>)
 
+# Class: <http://purl.org/doves/doves-ontology#Anxiety_Control> (Anxiety Control Outcome)
+
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Anxiety_Control> "Anxiety Control Outcome")
+SubClassOf(<http://purl.org/doves/doves-ontology#Anxiety_Control> <http://purl.org/doves/36e57509_8558_4378_ba65_55ae88ab64dd>)
+
 # Class: <http://purl.org/doves/doves-ontology#Anxiety_Control_Outcome> (Anxiety Control Outcome)
 
 AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Anxiety_Control_Outcome> "Anxiety Control Outcome")
@@ -815,6 +825,11 @@ SubClassOf(<http://purl.org/doves/doves-ontology#Decreased_Sleep_Latency_Outcome
 
 AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Decreased_Specialty_Care_Encounter_Rate_Outcome> "Decreased Specialty Care Encounter Rate Outcome")
 SubClassOf(<http://purl.org/doves/doves-ontology#Decreased_Specialty_Care_Encounter_Rate_Outcome> <http://purl.org/doves/doves-ontology#Modified_Specialty_Care_Encounter_Rate_Outcome>)
+
+# Class: <http://purl.org/doves/doves-ontology#Depression_Control> (Depression Control Outcome)
+
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Depression_Control> "Depression Control Outcome")
+SubClassOf(<http://purl.org/doves/doves-ontology#Depression_Control> <http://purl.org/doves/36e57509_8558_4378_ba65_55ae88ab64dd>)
 
 # Class: <http://purl.org/doves/doves-ontology#Depression_Control_Outcome> (Depression Control Outcome)
 
@@ -993,6 +1008,11 @@ SubClassOf(<http://purl.org/doves/doves-ontology#Healthy_Eating_Index_Score_Outc
 AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Hispanic_or_Latino> "Hispanic or Latino")
 SubClassOf(<http://purl.org/doves/doves-ontology#Hispanic_or_Latino> <http://purl.org/doves/doves-ontology#Ethnicity>)
 
+# Class: <http://purl.org/doves/doves-ontology#Hot_Flashes_Control> (Hot Flashes Control Outcome)
+
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Hot_Flashes_Control> "Hot Flashes Control Outcome")
+SubClassOf(<http://purl.org/doves/doves-ontology#Hot_Flashes_Control> <http://purl.org/doves/36e57509_8558_4378_ba65_55ae88ab64dd>)
+
 # Class: <http://purl.org/doves/doves-ontology#Hybrid_Healthcare_Provider-Patient_Reported_Outcome> (Hybrid Healthcare Provider-Patient Reported Outcome)
 
 AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Hybrid_Healthcare_Provider-Patient_Reported_Outcome> "Hybrid Healthcare Provider-Patient Reported Outcome")
@@ -1163,6 +1183,11 @@ SubClassOf(<http://purl.org/doves/doves-ontology#Modified_Specialty_Care_Encount
 # Class: <http://purl.org/doves/doves-ontology#Native_Hawaiian_or_Other_Pacific_Islander> (<http://purl.org/doves/doves-ontology#Native_Hawaiian_or_Other_Pacific_Islander>)
 
 SubClassOf(<http://purl.org/doves/doves-ontology#Native_Hawaiian_or_Other_Pacific_Islander> <http://purl.org/doves/doves-ontology#Race>)
+
+# Class: <http://purl.org/doves/doves-ontology#Night_Sweat_Control> (Night Sweat Control Outcome)
+
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Night_Sweat_Control> "Night Sweat Control Outcome")
+SubClassOf(<http://purl.org/doves/doves-ontology#Night_Sweat_Control> <http://purl.org/doves/36e57509_8558_4378_ba65_55ae88ab64dd>)
 
 # Class: <http://purl.org/doves/doves-ontology#Not_Hispanic_or_Latino> (Not Hispanic or Latino)
 
@@ -1414,6 +1439,14 @@ SubClassOf(<http://purl.org/doves/doves-ontology#Dynamic_Gait_Index_(DGI)_Outcom
 
 AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Fast_Healthcare_Interoperability_Resources_(FHIR)_API_Outcome> "Fast Healthcare Interoperability Resources (FHIR) API Outcome")
 SubClassOf(<http://purl.org/doves/doves-ontology#Fast_Healthcare_Interoperability_Resources_(FHIR)_API_Outcome> <https://purl.org/doves/3d59b32e-e247-44e4-a69c-1c704af0c574>)
+
+# Class: <http://purl.org/doves/doves-ontology#Greene_Climacteric_Scale_(GCS)_Outcome> (Greene Climacetric Scale (GCS) Outcome)
+
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Greene_Climacteric_Scale_(GCS)_Outcome> "Greene Climacetric Scale (GCS) Outcome")
+AnnotationAssertion(skos:definition <http://purl.org/doves/doves-ontology#Greene_Climacteric_Scale_(GCS)_Outcome> "The Greene Climacetric Scale provides a brief measure of menopause symptoms. It can be used to assess changes in different symptoms, before and after menopause treatment. Three main areas are measured:
+1. Psychological (items 1-11). 2. Physical (items 12-18). 3. Vasomotor (items 19, 20).
+https://www.jeanhailes.org.au/uploads/Health-professionals/Menopause_symptom_scale_Greene_Climacteric.pdf")
+SubClassOf(<http://purl.org/doves/doves-ontology#Greene_Climacteric_Scale_(GCS)_Outcome> <https://purl.org/doves/9caa2510-f3a6-4de8-adcb-c554e91aeba7>)
 
 # Class: <http://purl.org/doves/doves-ontology#Hospital_COnsumer_Assessment_of_Healthcare_Providers_and_Systems_(HCAHPS)_Outcome> (Hospital Consumer Assessment of Healthcare Providers and Systems (HCAHPS) Outcome)
 
