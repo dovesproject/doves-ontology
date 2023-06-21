@@ -104,6 +104,7 @@ Declaration(Class(<http://purl.org/doves/doves-ontology#Headache_Control_Outcome
 Declaration(Class(<http://purl.org/doves/doves-ontology#Health_Literacy_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Healthcare_Access_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Healthcare_Provider_Reported_Outcome>))
+Declaration(Class(<http://purl.org/doves/doves-ontology#Healthcare_System_Navigation_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Healthy_Eating_Index_Score_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Hispanic_or_Latino>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Hot_Flashes_Control>))
@@ -167,6 +168,7 @@ Declaration(Class(<http://purl.org/doves/doves-ontology#Reduced_Hypertensive_Urg
 Declaration(Class(<http://purl.org/doves/doves-ontology#Reduced_Per_Member_Per_Month_Cost_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Reduced_Prescription_Drug_Cost_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Reduced_Procedural_Cost_Outcome>))
+Declaration(Class(<http://purl.org/doves/doves-ontology#Reduced_Return_to_Higher_Level_of_Care_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Reduction_in_Falls_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Regulatory_Approval>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Regulatory_Category>))
@@ -189,6 +191,7 @@ Declaration(Class(<http://purl.org/doves/doves-ontology#Technical_Certification_
 Declaration(Class(<http://purl.org/doves/doves-ontology#Time_in_Automation_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Time_to_Talk_to_a_Human_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Toddler_Age_Group>))
+Declaration(Class(<http://purl.org/doves/doves-ontology#Treatment_Adherence_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Turnaround_Time_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Type_2_Diabetes_Distress_Scale>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Unknown>))
@@ -876,9 +879,9 @@ SubClassOf(<http://purl.org/doves/doves-ontology#Customer_Support> <https://purl
 AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#DICOM> "DICOM Compliance Outcome")
 SubClassOf(<http://purl.org/doves/doves-ontology#DICOM> <https://purl.org/doves/9f90a5e3-6d96-4127-bcff-143c2831b5bc>)
 
-# Class: <http://purl.org/doves/doves-ontology#Decreased_Diagnostic_Test_Unit_Cost_Outcome> (Decreased Diagnostic Test Unit Cost Outcome)
+# Class: <http://purl.org/doves/doves-ontology#Decreased_Diagnostic_Test_Unit_Cost_Outcome> (Reduced Diagnostic Test Unit Cost Outcome)
 
-AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Decreased_Diagnostic_Test_Unit_Cost_Outcome> "Decreased Diagnostic Test Unit Cost Outcome")
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Decreased_Diagnostic_Test_Unit_Cost_Outcome> "Reduced Diagnostic Test Unit Cost Outcome")
 SubClassOf(<http://purl.org/doves/doves-ontology#Decreased_Diagnostic_Test_Unit_Cost_Outcome> <https://purl.org/doves/7124f3ed-a489-431c-90ce-c2a5fe7d95bb>)
 
 # Class: <http://purl.org/doves/doves-ontology#Decreased_Proportion_of_Indeterminate_Results> (DecreasedProportion of Indeterminate Results)
@@ -1098,6 +1101,11 @@ SubClassOf(<http://purl.org/doves/doves-ontology#Healthcare_Access_Outcome> <htt
 
 AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Healthcare_Provider_Reported_Outcome> "Healthcare Provider Reported Outcome")
 SubClassOf(<http://purl.org/doves/doves-ontology#Healthcare_Provider_Reported_Outcome> <https://purl.org/doves/8081940e-b77f-4aa1-bfcf-0b979f0a2158>)
+
+# Class: <http://purl.org/doves/doves-ontology#Healthcare_System_Navigation_Outcome> (Healthcare System Navigation Outcome)
+
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Healthcare_System_Navigation_Outcome> "Healthcare System Navigation Outcome")
+SubClassOf(<http://purl.org/doves/doves-ontology#Healthcare_System_Navigation_Outcome> <https://purl.org/doves/1ae3245a-1b7f-40b2-ae3b-74706699204a>)
 
 # Class: <http://purl.org/doves/doves-ontology#Healthy_Eating_Index_Score_Outcome> (<http://purl.org/doves/doves-ontology#Healthy_Eating_Index_Score_Outcome>)
 
@@ -1425,6 +1433,11 @@ SubClassOf(<http://purl.org/doves/doves-ontology#Reduced_Prescription_Drug_Cost_
 AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Reduced_Procedural_Cost_Outcome> "Reduced Procedural Cost Outcome")
 SubClassOf(<http://purl.org/doves/doves-ontology#Reduced_Procedural_Cost_Outcome> <https://purl.org/doves/604c0eff-ca87-4934-b96a-e19837c08e8f>)
 
+# Class: <http://purl.org/doves/doves-ontology#Reduced_Return_to_Higher_Level_of_Care_Outcome> (Reduced Return to Higher Level of Care Outcome)
+
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Reduced_Return_to_Higher_Level_of_Care_Outcome> "Reduced Return to Higher Level of Care Outcome")
+SubClassOf(<http://purl.org/doves/doves-ontology#Reduced_Return_to_Higher_Level_of_Care_Outcome> <https://purl.org/doves/089409f3-106f-4742-a91a-df135a4b4102>)
+
 # Class: <http://purl.org/doves/doves-ontology#Reduction_in_Falls_Outcome> (Reduction in Falls Outcome)
 
 AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Reduction_in_Falls_Outcome> "Reduction in Falls Outcome")
@@ -1533,6 +1546,11 @@ SubClassOf(<http://purl.org/doves/doves-ontology#Time_to_Talk_to_a_Human_Outcome
 AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Toddler_Age_Group> "Toddler Age Group")
 AnnotationAssertion(skos:definition <http://purl.org/doves/doves-ontology#Toddler_Age_Group> "Toddler Age Group is a Child Age Group defined by the CDC as conatining individuals aged 1-3 years of age.  https://www.cdc.gov/ncbddd/childdevelopment/positiveparenting/toddlers2.html#:~:text=Toddlers%20(2%2D3%20years%20of%20age)")
 SubClassOf(<http://purl.org/doves/doves-ontology#Toddler_Age_Group> <http://purl.org/doves/doves-ontology#Child_Age_Group>)
+
+# Class: <http://purl.org/doves/doves-ontology#Treatment_Adherence_Outcome> (Treatment Adherence Outcome)
+
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Treatment_Adherence_Outcome> "Treatment Adherence Outcome")
+SubClassOf(<http://purl.org/doves/doves-ontology#Treatment_Adherence_Outcome> <https://purl.org/doves/f70ac7b3-c718-4511-9f13-2f4ab13050b8>)
 
 # Class: <http://purl.org/doves/doves-ontology#Turnaround_Time_Outcome> (Turnaround Time Outcome)
 
@@ -2543,7 +2561,7 @@ SubClassOf(<https://purl.org/doves/1ae3245a-1b7f-40b2-ae3b-74706699204a> <https:
 
 AnnotationAssertion(rdfs:label <https://purl.org/doves/1c1d0e62-5c9b-4344-8ff1-9e71d1debb38> "Medication Adherence Outcome"@en)
 AnnotationAssertion(skos:definition <https://purl.org/doves/1c1d0e62-5c9b-4344-8ff1-9e71d1debb38> "Medication Adherence Outcome is an Engagement and Adherence Outcome that reflects an individual's degree of adherence to taking their medications as recommended.")
-SubClassOf(<https://purl.org/doves/1c1d0e62-5c9b-4344-8ff1-9e71d1debb38> <https://purl.org/doves/f70ac7b3-c718-4511-9f13-2f4ab13050b8>)
+SubClassOf(<https://purl.org/doves/1c1d0e62-5c9b-4344-8ff1-9e71d1debb38> <http://purl.org/doves/doves-ontology#Treatment_Adherence_Outcome>)
 
 # Class: <https://purl.org/doves/1ce5511a-c36f-4fb4-97a6-8e1b0642a27d> (Technical Feature)
 
