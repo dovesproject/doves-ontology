@@ -42,6 +42,7 @@ Declaration(Class(<http://purl.org/doves/8818ad03_a459_476e_98c4_213c01f406c4>))
 Declaration(Class(<http://purl.org/doves/9db1e98e_f762_49e4_82fc_c622686a25f9>))
 Declaration(Class(<http://purl.org/doves/9dee6af8_663e_4f00_9025_e3e5432608f8>))
 Declaration(Class(<http://purl.org/doves/984d6b58_ca68_4969_88a6_dc41fbece229>))
+Declaration(Class(<http://purl.org/doves/doves-ontology#ACL_Title_III-D_Evidence-Based_Program_Certification>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Acute_Rehabilitation_Facility>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Alcohol_Use_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Ambulatory>))
@@ -59,10 +60,12 @@ Declaration(Class(<http://purl.org/doves/doves-ontology#Bladder_Emptying_Time_Ou
 Declaration(Class(<http://purl.org/doves/doves-ontology#Breast_Cancer_Screening_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Bristol_Stool_Scale_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Cancer_Outcomes>))
+Declaration(Class(<http://purl.org/doves/doves-ontology#Caregiver_Burden_Reduction_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Change_in_Number_of_Lines_of_Visual_Acuity_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Change_in_Stereoacuity_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Change_in_Visual_Acuity_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Child_Age_Group>))
+Declaration(Class(<http://purl.org/doves/doves-ontology#Community_Based_Organization_Referral_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Completion_Rate_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Customer_Support>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#DICOM>))
@@ -93,6 +96,7 @@ Declaration(Class(<http://purl.org/doves/doves-ontology#FDA>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#FDA_Approved>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#FDA_Cleared>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#FDA_Granted>))
+Declaration(Class(<http://purl.org/doves/doves-ontology#Family_and_Caregiver_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Five_Year_Survival_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Formulary_Transparency_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#GDPR_Compliance_Outcome>))
@@ -177,6 +181,7 @@ Declaration(Class(<http://purl.org/doves/doves-ontology#Return_on_Investment_Out
 Declaration(Class(<http://purl.org/doves/doves-ontology#Self-efficacy>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Setting>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Shared_Decision_Making>))
+Declaration(Class(<http://purl.org/doves/doves-ontology#Shared_Decision_Making_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Sign_Control_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Site_of_Care_Shift_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Skilled_Nursing_Facility>))
@@ -761,6 +766,12 @@ SubClassOf(<http://purl.org/doves/9dee6af8_663e_4f00_9025_e3e5432608f8> <http://
 AnnotationAssertion(rdfs:label <http://purl.org/doves/984d6b58_ca68_4969_88a6_dc41fbece229> "Reduction in Glycemic Events Outcome"@en)
 SubClassOf(<http://purl.org/doves/984d6b58_ca68_4969_88a6_dc41fbece229> <http://purl.org/doves/158f4ae0_7b5e_497b_b880_76df4cdd5fc2>)
 
+# Class: <http://purl.org/doves/doves-ontology#ACL_Title_III-D_Evidence-Based_Program_Certification> (Administration for Community Living (ACL) Title III-D Evidence-Based Program Certification)
+
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#ACL_Title_III-D_Evidence-Based_Program_Certification> "Administration for Community Living (ACL) Title III-D Evidence-Based Program Certification")
+AnnotationAssertion(skos:definition <http://purl.org/doves/doves-ontology#ACL_Title_III-D_Evidence-Based_Program_Certification> "The Administration for Community Living (ACL) Evidence-Based Program Certification is a certification that a given program meets the criteria for evidence, as funded through the Older Americans Act (OA) Title III-D. https://www.ncoa.org/article/apply-to-become-an-evidence-based-program")
+SubClassOf(<http://purl.org/doves/doves-ontology#ACL_Title_III-D_Evidence-Based_Program_Certification> <https://purl.org/doves/42032214-7b35-46e0-98f9-cd903d8fd464>)
+
 # Class: <http://purl.org/doves/doves-ontology#Acute_Rehabilitation_Facility> (<http://purl.org/doves/doves-ontology#Acute_Rehabilitation_Facility>)
 
 SubClassOf(<http://purl.org/doves/doves-ontology#Acute_Rehabilitation_Facility> <http://purl.org/doves/doves-ontology#Setting>)
@@ -842,6 +853,11 @@ AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Cancer_Outc
 AnnotationAssertion(skos:definition <http://purl.org/doves/doves-ontology#Cancer_Outcomes> "Cancer Outcomes are Health Benefit Outcomes describing the outcomes of digital health applications on cancer.")
 SubClassOf(<http://purl.org/doves/doves-ontology#Cancer_Outcomes> <https://purl.org/doves/8e9f2330-e042-4723-a5f6-422f7565f1ee>)
 
+# Class: <http://purl.org/doves/doves-ontology#Caregiver_Burden_Reduction_Outcome> (Caregiver Burden Reduction Outcome)
+
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Caregiver_Burden_Reduction_Outcome> "Caregiver Burden Reduction Outcome")
+SubClassOf(<http://purl.org/doves/doves-ontology#Caregiver_Burden_Reduction_Outcome> <http://purl.org/doves/doves-ontology#Family_and_Caregiver_Outcome>)
+
 # Class: <http://purl.org/doves/doves-ontology#Change_in_Number_of_Lines_of_Visual_Acuity_Outcome> (Change in Number of Lines of Visual Acuity Outcome)
 
 AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Change_in_Number_of_Lines_of_Visual_Acuity_Outcome> "Change in Number of Lines of Visual Acuity Outcome")
@@ -862,6 +878,11 @@ SubClassOf(<http://purl.org/doves/doves-ontology#Change_in_Visual_Acuity_Outcome
 AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Child_Age_Group> "Child Age Group")
 AnnotationAssertion(skos:definition <http://purl.org/doves/doves-ontology#Child_Age_Group> "Child Age Group is defined by the NIH as thos eindividuals 1 year to 12 years old. https://www.nih.gov/nih-style-guide/age")
 SubClassOf(<http://purl.org/doves/doves-ontology#Child_Age_Group> <https://purl.org/doves/6f732e5a-3cb8-47b2-a83e-7e7d24512e77>)
+
+# Class: <http://purl.org/doves/doves-ontology#Community_Based_Organization_Referral_Outcome> (Community Based Organization Referral Outcome)
+
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Community_Based_Organization_Referral_Outcome> "Community Based Organization Referral Outcome")
+SubClassOf(<http://purl.org/doves/doves-ontology#Community_Based_Organization_Referral_Outcome> <http://purl.org/doves/doves-ontology#Healthcare_Access_Outcome>)
 
 # Class: <http://purl.org/doves/doves-ontology#Completion_Rate_Outcome> (Completion Rate Outcome)
 
@@ -1041,6 +1062,11 @@ SubClassOf(<http://purl.org/doves/doves-ontology#FDA_Cleared> <http://purl.org/d
 AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#FDA_Granted> "FDA Granted")
 SubClassOf(<http://purl.org/doves/doves-ontology#FDA_Granted> <http://purl.org/doves/doves-ontology#FDA>)
 
+# Class: <http://purl.org/doves/doves-ontology#Family_and_Caregiver_Outcome> (Family and Caregiver Outcome)
+
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Family_and_Caregiver_Outcome> "Family and Caregiver Outcome")
+SubClassOf(<http://purl.org/doves/doves-ontology#Family_and_Caregiver_Outcome> <https://purl.org/doves/8081940e-b77f-4aa1-bfcf-0b979f0a2158>)
+
 # Class: <http://purl.org/doves/doves-ontology#Five_Year_Survival_Outcome> (Five Year Survival Outcome)
 
 AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Five_Year_Survival_Outcome> "Five Year Survival Outcome")
@@ -1105,7 +1131,7 @@ SubClassOf(<http://purl.org/doves/doves-ontology#Healthcare_Provider_Reported_Ou
 # Class: <http://purl.org/doves/doves-ontology#Healthcare_System_Navigation_Outcome> (Healthcare System Navigation Outcome)
 
 AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Healthcare_System_Navigation_Outcome> "Healthcare System Navigation Outcome")
-SubClassOf(<http://purl.org/doves/doves-ontology#Healthcare_System_Navigation_Outcome> <https://purl.org/doves/1ae3245a-1b7f-40b2-ae3b-74706699204a>)
+SubClassOf(<http://purl.org/doves/doves-ontology#Healthcare_System_Navigation_Outcome> <http://purl.org/doves/doves-ontology#Family_and_Caregiver_Outcome>)
 
 # Class: <http://purl.org/doves/doves-ontology#Healthy_Eating_Index_Score_Outcome> (<http://purl.org/doves/doves-ontology#Healthy_Eating_Index_Score_Outcome>)
 
@@ -1476,6 +1502,11 @@ SubClassOf(<http://purl.org/doves/doves-ontology#Setting> <https://purl.org/dove
 AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Shared_Decision_Making> "Shared Decision Making")
 AnnotationAssertion(skos:definition <http://purl.org/doves/doves-ontology#Shared_Decision_Making> "Shared Decision Making is a Technical Feature that describes digital health applications that facilitate the shared decision making between a healthcare professional and a patient, family member, or friend of the patient.")
 SubClassOf(<http://purl.org/doves/doves-ontology#Shared_Decision_Making> <https://purl.org/doves/1ce5511a-c36f-4fb4-97a6-8e1b0642a27d>)
+
+# Class: <http://purl.org/doves/doves-ontology#Shared_Decision_Making_Outcome> (Shared Decision Making Outcome)
+
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Shared_Decision_Making_Outcome> "Shared Decision Making Outcome")
+SubClassOf(<http://purl.org/doves/doves-ontology#Shared_Decision_Making_Outcome> <http://purl.org/doves/doves-ontology#Family_and_Caregiver_Outcome>)
 
 # Class: <http://purl.org/doves/doves-ontology#Sign_Control_Outcome> (Sign Control Outcome)
 
