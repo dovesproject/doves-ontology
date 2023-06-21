@@ -52,12 +52,16 @@ Declaration(Class(<http://purl.org/doves/doves-ontology#Anxiety_Control_Outcome>
 Declaration(Class(<http://purl.org/doves/doves-ontology#Area_Under_the_Curve>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Asian>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Bed_Control_Outcome>))
+Declaration(Class(<http://purl.org/doves/doves-ontology#Best_Corrected_Visual_Acuity_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Biofeedback_Technology>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Black_or_African_American>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Bladder_Emptying_Time_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Breast_Cancer_Screening_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Bristol_Stool_Scale_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Cancer_Outcomes>))
+Declaration(Class(<http://purl.org/doves/doves-ontology#Change_in_Number_of_Lines_of_Visual_Acuity_Outcome>))
+Declaration(Class(<http://purl.org/doves/doves-ontology#Change_in_Stereoacuity_Outcome>))
+Declaration(Class(<http://purl.org/doves/doves-ontology#Change_in_Visual_Acuity_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Child_Age_Group>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Completion_Rate_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Customer_Support>))
@@ -179,8 +183,10 @@ Declaration(Class(<http://purl.org/doves/doves-ontology#Time_in_Automation_Outco
 Declaration(Class(<http://purl.org/doves/doves-ontology#Time_to_Talk_to_a_Human_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Toddler_Age_Group>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Turnaround_Time_Outcome>))
+Declaration(Class(<http://purl.org/doves/doves-ontology#Type_2_Diabetes_Distress_Scale>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Unknown>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Urinary_Sign_Outcome>))
+Declaration(Class(<http://purl.org/doves/doves-ontology#Vision_Control_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Weight_Control_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#White>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Work_Productivity_and_Activity>))
@@ -213,6 +219,7 @@ Declaration(Class(<http://purl.org/doves/doves-ontology#Pelvic_Floor_Disability_
 Declaration(Class(<http://purl.org/doves/doves-ontology#Representational_State_Transfer_(REST)_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Self_Efficacy_to_Manage_Chronic_Disease_(SEMCD)_Scale_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#St._George's_Respiratory_Questionnaire_(SGRT)_Outcome>))
+Declaration(Class(<http://purl.org/doves/doves-ontology#Type_1_Diabetes_Distress_Scale_(T1-DDS)>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#mHealth_App_Usability_Questionnaire_(MAUQ)>))
 Declaration(Class(<https://purl.org/doves/a01b3bf3-a332-4213-8b6d-0ae97be1f128>))
 Declaration(Class(<https://purl.org/doves/a0885d3f-beaa-4dbe-a81a-78484cb2757b>))
@@ -785,6 +792,11 @@ SubClassOf(<http://purl.org/doves/doves-ontology#Asian> <http://purl.org/doves/d
 AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Bed_Control_Outcome> "Bed Control Outcome")
 SubClassOf(<http://purl.org/doves/doves-ontology#Bed_Control_Outcome> <http://purl.org/doves/doves-ontology#Resource_Utilization_Outcome>)
 
+# Class: <http://purl.org/doves/doves-ontology#Best_Corrected_Visual_Acuity_Outcome> (Best Corrected Visual Acuity Outcome)
+
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Best_Corrected_Visual_Acuity_Outcome> "Best Corrected Visual Acuity Outcome")
+SubClassOf(<http://purl.org/doves/doves-ontology#Best_Corrected_Visual_Acuity_Outcome> <http://purl.org/doves/doves-ontology#Vision_Control_Outcome>)
+
 # Class: <http://purl.org/doves/doves-ontology#Biofeedback_Technology> (Biofeedback Technology)
 
 AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Biofeedback_Technology> "Biofeedback Technology")
@@ -816,6 +828,21 @@ SubClassOf(<http://purl.org/doves/doves-ontology#Bristol_Stool_Scale_Outcome> <h
 AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Cancer_Outcomes> "Cancer Outcomes")
 AnnotationAssertion(skos:definition <http://purl.org/doves/doves-ontology#Cancer_Outcomes> "Cancer Outcomes are Health Benefit Outcomes describing the outcomes of digital health applications on cancer.")
 SubClassOf(<http://purl.org/doves/doves-ontology#Cancer_Outcomes> <https://purl.org/doves/8e9f2330-e042-4723-a5f6-422f7565f1ee>)
+
+# Class: <http://purl.org/doves/doves-ontology#Change_in_Number_of_Lines_of_Visual_Acuity_Outcome> (Change in Number of Lines of Visual Acuity Outcome)
+
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Change_in_Number_of_Lines_of_Visual_Acuity_Outcome> "Change in Number of Lines of Visual Acuity Outcome")
+SubClassOf(<http://purl.org/doves/doves-ontology#Change_in_Number_of_Lines_of_Visual_Acuity_Outcome> <http://purl.org/doves/doves-ontology#Vision_Control_Outcome>)
+
+# Class: <http://purl.org/doves/doves-ontology#Change_in_Stereoacuity_Outcome> (Change in Stereoacuity Outcome)
+
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Change_in_Stereoacuity_Outcome> "Change in Stereoacuity Outcome")
+SubClassOf(<http://purl.org/doves/doves-ontology#Change_in_Stereoacuity_Outcome> <http://purl.org/doves/doves-ontology#Vision_Control_Outcome>)
+
+# Class: <http://purl.org/doves/doves-ontology#Change_in_Visual_Acuity_Outcome> (Change in Visual Acuity Outcome)
+
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Change_in_Visual_Acuity_Outcome> "Change in Visual Acuity Outcome")
+SubClassOf(<http://purl.org/doves/doves-ontology#Change_in_Visual_Acuity_Outcome> <http://purl.org/doves/doves-ontology#Vision_Control_Outcome>)
 
 # Class: <http://purl.org/doves/doves-ontology#Child_Age_Group> (Child Age Group)
 
@@ -1311,8 +1338,8 @@ SubClassOf(<http://purl.org/doves/doves-ontology#Prescription_Digital_Therapeuti
 # Class: <http://purl.org/doves/doves-ontology#Proportion_of_Days_Covered_Outcome> (Proportion of Days Covered Outcome)
 
 AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Proportion_of_Days_Covered_Outcome> "Proportion of Days Covered Outcome")
-AnnotationAssertion(skos:definition <http://purl.org/doves/doves-ontology#Proportion_of_Days_Covered_Outcome> "Proportion of Days Covered Outcome is a Billing Outcome that reflects the proportion of days covered by insurance for a given digital health intervention.")
-SubClassOf(<http://purl.org/doves/doves-ontology#Proportion_of_Days_Covered_Outcome> <https://purl.org/doves/711fcca4-517f-4fc4-afc6-8923760ef42f>)
+AnnotationAssertion(skos:definition <http://purl.org/doves/doves-ontology#Proportion_of_Days_Covered_Outcome> "Proportion of Days Covered Outcome is a Medication Adherence Outcome that reflects the number of days supply a drug is dispensed for, divided by the number of days rhe prescription is in the patient's possession.")
+SubClassOf(<http://purl.org/doves/doves-ontology#Proportion_of_Days_Covered_Outcome> <https://purl.org/doves/1c1d0e62-5c9b-4344-8ff1-9e71d1debb38>)
 
 # Class: <http://purl.org/doves/doves-ontology#Proportion_of_Days_Per_Month_of_Medication_Use_Outcome> (Proportion of Days Per Month of Medication Use Outcome)
 
@@ -1467,6 +1494,12 @@ AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Turnaround_
 AnnotationAssertion(skos:definition <http://purl.org/doves/doves-ontology#Turnaround_Time_Outcome> "Turnaround Time Outcome is a Healthcare Operation Outcome that describes the time between a given item's intake and it's completion.")
 SubClassOf(<http://purl.org/doves/doves-ontology#Turnaround_Time_Outcome> <https://purl.org/doves/1ae3245a-1b7f-40b2-ae3b-74706699204a>)
 
+# Class: <http://purl.org/doves/doves-ontology#Type_2_Diabetes_Distress_Scale> (Type 2 Diabetes Distress Assessment System (T2-DDAS))
+
+AnnotationAssertion(obo:IAO_0000115 <http://purl.org/doves/doves-ontology#Type_2_Diabetes_Distress_Scale> "Type 2 Diabetes Distress Scale (T2-DDAS) is a self-reported survey that has 29 items. https://diabetesdistress.org/t2-dds-questions")
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Type_2_Diabetes_Distress_Scale> "Type 2 Diabetes Distress Assessment System (T2-DDAS)")
+SubClassOf(<http://purl.org/doves/doves-ontology#Type_2_Diabetes_Distress_Scale> <https://purl.org/doves/9caa2510-f3a6-4de8-adcb-c554e91aeba7>)
+
 # Class: <http://purl.org/doves/doves-ontology#Unknown> (<http://purl.org/doves/doves-ontology#Unknown>)
 
 SubClassOf(<http://purl.org/doves/doves-ontology#Unknown> <https://purl.org/doves/81955a73-7b46-4cb4-bbae-5c34311aa8a0>)
@@ -1475,6 +1508,11 @@ SubClassOf(<http://purl.org/doves/doves-ontology#Unknown> <https://purl.org/dove
 
 AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Urinary_Sign_Outcome> "Urinary Sign Outcome")
 SubClassOf(<http://purl.org/doves/doves-ontology#Urinary_Sign_Outcome> <http://purl.org/doves/doves-ontology#Sign_Control_Outcome>)
+
+# Class: <http://purl.org/doves/doves-ontology#Vision_Control_Outcome> (Vision Control Outcome)
+
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Vision_Control_Outcome> "Vision Control Outcome")
+SubClassOf(<http://purl.org/doves/doves-ontology#Vision_Control_Outcome> <http://purl.org/doves/doves-ontology#Sign_Control_Outcome>)
 
 # Class: <http://purl.org/doves/doves-ontology#Weight_Control_Outcome> (Weight Control Outcome)
 
@@ -1650,6 +1688,12 @@ SubClassOf(<http://purl.org/doves/doves-ontology#Self_Efficacy_to_Manage_Chronic
 
 AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#St._George's_Respiratory_Questionnaire_(SGRT)_Outcome> "St. George's Respiratory Questionnaire (SGRT) Outcome")
 SubClassOf(<http://purl.org/doves/doves-ontology#St._George's_Respiratory_Questionnaire_(SGRT)_Outcome> <https://purl.org/doves/9caa2510-f3a6-4de8-adcb-c554e91aeba7>)
+
+# Class: <http://purl.org/doves/doves-ontology#Type_1_Diabetes_Distress_Scale_(T1-DDS)> (Type 1 Diabetes Distress Scale (T1-DDS))
+
+AnnotationAssertion(obo:IAO_0000115 <http://purl.org/doves/doves-ontology#Type_1_Diabetes_Distress_Scale_(T1-DDS)> "The Type 1 Diabetes Distress Scale is a self-reported survey that has 28 items. https://diabetesdistress.org/t1-dds-questions")
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Type_1_Diabetes_Distress_Scale_(T1-DDS)> "Type 1 Diabetes Distress Scale (T1-DDS)")
+SubClassOf(<http://purl.org/doves/doves-ontology#Type_1_Diabetes_Distress_Scale_(T1-DDS)> <https://purl.org/doves/9caa2510-f3a6-4de8-adcb-c554e91aeba7>)
 
 # Class: <http://purl.org/doves/doves-ontology#mHealth_App_Usability_Questionnaire_(MAUQ)> (mHealth App Usability Questionnaire)
 
