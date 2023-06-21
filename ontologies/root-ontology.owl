@@ -118,6 +118,7 @@ Declaration(Class(<http://purl.org/doves/doves-ontology#Improvement_in_Sleep_Qua
 Declaration(Class(<http://purl.org/doves/doves-ontology#Improvement_in_Trauma_Related_Nightmare_Symptoms_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Improving_Healthcare_Team_Communication_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Improving_Transitions_in_Care_Outcome>))
+Declaration(Class(<http://purl.org/doves/doves-ontology#Increased_Discharge_to_Home_from_ED_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Increased_Magnetic_Resonance_Imaging_Throughput_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Increased_Radiology_Throughput_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Increased_Rate_of_Return_to_Work_Outcome>))
@@ -135,15 +136,18 @@ Declaration(Class(<http://purl.org/doves/doves-ontology#Insomnia_Sign_Control_Ou
 Declaration(Class(<http://purl.org/doves/doves-ontology#Insomnia_Symptom_Control_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Intesive_Care_Unit>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Irritable_Bowel_Syndrome_Symptom_Control_Outcome>))
+Declaration(Class(<http://purl.org/doves/doves-ontology#Joint_Pain_Scale_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Lifestyle_Adherence_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Machine_Learning_Technology>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Middle-Age_Age_Group>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Modified_Ambulatory_Care_Encounter_Rate_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Modified_Procedural_Encounter_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Modified_Specialty_Care_Encounter_Rate_Outcome>))
+Declaration(Class(<http://purl.org/doves/doves-ontology#Musculoskeletal_Control_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Native_Hawaiian_or_Other_Pacific_Islander>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Night_Sweat_Control>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Not_Hispanic_or_Latino>))
+Declaration(Class(<http://purl.org/doves/doves-ontology#Number_of_Downtime_Events>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Offline_Availability_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Older_Adult_Age_Group>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Pain_Control_Outcome>))
@@ -161,6 +165,8 @@ Declaration(Class(<http://purl.org/doves/doves-ontology#Reduced_Hypertensive_Eme
 Declaration(Class(<http://purl.org/doves/doves-ontology#Reduced_Hypertensive_Urgency_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Reduced_Per_Member_Per_Month_Cost_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Reduced_Prescription_Drug_Cost_Outcome>))
+Declaration(Class(<http://purl.org/doves/doves-ontology#Reduced_Procedural_Cost_Outcome>))
+Declaration(Class(<http://purl.org/doves/doves-ontology#Reduction_in_Falls_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Regulatory_Approval>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Regulatory_Category>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Resource_Utilization_Outcome>))
@@ -187,11 +193,13 @@ Declaration(Class(<http://purl.org/doves/doves-ontology#Type_2_Diabetes_Distress
 Declaration(Class(<http://purl.org/doves/doves-ontology#Unknown>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Urinary_Sign_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Vision_Control_Outcome>))
+Declaration(Class(<http://purl.org/doves/doves-ontology#Vision_Related_Quality_of_Life_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Weight_Control_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#White>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Work_Productivity_and_Activity>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Work_Productivity_and_Activity_Impairment_Questionnaire>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Young_Adult_Age_Group>))
+Declaration(Class(<http://purl.org/doves/doves-ontology#30_Second_Sit_to_Stand_Test_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Barthel_Index_(BI)_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Berg_Balance_Scale_(BBS)_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#COPD_Assessment_Test_(CAT)>))
@@ -216,6 +224,7 @@ Declaration(Class(<http://purl.org/doves/doves-ontology#PTSD_Checklist_for_DSM-5
 Declaration(Class(<http://purl.org/doves/doves-ontology#Patient_Activation_Measure_(PAM)_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Pediatric_Intensive_Care_Unit_(PICU)>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Pelvic_Floor_Disability_Index_(PFDI-20)_Outcome>))
+Declaration(Class(<http://purl.org/doves/doves-ontology#Reduced_ED_to_Admission/Observation_Rate_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Representational_State_Transfer_(REST)_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Self_Efficacy_to_Manage_Chronic_Disease_(SEMCD)_Scale_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#St._George's_Respiratory_Questionnaire_(SGRT)_Outcome>))
@@ -1164,6 +1173,11 @@ AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Improving_T
 AnnotationAssertion(skos:definition <http://purl.org/doves/doves-ontology#Improving_Transitions_in_Care_Outcome> "Improving Transitions in Care Outcome is a Healthcare Operations Outcome that is influenced by digital health applications that facilitate transitions in care such as discharge from the hospital, hand-offs from one healthcare provider to another, or transitions between acute or post-acute healthcare facilities.")
 SubClassOf(<http://purl.org/doves/doves-ontology#Improving_Transitions_in_Care_Outcome> <https://purl.org/doves/1ae3245a-1b7f-40b2-ae3b-74706699204a>)
 
+# Class: <http://purl.org/doves/doves-ontology#Increased_Discharge_to_Home_from_ED_Outcome> (Increased Discharge to Home from ED Outcome)
+
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Increased_Discharge_to_Home_from_ED_Outcome> "Increased Discharge to Home from ED Outcome")
+SubClassOf(<http://purl.org/doves/doves-ontology#Increased_Discharge_to_Home_from_ED_Outcome> <https://purl.org/doves/cdec99b1-f3e5-4009-bdc5-49ea965dc503>)
+
 # Class: <http://purl.org/doves/doves-ontology#Increased_Magnetic_Resonance_Imaging_Throughput_Outcome> (<http://purl.org/doves/doves-ontology#Increased_Magnetic_Resonance_Imaging_Throughput_Outcome>)
 
 SubClassOf(<http://purl.org/doves/doves-ontology#Increased_Magnetic_Resonance_Imaging_Throughput_Outcome> <http://purl.org/doves/doves-ontology#Increased_Radiology_Throughput_Outcome>)
@@ -1246,6 +1260,11 @@ SubClassOf(<http://purl.org/doves/doves-ontology#Intesive_Care_Unit> <http://pur
 AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Irritable_Bowel_Syndrome_Symptom_Control_Outcome> "Irritable Bowel Syndrome Symptom Control Outcome")
 SubClassOf(<http://purl.org/doves/doves-ontology#Irritable_Bowel_Syndrome_Symptom_Control_Outcome> <http://purl.org/doves/doves-ontology#Symptom_Control_Outcome>)
 
+# Class: <http://purl.org/doves/doves-ontology#Joint_Pain_Scale_Outcome> (Joint Pain Scale Outcome)
+
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Joint_Pain_Scale_Outcome> "Joint Pain Scale Outcome")
+SubClassOf(<http://purl.org/doves/doves-ontology#Joint_Pain_Scale_Outcome> <https://purl.org/doves/9caa2510-f3a6-4de8-adcb-c554e91aeba7>)
+
 # Class: <http://purl.org/doves/doves-ontology#Lifestyle_Adherence_Outcome> (Lifestyle Adherence Outcome)
 
 AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Lifestyle_Adherence_Outcome> "Lifestyle Adherence Outcome")
@@ -1279,6 +1298,11 @@ AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Modified_Sp
 AnnotationAssertion(skos:definition <http://purl.org/doves/doves-ontology#Modified_Specialty_Care_Encounter_Rate_Outcome> "Modified Specialty Care Encounter Rate Outcome is a Healthcare Utilization Outcome that is influenced by digital health applications that increase appropriate or decrease inappropriate healthcare utilization in medical specialties.")
 SubClassOf(<http://purl.org/doves/doves-ontology#Modified_Specialty_Care_Encounter_Rate_Outcome> <http://purl.org/doves/doves-ontology#Modified_Ambulatory_Care_Encounter_Rate_Outcome>)
 
+# Class: <http://purl.org/doves/doves-ontology#Musculoskeletal_Control_Outcome> (Musculoskeletal Control Outcome)
+
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Musculoskeletal_Control_Outcome> "Musculoskeletal Control Outcome")
+SubClassOf(<http://purl.org/doves/doves-ontology#Musculoskeletal_Control_Outcome> <http://purl.org/doves/doves-ontology#Sign_Control_Outcome>)
+
 # Class: <http://purl.org/doves/doves-ontology#Native_Hawaiian_or_Other_Pacific_Islander> (<http://purl.org/doves/doves-ontology#Native_Hawaiian_or_Other_Pacific_Islander>)
 
 SubClassOf(<http://purl.org/doves/doves-ontology#Native_Hawaiian_or_Other_Pacific_Islander> <http://purl.org/doves/doves-ontology#Race>)
@@ -1292,6 +1316,11 @@ SubClassOf(<http://purl.org/doves/doves-ontology#Night_Sweat_Control> <http://pu
 
 AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Not_Hispanic_or_Latino> "Not Hispanic or Latino")
 SubClassOf(<http://purl.org/doves/doves-ontology#Not_Hispanic_or_Latino> <http://purl.org/doves/doves-ontology#Ethnicity>)
+
+# Class: <http://purl.org/doves/doves-ontology#Number_of_Downtime_Events> (Number of Downtime Events)
+
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Number_of_Downtime_Events> "Number of Downtime Events")
+SubClassOf(<http://purl.org/doves/doves-ontology#Number_of_Downtime_Events> <https://purl.org/doves/2313ac68-33dd-4861-af39-236e0e5d98d3>)
 
 # Class: <http://purl.org/doves/doves-ontology#Offline_Availability_Outcome> (Offline Availability Outcome)
 
@@ -1384,6 +1413,16 @@ AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Reduced_Pre
 AnnotationAssertion(skos:definition <http://purl.org/doves/doves-ontology#Reduced_Prescription_Drug_Cost_Outcome> "Reduced Prescription Drug Cost Outcome is a Reduced Cost Outcome that reflects a digital health application's influence on a patient needing (or not needing) as many prescription medications, thereby reducing prescription medication cost.")
 SubClassOf(<http://purl.org/doves/doves-ontology#Reduced_Prescription_Drug_Cost_Outcome> <https://purl.org/doves/7124f3ed-a489-431c-90ce-c2a5fe7d95bb>)
 
+# Class: <http://purl.org/doves/doves-ontology#Reduced_Procedural_Cost_Outcome> (Reduced Procedural Cost Outcome)
+
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Reduced_Procedural_Cost_Outcome> "Reduced Procedural Cost Outcome")
+SubClassOf(<http://purl.org/doves/doves-ontology#Reduced_Procedural_Cost_Outcome> <https://purl.org/doves/604c0eff-ca87-4934-b96a-e19837c08e8f>)
+
+# Class: <http://purl.org/doves/doves-ontology#Reduction_in_Falls_Outcome> (Reduction in Falls Outcome)
+
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Reduction_in_Falls_Outcome> "Reduction in Falls Outcome")
+SubClassOf(<http://purl.org/doves/doves-ontology#Reduction_in_Falls_Outcome> <http://purl.org/doves/doves-ontology#Sign_Control_Outcome>)
+
 # Class: <http://purl.org/doves/doves-ontology#Regulatory_Approval> (Regulatory Approval)
 
 AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Regulatory_Approval> "Regulatory Approval")
@@ -1432,9 +1471,9 @@ SubClassOf(<http://purl.org/doves/doves-ontology#Site_of_Care_Shift_Outcome> <ht
 
 SubClassOf(<http://purl.org/doves/doves-ontology#Skilled_Nursing_Facility> <http://purl.org/doves/doves-ontology#Setting>)
 
-# Class: <http://purl.org/doves/doves-ontology#Sleep_Disorder_Sign_Control_Outcome> (Sleep Disorder Sign Control Outcome)
+# Class: <http://purl.org/doves/doves-ontology#Sleep_Disorder_Sign_Control_Outcome> (Sleep Disorder Control Outcome)
 
-AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Sleep_Disorder_Sign_Control_Outcome> "Sleep Disorder Sign Control Outcome")
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Sleep_Disorder_Sign_Control_Outcome> "Sleep Disorder Control Outcome")
 SubClassOf(<http://purl.org/doves/doves-ontology#Sleep_Disorder_Sign_Control_Outcome> <http://purl.org/doves/doves-ontology#Sign_Control_Outcome>)
 
 # Class: <http://purl.org/doves/doves-ontology#Sleep_Disorder_Symptom_Scale> (Sleep Disorder Symptom Scale Outcomes)
@@ -1504,15 +1543,21 @@ SubClassOf(<http://purl.org/doves/doves-ontology#Type_2_Diabetes_Distress_Scale>
 
 SubClassOf(<http://purl.org/doves/doves-ontology#Unknown> <https://purl.org/doves/81955a73-7b46-4cb4-bbae-5c34311aa8a0>)
 
-# Class: <http://purl.org/doves/doves-ontology#Urinary_Sign_Outcome> (Urinary Sign Outcome)
+# Class: <http://purl.org/doves/doves-ontology#Urinary_Sign_Outcome> (Urinary Control Outcome)
 
-AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Urinary_Sign_Outcome> "Urinary Sign Outcome")
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Urinary_Sign_Outcome> "Urinary Control Outcome")
 SubClassOf(<http://purl.org/doves/doves-ontology#Urinary_Sign_Outcome> <http://purl.org/doves/doves-ontology#Sign_Control_Outcome>)
 
 # Class: <http://purl.org/doves/doves-ontology#Vision_Control_Outcome> (Vision Control Outcome)
 
 AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Vision_Control_Outcome> "Vision Control Outcome")
 SubClassOf(<http://purl.org/doves/doves-ontology#Vision_Control_Outcome> <http://purl.org/doves/doves-ontology#Sign_Control_Outcome>)
+
+# Class: <http://purl.org/doves/doves-ontology#Vision_Related_Quality_of_Life_Outcome> (Vision Related Quality of Life Outcome)
+
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Vision_Related_Quality_of_Life_Outcome> "Vision Related Quality of Life Outcome")
+AnnotationAssertion(skos:definition <http://purl.org/doves/doves-ontology#Vision_Related_Quality_of_Life_Outcome> "VRQOL represents the degree to which vision impacts an individual's ability to complete activities of daily living and one's social, emotional and economic well-being.")
+SubClassOf(<http://purl.org/doves/doves-ontology#Vision_Related_Quality_of_Life_Outcome> <https://purl.org/doves/9caa2510-f3a6-4de8-adcb-c554e91aeba7>)
 
 # Class: <http://purl.org/doves/doves-ontology#Weight_Control_Outcome> (Weight Control Outcome)
 
@@ -1539,6 +1584,11 @@ SubClassOf(<http://purl.org/doves/doves-ontology#Work_Productivity_and_Activity_
 AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Young_Adult_Age_Group> "Young Adult Age Group")
 AnnotationAssertion(skos:definition <http://purl.org/doves/doves-ontology#Young_Adult_Age_Group> "Young Adult Age Group is defined as consisting of those individuals age 18-26. https://www.ncbi.nlm.nih.gov/books/NBK284791/#:~:text=Young%20adulthood%2C%20spanning%20approximately%20ages,and%20engaged%20members%20of%20the")
 SubClassOf(<http://purl.org/doves/doves-ontology#Young_Adult_Age_Group> <http://purl.org/doves/0b28937e_45cc_4f6f_b7d5_2d9ae70f61a0>)
+
+# Class: <http://purl.org/doves/doves-ontology#30_Second_Sit_to_Stand_Test_Outcome> (30 Second Sit to Stand Test Outcome)
+
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#30_Second_Sit_to_Stand_Test_Outcome> "30 Second Sit to Stand Test Outcome")
+SubClassOf(<http://purl.org/doves/doves-ontology#30_Second_Sit_to_Stand_Test_Outcome> <http://purl.org/doves/doves-ontology#Musculoskeletal_Control_Outcome>)
 
 # Class: <http://purl.org/doves/doves-ontology#Barthel_Index_(BI)_Outcome> (Barthel Index (BI) Outcome)
 
@@ -1672,6 +1722,11 @@ SubClassOf(<http://purl.org/doves/doves-ontology#Pediatric_Intensive_Care_Unit_(
 
 AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Pelvic_Floor_Disability_Index_(PFDI-20)_Outcome> "Pelvic Floor Disability Index (PFDI-20) Outcome")
 SubClassOf(<http://purl.org/doves/doves-ontology#Pelvic_Floor_Disability_Index_(PFDI-20)_Outcome> <https://purl.org/doves/9caa2510-f3a6-4de8-adcb-c554e91aeba7>)
+
+# Class: <http://purl.org/doves/doves-ontology#Reduced_ED_to_Admission/Observation_Rate_Outcome> (Reduced ED to Admission/Observation Rate Outcome)
+
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Reduced_ED_to_Admission/Observation_Rate_Outcome> "Reduced ED to Admission/Observation Rate Outcome")
+SubClassOf(<http://purl.org/doves/doves-ontology#Reduced_ED_to_Admission/Observation_Rate_Outcome> <https://purl.org/doves/cdec99b1-f3e5-4009-bdc5-49ea965dc503>)
 
 # Class: <http://purl.org/doves/doves-ontology#Representational_State_Transfer_(REST)_Outcome> (Representational State Transfer (REST) Outcome)
 
@@ -3342,9 +3397,9 @@ SubClassOf(<https://purl.org/doves/9099e9d4-b835-48ca-96d6-6d4d535ce85f> <https:
 AnnotationAssertion(rdfs:label <https://purl.org/doves/91de7815-31aa-4fc2-8838-584be35a8690> "Gynecologic Oncology"@en)
 SubClassOf(<https://purl.org/doves/91de7815-31aa-4fc2-8838-584be35a8690> <https://purl.org/doves/e1b32055-f68c-4f72-a5bb-0122d5fe2023>)
 
-# Class: <https://purl.org/doves/9345fc0a-25dd-4d30-8275-da199ca93713> (Cybersecurity Outcome)
+# Class: <https://purl.org/doves/9345fc0a-25dd-4d30-8275-da199ca93713> (Cybersecurity and Privacy Outcome)
 
-AnnotationAssertion(rdfs:label <https://purl.org/doves/9345fc0a-25dd-4d30-8275-da199ca93713> "Cybersecurity Outcome"@en)
+AnnotationAssertion(rdfs:label <https://purl.org/doves/9345fc0a-25dd-4d30-8275-da199ca93713> "Cybersecurity and Privacy Outcome"@en)
 SubClassOf(<https://purl.org/doves/9345fc0a-25dd-4d30-8275-da199ca93713> <https://purl.org/doves/707c8680-500a-46e6-9b54-5658cefc409f>)
 
 # Class: <https://purl.org/doves/93556eac-f0d7-4905-a6f2-6951892fcd82> (Clinical Care Outcome)
