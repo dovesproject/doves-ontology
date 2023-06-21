@@ -156,6 +156,7 @@ Declaration(Class(<http://purl.org/doves/doves-ontology#Percent_of_Issues_Open_O
 Declaration(Class(<http://purl.org/doves/doves-ontology#Pittsburgh_Sleep_Quality_Index>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Pittsburgh_Sleep_Quality_Index_Addendum_for_PTSD>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Prescription_Digital_Therapeutic_Application>))
+Declaration(Class(<http://purl.org/doves/doves-ontology#Progression_Free_Survival_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Proportion_of_Days_Covered_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Proportion_of_Days_Per_Month_of_Medication_Use_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Proportion_of_Images_Gradable_by_Algorithm_Outcome>))
@@ -1363,6 +1364,12 @@ SubClassOf(<http://purl.org/doves/doves-ontology#Pittsburgh_Sleep_Quality_Index_
 
 AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Prescription_Digital_Therapeutic_Application> "Prescription Digital Therapeutic Application")
 SubClassOf(<http://purl.org/doves/doves-ontology#Prescription_Digital_Therapeutic_Application> <http://purl.org/doves/doves-ontology#Digital_Therapeutic_Application>)
+
+# Class: <http://purl.org/doves/doves-ontology#Progression_Free_Survival_Outcome> (Progression Free Survival Outcome)
+
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Progression_Free_Survival_Outcome> "Progression Free Survival Outcome")
+AnnotationAssertion(skos:definition <http://purl.org/doves/doves-ontology#Progression_Free_Survival_Outcome> "Progression free survival is the length of time during and after the treatment of a disease, such as cancer, that a patient lives with the disease but it does not get worse.")
+SubClassOf(<http://purl.org/doves/doves-ontology#Progression_Free_Survival_Outcome> <http://purl.org/doves/doves-ontology#Cancer_Outcomes>)
 
 # Class: <http://purl.org/doves/doves-ontology#Proportion_of_Days_Covered_Outcome> (Proportion of Days Covered Outcome)
 
