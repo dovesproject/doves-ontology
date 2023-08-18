@@ -814,13 +814,13 @@ SubClassOf(<http://purl.org/doves/doves-ontology#Ante-partum_Age_Group> <https:/
 
 # Class: <http://purl.org/doves/doves-ontology#Anxiety_Control> (Anxiety Control Outcome)
 
-AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Anxiety_Control> "Anxiety Control Outcome")
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Anxiety_Control> "Anxiety Control Outcome"@en)
 AnnotationAssertion(skos:definition <http://purl.org/doves/doves-ontology#Anxiety_Control> "An Anxiety Control Outcome is a Menopause Symptom Control Outcome that describes the influence of a digital medicine application on anxiety control related to menopause."@en)
 SubClassOf(<http://purl.org/doves/doves-ontology#Anxiety_Control> <http://purl.org/doves/36e57509_8558_4378_ba65_55ae88ab64dd>)
 
 # Class: <http://purl.org/doves/doves-ontology#Anxiety_Control_Outcome> (Anxiety Control Outcome)
 
-AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Anxiety_Control_Outcome> "Anxiety Control Outcome")
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Anxiety_Control_Outcome> "Anxiety Control Outcome"@en)
 AnnotationAssertion(skos:definition <http://purl.org/doves/doves-ontology#Anxiety_Control_Outcome> "An Anxiety Control Outcome is a Symptom Control Outcome that describes the influence of a digital medicine application on anxiety control."@en)
 SubClassOf(<http://purl.org/doves/doves-ontology#Anxiety_Control_Outcome> <http://purl.org/doves/doves-ontology#Symptom_Control_Outcome>)
 
@@ -834,13 +834,13 @@ SubClassOf(<http://purl.org/doves/doves-ontology#Asian> <http://purl.org/doves/d
 
 # Class: <http://purl.org/doves/doves-ontology#Bed_Control_Outcome> (Bed Control Outcome)
 
-AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Bed_Control_Outcome> "Bed Control Outcome")
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Bed_Control_Outcome> "Bed Control Outcome"@en)
 AnnotationAssertion(skos:definition <http://purl.org/doves/doves-ontology#Bed_Control_Outcome> "Bed Control Outcome is a Resource Utilization Outcome that describes a digital medicine application's ability to influence bed control metric performance at healthcare facilities with beds."@en)
 SubClassOf(<http://purl.org/doves/doves-ontology#Bed_Control_Outcome> <http://purl.org/doves/doves-ontology#Resource_Utilization_Outcome>)
 
 # Class: <http://purl.org/doves/doves-ontology#Best_Corrected_Visual_Acuity_Outcome> (Best Corrected Visual Acuity Outcome)
 
-AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Best_Corrected_Visual_Acuity_Outcome> "Best Corrected Visual Acuity Outcome")
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Best_Corrected_Visual_Acuity_Outcome> "Best Corrected Visual Acuity Outcome"@en)
 AnnotationAssertion(Annotation(rdfs:seeAlso <https://www.nature.com/articles/s41598-022-22586-2#citeas>) skos:definition <http://purl.org/doves/doves-ontology#Best_Corrected_Visual_Acuity_Outcome> "A Best Corrected Visual Acuity Outcome is a Vision Control Outcome which is a measurement which represents the ability to identify and distinguish shapes and objects at a set distance with corrective lenses. It is most commonly used when testing for eye conditions. The most common way is to ask patients to identify letters on a chart. "@en)
 SubClassOf(<http://purl.org/doves/doves-ontology#Best_Corrected_Visual_Acuity_Outcome> <http://purl.org/doves/doves-ontology#Vision_Control_Outcome>)
 
@@ -855,50 +855,50 @@ SubClassOf(<http://purl.org/doves/doves-ontology#Black_or_African_American> <htt
 
 # Class: <http://purl.org/doves/doves-ontology#Bladder_Emptying_Time_Outcome> (Bladder Emptying Time Outcome)
 
-AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Bladder_Emptying_Time_Outcome> "Bladder Emptying Time Outcome")
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Bladder_Emptying_Time_Outcome> "Bladder Emptying Time Outcome"@en)
 AnnotationAssertion(skos:definition <http://purl.org/doves/doves-ontology#Bladder_Emptying_Time_Outcome> "Bladder Emptying Time Outcome is a Urinary Control Outcome that describes the amount of time to physiologically empty one's bladder."@en)
 SubClassOf(<http://purl.org/doves/doves-ontology#Bladder_Emptying_Time_Outcome> <http://purl.org/doves/doves-ontology#Urinary_Sign_Outcome>)
 
 # Class: <http://purl.org/doves/doves-ontology#Breast_Cancer_Screening_Outcome> (Breast Cancer Screening Outcome)
 
-AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Breast_Cancer_Screening_Outcome> "Breast Cancer Screening Outcome")
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Breast_Cancer_Screening_Outcome> "Breast Cancer Screening Outcome"@en)
 AnnotationAssertion(skos:definition <http://purl.org/doves/doves-ontology#Breast_Cancer_Screening_Outcome> "A Breast Cancer Screening Outcome is a HEDIS Measures Outcome related to HEDIS Breast Cancer Screening (BCS) that assesses women 50-74 years of age who had at least one mammogram to screen for breast cancer in the past two years. https://www.ncqa.org/hedis/measures/breast-cancer-screening/#:~:text=Breast%20Cancer%20Screening%20(BCS%2C%20BCS,in%20the%20past%20two%20years."@en)
 SubClassOf(<http://purl.org/doves/doves-ontology#Breast_Cancer_Screening_Outcome> <https://purl.org/doves/60664c15-d39e-460b-9e48-98e660cb8b57>)
 
 # Class: <http://purl.org/doves/doves-ontology#Bristol_Stool_Scale_Outcome> (Bristol Stool Scale Outcome)
 
 AnnotationAssertion(obo:IAO_0000115 <http://purl.org/doves/doves-ontology#Bristol_Stool_Scale_Outcome> "The Bristol Stool Scale Outcome is a Sign Control Outcome that reflects the influence of a digital medicine application on the consistency of stool. https://en.wikipedia.org/wiki/Bristol_stool_scale")
-AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Bristol_Stool_Scale_Outcome> "Bristol Stool Scale Outcome")
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Bristol_Stool_Scale_Outcome> "Bristol Stool Scale Outcome"@en)
 AnnotationAssertion(Annotation(rdfs:seeAlso <https://ep.bmj.com/content/early/2022/09/27/archdischild-2022-324513#ref-8>) skos:definition <http://purl.org/doves/doves-ontology#Bristol_Stool_Scale_Outcome> "A Bristol Stool Scale Outcome is a Sign Control Outcome that describes the Bristol Stool Scale , which is an aid used to diagnose and classify stools into seven different cateogories. Types 1 and 2 indicate constipation, types 3 to 5 indicate the normal range, and types 6 and 7 are loose stools, which indicate diarrhea. "@en)
 SubClassOf(<http://purl.org/doves/doves-ontology#Bristol_Stool_Scale_Outcome> <http://purl.org/doves/doves-ontology#Sign_Control_Outcome>)
 
-# Class: <http://purl.org/doves/doves-ontology#Cancer_Outcomes> (Cancer Outcomes)
+# Class: <http://purl.org/doves/doves-ontology#Cancer_Outcomes> (Cancer Outcome)
 
-AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Cancer_Outcomes> "Cancer Outcomes")
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Cancer_Outcomes> "Cancer Outcome"@en)
 AnnotationAssertion(skos:definition <http://purl.org/doves/doves-ontology#Cancer_Outcomes> "A Cancer Outcome is a Health Benefit Outcome describing the outcomes of digital medicine applications on cancer."@en)
 SubClassOf(<http://purl.org/doves/doves-ontology#Cancer_Outcomes> <https://purl.org/doves/8e9f2330-e042-4723-a5f6-422f7565f1ee>)
 
 # Class: <http://purl.org/doves/doves-ontology#Caregiver_Burden_Reduction_Outcome> (Caregiver Burden Reduction Outcome)
 
-AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Caregiver_Burden_Reduction_Outcome> "Caregiver Burden Reduction Outcome")
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Caregiver_Burden_Reduction_Outcome> "Caregiver Burden Reduction Outcome"@en)
 AnnotationAssertion(skos:definition <http://purl.org/doves/doves-ontology#Caregiver_Burden_Reduction_Outcome> "Caregiver Burden Reduction Outcome is a Family and Carrgiver Outcome that describes a digital medicine application's influence on the amount of burden felt by a caregiver of a patient."@en)
 SubClassOf(<http://purl.org/doves/doves-ontology#Caregiver_Burden_Reduction_Outcome> <http://purl.org/doves/doves-ontology#Family_and_Caregiver_Outcome>)
 
 # Class: <http://purl.org/doves/doves-ontology#Change_in_Number_of_Lines_of_Visual_Acuity_Outcome> (Change in Number of Lines of Visual Acuity Outcome)
 
-AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Change_in_Number_of_Lines_of_Visual_Acuity_Outcome> "Change in Number of Lines of Visual Acuity Outcome")
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Change_in_Number_of_Lines_of_Visual_Acuity_Outcome> "Change in Number of Lines of Visual Acuity Outcome"@en)
 AnnotationAssertion(Annotation(rdfs:seeAlso <https://www.sciencedirect.com/topics/biochemistry-genetics-and-molecular-biology/visual-acuity#:~:text=Normal%20visual%20acuity%20for%20most,patient%20should%20suggest%20additional%20investigation>) skos:definition <http://purl.org/doves/doves-ontology#Change_in_Number_of_Lines_of_Visual_Acuity_Outcome> "A Change in Number of Lines of Visual Acuity Outcome is a Vision Control Outcome that should signal additional investigation if two-lines or more are different from the last visit, and should signal clinical significance if the changes are three-lines or more. These line changes help signal changes in visual acuity. "@en)
 SubClassOf(<http://purl.org/doves/doves-ontology#Change_in_Number_of_Lines_of_Visual_Acuity_Outcome> <http://purl.org/doves/doves-ontology#Vision_Control_Outcome>)
 
 # Class: <http://purl.org/doves/doves-ontology#Change_in_Stereoacuity_Outcome> (Change in Stereoacuity Outcome)
 
-AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Change_in_Stereoacuity_Outcome> "Change in Stereoacuity Outcome")
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Change_in_Stereoacuity_Outcome> "Change in Stereoacuity Outcome"@en)
 AnnotationAssertion(Annotation(rdfs:seeAlso <https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3903340/>) skos:definition <http://purl.org/doves/doves-ontology#Change_in_Stereoacuity_Outcome> "A Change in Stereoacuity Outcome is a Vision Control Outcome that are related to chanages in ocular alignment. Deterioration in stereoacuity can be an indicator for surgery in some conditions. "@en)
 SubClassOf(<http://purl.org/doves/doves-ontology#Change_in_Stereoacuity_Outcome> <http://purl.org/doves/doves-ontology#Vision_Control_Outcome>)
 
 # Class: <http://purl.org/doves/doves-ontology#Change_in_Visual_Acuity_Outcome> (Change in Visual Acuity Outcome)
 
-AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Change_in_Visual_Acuity_Outcome> "Change in Visual Acuity Outcome")
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Change_in_Visual_Acuity_Outcome> "Change in Visual Acuity Outcome"@en)
 AnnotationAssertion(Annotation(rdfs:seeAlso <https://www.ncbi.nlm.nih.gov/books/NBK215/>) skos:definition <http://purl.org/doves/doves-ontology#Change_in_Visual_Acuity_Outcome> "A Change in Visual Acuity Outcome is a Vision Control Outcome that can be due to several factors including: older age, uncorrected refractive error, presbyopia, retinal disorders, optic nerve disorders, and more. "@en)
 SubClassOf(<http://purl.org/doves/doves-ontology#Change_in_Visual_Acuity_Outcome> <http://purl.org/doves/doves-ontology#Vision_Control_Outcome>)
 
@@ -910,32 +910,32 @@ SubClassOf(<http://purl.org/doves/doves-ontology#Child_Age_Group> <https://purl.
 
 # Class: <http://purl.org/doves/doves-ontology#Community_Based_Organization_Referral_Outcome> (Community Based Organization Referral Outcome)
 
-AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Community_Based_Organization_Referral_Outcome> "Community Based Organization Referral Outcome")
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Community_Based_Organization_Referral_Outcome> "Community Based Organization Referral Outcome"@en)
 AnnotationAssertion(skos:definition <http://purl.org/doves/doves-ontology#Community_Based_Organization_Referral_Outcome> "A Community Based Organization Referral Outcome is a Healthcare Access Outcome that described a digital medicine application's ability to facilitate referrals to community based organizations."@en)
 SubClassOf(<http://purl.org/doves/doves-ontology#Community_Based_Organization_Referral_Outcome> <http://purl.org/doves/doves-ontology#Healthcare_Access_Outcome>)
 
 # Class: <http://purl.org/doves/doves-ontology#Completion_Rate_Outcome> (Completion Rate Outcome)
 
-AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Completion_Rate_Outcome> "Completion Rate Outcome")
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Completion_Rate_Outcome> "Completion Rate Outcome"@en)
 AnnotationAssertion(skos:definition <http://purl.org/doves/doves-ontology#Completion_Rate_Outcome> "A Completion Rate Outcome is an Engagement and Adherence Outcome that is reflected by a digital medicine application's influence for its user to complete an activity, action, intervnetion, or program."@en)
 SubClassOf(<http://purl.org/doves/doves-ontology#Completion_Rate_Outcome> <https://purl.org/doves/f70ac7b3-c718-4511-9f13-2f4ab13050b8>)
 
-# Class: <http://purl.org/doves/doves-ontology#Customer_Support> (Cutomer Support)
+# Class: <http://purl.org/doves/doves-ontology#Customer_Support> (Customer Support Outcome)
 
-AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Customer_Support> "Cutomer Support")
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Customer_Support> "Customer Support Outcome"@en)
 AnnotationAssertion(skos:definition <http://purl.org/doves/doves-ontology#Customer_Support> "Customer Support Outcome is a Satisfaction Outcome that describes the level of satisfaction that a user of a digital medicine application has with Customer Support for the given application. "@en)
 SubClassOf(<http://purl.org/doves/doves-ontology#Customer_Support> <https://purl.org/doves/4dcb77b8-51f4-4b3a-8a61-a4dd9e2c72ae>)
 
 # Class: <http://purl.org/doves/doves-ontology#DICOM> (DICOM Compliance Outcome)
 
-AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#DICOM> "DICOM Compliance Outcome")
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#DICOM> "DICOM Compliance Outcome"@en)
 AnnotationAssertion(Annotation(rdfs:seeAlso <https://www.ncbi.nlm.nih.gov/pmc/articles/PMC61235/>) skos:definition <http://purl.org/doves/doves-ontology#DICOM> "A Digital Imaging and Communications in Medicine (DICOM) Compliance Outcome is a Data Standards Outcome that describes whether a digital medicine application outcome adheres to the DICOM standard which specifies a non-proprietary data interchange protocol, digital image format, and file structure for biomedical images and image-related information. The fundamental concepts of the DICOM message protocol, services, and information objects are reviewed as background for a detailed discussion of the functionality of DICOM; the innovations and limitations of the Standard; and the impact of various DICOM features on information system users. DICOM addresses five general application areas: (1) network image management, (2) network image interpretation management, (3) network print management, (4) imaging procedure management, (5) off-line storage media management. DICOM is a complete specification of the elements required to achieve a practical level of automatic interoperability between biomedical imaging computer systems—from application layer to bit-stream encoding.
 "@en)
 SubClassOf(<http://purl.org/doves/doves-ontology#DICOM> <https://purl.org/doves/9f90a5e3-6d96-4127-bcff-143c2831b5bc>)
 
 # Class: <http://purl.org/doves/doves-ontology#Decreased_Diagnostic_Test_Unit_Cost_Outcome> (Reduced Diagnostic Test Unit Cost Outcome)
 
-AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Decreased_Diagnostic_Test_Unit_Cost_Outcome> "Reduced Diagnostic Test Unit Cost Outcome")
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Decreased_Diagnostic_Test_Unit_Cost_Outcome> "Reduced Diagnostic Test Unit Cost Outcome"@en)
 AnnotationAssertion(skos:definition <http://purl.org/doves/doves-ontology#Decreased_Diagnostic_Test_Unit_Cost_Outcome> "A Reduced Diagnostic Test Unit Cost Outcome is a Reduced Costs Outcome that reflects a digital medicine application's influence on reducing the cost per test for a patient. "@en)
 SubClassOf(<http://purl.org/doves/doves-ontology#Decreased_Diagnostic_Test_Unit_Cost_Outcome> <https://purl.org/doves/7124f3ed-a489-431c-90ce-c2a5fe7d95bb>)
 
@@ -954,25 +954,25 @@ SubClassOf(<http://purl.org/doves/doves-ontology#Decreased_Sleep_Latency_Outcome
 
 # Class: <http://purl.org/doves/doves-ontology#Decreased_Specialty_Care_Encounter_Rate_Outcome> (Decreased Specialty Care Encounter Rate Outcome)
 
-AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Decreased_Specialty_Care_Encounter_Rate_Outcome> "Decreased Specialty Care Encounter Rate Outcome")
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Decreased_Specialty_Care_Encounter_Rate_Outcome> "Decreased Specialty Care Encounter Rate Outcome"@en)
 AnnotationAssertion(skos:definition <http://purl.org/doves/doves-ontology#Decreased_Specialty_Care_Encounter_Rate_Outcome> "A Decreased Specialty Care Encounter Rate Outcome is a Modified Specialty Care Outcome that is influenced by digital medicine applications that decrease inappropriate healthcare utilization in medical specialties."@en)
 SubClassOf(<http://purl.org/doves/doves-ontology#Decreased_Specialty_Care_Encounter_Rate_Outcome> <http://purl.org/doves/doves-ontology#Modified_Specialty_Care_Encounter_Rate_Outcome>)
 
 # Class: <http://purl.org/doves/doves-ontology#Depression_Control> (Depression Control Outcome)
 
-AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Depression_Control> "Depression Control Outcome")
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Depression_Control> "Depression Control Outcome"@en)
 AnnotationAssertion(skos:definition <http://purl.org/doves/doves-ontology#Depression_Control> "A Depression Control Outcome is a Menopause Symptom Control Outcome that describes the influence of a digital medicine application on depression control related to menopause"@en)
 SubClassOf(<http://purl.org/doves/doves-ontology#Depression_Control> <http://purl.org/doves/36e57509_8558_4378_ba65_55ae88ab64dd>)
 
 # Class: <http://purl.org/doves/doves-ontology#Depression_Control_Outcome> (Depression Control Outcome)
 
-AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Depression_Control_Outcome> "Depression Control Outcome")
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Depression_Control_Outcome> "Depression Control Outcome"@en)
 AnnotationAssertion(skos:definition <http://purl.org/doves/doves-ontology#Depression_Control_Outcome> "A Depression Control Outcome is a Symptom Control Outcome that describes the influence of a digital medicine application on depression control."@en)
 SubClassOf(<http://purl.org/doves/doves-ontology#Depression_Control_Outcome> <http://purl.org/doves/doves-ontology#Symptom_Control_Outcome>)
 
 # Class: <http://purl.org/doves/doves-ontology#Diabetic_Retinopathy_Exam_Outcome> (HEDIS Diabetic Retinopathy Exam Outcome)
 
-AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Diabetic_Retinopathy_Exam_Outcome> "HEDIS Diabetic Retinopathy Exam Outcome")
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Diabetic_Retinopathy_Exam_Outcome> "HEDIS Diabetic Retinopathy Exam Outcome"@en)
 AnnotationAssertion(skos:definition <http://purl.org/doves/doves-ontology#Diabetic_Retinopathy_Exam_Outcome> "A HEDIS Diabetic Retinopathy Exam Outcome is a HEDIS Measure Diabetes Care Outcome which measures the percentage of individuals who have had a comprehensive eye exam to screen or monitor for diabetic retinal disease, and includes those patients who have had:
 a retinal or dilated eye exam by an optometrist or ophthalmologist in the measurement year.
 a negative retinal or dilated eye exam (negative for retinopathy) by an optometrist or ophthalmologist in the year prior to the measurement year.
@@ -987,9 +987,9 @@ SubClassOf(<http://purl.org/doves/doves-ontology#Dietary_Adherence_Outcome> <htt
 
 SubClassOf(<http://purl.org/doves/doves-ontology#Digital_Health_Application> <http://purl.org/doves/doves-ontology#Regulatory_Category>)
 
-# Class: <http://purl.org/doves/doves-ontology#Digital_Health_Assessment_Framework_Certification_Outcome> (Digital Health Assessment Framework (DHAF) Certification Outcome)
+# Class: <http://purl.org/doves/doves-ontology#Digital_Health_Assessment_Framework_Certification_Outcome> (digital medicine Assessment Framework (DHAF) Certification Outcome)
 
-AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Digital_Health_Assessment_Framework_Certification_Outcome> "Digital Health Assessment Framework (DHAF) Certification Outcome")
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Digital_Health_Assessment_Framework_Certification_Outcome> "digital medicine Assessment Framework (DHAF) Certification Outcome"@en)
 AnnotationAssertion(Annotation(rdfs:seeAlso <https://www.acponline.org/practice-resources/business-resources/telehealth-guidance-and-resources/pilot-test-orcha-acp-library-of-weight-management-apps/about-the-digital-health-assessment-framework-dhaf>) skos:definition <http://purl.org/doves/doves-ontology#Digital_Health_Assessment_Framework_Certification_Outcome> "A digital medicine Assessment Framework (DHAF) Certification Outcome is a Digital Medicine Assessment Certification Outcome that describes a comprehensive set of criteria intended to identify high-quality, safe and effective digital medicine tools (or apps). The criteria are organized into four domains:
 
 1. Data & Privacy
@@ -1020,13 +1020,13 @@ SubClassOf(<http://purl.org/doves/doves-ontology#Digital_Medicine_Application> <
 
 # Class: <http://purl.org/doves/doves-ontology#Digital_Medicine_Assessment_Certification_Outcome> (Digital Medicine Assessment Certification Outcome)
 
-AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Digital_Medicine_Assessment_Certification_Outcome> "Digital Medicine Assessment Certification Outcome")
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Digital_Medicine_Assessment_Certification_Outcome> "Digital Medicine Assessment Certification Outcome"@en)
 AnnotationAssertion(skos:definition <http://purl.org/doves/doves-ontology#Digital_Medicine_Assessment_Certification_Outcome> "Digital Medicine Assessment Certification Outcome is a Product Performance Non-Clinical Outcome that describes whether a digtial medicine application has been evaluated under the framework and passed a dedicated digital medicine or digital medicine assessment. Many frameworks currently exist including the Digitial Technology Assessment Criteria, the digital medicine Assessment Framework, and others."@en)
 SubClassOf(<http://purl.org/doves/doves-ontology#Digital_Medicine_Assessment_Certification_Outcome> <https://purl.org/doves/707c8680-500a-46e6-9b54-5658cefc409f>)
 
 # Class: <http://purl.org/doves/doves-ontology#Digital_Technology_Assessment_Criteria_Certification_Outcome> (Digital Technology Assessment Criteria Certification Outcome)
 
-AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Digital_Technology_Assessment_Criteria_Certification_Outcome> "Digital Technology Assessment Criteria Certification Outcome")
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Digital_Technology_Assessment_Criteria_Certification_Outcome> "Digital Technology Assessment Criteria Certification Outcome"@en)
 AnnotationAssertion(Annotation(rdfs:seeAlso <https://transform.england.nhs.uk/key-tools-and-info/digital-technology-assessment-criteria-dtac/>) skos:definition <http://purl.org/doves/doves-ontology#Digital_Technology_Assessment_Criteria_Certification_Outcome> "A Digital Technology Assessment Criteria Certification (DTAC) Outcome is a Digital Medicine Assessment Certification Outcome which brings together legislation and good practice for clinical safety, data protection, technical security, interoperability, and usability and accessibility standards for the National Health Service (NHS) in England. It is the national baseline criteria for digital medicine technologies entering and already used in the NHS and social care.
 
 The DTAC is designed to be used by healthcare organizations to assess suppliers at the point of procurement or as part of a due diligence process, to make sure digital technologies meet our minimum baseline standards. For developers, it sets out what is expected for entry into the NHS and social care. "@en)
@@ -1040,20 +1040,20 @@ SubClassOf(<http://purl.org/doves/doves-ontology#Digital_Therapeutic_Application
 
 # Class: <http://purl.org/doves/doves-ontology#Disease_Course_Modification_Outcome> (Disease Course Modification Outcome)
 
-AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Disease_Course_Modification_Outcome> "Disease Course Modification Outcome")
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Disease_Course_Modification_Outcome> "Disease Course Modification Outcome"@en)
 AnnotationAssertion(skos:definition <http://purl.org/doves/doves-ontology#Disease_Course_Modification_Outcome> "A Disease Course Modification Outcome is a Health Benefit Outcome that reflects a digital medicine tool's ability to modify the course of a disease."@en)
 SubClassOf(<http://purl.org/doves/doves-ontology#Disease_Course_Modification_Outcome> <https://purl.org/doves/8e9f2330-e042-4723-a5f6-422f7565f1ee>)
 
 # Class: <http://purl.org/doves/doves-ontology#Disease_Course_Outcome> (Disease Course Insight Outcome)
 
-AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Disease_Course_Outcome> "Disease Course Insight Outcome")
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Disease_Course_Outcome> "Disease Course Insight Outcome"@en)
 AnnotationAssertion(skos:definition <http://purl.org/doves/doves-ontology#Disease_Course_Outcome> "A Disease Course Insight Outcome is a Health Benefit Outcome that describes the ability to better understand the course or natural progression of a disease, including sugns and symptoms, that subsequently facilitates better management insights and options."@en)
 SubClassOf(<http://purl.org/doves/doves-ontology#Disease_Course_Outcome> <https://purl.org/doves/8e9f2330-e042-4723-a5f6-422f7565f1ee>)
 
 # Class: <http://purl.org/doves/doves-ontology#Economic_Value_from_Digital_Medicine_Billing_Codes_Outcome> (Economic Value from Digital Medicine Billing Codes Outcome)
 
 AnnotationAssertion(obo:IAO_0000115 <http://purl.org/doves/doves-ontology#Economic_Value_from_Digital_Medicine_Billing_Codes_Outcome> "Economic Value from Digital Medicine Billing Codes Outcome is a Healthcare Economic Outcome that reflects the degree to which billing codes (e.g. CPT or remote patient monitoring billing codes) are used to capture reimbursement.")
-AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Economic_Value_from_Digital_Medicine_Billing_Codes_Outcome> "Economic Value from Digital Medicine Billing Codes Outcome")
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Economic_Value_from_Digital_Medicine_Billing_Codes_Outcome> "Economic Value from Digital Medicine Billing Codes Outcome"@en)
 AnnotationAssertion(skos:definition <http://purl.org/doves/doves-ontology#Economic_Value_from_Digital_Medicine_Billing_Codes_Outcome> "An Economic Value from Digital Medicine Billing Codes Outcome is a Healthcare Economic Outcome that describes the influence a digital medicine application has on the economic return to the health system of billing codes that can be utilized for care provided. "@en)
 SubClassOf(<http://purl.org/doves/doves-ontology#Economic_Value_from_Digital_Medicine_Billing_Codes_Outcome> <https://purl.org/doves/f4c71cb0-20ca-4838-bea8-c8aa68037a97>)
 
@@ -1069,7 +1069,7 @@ SubClassOf(<http://purl.org/doves/doves-ontology#Emergency_Department> <http://p
 
 # Class: <http://purl.org/doves/doves-ontology#Employee_Burnout_Reduction_Outcome> (Healthcare Employee Burnout Reduction Outcome)
 
-AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Employee_Burnout_Reduction_Outcome> "Healthcare Employee Burnout Reduction Outcome")
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Employee_Burnout_Reduction_Outcome> "Healthcare Employee Burnout Reduction Outcome"@en)
 AnnotationAssertion(Annotation(rdfs:seeAlso <https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7604257/>) skos:definition <http://purl.org/doves/doves-ontology#Employee_Burnout_Reduction_Outcome> "A Healthcare Employee Burnout Reduction Outcome is a Healthcare Operation Outcome which aims to reduce burnout by changing lifestyle habits and optimizing work-life balance. "@en)
 SubClassOf(<http://purl.org/doves/doves-ontology#Employee_Burnout_Reduction_Outcome> <https://purl.org/doves/1ae3245a-1b7f-40b2-ae3b-74706699204a>)
 
@@ -1104,43 +1104,43 @@ SubClassOf(<http://purl.org/doves/doves-ontology#FDA_Granted> <http://purl.org/d
 
 # Class: <http://purl.org/doves/doves-ontology#Family_and_Caregiver_Outcome> (Family and Caregiver Outcome)
 
-AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Family_and_Caregiver_Outcome> "Family and Caregiver Outcome")
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Family_and_Caregiver_Outcome> "Family and Caregiver Outcome"@en)
 AnnotationAssertion(skos:definition <http://purl.org/doves/doves-ontology#Family_and_Caregiver_Outcome> "Family and Caregiver Outcome is a Healthcare Outcome that describes a digital medicine application's outcome that is an outcome for a family or caregiver of a patient, but not necessarily for the patient him or herself. "@en)
 SubClassOf(<http://purl.org/doves/doves-ontology#Family_and_Caregiver_Outcome> <https://purl.org/doves/8081940e-b77f-4aa1-bfcf-0b979f0a2158>)
 
 # Class: <http://purl.org/doves/doves-ontology#Five_Year_Survival_Outcome> (Five Year Survival Outcome)
 
-AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Five_Year_Survival_Outcome> "Five Year Survival Outcome")
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Five_Year_Survival_Outcome> "Five Year Survival Outcome"@en)
 AnnotationAssertion(Annotation(rdfs:seeAlso <https://www.mayoclinic.org/diseases-conditions/cancer/in-depth/cancer/art-20044517>) skos:definition <http://purl.org/doves/doves-ontology#Five_Year_Survival_Outcome> "A Five Year Survival Outcome is a Cancer Outcome used to quantify the survival rates of certain types of cancer for a 5 year timeframe. "@en)
 SubClassOf(<http://purl.org/doves/doves-ontology#Five_Year_Survival_Outcome> <http://purl.org/doves/doves-ontology#Cancer_Outcomes>)
 
 # Class: <http://purl.org/doves/doves-ontology#Formulary_Transparency_Outcome> (Formulary Transparency Outcome)
 
-AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Formulary_Transparency_Outcome> "Formulary Transparency Outcome")
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Formulary_Transparency_Outcome> "Formulary Transparency Outcome"@en)
 AnnotationAssertion(skos:definition <http://purl.org/doves/doves-ontology#Formulary_Transparency_Outcome> "Formulary Transparency Outcome is a Patient/Family Education Outcome that reflects a digital medicine application's ability to make items on a formulary visible to patients and families."@en)
 SubClassOf(<http://purl.org/doves/doves-ontology#Formulary_Transparency_Outcome> <https://purl.org/doves/0323ba81-5b6f-417d-9829-263c5403582f>)
 
 # Class: <http://purl.org/doves/doves-ontology#GDPR_Compliance_Outcome> (GDPR Compliance Outcome)
 
-AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#GDPR_Compliance_Outcome> "GDPR Compliance Outcome")
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#GDPR_Compliance_Outcome> "GDPR Compliance Outcome"@en)
 AnnotationAssertion(Annotation(rdfs:seeAlso <https://gdpr.eu/>) skos:definition <http://purl.org/doves/doves-ontology#GDPR_Compliance_Outcome> "GPDR Compliance Outcome is a Cybersecurity and Privacy Outcome that describes whether a digital medicine application complies with the General Data Protection Regulation "@en)
 SubClassOf(<http://purl.org/doves/doves-ontology#GDPR_Compliance_Outcome> <https://purl.org/doves/9345fc0a-25dd-4d30-8275-da199ca93713>)
 
 # Class: <http://purl.org/doves/doves-ontology#HEDIS_Diabetes_Blood_Pressure_Control_Outcome> (HEDIS Diabetes Blood Pressure Control Outcome)
 
-AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#HEDIS_Diabetes_Blood_Pressure_Control_Outcome> "HEDIS Diabetes Blood Pressure Control Outcome")
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#HEDIS_Diabetes_Blood_Pressure_Control_Outcome> "HEDIS Diabetes Blood Pressure Control Outcome"@en)
 AnnotationAssertion(skos:definition <http://purl.org/doves/doves-ontology#HEDIS_Diabetes_Blood_Pressure_Control_Outcome> "A HEDIS Diabetes Blood Pressure Control Outcome is a HEDIS Measure Diabetes Care Outcome that measures the percentage of individuals who’ve had a blood pressure control test (<140/90 mm Hg)."@en)
 SubClassOf(<http://purl.org/doves/doves-ontology#HEDIS_Diabetes_Blood_Pressure_Control_Outcome> <https://purl.org/doves/494ac5f1-e8d5-40dc-9028-07bbe6f34373>)
 
 # Class: <http://purl.org/doves/doves-ontology#HEDIS_Diabetic_Nephropathy_Screening_Outcome> (HEDIS Diabetic Nephropathy Exam Screening Outcome)
 
-AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#HEDIS_Diabetic_Nephropathy_Screening_Outcome> "HEDIS Diabetic Nephropathy Exam Screening Outcome")
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#HEDIS_Diabetic_Nephropathy_Screening_Outcome> "HEDIS Diabetic Nephropathy Exam Screening Outcome"@en)
 AnnotationAssertion(skos:definition <http://purl.org/doves/doves-ontology#HEDIS_Diabetic_Nephropathy_Screening_Outcome> "A HEDIS Diabetic Nephropathy Exam Screening Outcome is a HEDIS Measure Diabetes Care Outcome that measures the percentage of individuals who have had a test to check for deterioration of kidney function. This is commonly performed by performing a urine test to screen for microalbuminuria."@en)
 SubClassOf(<http://purl.org/doves/doves-ontology#HEDIS_Diabetic_Nephropathy_Screening_Outcome> <https://purl.org/doves/494ac5f1-e8d5-40dc-9028-07bbe6f34373>)
 
 # Class: <http://purl.org/doves/doves-ontology#HEDIS_HbA1c_Control> (HEDIS HbA1c Control Outcome)
 
-AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#HEDIS_HbA1c_Control> "HEDIS HbA1c Control Outcome")
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#HEDIS_HbA1c_Control> "HEDIS HbA1c Control Outcome"@en)
 AnnotationAssertion(skos:definition <http://purl.org/doves/doves-ontology#HEDIS_HbA1c_Control> "A HEDIS HbA1c Control Outcome is a HEDIS Measure Diabetes Care Outcome which measures the percentage of individuals who’ve had an HbA1c test during that year that demonstrates good control.
 Measures the percentage of individuals who have HbA1C in control, defined as <8%.
 Measures the percentage of individuals who are in Poor control, defined by HbA1ct >9.0%"@en)
@@ -1148,7 +1148,7 @@ SubClassOf(<http://purl.org/doves/doves-ontology#HEDIS_HbA1c_Control> <https://p
 
 # Class: <http://purl.org/doves/doves-ontology#HL7_Access_Outcome> (HL7 Access Outcome)
 
-AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#HL7_Access_Outcome> "HL7 Access Outcome")
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#HL7_Access_Outcome> "HL7 Access Outcome"@en)
 AnnotationAssertion(Annotation(rdfs:seeAlso <https://en.wikipedia.org/wiki/Health_Level_7>) skos:definition <http://purl.org/doves/doves-ontology#HL7_Access_Outcome> "HL7 Access Outcome is an Interoperability Outcome that describes whether a digital medicine application adheres to HL& standards for the transfer of clinical and administrative data between applications. "@en)
 SubClassOf(<http://purl.org/doves/doves-ontology#HL7_Access_Outcome> <https://purl.org/doves/eec4d9eb-9db4-44f5-9523-c8b481cf4293>)
 
@@ -1158,7 +1158,7 @@ SubClassOf(<http://purl.org/doves/doves-ontology#Headache_Control_Outcome> <http
 
 # Class: <http://purl.org/doves/doves-ontology#Health_Literacy_Outcome> (Health Literacy Outcome)
 
-AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Health_Literacy_Outcome> "Health Literacy Outcome")
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Health_Literacy_Outcome> "Health Literacy Outcome"@en)
 AnnotationAssertion(Annotation(rdfs:seeAlso <https://health.gov/healthypeople/priority-areas/health-literacy-healthy-people-2030>) skos:definition <http://purl.org/doves/doves-ontology#Health_Literacy_Outcome> "Personal health literacy is the degree to which individuals have the ability to find, understand, and use information and services to inform health-related decisions and actions for themselves and others. 
 Organizational health literacy is the degree to which organizations equitably enable individuals to find, understand, and use information and services to inform health-related decisions and actions for themselves and others.
 "@en)
@@ -1166,19 +1166,19 @@ SubClassOf(<http://purl.org/doves/doves-ontology#Health_Literacy_Outcome> <https
 
 # Class: <http://purl.org/doves/doves-ontology#Healthcare_Access_Outcome> (Healthcare Access Outcome)
 
-AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Healthcare_Access_Outcome> "Healthcare Access Outcome")
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Healthcare_Access_Outcome> "Healthcare Access Outcome"@en)
 AnnotationAssertion(skos:definition <http://purl.org/doves/doves-ontology#Healthcare_Access_Outcome> "A Healthcare Access Outcome is a Healthcare Operation Outcome that reflects the effect that a digital medicine application may have on increasing access to healthcare or healthcare services."@en)
 SubClassOf(<http://purl.org/doves/doves-ontology#Healthcare_Access_Outcome> <https://purl.org/doves/1ae3245a-1b7f-40b2-ae3b-74706699204a>)
 
 # Class: <http://purl.org/doves/doves-ontology#Healthcare_Provider_Reported_Outcome> (Healthcare Provider Reported Outcome)
 
-AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Healthcare_Provider_Reported_Outcome> "Healthcare Provider Reported Outcome")
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Healthcare_Provider_Reported_Outcome> "Healthcare Provider Reported Outcome"@en)
 AnnotationAssertion(skos:definition <http://purl.org/doves/doves-ontology#Healthcare_Provider_Reported_Outcome> "A Healthcare Provider Reported Outcome is a Healthcare Outcome that describes a digital medicine application's ability to capture healthcare provider reported outcomes. Unlike patient reported outcomes that rely exclusively on a patient's input to complete, a healthcare provider reported outcome relies exclusively on a healthcare provider to complete. Commonly, these are composite scores derived from multipke, often objective inputs on a specific topic to which the healthcare provider has access (e.g. quantitative range of motion) but to which the patient may not. Examples of clinician completed outcome measures in orthopedics can be seen here: https://www.orthopaedicscore.com/ "@en)
 SubClassOf(<http://purl.org/doves/doves-ontology#Healthcare_Provider_Reported_Outcome> <https://purl.org/doves/8081940e-b77f-4aa1-bfcf-0b979f0a2158>)
 
 # Class: <http://purl.org/doves/doves-ontology#Healthcare_System_Navigation_Outcome> (Healthcare System Navigation Outcome)
 
-AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Healthcare_System_Navigation_Outcome> "Healthcare System Navigation Outcome")
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Healthcare_System_Navigation_Outcome> "Healthcare System Navigation Outcome"@en)
 AnnotationAssertion(skos:definition <http://purl.org/doves/doves-ontology#Healthcare_System_Navigation_Outcome> "Healthcare System Navigation Outcome is a Family and Caregiver Outcome that describes a digital medicine application's influence on assisting family or caregivers navigate (physically, administratively, financially, etc.) the complexity of the healthcare system."@en)
 SubClassOf(<http://purl.org/doves/doves-ontology#Healthcare_System_Navigation_Outcome> <http://purl.org/doves/doves-ontology#Family_and_Caregiver_Outcome>)
 
@@ -1194,7 +1194,7 @@ SubClassOf(<http://purl.org/doves/doves-ontology#Hispanic_or_Latino> <http://pur
 
 # Class: <http://purl.org/doves/doves-ontology#Hot_Flashes_Control> (Hot Flashes Control Outcome)
 
-AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Hot_Flashes_Control> "Hot Flashes Control Outcome")
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Hot_Flashes_Control> "Hot Flashes Control Outcome"@en)
 AnnotationAssertion(skos:definition <http://purl.org/doves/doves-ontology#Hot_Flashes_Control> "A Hot Flashes Control Outcome is a Menopause Symptom Control Outcome that describes the influence of a digital medicine application on hot flashes, which are random, sudden feelings of warmth in the body."@en)
 SubClassOf(<http://purl.org/doves/doves-ontology#Hot_Flashes_Control> <http://purl.org/doves/36e57509_8558_4378_ba65_55ae88ab64dd>)
 
@@ -1209,63 +1209,65 @@ SubClassOf(<http://purl.org/doves/doves-ontology#ICU_Bounce_Back_Outcome> <http:
 
 # Class: <http://purl.org/doves/doves-ontology#ISO_13485_Certification_Outcome> (ISO 13485 Certification Outcome)
 
-AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#ISO_13485_Certification_Outcome> "ISO 13485 Certification Outcome")
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#ISO_13485_Certification_Outcome> "ISO 13485 Certification Outcome"@en)
 AnnotationAssertion(skos:definition <http://purl.org/doves/doves-ontology#ISO_13485_Certification_Outcome> "An ISO 13485 Certification Outcome is a Technical Certification Outcome that describes a standard of the International Organization for standards pertaining to medical devices- quality management systems - requirements for regulatory purposes. https://www.iso.org/standard/59752.html
 
 ISO 13485:2016 specifies requirements for a quality management system where an organization needs to demonstrate its ability to provide medical devices and related services that consistently meet customer and applicable regulatory requirements. Such organizations can be involved in one or more stages of the life-cycle, including design and development, production, storage and distribution, installation, or servicing of a medical device and design and development or provision of associated activities (e.g. technical support). ISO 13485:2016 can also be used by suppliers or external parties that provide product, including quality management system-related services to such organizations."@en)
 SubClassOf(<http://purl.org/doves/doves-ontology#ISO_13485_Certification_Outcome> <http://purl.org/doves/doves-ontology#Technical_Certification_Outcome>)
 
-# Class: <http://purl.org/doves/doves-ontology#ISO_27001_Certification_Outcome> (<http://purl.org/doves/doves-ontology#ISO_27001_Certification_Outcome>)
+# Class: <http://purl.org/doves/doves-ontology#ISO_27001_Certification_Outcome> (ISO 27001 Certification Outcome)
 
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#ISO_27001_Certification_Outcome> "ISO 27001 Certification Outcome"@en)
 AnnotationAssertion(skos:altLabel <http://purl.org/doves/doves-ontology#ISO_27001_Certification_Outcome> "ISO/IEC 27001 Certification Outcome")
 AnnotationAssertion(Annotation(rdfs:seeAlso <https://www.iso.org/standard/27001>) skos:definition <http://purl.org/doves/doves-ontology#ISO_27001_Certification_Outcome> "ISO 27001 Certification Outcome is a Cybersecurity and Privacy Outcome that describes whether a digital medicine application has ISO/IEC 27001 certification. ISO 27001 is an international standard to manage information security. The standard was originally published jointly by the International Organization for Standardization and the International Electrotechnical Commission in 2005, revised in 2013, and again most recently in 2022. "@en)
 SubClassOf(<http://purl.org/doves/doves-ontology#ISO_27001_Certification_Outcome> <https://purl.org/doves/9345fc0a-25dd-4d30-8275-da199ca93713>)
 
-# Class: <http://purl.org/doves/doves-ontology#ISO_9241-210_Certification_Outcome> (<http://purl.org/doves/doves-ontology#ISO_9241-210_Certification_Outcome>)
+# Class: <http://purl.org/doves/doves-ontology#ISO_9241-210_Certification_Outcome> (Certification Outcome)
 
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#ISO_9241-210_Certification_Outcome> "Certification Outcome"@en)
 AnnotationAssertion(Annotation(rdfs:seeAlso <https://www.iso.org/standard/77520.html>) skos:definition <http://purl.org/doves/doves-ontology#ISO_9241-210_Certification_Outcome> "An ISO 9241-210 Certification Outcome is a Human Factors and Usability outcome that indicates a product's certification to the International Organization for Standardization's Ergonomics for human-system interaction Part 210 Human-centered design for interactive systems.  "@en)
 SubClassOf(<http://purl.org/doves/doves-ontology#ISO_9241-210_Certification_Outcome> <https://purl.org/doves/be939100-e527-489d-ab9a-94aa852245f6>)
 
-# Class: <http://purl.org/doves/doves-ontology#Improvement_in_Pittsbrgh_Sleep_Quality_Index_Outcome> (Improvement in Pittsburgh Sleep Quality Index Outcome)
+# Class: <http://purl.org/doves/doves-ontology#Improvement_in_Pittsbrgh_Sleep_Quality_Index_Outcome> (Pittsburgh Sleep Quality Index Outcome)
 
-AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Improvement_in_Pittsbrgh_Sleep_Quality_Index_Outcome> "Improvement in Pittsburgh Sleep Quality Index Outcome")
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Improvement_in_Pittsbrgh_Sleep_Quality_Index_Outcome> "Pittsburgh Sleep Quality Index Outcome"@en)
 AnnotationAssertion(Annotation(rdfs:seeAlso <https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4513264/>) skos:definition <http://purl.org/doves/doves-ontology#Improvement_in_Pittsbrgh_Sleep_Quality_Index_Outcome> "An Improvement in Pittsburge Sleep Quality Index (PSQI) Outcome is a Sleep Disorder Symptom Scale Outcomes which describes a 19-item, self-rated questionnaire designed to measure sleep quality and disturbance over the past month in clinical populations.17 The 19 items are grouped into 7 components, including (1) sleep duration, (2) sleep disturbance, (3) sleep latency, (4) daytime dysfunction due to sleepiness, (5) sleep efficiency, (6) overall sleep quality, and (7) sleep medication use. Each of the sleep components yields a score ranging from 0 to 3, with 3 indicating the greatest dysfunction. The sleep component scores are summed to yield a total score ranging from 0 to 21 with the higher total score (referred to as global score) indicating worse sleep quality. 
 "@en)
 SubClassOf(<http://purl.org/doves/doves-ontology#Improvement_in_Pittsbrgh_Sleep_Quality_Index_Outcome> <http://purl.org/doves/doves-ontology#Sleep_Disorder_Symptom_Scale>)
 
-# Class: <http://purl.org/doves/doves-ontology#Improvement_in_Sleep_Disturbance_Scale_for_Children_Outcome> (Improvement in Sleep Disturbance Scale for Children Outcome)
+# Class: <http://purl.org/doves/doves-ontology#Improvement_in_Sleep_Disturbance_Scale_for_Children_Outcome> (Sleep Disturbance Scale for Children Outcome)
 
-AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Improvement_in_Sleep_Disturbance_Scale_for_Children_Outcome> "Improvement in Sleep Disturbance Scale for Children Outcome")
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Improvement_in_Sleep_Disturbance_Scale_for_Children_Outcome> "Sleep Disturbance Scale for Children Outcome"@en)
 AnnotationAssertion(Annotation(rdfs:seeAlso <https://www.med.upenn.edu/cbti/assets/user-content/documents/Sleep%20Disturbance%20Scale%20for%20Children%20(SDSC).pdf>) skos:definition <http://purl.org/doves/doves-ontology#Improvement_in_Sleep_Disturbance_Scale_for_Children_Outcome> "The Sleep Disturbance Scale for Children Outcome is a Sleep Disorder Symptom Scale Outcome that consists of a 27-item scale to evaluate sleep specific disorders in children and to provide an overall measure of sleep disturbance suitable for use in clinical screening and research. "@en)
 SubClassOf(<http://purl.org/doves/doves-ontology#Improvement_in_Sleep_Disturbance_Scale_for_Children_Outcome> <http://purl.org/doves/doves-ontology#Sleep_Disorder_Symptom_Scale>)
 
-# Class: <http://purl.org/doves/doves-ontology#Improvement_in_Sleep_Quality_Scale_Outcome> (Improvement in Sleep Quality Scale Outcome)
+# Class: <http://purl.org/doves/doves-ontology#Improvement_in_Sleep_Quality_Scale_Outcome> (Sleep Quality Scale Outcome)
 
-AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Improvement_in_Sleep_Quality_Scale_Outcome> "Improvement in Sleep Quality Scale Outcome")
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Improvement_in_Sleep_Quality_Scale_Outcome> "Sleep Quality Scale Outcome"@en)
 AnnotationAssertion(Annotation(rdfs:seeAlso <https://www.med.upenn.edu/cbti/assets/user-content/documents/Sleep%20Quality%20Scale%20(SQS).pdf>) skos:definition <http://purl.org/doves/doves-ontology#Improvement_in_Sleep_Quality_Scale_Outcome> "Sleep Quality Scale Outcome is a Sleep Disorder Outcome that describes a 28-item patient survey on six domains including: daytime symptoms, restoration after sleep, problems iniating and maintaining sleep, difficulty waking, and sleep satisfaction. "@en)
 SubClassOf(<http://purl.org/doves/doves-ontology#Improvement_in_Sleep_Quality_Scale_Outcome> <http://purl.org/doves/doves-ontology#Sleep_Disorder_Symptom_Scale>)
 
-# Class: <http://purl.org/doves/doves-ontology#Improvement_in_Trauma_Related_Nightmare_Symptoms_Outcome> (Improvement in Trauma Related Nightmare Symptoms Outcome)
+# Class: <http://purl.org/doves/doves-ontology#Improvement_in_Trauma_Related_Nightmare_Symptoms_Outcome> (Trauma Related Nightmare Survey Outcome)
 
-AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Improvement_in_Trauma_Related_Nightmare_Symptoms_Outcome> "Improvement in Trauma Related Nightmare Symptoms Outcome")
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Improvement_in_Trauma_Related_Nightmare_Symptoms_Outcome> "Trauma Related Nightmare Survey Outcome"@en)
 AnnotationAssertion(Annotation(rdfs:seeAlso <https://artsandsciences.utulsa.edu/wp-content/uploads/sites/6/2021/02/Cranston-et-al_2017_JTraumaDissoc_TRNS-1.pdf>) skos:definition <http://purl.org/doves/doves-ontology#Improvement_in_Trauma_Related_Nightmare_Symptoms_Outcome> "The Trauma Related Nightmare Survey Outcome is a Sleep Disorder Symptom Scale Outcome consisting of a 16-item survey to measure and track sleep and nightmare related information, including nightmare frequency, nightmare severity, skeep onset and maintenance, and subjective emotions on awakening. "@en)
 SubClassOf(<http://purl.org/doves/doves-ontology#Improvement_in_Trauma_Related_Nightmare_Symptoms_Outcome> <http://purl.org/doves/doves-ontology#Sleep_Disorder_Symptom_Scale>)
 
 # Class: <http://purl.org/doves/doves-ontology#Improving_Healthcare_Team_Communication_Outcome> (Improving Healthcare Team Communication Outcome)
 
-AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Improving_Healthcare_Team_Communication_Outcome> "Improving Healthcare Team Communication Outcome")
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Improving_Healthcare_Team_Communication_Outcome> "Improving Healthcare Team Communication Outcome"@en)
 AnnotationAssertion(skos:definition <http://purl.org/doves/doves-ontology#Improving_Healthcare_Team_Communication_Outcome> "An Improving Healthcare Team Communication Outcome is a Healthcare Operation Outcome that is influenced by digital medicine applications that facilitate and improve communications among healthcare providers."@en)
 SubClassOf(<http://purl.org/doves/doves-ontology#Improving_Healthcare_Team_Communication_Outcome> <https://purl.org/doves/1ae3245a-1b7f-40b2-ae3b-74706699204a>)
 
 # Class: <http://purl.org/doves/doves-ontology#Improving_Transitions_in_Care_Outcome> (Improving Transitions in Care Outcome)
 
-AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Improving_Transitions_in_Care_Outcome> "Improving Transitions in Care Outcome")
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Improving_Transitions_in_Care_Outcome> "Improving Transitions in Care Outcome"@en)
 AnnotationAssertion(skos:definition <http://purl.org/doves/doves-ontology#Improving_Transitions_in_Care_Outcome> "An Improving Transitions in Care Outcome is a Healthcare Operations Outcome that is influenced by digital medicine applications that facilitate transitions in care such as discharge from the hospital, hand-offs from one healthcare provider to another, or transitions between acute or post-acute healthcare facilities."@en)
 SubClassOf(<http://purl.org/doves/doves-ontology#Improving_Transitions_in_Care_Outcome> <https://purl.org/doves/1ae3245a-1b7f-40b2-ae3b-74706699204a>)
 
 # Class: <http://purl.org/doves/doves-ontology#Increased_Discharge_to_Home_from_ED_Outcome> (Increased Discharge to Home from ED Outcome)
 
-AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Increased_Discharge_to_Home_from_ED_Outcome> "Increased Discharge to Home from ED Outcome")
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Increased_Discharge_to_Home_from_ED_Outcome> "Increased Discharge to Home from ED Outcome"@en)
 AnnotationAssertion(skos:definition <http://purl.org/doves/doves-ontology#Increased_Discharge_to_Home_from_ED_Outcome> "Increased Discharge to Home from ED Outcome is a Reduced Emergwency Department Utilization Outcome that describes a digital medicine application's influence over increasing the rate at which patients are discharged to home from the emergency department relative to the rate at which they have other dispositions (e.g. admitted to the hospital, placed on hold, placed on observation status, etc.)"@en)
 SubClassOf(<http://purl.org/doves/doves-ontology#Increased_Discharge_to_Home_from_ED_Outcome> <https://purl.org/doves/cdec99b1-f3e5-4009-bdc5-49ea965dc503>)
 
@@ -1279,13 +1281,13 @@ SubClassOf(<http://purl.org/doves/doves-ontology#Increased_Radiology_Throughput_
 
 # Class: <http://purl.org/doves/doves-ontology#Increased_Rate_of_Return_to_Work_Outcome> (Increased Rate of Return to Work Outcome)
 
-AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Increased_Rate_of_Return_to_Work_Outcome> "Increased Rate of Return to Work Outcome")
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Increased_Rate_of_Return_to_Work_Outcome> "Increased Rate of Return to Work Outcome"@en)
 AnnotationAssertion(skos:definition <http://purl.org/doves/doves-ontology#Increased_Rate_of_Return_to_Work_Outcome> "An Increased Rate of Return to Work Outcome is a Patient Socioeconomic Outcome that reflects the effect of a digital medicine application's influence on increased work pressenteeism through improvement of health."@en)
 SubClassOf(<http://purl.org/doves/doves-ontology#Increased_Rate_of_Return_to_Work_Outcome> <http://purl.org/doves/doves-ontology#Patient_Socioeconomic_Outcome>)
 
 # Class: <http://purl.org/doves/doves-ontology#Increased_Revenue_Outcome> (Increased Revenue Outcome)
 
-AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Increased_Revenue_Outcome> "Increased Revenue Outcome")
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Increased_Revenue_Outcome> "Increased Revenue Outcome"@en)
 AnnotationAssertion(skos:definition <http://purl.org/doves/doves-ontology#Increased_Revenue_Outcome> "An Increased Revenue Outcome is a Healthcare Economic Outcome describing a digital medicine application's influence on the positive gains in earnings related to healthcare. "@en)
 SubClassOf(<http://purl.org/doves/doves-ontology#Increased_Revenue_Outcome> <https://purl.org/doves/f4c71cb0-20ca-4838-bea8-c8aa68037a97>)
 
@@ -1295,19 +1297,19 @@ SubClassOf(<http://purl.org/doves/doves-ontology#Increased_Sleep_Quantity_Outcom
 
 # Class: <http://purl.org/doves/doves-ontology#Increased_Specialty_Care_Encounter_Rate_Outcome> (Increased Specialty Care Encounter Rate Outcome)
 
-AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Increased_Specialty_Care_Encounter_Rate_Outcome> "Increased Specialty Care Encounter Rate Outcome")
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Increased_Specialty_Care_Encounter_Rate_Outcome> "Increased Specialty Care Encounter Rate Outcome"@en)
 AnnotationAssertion(skos:definition <http://purl.org/doves/doves-ontology#Increased_Specialty_Care_Encounter_Rate_Outcome> "An Increased Specialty Care Encounter Rate Outcome is a Modified Specialty Care Outcome that is influenced by digital medicine applications that increase appropriate healthcare utilization in medical specialties."@en)
 SubClassOf(<http://purl.org/doves/doves-ontology#Increased_Specialty_Care_Encounter_Rate_Outcome> <http://purl.org/doves/doves-ontology#Modified_Specialty_Care_Encounter_Rate_Outcome>)
 
 # Class: <http://purl.org/doves/doves-ontology#Increased_Speed_of_Return_to_Work_Outcome> (Increased Speed of Return to Work Outcome)
 
-AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Increased_Speed_of_Return_to_Work_Outcome> "Increased Speed of Return to Work Outcome")
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Increased_Speed_of_Return_to_Work_Outcome> "Increased Speed of Return to Work Outcome"@en)
 AnnotationAssertion(skos:definition <http://purl.org/doves/doves-ontology#Increased_Speed_of_Return_to_Work_Outcome> "An Increased Speed of Return to Work Outcome is a Patient Socioeconomic Outcome that reflects the effect of a digital medicine application's influence on increasing how quickly a patient can recover and return to work."@en)
 SubClassOf(<http://purl.org/doves/doves-ontology#Increased_Speed_of_Return_to_Work_Outcome> <http://purl.org/doves/doves-ontology#Patient_Socioeconomic_Outcome>)
 
 # Class: <http://purl.org/doves/doves-ontology#Increased_Treatment_Throughput_Outcome> (Increased Treatment Throughput Outcome)
 
-AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Increased_Treatment_Throughput_Outcome> "Increased Treatment Throughput Outcome")
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Increased_Treatment_Throughput_Outcome> "Increased Treatment Throughput Outcome"@en)
 AnnotationAssertion(skos:definition <http://purl.org/doves/doves-ontology#Increased_Treatment_Throughput_Outcome> "An Increased Treatment Throughput Outcome is a Healthcare Operation Outcome that reflects higher patient or treatment throughput relative to current or other forms of care."@en)
 SubClassOf(<http://purl.org/doves/doves-ontology#Increased_Treatment_Throughput_Outcome> <https://purl.org/doves/1ae3245a-1b7f-40b2-ae3b-74706699204a>)
 
@@ -1323,7 +1325,7 @@ SubClassOf(<http://purl.org/doves/doves-ontology#Infant_Age_Group> <https://purl
 
 # Class: <http://purl.org/doves/doves-ontology#Informed_Outcome> (Informed Outcome)
 
-AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Informed_Outcome> "Informed Outcome")
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Informed_Outcome> "Informed Outcome"@en)
 AnnotationAssertion(skos:definition <http://purl.org/doves/doves-ontology#Informed_Outcome> "The Informed Outcome is a Patient/Family Education Outcome that measures the degree to which the respondent feels informed about their medical care or treatment."@en)
 SubClassOf(<http://purl.org/doves/doves-ontology#Informed_Outcome> <https://purl.org/doves/0323ba81-5b6f-417d-9829-263c5403582f>)
 
@@ -1333,7 +1335,7 @@ SubClassOf(<http://purl.org/doves/doves-ontology#Inpatient> <http://purl.org/dov
 
 # Class: <http://purl.org/doves/doves-ontology#Insomnia_Control_Outcome> (Insomnia Control Outcome)
 
-AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Insomnia_Control_Outcome> "Insomnia Control Outcome")
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Insomnia_Control_Outcome> "Insomnia Control Outcome"@en)
 AnnotationAssertion(skos:definition <http://purl.org/doves/doves-ontology#Insomnia_Control_Outcome> "An Insomnia Control Outcome is a Symptom Control Outcome that describes the influence of a digital medicine application on insomnia control."@en)
 SubClassOf(<http://purl.org/doves/doves-ontology#Insomnia_Control_Outcome> <http://purl.org/doves/doves-ontology#Symptom_Control_Outcome>)
 
@@ -1352,13 +1354,13 @@ SubClassOf(<http://purl.org/doves/doves-ontology#Intesive_Care_Unit> <http://pur
 
 # Class: <http://purl.org/doves/doves-ontology#Irritable_Bowel_Syndrome_Symptom_Control_Outcome> (Irritable Bowel Syndrome Symptom Control Outcome)
 
-AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Irritable_Bowel_Syndrome_Symptom_Control_Outcome> "Irritable Bowel Syndrome Symptom Control Outcome")
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Irritable_Bowel_Syndrome_Symptom_Control_Outcome> "Irritable Bowel Syndrome Symptom Control Outcome"@en)
 AnnotationAssertion(skos:definition <http://purl.org/doves/doves-ontology#Irritable_Bowel_Syndrome_Symptom_Control_Outcome> "An Irritable Bowel Syndrome Symptom Control Outcome is a Symptom Control Outcome that describes the influence of a digital medicine application on irritable bowel syndrome (IBS)."@en)
 SubClassOf(<http://purl.org/doves/doves-ontology#Irritable_Bowel_Syndrome_Symptom_Control_Outcome> <http://purl.org/doves/doves-ontology#Symptom_Control_Outcome>)
 
 # Class: <http://purl.org/doves/doves-ontology#Lifestyle_Adherence_Outcome> (Lifestyle Adherence Outcome)
 
-AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Lifestyle_Adherence_Outcome> "Lifestyle Adherence Outcome")
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Lifestyle_Adherence_Outcome> "Lifestyle Adherence Outcome"@en)
 AnnotationAssertion(skos:definition <http://purl.org/doves/doves-ontology#Lifestyle_Adherence_Outcome> "A Lifestyle Adherence Outcome is an Engagement and Adherence Outcome that describes adherence to lifestyle modifications including diet, exercise, smoking, alcohol consumption, etc."@en)
 SubClassOf(<http://purl.org/doves/doves-ontology#Lifestyle_Adherence_Outcome> <https://purl.org/doves/f70ac7b3-c718-4511-9f13-2f4ab13050b8>)
 
@@ -1375,25 +1377,25 @@ SubClassOf(<http://purl.org/doves/doves-ontology#Middle-Age_Age_Group> <http://p
 
 # Class: <http://purl.org/doves/doves-ontology#Modified_Ambulatory_Care_Encounter_Rate_Outcome> (Modified Ambulatory Care Encounter Outcome)
 
-AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Modified_Ambulatory_Care_Encounter_Rate_Outcome> "Modified Ambulatory Care Encounter Outcome")
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Modified_Ambulatory_Care_Encounter_Rate_Outcome> "Modified Ambulatory Care Encounter Outcome"@en)
 AnnotationAssertion(skos:definition <http://purl.org/doves/doves-ontology#Modified_Ambulatory_Care_Encounter_Rate_Outcome> "A Modified Ambulatory Care Encounter Outcome is a Healthcare Utilization Outcome that is influenced by digital medicine applications that increase appropriate or decrease inappropriate healthcare utilization in ambulatory care."@en)
 SubClassOf(<http://purl.org/doves/doves-ontology#Modified_Ambulatory_Care_Encounter_Rate_Outcome> <https://purl.org/doves/089409f3-106f-4742-a91a-df135a4b4102>)
 
-# Class: <http://purl.org/doves/doves-ontology#Modified_Procedural_Encounter_Outcome> (Modified Procedural Encounter Outcome)
+# Class: <http://purl.org/doves/doves-ontology#Modified_Procedural_Encounter_Outcome> (Modified Procedural Encounter Rate Outcome)
 
-AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Modified_Procedural_Encounter_Outcome> "Modified Procedural Encounter Outcome")
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Modified_Procedural_Encounter_Outcome> "Modified Procedural Encounter Rate Outcome"@en)
 AnnotationAssertion(skos:definition <http://purl.org/doves/doves-ontology#Modified_Procedural_Encounter_Outcome> "Modified Procedural Encounter Rate Outcome is a Healthcare Utilization Outcome that describes a digital medicine application's influence over the need for a potential procedure. If the digital medicine application results in a decreased need for a procedure, then this is an example of a decreased procedural encounter outcome. "@en)
 SubClassOf(<http://purl.org/doves/doves-ontology#Modified_Procedural_Encounter_Outcome> <https://purl.org/doves/089409f3-106f-4742-a91a-df135a4b4102>)
 
 # Class: <http://purl.org/doves/doves-ontology#Modified_Specialty_Care_Encounter_Rate_Outcome> (Modified Specialty Care Encounter Rate Outcome)
 
-AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Modified_Specialty_Care_Encounter_Rate_Outcome> "Modified Specialty Care Encounter Rate Outcome")
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Modified_Specialty_Care_Encounter_Rate_Outcome> "Modified Specialty Care Encounter Rate Outcome"@en)
 AnnotationAssertion(skos:definition <http://purl.org/doves/doves-ontology#Modified_Specialty_Care_Encounter_Rate_Outcome> "A Modified Specialty Care Encounter Rate Outcome is a Modified Ambulatory Care Outcome that is influenced by digital medicine applications that increase appropriate or decrease inappropriate healthcare utilization in medical specialties."@en)
 SubClassOf(<http://purl.org/doves/doves-ontology#Modified_Specialty_Care_Encounter_Rate_Outcome> <http://purl.org/doves/doves-ontology#Modified_Ambulatory_Care_Encounter_Rate_Outcome>)
 
 # Class: <http://purl.org/doves/doves-ontology#Musculoskeletal_Control_Outcome> (Musculoskeletal Control Outcome)
 
-AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Musculoskeletal_Control_Outcome> "Musculoskeletal Control Outcome")
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Musculoskeletal_Control_Outcome> "Musculoskeletal Control Outcome"@en)
 AnnotationAssertion(skos:definition <http://purl.org/doves/doves-ontology#Musculoskeletal_Control_Outcome> "Musculoskeletal Control Outcome is a Sign Control Outcome that is specific to the musculoskeletal system."@en)
 SubClassOf(<http://purl.org/doves/doves-ontology#Musculoskeletal_Control_Outcome> <http://purl.org/doves/doves-ontology#Sign_Control_Outcome>)
 
@@ -1403,7 +1405,7 @@ SubClassOf(<http://purl.org/doves/doves-ontology#Native_Hawaiian_or_Other_Pacifi
 
 # Class: <http://purl.org/doves/doves-ontology#Night_Sweat_Control> (Night Sweat Control Outcome)
 
-AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Night_Sweat_Control> "Night Sweat Control Outcome")
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Night_Sweat_Control> "Night Sweat Control Outcome"@en)
 AnnotationAssertion(skos:definition <http://purl.org/doves/doves-ontology#Night_Sweat_Control> "A Night Sweat Control Outcome is a Menopause Symptom Control Outcome that describes the influence of a digital medicine application on night sweats, which are hot flashes that occur at night."@en)
 SubClassOf(<http://purl.org/doves/doves-ontology#Night_Sweat_Control> <http://purl.org/doves/36e57509_8558_4378_ba65_55ae88ab64dd>)
 
@@ -1412,15 +1414,15 @@ SubClassOf(<http://purl.org/doves/doves-ontology#Night_Sweat_Control> <http://pu
 AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Not_Hispanic_or_Latino> "Not Hispanic or Latino")
 SubClassOf(<http://purl.org/doves/doves-ontology#Not_Hispanic_or_Latino> <http://purl.org/doves/doves-ontology#Ethnicity>)
 
-# Class: <http://purl.org/doves/doves-ontology#Number_of_Downtime_Events> (Number of Downtime Events)
+# Class: <http://purl.org/doves/doves-ontology#Number_of_Downtime_Events> (Number of Downtime Events Outcome)
 
-AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Number_of_Downtime_Events> "Number of Downtime Events")
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Number_of_Downtime_Events> "Number of Downtime Events Outcome"@en)
 AnnotationAssertion(skos:definition <http://purl.org/doves/doves-ontology#Number_of_Downtime_Events> "Number of Downtime Events Outcome is a System Availability Outcome that describes the number of times in a given time period that a digital medicine application is out of action or unavailable for use, whether scheduled or unscheduled."@en)
 SubClassOf(<http://purl.org/doves/doves-ontology#Number_of_Downtime_Events> <https://purl.org/doves/2313ac68-33dd-4861-af39-236e0e5d98d3>)
 
 # Class: <http://purl.org/doves/doves-ontology#Offline_Availability_Outcome> (Offline Availability Outcome)
 
-AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Offline_Availability_Outcome> "Offline Availability Outcome")
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Offline_Availability_Outcome> "Offline Availability Outcome"@en)
 AnnotationAssertion(skos:definition <http://purl.org/doves/doves-ontology#Offline_Availability_Outcome> "Offline Availability Outcome is a Product Performance Non-Clinical Outcome that describes whether a digital medicine application is usable without being connected to a cellular, wireless, or wired system. Examples include apps that can be downloaded onto devices and used in a full featured manner without requiring connectivity."@en)
 SubClassOf(<http://purl.org/doves/doves-ontology#Offline_Availability_Outcome> <https://purl.org/doves/707c8680-500a-46e6-9b54-5658cefc409f>)
 
@@ -1432,32 +1434,32 @@ SubClassOf(<http://purl.org/doves/doves-ontology#Older_Adult_Age_Group> <http://
 
 # Class: <http://purl.org/doves/doves-ontology#Pain_Control_Outcome> (Pain Control Outcome)
 
-AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Pain_Control_Outcome> "Pain Control Outcome")
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Pain_Control_Outcome> "Pain Control Outcome"@en)
 AnnotationAssertion(skos:definition <http://purl.org/doves/doves-ontology#Pain_Control_Outcome> "A Pain Control Outcome is a Symptom Control Outcome that describes the influence of a digital medicine application on pain control."@en)
 SubClassOf(<http://purl.org/doves/doves-ontology#Pain_Control_Outcome> <http://purl.org/doves/doves-ontology#Symptom_Control_Outcome>)
 
 # Class: <http://purl.org/doves/doves-ontology#Patient_Socioeconomic_Outcome> (Patient Socioeconomic Outcome)
 
-AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Patient_Socioeconomic_Outcome> "Patient Socioeconomic Outcome")
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Patient_Socioeconomic_Outcome> "Patient Socioeconomic Outcome"@en)
 AnnotationAssertion(skos:definition <http://purl.org/doves/doves-ontology#Patient_Socioeconomic_Outcome> "Patient Socioeconomic Outcome is a Healthcare Outcome that describes the influence a digital medicine application has on factors associated with a patient's socioecnonomic status or situation."@en)
 SubClassOf(<http://purl.org/doves/doves-ontology#Patient_Socioeconomic_Outcome> <https://purl.org/doves/8081940e-b77f-4aa1-bfcf-0b979f0a2158>)
 
 # Class: <http://purl.org/doves/doves-ontology#Percent_of_Issues_Open_Outcome> (Percent of Issues Open Outcome)
 
-AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Percent_of_Issues_Open_Outcome> "Percent of Issues Open Outcome")
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Percent_of_Issues_Open_Outcome> "Percent of Issues Open Outcome"@en)
 AnnotationAssertion(skos:definition <http://purl.org/doves/doves-ontology#Percent_of_Issues_Open_Outcome> "A Percent of Issues Open Outcome is an Issue Resolution Outcome that describes the proportion of filed issues that are unresolved (open) in a given time frame."@en)
 SubClassOf(<http://purl.org/doves/doves-ontology#Percent_of_Issues_Open_Outcome> <https://purl.org/doves/c420321e-c648-4ee8-bf15-9df9800e8bde>)
 
 # Class: <http://purl.org/doves/doves-ontology#Pittsburgh_Sleep_Quality_Index> (Pittsburgh Sleep Quality Index Outcome)
 
-AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Pittsburgh_Sleep_Quality_Index> "Pittsburgh Sleep Quality Index Outcome")
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Pittsburgh_Sleep_Quality_Index> "Pittsburgh Sleep Quality Index Outcome"@en)
 AnnotationAssertion(Annotation(rdfs:seeAlso <https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4513264>) skos:definition <http://purl.org/doves/doves-ontology#Pittsburgh_Sleep_Quality_Index> "The Pittsburgh Sleep Quality Index (PSQI) Outcome is a Patient Reported Outcome that is is a 19-item, self-rated questionnaire designed to measure sleep quality and disturbance over the past month in clinical populations.17 The 19 items are grouped into 7 components, including (1) sleep duration, (2) sleep disturbance, (3) sleep latency, (4) daytime dysfunction due to sleepiness, (5) sleep efficiency, (6) overall sleep quality, and (7) sleep medication use. Each of the sleep components yields a score ranging from 0 to 3, with 3 indicating the greatest dysfunction. The sleep component scores are summed to yield a total score ranging from 0 to 21 with the higher total score (referred to as global score) indicating worse sleep quality. 
 "@en)
 SubClassOf(<http://purl.org/doves/doves-ontology#Pittsburgh_Sleep_Quality_Index> <https://purl.org/doves/9caa2510-f3a6-4de8-adcb-c554e91aeba7>)
 
 # Class: <http://purl.org/doves/doves-ontology#Pittsburgh_Sleep_Quality_Index_Addendum_for_PTSD> (Pittsburgh Sleep Quality Index Addendum for PTSD (PTSD-A) Outcome)
 
-AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Pittsburgh_Sleep_Quality_Index_Addendum_for_PTSD> "Pittsburgh Sleep Quality Index Addendum for PTSD (PTSD-A) Outcome")
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Pittsburgh_Sleep_Quality_Index_Addendum_for_PTSD> "Pittsburgh Sleep Quality Index Addendum for PTSD (PTSD-A) Outcome"@en)
 AnnotationAssertion(Annotation(rdfs:seeAlso <https://pubmed.ncbi.nlm.nih.gov/15533706/>) skos:definition <http://purl.org/doves/doves-ontology#Pittsburgh_Sleep_Quality_Index_Addendum_for_PTSD> "A Pittsburgh Sleep Quality Index Addendum for PTSD (PSQI-A) Outcome is a Patient Reported Outcome that is a self-report instrument designed to assess the frequency of seven disruptive nocturnal behaviors. 
 "@en)
 SubClassOf(<http://purl.org/doves/doves-ontology#Pittsburgh_Sleep_Quality_Index_Addendum_for_PTSD> <https://purl.org/doves/9caa2510-f3a6-4de8-adcb-c554e91aeba7>)
@@ -1469,25 +1471,25 @@ SubClassOf(<http://purl.org/doves/doves-ontology#Prescription_Digital_Therapeuti
 
 # Class: <http://purl.org/doves/doves-ontology#Progression_Free_Survival_Outcome> (Progression Free Survival Outcome)
 
-AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Progression_Free_Survival_Outcome> "Progression Free Survival Outcome")
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Progression_Free_Survival_Outcome> "Progression Free Survival Outcome"@en)
 AnnotationAssertion(skos:definition <http://purl.org/doves/doves-ontology#Progression_Free_Survival_Outcome> "A Progression Free Survival Outcome is a Cancer Outcomes that describes the length of time during and after the treatment of a disease, such as cancer, that a patient lives with the disease but it does not get worse."@en)
 SubClassOf(<http://purl.org/doves/doves-ontology#Progression_Free_Survival_Outcome> <http://purl.org/doves/doves-ontology#Cancer_Outcomes>)
 
 # Class: <http://purl.org/doves/doves-ontology#Proportion_of_Days_Covered_Outcome> (Proportion of Days Covered Outcome)
 
-AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Proportion_of_Days_Covered_Outcome> "Proportion of Days Covered Outcome")
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Proportion_of_Days_Covered_Outcome> "Proportion of Days Covered Outcome"@en)
 AnnotationAssertion(skos:definition <http://purl.org/doves/doves-ontology#Proportion_of_Days_Covered_Outcome> "A Proportion of Days Covered Outcome is a Medication Adherence Outcome that reflects the number of days supply a drug is dispensed for, divided by the number of days rhe prescription is in the patient's possession."@en)
 SubClassOf(<http://purl.org/doves/doves-ontology#Proportion_of_Days_Covered_Outcome> <https://purl.org/doves/1c1d0e62-5c9b-4344-8ff1-9e71d1debb38>)
 
 # Class: <http://purl.org/doves/doves-ontology#Proportion_of_Days_Per_Month_of_Medication_Use_Outcome> (Proportion of Days Per Month of Medication Use Outcome)
 
-AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Proportion_of_Days_Per_Month_of_Medication_Use_Outcome> "Proportion of Days Per Month of Medication Use Outcome")
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Proportion_of_Days_Per_Month_of_Medication_Use_Outcome> "Proportion of Days Per Month of Medication Use Outcome"@en)
 AnnotationAssertion(skos:definition <http://purl.org/doves/doves-ontology#Proportion_of_Days_Per_Month_of_Medication_Use_Outcome> "Proportion of Days Per Month of Medication Use it a Medication Adherence Outcome that reflects the number of days supply a drug is dispensed for, divided by the number of days the prescription is actually taken by the patient."@en)
 SubClassOf(<http://purl.org/doves/doves-ontology#Proportion_of_Days_Per_Month_of_Medication_Use_Outcome> <https://purl.org/doves/1c1d0e62-5c9b-4344-8ff1-9e71d1debb38>)
 
-# Class: <http://purl.org/doves/doves-ontology#Proportion_of_Images_Gradable_by_Algorithm_Outcome> (Proportion of Images Gradable by Algorithm)
+# Class: <http://purl.org/doves/doves-ontology#Proportion_of_Images_Gradable_by_Algorithm_Outcome> (Proportion of Images Gradable by Algorithm Outcome)
 
-AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Proportion_of_Images_Gradable_by_Algorithm_Outcome> "Proportion of Images Gradable by Algorithm")
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Proportion_of_Images_Gradable_by_Algorithm_Outcome> "Proportion of Images Gradable by Algorithm Outcome"@en)
 AnnotationAssertion(skos:definition <http://purl.org/doves/doves-ontology#Proportion_of_Images_Gradable_by_Algorithm_Outcome> "The Proportion of Images Gradable by Algorithm Outcome is a Healthcare Operation Outcome that describes the number of images (such as radiology images, retinal scans, etc.) divided by total number of images, that can be graded or interpreted by a given algorithm (e.g. artificial intelligence or machine learning)."@en)
 SubClassOf(<http://purl.org/doves/doves-ontology#Proportion_of_Images_Gradable_by_Algorithm_Outcome> <https://purl.org/doves/1ae3245a-1b7f-40b2-ae3b-74706699204a>)
 
@@ -1498,49 +1500,49 @@ SubClassOf(<http://purl.org/doves/doves-ontology#Race> <https://purl.org/doves/7
 
 # Class: <http://purl.org/doves/doves-ontology#Reduced_Calendar_Year_Total_Cost_of_Care_Outcome> (Reduced Calendar Year Total Cost of Care Outcome)
 
-AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Reduced_Calendar_Year_Total_Cost_of_Care_Outcome> "Reduced Calendar Year Total Cost of Care Outcome")
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Reduced_Calendar_Year_Total_Cost_of_Care_Outcome> "Reduced Calendar Year Total Cost of Care Outcome"@en)
 AnnotationAssertion(skos:definition <http://purl.org/doves/doves-ontology#Reduced_Calendar_Year_Total_Cost_of_Care_Outcome> "Reduced Calendar Year Total Cost of Care Outcome is a Reduced Costs Outcome that describes a digital medicine application's influence on reducing the total cost of care over a calendar year period."@en)
 SubClassOf(<http://purl.org/doves/doves-ontology#Reduced_Calendar_Year_Total_Cost_of_Care_Outcome> <https://purl.org/doves/7124f3ed-a489-431c-90ce-c2a5fe7d95bb>)
 
 # Class: <http://purl.org/doves/doves-ontology#Reduced_Hypertensive_Emergency_Outcome> (Reduced Hypertensive Urgency Outcome)
 
-AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Reduced_Hypertensive_Emergency_Outcome> "Reduced Hypertensive Urgency Outcome")
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Reduced_Hypertensive_Emergency_Outcome> "Reduced Hypertensive Urgency Outcome"@en)
 AnnotationAssertion(Annotation(rdfs:seeAlso <https://www.ncbi.nlm.nih.gov/books/NBK513351/>) skos:definition <http://purl.org/doves/doves-ontology#Reduced_Hypertensive_Emergency_Outcome> "A Reduced Hypertensive Urgency Outcome is a Blood Pressure Control Outcome which is improved by better long-term blood pressure control. Rapidly lowering the patient's blood pressure does not show much benefit, whereas starting them on oral hypertensives that slowly lower their blood pressure over 24-48 hours shows some benefit. "@en)
 SubClassOf(<http://purl.org/doves/doves-ontology#Reduced_Hypertensive_Emergency_Outcome> <http://purl.org/doves/23303eb4_0fb1_4163_a8a8_b1f7c69ece81>)
 
 # Class: <http://purl.org/doves/doves-ontology#Reduced_Hypertensive_Urgency_Outcome> (Reduced Hypertensive Urgency Outcome)
 
-AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Reduced_Hypertensive_Urgency_Outcome> "Reduced Hypertensive Urgency Outcome")
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Reduced_Hypertensive_Urgency_Outcome> "Reduced Hypertensive Urgency Outcome"@en)
 AnnotationAssertion(Annotation(rdfs:seeAlso <https://www.ncbi.nlm.nih.gov/books/NBK513351/>) skos:definition <http://purl.org/doves/doves-ontology#Reduced_Hypertensive_Urgency_Outcome> "A Reduced Hypertensive Urgency Outcome is a Blood Pressure Control Outcome which is improved by better long-term blood pressure control. Rapidly lowering the patient's blood pressure does not show much benefit, whereas starting them on oral hypertensives that slowly lower their blood pressure over 24-48 hours shows some benefit. "@en)
 SubClassOf(<http://purl.org/doves/doves-ontology#Reduced_Hypertensive_Urgency_Outcome> <http://purl.org/doves/23303eb4_0fb1_4163_a8a8_b1f7c69ece81>)
 
 # Class: <http://purl.org/doves/doves-ontology#Reduced_Per_Member_Per_Month_Cost_Outcome> (Reduced Per Member Per Month Cost Outcome)
 
-AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Reduced_Per_Member_Per_Month_Cost_Outcome> "Reduced Per Member Per Month Cost Outcome")
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Reduced_Per_Member_Per_Month_Cost_Outcome> "Reduced Per Member Per Month Cost Outcome"@en)
 AnnotationAssertion(skos:definition <http://purl.org/doves/doves-ontology#Reduced_Per_Member_Per_Month_Cost_Outcome> "A Reduced Per Member Per Month Cost Outcome is a Reduced Costs Outcome that shows a reduction in cost on a per member per month (PMPM) basis."@en)
 SubClassOf(<http://purl.org/doves/doves-ontology#Reduced_Per_Member_Per_Month_Cost_Outcome> <https://purl.org/doves/7124f3ed-a489-431c-90ce-c2a5fe7d95bb>)
 
 # Class: <http://purl.org/doves/doves-ontology#Reduced_Prescription_Drug_Cost_Outcome> (Reduced Prescription Drug Cost Outcome)
 
-AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Reduced_Prescription_Drug_Cost_Outcome> "Reduced Prescription Drug Cost Outcome")
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Reduced_Prescription_Drug_Cost_Outcome> "Reduced Prescription Drug Cost Outcome"@en)
 AnnotationAssertion(skos:definition <http://purl.org/doves/doves-ontology#Reduced_Prescription_Drug_Cost_Outcome> "A Reduced Prescription Drug Cost Outcome is a Reduced Costs Outcome that reflects a digital medicine application's influence on a patient's reduction in expenditure on prescription medication costs. "@en)
 SubClassOf(<http://purl.org/doves/doves-ontology#Reduced_Prescription_Drug_Cost_Outcome> <https://purl.org/doves/7124f3ed-a489-431c-90ce-c2a5fe7d95bb>)
 
 # Class: <http://purl.org/doves/doves-ontology#Reduced_Procedural_Cost_Outcome> (Reduced Procedural Cost Outcome)
 
-AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Reduced_Procedural_Cost_Outcome> "Reduced Procedural Cost Outcome")
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Reduced_Procedural_Cost_Outcome> "Reduced Procedural Cost Outcome"@en)
 AnnotationAssertion(skos:definition <http://purl.org/doves/doves-ontology#Reduced_Procedural_Cost_Outcome> "Reduced Procedural Cost Outcome is a Reduced Episode Total Cost of Care Outcome that describes a digital medicine application's ability to reduce the cost of one or more procedures."@en)
 SubClassOf(<http://purl.org/doves/doves-ontology#Reduced_Procedural_Cost_Outcome> <https://purl.org/doves/604c0eff-ca87-4934-b96a-e19837c08e8f>)
 
 # Class: <http://purl.org/doves/doves-ontology#Reduced_Return_to_Higher_Level_of_Care_Outcome> (Reduced Return to Higher Level of Care Outcome)
 
-AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Reduced_Return_to_Higher_Level_of_Care_Outcome> "Reduced Return to Higher Level of Care Outcome")
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Reduced_Return_to_Higher_Level_of_Care_Outcome> "Reduced Return to Higher Level of Care Outcome"@en)
 AnnotationAssertion(skos:definition <http://purl.org/doves/doves-ontology#Reduced_Return_to_Higher_Level_of_Care_Outcome> "Reduced Return to Higher Level of Care Outcome is a Healthcare Utilization Outcome that describes a digital medicine application's influence in reducing the rate at which patients who are sent to a lower level of care (e.g. intensive care unit to general hospital ward, or hospital to skilled nursing facility) return within a given time frame to a higher level of care."@en)
 SubClassOf(<http://purl.org/doves/doves-ontology#Reduced_Return_to_Higher_Level_of_Care_Outcome> <https://purl.org/doves/089409f3-106f-4742-a91a-df135a4b4102>)
 
 # Class: <http://purl.org/doves/doves-ontology#Reduction_in_Falls_Outcome> (Reduction in Falls Outcome)
 
-AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Reduction_in_Falls_Outcome> "Reduction in Falls Outcome")
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Reduction_in_Falls_Outcome> "Reduction in Falls Outcome"@en)
 AnnotationAssertion(Annotation(rdfs:seeAlso <https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9291009/>) skos:definition <http://purl.org/doves/doves-ontology#Reduction_in_Falls_Outcome> "A Reduction in Falls Outcome is a Sign Control Outcome related to the decrease in older individuals' prevalence of falls. A reduction in falls improves older individuals' quality of life and safety in their environment. "@en)
 SubClassOf(<http://purl.org/doves/doves-ontology#Reduction_in_Falls_Outcome> <http://purl.org/doves/doves-ontology#Sign_Control_Outcome>)
 
@@ -1555,18 +1557,19 @@ SubClassOf(<http://purl.org/doves/doves-ontology#Regulatory_Category> <https://p
 
 # Class: <http://purl.org/doves/doves-ontology#Resource_Utilization_Outcome> (Resource Utilization Outcome)
 
-AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Resource_Utilization_Outcome> "Resource Utilization Outcome")
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Resource_Utilization_Outcome> "Resource Utilization Outcome"@en)
 AnnotationAssertion(skos:definition <http://purl.org/doves/doves-ontology#Resource_Utilization_Outcome> "Resource Utilization Outcome is a Healthcare Operation Outcome that describes a digital medicine application's ability to influence the efficiency or planning of resource utilization."@en)
 SubClassOf(<http://purl.org/doves/doves-ontology#Resource_Utilization_Outcome> <https://purl.org/doves/1ae3245a-1b7f-40b2-ae3b-74706699204a>)
 
 # Class: <http://purl.org/doves/doves-ontology#Return_on_Investment_Outcome> (Return on Investment Outcome)
 
-AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Return_on_Investment_Outcome> "Return on Investment Outcome")
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Return_on_Investment_Outcome> "Return on Investment Outcome"@en)
 AnnotationAssertion(skos:definition <http://purl.org/doves/doves-ontology#Return_on_Investment_Outcome> "A Return on Investment Outcome is a Healthcare Economic Outcome that is reflected by a digital medicine application's ability to dteremine or influence the return on investment of the application itself, or of another application."@en)
 SubClassOf(<http://purl.org/doves/doves-ontology#Return_on_Investment_Outcome> <https://purl.org/doves/f4c71cb0-20ca-4838-bea8-c8aa68037a97>)
 
-# Class: <http://purl.org/doves/doves-ontology#Self-efficacy> (<http://purl.org/doves/doves-ontology#Self-efficacy>)
+# Class: <http://purl.org/doves/doves-ontology#Self-efficacy> (Self-Efficacy Outcome)
 
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Self-efficacy> "Self-Efficacy Outcome"@en)
 AnnotationAssertion(Annotation(rdfs:seeAlso <https://www.euromedinfo.eu/patient-education-self-efficacy.html/#:~:text=Self%2Defficacy%20refers%20to%20the,predictor%20of%20motivation%20and%20behavior.>) skos:definition <http://purl.org/doves/doves-ontology#Self-efficacy> "Self-efficacy Outcome is a Satisfaction Outcome that describes a person's belief in his or her abilities with respect to a digital medicine application. It is a good predictor of motivation and behavior. "@en)
 SubClassOf(<http://purl.org/doves/doves-ontology#Self-efficacy> <https://purl.org/doves/4dcb77b8-51f4-4b3a-8a61-a4dd9e2c72ae>)
 
@@ -1582,19 +1585,19 @@ SubClassOf(<http://purl.org/doves/doves-ontology#Shared_Decision_Making> <https:
 
 # Class: <http://purl.org/doves/doves-ontology#Shared_Decision_Making_Outcome> (Shared Decision Making Outcome)
 
-AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Shared_Decision_Making_Outcome> "Shared Decision Making Outcome")
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Shared_Decision_Making_Outcome> "Shared Decision Making Outcome"@en)
 AnnotationAssertion(skos:definition <http://purl.org/doves/doves-ontology#Shared_Decision_Making_Outcome> "A Shared Decision Making Outcome is a Family and Caregiver Outcome that describes the involvement of a patient's support system in the decision making process regarding their care."@en)
 SubClassOf(<http://purl.org/doves/doves-ontology#Shared_Decision_Making_Outcome> <http://purl.org/doves/doves-ontology#Family_and_Caregiver_Outcome>)
 
 # Class: <http://purl.org/doves/doves-ontology#Sign_Control_Outcome> (Sign Control Outcome)
 
-AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Sign_Control_Outcome> "Sign Control Outcome")
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Sign_Control_Outcome> "Sign Control Outcome"@en)
 AnnotationAssertion(skos:definition <http://purl.org/doves/doves-ontology#Sign_Control_Outcome> "Sign Control Outcome is a Health Condition Control Outcome that describes a digital medicine application's influence over signs of a health sate (objective findings) as opposed to sypmptoms of a health state (subjective experiences)."@en)
 SubClassOf(<http://purl.org/doves/doves-ontology#Sign_Control_Outcome> <http://purl.org/doves/a43ca2f5_8117_40d7_8487_72f616a86366>)
 
 # Class: <http://purl.org/doves/doves-ontology#Site_of_Care_Shift_Outcome> (Site of Care Shift Outcome)
 
-AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Site_of_Care_Shift_Outcome> "Site of Care Shift Outcome")
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Site_of_Care_Shift_Outcome> "Site of Care Shift Outcome"@en)
 AnnotationAssertion(skos:definition <http://purl.org/doves/doves-ontology#Site_of_Care_Shift_Outcome> "Site of Care Shift Outcome is a Healthcare Utilization Outcome that describes a digital medicine application's influence over shifting the site of care where a patient receives care. For example, if a digital medicine application is used to triage patients, it might shift care from an emergency department to an ungent care center."@en)
 SubClassOf(<http://purl.org/doves/doves-ontology#Site_of_Care_Shift_Outcome> <https://purl.org/doves/089409f3-106f-4742-a91a-df135a4b4102>)
 
@@ -1604,13 +1607,13 @@ SubClassOf(<http://purl.org/doves/doves-ontology#Skilled_Nursing_Facility> <http
 
 # Class: <http://purl.org/doves/doves-ontology#Sleep_Disorder_Sign_Control_Outcome> (Sleep Disorder Control Outcome)
 
-AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Sleep_Disorder_Sign_Control_Outcome> "Sleep Disorder Control Outcome")
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Sleep_Disorder_Sign_Control_Outcome> "Sleep Disorder Control Outcome"@en)
 AnnotationAssertion(skos:definition <http://purl.org/doves/doves-ontology#Sleep_Disorder_Sign_Control_Outcome> "A Sleep Disorder Control Outcome is a Sign Control Outcome that describes the influence of a digital medicine application on managing sleep disorders."@en)
 SubClassOf(<http://purl.org/doves/doves-ontology#Sleep_Disorder_Sign_Control_Outcome> <http://purl.org/doves/doves-ontology#Sign_Control_Outcome>)
 
-# Class: <http://purl.org/doves/doves-ontology#Sleep_Disorder_Symptom_Scale> (Sleep Disorder Symptom Scale Outcomes)
+# Class: <http://purl.org/doves/doves-ontology#Sleep_Disorder_Symptom_Scale> (Sleep Disorder Symptom Scale Outcome)
 
-AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Sleep_Disorder_Symptom_Scale> "Sleep Disorder Symptom Scale Outcomes")
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Sleep_Disorder_Symptom_Scale> "Sleep Disorder Symptom Scale Outcome"@en)
 AnnotationAssertion(skos:definition <http://purl.org/doves/doves-ontology#Sleep_Disorder_Symptom_Scale> "Sleep Disorder Symptom Scale Outcome is a Patient Reported Outcome that describes a number of patient reported outcomes measures for sleep disorders."@en)
 SubClassOf(<http://purl.org/doves/doves-ontology#Sleep_Disorder_Symptom_Scale> <https://purl.org/doves/9caa2510-f3a6-4de8-adcb-c554e91aeba7>)
 
@@ -1624,37 +1627,38 @@ SubClassOf(<http://purl.org/doves/doves-ontology#Some_Other_Race> <http://purl.o
 
 # Class: <http://purl.org/doves/doves-ontology#Staffing_Level_Outcome> (Staffing Level Outcome)
 
-AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Staffing_Level_Outcome> "Staffing Level Outcome")
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Staffing_Level_Outcome> "Staffing Level Outcome"@en)
 AnnotationAssertion(skos:definition <http://purl.org/doves/doves-ontology#Staffing_Level_Outcome> "Staffing Level Outcome is a Resource Utilization Outcome that describes a digital medicine application's ability to influence metrics related to staffing levels."@en)
 SubClassOf(<http://purl.org/doves/doves-ontology#Staffing_Level_Outcome> <http://purl.org/doves/doves-ontology#Resource_Utilization_Outcome>)
 
 # Class: <http://purl.org/doves/doves-ontology#Symptom_Control_Outcome> (Symptom Control Outcome)
 
-AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Symptom_Control_Outcome> "Symptom Control Outcome")
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Symptom_Control_Outcome> "Symptom Control Outcome"@en)
 AnnotationAssertion(skos:definition <http://purl.org/doves/doves-ontology#Symptom_Control_Outcome> "A Symptom Control Outcome is a Health Condition Control Outcome that describes the influence of a digital medicine application on an individual's symptoms."@en)
 SubClassOf(<http://purl.org/doves/doves-ontology#Symptom_Control_Outcome> <http://purl.org/doves/a43ca2f5_8117_40d7_8487_72f616a86366>)
 
-# Class: <http://purl.org/doves/doves-ontology#System_Usability_Scale_Outcome> (<http://purl.org/doves/doves-ontology#System_Usability_Scale_Outcome>)
+# Class: <http://purl.org/doves/doves-ontology#System_Usability_Scale_Outcome> (System Usability Outcome)
 
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#System_Usability_Scale_Outcome> "System Usability Outcome"@en)
 AnnotationAssertion(Annotation(rdfs:seeAlso <https://www.usability.gov/how-to-and-tools/methods/system-usability-scale.html>) skos:definition <http://purl.org/doves/doves-ontology#System_Usability_Scale_Outcome> "A System Usability Outcome is a Human Factors and Usability Outcome that describes and measures system usability. One metric for system usability is the System Usability Score. "@en)
 SubClassOf(<http://purl.org/doves/doves-ontology#System_Usability_Scale_Outcome> <https://purl.org/doves/be939100-e527-489d-ab9a-94aa852245f6>)
 
 # Class: <http://purl.org/doves/doves-ontology#Technical_Certification_Outcome> (Technical Certification Outcome)
 
-AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Technical_Certification_Outcome> "Technical Certification Outcome")
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Technical_Certification_Outcome> "Technical Certification Outcome"@en)
 AnnotationAssertion(skos:definition <http://purl.org/doves/doves-ontology#Technical_Certification_Outcome> "A Technical Certification Outcome is a Technical Outcome that describes whether a digital medicine application has achieved a given technical certification from a certifying body."@en)
 SubClassOf(<http://purl.org/doves/doves-ontology#Technical_Certification_Outcome> <https://purl.org/doves/6fdf5e33-7497-42d7-b016-72567185a0e3>)
 
 # Class: <http://purl.org/doves/doves-ontology#Time_in_Automation_Outcome> (Time in Automation Outcome)
 
 AnnotationAssertion(obo:IAO_0000115 <http://purl.org/doves/doves-ontology#Time_in_Automation_Outcome> "Time in Automation Outcome is a Glycemic Control Outcome that reflects the percent of time that an automated insulin delivery system is in automation mode.")
-AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Time_in_Automation_Outcome> "Time in Automation Outcome")
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Time_in_Automation_Outcome> "Time in Automation Outcome"@en)
 AnnotationAssertion(skos:definition <http://purl.org/doves/doves-ontology#Time_in_Automation_Outcome> "Time in Automation Outcome is a Glycemic Control Outcome that describes the amount of time that a continuous blood glucose monitor spends in automation mode."@en)
 SubClassOf(<http://purl.org/doves/doves-ontology#Time_in_Automation_Outcome> <http://purl.org/doves/158f4ae0_7b5e_497b_b880_76df4cdd5fc2>)
 
 # Class: <http://purl.org/doves/doves-ontology#Time_to_Talk_to_a_Human_Outcome> (Response Time to Reach a Human Outcome)
 
-AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Time_to_Talk_to_a_Human_Outcome> "Response Time to Reach a Human Outcome")
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Time_to_Talk_to_a_Human_Outcome> "Response Time to Reach a Human Outcome"@en)
 AnnotationAssertion(skos:definition <http://purl.org/doves/doves-ontology#Time_to_Talk_to_a_Human_Outcome> "A Response Time to Reach a Human Outcome is an Issue Resolution Outcome that describes the response time between when a user of a digital medicine application reaches out to file an issue and the point in time at which (s)he is able to successfully, synchronously talk to support personnel over the telephone, live video call, or in person, but not necessarily via chat."@en)
 SubClassOf(<http://purl.org/doves/doves-ontology#Time_to_Talk_to_a_Human_Outcome> <https://purl.org/doves/c420321e-c648-4ee8-bf15-9df9800e8bde>)
 
@@ -1666,20 +1670,20 @@ SubClassOf(<http://purl.org/doves/doves-ontology#Toddler_Age_Group> <http://purl
 
 # Class: <http://purl.org/doves/doves-ontology#Treatment_Adherence_Outcome> (Treatment Adherence Outcome)
 
-AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Treatment_Adherence_Outcome> "Treatment Adherence Outcome")
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Treatment_Adherence_Outcome> "Treatment Adherence Outcome"@en)
 AnnotationAssertion(Annotation(rdfs:seeAlso <https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4087153/#:~:text=Adherence%20has%20been%20defined%20as,from%20a%20health%20care%20provider%E2%80%9D.>) skos:definition <http://purl.org/doves/doves-ontology#Treatment_Adherence_Outcome> "A Treatment Adherence Outcome is an Engagement and Adherence Outcome that reflects the extent to which a person follows the recommended treatment plan from a healthcare provider. "@en)
 SubClassOf(<http://purl.org/doves/doves-ontology#Treatment_Adherence_Outcome> <https://purl.org/doves/f70ac7b3-c718-4511-9f13-2f4ab13050b8>)
 
 # Class: <http://purl.org/doves/doves-ontology#Turnaround_Time_Outcome> (Turnaround Time Outcome)
 
-AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Turnaround_Time_Outcome> "Turnaround Time Outcome")
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Turnaround_Time_Outcome> "Turnaround Time Outcome"@en)
 AnnotationAssertion(skos:definition <http://purl.org/doves/doves-ontology#Turnaround_Time_Outcome> "Turnaround Time Outcome is a Healthcare Operation Outcome that describes the time between a given item's intake and it's completion."@en)
 SubClassOf(<http://purl.org/doves/doves-ontology#Turnaround_Time_Outcome> <https://purl.org/doves/1ae3245a-1b7f-40b2-ae3b-74706699204a>)
 
-# Class: <http://purl.org/doves/doves-ontology#Type_2_Diabetes_Distress_Scale> (Type 2 Diabetes Distress Assessment System (T2-DDAS))
+# Class: <http://purl.org/doves/doves-ontology#Type_2_Diabetes_Distress_Scale> (Type 2 Diabetes Distress Assessment System (T2-DDAS) Outcome)
 
 AnnotationAssertion(obo:IAO_0000115 <http://purl.org/doves/doves-ontology#Type_2_Diabetes_Distress_Scale> "Type 2 Diabetes Distress Scale (T2-DDAS) is a self-reported survey that has 29 items. https://diabetesdistress.org/t2-dds-questions")
-AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Type_2_Diabetes_Distress_Scale> "Type 2 Diabetes Distress Assessment System (T2-DDAS)")
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Type_2_Diabetes_Distress_Scale> "Type 2 Diabetes Distress Assessment System (T2-DDAS) Outcome"@en)
 AnnotationAssertion(Annotation(rdfs:seeAlso <https://behavioraldiabetes.org/scales-and-measures/#1640735397425-def30b53-ef48>) skos:definition <http://purl.org/doves/doves-ontology#Type_2_Diabetes_Distress_Scale> "A Type 2 Diabetes Distress Assessment System (T2-DDAS) Outcome is a Patient Reported Outcome that is the only DD assessment scale that was developed, validated and standardized specifically for T2D adults. The T2-DDAS has two parts, which can be used independently based on specific clinical or research needs: the Core scale and the Sources scale. The Core scale contains 8 items and assesses the central, unalloyed element of DD as an emotional experience of diabetes-related distress. The Sources scale is 21 items, and it evaluates the relative impact of 7 common sources of DD that may be driving the distress.
 "@en)
 SubClassOf(<http://purl.org/doves/doves-ontology#Type_2_Diabetes_Distress_Scale> <https://purl.org/doves/9caa2510-f3a6-4de8-adcb-c554e91aeba7>)
@@ -1690,25 +1694,25 @@ SubClassOf(<http://purl.org/doves/doves-ontology#Unknown> <https://purl.org/dove
 
 # Class: <http://purl.org/doves/doves-ontology#Urinary_Sign_Outcome> (Urinary Control Outcome)
 
-AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Urinary_Sign_Outcome> "Urinary Control Outcome")
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Urinary_Sign_Outcome> "Urinary Control Outcome"@en)
 AnnotationAssertion(Annotation(rdfs:seeAlso <https://www.mayoclinic.org/diseases-conditions/urinary-incontinence/symptoms-causes/syc-20352808>) skos:definition <http://purl.org/doves/doves-ontology#Urinary_Sign_Outcome> "A Urinary Control Outcome is a Sign Control Outcome which indicates whether or not a person has urinary incontinence, which is the loss of bladder control. Types of urinary incontinence include stress incontinence, urge incontinence, and overflow incontinence. "@en)
 SubClassOf(<http://purl.org/doves/doves-ontology#Urinary_Sign_Outcome> <http://purl.org/doves/doves-ontology#Sign_Control_Outcome>)
 
 # Class: <http://purl.org/doves/doves-ontology#Vision_Control_Outcome> (Vision Control Outcome)
 
-AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Vision_Control_Outcome> "Vision Control Outcome")
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Vision_Control_Outcome> "Vision Control Outcome"@en)
 AnnotationAssertion(skos:definition <http://purl.org/doves/doves-ontology#Vision_Control_Outcome> "A Vision Control Outcome is a Sign Control Outcome that describes the influence of a digital medicine application on vision control."@en)
 SubClassOf(<http://purl.org/doves/doves-ontology#Vision_Control_Outcome> <http://purl.org/doves/doves-ontology#Sign_Control_Outcome>)
 
 # Class: <http://purl.org/doves/doves-ontology#Vision_Related_Quality_of_Life_Outcome> (Vision Related Quality of Life Outcome)
 
-AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Vision_Related_Quality_of_Life_Outcome> "Vision Related Quality of Life Outcome")
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Vision_Related_Quality_of_Life_Outcome> "Vision Related Quality of Life Outcome"@en)
 AnnotationAssertion(Annotation(rdfs:seeAlso <https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3169749/#:~:text=VRQOL%20represents%20the%20degree%20to,emotional%20and%20economic%20well%2Dbeing.>) skos:definition <http://purl.org/doves/doves-ontology#Vision_Related_Quality_of_Life_Outcome> "A Vision Related Quality of Life Outcome (VRQOL) is a Patient Reported Outcome which represents the degree to which vision impacts an individual's ability to complete activities of daily living and one's social, emotional and economic well-being. "@en)
 SubClassOf(<http://purl.org/doves/doves-ontology#Vision_Related_Quality_of_Life_Outcome> <https://purl.org/doves/9caa2510-f3a6-4de8-adcb-c554e91aeba7>)
 
 # Class: <http://purl.org/doves/doves-ontology#Weight_Control_Outcome> (Weight Control Outcome)
 
-AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Weight_Control_Outcome> "Weight Control Outcome")
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Weight_Control_Outcome> "Weight Control Outcome"@en)
 AnnotationAssertion(skos:definition <http://purl.org/doves/doves-ontology#Weight_Control_Outcome> "Weight Control Outcome is a Sign Control Outcome that describes a digital medicine application's influence over controlling or helping to control a patient's weight."@en)
 SubClassOf(<http://purl.org/doves/doves-ontology#Weight_Control_Outcome> <http://purl.org/doves/doves-ontology#Sign_Control_Outcome>)
 
@@ -1716,16 +1720,16 @@ SubClassOf(<http://purl.org/doves/doves-ontology#Weight_Control_Outcome> <http:/
 
 SubClassOf(<http://purl.org/doves/doves-ontology#White> <http://purl.org/doves/doves-ontology#Race>)
 
-# Class: <http://purl.org/doves/doves-ontology#Work_Productivity_and_Activity> (Work Productivity and Activity)
+# Class: <http://purl.org/doves/doves-ontology#Work_Productivity_and_Activity> (Work Productivity and Activity Outcome)
 
-AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Work_Productivity_and_Activity> "Work Productivity and Activity")
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Work_Productivity_and_Activity> "Work Productivity and Activity Outcome"@en)
 AnnotationAssertion(skos:definition <http://purl.org/doves/doves-ontology#Work_Productivity_and_Activity> "A Work Productivity and Activity Outcome is a Patient Socioeconomic Outcome that describes the influence a digital medicine application may have on a patient's ability to work productively. "@en)
 SubClassOf(<http://purl.org/doves/doves-ontology#Work_Productivity_and_Activity> <http://purl.org/doves/doves-ontology#Patient_Socioeconomic_Outcome>)
 
-# Class: <http://purl.org/doves/doves-ontology#Work_Productivity_and_Activity_Impairment_Questionnaire> (Work Productivity and Activity Impairment Questionnaire)
+# Class: <http://purl.org/doves/doves-ontology#Work_Productivity_and_Activity_Impairment_Questionnaire> (Work Productivity and Activity Impairment Questionnaire Outcome)
 
 AnnotationAssertion(obo:IAO_0000115 <http://purl.org/doves/doves-ontology#Work_Productivity_and_Activity_Impairment_Questionnaire> "The Work Productivitiy and Activitiy Impairment Questionnaire is a a questionnaire about the effect of an individual's health problems on his/her ability to work and perform regular activities. https://oml.eular.org/sysModules/obxOML/docs/id_98/WPAI-GH_English_US_V2.pdf")
-AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Work_Productivity_and_Activity_Impairment_Questionnaire> "Work Productivity and Activity Impairment Questionnaire")
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Work_Productivity_and_Activity_Impairment_Questionnaire> "Work Productivity and Activity Impairment Questionnaire Outcome"@en)
 AnnotationAssertion(Annotation(rdfs:seeAlso <https://academic.oup.com/rheumatology/article/49/4/812/1790810>) skos:definition <http://purl.org/doves/doves-ontology#Work_Productivity_and_Activity_Impairment_Questionnaire> "A Work Productivity and Activity Impairment (WPAI) Questionnaire Outcome is a Patient Reported Outcome that describes a self-administered instrument used to assess the impact of disease on productivity. The WPAI measures work productivity loss due to general health or a specified health problem. This questionnaire has been validated for use in many diseases, including allergic rhinitis, dermatitis, gastro-oesophageal reflux disease, nocturia, asthma, irritable bowel syndrome, and Crohn’s disease.
 "@en)
 SubClassOf(<http://purl.org/doves/doves-ontology#Work_Productivity_and_Activity_Impairment_Questionnaire> <https://purl.org/doves/9caa2510-f3a6-4de8-adcb-c554e91aeba7>)
@@ -1738,26 +1742,26 @@ SubClassOf(<http://purl.org/doves/doves-ontology#Young_Adult_Age_Group> <http://
 
 # Class: <http://purl.org/doves/doves-ontology#30_Second_Sit_to_Stand_Test_Outcome> (30 Second Sit to Stand Test Outcome)
 
-AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#30_Second_Sit_to_Stand_Test_Outcome> "30 Second Sit to Stand Test Outcome")
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#30_Second_Sit_to_Stand_Test_Outcome> "30 Second Sit to Stand Test Outcome"@en)
 AnnotationAssertion(Annotation(rdfs:seeAlso <https://www.physio-pedia.com/30_Seconds_Sit_To_Stand_Test>) skos:definition <http://purl.org/doves/doves-ontology#30_Second_Sit_to_Stand_Test_Outcome> "A 30 Second Sit to Stand Test Outcome is a Musculoskeletal Control Outcome that tests leg strength and endurance in older adults. "@en)
 SubClassOf(<http://purl.org/doves/doves-ontology#30_Second_Sit_to_Stand_Test_Outcome> <http://purl.org/doves/doves-ontology#Musculoskeletal_Control_Outcome>)
 
 # Class: <http://purl.org/doves/doves-ontology#Barthel_Index_(BI)_Outcome> (Barthel Index (BI) Outcome)
 
-AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Barthel_Index_(BI)_Outcome> "Barthel Index (BI) Outcome")
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Barthel_Index_(BI)_Outcome> "Barthel Index (BI) Outcome"@en)
 AnnotationAssertion(Annotation(rdfs:seeAlso <https://link.springer.com/referenceworkentry/10.1007/978-0-387-79948-3_1795>) skos:definition <http://purl.org/doves/doves-ontology#Barthel_Index_(BI)_Outcome> "A Barthel Index (BI) Outcome is a Healthcare Provider Reported Outcome that measures ten functions that are important for independent living – feeding, bathing, grooming, dressing, bowel and bladder continence, toileting, transfers, mobility, and stair use. Items are weighted and scored according to their perceived importance. Higher scores indicate better performance. In the most commonly used version, the maximum score of 100 indicates full independence. Several versions of the Barthel Index and their associated scoring methods exist.
 "@en)
 SubClassOf(<http://purl.org/doves/doves-ontology#Barthel_Index_(BI)_Outcome> <http://purl.org/doves/doves-ontology#Healthcare_Provider_Reported_Outcome>)
 
 # Class: <http://purl.org/doves/doves-ontology#Berg_Balance_Scale_(BBS)_Outcome> (Berg Balance Scale (BBS) Outcome)
 
-AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Berg_Balance_Scale_(BBS)_Outcome> "Berg Balance Scale (BBS) Outcome")
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Berg_Balance_Scale_(BBS)_Outcome> "Berg Balance Scale (BBS) Outcome"@en)
 AnnotationAssertion(Annotation(rdfs:seeAlso <https://www.physio-pedia.com/Berg_Balance_Scale>) skos:definition <http://purl.org/doves/doves-ontology#Berg_Balance_Scale_(BBS)_Outcome> "The Berg Balance Score (BBS) Outcome is a Healthcare Provider Reported Outcome that is an objective measurement tool, originally designed to measure balance in older individuals. It consists of 14 items scored on an ordinal scale of 0 to 4 for a total of 56 points (a higher score indicates lower fall risk). "@en)
 SubClassOf(<http://purl.org/doves/doves-ontology#Berg_Balance_Scale_(BBS)_Outcome> <http://purl.org/doves/doves-ontology#Healthcare_Provider_Reported_Outcome>)
 
 # Class: <http://purl.org/doves/doves-ontology#COPD_Assessment_Test_(CAT)> (COPD Assessment Test (CAT) Outcome)
 
-AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#COPD_Assessment_Test_(CAT)> "COPD Assessment Test (CAT) Outcome")
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#COPD_Assessment_Test_(CAT)> "COPD Assessment Test (CAT) Outcome"@en)
 AnnotationAssertion(Annotation(rdfs:seeAlso <https://www.thoracic.org/members/assemblies/assemblies/srn/questionaires/copd.php>) skos:definition <http://purl.org/doves/doves-ontology#COPD_Assessment_Test_(CAT)> "Patient-completed questionnaire assessing globally the impact of COPD (cough, sputum, dysnea, chest tighteness) on health status. Range of CAT scores from 0–40. Higher scores denote a more severe impact of COPD on a patient's life. The difference between stable and exacerbation patients was five units. No target score represents the best achievable outcome.
 "@en)
 SubClassOf(<http://purl.org/doves/doves-ontology#COPD_Assessment_Test_(CAT)> <https://purl.org/doves/9caa2510-f3a6-4de8-adcb-c554e91aeba7>)
@@ -1768,7 +1772,7 @@ SubClassOf(<http://purl.org/doves/doves-ontology#Cardiac_Intensive_Care_Unit_(CI
 
 # Class: <http://purl.org/doves/doves-ontology#Chronic_Respiratory_Disease_Questionnaire_(CRQ)_Outcome> (Chronic Respiratory Disease Questionnaire (CRQ) Outcome)
 
-AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Chronic_Respiratory_Disease_Questionnaire_(CRQ)_Outcome> "Chronic Respiratory Disease Questionnaire (CRQ) Outcome")
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Chronic_Respiratory_Disease_Questionnaire_(CRQ)_Outcome> "Chronic Respiratory Disease Questionnaire (CRQ) Outcome"@en)
 AnnotationAssertion(Annotation(rdfs:seeAlso <https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2845220/>) skos:definition <http://purl.org/doves/doves-ontology#Chronic_Respiratory_Disease_Questionnaire_(CRQ)_Outcome> "A Chronic Respiratory Disease Questionnaire (CRQ) Outcome is a Patient Reported Outcome that is the most commonly used disease specific measurement tool to assess HRQL in patients with chronic respiratory disease.
 "@en)
 SubClassOf(<http://purl.org/doves/doves-ontology#Chronic_Respiratory_Disease_Questionnaire_(CRQ)_Outcome> <https://purl.org/doves/9caa2510-f3a6-4de8-adcb-c554e91aeba7>)
@@ -1778,16 +1782,16 @@ SubClassOf(<http://purl.org/doves/doves-ontology#Chronic_Respiratory_Disease_Que
 AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Conformite_Europeenne_(CE)> "Conformite Europeenne (CE) Approval")
 SubClassOf(<http://purl.org/doves/doves-ontology#Conformite_Europeenne_(CE)> <http://purl.org/doves/doves-ontology#Regulatory_Approval>)
 
-# Class: <http://purl.org/doves/doves-ontology#Continuous_Glucose_Monitor_(CGM)_Wear_Time> (Continuous Glucose Monitor (CGM) Wear Time)
+# Class: <http://purl.org/doves/doves-ontology#Continuous_Glucose_Monitor_(CGM)_Wear_Time> (Continuous Glucose Monitor (CGM) Wear Time Outcome)
 
 AnnotationAssertion(obo:IAO_0000115 <http://purl.org/doves/doves-ontology#Continuous_Glucose_Monitor_(CGM)_Wear_Time> "Continuous Glucose Monitor (CGM) Wear Time is a Patient Engagement Outcome that reflects the percent of time that a patient wears his/her continuous glucose monitor.")
-AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Continuous_Glucose_Monitor_(CGM)_Wear_Time> "Continuous Glucose Monitor (CGM) Wear Time")
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Continuous_Glucose_Monitor_(CGM)_Wear_Time> "Continuous Glucose Monitor (CGM) Wear Time Outcome"@en)
 AnnotationAssertion(skos:definition <http://purl.org/doves/doves-ontology#Continuous_Glucose_Monitor_(CGM)_Wear_Time> "Continuous Glucose Monitor Wear Tme Outcome is a Patient Engagement Outcome that describes the amount of time that a continuous glucose monitor is worn by a patient."@en)
 SubClassOf(<http://purl.org/doves/doves-ontology#Continuous_Glucose_Monitor_(CGM)_Wear_Time> <https://purl.org/doves/6ca84b77-899d-4fd4-a9ef-b9d1831ce4e6>)
 
 # Class: <http://purl.org/doves/doves-ontology#Dynamic_Gait_Index_(DGI)_Outcome> (Dynamic Gait Index (DGI) Outcome)
 
-AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Dynamic_Gait_Index_(DGI)_Outcome> "Dynamic Gait Index (DGI) Outcome")
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Dynamic_Gait_Index_(DGI)_Outcome> "Dynamic Gait Index (DGI) Outcome"@en)
 AnnotationAssertion(Annotation(rdfs:seeAlso <https://www.physio-pedia.com/Dynamic_Gait_Index>) skos:definition <http://purl.org/doves/doves-ontology#Dynamic_Gait_Index_(DGI)_Outcome> "The Dynamic Gait Index (DGI) Outcome is a Healthcare Provider Reported Outcome that assesses the ability of the participant to maintain walking balance while responding to different task demands, through various dynamic conditions. It is a useful test in individuals with vestibular and balance problems and those at risk of falls.
 "@en)
 SubClassOf(<http://purl.org/doves/doves-ontology#Dynamic_Gait_Index_(DGI)_Outcome> <http://purl.org/doves/doves-ontology#Healthcare_Provider_Reported_Outcome>)
@@ -1795,19 +1799,19 @@ SubClassOf(<http://purl.org/doves/doves-ontology#Dynamic_Gait_Index_(DGI)_Outcom
 # Class: <http://purl.org/doves/doves-ontology#Electronic_Health_Record_(EHR)_Inbox_Management_Outcome> (Electronic Health Record (EHR) Inbox Management Outcome)
 
 AnnotationAssertion(obo:IAO_0000115 <http://purl.org/doves/doves-ontology#Electronic_Health_Record_(EHR)_Inbox_Management_Outcome> "Electronic Health Record (EHR) Inbox Management Outcome is a Healthcare operation Outcome that is influenced by a digital medicine application's ability to manage, and potentially decrease the volume of, or effort involved in a healthcare provider's need to manage his/her EHR inbox.")
-AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Electronic_Health_Record_(EHR)_Inbox_Management_Outcome> "Electronic Health Record (EHR) Inbox Management Outcome")
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Electronic_Health_Record_(EHR)_Inbox_Management_Outcome> "Electronic Health Record (EHR) Inbox Management Outcome"@en)
 AnnotationAssertion(skos:definition <http://purl.org/doves/doves-ontology#Electronic_Health_Record_(EHR)_Inbox_Management_Outcome> "Electronic Health Record (EHR) Inbox Management Outcome is a Healthcare Operation Outcome that describes a digital medicine application's ability to help manage the healthcare provider's electronic inbox."@en)
 SubClassOf(<http://purl.org/doves/doves-ontology#Electronic_Health_Record_(EHR)_Inbox_Management_Outcome> <https://purl.org/doves/1ae3245a-1b7f-40b2-ae3b-74706699204a>)
 
 # Class: <http://purl.org/doves/doves-ontology#Fast_Healthcare_Interoperability_Resources_(FHIR)_API_Outcome> (Fast Healthcare Interoperability Resources (FHIR) API Outcome)
 
-AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Fast_Healthcare_Interoperability_Resources_(FHIR)_API_Outcome> "Fast Healthcare Interoperability Resources (FHIR) API Outcome")
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Fast_Healthcare_Interoperability_Resources_(FHIR)_API_Outcome> "Fast Healthcare Interoperability Resources (FHIR) API Outcome"@en)
 AnnotationAssertion(Annotation(rdfs:seeAlso <https://www.healthit.gov/sites/default/files/2019-08/ONCFHIRFSWhatIsFHIR.pdf>) skos:definition <http://purl.org/doves/doves-ontology#Fast_Healthcare_Interoperability_Resources_(FHIR)_API_Outcome> "An HL7® FHIR® (Fast Healthcare Interoperability Resources 1 ) is an API Access Outcome that describes whether a digital medicine application uses the HL& FIHR standard, which is a standard that defines how healthcare information can be exchanged between different computer systems regardless of how it is stored in those systems. It allows healthcare information, including clinical and administrative data, to be available securely to those who have a need to access it, and to those who have the right to do so for the benefit of a patient receiving care. The standards development organization HL7® (Health Level Seven®3) uses a collaborative approach to develop and upgrade FHIR. "@en)
 SubClassOf(<http://purl.org/doves/doves-ontology#Fast_Healthcare_Interoperability_Resources_(FHIR)_API_Outcome> <https://purl.org/doves/3d59b32e-e247-44e4-a69c-1c704af0c574>)
 
 # Class: <http://purl.org/doves/doves-ontology#Greene_Climacteric_Scale_(GCS)_Outcome> (Greene Climacetric Scale (GCS) Outcome)
 
-AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Greene_Climacteric_Scale_(GCS)_Outcome> "Greene Climacetric Scale (GCS) Outcome")
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Greene_Climacteric_Scale_(GCS)_Outcome> "Greene Climacetric Scale (GCS) Outcome"@en)
 AnnotationAssertion(skos:definition <http://purl.org/doves/doves-ontology#Greene_Climacteric_Scale_(GCS)_Outcome> "A Greene Climacetric Scale (GCS) Outcome is a Patient Reported Outcome that provides a brief measure of menopause symptoms. It can be used to assess changes in different symptoms, before and after menopause treatment. Three main areas are measured:
 1. Psychological (items 1-11). 2. Physical (items 12-18). 3. Vasomotor (items 19, 20).
 https://www.jeanhailes.org.au/uploads/Health-professionals/Menopause_symptom_scale_Greene_Climacteric.pdf"@en)
@@ -1815,34 +1819,34 @@ SubClassOf(<http://purl.org/doves/doves-ontology#Greene_Climacteric_Scale_(GCS)_
 
 # Class: <http://purl.org/doves/doves-ontology#Hospital_COnsumer_Assessment_of_Healthcare_Providers_and_Systems_(HCAHPS)_Outcome> (Hospital Consumer Assessment of Healthcare Providers and Systems (HCAHPS) Outcome)
 
-AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Hospital_COnsumer_Assessment_of_Healthcare_Providers_and_Systems_(HCAHPS)_Outcome> "Hospital Consumer Assessment of Healthcare Providers and Systems (HCAHPS) Outcome")
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Hospital_COnsumer_Assessment_of_Healthcare_Providers_and_Systems_(HCAHPS)_Outcome> "Hospital Consumer Assessment of Healthcare Providers and Systems (HCAHPS) Outcome"@en)
 AnnotationAssertion(Annotation(rdfs:seeAlso <https://www.cms.gov/medicare/quality-initiatives-patient-assessment-instruments/hospitalqualityinits/hospitalhcahps>) skos:definition <http://purl.org/doves/doves-ontology#Hospital_COnsumer_Assessment_of_Healthcare_Providers_and_Systems_(HCAHPS)_Outcome> "A HCAHPS (Hospital Consumer Assessment of Healthcare Providers and Systems) survey Outcome is a Patient Reported Outcome which is the first national, standardized, publicly reported survey of patients' perspectives of hospital care. HCAHPS (pronounced \"H-caps\"), also known as the CAHPS Hospital Survey, is a survey instrument and data collection methodology for measuring patients' perceptions of their hospital experience.
 "@en)
 SubClassOf(<http://purl.org/doves/doves-ontology#Hospital_COnsumer_Assessment_of_Healthcare_Providers_and_Systems_(HCAHPS)_Outcome> <https://purl.org/doves/9caa2510-f3a6-4de8-adcb-c554e91aeba7>)
 
-# Class: <http://purl.org/doves/doves-ontology#Irritable_Bowel_Syndrome_-_Severity_Scoring_System_(IBS-SSS)> (Irritable Bowel Syndrome - Severity Scoring System (IBS-SSS))
+# Class: <http://purl.org/doves/doves-ontology#Irritable_Bowel_Syndrome_-_Severity_Scoring_System_(IBS-SSS)> (Irritable Bowel Syndrome - Severity Scoring System (IBS-SSS) Outcome)
 
-AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Irritable_Bowel_Syndrome_-_Severity_Scoring_System_(IBS-SSS)> "Irritable Bowel Syndrome - Severity Scoring System (IBS-SSS)")
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Irritable_Bowel_Syndrome_-_Severity_Scoring_System_(IBS-SSS)> "Irritable Bowel Syndrome - Severity Scoring System (IBS-SSS) Outcome"@en)
 AnnotationAssertion(Annotation(rdfs:seeAlso <https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5192275>) skos:definition <http://purl.org/doves/doves-ontology#Irritable_Bowel_Syndrome_-_Severity_Scoring_System_(IBS-SSS)> "A Irritable Bowel Syndrome - Severity Scoring System (IBS-SSS) Outcome is a Patient Reported Outcome that is a composite score of abdominal pain, number of days with abdominal pain, bloating/distension, satisfaction with bowel habits, and IBS-related quality of life (QoL). Each measure is rated from 0 to 100, with total scores ranging from 0 to 500.
 "@en)
 SubClassOf(<http://purl.org/doves/doves-ontology#Irritable_Bowel_Syndrome_-_Severity_Scoring_System_(IBS-SSS)> <https://purl.org/doves/9caa2510-f3a6-4de8-adcb-c554e91aeba7>)
 
 # Class: <http://purl.org/doves/doves-ontology#MDS-Unified_Parkinson's_Disease_Rating_Scale_(MDS-UPRDRS)_Outcome> (MDS-Unified Parkinson's Disease Rating Scale (MDS-UPRDRS) Outcome)
 
-AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#MDS-Unified_Parkinson's_Disease_Rating_Scale_(MDS-UPRDRS)_Outcome> "MDS-Unified Parkinson's Disease Rating Scale (MDS-UPRDRS) Outcome")
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#MDS-Unified_Parkinson's_Disease_Rating_Scale_(MDS-UPRDRS)_Outcome> "MDS-Unified Parkinson's Disease Rating Scale (MDS-UPRDRS) Outcome"@en)
 AnnotationAssertion(Annotation(rdfs:seeAlso <https://www.sciencedirect.com/topics/medicine-and-dentistry/unified-parkinsons-disease-rating-scale>) skos:definition <http://purl.org/doves/doves-ontology#MDS-Unified_Parkinson's_Disease_Rating_Scale_(MDS-UPRDRS)_Outcome> "The MDS-UPDRS Outcome is a Patient Reported Outcome that is an updated and expanded version of the original UPDRS, and is the most studied and utilized movement disorders rating scale. It rates aspects of Parkinson disease on four subscales: Part I: ‘‘nonmotor experiences of daily living,’’ Part II: ‘‘motor experiences of daily living,’’ Part III: ‘‘motor examination,’’ and Part IV: ‘‘motor complications of levodopa therapy.’’ Although the UPDRS has been applied to assess the severity of parkinsonism in juvenile neuronal ceroid lipofuscinosis (Batten disease), its clinicometric properties have not been evaluated in children.
 "@en)
 SubClassOf(<http://purl.org/doves/doves-ontology#MDS-Unified_Parkinson's_Disease_Rating_Scale_(MDS-UPRDRS)_Outcome> <https://purl.org/doves/9caa2510-f3a6-4de8-adcb-c554e91aeba7>)
 
 # Class: <http://purl.org/doves/doves-ontology#Manual_Muscle_Testing_(MMT)_Outcome> (Manual Muscle Testing (MMT) Outcome)
 
-AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Manual_Muscle_Testing_(MMT)_Outcome> "Manual Muscle Testing (MMT) Outcome")
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Manual_Muscle_Testing_(MMT)_Outcome> "Manual Muscle Testing (MMT) Outcome"@en)
 AnnotationAssertion(Annotation(rdfs:seeAlso <https://www.niehs.nih.gov/research/resources/assets/docs/muscle_grading_and_testing_procedures_508.pdf>) skos:definition <http://purl.org/doves/doves-ontology#Manual_Muscle_Testing_(MMT)_Outcome> "Manual Muscle Testing (MMT) outcome is a Healthcare Provider Reported Outcome that grades muscle strength and function are usually labelled with the following terms: “zero,” “trace,” “poor,” “fair,” “good,” and “normal.” In addition, manual muscle testing grades can be further described using a numerical scale from 0 through 5. "@en)
 SubClassOf(<http://purl.org/doves/doves-ontology#Manual_Muscle_Testing_(MMT)_Outcome> <http://purl.org/doves/doves-ontology#Healthcare_Provider_Reported_Outcome>)
 
 # Class: <http://purl.org/doves/doves-ontology#Modified_Ashworth_Scale_(MAS)_Outcome> (Modified Ashworth Scale (MAS) Outcome)
 
-AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Modified_Ashworth_Scale_(MAS)_Outcome> "Modified Ashworth Scale (MAS) Outcome")
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Modified_Ashworth_Scale_(MAS)_Outcome> "Modified Ashworth Scale (MAS) Outcome"@en)
 AnnotationAssertion(Annotation(rdfs:seeAlso <https://www.ncbi.nlm.nih.gov/books/NBK554572/>) skos:definition <http://purl.org/doves/doves-ontology#Modified_Ashworth_Scale_(MAS)_Outcome> "A Modified Ashworth Scale (MAS) Outcome is a Healthcare Provider Reported Outcome the purpose of which is to grade muscle spasticity. The scale is as follows[4]:
 
 0: No increase in muscle tone
@@ -1856,7 +1860,7 @@ SubClassOf(<http://purl.org/doves/doves-ontology#Modified_Ashworth_Scale_(MAS)_O
 
 # Class: <http://purl.org/doves/doves-ontology#Modified_Medical_Research_Council_(MMRC)_Dyspnea_Scale> (Modified Medical Research Council (MMRC) Dyspnea Scale Outcome)
 
-AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Modified_Medical_Research_Council_(MMRC)_Dyspnea_Scale> "Modified Medical Research Council (MMRC) Dyspnea Scale Outcome")
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Modified_Medical_Research_Council_(MMRC)_Dyspnea_Scale> "Modified Medical Research Council (MMRC) Dyspnea Scale Outcome"@en)
 AnnotationAssertion(Annotation(rdfs:seeAlso <https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5731772/>) skos:definition <http://purl.org/doves/doves-ontology#Modified_Medical_Research_Council_(MMRC)_Dyspnea_Scale> "A Modified Medical Research Council (mMRC) Dyspnea Scale Outcome is a Patient Reported Outcome that describes a self-rating tool to measure the degree of disability that breathlessness poses on day-to-day activities on a scale from 0 to 4: 0, no breathlessness except on strenuous exercise; 1, shortness of breath when hurrying on the level or walking up a slight hill; 2, walks slower than people of same age on the level because of breathlessness or has to stop to catch breath when walking at their own pace on the level; 3, stops for breath after walking ∼100 m or after few minutes on the level; and 4, too breathless to leave the house, or breathless when dressing or undressing.
 "@en)
 SubClassOf(<http://purl.org/doves/doves-ontology#Modified_Medical_Research_Council_(MMRC)_Dyspnea_Scale> <https://purl.org/doves/9caa2510-f3a6-4de8-adcb-c554e91aeba7>)
@@ -1867,14 +1871,14 @@ SubClassOf(<http://purl.org/doves/doves-ontology#Neonatal_Intensive_Care_Unit_(N
 
 # Class: <http://purl.org/doves/doves-ontology#O'Leary-Sant_Symptom_Index_Outcome> (O'Leary-Sant Symptom Index Outcome)
 
-AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#O'Leary-Sant_Symptom_Index_Outcome> "O'Leary-Sant Symptom Index Outcome")
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#O'Leary-Sant_Symptom_Index_Outcome> "O'Leary-Sant Symptom Index Outcome"@en)
 AnnotationAssertion(Annotation(rdfs:seeAlso <https://pubmed.ncbi.nlm.nih.gov/9146003/>) skos:definition <http://purl.org/doves/doves-ontology#O'Leary-Sant_Symptom_Index_Outcome> "The IC symptom index and the IC problem index measure urinary and pain symptoms and assesses how problematic symptoms are for patients with interstitial cystitis.
 "@en)
 SubClassOf(<http://purl.org/doves/doves-ontology#O'Leary-Sant_Symptom_Index_Outcome> <https://purl.org/doves/9caa2510-f3a6-4de8-adcb-c554e91aeba7>)
 
 # Class: <http://purl.org/doves/doves-ontology#Oswestry_Disability_Index_(ODI)_Outcome> (Oswestry Disability Index (ODI) Outcome)
 
-AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Oswestry_Disability_Index_(ODI)_Outcome> "Oswestry Disability Index (ODI) Outcome")
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Oswestry_Disability_Index_(ODI)_Outcome> "Oswestry Disability Index (ODI) Outcome"@en)
 AnnotationAssertion(Annotation(rdfs:seeAlso <https://www.aaos.org/globalassets/quality-and-practice-resources/patient-reported-outcome-measures/spine/oswestry-2.pdf>) skos:definition <http://purl.org/doves/doves-ontology#Oswestry_Disability_Index_(ODI)_Outcome> "A Oswestry Disability Index (aka the Oswestry Low Back Pain Disability Questionnaire) Outcome is a Patient Reported Outcome that is an extremely important tool that researchers and disability evaluators use to measure a patient’s permanent functional disability. The test has been around since 1980 and is considered the ‘gold standard’ of low back pain functional outcome tools.
 "@en)
 SubClassOf(<http://purl.org/doves/doves-ontology#Oswestry_Disability_Index_(ODI)_Outcome> <https://purl.org/doves/9caa2510-f3a6-4de8-adcb-c554e91aeba7>)
@@ -1884,9 +1888,9 @@ SubClassOf(<http://purl.org/doves/doves-ontology#Oswestry_Disability_Index_(ODI)
 AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#PTSD_Checklist_for_DSM-5_(PCL-5)> "PTSD Checklist for DSM-5 (PCL-5) Outcome")
 SubClassOf(<http://purl.org/doves/doves-ontology#PTSD_Checklist_for_DSM-5_(PCL-5)> <https://purl.org/doves/9caa2510-f3a6-4de8-adcb-c554e91aeba7>)
 
-# Class: <http://purl.org/doves/doves-ontology#Patient_Activation_Measure_(PAM)_Outcome> (Patient Activaiton Measure (PAM) Outcome)
+# Class: <http://purl.org/doves/doves-ontology#Patient_Activation_Measure_(PAM)_Outcome> (Patient Activation Measure (PAM) Outcome)
 
-AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Patient_Activation_Measure_(PAM)_Outcome> "Patient Activaiton Measure (PAM) Outcome")
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Patient_Activation_Measure_(PAM)_Outcome> "Patient Activation Measure (PAM) Outcome"@en)
 AnnotationAssertion(Annotation(rdfs:seeAlso <https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1361231/>) skos:definition <http://purl.org/doves/doves-ontology#Patient_Activation_Measure_(PAM)_Outcome> "A Patient Activation Measure (PAM) Outcome is a Patient Reported Outcome that is a 22-item measure that assesses patient knowledge, skill, and confidence for self-management. The measure was developed using Rasch analyses and is an interval level, unidimensional, Guttman-like measure.
 "@en)
 SubClassOf(<http://purl.org/doves/doves-ontology#Patient_Activation_Measure_(PAM)_Outcome> <https://purl.org/doves/9caa2510-f3a6-4de8-adcb-c554e91aeba7>)
@@ -1897,41 +1901,41 @@ SubClassOf(<http://purl.org/doves/doves-ontology#Pediatric_Intensive_Care_Unit_(
 
 # Class: <http://purl.org/doves/doves-ontology#Pelvic_Floor_Disability_Index_(PFDI-20)_Outcome> (Pelvic Floor Disability Index (PFDI-20) Outcome)
 
-AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Pelvic_Floor_Disability_Index_(PFDI-20)_Outcome> "Pelvic Floor Disability Index (PFDI-20) Outcome")
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Pelvic_Floor_Disability_Index_(PFDI-20)_Outcome> "Pelvic Floor Disability Index (PFDI-20) Outcome"@en)
 AnnotationAssertion(Annotation(rdfs:seeAlso <https://jpro.springeropen.com/articles/10.1186/s41687-022-00459-6>) skos:definition <http://purl.org/doves/doves-ontology#Pelvic_Floor_Disability_Index_(PFDI-20)_Outcome> "A Pelvic Floor Disability Index (PFDI-20) Outcome is a Patient Reported Outcome which shows how the total PFDI-20 score was classified as the absence of symptoms (score zero), symptoms with mild distress (1 to 15 points), symptoms with moderate distress (16 to 34 points), and symptoms with severe distress (35 to 40 points).
 "@en)
 SubClassOf(<http://purl.org/doves/doves-ontology#Pelvic_Floor_Disability_Index_(PFDI-20)_Outcome> <https://purl.org/doves/9caa2510-f3a6-4de8-adcb-c554e91aeba7>)
 
 # Class: <http://purl.org/doves/doves-ontology#Reduced_ED_to_Admission/Observation_Rate_Outcome> (Reduced ED to Admission/Observation Rate Outcome)
 
-AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Reduced_ED_to_Admission/Observation_Rate_Outcome> "Reduced ED to Admission/Observation Rate Outcome")
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Reduced_ED_to_Admission/Observation_Rate_Outcome> "Reduced ED to Admission/Observation Rate Outcome"@en)
 AnnotationAssertion(skos:definition <http://purl.org/doves/doves-ontology#Reduced_ED_to_Admission/Observation_Rate_Outcome> "Reduced ED to Admission/Observation Rate Outcome is a Reduced Emergency Department Utilization Outcome that describes a digital medicine application's influence on reducing the number of patients who are admitted to the hospital relative to the number of patients who are placed on observation status."@en)
 SubClassOf(<http://purl.org/doves/doves-ontology#Reduced_ED_to_Admission/Observation_Rate_Outcome> <https://purl.org/doves/cdec99b1-f3e5-4009-bdc5-49ea965dc503>)
 
 # Class: <http://purl.org/doves/doves-ontology#Representational_State_Transfer_(REST)_Outcome> (Representational State Transfer (REST) Outcome)
 
-AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Representational_State_Transfer_(REST)_Outcome> "Representational State Transfer (REST) Outcome")
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Representational_State_Transfer_(REST)_Outcome> "Representational State Transfer (REST) Outcome"@en)
 AnnotationAssertion(skos:definition <http://purl.org/doves/doves-ontology#Representational_State_Transfer_(REST)_Outcome> "A Representational State Transfer (REST) Outcome is an API Access Outcome that describes whether a digital medicine application exchanges information using the World Wide Web standard transfer protocol HTTP, the underlying internet standard that forms the basis for all website data exchange."@en)
 SubClassOf(<http://purl.org/doves/doves-ontology#Representational_State_Transfer_(REST)_Outcome> <https://purl.org/doves/3d59b32e-e247-44e4-a69c-1c704af0c574>)
 
 # Class: <http://purl.org/doves/doves-ontology#Self_Efficacy_to_Manage_Chronic_Disease_(SEMCD)_Scale_Outcome> (Self Efficacy to Manage Chronic Disease (SEMCD) Scale Outcome)
 
-AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Self_Efficacy_to_Manage_Chronic_Disease_(SEMCD)_Scale_Outcome> "Self Efficacy to Manage Chronic Disease (SEMCD) Scale Outcome")
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Self_Efficacy_to_Manage_Chronic_Disease_(SEMCD)_Scale_Outcome> "Self Efficacy to Manage Chronic Disease (SEMCD) Scale Outcome"@en)
 AnnotationAssertion(Annotation(rdfs:seeAlso <https://pubmed.ncbi.nlm.nih.gov/25091546/>) skos:definition <http://purl.org/doves/doves-ontology#Self_Efficacy_to_Manage_Chronic_Disease_(SEMCD)_Scale_Outcome> "A Self-Efficacy for Managing Chronic Disease (SEMCD) scale Outcome is a Patient Reported Outcome which is a 6-item questionnaire that measures confidence in one's ability to manage fatigue, pain, emotional distress, and other symptoms using self-management techniques.
 "@en)
 SubClassOf(<http://purl.org/doves/doves-ontology#Self_Efficacy_to_Manage_Chronic_Disease_(SEMCD)_Scale_Outcome> <https://purl.org/doves/9caa2510-f3a6-4de8-adcb-c554e91aeba7>)
 
-# Class: <http://purl.org/doves/doves-ontology#St._George's_Respiratory_Questionnaire_(SGRT)_Outcome> (St. George's Respiratory Questionnaire (SGRT) Outcome)
+# Class: <http://purl.org/doves/doves-ontology#St._George's_Respiratory_Questionnaire_(SGRT)_Outcome> (St. George's Respiratory Questionnaire (SGRQ) Outcome)
 
-AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#St._George's_Respiratory_Questionnaire_(SGRT)_Outcome> "St. George's Respiratory Questionnaire (SGRT) Outcome")
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#St._George's_Respiratory_Questionnaire_(SGRT)_Outcome> "St. George's Respiratory Questionnaire (SGRQ) Outcome"@en)
 AnnotationAssertion(Annotation(rdfs:seeAlso <https://pubmed.ncbi.nlm.nih.gov/1759018/>) skos:definition <http://purl.org/doves/doves-ontology#St._George's_Respiratory_Questionnaire_(SGRT)_Outcome> "The St George's Respiratory Questionnaire (SGRQ) Outcome is a Patient Reported Outcome that is a standardized self-completed questionnaire for measuring impaired health and perceived well-being ('quality of life') in airways disease. It has been designed to allow comparative measurements of health between patient populations and quantify changes in health following therapy.
 "@en)
 SubClassOf(<http://purl.org/doves/doves-ontology#St._George's_Respiratory_Questionnaire_(SGRT)_Outcome> <https://purl.org/doves/9caa2510-f3a6-4de8-adcb-c554e91aeba7>)
 
-# Class: <http://purl.org/doves/doves-ontology#Type_1_Diabetes_Distress_Scale_(T1-DDS)> (Type 1 Diabetes Distress Scale (T1-DDS))
+# Class: <http://purl.org/doves/doves-ontology#Type_1_Diabetes_Distress_Scale_(T1-DDS)> (Type 1 Diabetes Distress Scale (T1-DDS) Outcome)
 
 AnnotationAssertion(obo:IAO_0000115 <http://purl.org/doves/doves-ontology#Type_1_Diabetes_Distress_Scale_(T1-DDS)> "The Type 1 Diabetes Distress Scale is a self-reported survey that has 28 items. https://diabetesdistress.org/t1-dds-questions")
-AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Type_1_Diabetes_Distress_Scale_(T1-DDS)> "Type 1 Diabetes Distress Scale (T1-DDS)")
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Type_1_Diabetes_Distress_Scale_(T1-DDS)> "Type 1 Diabetes Distress Scale (T1-DDS) Outcome"@en)
 AnnotationAssertion(Annotation(rdfs:seeAlso <https://diabetesdistress.org/dd-assess-score-2>) skos:definition <http://purl.org/doves/doves-ontology#Type_1_Diabetes_Distress_Scale_(T1-DDS)> "A Type 1 Diabetes Distress Scale (T1-DDS) Outcome is a Patient Reported Outcome which is a 28-item self-report instrument.
 
 Each item is rated on a 6-point scale from (1) “not a problem” to (6) “a very significant problem.”
@@ -1942,10 +1946,10 @@ The scale also yields a score for each of 7 subscales based on the average respo
 "@en)
 SubClassOf(<http://purl.org/doves/doves-ontology#Type_1_Diabetes_Distress_Scale_(T1-DDS)> <https://purl.org/doves/9caa2510-f3a6-4de8-adcb-c554e91aeba7>)
 
-# Class: <http://purl.org/doves/doves-ontology#mHealth_App_Usability_Questionnaire_(MAUQ)> (mHealth App Usability Questionnaire)
+# Class: <http://purl.org/doves/doves-ontology#mHealth_App_Usability_Questionnaire_(MAUQ)> (mHealth App Usability Questionnaire Outcome)
 
 AnnotationAssertion(obo:IAO_0000119 <http://purl.org/doves/doves-ontology#mHealth_App_Usability_Questionnaire_(MAUQ)> "https://pubmed.ncbi.nlm.nih.gov/30973342/")
-AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#mHealth_App_Usability_Questionnaire_(MAUQ)> "mHealth App Usability Questionnaire")
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#mHealth_App_Usability_Questionnaire_(MAUQ)> "mHealth App Usability Questionnaire Outcome"@en)
 AnnotationAssertion(Annotation(rdfs:seeAlso <https://ux.hari.pitt.edu/v2/portal/#/>) skos:definition <http://purl.org/doves/doves-ontology#mHealth_App_Usability_Questionnaire_(MAUQ)> "A Mobile Health (mHealth) App Usability Questionnaire (MAUQ) Outcome is a Human Factors and Usability Outcome that assesses the usability of mHealth apps created for patients and providers.
 "@en)
 SubClassOf(<http://purl.org/doves/doves-ontology#mHealth_App_Usability_Questionnaire_(MAUQ)> <https://purl.org/doves/be939100-e527-489d-ab9a-94aa852245f6>)
@@ -2031,9 +2035,9 @@ SubClassOf(<https://purl.org/doves/b10b1490-4dce-4970-bd31-5e59471fa6fb> <https:
 AnnotationAssertion(rdfs:label <https://purl.org/doves/b129abd1-3d08-42e9-b1b3-7ed9f235fe93> "Patient Role"@en)
 SubClassOf(<https://purl.org/doves/b129abd1-3d08-42e9-b1b3-7ed9f235fe93> <https://purl.org/doves/38552094-2ddf-4e81-b33d-080f5b904cd7>)
 
-# Class: <https://purl.org/doves/b2153ef6-a877-4374-be7f-8ff972c324be> (USCDI V1)
+# Class: <https://purl.org/doves/b2153ef6-a877-4374-be7f-8ff972c324be> (USCDI V1 Outcome)
 
-AnnotationAssertion(rdfs:label <https://purl.org/doves/b2153ef6-a877-4374-be7f-8ff972c324be> "USCDI V1"@en)
+AnnotationAssertion(rdfs:label <https://purl.org/doves/b2153ef6-a877-4374-be7f-8ff972c324be> "USCDI V1 Outcome"@en)
 AnnotationAssertion(Annotation(rdfs:seeAlso <https://www.healthit.gov/isa/sites/isa/files/2020-10/USCDI-Version-1-July-2020-Errata-Final_0.pdf>) skos:definition <https://purl.org/doves/b2153ef6-a877-4374-be7f-8ff972c324be> "A USCDI V1 Outcome is a USCDI Compliance Outcome that describes whether a digital medicine application adheres to USCDI V1,a standardized set of health data classes and constituent data elements for nationwide, interoperable health information exchange. 
 "@en)
 SubClassOf(<https://purl.org/doves/b2153ef6-a877-4374-be7f-8ff972c324be> <https://purl.org/doves/30d8c4b2-30d1-44bb-9903-f64acf72cbb0>)
@@ -2053,9 +2057,9 @@ SubClassOf(<https://purl.org/doves/b34f875c-61e8-4846-b5f4-8f9959ecc5b0> <https:
 AnnotationAssertion(rdfs:label <https://purl.org/doves/b483ae0e-a5bb-4d99-b155-5c1b33db8f83> "Pediatric Otolaryngology"@en)
 SubClassOf(<https://purl.org/doves/b483ae0e-a5bb-4d99-b155-5c1b33db8f83> <https://purl.org/doves/96a7fd52-c1f4-431d-872d-f4b420977a36>)
 
-# Class: <https://purl.org/doves/b4dfc8ef-6118-472c-a2f1-957eaa14dc1e> (Reduced 30 Day Emergency Department Revisit Rate)
+# Class: <https://purl.org/doves/b4dfc8ef-6118-472c-a2f1-957eaa14dc1e> (Reduced 30 Day Emergency Department Revisit Rate Outcome)
 
-AnnotationAssertion(rdfs:label <https://purl.org/doves/b4dfc8ef-6118-472c-a2f1-957eaa14dc1e> "Reduced 30 Day Emergency Department Revisit Rate"@en)
+AnnotationAssertion(rdfs:label <https://purl.org/doves/b4dfc8ef-6118-472c-a2f1-957eaa14dc1e> "Reduced 30 Day Emergency Department Revisit Rate Outcome"@en)
 AnnotationAssertion(skos:definition <https://purl.org/doves/b4dfc8ef-6118-472c-a2f1-957eaa14dc1e> "Reduced 30 Day Emergency Department Revisit Rate Outcome is a Reduced Emergency Department Utilization Outcome that describes a digital medicine application's influence on reducing the raw revisit rate of patients to the emergency department in a 30 day window, without any risk adjustment."@en)
 SubClassOf(<https://purl.org/doves/b4dfc8ef-6118-472c-a2f1-957eaa14dc1e> <https://purl.org/doves/cdec99b1-f3e5-4009-bdc5-49ea965dc503>)
 
@@ -2101,9 +2105,9 @@ EquivalentClasses(<https://purl.org/doves/bdce4b1c-c192-4384-b138-911ec298fd2f> 
 AnnotationAssertion(rdfs:label <https://purl.org/doves/bdd73cee-c6bb-434d-98ca-8beb1c6aa521> "Intra-Operative Processes"@en)
 SubClassOf(<https://purl.org/doves/bdd73cee-c6bb-434d-98ca-8beb1c6aa521> <https://purl.org/doves/a93a87f9-7853-4885-9856-28eb1fa52b3b>)
 
-# Class: <https://purl.org/doves/be939100-e527-489d-ab9a-94aa852245f6> (Human Factors and Usability)
+# Class: <https://purl.org/doves/be939100-e527-489d-ab9a-94aa852245f6> (Human Factors and Usability Outcome)
 
-AnnotationAssertion(rdfs:label <https://purl.org/doves/be939100-e527-489d-ab9a-94aa852245f6> "Human Factors and Usability"@en)
+AnnotationAssertion(rdfs:label <https://purl.org/doves/be939100-e527-489d-ab9a-94aa852245f6> "Human Factors and Usability Outcome"@en)
 AnnotationAssertion(Annotation(rdfs:seeAlso <https://www.fda.gov/medical-devices/human-factors-and-medical-devices/human-factors-considerations>) skos:definition <https://purl.org/doves/be939100-e527-489d-ab9a-94aa852245f6> "A Human Factors and Usability Outcome is a User Experience Outcome that describes how people interact with technology and how user interface design affects the interactions people have with technology. 
 "@en)
 SubClassOf(<https://purl.org/doves/be939100-e527-489d-ab9a-94aa852245f6> <https://purl.org/doves/0b7a7c80-8dcc-4597-b980-cd04efe70a78>)
@@ -2510,15 +2514,15 @@ AnnotationAssertion(rdfs:label <https://purl.org/doves/f70ac7b3-c718-4511-9f13-2
 AnnotationAssertion(skos:definition <https://purl.org/doves/f70ac7b3-c718-4511-9f13-2f4ab13050b8> "Engagement and Adherence Outcome is a Healthcare Outcome that pertains to the engagement of a user of a Digital Medicine Application and/or the impact that a Digital Medicine Application has on a patient's healthcare engagement or adherence to a healthcare action plan or medication."@en)
 SubClassOf(<https://purl.org/doves/f70ac7b3-c718-4511-9f13-2f4ab13050b8> <https://purl.org/doves/8081940e-b77f-4aa1-bfcf-0b979f0a2158>)
 
-# Class: <https://purl.org/doves/f740a23e-7565-4e5f-be22-7ba9e652fc45> (Decreased Cost per Quality Adjusted Life Years)
+# Class: <https://purl.org/doves/f740a23e-7565-4e5f-be22-7ba9e652fc45> (Decreased Cost per Quality Adjusted Life Years Outcome)
 
-AnnotationAssertion(rdfs:label <https://purl.org/doves/f740a23e-7565-4e5f-be22-7ba9e652fc45> "Decreased Cost per Quality Adjusted Life Years"@en)
+AnnotationAssertion(rdfs:label <https://purl.org/doves/f740a23e-7565-4e5f-be22-7ba9e652fc45> "Decreased Cost per Quality Adjusted Life Years Outcome"@en)
 AnnotationAssertion(skos:definition <https://purl.org/doves/f740a23e-7565-4e5f-be22-7ba9e652fc45> "Decreased Cost per Quality Adjusted Life Years Outcome is an Increased Cost Effectiveness Outcome that is a decrease in the ratio of dollars spent relative to the quality adjusted life years gained, often called cost/QALY."@en)
 SubClassOf(<https://purl.org/doves/f740a23e-7565-4e5f-be22-7ba9e652fc45> <https://purl.org/doves/fbee41fa-7ca0-44ad-85fa-7ab771b2b169>)
 
-# Class: <https://purl.org/doves/f7c5ecc6-56e3-4644-a133-e22d52d80686> (Reduced Hospital Allowed Costs)
+# Class: <https://purl.org/doves/f7c5ecc6-56e3-4644-a133-e22d52d80686> (Reduced Hospital Allowed Costs Outcome)
 
-AnnotationAssertion(rdfs:label <https://purl.org/doves/f7c5ecc6-56e3-4644-a133-e22d52d80686> "Reduced Hospital Allowed Costs"@en)
+AnnotationAssertion(rdfs:label <https://purl.org/doves/f7c5ecc6-56e3-4644-a133-e22d52d80686> "Reduced Hospital Allowed Costs Outcome"@en)
 AnnotationAssertion(skos:definition <https://purl.org/doves/f7c5ecc6-56e3-4644-a133-e22d52d80686> "Reduced Hospital Allowed Cost Outcome is a Reduced Cost Outcome that describes a digital medicine application's influence on the maximum amount a healthcare insurance plan will pay for a covered healthcare service."@en)
 SubClassOf(<https://purl.org/doves/f7c5ecc6-56e3-4644-a133-e22d52d80686> <https://purl.org/doves/7124f3ed-a489-431c-90ce-c2a5fe7d95bb>)
 
@@ -2553,9 +2557,9 @@ SubClassOf(<https://purl.org/doves/f972b78e-ca4f-4811-990b-89b9eb375c93> <https:
 AnnotationAssertion(rdfs:label <https://purl.org/doves/f999b34f-5269-4945-9673-88ab1b9c7906> "Maternal-Fetal Medicine"@en)
 SubClassOf(<https://purl.org/doves/f999b34f-5269-4945-9673-88ab1b9c7906> <https://purl.org/doves/e1b32055-f68c-4f72-a5bb-0122d5fe2023>)
 
-# Class: <https://purl.org/doves/fa9f1a07-dfaa-4d58-926b-ed0b754eb242> (Reduced 30 Day Risk Adjusted Emergency Department Revisit Rate)
+# Class: <https://purl.org/doves/fa9f1a07-dfaa-4d58-926b-ed0b754eb242> (Reduced 30 Day Risk Adjusted Emergency Department Revisit Rate Outcome)
 
-AnnotationAssertion(rdfs:label <https://purl.org/doves/fa9f1a07-dfaa-4d58-926b-ed0b754eb242> "Reduced 30 Day Risk Adjusted Emergency Department Revisit Rate"@en)
+AnnotationAssertion(rdfs:label <https://purl.org/doves/fa9f1a07-dfaa-4d58-926b-ed0b754eb242> "Reduced 30 Day Risk Adjusted Emergency Department Revisit Rate Outcome"@en)
 AnnotationAssertion(skos:definition <https://purl.org/doves/fa9f1a07-dfaa-4d58-926b-ed0b754eb242> "Reduced 30 Day Risk Adjusted Emergency Department Revisit Rate Outcome is a Reduced Emergency Department Utilization Outcome that is adjusted for some parameters of risk (e.g. sicker patients with more chronic conditions have a higher inherent rate of emergency department revisits) over a 30 day time period."@en)
 SubClassOf(<https://purl.org/doves/fa9f1a07-dfaa-4d58-926b-ed0b754eb242> <https://purl.org/doves/cdec99b1-f3e5-4009-bdc5-49ea965dc503>)
 
@@ -2565,9 +2569,9 @@ AnnotationAssertion(rdfs:label <https://purl.org/doves/fbee41fa-7ca0-44ad-85fa-7
 AnnotationAssertion(skos:definition <https://purl.org/doves/fbee41fa-7ca0-44ad-85fa-7ab771b2b169> "An Increased Cost Effectiveness Outcome is a Healthcare Economic Outcome that is an increase in the ratio of dollars spent relative to the quality adjusted life years gained, often called cost/QALY."@en)
 SubClassOf(<https://purl.org/doves/fbee41fa-7ca0-44ad-85fa-7ab771b2b169> <https://purl.org/doves/f4c71cb0-20ca-4838-bea8-c8aa68037a97>)
 
-# Class: <https://purl.org/doves/fd4beb3a-3aaa-4fb3-b223-3fc7b1b6106c> (Vision Impaired)
+# Class: <https://purl.org/doves/fd4beb3a-3aaa-4fb3-b223-3fc7b1b6106c> (Vision Impaired Outcome)
 
-AnnotationAssertion(rdfs:label <https://purl.org/doves/fd4beb3a-3aaa-4fb3-b223-3fc7b1b6106c> "Vision Impaired"@en)
+AnnotationAssertion(rdfs:label <https://purl.org/doves/fd4beb3a-3aaa-4fb3-b223-3fc7b1b6106c> "Vision Impaired Outcome"@en)
 AnnotationAssertion(Annotation(rdfs:seeAlso <https://www.who.int/news-room/fact-sheets/detail/blindness-and-visual-impairment>) skos:definition <https://purl.org/doves/fd4beb3a-3aaa-4fb3-b223-3fc7b1b6106c> "A Vision Impaired Outcome is a Universal Design Outcome related to whether a digital medicine application takes vision impairment into its design consideration. Visual impairment, according to the International Classification of Diseases 11 (2018), is classified into two groups: distance and near presenting vision impairment.
 
 Distance vision impairment:
@@ -2604,9 +2608,9 @@ AnnotationAssertion(rdfs:label <https://purl.org/doves/ff617266-46f1-4941-9053-8
 AnnotationAssertion(skos:definition <https://purl.org/doves/ff617266-46f1-4941-9053-81d4c3531170> "A Modified Diagnosis Outcome is a Health Benefit Outcome pertaining to a Digital Medicine Application's ability to modify the timeliness or accuracy of a diagnosis."@en)
 SubClassOf(<https://purl.org/doves/ff617266-46f1-4941-9053-81d4c3531170> <https://purl.org/doves/8e9f2330-e042-4723-a5f6-422f7565f1ee>)
 
-# Class: <https://purl.org/doves/ffa41d5f-ac78-4968-bac4-f1db43842960> (Speech Impaired)
+# Class: <https://purl.org/doves/ffa41d5f-ac78-4968-bac4-f1db43842960> (Speech Impaired Outcome)
 
-AnnotationAssertion(rdfs:label <https://purl.org/doves/ffa41d5f-ac78-4968-bac4-f1db43842960> "Speech Impaired"@en)
+AnnotationAssertion(rdfs:label <https://purl.org/doves/ffa41d5f-ac78-4968-bac4-f1db43842960> "Speech Impaired Outcome"@en)
 AnnotationAssertion(Annotation(rdfs:seeAlso <https://sites.ed.gov/idea/regs/b/a/300.8/c/11>) skos:definition <https://purl.org/doves/ffa41d5f-ac78-4968-bac4-f1db43842960> "A Speech Impaired Outcome is a Unviersal Design Outcome which describes whether a digital medicine application takes into account language impairment in its design. Language impairment relates to a communication disorder, such as stuttering, impaired articulation, a language impairment, or a voice impairment, that may adversely affect educational performance.
 "@en)
 SubClassOf(<https://purl.org/doves/ffa41d5f-ac78-4968-bac4-f1db43842960> <https://purl.org/doves/9bb2f32f-d1a2-4f62-8535-d517793b6dca>)
@@ -2663,9 +2667,9 @@ SubClassOf(<https://purl.org/doves/0bf8ad00-2abc-4360-a2f0-13d4ad3caf96> <https:
 AnnotationAssertion(rdfs:label <https://purl.org/doves/0d2f9a6c-76c9-4d13-8676-78d34b2be85d> "Intra-procedural Stage"@en)
 SubClassOf(<https://purl.org/doves/0d2f9a6c-76c9-4d13-8676-78d34b2be85d> <https://purl.org/doves/ccf65a8d-246e-43d7-b378-c840c50a5f36>)
 
-# Class: <https://purl.org/doves/0d47a235-ce6d-4eee-8fad-ba181ada2ae2> (Time reduction)
+# Class: <https://purl.org/doves/0d47a235-ce6d-4eee-8fad-ba181ada2ae2> (EHR Data Transfer Time Reduction Outcome)
 
-AnnotationAssertion(rdfs:label <https://purl.org/doves/0d47a235-ce6d-4eee-8fad-ba181ada2ae2> "Time reduction"@en)
+AnnotationAssertion(rdfs:label <https://purl.org/doves/0d47a235-ce6d-4eee-8fad-ba181ada2ae2> "EHR Data Transfer Time Reduction Outcome"@en)
 AnnotationAssertion(skos:definition <https://purl.org/doves/0d47a235-ce6d-4eee-8fad-ba181ada2ae2> "EHR Data Time Reduction Outcome is an EHR Data Transfer Outcome that describes the reduced amount of time that a digital medicine application facilitates in transferring EHR data."@en)
 SubClassOf(<https://purl.org/doves/0d47a235-ce6d-4eee-8fad-ba181ada2ae2> <https://purl.org/doves/b10b1490-4dce-4970-bd31-5e59471fa6fb>)
 
@@ -2697,9 +2701,9 @@ SubClassOf(<https://purl.org/doves/01452e51-c0e3-45b8-a954-7b0af8fdb609> <https:
 AnnotationAssertion(rdfs:label <https://purl.org/doves/028c0b85-9a85-4962-97c3-4a6af994781c> "Artificial Intelligence Technology"@en)
 SubClassOf(<https://purl.org/doves/028c0b85-9a85-4962-97c3-4a6af994781c> <https://purl.org/doves/894b0e16-237d-40f2-87f0-adaa02cab8c8>)
 
-# Class: <https://purl.org/doves/03d77b9b-3826-4fc8-ae93-d953da207de4> (USCDI V2)
+# Class: <https://purl.org/doves/03d77b9b-3826-4fc8-ae93-d953da207de4> (USCDI V2 Outcome)
 
-AnnotationAssertion(rdfs:label <https://purl.org/doves/03d77b9b-3826-4fc8-ae93-d953da207de4> "USCDI V2"@en)
+AnnotationAssertion(rdfs:label <https://purl.org/doves/03d77b9b-3826-4fc8-ae93-d953da207de4> "USCDI V2 Outcome"@en)
 AnnotationAssertion(Annotation(rdfs:seeAlso <https://www.healthit.gov/isa/united-states-core-data-interoperability-uscdi#uscdi-v2>) skos:definition <https://purl.org/doves/03d77b9b-3826-4fc8-ae93-d953da207de4> "A USCDI v2 Outcome is a USCDI Compliance Outcome that describes whether a digital medicine application adheres to USCDI V2, containing data classes and elements from USCDI v1 and new data classes and elements submitted through the ONDEC system. 
 "@en)
 SubClassOf(<https://purl.org/doves/03d77b9b-3826-4fc8-ae93-d953da207de4> <https://purl.org/doves/30d8c4b2-30d1-44bb-9903-f64acf72cbb0>)
@@ -2720,15 +2724,15 @@ SubClassOf(<https://purl.org/doves/0362170c-0c07-4857-adde-9ca253726780> <https:
 AnnotationAssertion(rdfs:label <https://purl.org/doves/04809007-0ef1-48f0-bffe-29b905e3315a> "Clinical Pathology"@en)
 SubClassOf(<https://purl.org/doves/04809007-0ef1-48f0-bffe-29b905e3315a> <https://purl.org/doves/1ff5e67f-968a-4bb0-b693-cde80e30f967>)
 
-# Class: <https://purl.org/doves/05a3280a-f553-4fd6-b624-90fa23a0e858> (Processes of Care Outcome)
+# Class: <https://purl.org/doves/05a3280a-f553-4fd6-b624-90fa23a0e858> (Process of Care Outcome)
 
-AnnotationAssertion(rdfs:label <https://purl.org/doves/05a3280a-f553-4fd6-b624-90fa23a0e858> "Processes of Care Outcome"@en)
+AnnotationAssertion(rdfs:label <https://purl.org/doves/05a3280a-f553-4fd6-b624-90fa23a0e858> "Process of Care Outcome"@en)
 AnnotationAssertion(Annotation(rdfs:seeAlso <https://data.cms.gov/provider-data/topics/home-health-services/process-care-outcome-care-quality-measures>) skos:definition <https://purl.org/doves/05a3280a-f553-4fd6-b624-90fa23a0e858> "A Process of Care Outcome is a Healthcare Outcome that describes a digital medicine application's ability to impact performance on processes of care. Processes of care are evidence-based actions or interventions performed during the delivery of patient care which reflect a healthcare facility or provider's ability to execute and comply with recommended best patient care practices. "@en)
 SubClassOf(<https://purl.org/doves/05a3280a-f553-4fd6-b624-90fa23a0e858> <https://purl.org/doves/8081940e-b77f-4aa1-bfcf-0b979f0a2158>)
 
-# Class: <https://purl.org/doves/06391804-feed-4d6e-aae0-801fd5975913> (Increased Operating Room Cases Per Day)
+# Class: <https://purl.org/doves/06391804-feed-4d6e-aae0-801fd5975913> (Increased Operating Room Cases Per Day Outcome)
 
-AnnotationAssertion(rdfs:label <https://purl.org/doves/06391804-feed-4d6e-aae0-801fd5975913> "Increased Operating Room Cases Per Day"@en)
+AnnotationAssertion(rdfs:label <https://purl.org/doves/06391804-feed-4d6e-aae0-801fd5975913> "Increased Operating Room Cases Per Day Outcome"@en)
 AnnotationAssertion(skos:definition <https://purl.org/doves/06391804-feed-4d6e-aae0-801fd5975913> "Increased Operating Room Cases Per Day Outcome is an Operating Room Throughput Outcome measured by the number of cases handled in the operating room per day."@en)
 SubClassOf(<https://purl.org/doves/06391804-feed-4d6e-aae0-801fd5975913> <https://purl.org/doves/537695d8-e427-4cf6-aadb-b42a73c8d677>)
 
@@ -2850,9 +2854,9 @@ SubClassOf(<https://purl.org/doves/14f7b565-fd23-485a-99ce-0e8019271ea7> <https:
 AnnotationAssertion(rdfs:label <https://purl.org/doves/1519b677-3a5f-451d-a2d2-0deb9b9c68b1> "Pediatric Endocrinology"@en)
 SubClassOf(<https://purl.org/doves/1519b677-3a5f-451d-a2d2-0deb9b9c68b1> <https://purl.org/doves/1d5f0f8a-b554-4a19-a598-29a058f9c696>)
 
-# Class: <https://purl.org/doves/1559869c-e8b1-4820-bf25-459b2e0fdb4f> (Decreased Operating Room Cancellations Per Day)
+# Class: <https://purl.org/doves/1559869c-e8b1-4820-bf25-459b2e0fdb4f> (Decreased Operating Room Cancellations Per Day Outcome)
 
-AnnotationAssertion(rdfs:label <https://purl.org/doves/1559869c-e8b1-4820-bf25-459b2e0fdb4f> "Decreased Operating Room Cancellations Per Day"@en)
+AnnotationAssertion(rdfs:label <https://purl.org/doves/1559869c-e8b1-4820-bf25-459b2e0fdb4f> "Decreased Operating Room Cancellations Per Day Outcome"@en)
 AnnotationAssertion(skos:definition <https://purl.org/doves/1559869c-e8b1-4820-bf25-459b2e0fdb4f> "Decreased Operating Room Cancellations Per Day Outcome is an Operating Room Outcome that describes a digital medicine application's influence on decreasing operating room cancellations on a per day basis."@en)
 SubClassOf(<https://purl.org/doves/1559869c-e8b1-4820-bf25-459b2e0fdb4f> <https://purl.org/doves/d0864caf-2471-462e-a5d9-a8bf52c7cbf5>)
 
@@ -2901,9 +2905,9 @@ SubClassOf(<https://purl.org/doves/2abbef4a-0dab-4cda-a13a-a0bfcd7d86bf> <https:
 AnnotationAssertion(rdfs:label <https://purl.org/doves/2b48f27b-1d96-4f40-ae4b-451c80c7feec> "Pediatric Emergency Medicine"@en)
 SubClassOf(<https://purl.org/doves/2b48f27b-1d96-4f40-ae4b-451c80c7feec> <https://purl.org/doves/8d7a95b0-92d1-4312-9894-93b00a1266a4>)
 
-# Class: <https://purl.org/doves/2c0612c4-50a7-4ca6-bbf5-47bbc9e262da> (Net Promoter Score)
+# Class: <https://purl.org/doves/2c0612c4-50a7-4ca6-bbf5-47bbc9e262da> (Net Promoter Score Outcome)
 
-AnnotationAssertion(rdfs:label <https://purl.org/doves/2c0612c4-50a7-4ca6-bbf5-47bbc9e262da> "Net Promoter Score"@en)
+AnnotationAssertion(rdfs:label <https://purl.org/doves/2c0612c4-50a7-4ca6-bbf5-47bbc9e262da> "Net Promoter Score Outcome"@en)
 AnnotationAssertion(Annotation(rdfs:seeAlso <https://www.netpromoter.com/know/>) skos:definition <https://purl.org/doves/2c0612c4-50a7-4ca6-bbf5-47bbc9e262da> "A Net Promoter Score® Outcome, or NPS®, is a Satisfaction Outcome which measures customer experience and predicts business growth. This proven metric now provides the core measurement for customer experience management programs.
 "@en)
 SubClassOf(<https://purl.org/doves/2c0612c4-50a7-4ca6-bbf5-47bbc9e262da> <https://purl.org/doves/4dcb77b8-51f4-4b3a-8a61-a4dd9e2c72ae>)
@@ -2933,9 +2937,9 @@ SubClassOf(<https://purl.org/doves/22b1e4bc-b8d7-43d2-abd3-04e12b5941a5> <https:
 AnnotationAssertion(rdfs:label <https://purl.org/doves/230a4352-dac0-4202-8830-221de15af14e> "Female Pelvic Medicine and Reconstructive Surgery"@en)
 SubClassOf(<https://purl.org/doves/230a4352-dac0-4202-8830-221de15af14e> <https://purl.org/doves/e1b32055-f68c-4f72-a5bb-0122d5fe2023>)
 
-# Class: <https://purl.org/doves/2313ac68-33dd-4861-af39-236e0e5d98d3> (System Availability)
+# Class: <https://purl.org/doves/2313ac68-33dd-4861-af39-236e0e5d98d3> (System Availability Outcome)
 
-AnnotationAssertion(rdfs:label <https://purl.org/doves/2313ac68-33dd-4861-af39-236e0e5d98d3> "System Availability"@en)
+AnnotationAssertion(rdfs:label <https://purl.org/doves/2313ac68-33dd-4861-af39-236e0e5d98d3> "System Availability Outcome"@en)
 AnnotationAssertion(Annotation(rdfs:seeAlso <https://www.getmaintainx.com/learning-center/system-availability>) skos:definition <https://purl.org/doves/2313ac68-33dd-4861-af39-236e0e5d98d3> "A System Availability Outcome is a Technical Outcome which is a maintenance metric used to measure the amount of time—as a percentage—that an asset can be used for production. It calculates the probability that a system won't experience downtime when workers need to use it.
 "@en)
 SubClassOf(<https://purl.org/doves/2313ac68-33dd-4861-af39-236e0e5d98d3> <https://purl.org/doves/6fdf5e33-7497-42d7-b016-72567185a0e3>)
@@ -3053,9 +3057,9 @@ SubClassOf(<https://purl.org/doves/4ac898a5-abf6-4bfa-bb64-8d57dddd0dce> <https:
 AnnotationAssertion(rdfs:label <https://purl.org/doves/4d6d76b2-faab-4560-bfef-63c1436f2f4e> "Sensor Technology"@en)
 SubClassOf(<https://purl.org/doves/4d6d76b2-faab-4560-bfef-63c1436f2f4e> <https://purl.org/doves/d12f4245-989e-4d9a-a72a-4fc8c9e5a254>)
 
-# Class: <https://purl.org/doves/4dcb77b8-51f4-4b3a-8a61-a4dd9e2c72ae> (Satisfaction)
+# Class: <https://purl.org/doves/4dcb77b8-51f4-4b3a-8a61-a4dd9e2c72ae> (Satisfaction Outcome)
 
-AnnotationAssertion(rdfs:label <https://purl.org/doves/4dcb77b8-51f4-4b3a-8a61-a4dd9e2c72ae> "Satisfaction"@en)
+AnnotationAssertion(rdfs:label <https://purl.org/doves/4dcb77b8-51f4-4b3a-8a61-a4dd9e2c72ae> "Satisfaction Outcome"@en)
 AnnotationAssertion(skos:definition <https://purl.org/doves/4dcb77b8-51f4-4b3a-8a61-a4dd9e2c72ae> "A Satisfaction Outcome is a User Experience Outcome that describes the degree to which a user's needs, expectations, and preferences are met by a digital medicine application, or more broadly by a product or service. It can be influenced by many factors, such as usability, functionality, design, performance, support, and value. User satisfaction can be measured by various methods, such as surveys, ratings, feedback, reviews, and testimonials. "@en)
 SubClassOf(<https://purl.org/doves/4dcb77b8-51f4-4b3a-8a61-a4dd9e2c72ae> <https://purl.org/doves/0b7a7c80-8dcc-4597-b980-cd04efe70a78>)
 
@@ -3129,9 +3133,9 @@ SubClassOf(<https://purl.org/doves/499b8963-8ab3-4708-bffb-ed0acdb84002> <http:/
 AnnotationAssertion(rdfs:label <https://purl.org/doves/5a97ef81-687f-415e-aa47-39657151dfa2> "Nuclear Medicine"@en)
 SubClassOf(<https://purl.org/doves/5a97ef81-687f-415e-aa47-39657151dfa2> <https://purl.org/doves/1d62d176-3b08-4743-819c-ba79585f3a38>)
 
-# Class: <https://purl.org/doves/5c3b46dd-5530-4e39-a5ca-0d21cb4d1749> (Uptime)
+# Class: <https://purl.org/doves/5c3b46dd-5530-4e39-a5ca-0d21cb4d1749> (Uptime Outcome)
 
-AnnotationAssertion(rdfs:label <https://purl.org/doves/5c3b46dd-5530-4e39-a5ca-0d21cb4d1749> "Uptime"@en)
+AnnotationAssertion(rdfs:label <https://purl.org/doves/5c3b46dd-5530-4e39-a5ca-0d21cb4d1749> "Uptime Outcome"@en)
 AnnotationAssertion(skos:definition <https://purl.org/doves/5c3b46dd-5530-4e39-a5ca-0d21cb4d1749> "Uptime Outcome is a System Availability Outcome that describes the amount of time or the percentage of time that a digital medicine application is operational and available for use."@en)
 SubClassOf(<https://purl.org/doves/5c3b46dd-5530-4e39-a5ca-0d21cb4d1749> <https://purl.org/doves/2313ac68-33dd-4861-af39-236e0e5d98d3>)
 
@@ -3168,9 +3172,9 @@ AnnotationAssertion(rdfs:label <https://purl.org/doves/5facd265-e889-49c1-a9bf-4
 AnnotationAssertion(skos:definition <https://purl.org/doves/5facd265-e889-49c1-a9bf-4c2f63794a52> "A Trainee Education Outcome is a Clinician Education Outcome that pertains to a clinical trainee (e.g. medical student, resident)."@en)
 SubClassOf(<https://purl.org/doves/5facd265-e889-49c1-a9bf-4c2f63794a52> <https://purl.org/doves/6063f39d-33f9-488b-b104-1f4145e9e4d8>)
 
-# Class: <https://purl.org/doves/50ad7f77-d002-4a47-b6ea-4863ea375eca> (Mid-Level Practitioner Education)
+# Class: <https://purl.org/doves/50ad7f77-d002-4a47-b6ea-4863ea375eca> (Mid-Level Practitioner Education Outcome)
 
-AnnotationAssertion(rdfs:label <https://purl.org/doves/50ad7f77-d002-4a47-b6ea-4863ea375eca> "Mid-Level Practitioner Education"@en)
+AnnotationAssertion(rdfs:label <https://purl.org/doves/50ad7f77-d002-4a47-b6ea-4863ea375eca> "Mid-Level Practitioner Education Outcome"@en)
 AnnotationAssertion(skos:definition <https://purl.org/doves/50ad7f77-d002-4a47-b6ea-4863ea375eca> "A Mid-Level Practitioner Education Outcome is a Clinician Education Outcome that pertains to a mid-level practitioner such as a Physician Assistant or a Nurse Practitioner."@en)
 SubClassOf(<https://purl.org/doves/50ad7f77-d002-4a47-b6ea-4863ea375eca> <https://purl.org/doves/6063f39d-33f9-488b-b104-1f4145e9e4d8>)
 
@@ -3195,9 +3199,9 @@ AnnotationAssertion(rdfs:label <https://purl.org/doves/537695d8-e427-4cf6-aadb-b
 AnnotationAssertion(skos:definition <https://purl.org/doves/537695d8-e427-4cf6-aadb-b42a73c8d677> "Operating Room Throughput Outcome is an Operating Room Outcome that describes a digital medicine application's influence on the throughput of an operating room, in the variety of ways in which it might be measured."@en)
 SubClassOf(<https://purl.org/doves/537695d8-e427-4cf6-aadb-b42a73c8d677> <https://purl.org/doves/5d419b76-6e84-464a-b671-f8c899f6cb81>)
 
-# Class: <https://purl.org/doves/56b9fc8a-386d-4c88-b7b3-6bc1708c65fc> (Dexterity Impaired)
+# Class: <https://purl.org/doves/56b9fc8a-386d-4c88-b7b3-6bc1708c65fc> (Dexterity Impaired Outcome)
 
-AnnotationAssertion(rdfs:label <https://purl.org/doves/56b9fc8a-386d-4c88-b7b3-6bc1708c65fc> "Dexterity Impaired"@en)
+AnnotationAssertion(rdfs:label <https://purl.org/doves/56b9fc8a-386d-4c88-b7b3-6bc1708c65fc> "Dexterity Impaired Outcome"@en)
 AnnotationAssertion(Annotation(rdfs:seeAlso <https://case.edu/studentlife/healthcounseling/sites/case.edu.healthcounseling/files/2019-05/LAD%20Mobility-Dexterity%20Impairment.pdf>) skos:definition <https://purl.org/doves/56b9fc8a-386d-4c88-b7b3-6bc1708c65fc> "A Dexterity Impaired Outcome is a Universale Design Outcome related to whether a digital medicine application takes dexterity impairment into account in its design. Dexterity impairment refers to any physical disability that limits the physical function of one or more limbs. Mobility/Dexterity impairments can impact the individuals strength, speed, endurance, and coordination.
 "@en)
 SubClassOf(<https://purl.org/doves/56b9fc8a-386d-4c88-b7b3-6bc1708c65fc> <https://purl.org/doves/9bb2f32f-d1a2-4f62-8535-d517793b6dca>)
@@ -3267,9 +3271,9 @@ AnnotationAssertion(rdfs:label <https://purl.org/doves/6fdf5e33-7497-42d7-b016-7
 AnnotationAssertion(skos:definition <https://purl.org/doves/6fdf5e33-7497-42d7-b016-72567185a0e3> "Technical Outcome is a Product Performance Non-Clinical Outcome that describes the performance of the product from a technical and engineering perspective rather than from a clinical perspective. This may include uptime, the rate of bugs, technical certification status, among others."@en)
 SubClassOf(<https://purl.org/doves/6fdf5e33-7497-42d7-b016-72567185a0e3> <https://purl.org/doves/707c8680-500a-46e6-9b54-5658cefc409f>)
 
-# Class: <https://purl.org/doves/604c0eff-ca87-4934-b96a-e19837c08e8f> (Reduced Episode Total Cost of Care)
+# Class: <https://purl.org/doves/604c0eff-ca87-4934-b96a-e19837c08e8f> (Reduced Episode Total Cost of Care Outcome)
 
-AnnotationAssertion(rdfs:label <https://purl.org/doves/604c0eff-ca87-4934-b96a-e19837c08e8f> "Reduced Episode Total Cost of Care"@en)
+AnnotationAssertion(rdfs:label <https://purl.org/doves/604c0eff-ca87-4934-b96a-e19837c08e8f> "Reduced Episode Total Cost of Care Outcome"@en)
 AnnotationAssertion(skos:definition <https://purl.org/doves/604c0eff-ca87-4934-b96a-e19837c08e8f> "Reduced Episode Total Cost of Care Outcome is a Reduced Cost Outcome that describes a digtial medicine application's ability to reduce the total cost of care, including all direct and indirect costs associated with an episode of care."@en)
 SubClassOf(<https://purl.org/doves/604c0eff-ca87-4934-b96a-e19837c08e8f> <https://purl.org/doves/7124f3ed-a489-431c-90ce-c2a5fe7d95bb>)
 
@@ -3340,9 +3344,9 @@ SubClassOf(<https://purl.org/doves/67142e0d-81bd-4b1c-84a6-9823c9a31f80> <https:
 AnnotationAssertion(rdfs:label <https://purl.org/doves/67600c95-166e-4d65-8c52-79982d7f6a98> "Interventional Radiology"@en)
 SubClassOf(<https://purl.org/doves/67600c95-166e-4d65-8c52-79982d7f6a98> <https://purl.org/doves/ec2cd378-2780-47d1-bcfb-a7c4a1ec60eb>)
 
-# Class: <https://purl.org/doves/68ea2f3e-8efc-4c00-8c78-772dffcf09de> (Reduced Hospital Readmission Rate)
+# Class: <https://purl.org/doves/68ea2f3e-8efc-4c00-8c78-772dffcf09de> (Reduced Hospital Readmission Rate Outcome)
 
-AnnotationAssertion(rdfs:label <https://purl.org/doves/68ea2f3e-8efc-4c00-8c78-772dffcf09de> "Reduced Hospital Readmission Rate"@en)
+AnnotationAssertion(rdfs:label <https://purl.org/doves/68ea2f3e-8efc-4c00-8c78-772dffcf09de> "Reduced Hospital Readmission Rate Outcome"@en)
 AnnotationAssertion(skos:definition <https://purl.org/doves/68ea2f3e-8efc-4c00-8c78-772dffcf09de> "Reduced Hospital Readmission Rate Outcome is a Healthcare Utilization Outcome that describes a digital medicine application's influence on reducing the rate (agnostic of time frame or risk adjustment) at which patients are readmitted to the hospital after a prior discharge."@en)
 SubClassOf(<https://purl.org/doves/68ea2f3e-8efc-4c00-8c78-772dffcf09de> <https://purl.org/doves/089409f3-106f-4742-a91a-df135a4b4102>)
 
@@ -3357,9 +3361,9 @@ AnnotationAssertion(rdfs:label <https://purl.org/doves/688d9ea3-75b2-4b97-ac0b-0
 AnnotationAssertion(skos:definition <https://purl.org/doves/688d9ea3-75b2-4b97-ac0b-05414d6acc97> "A Modified Quality Adjusted Life Year Outcome is a Health Benefit Outcome that describes the number of quality adjusted life years impacted, in whole or in part, by a Digital Medicine Application."@en)
 SubClassOf(<https://purl.org/doves/688d9ea3-75b2-4b97-ac0b-05414d6acc97> <https://purl.org/doves/8e9f2330-e042-4723-a5f6-422f7565f1ee>)
 
-# Class: <https://purl.org/doves/7a09f42e-d2c9-4fd5-b1ff-af3f82219976> (Star Ranking)
+# Class: <https://purl.org/doves/7a09f42e-d2c9-4fd5-b1ff-af3f82219976> (Star Ranking Outcome)
 
-AnnotationAssertion(rdfs:label <https://purl.org/doves/7a09f42e-d2c9-4fd5-b1ff-af3f82219976> "Star Ranking"@en)
+AnnotationAssertion(rdfs:label <https://purl.org/doves/7a09f42e-d2c9-4fd5-b1ff-af3f82219976> "Star Ranking Outcome"@en)
 AnnotationAssertion(skos:definition <https://purl.org/doves/7a09f42e-d2c9-4fd5-b1ff-af3f82219976> "A Star Ranking Outcome is a Satisfaction Outcome that describes a user's perception of the ranking of a digital medicine application, or more broadly of a product or service. A common rating scale uses a star glyph or typographical symbol, for example, with one star (lowest ranking) to 5 starts (highest ranking)"@en)
 SubClassOf(<https://purl.org/doves/7a09f42e-d2c9-4fd5-b1ff-af3f82219976> <https://purl.org/doves/4dcb77b8-51f4-4b3a-8a61-a4dd9e2c72ae>)
 
@@ -3433,9 +3437,9 @@ AnnotationAssertion(rdfs:label <https://purl.org/doves/7124f3ed-a489-431c-90ce-c
 AnnotationAssertion(Annotation(rdfs:seeAlso <https://www.nature.com/articles/s41746-022-00743-1>) skos:definition <https://purl.org/doves/7124f3ed-a489-431c-90ce-c2a5fe7d95bb> "A Reduced Cost Outcome is a Healthcare Ecoomic Outcome that is a reflection of reduced absolute costs, specified around an episode of care, a timeframe, and/or over a population. "@en)
 SubClassOf(<https://purl.org/doves/7124f3ed-a489-431c-90ce-c2a5fe7d95bb> <https://purl.org/doves/f4c71cb0-20ca-4838-bea8-c8aa68037a97>)
 
-# Class: <https://purl.org/doves/72005c22-448a-43d2-a4c9-5fa834d125ff> (Transcription error reduction)
+# Class: <https://purl.org/doves/72005c22-448a-43d2-a4c9-5fa834d125ff> (Transcription Error Reduction Outcome)
 
-AnnotationAssertion(rdfs:label <https://purl.org/doves/72005c22-448a-43d2-a4c9-5fa834d125ff> "Transcription error reduction"@en)
+AnnotationAssertion(rdfs:label <https://purl.org/doves/72005c22-448a-43d2-a4c9-5fa834d125ff> "Transcription Error Reduction Outcome"@en)
 AnnotationAssertion(skos:definition <https://purl.org/doves/72005c22-448a-43d2-a4c9-5fa834d125ff> "A Transcription Error Reduction Outcome is an EHR Data Transfer Outcome that describes a digital medicine application's capacity to reduce transrciption errors relative to a comparison technology."@en)
 SubClassOf(<https://purl.org/doves/72005c22-448a-43d2-a4c9-5fa834d125ff> <https://purl.org/doves/b10b1490-4dce-4970-bd31-5e59471fa6fb>)
 
@@ -3460,9 +3464,9 @@ AnnotationAssertion(rdfs:label <https://purl.org/doves/77117758-cad7-4295-83e8-c
 AnnotationAssertion(skos:definition <https://purl.org/doves/77117758-cad7-4295-83e8-ce5df05237e2> "Educational Materials Accessed Outcome is a Patient/Family Education Outcome that reflects educational materials accessed by patients and/or family members about a clinical condition, medication, care plan, procedure preparation, follow up, or other care plan."@en)
 SubClassOf(<https://purl.org/doves/77117758-cad7-4295-83e8-ce5df05237e2> <https://purl.org/doves/0323ba81-5b6f-417d-9829-263c5403582f>)
 
-# Class: <https://purl.org/doves/77781100-d4c7-44b5-8c07-6588bb65e3fb> (Annual Rolling Uptime)
+# Class: <https://purl.org/doves/77781100-d4c7-44b5-8c07-6588bb65e3fb> (Annual Rolling Uptime Outcome)
 
-AnnotationAssertion(rdfs:label <https://purl.org/doves/77781100-d4c7-44b5-8c07-6588bb65e3fb> "Annual Rolling Uptime"@en)
+AnnotationAssertion(rdfs:label <https://purl.org/doves/77781100-d4c7-44b5-8c07-6588bb65e3fb> "Annual Rolling Uptime Outcome"@en)
 AnnotationAssertion(skos:definition <https://purl.org/doves/77781100-d4c7-44b5-8c07-6588bb65e3fb> "Annual Rolling Uptime Outcome is an Uptime Outcome describing the amount or percent of uptime as measured on a rolling annual basis."@en)
 SubClassOf(<https://purl.org/doves/77781100-d4c7-44b5-8c07-6588bb65e3fb> <https://purl.org/doves/5c3b46dd-5530-4e39-a5ca-0d21cb4d1749>)
 
@@ -3495,9 +3499,9 @@ SubClassOf(<https://purl.org/doves/8a18d7c1-1c39-49a3-a267-1d9cd9ce0246> <https:
 AnnotationAssertion(rdfs:label <https://purl.org/doves/8a24ee11-58a6-408e-8a8b-ec1c4d5882bf> "General Ophthalmology"@en)
 SubClassOf(<https://purl.org/doves/8a24ee11-58a6-408e-8a8b-ec1c4d5882bf> <https://purl.org/doves/d8021be1-d620-42b7-8de2-5fd880e31973>)
 
-# Class: <https://purl.org/doves/8a5d41a7-0ee9-4e6c-860a-68f5eee22867> (Digital Literacy)
+# Class: <https://purl.org/doves/8a5d41a7-0ee9-4e6c-860a-68f5eee22867> (Digital Literacy Outcome)
 
-AnnotationAssertion(rdfs:label <https://purl.org/doves/8a5d41a7-0ee9-4e6c-860a-68f5eee22867> "Digital Literacy"@en)
+AnnotationAssertion(rdfs:label <https://purl.org/doves/8a5d41a7-0ee9-4e6c-860a-68f5eee22867> "Digital Literacy Outcome"@en)
 AnnotationAssertion(Annotation(rdfs:seeAlso <https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8861384/https://w>) skos:definition <https://purl.org/doves/8a5d41a7-0ee9-4e6c-860a-68f5eee22867> "A Digital Literacy Outcome is a Universal Design Outcome that describes a person's ability to use information and communication technologies to find, evaluate, create, and communicate information, requiring both cognitive and technical skills.
 "@en)
 SubClassOf(<https://purl.org/doves/8a5d41a7-0ee9-4e6c-860a-68f5eee22867> <https://purl.org/doves/9bb2f32f-d1a2-4f62-8535-d517793b6dca>)
@@ -3590,9 +3594,9 @@ AnnotationAssertion(rdfs:label <https://purl.org/doves/85c6bea1-aa65-4fe6-9b91-8
 AnnotationAssertion(skos:definition <https://purl.org/doves/85c6bea1-aa65-4fe6-9b91-86f7f2d5623f> "Triage Outcome is a Healthcare Utilization Outcome that describes a digital medicine application's influence on patient triage. This could be, for example, a digital medicine applicaiton which interprets patient symptoms are recommends care at home, care by a primary care physician, or care in the emergency department. It could also be for an application that guides an emergency department healthcare provider as to the safest triage location for a patient being assessed in the emergency department."@en)
 SubClassOf(<https://purl.org/doves/85c6bea1-aa65-4fe6-9b91-86f7f2d5623f> <https://purl.org/doves/089409f3-106f-4742-a91a-df135a4b4102>)
 
-# Class: <https://purl.org/doves/85406ebf-9cfc-42b3-8e57-1eda3cf81380> (USCDI V3)
+# Class: <https://purl.org/doves/85406ebf-9cfc-42b3-8e57-1eda3cf81380> (USCDI V3 Outcome)
 
-AnnotationAssertion(rdfs:label <https://purl.org/doves/85406ebf-9cfc-42b3-8e57-1eda3cf81380> "USCDI V3"@en)
+AnnotationAssertion(rdfs:label <https://purl.org/doves/85406ebf-9cfc-42b3-8e57-1eda3cf81380> "USCDI V3 Outcome"@en)
 AnnotationAssertion(Annotation(rdfs:seeAlso <https://www.healthit.gov/isa/united-states-core-data-interoperability-uscdi#uscdi-v3>) skos:definition <https://purl.org/doves/85406ebf-9cfc-42b3-8e57-1eda3cf81380> "A USCDI v3 Outcome is a USCDI Compliance Outcome that describes whether a digital medicine application adheres to USCDI V3, which contains data classes and elements from USCDI v2 and new data classes and elements submitted through the ONDEC system.
 "@en)
 SubClassOf(<https://purl.org/doves/85406ebf-9cfc-42b3-8e57-1eda3cf81380> <https://purl.org/doves/30d8c4b2-30d1-44bb-9903-f64acf72cbb0>)
@@ -3638,9 +3642,9 @@ AnnotationAssertion(rdfs:label <https://purl.org/doves/9b96ae39-bfb2-4e21-8a37-9
 SubClassOf(<https://purl.org/doves/9b96ae39-bfb2-4e21-8a37-9e984929a151> <https://purl.org/doves/ca36addf-e79a-40f6-b2c2-5cb5b46d6dab>)
 SubClassOf(<https://purl.org/doves/9b96ae39-bfb2-4e21-8a37-9e984929a151> <https://purl.org/doves/59207e75-22cc-45c2-82f4-9c3f2b30d00e>)
 
-# Class: <https://purl.org/doves/9bb2f32f-d1a2-4f62-8535-d517793b6dca> (Universal Design)
+# Class: <https://purl.org/doves/9bb2f32f-d1a2-4f62-8535-d517793b6dca> (Universal Design Outcome)
 
-AnnotationAssertion(rdfs:label <https://purl.org/doves/9bb2f32f-d1a2-4f62-8535-d517793b6dca> "Universal Design"@en)
+AnnotationAssertion(rdfs:label <https://purl.org/doves/9bb2f32f-d1a2-4f62-8535-d517793b6dca> "Universal Design Outcome"@en)
 AnnotationAssertion(Annotation(rdfs:seeAlso <https://universaldesign.ie/what-is-universal-design/>) skos:definition <https://purl.org/doves/9bb2f32f-d1a2-4f62-8535-d517793b6dca> "A Universal Design Outcome is a Human Factors and Usability Outcome that describes the design and composition of an environment so that it can be accessed, understood and used to the greatest extent possible by all people regardless of their age, size, ability or disability. 
 "@en)
 SubClassOf(<https://purl.org/doves/9bb2f32f-d1a2-4f62-8535-d517793b6dca> <https://purl.org/doves/be939100-e527-489d-ab9a-94aa852245f6>)
@@ -3707,9 +3711,9 @@ AnnotationAssertion(rdfs:label <https://purl.org/doves/94f4763c-ef68-4267-8b54-7
 AnnotationAssertion(skos:definition <https://purl.org/doves/94f4763c-ef68-4267-8b54-7f2e2a9b4b9e> "Issue Resolution Time Outcome is an Issue Resolution Outcome that describes the amount of time that has elapsed between when an issue is filed, and when the issue is considered resolved."@en)
 SubClassOf(<https://purl.org/doves/94f4763c-ef68-4267-8b54-7f2e2a9b4b9e> <https://purl.org/doves/c420321e-c648-4ee8-bf15-9df9800e8bde>)
 
-# Class: <https://purl.org/doves/9479abfd-b4df-4005-9a53-66eeef5dfc10> (Reduced Hospital Total Costs)
+# Class: <https://purl.org/doves/9479abfd-b4df-4005-9a53-66eeef5dfc10> (Reduced Hospital Total Costs Outcome)
 
-AnnotationAssertion(rdfs:label <https://purl.org/doves/9479abfd-b4df-4005-9a53-66eeef5dfc10> "Reduced Hospital Total Costs"@en)
+AnnotationAssertion(rdfs:label <https://purl.org/doves/9479abfd-b4df-4005-9a53-66eeef5dfc10> "Reduced Hospital Total Costs Outcome"@en)
 AnnotationAssertion(skos:definition <https://purl.org/doves/9479abfd-b4df-4005-9a53-66eeef5dfc10> "Reduced Hospital Total Costs Outcome is a Reduced Cost Outcome that describes a digital medicine application's ability to reduce the total cost of care, including all direct and indirect costs associated with an period of coverage."@en)
 SubClassOf(<https://purl.org/doves/9479abfd-b4df-4005-9a53-66eeef5dfc10> <https://purl.org/doves/7124f3ed-a489-431c-90ce-c2a5fe7d95bb>)
 
@@ -3729,9 +3733,9 @@ SubClassOf(<https://purl.org/doves/96a7fd52-c1f4-431d-872d-f4b420977a36> <https:
 AnnotationAssertion(rdfs:label <https://purl.org/doves/967da42d-4ea7-43a6-9ac1-39ec98083995> "Male person"@en)
 EquivalentClasses(<https://purl.org/doves/967da42d-4ea7-43a6-9ac1-39ec98083995> ObjectIntersectionOf(<https://purl.org/doves/01d40506-2d2f-4237-a87b-229e268c2f14> ObjectSomeValuesFrom(<https://purl.org/doves/4b61e411-782f-4ccd-9f96-ba45caef73b6> <https://purl.org/doves/3e2dd533-3e2d-4d1a-a752-570ccebe9fa1>)))
 
-# Class: <https://purl.org/doves/98dc125c-ede7-40df-957c-abbf44527ba0> (Flesch-Kincaid Reading Level)
+# Class: <https://purl.org/doves/98dc125c-ede7-40df-957c-abbf44527ba0> (Flesch-Kincaid Reading Level Outcome)
 
-AnnotationAssertion(rdfs:label <https://purl.org/doves/98dc125c-ede7-40df-957c-abbf44527ba0> "Flesch-Kincaid Reading Level"@en)
+AnnotationAssertion(rdfs:label <https://purl.org/doves/98dc125c-ede7-40df-957c-abbf44527ba0> "Flesch-Kincaid Reading Level Outcome"@en)
 AnnotationAssertion(Annotation(rdfs:seeAlso <https://secure.ssa.gov/poms.nsf/lnx/0910605105>) skos:definition <https://purl.org/doves/98dc125c-ede7-40df-957c-abbf44527ba0> "A Flesch-Kincaid Reading Level Outcome is a Digital Literacy Outcome that describes written text based on a U.S. grade school educational level. The formula uses the average number of words per sentence and the average number of syllables per word to generate a result. A grade level score of 8.0 means that an eighth grader can understand the text.
 "@en)
 SubClassOf(<https://purl.org/doves/98dc125c-ede7-40df-957c-abbf44527ba0> <https://purl.org/doves/8a5d41a7-0ee9-4e6c-860a-68f5eee22867>)
