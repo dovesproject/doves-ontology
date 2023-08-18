@@ -1822,7 +1822,6 @@ SubClassOf(<http://purl.org/doves/doves-ontology#Hospital_COnsumer_Assessment_of
 
 # Class: <http://purl.org/doves/doves-ontology#Irritable_Bowel_Syndrome_-_Severity_Scoring_System_(IBS-SSS)> (Irritable Bowel Syndrome - Severity Scoring System (IBS-SSS))
 
-AnnotationAssertion(obo:IAO_0000115 <http://purl.org/doves/doves-ontology#Irritable_Bowel_Syndrome_-_Severity_Scoring_System_(IBS-SSS)> "IBS‐SSS is a Patient Reported Outcome that is a five‐item questionnaire measuring frequency and intensity of abdominal pain, the severity of abdominal distension, dissatisfaction with bowel habits, and the interference of IBS with daily life, scoring from 0 to 500.")
 AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Irritable_Bowel_Syndrome_-_Severity_Scoring_System_(IBS-SSS)> "Irritable Bowel Syndrome - Severity Scoring System (IBS-SSS)")
 AnnotationAssertion(Annotation(rdfs:seeAlso <https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5192275>) skos:definition <http://purl.org/doves/doves-ontology#Irritable_Bowel_Syndrome_-_Severity_Scoring_System_(IBS-SSS)> "A Irritable Bowel Syndrome - Severity Scoring System (IBS-SSS) Outcome is a Patient Reported Outcome that is a composite score of abdominal pain, number of days with abdominal pain, bloating/distension, satisfaction with bowel habits, and IBS-related quality of life (QoL). Each measure is rated from 0 to 100, with total scores ranging from 0 to 500.
 "@en)
