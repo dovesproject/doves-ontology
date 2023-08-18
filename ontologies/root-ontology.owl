@@ -141,7 +141,6 @@ Declaration(Class(<http://purl.org/doves/doves-ontology#Insomnia_Sign_Control_Ou
 Declaration(Class(<http://purl.org/doves/doves-ontology#Insomnia_Symptom_Control_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Intesive_Care_Unit>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Irritable_Bowel_Syndrome_Symptom_Control_Outcome>))
-Declaration(Class(<http://purl.org/doves/doves-ontology#Joint_Pain_Scale_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Lifestyle_Adherence_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Machine_Learning_Technology>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Middle-Age_Age_Group>))
@@ -1294,11 +1293,6 @@ SubClassOf(<http://purl.org/doves/doves-ontology#Intesive_Care_Unit> <http://pur
 
 AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Irritable_Bowel_Syndrome_Symptom_Control_Outcome> "Irritable Bowel Syndrome Symptom Control Outcome")
 SubClassOf(<http://purl.org/doves/doves-ontology#Irritable_Bowel_Syndrome_Symptom_Control_Outcome> <http://purl.org/doves/doves-ontology#Symptom_Control_Outcome>)
-
-# Class: <http://purl.org/doves/doves-ontology#Joint_Pain_Scale_Outcome> (Joint Pain Scale Outcome)
-
-AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Joint_Pain_Scale_Outcome> "Joint Pain Scale Outcome")
-SubClassOf(<http://purl.org/doves/doves-ontology#Joint_Pain_Scale_Outcome> <https://purl.org/doves/9caa2510-f3a6-4de8-adcb-c554e91aeba7>)
 
 # Class: <http://purl.org/doves/doves-ontology#Lifestyle_Adherence_Outcome> (Lifestyle Adherence Outcome)
 
