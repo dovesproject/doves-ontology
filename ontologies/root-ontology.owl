@@ -797,6 +797,7 @@ SubClassOf(<http://purl.org/doves/doves-ontology#Acute_Rehabilitation_Facility> 
 
 # Class: <http://purl.org/doves/doves-ontology#Alcohol_Use_Outcome> (Alcohol Use Outcome)
 
+AnnotationAssertion(obo:IAO_0000115 <http://purl.org/doves/doves-ontology#Alcohol_Use_Outcome> "Alcohol Use Outcome is a Lifestyle Adherence Outcome that describes the influence a digital medicine applicaiton has on an individual's use of or trakcing of use of alcohol consumption.")
 AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Alcohol_Use_Outcome> "Alcohol Use Outcome")
 SubClassOf(<http://purl.org/doves/doves-ontology#Alcohol_Use_Outcome> <http://purl.org/doves/doves-ontology#Lifestyle_Adherence_Outcome>)
 
@@ -982,6 +983,7 @@ SubClassOf(<http://purl.org/doves/doves-ontology#Diabetic_Retinopathy_Exam_Outco
 
 # Class: <http://purl.org/doves/doves-ontology#Dietary_Adherence_Outcome> (Dietary Adherence Outcome)
 
+AnnotationAssertion(obo:IAO_0000115 <http://purl.org/doves/doves-ontology#Dietary_Adherence_Outcome> "Dietary Adherence Outcome is a Lifestyle Adherence Outcome that describes the influence of a digital medicine application on an individual's adherence to dietary recommendations (e.g. adherence to a diabetic diet).")
 AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Dietary_Adherence_Outcome> "Dietary Adherence Outcome")
 SubClassOf(<http://purl.org/doves/doves-ontology#Dietary_Adherence_Outcome> <http://purl.org/doves/doves-ontology#Lifestyle_Adherence_Outcome>)
 
@@ -1082,6 +1084,7 @@ SubClassOf(<http://purl.org/doves/doves-ontology#Ethnicity> <https://purl.org/do
 
 # Class: <http://purl.org/doves/doves-ontology#Exercise_Adherence_outcome> (Exercise Adherence Outcome)
 
+AnnotationAssertion(obo:IAO_0000115 <http://purl.org/doves/doves-ontology#Exercise_Adherence_outcome> "Exercise Adherence Outcome is a Lifestyle Adherence Outcome that describes a digital medicine application's influence on an individual adhering to a recommended diet (e.g. diabetic diet).")
 AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Exercise_Adherence_outcome> "Exercise Adherence Outcome")
 SubClassOf(<http://purl.org/doves/doves-ontology#Exercise_Adherence_outcome> <http://purl.org/doves/doves-ontology#Lifestyle_Adherence_Outcome>)
 
@@ -1185,9 +1188,10 @@ AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Healthcare_
 AnnotationAssertion(skos:definition <http://purl.org/doves/doves-ontology#Healthcare_System_Navigation_Outcome> "Healthcare System Navigation Outcome is a Family and Caregiver Outcome that describes a digital medicine application's influence on assisting family or caregivers navigate (physically, administratively, financially, etc.) the complexity of the healthcare system."@en)
 SubClassOf(<http://purl.org/doves/doves-ontology#Healthcare_System_Navigation_Outcome> <http://purl.org/doves/doves-ontology#Family_and_Caregiver_Outcome>)
 
-# Class: <http://purl.org/doves/doves-ontology#Healthy_Eating_Index_Score_Outcome> (<http://purl.org/doves/doves-ontology#Healthy_Eating_Index_Score_Outcome>)
+# Class: <http://purl.org/doves/doves-ontology#Healthy_Eating_Index_Score_Outcome> (Healthy Eating Index Score Outcome)
 
-AnnotationAssertion(skos:definition <http://purl.org/doves/doves-ontology#Healthy_Eating_Index_Score_Outcome> "The Healthy Eating Index (HEI) is a measure of diet quality used to assess how well a set of foods aligns with key recommendations of the Dietary Guidelines for Americans. The Dietary Guidelines for Americans is designed for nutrition and health professionals to help individuals and families to consume a healthful and nutritionally adequate diet. The HEI uses a scoring system to evaluate a set of foods. The scores range from 0 to 100. An ideal overall HEI score of 100 reflects that the set of foods aligns with key dietary recommendations from the Dietary Guidelines for Americans. https://www.fns.usda.gov/healthy-eating-index-hei"@en)
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Healthy_Eating_Index_Score_Outcome> "Healthy Eating Index Score Outcome")
+AnnotationAssertion(skos:definition <http://purl.org/doves/doves-ontology#Healthy_Eating_Index_Score_Outcome> "The Healthy Eating Index (HEI) Outcome is a Dietary Adherence Outcome that is a measure of diet quality used to assess how well a set of foods aligns with key recommendations of the Dietary Guidelines for Americans. The Dietary Guidelines for Americans is designed for nutrition and health professionals to help individuals and families to consume a healthful and nutritionally adequate diet. The HEI uses a scoring system to evaluate a set of foods. The scores range from 0 to 100. An ideal overall HEI score of 100 reflects that the set of foods aligns with key dietary recommendations from the Dietary Guidelines for Americans. https://www.fns.usda.gov/healthy-eating-index-hei"@en)
 SubClassOf(<http://purl.org/doves/doves-ontology#Healthy_Eating_Index_Score_Outcome> <http://purl.org/doves/doves-ontology#Dietary_Adherence_Outcome>)
 
 # Class: <http://purl.org/doves/doves-ontology#Hispanic_or_Latino> (Hispanic or Latino)
@@ -1622,6 +1626,7 @@ SubClassOf(<http://purl.org/doves/doves-ontology#Sleep_Disorder_Symptom_Scale> <
 
 # Class: <http://purl.org/doves/doves-ontology#Smoking_Cessation_Adherence_Outcome> (Smoking Cessation Adherence Outcome)
 
+AnnotationAssertion(obo:IAO_0000115 <http://purl.org/doves/doves-ontology#Smoking_Cessation_Adherence_Outcome> "Smoking Cessation Adherence Outcome is a Lifestyle Adherence Outcome that describes the influence of a digital medicine application on an individual's adherence to smoking cessation.")
 AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Smoking_Cessation_Adherence_Outcome> "Smoking Cessation Adherence Outcome")
 SubClassOf(<http://purl.org/doves/doves-ontology#Smoking_Cessation_Adherence_Outcome> <http://purl.org/doves/doves-ontology#Lifestyle_Adherence_Outcome>)
 
