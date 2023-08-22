@@ -636,7 +636,7 @@ SubClassOf(<http://purl.org/doves/a43ca2f5_8117_40d7_8487_72f616a86366> <https:/
 # Class: <http://purl.org/doves/a61dbcd2_0d2c_4269_a9dd_c34cb9fd5965> (Adolescent Age Group)
 
 AnnotationAssertion(rdfs:label <http://purl.org/doves/a61dbcd2_0d2c_4269_a9dd_c34cb9fd5965> "Adolescent Age Group"@en)
-AnnotationAssertion(skos:definition <http://purl.org/doves/a61dbcd2_0d2c_4269_a9dd_c34cb9fd5965> "Adolescent Age Group is defined according to the NIH as individuals 13-17 years olf. Accoridng to the NIH, they may also be referred to as teenagers depending on the context. https://www.nih.gov/nih-style-guide/age")
+AnnotationAssertion(skos:definition <http://purl.org/doves/a61dbcd2_0d2c_4269_a9dd_c34cb9fd5965> "Adolescent Age Group is an Age Group defined according to the NIH as individuals 13-17 years olf. Accoridng to the NIH, they may also be referred to as teenagers depending on the context. https://www.nih.gov/nih-style-guide/age")
 SubClassOf(<http://purl.org/doves/a61dbcd2_0d2c_4269_a9dd_c34cb9fd5965> <https://purl.org/doves/d7fdedbd-6d0d-4d67-bd98-03f4c80c944b>)
 
 # Class: <http://purl.org/doves/ad3e8f0e_7216_4aeb_a35a_1c9802d501c2> (Reduction in Hypoglycemic Events Outcome)
@@ -678,13 +678,19 @@ SubClassOf(<http://purl.org/doves/ca912fb6_a4a7_487e_9646_f0844650b77f> <http://
 
 # Class: <http://purl.org/doves/efe61c04_f9aa_484c_846c_d7ee7cb02f58> (Gender)
 
+AnnotationAssertion(obo:IAO_0000115 <http://purl.org/doves/efe61c04_f9aa_484c_846c_d7ee7cb02f58> "Gender is a Refining Value that refers to the characteristics of women, men, girls and boys that are socially constructed.  This includes norms, behaviours and roles associated with being a woman, man, girl or boy, as well as relationships with each other. As a social construct, gender varies from society to society and can change over time.
+
+Gender is hierarchical and produces inequalities that intersect with other social and economic inequalities. 
+
+Gender interacts with but is different from sex, which refers to the different biological and physiological characteristics of females, males and intersex persons, such as chromosomes, hormones and reproductive organs. Gender and sex are related to but different from gender identity. Gender identity refers to a person’s deeply felt, internal and individual experience of gender, which may or may not correspond to the person’s physiology or designated sex at birth.
+Source: https://www.who.int/health-topics/gender#tab=tab_1")
 AnnotationAssertion(rdfs:label <http://purl.org/doves/efe61c04_f9aa_484c_846c_d7ee7cb02f58> "Gender"@en)
 SubClassOf(<http://purl.org/doves/efe61c04_f9aa_484c_846c_d7ee7cb02f58> <https://purl.org/doves/78ceb509-e44b-4d8c-bd47-b457f9d835cb>)
 
 # Class: <http://purl.org/doves/0b28937e_45cc_4f6f_b7d5_2d9ae70f61a0> (Adult Age Group)
 
 AnnotationAssertion(rdfs:label <http://purl.org/doves/0b28937e_45cc_4f6f_b7d5_2d9ae70f61a0> "Adult Age Group"@en)
-AnnotationAssertion(skos:definition <http://purl.org/doves/0b28937e_45cc_4f6f_b7d5_2d9ae70f61a0> "Adult Age Group is defined by the NIH as those individuals 18 years old or older. https://www.nih.gov/nih-style-guide/age")
+AnnotationAssertion(skos:definition <http://purl.org/doves/0b28937e_45cc_4f6f_b7d5_2d9ae70f61a0> "Adult Age Group is an Age Group defined by the NIH as those individuals 18 years old or older. https://www.nih.gov/nih-style-guide/age")
 SubClassOf(<http://purl.org/doves/0b28937e_45cc_4f6f_b7d5_2d9ae70f61a0> <https://purl.org/doves/d7fdedbd-6d0d-4d67-bd98-03f4c80c944b>)
 
 # Class: <http://purl.org/doves/076aaae9_4c06_4338_8a74_c81235747135> (NIST Certification Outcome)
@@ -811,6 +817,7 @@ SubClassOf(<http://purl.org/doves/doves-ontology#American_Indian_or_Alaska_Nativ
 
 # Class: <http://purl.org/doves/doves-ontology#Ante-partum_Age_Group> (In Utero Age Group)
 
+AnnotationAssertion(obo:IAO_0000115 <http://purl.org/doves/doves-ontology#Ante-partum_Age_Group> "In Utero Age Group is an Age Group defined as a term or pre-term human still in utero.")
 AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Ante-partum_Age_Group> "In Utero Age Group")
 SubClassOf(<http://purl.org/doves/doves-ontology#Ante-partum_Age_Group> <https://purl.org/doves/d7fdedbd-6d0d-4d67-bd98-03f4c80c944b>)
 
@@ -826,8 +833,9 @@ AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Anxiety_Con
 AnnotationAssertion(skos:definition <http://purl.org/doves/doves-ontology#Anxiety_Control_Outcome> "An Anxiety Control Outcome is a Symptom Control Outcome that describes the influence of a digital medicine application on anxiety control."@en)
 SubClassOf(<http://purl.org/doves/doves-ontology#Anxiety_Control_Outcome> <http://purl.org/doves/doves-ontology#Symptom_Control_Outcome>)
 
-# Class: <http://purl.org/doves/doves-ontology#Area_Under_the_Curve> (<http://purl.org/doves/doves-ontology#Area_Under_the_Curve>)
+# Class: <http://purl.org/doves/doves-ontology#Area_Under_the_Curve> (Area Under the Curve)
 
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Area_Under_the_Curve> "Area Under the Curve")
 SubClassOf(<http://purl.org/doves/doves-ontology#Area_Under_the_Curve> <https://purl.org/doves/e8a3913a-2e3c-42c6-b662-a35736ffcada>)
 
 # Class: <http://purl.org/doves/doves-ontology#Asian> (<http://purl.org/doves/doves-ontology#Asian>)
@@ -907,7 +915,7 @@ SubClassOf(<http://purl.org/doves/doves-ontology#Change_in_Visual_Acuity_Outcome
 # Class: <http://purl.org/doves/doves-ontology#Child_Age_Group> (Child Age Group)
 
 AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Child_Age_Group> "Child Age Group")
-AnnotationAssertion(skos:definition <http://purl.org/doves/doves-ontology#Child_Age_Group> "Child Age Group is defined by the NIH as thos eindividuals 1 year to 12 years old. https://www.nih.gov/nih-style-guide/age")
+AnnotationAssertion(skos:definition <http://purl.org/doves/doves-ontology#Child_Age_Group> "Child Age Group is a Pediatric Age Group defined by the NIH as thos eindividuals 1 year to 12 years old. https://www.nih.gov/nih-style-guide/age")
 SubClassOf(<http://purl.org/doves/doves-ontology#Child_Age_Group> <https://purl.org/doves/6f732e5a-3cb8-47b2-a83e-7e7d24512e77>)
 
 # Class: <http://purl.org/doves/doves-ontology#Community_Based_Organization_Referral_Outcome> (Community Based Organization Referral Outcome)
@@ -1061,10 +1069,10 @@ AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Economic_Va
 AnnotationAssertion(skos:definition <http://purl.org/doves/doves-ontology#Economic_Value_from_Digital_Medicine_Billing_Codes_Outcome> "An Economic Value from Digital Medicine Billing Codes Outcome is a Healthcare Economic Outcome that describes the influence a digital medicine application has on the economic return to the health system of billing codes that can be utilized for care provided. "@en)
 SubClassOf(<http://purl.org/doves/doves-ontology#Economic_Value_from_Digital_Medicine_Billing_Codes_Outcome> <https://purl.org/doves/f4c71cb0-20ca-4838-bea8-c8aa68037a97>)
 
-# Class: <http://purl.org/doves/doves-ontology#Electronic_Health_Record_Integration_Outcome> (EHR Integration Outcome)
+# Class: <http://purl.org/doves/doves-ontology#Electronic_Health_Record_Integration_Outcome> (EHR Integration)
 
-AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Electronic_Health_Record_Integration_Outcome> "EHR Integration Outcome")
-AnnotationAssertion(skos:definition <http://purl.org/doves/doves-ontology#Electronic_Health_Record_Integration_Outcome> "EHR Integration Outcome is a Refining Value that describes the types of electronic health record (EHR) platforms with which the digital health application integrates, including \"not applicable\" or \"none.\"")
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Electronic_Health_Record_Integration_Outcome> "EHR Integration")
+AnnotationAssertion(skos:definition <http://purl.org/doves/doves-ontology#Electronic_Health_Record_Integration_Outcome> "EHR Integration is a Refining Value that describes the types of electronic health record (EHR) platforms with which the digital health application integrates, including \"not applicable\" or \"none.\"")
 SubClassOf(<http://purl.org/doves/doves-ontology#Electronic_Health_Record_Integration_Outcome> <https://purl.org/doves/78ceb509-e44b-4d8c-bd47-b457f9d835cb>)
 
 # Class: <http://purl.org/doves/doves-ontology#Emergency_Department> (<http://purl.org/doves/doves-ontology#Emergency_Department>)
@@ -1079,7 +1087,7 @@ SubClassOf(<http://purl.org/doves/doves-ontology#Employee_Burnout_Reduction_Outc
 
 # Class: <http://purl.org/doves/doves-ontology#Ethnicity> (<http://purl.org/doves/doves-ontology#Ethnicity>)
 
-AnnotationAssertion(skos:definition <http://purl.org/doves/doves-ontology#Ethnicity> "Ethnicity is defined according to the United States Census Bureai Aug 4, 2021 https://www.census.gov/newsroom/blogs/random-samplings/2021/08/measuring-racial-ethnic-diversity-2020-census.html")
+AnnotationAssertion(skos:definition <http://purl.org/doves/doves-ontology#Ethnicity> "Ethnicity is a Refining Value defined according to the United States Census Bureai Aug 4, 2021 https://www.census.gov/newsroom/blogs/random-samplings/2021/08/measuring-racial-ethnic-diversity-2020-census.html")
 SubClassOf(<http://purl.org/doves/doves-ontology#Ethnicity> <https://purl.org/doves/78ceb509-e44b-4d8c-bd47-b457f9d835cb>)
 
 # Class: <http://purl.org/doves/doves-ontology#Exercise_Adherence_outcome> (Exercise Adherence Outcome)
@@ -1196,6 +1204,7 @@ SubClassOf(<http://purl.org/doves/doves-ontology#Healthy_Eating_Index_Score_Outc
 
 # Class: <http://purl.org/doves/doves-ontology#Hispanic_or_Latino> (Hispanic or Latino)
 
+AnnotationAssertion(obo:IAO_0000115 <http://purl.org/doves/doves-ontology#Hispanic_or_Latino> "Hispanic or Latino is an Ethnicity that describes people who are descended from Spanish-speaking populations. People who identify their origina as Hispanic, Latino, or Spanish may be of any race. Source: https://www.nih.gov/nih-style-guide/race-national-origin#:~:text=Hispanic,may%20be%20of%20any%20race.")
 AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Hispanic_or_Latino> "Hispanic or Latino")
 SubClassOf(<http://purl.org/doves/doves-ontology#Hispanic_or_Latino> <http://purl.org/doves/doves-ontology#Ethnicity>)
 
@@ -1327,7 +1336,7 @@ SubClassOf(<http://purl.org/doves/doves-ontology#Increased_Ultrasonography_Throu
 # Class: <http://purl.org/doves/doves-ontology#Infant_Age_Group> (Infant Age Group)
 
 AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Infant_Age_Group> "Infant Age Group")
-AnnotationAssertion(skos:definition <http://purl.org/doves/doves-ontology#Infant_Age_Group> "Infant Age Group is defined by the NIH as those individuals 1 month to 1 year old. https://www.nih.gov/nih-style-guide/age")
+AnnotationAssertion(skos:definition <http://purl.org/doves/doves-ontology#Infant_Age_Group> "Infant Age Group is a Pediatric Age Group defined by the NIH as those individuals 1 month to 1 year old. https://www.nih.gov/nih-style-guide/age")
 SubClassOf(<http://purl.org/doves/doves-ontology#Infant_Age_Group> <https://purl.org/doves/6f732e5a-3cb8-47b2-a83e-7e7d24512e77>)
 
 # Class: <http://purl.org/doves/doves-ontology#Informed_Outcome> (Informed Outcome)
@@ -1418,6 +1427,7 @@ SubClassOf(<http://purl.org/doves/doves-ontology#Night_Sweat_Control> <http://pu
 
 # Class: <http://purl.org/doves/doves-ontology#Not_Hispanic_or_Latino> (Not Hispanic or Latino)
 
+AnnotationAssertion(obo:IAO_0000115 <http://purl.org/doves/doves-ontology#Not_Hispanic_or_Latino> "Not Hispanic or Latino is an Ethnicity whose definition is the inverse of Hispanic or Latino.")
 AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Not_Hispanic_or_Latino> "Not Hispanic or Latino")
 SubClassOf(<http://purl.org/doves/doves-ontology#Not_Hispanic_or_Latino> <http://purl.org/doves/doves-ontology#Ethnicity>)
 
@@ -2090,6 +2100,7 @@ SubClassOf(<https://purl.org/doves/b7809475-8b09-4213-b83a-b4d970cb21ac> <https:
 
 # Class: <https://purl.org/doves/b8499147-fac1-4186-87c2-c937f0450fc7> (Phase 1 Trial Evidence)
 
+AnnotationAssertion(obo:IAO_0000115 <https://purl.org/doves/b8499147-fac1-4186-87c2-c937f0450fc7> "Phase 1 Trial Evidence is Controlled Trial Evidence that comes from a Phase I trial which is usually done as a first in-humans trial to determine the safety of an intervention in a relatively small group.")
 AnnotationAssertion(rdfs:label <https://purl.org/doves/b8499147-fac1-4186-87c2-c937f0450fc7> "Phase 1 Trial Evidence"@en)
 SubClassOf(<https://purl.org/doves/b8499147-fac1-4186-87c2-c937f0450fc7> <https://purl.org/doves/01452e51-c0e3-45b8-a954-7b0af8fdb609>)
 
@@ -2290,6 +2301,7 @@ SubClassOf(<https://purl.org/doves/d70e348b-aceb-489b-b44d-1e43bb90d939> <https:
 
 # Class: <https://purl.org/doves/d7fdedbd-6d0d-4d67-bd98-03f4c80c944b> (Age Group)
 
+AnnotationAssertion(obo:IAO_0000115 <https://purl.org/doves/d7fdedbd-6d0d-4d67-bd98-03f4c80c944b> "Age Group is a Refining Value that describes the age category(ies) of a digital medicine application's users.")
 AnnotationAssertion(rdfs:label <https://purl.org/doves/d7fdedbd-6d0d-4d67-bd98-03f4c80c944b> "Age Group"@en)
 SubClassOf(<https://purl.org/doves/d7fdedbd-6d0d-4d67-bd98-03f4c80c944b> <https://purl.org/doves/78ceb509-e44b-4d8c-bd47-b457f9d835cb>)
 
@@ -2411,6 +2423,7 @@ AnnotationAssertion(skos:definition <https://purl.org/doves/e849bada-9fc3-4799-b
 
 # Class: <https://purl.org/doves/e8a3913a-2e3c-42c6-b662-a35736ffcada> (Increased Accuracy)
 
+AnnotationAssertion(obo:IAO_0000115 <https://purl.org/doves/e8a3913a-2e3c-42c6-b662-a35736ffcada> "Increased Accuracy is a Refining Value that describes the level and type of accuracy measurement for a digital health product that is intended to improve accuracy.")
 AnnotationAssertion(rdfs:label <https://purl.org/doves/e8a3913a-2e3c-42c6-b662-a35736ffcada> "Increased Accuracy"@en)
 SubClassOf(<https://purl.org/doves/e8a3913a-2e3c-42c6-b662-a35736ffcada> <https://purl.org/doves/78ceb509-e44b-4d8c-bd47-b457f9d835cb>)
 
@@ -2702,6 +2715,7 @@ SubClassOf(<https://purl.org/doves/01d40506-2d2f-4237-a87b-229e268c2f14> ObjectS
 
 # Class: <https://purl.org/doves/01452e51-c0e3-45b8-a954-7b0af8fdb609> (Controlled Trial Evidence)
 
+AnnotationAssertion(obo:IAO_0000115 <https://purl.org/doves/01452e51-c0e3-45b8-a954-7b0af8fdb609> "Controlled Trial Evidence is Evidence that describes a controlled trial study design in which an intervention group is compared to a reference (control) group. Controls may be, for example, placebo, \"no treatment\", active treatment, dose-comparison, historical control, among others. Randomized controlled trials involve random assignment of subjects into the intervnetion or control group. Source: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6434767/")
 AnnotationAssertion(rdfs:label <https://purl.org/doves/01452e51-c0e3-45b8-a954-7b0af8fdb609> "Controlled Trial Evidence"@en)
 SubClassOf(<https://purl.org/doves/01452e51-c0e3-45b8-a954-7b0af8fdb609> <https://purl.org/doves/42032214-7b35-46e0-98f9-cd903d8fd464>)
 
@@ -2818,6 +2832,7 @@ SubClassOf(<https://purl.org/doves/1d62d176-3b08-4743-819c-ba79585f3a38> <https:
 
 # Class: <https://purl.org/doves/1e5fba11-4526-4d36-8799-50f3deb56f12> (Phase 3 Trial Evidence)
 
+AnnotationAssertion(obo:IAO_0000115 <https://purl.org/doves/1e5fba11-4526-4d36-8799-50f3deb56f12> "Phase 3 Trial Evidence is Controlled Trial Evidence that comes from a Phase 3 trial which is usually done after safety in a Phase 1 trial and effectiveness in a Phase 2 trial, in order to determine the safety and effectiveness of an intervention in a larger group than Phase 1 or 2 trials.")
 AnnotationAssertion(rdfs:label <https://purl.org/doves/1e5fba11-4526-4d36-8799-50f3deb56f12> "Phase 3 Trial Evidence"@en)
 SubClassOf(<https://purl.org/doves/1e5fba11-4526-4d36-8799-50f3deb56f12> <https://purl.org/doves/01452e51-c0e3-45b8-a954-7b0af8fdb609>)
 
@@ -3089,6 +3104,7 @@ SubClassOf(<https://purl.org/doves/400ff4af-ca07-49cd-9114-2dd65f8c34a7> <https:
 
 # Class: <https://purl.org/doves/42032214-7b35-46e0-98f9-cd903d8fd464> (Evidence)
 
+AnnotationAssertion(obo:IAO_0000115 <https://purl.org/doves/42032214-7b35-46e0-98f9-cd903d8fd464> "Evidence is a Refining Value that describes the level or class of evidence of a digital medicine application. Classes of evidence may be categorized on a I-IV basis and iformed by different study designs such as randomized controlled trial, or cohort studies, or case series for example. Source: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3838756/")
 AnnotationAssertion(rdfs:label <https://purl.org/doves/42032214-7b35-46e0-98f9-cd903d8fd464> "Evidence"@en)
 SubClassOf(<https://purl.org/doves/42032214-7b35-46e0-98f9-cd903d8fd464> <https://purl.org/doves/78ceb509-e44b-4d8c-bd47-b457f9d835cb>)
 
@@ -3099,6 +3115,7 @@ SubClassOf(<https://purl.org/doves/422939fc-63b9-46c1-8891-7a45450a15c8> <https:
 
 # Class: <https://purl.org/doves/44069093-74c5-49c9-bf1f-f15f45ba21bb> (Phase 2 Trial Evidence)
 
+AnnotationAssertion(obo:IAO_0000115 <https://purl.org/doves/44069093-74c5-49c9-bf1f-f15f45ba21bb> "Phase 2 Trial Evidence is Controlled Trial Evidence that comes from a Phase 2 trial which is usually done after the establishment of safety in a Phase 1 Trial, in order to determine the potential efficacy of an intervention in a relatively small group")
 AnnotationAssertion(rdfs:label <https://purl.org/doves/44069093-74c5-49c9-bf1f-f15f45ba21bb> "Phase 2 Trial Evidence"@en)
 SubClassOf(<https://purl.org/doves/44069093-74c5-49c9-bf1f-f15f45ba21bb> <https://purl.org/doves/01452e51-c0e3-45b8-a954-7b0af8fdb609>)
 
@@ -3271,6 +3288,7 @@ SubClassOf(<https://purl.org/doves/6eab4a0d-9237-4010-b11e-c4bea0e4b24f> <https:
 
 # Class: <https://purl.org/doves/6f732e5a-3cb8-47b2-a83e-7e7d24512e77> (Pediatric Age Group)
 
+AnnotationAssertion(obo:IAO_0000115 <https://purl.org/doves/6f732e5a-3cb8-47b2-a83e-7e7d24512e77> "Pediatric Age Group is an Age Group defined as a person less than 18 years old.")
 AnnotationAssertion(rdfs:label <https://purl.org/doves/6f732e5a-3cb8-47b2-a83e-7e7d24512e77> "Pediatric Age Group"@en)
 SubClassOf(<https://purl.org/doves/6f732e5a-3cb8-47b2-a83e-7e7d24512e77> <https://purl.org/doves/d7fdedbd-6d0d-4d67-bd98-03f4c80c944b>)
 
@@ -3517,6 +3535,7 @@ SubClassOf(<https://purl.org/doves/8a5d41a7-0ee9-4e6c-860a-68f5eee22867> <https:
 
 # Class: <https://purl.org/doves/8a734e84-af0d-4ad3-9379-51414e0e06d7> (Duration)
 
+AnnotationAssertion(obo:IAO_0000115 <https://purl.org/doves/8a734e84-af0d-4ad3-9379-51414e0e06d7> "Duration is a Refining Value that describes how long something lasts or how long it is in place.")
 AnnotationAssertion(rdfs:label <https://purl.org/doves/8a734e84-af0d-4ad3-9379-51414e0e06d7> "Duration"@en)
 SubClassOf(<https://purl.org/doves/8a734e84-af0d-4ad3-9379-51414e0e06d7> <https://purl.org/doves/78ceb509-e44b-4d8c-bd47-b457f9d835cb>)
 
@@ -3728,7 +3747,7 @@ SubClassOf(<https://purl.org/doves/9479abfd-b4df-4005-9a53-66eeef5dfc10> <https:
 # Class: <https://purl.org/doves/9597d5d0-d59c-47e9-808d-6827b75664ae> (Neonate Age Group)
 
 AnnotationAssertion(rdfs:label <https://purl.org/doves/9597d5d0-d59c-47e9-808d-6827b75664ae> "Neonate Age Group"@en)
-AnnotationAssertion(skos:definition <https://purl.org/doves/9597d5d0-d59c-47e9-808d-6827b75664ae> "Neonate Age Group is defined by the NIH as those individuals from birth to 1 month old. https://www.nih.gov/nih-style-guide/age")
+AnnotationAssertion(skos:definition <https://purl.org/doves/9597d5d0-d59c-47e9-808d-6827b75664ae> "Neonate Age Group is a Pediatric Age Group defined by the NIH as those individuals from birth to 1 month old. https://www.nih.gov/nih-style-guide/age")
 SubClassOf(<https://purl.org/doves/9597d5d0-d59c-47e9-808d-6827b75664ae> <https://purl.org/doves/6f732e5a-3cb8-47b2-a83e-7e7d24512e77>)
 
 # Class: <https://purl.org/doves/96a7fd52-c1f4-431d-872d-f4b420977a36> (Otolaryngology)
