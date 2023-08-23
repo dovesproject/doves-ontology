@@ -835,6 +835,7 @@ SubClassOf(<http://purl.org/doves/doves-ontology#Anxiety_Control_Outcome> <http:
 
 # Class: <http://purl.org/doves/doves-ontology#Area_Under_the_Curve> (Area Under the Curve)
 
+AnnotationAssertion(obo:IAO_0000115 <http://purl.org/doves/doves-ontology#Area_Under_the_Curve> "Area Under the Curve (Receiver Operator Curve) is a type of Increased Accuracy measurement that is a measure of how well a parameter can distinguish between two diagnostic groups (diseased/normal) or between two tests. AUC ranges in value from 0 to 1. A model whose predictions are 100% wrong has an AUC of 0.0; one whose predictions are 100% correct has an AUC of 1.0. Source: https://developers.google.com/machine-learning/crash-course/classification/roc-and-auc#:~:text=AUC%20ranges%20in%20value%20from,AUC%20is%20scale%2Dinvariant.")
 AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Area_Under_the_Curve> "Area Under the Curve")
 SubClassOf(<http://purl.org/doves/doves-ontology#Area_Under_the_Curve> <https://purl.org/doves/e8a3913a-2e3c-42c6-b662-a35736ffcada>)
 
@@ -951,6 +952,7 @@ SubClassOf(<http://purl.org/doves/doves-ontology#Decreased_Diagnostic_Test_Unit_
 
 # Class: <http://purl.org/doves/doves-ontology#Decreased_Proportion_of_Indeterminate_Results> (DecreasedProportion of Indeterminate Results)
 
+AnnotationAssertion(obo:IAO_0000115 <http://purl.org/doves/doves-ontology#Decreased_Proportion_of_Indeterminate_Results> "Decreased Proportion of Indeterminate Results is a measure of Increased Accuracy that describes a decreased proportion of results from the use of a digital medicine application are indeterminate.")
 AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Decreased_Proportion_of_Indeterminate_Results> "DecreasedProportion of Indeterminate Results")
 SubClassOf(<http://purl.org/doves/doves-ontology#Decreased_Proportion_of_Indeterminate_Results> <https://purl.org/doves/e8a3913a-2e3c-42c6-b662-a35736ffcada>)
 
@@ -2005,6 +2007,7 @@ SubClassOf(<https://purl.org/doves/a35064d9-a2f4-480d-9574-708a531398a7> <https:
 
 # Class: <https://purl.org/doves/a5627207-3c76-4b6c-8c81-f24283570b23> (Increased Sensitivity)
 
+AnnotationAssertion(obo:IAO_0000115 <https://purl.org/doves/a5627207-3c76-4b6c-8c81-f24283570b23> "Increased Sensitivity is a measure of Increased Accuracy defined as true positives/ (true positives + false negatives)")
 AnnotationAssertion(rdfs:label <https://purl.org/doves/a5627207-3c76-4b6c-8c81-f24283570b23> "Increased Sensitivity"@en)
 SubClassOf(<https://purl.org/doves/a5627207-3c76-4b6c-8c81-f24283570b23> <https://purl.org/doves/e8a3913a-2e3c-42c6-b662-a35736ffcada>)
 
@@ -2212,6 +2215,7 @@ SubClassOf(<https://purl.org/doves/c8c2f65d-6731-408f-b01b-a39fb47a2764> <https:
 
 # Class: <https://purl.org/doves/c9013f84-d508-4ab7-88b9-b85ac089eaa8> (Increased Macro Precision)
 
+AnnotationAssertion(obo:IAO_0000115 <https://purl.org/doves/c9013f84-d508-4ab7-88b9-b85ac089eaa8> "Increased Macro Precision is a measure of Increased Accuracy and is the arithmetic mean of all the precision values for the different classes.")
 AnnotationAssertion(rdfs:label <https://purl.org/doves/c9013f84-d508-4ab7-88b9-b85ac089eaa8> "Increased Macro Precision"@en)
 SubClassOf(<https://purl.org/doves/c9013f84-d508-4ab7-88b9-b85ac089eaa8> <https://purl.org/doves/e8a3913a-2e3c-42c6-b662-a35736ffcada>)
 
@@ -2223,7 +2227,7 @@ SubClassOf(<https://purl.org/doves/ca36addf-e79a-40f6-b2c2-5cb5b46d6dab> <https:
 # Class: <https://purl.org/doves/ccf65a8d-246e-43d7-b378-c840c50a5f36> (Peri-procedural Stage)
 
 AnnotationAssertion(rdfs:label <https://purl.org/doves/ccf65a8d-246e-43d7-b378-c840c50a5f36> "Peri-procedural Stage"@en)
-AnnotationAssertion(skos:definition <https://purl.org/doves/ccf65a8d-246e-43d7-b378-c840c50a5f36> "A stage of a periprocedural action.  A periprocedural action occurs soon before, during, or soon after the performance of a medical procedure."@en)
+AnnotationAssertion(skos:definition <https://purl.org/doves/ccf65a8d-246e-43d7-b378-c840c50a5f36> "Peri-procedural Stage is a Refining Value that describes a stage of preparation or recovery around a surgical procedure. A periprocedural action occurs soon before, during, or soon after the performance of a procedure."@en)
 SubClassOf(<https://purl.org/doves/ccf65a8d-246e-43d7-b378-c840c50a5f36> <https://purl.org/doves/78ceb509-e44b-4d8c-bd47-b457f9d835cb>)
 
 # Class: <https://purl.org/doves/ccfeb03c-e2a3-4686-87d6-b07272789813> (Urology)
@@ -2239,6 +2243,7 @@ SubClassOf(<https://purl.org/doves/cd27d2cf-0101-410d-95d3-651f1245749d> <https:
 
 # Class: <https://purl.org/doves/cd866c42-9c5a-40d7-901d-68102336838f> (Increased Kappa Statistic)
 
+AnnotationAssertion(obo:IAO_0000115 <https://purl.org/doves/cd866c42-9c5a-40d7-901d-68102336838f> "Increased Kappa Statistic is a measure of Increased Accuracy that describes Cohen's kappa, a statistical measurement of agreement that takes into account the possibility of ageeement offucing by chance. It may be used to measure agreement between an intervention and a gold standard, for example. Source: https://en.wikipedia.org/wiki/Cohen%27s_kappa")
 AnnotationAssertion(rdfs:label <https://purl.org/doves/cd866c42-9c5a-40d7-901d-68102336838f> "Increased Kappa Statistic"@en)
 SubClassOf(<https://purl.org/doves/cd866c42-9c5a-40d7-901d-68102336838f> <https://purl.org/doves/e8a3913a-2e3c-42c6-b662-a35736ffcada>)
 
@@ -2286,6 +2291,7 @@ SubClassOf(<https://purl.org/doves/d20f03be-e7bc-4fdc-830b-0ad2afb01298> <https:
 
 # Class: <https://purl.org/doves/d3f9b329-68f0-4f5b-be4e-6de480313639> (Increased Macro F-1 Score)
 
+AnnotationAssertion(obo:IAO_0000115 <https://purl.org/doves/d3f9b329-68f0-4f5b-be4e-6de480313639> "Increased Macro F-1 score is a measure of Increased Accuracy, and is appropriate as a measure of accuracy in an imbalanced data set. While F1 score is a machine learning evaluation metric that measures a model’s accuracy on the \"micro\" level, macro F1 is the unweighted mean of the F1 scores calculkated per class. It is defined as the sum(F1 scores)/nunber of classes. Source: https://www.v7labs.com/blog/f1-score-guide\" Source: https://stephenallwright.com/micro-vs-macro-f1-score/")
 AnnotationAssertion(rdfs:label <https://purl.org/doves/d3f9b329-68f0-4f5b-be4e-6de480313639> "Increased Macro F-1 Score"@en)
 SubClassOf(<https://purl.org/doves/d3f9b329-68f0-4f5b-be4e-6de480313639> <https://purl.org/doves/e8a3913a-2e3c-42c6-b662-a35736ffcada>)
 
@@ -2477,6 +2483,7 @@ EquivalentClasses(<https://purl.org/doves/f13faa32-33d2-48c3-b9ce-9e0279af659c> 
 
 # Class: <https://purl.org/doves/f17801e2-a13c-406b-b395-cb6c0165dfb2> (Increased Negative Predictive Value)
 
+AnnotationAssertion(obo:IAO_0000115 <https://purl.org/doves/f17801e2-a13c-406b-b395-cb6c0165dfb2> "Increased Negative Predictive Value is a measure of Increased Accuracy that is defined as true negatives / (true negatives + false negatives)")
 AnnotationAssertion(rdfs:label <https://purl.org/doves/f17801e2-a13c-406b-b395-cb6c0165dfb2> "Increased Negative Predictive Value"@en)
 SubClassOf(<https://purl.org/doves/f17801e2-a13c-406b-b395-cb6c0165dfb2> <https://purl.org/doves/e8a3913a-2e3c-42c6-b662-a35736ffcada>)
 
@@ -2521,6 +2528,7 @@ SubClassOf(<https://purl.org/doves/f587aae7-957e-4b04-8883-7f8a4a72dfc4> <https:
 
 # Class: <https://purl.org/doves/f5b0061b-5a83-4dbd-8b51-2da931c6e9b7> (Increased F-1 Score)
 
+AnnotationAssertion(obo:IAO_0000115 <https://purl.org/doves/f5b0061b-5a83-4dbd-8b51-2da931c6e9b7> "Increased F1 Score is a measure of Increased Accuracy is appropriate as a measure of accuracy in an imbalanced data set. F1 score is a machine learning evaluation metric that measures a model’s accuracy. It combines the precision and recall scores of a model. The F1 score is calculated as the harmonic mean of the precision and recall scores. It ranges from 0-100%, and a higher F1 score denotes a better quality classifier. Source: https://www.v7labs.com/blog/f1-score-guide")
 AnnotationAssertion(rdfs:label <https://purl.org/doves/f5b0061b-5a83-4dbd-8b51-2da931c6e9b7> "Increased F-1 Score"@en)
 SubClassOf(<https://purl.org/doves/f5b0061b-5a83-4dbd-8b51-2da931c6e9b7> <https://purl.org/doves/e8a3913a-2e3c-42c6-b662-a35736ffcada>)
 
@@ -3094,6 +3102,7 @@ SubClassOf(<https://purl.org/doves/4df28317-0241-45a9-b39a-69ef066fd4d5> <https:
 
 # Class: <https://purl.org/doves/4e10ca8c-ec8b-4953-b2d5-cbeee634f6fe> (Increased Positive Predictive Value)
 
+AnnotationAssertion(obo:IAO_0000115 <https://purl.org/doves/4e10ca8c-ec8b-4953-b2d5-cbeee634f6fe> "Increased Positive Predictive Value is a measure of Increased Accuracy that is defined as true positives / (true positives + false positives)")
 AnnotationAssertion(rdfs:label <https://purl.org/doves/4e10ca8c-ec8b-4953-b2d5-cbeee634f6fe> "Increased Positive Predictive Value"@en)
 SubClassOf(<https://purl.org/doves/4e10ca8c-ec8b-4953-b2d5-cbeee634f6fe> <https://purl.org/doves/e8a3913a-2e3c-42c6-b662-a35736ffcada>)
 
@@ -3326,6 +3335,7 @@ SubClassOf(<https://purl.org/doves/6093bed9-a9fb-4553-8546-fc771ed68ba6> <https:
 
 # Class: <https://purl.org/doves/636f2a6e-16d9-4276-84d3-3d6c89b25bd2> (Increased Macro Recall)
 
+AnnotationAssertion(obo:IAO_0000115 <https://purl.org/doves/636f2a6e-16d9-4276-84d3-3d6c89b25bd2> "Increased Macro Recall is a measure of Increased Accuracy and is the arithmetic mean of all the recall values for the different classes.")
 AnnotationAssertion(rdfs:label <https://purl.org/doves/636f2a6e-16d9-4276-84d3-3d6c89b25bd2> "Increased Macro Recall"@en)
 SubClassOf(<https://purl.org/doves/636f2a6e-16d9-4276-84d3-3d6c89b25bd2> <https://purl.org/doves/e8a3913a-2e3c-42c6-b662-a35736ffcada>)
 
@@ -3477,6 +3487,7 @@ SubClassOf(<https://purl.org/doves/7276b5d7-a2c8-48e1-81ca-e5cfd0e9221e> <https:
 
 # Class: <https://purl.org/doves/741ca7e5-34fa-4b3b-9d13-ca8f6bcc942d> (Increased Specificity)
 
+AnnotationAssertion(obo:IAO_0000115 <https://purl.org/doves/741ca7e5-34fa-4b3b-9d13-ca8f6bcc942d> "Increased Specificity is a measure of Increased Accuracy that is defined as True negatives / (True negatives  + False positives)")
 AnnotationAssertion(rdfs:label <https://purl.org/doves/741ca7e5-34fa-4b3b-9d13-ca8f6bcc942d> "Increased Specificity"@en)
 SubClassOf(<https://purl.org/doves/741ca7e5-34fa-4b3b-9d13-ca8f6bcc942d> <https://purl.org/doves/e8a3913a-2e3c-42c6-b662-a35736ffcada>)
 
