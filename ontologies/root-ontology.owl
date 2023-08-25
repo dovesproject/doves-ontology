@@ -811,8 +811,9 @@ SubClassOf(<http://purl.org/doves/doves-ontology#Alcohol_Use_Outcome> <http://pu
 
 SubClassOf(<http://purl.org/doves/doves-ontology#Ambulatory> <http://purl.org/doves/doves-ontology#Setting>)
 
-# Class: <http://purl.org/doves/doves-ontology#American_Indian_or_Alaska_Native> (<http://purl.org/doves/doves-ontology#American_Indian_or_Alaska_Native>)
+# Class: <http://purl.org/doves/doves-ontology#American_Indian_or_Alaska_Native> (American Indian or Alaska Native)
 
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#American_Indian_or_Alaska_Native> "American Indian or Alaska Native")
 SubClassOf(<http://purl.org/doves/doves-ontology#American_Indian_or_Alaska_Native> <http://purl.org/doves/doves-ontology#Race>)
 
 # Class: <http://purl.org/doves/doves-ontology#Ante-partum_Age_Group> (In Utero Age Group)
@@ -860,8 +861,9 @@ SubClassOf(<http://purl.org/doves/doves-ontology#Best_Corrected_Visual_Acuity_Ou
 AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Biofeedback_Technology> "Biofeedback Technology")
 SubClassOf(<http://purl.org/doves/doves-ontology#Biofeedback_Technology> <https://purl.org/doves/894b0e16-237d-40f2-87f0-adaa02cab8c8>)
 
-# Class: <http://purl.org/doves/doves-ontology#Black_or_African_American> (<http://purl.org/doves/doves-ontology#Black_or_African_American>)
+# Class: <http://purl.org/doves/doves-ontology#Black_or_African_American> (Black or African American)
 
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Black_or_African_American> "Black or African American")
 SubClassOf(<http://purl.org/doves/doves-ontology#Black_or_African_American> <http://purl.org/doves/doves-ontology#Race>)
 
 # Class: <http://purl.org/doves/doves-ontology#Bladder_Emptying_Time_Outcome> (Bladder Emptying Time Outcome)
@@ -1417,8 +1419,9 @@ AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Musculoskel
 AnnotationAssertion(skos:definition <http://purl.org/doves/doves-ontology#Musculoskeletal_Control_Outcome> "Musculoskeletal Control Outcome is a Sign Control Outcome that is specific to the musculoskeletal system."@en)
 SubClassOf(<http://purl.org/doves/doves-ontology#Musculoskeletal_Control_Outcome> <http://purl.org/doves/doves-ontology#Sign_Control_Outcome>)
 
-# Class: <http://purl.org/doves/doves-ontology#Native_Hawaiian_or_Other_Pacific_Islander> (<http://purl.org/doves/doves-ontology#Native_Hawaiian_or_Other_Pacific_Islander>)
+# Class: <http://purl.org/doves/doves-ontology#Native_Hawaiian_or_Other_Pacific_Islander> (Native Hawaiian or Other Pacific Islander)
 
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Native_Hawaiian_or_Other_Pacific_Islander> "Native Hawaiian or Other Pacific Islander")
 SubClassOf(<http://purl.org/doves/doves-ontology#Native_Hawaiian_or_Other_Pacific_Islander> <http://purl.org/doves/doves-ontology#Race>)
 
 # Class: <http://purl.org/doves/doves-ontology#Night_Sweat_Control> (Night Sweat Control Outcome)
@@ -1514,7 +1517,9 @@ SubClassOf(<http://purl.org/doves/doves-ontology#Proportion_of_Images_Gradable_b
 
 # Class: <http://purl.org/doves/doves-ontology#Race> (<http://purl.org/doves/doves-ontology#Race>)
 
-AnnotationAssertion(skos:definition <http://purl.org/doves/doves-ontology#Race> "Categories of race follow guidance from the United States Census Bureau as of Aug 4, 2021. https://www.census.gov/newsroom/blogs/random-samplings/2021/08/measuring-racial-ethnic-diversity-2020-census.html")
+AnnotationAssertion(skos:definition <http://purl.org/doves/doves-ontology#Race> "Race is a Refining Value defined as a social construct meant to group people according to common, visible physical traits. 
+
+Categories of race follow guidance from the United States Census Bureau as of Aug 4, 2021. https://www.census.gov/newsroom/blogs/random-samplings/2021/08/measuring-racial-ethnic-diversity-2020-census.html")
 SubClassOf(<http://purl.org/doves/doves-ontology#Race> <https://purl.org/doves/78ceb509-e44b-4d8c-bd47-b457f9d835cb>)
 
 # Class: <http://purl.org/doves/doves-ontology#Reduced_Calendar_Year_Total_Cost_of_Care_Outcome> (Reduced Calendar Year Total Cost of Care Outcome)
@@ -1642,8 +1647,9 @@ AnnotationAssertion(obo:IAO_0000115 <http://purl.org/doves/doves-ontology#Smokin
 AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Smoking_Cessation_Adherence_Outcome> "Smoking Cessation Adherence Outcome")
 SubClassOf(<http://purl.org/doves/doves-ontology#Smoking_Cessation_Adherence_Outcome> <http://purl.org/doves/doves-ontology#Lifestyle_Adherence_Outcome>)
 
-# Class: <http://purl.org/doves/doves-ontology#Some_Other_Race> (<http://purl.org/doves/doves-ontology#Some_Other_Race>)
+# Class: <http://purl.org/doves/doves-ontology#Some_Other_Race> (Some Other Race)
 
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Some_Other_Race> "Some Other Race")
 SubClassOf(<http://purl.org/doves/doves-ontology#Some_Other_Race> <http://purl.org/doves/doves-ontology#Race>)
 
 # Class: <http://purl.org/doves/doves-ontology#Staffing_Level_Outcome> (Staffing Level Outcome)
@@ -2037,6 +2043,7 @@ SubClassOf(<https://purl.org/doves/ad49b249-3b61-45af-91ea-1ec2bf61eff4> <https:
 
 # Class: <https://purl.org/doves/ae3e5479-6f31-4619-992c-16509fef95fb> (Adolescent girl person)
 
+AnnotationAssertion(obo:IAO_0000115 <https://purl.org/doves/ae3e5479-6f31-4619-992c-16509fef95fb> "An adolescent girl person is a Person who is female and is of the Adolescent Age Group")
 AnnotationAssertion(rdfs:label <https://purl.org/doves/ae3e5479-6f31-4619-992c-16509fef95fb> "Adolescent girl person"@en)
 EquivalentClasses(<https://purl.org/doves/ae3e5479-6f31-4619-992c-16509fef95fb> ObjectIntersectionOf(<https://purl.org/doves/01d40506-2d2f-4237-a87b-229e268c2f14> ObjectSomeValuesFrom(<https://purl.org/doves/e352e4b8-9c80-45f1-a877-a397b5b33cc1> <http://purl.org/doves/a61dbcd2_0d2c_4269_a9dd_c34cb9fd5965>) ObjectSomeValuesFrom(<https://purl.org/doves/4b61e411-782f-4ccd-9f96-ba45caef73b6> <https://purl.org/doves/edd2c14b-bbc5-4eec-8c18-26acc71bcda5>)))
 
@@ -2066,6 +2073,7 @@ SubClassOf(<https://purl.org/doves/b2153ef6-a877-4374-be7f-8ff972c324be> <https:
 
 # Class: <https://purl.org/doves/b273e6c7-4b77-4244-8e80-f9b2f2ac864d> (Child boy person)
 
+AnnotationAssertion(obo:IAO_0000115 <https://purl.org/doves/b273e6c7-4b77-4244-8e80-f9b2f2ac864d> "A Child Boy Person is a Person who is male and of the Child Age Group.")
 AnnotationAssertion(rdfs:label <https://purl.org/doves/b273e6c7-4b77-4244-8e80-f9b2f2ac864d> "Child boy person"@en)
 EquivalentClasses(<https://purl.org/doves/b273e6c7-4b77-4244-8e80-f9b2f2ac864d> ObjectIntersectionOf(<https://purl.org/doves/01d40506-2d2f-4237-a87b-229e268c2f14> ObjectSomeValuesFrom(<https://purl.org/doves/e352e4b8-9c80-45f1-a877-a397b5b33cc1> <https://purl.org/doves/6f732e5a-3cb8-47b2-a83e-7e7d24512e77>) ObjectSomeValuesFrom(<https://purl.org/doves/4b61e411-782f-4ccd-9f96-ba45caef73b6> <https://purl.org/doves/967da42d-4ea7-43a6-9ac1-39ec98083995>)))
 
@@ -2087,6 +2095,7 @@ SubClassOf(<https://purl.org/doves/b4dfc8ef-6118-472c-a2f1-957eaa14dc1e> <https:
 
 # Class: <https://purl.org/doves/b52b3a8f-db53-4261-b6a9-17a98841e791> (Neonate boy person)
 
+AnnotationAssertion(obo:IAO_0000115 <https://purl.org/doves/b52b3a8f-db53-4261-b6a9-17a98841e791> "A Neonate boy person is a Person who is male and of the Neonate Age Group.")
 AnnotationAssertion(rdfs:label <https://purl.org/doves/b52b3a8f-db53-4261-b6a9-17a98841e791> "Neonate boy person"@en)
 EquivalentClasses(<https://purl.org/doves/b52b3a8f-db53-4261-b6a9-17a98841e791> ObjectIntersectionOf(<https://purl.org/doves/01d40506-2d2f-4237-a87b-229e268c2f14> ObjectSomeValuesFrom(<https://purl.org/doves/e352e4b8-9c80-45f1-a877-a397b5b33cc1> <https://purl.org/doves/9597d5d0-d59c-47e9-808d-6827b75664ae>) ObjectSomeValuesFrom(<https://purl.org/doves/4b61e411-782f-4ccd-9f96-ba45caef73b6> <https://purl.org/doves/967da42d-4ea7-43a6-9ac1-39ec98083995>)))
 
@@ -2120,6 +2129,7 @@ SubClassOf(<https://purl.org/doves/bc6eb865-33bb-43b0-a9e4-b8c1545eca7b> <https:
 
 # Class: <https://purl.org/doves/bdce4b1c-c192-4384-b138-911ec298fd2f> (Child person)
 
+AnnotationAssertion(obo:IAO_0000115 <https://purl.org/doves/bdce4b1c-c192-4384-b138-911ec298fd2f> "A Child person is a Person of the Child Age Group.")
 AnnotationAssertion(rdfs:label <https://purl.org/doves/bdce4b1c-c192-4384-b138-911ec298fd2f> "Child person"@en)
 EquivalentClasses(<https://purl.org/doves/bdce4b1c-c192-4384-b138-911ec298fd2f> ObjectIntersectionOf(<https://purl.org/doves/01d40506-2d2f-4237-a87b-229e268c2f14> ObjectSomeValuesFrom(<https://purl.org/doves/e352e4b8-9c80-45f1-a877-a397b5b33cc1> <https://purl.org/doves/6f732e5a-3cb8-47b2-a83e-7e7d24512e77>)))
 
@@ -2451,11 +2461,13 @@ SubClassOf(<https://purl.org/doves/ecb2896b-027f-4dbb-b63c-d0a230014bb2> <https:
 
 # Class: <https://purl.org/doves/edd2c14b-bbc5-4eec-8c18-26acc71bcda5> (Female person)
 
+AnnotationAssertion(obo:IAO_0000115 <https://purl.org/doves/edd2c14b-bbc5-4eec-8c18-26acc71bcda5> "A Female person is a Person who is female.")
 AnnotationAssertion(rdfs:label <https://purl.org/doves/edd2c14b-bbc5-4eec-8c18-26acc71bcda5> "Female person"@en)
 EquivalentClasses(<https://purl.org/doves/edd2c14b-bbc5-4eec-8c18-26acc71bcda5> ObjectIntersectionOf(<https://purl.org/doves/01d40506-2d2f-4237-a87b-229e268c2f14> ObjectSomeValuesFrom(<https://purl.org/doves/4b61e411-782f-4ccd-9f96-ba45caef73b6> <https://purl.org/doves/7d739656-06a3-4b6c-96c2-52e6b45bc838>)))
 
 # Class: <https://purl.org/doves/ee861978-0ba8-4b2c-a1f9-855683af0cac> (Adolescent boy person)
 
+AnnotationAssertion(obo:IAO_0000115 <https://purl.org/doves/ee861978-0ba8-4b2c-a1f9-855683af0cac> "An adolescent boy person is a Person who is male and is of the Adolescent Age Group")
 AnnotationAssertion(rdfs:label <https://purl.org/doves/ee861978-0ba8-4b2c-a1f9-855683af0cac> "Adolescent boy person"@en)
 EquivalentClasses(<https://purl.org/doves/ee861978-0ba8-4b2c-a1f9-855683af0cac> ObjectIntersectionOf(<https://purl.org/doves/01d40506-2d2f-4237-a87b-229e268c2f14> ObjectSomeValuesFrom(<https://purl.org/doves/e352e4b8-9c80-45f1-a877-a397b5b33cc1> <http://purl.org/doves/a61dbcd2_0d2c_4269_a9dd_c34cb9fd5965>) ObjectSomeValuesFrom(<https://purl.org/doves/4b61e411-782f-4ccd-9f96-ba45caef73b6> <https://purl.org/doves/967da42d-4ea7-43a6-9ac1-39ec98083995>)))
 
@@ -2478,6 +2490,7 @@ SubClassOf(<https://purl.org/doves/efd50c0f-cb79-46f8-9266-1d6afed04248> <https:
 
 # Class: <https://purl.org/doves/f13faa32-33d2-48c3-b9ce-9e0279af659c> (Adolescent person)
 
+AnnotationAssertion(obo:IAO_0000115 <https://purl.org/doves/f13faa32-33d2-48c3-b9ce-9e0279af659c> "An Adolescent person is a Person who is of the Adolescent Age Group.")
 AnnotationAssertion(rdfs:label <https://purl.org/doves/f13faa32-33d2-48c3-b9ce-9e0279af659c> "Adolescent person"@en)
 EquivalentClasses(<https://purl.org/doves/f13faa32-33d2-48c3-b9ce-9e0279af659c> ObjectIntersectionOf(<https://purl.org/doves/01d40506-2d2f-4237-a87b-229e268c2f14> ObjectSomeValuesFrom(<https://purl.org/doves/e352e4b8-9c80-45f1-a877-a397b5b33cc1> <http://purl.org/doves/a61dbcd2_0d2c_4269_a9dd_c34cb9fd5965>)))
 
@@ -2569,7 +2582,7 @@ SubClassOf(<https://purl.org/doves/f7effc2c-2d5b-405d-840e-9f83b47f3875> <https:
 # Class: <https://purl.org/doves/f8c83883-9b87-4aa7-9406-6e361358faea> (Adult person)
 
 AnnotationAssertion(rdfs:label <https://purl.org/doves/f8c83883-9b87-4aa7-9406-6e361358faea> "Adult person"@en)
-AnnotationAssertion(skos:definition <https://purl.org/doves/f8c83883-9b87-4aa7-9406-6e361358faea> "A person that is in the adult age group"^^xsd:string)
+AnnotationAssertion(skos:definition <https://purl.org/doves/f8c83883-9b87-4aa7-9406-6e361358faea> "An Adult Person is a Person that is in the Adult Age Group"^^xsd:string)
 EquivalentClasses(<https://purl.org/doves/f8c83883-9b87-4aa7-9406-6e361358faea> ObjectIntersectionOf(<https://purl.org/doves/01d40506-2d2f-4237-a87b-229e268c2f14> ObjectSomeValuesFrom(<https://purl.org/doves/e352e4b8-9c80-45f1-a877-a397b5b33cc1> <https://purl.org/doves/f8c83883-9b87-4aa7-9406-6e361358faea>)))
 
 # Class: <https://purl.org/doves/f921a0bd-b02b-446a-a2c9-6e4a80e8122c> (Non-Patient Appointment Scheduling Feature)
@@ -2669,6 +2682,7 @@ SubClassOf(<https://purl.org/doves/0b7a7c80-8dcc-4597-b980-cd04efe70a78> <https:
 
 # Class: <https://purl.org/doves/0b869525-4011-41c4-b250-c261f0a2a2c9> (Adult female person)
 
+AnnotationAssertion(obo:IAO_0000115 <https://purl.org/doves/0b869525-4011-41c4-b250-c261f0a2a2c9> "An Adolescent female person is a Person who is of the Adolescent Age Group and of the female gender.")
 AnnotationAssertion(rdfs:label <https://purl.org/doves/0b869525-4011-41c4-b250-c261f0a2a2c9> "Adult female person"@en)
 EquivalentClasses(<https://purl.org/doves/0b869525-4011-41c4-b250-c261f0a2a2c9> ObjectIntersectionOf(<https://purl.org/doves/01d40506-2d2f-4237-a87b-229e268c2f14> ObjectSomeValuesFrom(<https://purl.org/doves/e352e4b8-9c80-45f1-a877-a397b5b33cc1> <http://purl.org/doves/0b28937e_45cc_4f6f_b7d5_2d9ae70f61a0>) ObjectSomeValuesFrom(<https://purl.org/doves/4b61e411-782f-4ccd-9f96-ba45caef73b6> <https://purl.org/doves/edd2c14b-bbc5-4eec-8c18-26acc71bcda5>)))
 
@@ -2716,6 +2730,7 @@ SubClassOf(<https://purl.org/doves/0f628b08-c7ca-425d-9a96-a609e72e49c2> <https:
 
 # Class: <https://purl.org/doves/01d40506-2d2f-4237-a87b-229e268c2f14> (Person)
 
+AnnotationAssertion(obo:IAO_0000115 <https://purl.org/doves/01d40506-2d2f-4237-a87b-229e268c2f14> "A Person is a Refining Value defined as an individual human being.")
 AnnotationAssertion(rdfs:label <https://purl.org/doves/01d40506-2d2f-4237-a87b-229e268c2f14> "Person"@en)
 SubClassOf(<https://purl.org/doves/01d40506-2d2f-4237-a87b-229e268c2f14> <https://purl.org/doves/78ceb509-e44b-4d8c-bd47-b457f9d835cb>)
 SubClassOf(<https://purl.org/doves/01d40506-2d2f-4237-a87b-229e268c2f14> ObjectSomeValuesFrom(<https://purl.org/doves/e352e4b8-9c80-45f1-a877-a397b5b33cc1> <https://purl.org/doves/d7fdedbd-6d0d-4d67-bd98-03f4c80c944b>))
@@ -3181,6 +3196,7 @@ SubClassOf(<https://purl.org/doves/5c44579d-006c-48b4-ab82-2f57b38c2e3c> <https:
 
 # Class: <https://purl.org/doves/5c9975e9-77a7-46a2-858a-c859ef7e34ec> (Neonatal person)
 
+AnnotationAssertion(obo:IAO_0000115 <https://purl.org/doves/5c9975e9-77a7-46a2-858a-c859ef7e34ec> "A Neonatal person is a Person who is of the Neonate Age Group.")
 AnnotationAssertion(rdfs:label <https://purl.org/doves/5c9975e9-77a7-46a2-858a-c859ef7e34ec> "Neonatal person"@en)
 EquivalentClasses(<https://purl.org/doves/5c9975e9-77a7-46a2-858a-c859ef7e34ec> ObjectIntersectionOf(<https://purl.org/doves/01d40506-2d2f-4237-a87b-229e268c2f14> ObjectSomeValuesFrom(<https://purl.org/doves/e352e4b8-9c80-45f1-a877-a397b5b33cc1> <https://purl.org/doves/9597d5d0-d59c-47e9-808d-6827b75664ae>)))
 
@@ -3358,6 +3374,7 @@ SubClassOf(<https://purl.org/doves/65fb3268-8c4a-4718-ab02-57a0f43a9c3d> <https:
 
 # Class: <https://purl.org/doves/653ff95b-ac79-4656-a8c1-3bb52f74d8a3> (Child girl person)
 
+AnnotationAssertion(obo:IAO_0000115 <https://purl.org/doves/653ff95b-ac79-4656-a8c1-3bb52f74d8a3> "A Child girl person is a Person who is female and of the Child Age Group.")
 AnnotationAssertion(rdfs:label <https://purl.org/doves/653ff95b-ac79-4656-a8c1-3bb52f74d8a3> "Child girl person"@en)
 EquivalentClasses(<https://purl.org/doves/653ff95b-ac79-4656-a8c1-3bb52f74d8a3> ObjectIntersectionOf(<https://purl.org/doves/01d40506-2d2f-4237-a87b-229e268c2f14> ObjectSomeValuesFrom(<https://purl.org/doves/e352e4b8-9c80-45f1-a877-a397b5b33cc1> <https://purl.org/doves/6f732e5a-3cb8-47b2-a83e-7e7d24512e77>) ObjectSomeValuesFrom(<https://purl.org/doves/4b61e411-782f-4ccd-9f96-ba45caef73b6> <https://purl.org/doves/edd2c14b-bbc5-4eec-8c18-26acc71bcda5>)))
 
@@ -3368,6 +3385,7 @@ SubClassOf(<https://purl.org/doves/657b9d62-19a9-4e32-a7d3-677a72ee4a6e> <https:
 
 # Class: <https://purl.org/doves/67a19612-dc87-48c2-89c6-8c0636e1fa88> (Neonate girl person)
 
+AnnotationAssertion(obo:IAO_0000115 <https://purl.org/doves/67a19612-dc87-48c2-89c6-8c0636e1fa88> "A Neonate girl person is a Person who is female and of the Neonate Age Group.")
 AnnotationAssertion(rdfs:label <https://purl.org/doves/67a19612-dc87-48c2-89c6-8c0636e1fa88> "Neonate girl person"@en)
 EquivalentClasses(<https://purl.org/doves/67a19612-dc87-48c2-89c6-8c0636e1fa88> ObjectIntersectionOf(<https://purl.org/doves/01d40506-2d2f-4237-a87b-229e268c2f14> ObjectSomeValuesFrom(<https://purl.org/doves/e352e4b8-9c80-45f1-a877-a397b5b33cc1> <https://purl.org/doves/9597d5d0-d59c-47e9-808d-6827b75664ae>) ObjectSomeValuesFrom(<https://purl.org/doves/4b61e411-782f-4ccd-9f96-ba45caef73b6> <https://purl.org/doves/edd2c14b-bbc5-4eec-8c18-26acc71bcda5>)))
 
@@ -3718,6 +3736,7 @@ SubClassOf(<https://purl.org/doves/9f90a5e3-6d96-4127-bcff-143c2831b5bc> <https:
 
 # Class: <https://purl.org/doves/90f9964d-9699-4ca6-b902-b90dca606701> (Adult male person)
 
+AnnotationAssertion(obo:IAO_0000115 <https://purl.org/doves/90f9964d-9699-4ca6-b902-b90dca606701> "An Adolescent male person is a Person who is of the Adolescent Age Group and of the male gender.")
 AnnotationAssertion(rdfs:label <https://purl.org/doves/90f9964d-9699-4ca6-b902-b90dca606701> "Adult male person"@en)
 EquivalentClasses(<https://purl.org/doves/90f9964d-9699-4ca6-b902-b90dca606701> ObjectIntersectionOf(<https://purl.org/doves/01d40506-2d2f-4237-a87b-229e268c2f14> ObjectSomeValuesFrom(<https://purl.org/doves/e352e4b8-9c80-45f1-a877-a397b5b33cc1> <http://purl.org/doves/0b28937e_45cc_4f6f_b7d5_2d9ae70f61a0>) ObjectSomeValuesFrom(<https://purl.org/doves/4b61e411-782f-4ccd-9f96-ba45caef73b6> <https://purl.org/doves/967da42d-4ea7-43a6-9ac1-39ec98083995>)))
 
@@ -3768,6 +3787,7 @@ SubClassOf(<https://purl.org/doves/96a7fd52-c1f4-431d-872d-f4b420977a36> <https:
 
 # Class: <https://purl.org/doves/967da42d-4ea7-43a6-9ac1-39ec98083995> (Male person)
 
+AnnotationAssertion(obo:IAO_0000115 <https://purl.org/doves/967da42d-4ea7-43a6-9ac1-39ec98083995> "A male person is a Person who is male.")
 AnnotationAssertion(rdfs:label <https://purl.org/doves/967da42d-4ea7-43a6-9ac1-39ec98083995> "Male person"@en)
 EquivalentClasses(<https://purl.org/doves/967da42d-4ea7-43a6-9ac1-39ec98083995> ObjectIntersectionOf(<https://purl.org/doves/01d40506-2d2f-4237-a87b-229e268c2f14> ObjectSomeValuesFrom(<https://purl.org/doves/4b61e411-782f-4ccd-9f96-ba45caef73b6> <https://purl.org/doves/3e2dd533-3e2d-4d1a-a752-570ccebe9fa1>)))
 
