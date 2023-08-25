@@ -813,6 +813,7 @@ SubClassOf(<http://purl.org/doves/doves-ontology#Ambulatory> <http://purl.org/do
 
 # Class: <http://purl.org/doves/doves-ontology#American_Indian_or_Alaska_Native> (American Indian or Alaska Native)
 
+AnnotationAssertion(obo:IAO_0000115 <http://purl.org/doves/doves-ontology#American_Indian_or_Alaska_Native> "American Indian or Alaska Native is a Race referring to a person having origins in any of the original peoples of North and South America (including Central America) and who maintains tribal affiliation or community attachment. Source: https://www.census.gov/history/pdf/c2010br-10.pdf")
 AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#American_Indian_or_Alaska_Native> "American Indian or Alaska Native")
 SubClassOf(<http://purl.org/doves/doves-ontology#American_Indian_or_Alaska_Native> <http://purl.org/doves/doves-ontology#Race>)
 
@@ -842,6 +843,7 @@ SubClassOf(<http://purl.org/doves/doves-ontology#Area_Under_the_Curve> <https://
 
 # Class: <http://purl.org/doves/doves-ontology#Asian> (<http://purl.org/doves/doves-ontology#Asian>)
 
+AnnotationAssertion(obo:IAO_0000115 <http://purl.org/doves/doves-ontology#Asian> "Asian is a Race defined as a person whose origins are in any of the original populations of the Far East, Southeast Asia, or the Indian subcontinent, including, for example, Cambodia, China, India, Japan, Korea, Malaysia, Pakistan, the Philippines, Thailand, and Vietnam. Source: https://www.nih.gov/nih-style-guide/race-national-origin#:~:text=Asian%2C%20Asian%20American,Philippines%2C%20Thailand%2C%20and%20Vietnam.")
 SubClassOf(<http://purl.org/doves/doves-ontology#Asian> <http://purl.org/doves/doves-ontology#Race>)
 
 # Class: <http://purl.org/doves/doves-ontology#Bed_Control_Outcome> (Bed Control Outcome)
@@ -863,6 +865,7 @@ SubClassOf(<http://purl.org/doves/doves-ontology#Biofeedback_Technology> <https:
 
 # Class: <http://purl.org/doves/doves-ontology#Black_or_African_American> (Black or African American)
 
+AnnotationAssertion(obo:IAO_0000115 <http://purl.org/doves/doves-ontology#Black_or_African_American> "Black or African American is a Race defined as a person whose origins are in any of the Black racial groups of Africa. If appropriate, specific terms such as Haitian or Nigerian may also be used. Black is broader and more inclusive than African American. Source: https://www.nih.gov/nih-style-guide/race-national-origin#:~:text=Asian%2C%20Asian%20American,Philippines%2C%20Thailand%2C%20and%20Vietnam.")
 AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Black_or_African_American> "Black or African American")
 SubClassOf(<http://purl.org/doves/doves-ontology#Black_or_African_American> <http://purl.org/doves/doves-ontology#Race>)
 
@@ -999,8 +1002,9 @@ AnnotationAssertion(obo:IAO_0000115 <http://purl.org/doves/doves-ontology#Dietar
 AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Dietary_Adherence_Outcome> "Dietary Adherence Outcome")
 SubClassOf(<http://purl.org/doves/doves-ontology#Dietary_Adherence_Outcome> <http://purl.org/doves/doves-ontology#Lifestyle_Adherence_Outcome>)
 
-# Class: <http://purl.org/doves/doves-ontology#Digital_Health_Application> (<http://purl.org/doves/doves-ontology#Digital_Health_Application>)
+# Class: <http://purl.org/doves/doves-ontology#Digital_Health_Application> (Digital Health Application)
 
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Digital_Health_Application> "Digital Health Application")
 SubClassOf(<http://purl.org/doves/doves-ontology#Digital_Health_Application> <http://purl.org/doves/doves-ontology#Regulatory_Category>)
 
 # Class: <http://purl.org/doves/doves-ontology#Digital_Health_Assessment_Framework_Certification_Outcome> (digital medicine Assessment Framework (DHAF) Certification Outcome)
@@ -1030,8 +1034,9 @@ Technical Security & Stability
 "@en)
 SubClassOf(<http://purl.org/doves/doves-ontology#Digital_Health_Assessment_Framework_Certification_Outcome> <http://purl.org/doves/doves-ontology#Digital_Medicine_Assessment_Certification_Outcome>)
 
-# Class: <http://purl.org/doves/doves-ontology#Digital_Medicine_Application> (<http://purl.org/doves/doves-ontology#Digital_Medicine_Application>)
+# Class: <http://purl.org/doves/doves-ontology#Digital_Medicine_Application> (Digital Medicine Application)
 
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Digital_Medicine_Application> "Digital Medicine Application")
 SubClassOf(<http://purl.org/doves/doves-ontology#Digital_Medicine_Application> <http://purl.org/doves/doves-ontology#Regulatory_Category>)
 
 # Class: <http://purl.org/doves/doves-ontology#Digital_Medicine_Assessment_Certification_Outcome> (Digital Medicine Assessment Certification Outcome)
@@ -1102,21 +1107,25 @@ SubClassOf(<http://purl.org/doves/doves-ontology#Exercise_Adherence_outcome> <ht
 
 # Class: <http://purl.org/doves/doves-ontology#FDA> (FDA Approval)
 
+AnnotationAssertion(obo:IAO_0000115 <http://purl.org/doves/doves-ontology#FDA> "FDA Approval is a Regulatory Approval indicating that the Food and Drug Administation (FDA) of the United States indicating that agency has determined that the benefits of the product outweigh the risks for the intended use. Source: https://www.fda.gov/consumers/consumer-updates/it-really-fda-approved")
 AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#FDA> "FDA Approval")
 SubClassOf(<http://purl.org/doves/doves-ontology#FDA> <http://purl.org/doves/doves-ontology#Regulatory_Approval>)
 
 # Class: <http://purl.org/doves/doves-ontology#FDA_Approved> (FDA Approved)
 
+AnnotationAssertion(obo:IAO_0000115 <http://purl.org/doves/doves-ontology#FDA_Approved> "FDA Approved is an FDA Approval category meaning a product is determined by the agency to be safe and effective for the intended use, and that it can be manufactured to federal quality standards. If the FDA grants an approval, it means the agency has determined that the benefits of the product outweigh the risks for the intended use. Source: https://www.fda.gov/consumers/consumer-updates/it-really-fda-approved")
 AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#FDA_Approved> "FDA Approved")
 SubClassOf(<http://purl.org/doves/doves-ontology#FDA_Approved> <http://purl.org/doves/doves-ontology#FDA>)
 
 # Class: <http://purl.org/doves/doves-ontology#FDA_Cleared> (FDA Cleared)
 
+AnnotationAssertion(obo:IAO_0000115 <http://purl.org/doves/doves-ontology#FDA_Cleared> "FDA Cleared is a FDA Approval category indicating that the FDA has allowed a product to go to market through the 510(k) process based on substantial equivalence to a legally marketed predicate device. \"FDA Cleared\" is a lower standard than \"FDA Approved\", and in many cases the product is cleared because it is similar to an existing product, rather than that it has passed rigorous independent safety trials.")
 AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#FDA_Cleared> "FDA Cleared")
 SubClassOf(<http://purl.org/doves/doves-ontology#FDA_Cleared> <http://purl.org/doves/doves-ontology#FDA>)
 
 # Class: <http://purl.org/doves/doves-ontology#FDA_Granted> (FDA Granted)
 
+AnnotationAssertion(obo:IAO_0000115 <http://purl.org/doves/doves-ontology#FDA_Granted> "FDA Granted is an FDA Approval category describing medical devices using the De Novo process that are Granted approval by FDA before they can be legally marketed in the United States.")
 AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#FDA_Granted> "FDA Granted")
 SubClassOf(<http://purl.org/doves/doves-ontology#FDA_Granted> <http://purl.org/doves/doves-ontology#FDA>)
 
@@ -1421,6 +1430,7 @@ SubClassOf(<http://purl.org/doves/doves-ontology#Musculoskeletal_Control_Outcome
 
 # Class: <http://purl.org/doves/doves-ontology#Native_Hawaiian_or_Other_Pacific_Islander> (Native Hawaiian or Other Pacific Islander)
 
+AnnotationAssertion(obo:IAO_0000115 <http://purl.org/doves/doves-ontology#Native_Hawaiian_or_Other_Pacific_Islander> "Native Hawaiian of Other Pacific Islander is a Race defined as a person who traces their lineage and language to Polynesians, including Tahitians, Maoris and Samoans, or to one of eight groups—Fijian, Guamanian, Hawaiian, Northern Mariana Islander, Palauan, Samoan, Tahitian and Tongan respectively. Source: https://www.nih.gov/nih-style-guide/race-national-origin#:~:text=Asian%2C%20Asian%20American,Philippines%2C%20Thailand%2C%20and%20Vietnam.")
 AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Native_Hawaiian_or_Other_Pacific_Islander> "Native Hawaiian or Other Pacific Islander")
 SubClassOf(<http://purl.org/doves/doves-ontology#Native_Hawaiian_or_Other_Pacific_Islander> <http://purl.org/doves/doves-ontology#Race>)
 
@@ -1572,11 +1582,13 @@ SubClassOf(<http://purl.org/doves/doves-ontology#Reduction_in_Falls_Outcome> <ht
 
 # Class: <http://purl.org/doves/doves-ontology#Regulatory_Approval> (Regulatory Approval)
 
+AnnotationAssertion(obo:IAO_0000115 <http://purl.org/doves/doves-ontology#Regulatory_Approval> "Regulatory Approval is a Refining Value that refers to government regulated approval for safety and efficacy of a digital medicine application or software as a medical device.")
 AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Regulatory_Approval> "Regulatory Approval")
 SubClassOf(<http://purl.org/doves/doves-ontology#Regulatory_Approval> <https://purl.org/doves/78ceb509-e44b-4d8c-bd47-b457f9d835cb>)
 
-# Class: <http://purl.org/doves/doves-ontology#Regulatory_Category> (<http://purl.org/doves/doves-ontology#Regulatory_Category>)
+# Class: <http://purl.org/doves/doves-ontology#Regulatory_Category> (Regulatory Category)
 
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Regulatory_Category> "Regulatory Category")
 SubClassOf(<http://purl.org/doves/doves-ontology#Regulatory_Category> <https://purl.org/doves/78ceb509-e44b-4d8c-bd47-b457f9d835cb>)
 
 # Class: <http://purl.org/doves/doves-ontology#Resource_Utilization_Outcome> (Resource Utilization Outcome)
@@ -1649,6 +1661,7 @@ SubClassOf(<http://purl.org/doves/doves-ontology#Smoking_Cessation_Adherence_Out
 
 # Class: <http://purl.org/doves/doves-ontology#Some_Other_Race> (Some Other Race)
 
+AnnotationAssertion(obo:IAO_0000115 <http://purl.org/doves/doves-ontology#Some_Other_Race> "Some Other Race is a Race defined by exlcusion as none of the other categories of Race.")
 AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Some_Other_Race> "Some Other Race")
 SubClassOf(<http://purl.org/doves/doves-ontology#Some_Other_Race> <http://purl.org/doves/doves-ontology#Race>)
 
@@ -1745,6 +1758,7 @@ SubClassOf(<http://purl.org/doves/doves-ontology#Weight_Control_Outcome> <http:/
 
 # Class: <http://purl.org/doves/doves-ontology#White> (<http://purl.org/doves/doves-ontology#White>)
 
+AnnotationAssertion(obo:IAO_0000115 <http://purl.org/doves/doves-ontology#White> "White is a Race defined as a person whose origins are in any of the original peoples of Europe, the Middle East, or North Africa. Source: https://www.nih.gov/nih-style-guide/race-national-origin#white")
 SubClassOf(<http://purl.org/doves/doves-ontology#White> <http://purl.org/doves/doves-ontology#Race>)
 
 # Class: <http://purl.org/doves/doves-ontology#Work_Productivity_and_Activity> (Work Productivity and Activity Outcome)
@@ -1806,6 +1820,7 @@ SubClassOf(<http://purl.org/doves/doves-ontology#Chronic_Respiratory_Disease_Que
 
 # Class: <http://purl.org/doves/doves-ontology#Conformite_Europeenne_(CE)> (Conformite Europeenne (CE) Approval)
 
+AnnotationAssertion(obo:IAO_0000115 <http://purl.org/doves/doves-ontology#Conformite_Europeenne_(CE)> "CE Approval (or CE Marking) is a Refining Value indicating that products sold in the European Economic Area have been assessed to meet high safety, health, and environmental protection requirements. Source: https://single-market-economy.ec.europa.eu/single-market/ce-marking_en")
 AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Conformite_Europeenne_(CE)> "Conformite Europeenne (CE) Approval")
 SubClassOf(<http://purl.org/doves/doves-ontology#Conformite_Europeenne_(CE)> <http://purl.org/doves/doves-ontology#Regulatory_Approval>)
 
