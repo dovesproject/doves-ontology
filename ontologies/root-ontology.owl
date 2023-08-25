@@ -99,6 +99,7 @@ Declaration(Class(<http://purl.org/doves/doves-ontology#FDA_Granted>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Family_and_Caregiver_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Five_Year_Survival_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Formulary_Transparency_Outcome>))
+Declaration(Class(<http://purl.org/doves/doves-ontology#Friend_or_Peer_Role>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#GDPR_Compliance_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#HEDIS_Diabetes_Blood_Pressure_Control_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#HEDIS_Diabetic_Nephropathy_Screening_Outcome>))
@@ -142,7 +143,9 @@ Declaration(Class(<http://purl.org/doves/doves-ontology#Insomnia_Symptom_Control
 Declaration(Class(<http://purl.org/doves/doves-ontology#Intesive_Care_Unit>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Irritable_Bowel_Syndrome_Symptom_Control_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Lifestyle_Adherence_Outcome>))
+Declaration(Class(<http://purl.org/doves/doves-ontology#Long_Term_Care_Hospital>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Machine_Learning_Technology>))
+Declaration(Class(<http://purl.org/doves/doves-ontology#Medical_Surgical_Unit>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Middle-Age_Age_Group>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Modified_Ambulatory_Care_Encounter_Rate_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Modified_Procedural_Encounter_Outcome>))
@@ -152,11 +155,15 @@ Declaration(Class(<http://purl.org/doves/doves-ontology#Native_Hawaiian_or_Other
 Declaration(Class(<http://purl.org/doves/doves-ontology#Night_Sweat_Control>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Not_Hispanic_or_Latino>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Number_of_Downtime_Events>))
+Declaration(Class(<http://purl.org/doves/doves-ontology#Occupational_Therapist_Role>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Offline_Availability_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Older_Adult_Age_Group>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Pain_Control_Outcome>))
+Declaration(Class(<http://purl.org/doves/doves-ontology#Patient_Appointment_Non-Self-Scheduling_Capability>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Patient_Socioeconomic_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Percent_of_Issues_Open_Outcome>))
+Declaration(Class(<http://purl.org/doves/doves-ontology#Pharmacist_Role>))
+Declaration(Class(<http://purl.org/doves/doves-ontology#Physical_Therapist_Role>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Pittsburgh_Sleep_Quality_Index>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Pittsburgh_Sleep_Quality_Index_Addendum_for_PTSD>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Prescription_Digital_Therapeutic_Application>))
@@ -164,6 +171,7 @@ Declaration(Class(<http://purl.org/doves/doves-ontology#Progression_Free_Surviva
 Declaration(Class(<http://purl.org/doves/doves-ontology#Proportion_of_Days_Covered_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Proportion_of_Days_Per_Month_of_Medication_Use_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Proportion_of_Images_Gradable_by_Algorithm_Outcome>))
+Declaration(Class(<http://purl.org/doves/doves-ontology#Psychologist_Role>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Race>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Reduced_Calendar_Year_Total_Cost_of_Care_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Reduced_Hypertensive_Emergency_Outcome>))
@@ -195,6 +203,7 @@ Declaration(Class(<http://purl.org/doves/doves-ontology#Technical_Certification_
 Declaration(Class(<http://purl.org/doves/doves-ontology#Time_in_Automation_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Time_to_Talk_to_a_Human_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Toddler_Age_Group>))
+Declaration(Class(<http://purl.org/doves/doves-ontology#Transitional_Care_Unit>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Treatment_Adherence_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Turnaround_Time_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Type_2_Diabetes_Distress_Scale>))
@@ -425,7 +434,6 @@ Declaration(Class(<https://purl.org/doves/3cf66fed-b3a2-4973-8778-aedf493e96c0>)
 Declaration(Class(<https://purl.org/doves/3d59b32e-e247-44e4-a69c-1c704af0c574>))
 Declaration(Class(<https://purl.org/doves/3e2dd533-3e2d-4d1a-a752-570ccebe9fa1>))
 Declaration(Class(<https://purl.org/doves/30d8c4b2-30d1-44bb-9903-f64acf72cbb0>))
-Declaration(Class(<https://purl.org/doves/3002baf7-d232-4c53-8fd6-42475c802599>))
 Declaration(Class(<https://purl.org/doves/34b6e0c7-74aa-4c1b-9832-92701e4238cb>))
 Declaration(Class(<https://purl.org/doves/360937f7-f234-49f5-9783-73abd2409d9c>))
 Declaration(Class(<https://purl.org/doves/37a002b3-8eec-4341-b3d0-6ccb97d8e42d>))
@@ -433,7 +441,6 @@ Declaration(Class(<https://purl.org/doves/3781adc3-8d90-49e5-82d9-bb7186db46e8>)
 Declaration(Class(<https://purl.org/doves/38552094-2ddf-4e81-b33d-080f5b904cd7>))
 Declaration(Class(<https://purl.org/doves/386d296c-279d-486b-a316-c8c08390cfd3>))
 Declaration(Class(<https://purl.org/doves/4ac898a5-abf6-4bfa-bb64-8d57dddd0dce>))
-Declaration(Class(<https://purl.org/doves/4d6d76b2-faab-4560-bfef-63c1436f2f4e>))
 Declaration(Class(<https://purl.org/doves/4dcb77b8-51f4-4b3a-8a61-a4dd9e2c72ae>))
 Declaration(Class(<https://purl.org/doves/4df28317-0241-45a9-b39a-69ef066fd4d5>))
 Declaration(Class(<https://purl.org/doves/4e10ca8c-ec8b-4953-b2d5-cbeee634f6fe>))
@@ -797,8 +804,13 @@ AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#ACL_Title_I
 AnnotationAssertion(skos:definition <http://purl.org/doves/doves-ontology#ACL_Title_III-D_Evidence-Based_Program_Certification> "The Administration for Community Living (ACL) Evidence-Based Program Certification is a certification that a given program meets the criteria for evidence, as funded through the Older Americans Act (OA) Title III-D. https://www.ncoa.org/article/apply-to-become-an-evidence-based-program")
 SubClassOf(<http://purl.org/doves/doves-ontology#ACL_Title_III-D_Evidence-Based_Program_Certification> <https://purl.org/doves/42032214-7b35-46e0-98f9-cd903d8fd464>)
 
-# Class: <http://purl.org/doves/doves-ontology#Acute_Rehabilitation_Facility> (<http://purl.org/doves/doves-ontology#Acute_Rehabilitation_Facility>)
+# Class: <http://purl.org/doves/doves-ontology#Acute_Rehabilitation_Facility> (Acute Rehabilitation Facility Setting)
 
+AnnotationAssertion(obo:IAO_0000115 <http://purl.org/doves/doves-ontology#Acute_Rehabilitation_Facility> "Acute Rehabilitation Facility is a Setting in which a digital medicine or digital therapeutic applicaiton may be used. Acute rehabilitation is a program, usually based in a hospital, that helps people who have experienced some major injury, disorder or illness to regain the skills needed to return to everyday living. Using a multidisciplinary team approach, the inpatient rehabilitation program covers everything from regaining the ability to walk after an amputation, to talking after a stroke, to being able to safely take daily medications after a serious illness. Rehabilitation can be used to retrain a person on the basics of activities of daily living or may be used to help an elderly person recover from a fall.
+
+Inpatient rehabilitation hospitals/units are licensed and certified facilities, which primarily promote special rehabilitative health care services rather than general medical and surgical services. Rehabilitation is defined as restoration of a disabled person to self-sufficiency or maximal possible functional independence. An inpatient rehabilitation program utilizes an inter-disciplinary coordinated team approach that involves a minimum of three (3) hours rehabilitation services daily. These services may include physical therapy, occupational therapy, speech therapy, cognitive therapy, respiratory therapy, psychology services, prosthetic/orthotic services, or a combination thereof. 
+Source: https://www.thepatientchoice.com/elderly-care-facilities/what-are-acute-care-rehab-facilities/")
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Acute_Rehabilitation_Facility> "Acute Rehabilitation Facility Setting")
 SubClassOf(<http://purl.org/doves/doves-ontology#Acute_Rehabilitation_Facility> <http://purl.org/doves/doves-ontology#Setting>)
 
 # Class: <http://purl.org/doves/doves-ontology#Alcohol_Use_Outcome> (Alcohol Use Outcome)
@@ -807,8 +819,11 @@ AnnotationAssertion(obo:IAO_0000115 <http://purl.org/doves/doves-ontology#Alcoho
 AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Alcohol_Use_Outcome> "Alcohol Use Outcome")
 SubClassOf(<http://purl.org/doves/doves-ontology#Alcohol_Use_Outcome> <http://purl.org/doves/doves-ontology#Lifestyle_Adherence_Outcome>)
 
-# Class: <http://purl.org/doves/doves-ontology#Ambulatory> (<http://purl.org/doves/doves-ontology#Ambulatory>)
+# Class: <http://purl.org/doves/doves-ontology#Ambulatory> (Ambulatory Setting)
 
+AnnotationAssertion(obo:IAO_0000115 <http://purl.org/doves/doves-ontology#Ambulatory> "Ambulatory Setting is a Setting for which a digital medicine or therapeutic product may be designed, and is described as a place of medical or surgical treatment in which a patient does not spend the night, including primary care settings and outpatient surgery centers.
+Source: https://www.sciencedirect.com/topics/social-sciences/outpatient-clinic")
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Ambulatory> "Ambulatory Setting")
 SubClassOf(<http://purl.org/doves/doves-ontology#Ambulatory> <http://purl.org/doves/doves-ontology#Setting>)
 
 # Class: <http://purl.org/doves/doves-ontology#American_Indian_or_Alaska_Native> (American Indian or Alaska Native)
@@ -860,6 +875,7 @@ SubClassOf(<http://purl.org/doves/doves-ontology#Best_Corrected_Visual_Acuity_Ou
 
 # Class: <http://purl.org/doves/doves-ontology#Biofeedback_Technology> (Biofeedback Technology)
 
+AnnotationAssertion(obo:IAO_0000115 <http://purl.org/doves/doves-ontology#Biofeedback_Technology> "Biofeedback Technology is a Technology defined as a process whereby electronic monitoring of a normally automatic bodily function is used to train someone to acquire voluntary control of that function. Source: Oxford Languages Dictionary")
 AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Biofeedback_Technology> "Biofeedback Technology")
 SubClassOf(<http://purl.org/doves/doves-ontology#Biofeedback_Technology> <https://purl.org/doves/894b0e16-237d-40f2-87f0-adaa02cab8c8>)
 
@@ -1004,6 +1020,7 @@ SubClassOf(<http://purl.org/doves/doves-ontology#Dietary_Adherence_Outcome> <htt
 
 # Class: <http://purl.org/doves/doves-ontology#Digital_Health_Application> (Digital Health Application)
 
+AnnotationAssertion(obo:IAO_0000115 <http://purl.org/doves/doves-ontology#Digital_Health_Application> "A Digital Health Application includes technologies, platforms, and systems that engage consumers for lifestyle, wellness, and health-related purposes; capture, store, or transmit health data; and/or support life science and clinical operations. Digital Health applications typically do not require clinical evidence, and do not meet the regulatory definition of a medical device and do not require regulatory oversight. Source: https://www.healthxl.com/blog/digital-health-digital-medicine-digital-therapeutics-dtx-whats-the-difference")
 AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Digital_Health_Application> "Digital Health Application")
 SubClassOf(<http://purl.org/doves/doves-ontology#Digital_Health_Application> <http://purl.org/doves/doves-ontology#Regulatory_Category>)
 
@@ -1034,9 +1051,9 @@ Technical Security & Stability
 "@en)
 SubClassOf(<http://purl.org/doves/doves-ontology#Digital_Health_Assessment_Framework_Certification_Outcome> <http://purl.org/doves/doves-ontology#Digital_Medicine_Assessment_Certification_Outcome>)
 
-# Class: <http://purl.org/doves/doves-ontology#Digital_Medicine_Application> (Digital Medicine Application)
+# Class: <http://purl.org/doves/doves-ontology#Digital_Medicine_Application> (Digital Medicine Applications include evidence-based software and/or hardware products that measure and/or intervene in the service of human health. Clinical evidence is required, and requirements for regulatory oversight vary. Digital medicine products that are classified as medical devices require clearance or approval. Digital medicine products used as a tool to develop other drugs, devices, or medical products require regulatory acceptance by the appropriate review division. Source: https://www.healthxl.com/blog/digital-health-digital-medicine-digital-therapeutics-dtx-whats-the-difference)
 
-AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Digital_Medicine_Application> "Digital Medicine Application")
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Digital_Medicine_Application> "Digital Medicine Applications include evidence-based software and/or hardware products that measure and/or intervene in the service of human health. Clinical evidence is required, and requirements for regulatory oversight vary. Digital medicine products that are classified as medical devices require clearance or approval. Digital medicine products used as a tool to develop other drugs, devices, or medical products require regulatory acceptance by the appropriate review division. Source: https://www.healthxl.com/blog/digital-health-digital-medicine-digital-therapeutics-dtx-whats-the-difference")
 SubClassOf(<http://purl.org/doves/doves-ontology#Digital_Medicine_Application> <http://purl.org/doves/doves-ontology#Regulatory_Category>)
 
 # Class: <http://purl.org/doves/doves-ontology#Digital_Medicine_Assessment_Certification_Outcome> (Digital Medicine Assessment Certification Outcome)
@@ -1055,7 +1072,7 @@ SubClassOf(<http://purl.org/doves/doves-ontology#Digital_Technology_Assessment_C
 
 # Class: <http://purl.org/doves/doves-ontology#Digital_Therapeutic_Application> (Digital Therapeutic Application)
 
-AnnotationAssertion(obo:IAO_0000115 <http://purl.org/doves/doves-ontology#Digital_Therapeutic_Application> "A digital Therapeutic Application is health software intended to treat or alleviate a disease, disorder, or injury by generating and delivering a medical intervention that has a demonstrable positive therapeutic impact on a patient's health. ISO /TR11147:2023(en)")
+AnnotationAssertion(obo:IAO_0000115 <http://purl.org/doves/doves-ontology#Digital_Therapeutic_Application> "A digital Therapeutic Application is health software intended to treat or alleviate a disease, disorder, or injury by generating and delivering a medical intervention that has a demonstrable positive therapeutic impact on a patient's health. ISO /TR11147:2023(en) It can also be considered to be a digital product that delivers evidence-based therapeutic intervention to prevent, manage, or treat a medical disorder or condition. Digital Therapeutic applications typically require clinical evidence and real world outcomes and must be reviewed and cleared by regulatory bodies as required to support product claims of risk, efficacy, and intended use. Source: https://www.healthxl.com/blog/digital-health-digital-medicine-digital-therapeutics-dtx-whats-the-difference")
 AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Digital_Therapeutic_Application> "Digital Therapeutic Application")
 SubClassOf(<http://purl.org/doves/doves-ontology#Digital_Therapeutic_Application> <http://purl.org/doves/doves-ontology#Regulatory_Category>)
 
@@ -1084,8 +1101,10 @@ AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Electronic_
 AnnotationAssertion(skos:definition <http://purl.org/doves/doves-ontology#Electronic_Health_Record_Integration_Outcome> "EHR Integration is a Refining Value that describes the types of electronic health record (EHR) platforms with which the digital health application integrates, including \"not applicable\" or \"none.\"")
 SubClassOf(<http://purl.org/doves/doves-ontology#Electronic_Health_Record_Integration_Outcome> <https://purl.org/doves/78ceb509-e44b-4d8c-bd47-b457f9d835cb>)
 
-# Class: <http://purl.org/doves/doves-ontology#Emergency_Department> (<http://purl.org/doves/doves-ontology#Emergency_Department>)
+# Class: <http://purl.org/doves/doves-ontology#Emergency_Department> (Emergency Department Setting)
 
+AnnotationAssertion(obo:IAO_0000115 <http://purl.org/doves/doves-ontology#Emergency_Department> "Emergency Department is a Setting for which a digital medicine or therapeutic product may be designed, and is described as a hospital facility that is staffed 24 hours a day, 7 days a week, and provides unscheduled outpatient services to patients whose condition requires immediate care. Source: https://www.cdc.gov/nchs/hus/sources-definitions/emergency-department.htm")
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Emergency_Department> "Emergency Department Setting")
 SubClassOf(<http://purl.org/doves/doves-ontology#Emergency_Department> <http://purl.org/doves/doves-ontology#Setting>)
 
 # Class: <http://purl.org/doves/doves-ontology#Employee_Burnout_Reduction_Outcome> (Healthcare Employee Burnout Reduction Outcome)
@@ -1146,6 +1165,12 @@ SubClassOf(<http://purl.org/doves/doves-ontology#Five_Year_Survival_Outcome> <ht
 AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Formulary_Transparency_Outcome> "Formulary Transparency Outcome"@en)
 AnnotationAssertion(skos:definition <http://purl.org/doves/doves-ontology#Formulary_Transparency_Outcome> "Formulary Transparency Outcome is a Patient/Family Education Outcome that reflects a digital medicine application's ability to make items on a formulary visible to patients and families."@en)
 SubClassOf(<http://purl.org/doves/doves-ontology#Formulary_Transparency_Outcome> <https://purl.org/doves/0323ba81-5b6f-417d-9829-263c5403582f>)
+
+# Class: <http://purl.org/doves/doves-ontology#Friend_or_Peer_Role> (Friend or Peer Role)
+
+AnnotationAssertion(obo:IAO_0000115 <http://purl.org/doves/doves-ontology#Friend_or_Peer_Role> "Friend or Peer Role is a Role describing a friend or peer of a patient as a user type of a digital medicine or digital therapeutic application.")
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Friend_or_Peer_Role> "Friend or Peer Role")
+SubClassOf(<http://purl.org/doves/doves-ontology#Friend_or_Peer_Role> <https://purl.org/doves/38552094-2ddf-4e81-b33d-080f5b904cd7>)
 
 # Class: <http://purl.org/doves/doves-ontology#GDPR_Compliance_Outcome> (GDPR Compliance Outcome)
 
@@ -1358,8 +1383,11 @@ AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Informed_Ou
 AnnotationAssertion(skos:definition <http://purl.org/doves/doves-ontology#Informed_Outcome> "The Informed Outcome is a Patient/Family Education Outcome that measures the degree to which the respondent feels informed about their medical care or treatment."@en)
 SubClassOf(<http://purl.org/doves/doves-ontology#Informed_Outcome> <https://purl.org/doves/0323ba81-5b6f-417d-9829-263c5403582f>)
 
-# Class: <http://purl.org/doves/doves-ontology#Inpatient> (<http://purl.org/doves/doves-ontology#Inpatient>)
+# Class: <http://purl.org/doves/doves-ontology#Inpatient> (Acute Care Hospital Setting)
 
+AnnotationAssertion(obo:IAO_0000115 <http://purl.org/doves/doves-ontology#Inpatient> "Acute Care Hospital is a Setting for which a digital medicine or therapeutic product may be designed, and is defined as a short-term hospital that
+has facilities, medical staff and all necessary personnel to provide diagnosis, care and treatment of a wide range of acute conditions, including injuries. Source: https://portal.ct.gov/-/media/OHS/ohca/HospitalStudy/HospTodaypdf.pdf?la=en")
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Inpatient> "Acute Care Hospital Setting")
 SubClassOf(<http://purl.org/doves/doves-ontology#Inpatient> <http://purl.org/doves/doves-ontology#Setting>)
 
 # Class: <http://purl.org/doves/doves-ontology#Insomnia_Control_Outcome> (Insomnia Control Outcome)
@@ -1377,8 +1405,10 @@ SubClassOf(<http://purl.org/doves/doves-ontology#Insomnia_Sign_Control_Outcome> 
 AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Insomnia_Symptom_Control_Outcome> "Improvement in Insomnia Symptom Control Outcome")
 SubClassOf(<http://purl.org/doves/doves-ontology#Insomnia_Symptom_Control_Outcome> <http://purl.org/doves/doves-ontology#Sleep_Disorder_Symptom_Scale>)
 
-# Class: <http://purl.org/doves/doves-ontology#Intesive_Care_Unit> (<http://purl.org/doves/doves-ontology#Intesive_Care_Unit>)
+# Class: <http://purl.org/doves/doves-ontology#Intesive_Care_Unit> (Intensive Care Unit (ICU))
 
+AnnotationAssertion(obo:IAO_0000115 <http://purl.org/doves/doves-ontology#Intesive_Care_Unit> "Intensive Care Unit is an Acute Care Hospital Setting defined as the setting in which care is provided to patients who are hospitalized and critically ill in which intensive and specialized medical and nursing care, an enhanced capacity for monitoring, and multiple modalities of physiologic organ support to sustain life during a period of life-threatening organ system insufficiency are available. Interventions may include but are not limited to invasive monitoring, ventilatory support, and vasopressor support. Source: https://pubmed.ncbi.nlm.nih.gov/27612678/")
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Intesive_Care_Unit> "Intensive Care Unit (ICU)")
 SubClassOf(<http://purl.org/doves/doves-ontology#Intesive_Care_Unit> <http://purl.org/doves/doves-ontology#Inpatient>)
 
 # Class: <http://purl.org/doves/doves-ontology#Irritable_Bowel_Syndrome_Symptom_Control_Outcome> (Irritable Bowel Syndrome Symptom Control Outcome)
@@ -1393,10 +1423,23 @@ AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Lifestyle_A
 AnnotationAssertion(skos:definition <http://purl.org/doves/doves-ontology#Lifestyle_Adherence_Outcome> "A Lifestyle Adherence Outcome is an Engagement and Adherence Outcome that describes adherence to lifestyle modifications including diet, exercise, smoking, alcohol consumption, etc."@en)
 SubClassOf(<http://purl.org/doves/doves-ontology#Lifestyle_Adherence_Outcome> <https://purl.org/doves/f70ac7b3-c718-4511-9f13-2f4ab13050b8>)
 
+# Class: <http://purl.org/doves/doves-ontology#Long_Term_Care_Hospital> (Long Term Care Hospital Setting)
+
+AnnotationAssertion(obo:IAO_0000115 <http://purl.org/doves/doves-ontology#Long_Term_Care_Hospital> "Long Term Care Hospital (LTCH) is a setting in which a digital medicine or digital therapeutic product may be used and is a setting certified as an acute‑care hospital. LTCHs focus on patients who, on average, stay more than 25 days. Many of the patients in LTCHs are transferred there from an intensive or critical care unit. Source: https://www.medicare.gov/Pubs/pdf/11347-Long-Term-Care-Hospitals.pdf")
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Long_Term_Care_Hospital> "Long Term Care Hospital Setting")
+SubClassOf(<http://purl.org/doves/doves-ontology#Long_Term_Care_Hospital> <http://purl.org/doves/doves-ontology#Setting>)
+
 # Class: <http://purl.org/doves/doves-ontology#Machine_Learning_Technology> (Machine Learning Technology)
 
+AnnotationAssertion(obo:IAO_0000115 <http://purl.org/doves/doves-ontology#Machine_Learning_Technology> "Machine Learning Technology is a Technology that enables computer systems to learn and adapt without following explicit instructions, by using algorithms and statistical models to analyze and draw inferences from patterns in data. Source: Oxford Languages Dictionary.")
 AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Machine_Learning_Technology> "Machine Learning Technology")
-SubClassOf(<http://purl.org/doves/doves-ontology#Machine_Learning_Technology> <https://purl.org/doves/894b0e16-237d-40f2-87f0-adaa02cab8c8>)
+SubClassOf(<http://purl.org/doves/doves-ontology#Machine_Learning_Technology> <https://purl.org/doves/028c0b85-9a85-4962-97c3-4a6af994781c>)
+
+# Class: <http://purl.org/doves/doves-ontology#Medical_Surgical_Unit> (Medical Surgical Unit)
+
+AnnotationAssertion(obo:IAO_0000115 <http://purl.org/doves/doves-ontology#Medical_Surgical_Unit> "A Medical-Surgical Unit is an Acute Care Hospital Setting defined as the setting in which care is provided to patients who are hospitalized with a wide variety of conditions that is the baseline level of care intensity relative to Step Down Units or Intensive Care Units.")
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Medical_Surgical_Unit> "Medical Surgical Unit")
+SubClassOf(<http://purl.org/doves/doves-ontology#Medical_Surgical_Unit> <http://purl.org/doves/doves-ontology#Inpatient>)
 
 # Class: <http://purl.org/doves/doves-ontology#Middle-Age_Age_Group> (Middle-Age Age Group)
 
@@ -1452,6 +1495,12 @@ AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Number_of_D
 AnnotationAssertion(skos:definition <http://purl.org/doves/doves-ontology#Number_of_Downtime_Events> "Number of Downtime Events Outcome is a System Availability Outcome that describes the number of times in a given time period that a digital medicine application is out of action or unavailable for use, whether scheduled or unscheduled."@en)
 SubClassOf(<http://purl.org/doves/doves-ontology#Number_of_Downtime_Events> <https://purl.org/doves/2313ac68-33dd-4861-af39-236e0e5d98d3>)
 
+# Class: <http://purl.org/doves/doves-ontology#Occupational_Therapist_Role> (Occupational Therapist Role)
+
+AnnotationAssertion(obo:IAO_0000115 <http://purl.org/doves/doves-ontology#Occupational_Therapist_Role> "Occupational Therapist Role is a Clinician Role describing an occupational  therapist as a user type of a digital medicine or digital therapeutic application.")
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Occupational_Therapist_Role> "Occupational Therapist Role")
+SubClassOf(<http://purl.org/doves/doves-ontology#Occupational_Therapist_Role> <https://purl.org/doves/13c1b5fc-1104-44fe-9975-74c60a26595f>)
+
 # Class: <http://purl.org/doves/doves-ontology#Offline_Availability_Outcome> (Offline Availability Outcome)
 
 AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Offline_Availability_Outcome> "Offline Availability Outcome"@en)
@@ -1470,6 +1519,12 @@ AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Pain_Contro
 AnnotationAssertion(skos:definition <http://purl.org/doves/doves-ontology#Pain_Control_Outcome> "A Pain Control Outcome is a Symptom Control Outcome that describes the influence of a digital medicine application on pain control."@en)
 SubClassOf(<http://purl.org/doves/doves-ontology#Pain_Control_Outcome> <http://purl.org/doves/doves-ontology#Symptom_Control_Outcome>)
 
+# Class: <http://purl.org/doves/doves-ontology#Patient_Appointment_Non-Self-Scheduling_Capability> (Patient Appointment Non-Self-Scheduling Capability)
+
+AnnotationAssertion(obo:IAO_0000115 <http://purl.org/doves/doves-ontology#Patient_Appointment_Non-Self-Scheduling_Capability> "Patient Appointment Non-Self-Scheduling Capability is a Patient Appointment Scheduling Capability of a digital medicine or therapeutic application that conducts or assists with patient appointment scheduling, but does not allow or enable the patient to schedule for him/herself.")
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Patient_Appointment_Non-Self-Scheduling_Capability> "Patient Appointment Non-Self-Scheduling Capability")
+SubClassOf(<http://purl.org/doves/doves-ontology#Patient_Appointment_Non-Self-Scheduling_Capability> <https://purl.org/doves/f921a0bd-b02b-446a-a2c9-6e4a80e8122c>)
+
 # Class: <http://purl.org/doves/doves-ontology#Patient_Socioeconomic_Outcome> (Patient Socioeconomic Outcome)
 
 AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Patient_Socioeconomic_Outcome> "Patient Socioeconomic Outcome"@en)
@@ -1481,6 +1536,18 @@ SubClassOf(<http://purl.org/doves/doves-ontology#Patient_Socioeconomic_Outcome> 
 AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Percent_of_Issues_Open_Outcome> "Percent of Issues Open Outcome"@en)
 AnnotationAssertion(skos:definition <http://purl.org/doves/doves-ontology#Percent_of_Issues_Open_Outcome> "A Percent of Issues Open Outcome is an Issue Resolution Outcome that describes the proportion of filed issues that are unresolved (open) in a given time frame."@en)
 SubClassOf(<http://purl.org/doves/doves-ontology#Percent_of_Issues_Open_Outcome> <https://purl.org/doves/c420321e-c648-4ee8-bf15-9df9800e8bde>)
+
+# Class: <http://purl.org/doves/doves-ontology#Pharmacist_Role> (Pharmacist Role)
+
+AnnotationAssertion(obo:IAO_0000115 <http://purl.org/doves/doves-ontology#Pharmacist_Role> "Adminstrator Role is a Clinician Role describing a pharmacist as a user type of a digital medicine or digital therapeutic application.")
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Pharmacist_Role> "Pharmacist Role")
+SubClassOf(<http://purl.org/doves/doves-ontology#Pharmacist_Role> <https://purl.org/doves/13c1b5fc-1104-44fe-9975-74c60a26595f>)
+
+# Class: <http://purl.org/doves/doves-ontology#Physical_Therapist_Role> (Physical Therapist Role)
+
+AnnotationAssertion(obo:IAO_0000115 <http://purl.org/doves/doves-ontology#Physical_Therapist_Role> "Physical Therapist Role is a Clinician Role describing a physical therapist as a user type of a digital medicine or digital therapeutic application.")
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Physical_Therapist_Role> "Physical Therapist Role")
+SubClassOf(<http://purl.org/doves/doves-ontology#Physical_Therapist_Role> <https://purl.org/doves/13c1b5fc-1104-44fe-9975-74c60a26595f>)
 
 # Class: <http://purl.org/doves/doves-ontology#Pittsburgh_Sleep_Quality_Index> (Pittsburgh Sleep Quality Index Outcome)
 
@@ -1524,6 +1591,12 @@ SubClassOf(<http://purl.org/doves/doves-ontology#Proportion_of_Days_Per_Month_of
 AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Proportion_of_Images_Gradable_by_Algorithm_Outcome> "Proportion of Images Gradable by Algorithm Outcome"@en)
 AnnotationAssertion(skos:definition <http://purl.org/doves/doves-ontology#Proportion_of_Images_Gradable_by_Algorithm_Outcome> "The Proportion of Images Gradable by Algorithm Outcome is a Healthcare Operation Outcome that describes the number of images (such as radiology images, retinal scans, etc.) divided by total number of images, that can be graded or interpreted by a given algorithm (e.g. artificial intelligence or machine learning)."@en)
 SubClassOf(<http://purl.org/doves/doves-ontology#Proportion_of_Images_Gradable_by_Algorithm_Outcome> <https://purl.org/doves/1ae3245a-1b7f-40b2-ae3b-74706699204a>)
+
+# Class: <http://purl.org/doves/doves-ontology#Psychologist_Role> (Psychologist Role)
+
+AnnotationAssertion(obo:IAO_0000115 <http://purl.org/doves/doves-ontology#Psychologist_Role> "Psychologist Role is a Clinician Role describing a psychologist as a user type of a digital medicine or digital therapeutic application.")
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Psychologist_Role> "Psychologist Role")
+SubClassOf(<http://purl.org/doves/doves-ontology#Psychologist_Role> <https://purl.org/doves/13c1b5fc-1104-44fe-9975-74c60a26595f>)
 
 # Class: <http://purl.org/doves/doves-ontology#Race> (<http://purl.org/doves/doves-ontology#Race>)
 
@@ -1588,6 +1661,7 @@ SubClassOf(<http://purl.org/doves/doves-ontology#Regulatory_Approval> <https://p
 
 # Class: <http://purl.org/doves/doves-ontology#Regulatory_Category> (Regulatory Category)
 
+AnnotationAssertion(obo:IAO_0000115 <http://purl.org/doves/doves-ontology#Regulatory_Category> "Regulatory Category is a Refining Value that describes in rough terms, the appropriate category label for a digital application that pertains to health, according to definitions proposed in the white paper put out November 7, 2019 by the Digital Medicine (DiME) Society, the Digital Therapeutics Alliance, HealthXL, and NODE.Health. Source: https://www.healthxl.com/blog/digital-health-digital-medicine-digital-therapeutics-dtx-whats-the-difference")
 AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Regulatory_Category> "Regulatory Category")
 SubClassOf(<http://purl.org/doves/doves-ontology#Regulatory_Category> <https://purl.org/doves/78ceb509-e44b-4d8c-bd47-b457f9d835cb>)
 
@@ -1611,12 +1685,13 @@ SubClassOf(<http://purl.org/doves/doves-ontology#Self-efficacy> <https://purl.or
 
 # Class: <http://purl.org/doves/doves-ontology#Setting> (<http://purl.org/doves/doves-ontology#Setting>)
 
+AnnotationAssertion(obo:IAO_0000115 <http://purl.org/doves/doves-ontology#Setting> "Setting is a Refining Value that describes the clinical setting for which a digital medicine or digital therapeutic application is intended.")
 SubClassOf(<http://purl.org/doves/doves-ontology#Setting> <https://purl.org/doves/78ceb509-e44b-4d8c-bd47-b457f9d835cb>)
 
-# Class: <http://purl.org/doves/doves-ontology#Shared_Decision_Making> (Shared Decision Making)
+# Class: <http://purl.org/doves/doves-ontology#Shared_Decision_Making> (Shared Decision Making Capability)
 
-AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Shared_Decision_Making> "Shared Decision Making")
-AnnotationAssertion(skos:definition <http://purl.org/doves/doves-ontology#Shared_Decision_Making> "Shared Decision Making is a Technical Feature that describes digital health applications that facilitate the shared decision making between a healthcare professional and a patient, family member, or friend of the patient.")
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Shared_Decision_Making> "Shared Decision Making Capability")
+AnnotationAssertion(skos:definition <http://purl.org/doves/doves-ontology#Shared_Decision_Making> "Shared Decision Making Capability is a Technical Capability Area that describes digital health applications that facilitate the shared decision making between a healthcare professional and a patient, family member, or friend of the patient.")
 SubClassOf(<http://purl.org/doves/doves-ontology#Shared_Decision_Making> <https://purl.org/doves/1ce5511a-c36f-4fb4-97a6-8e1b0642a27d>)
 
 # Class: <http://purl.org/doves/doves-ontology#Shared_Decision_Making_Outcome> (Shared Decision Making Outcome)
@@ -1637,8 +1712,10 @@ AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Site_of_Car
 AnnotationAssertion(skos:definition <http://purl.org/doves/doves-ontology#Site_of_Care_Shift_Outcome> "Site of Care Shift Outcome is a Healthcare Utilization Outcome that describes a digital medicine application's influence over shifting the site of care where a patient receives care. For example, if a digital medicine application is used to triage patients, it might shift care from an emergency department to an ungent care center."@en)
 SubClassOf(<http://purl.org/doves/doves-ontology#Site_of_Care_Shift_Outcome> <https://purl.org/doves/089409f3-106f-4742-a91a-df135a4b4102>)
 
-# Class: <http://purl.org/doves/doves-ontology#Skilled_Nursing_Facility> (<http://purl.org/doves/doves-ontology#Skilled_Nursing_Facility>)
+# Class: <http://purl.org/doves/doves-ontology#Skilled_Nursing_Facility> (Skilled Nursing Facility)
 
+AnnotationAssertion(obo:IAO_0000115 <http://purl.org/doves/doves-ontology#Skilled_Nursing_Facility> "Skilled Nursing Facility is a Setting for which a digital medicine or therapeutic product may be designed, defined as a facility providing 24-hour skilled nursing care as well as related or rehabilitative services in which the resident typically is a person who is chronically ill or recuperating from an illness or surgery and needs regular nursing care and other health related services. Each resident is under the care of a personal physician or the facility's medical director. Source: https://www.aging.ca.gov/Care_Options/Skilled_Nursing_Facilities/")
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Skilled_Nursing_Facility> "Skilled Nursing Facility")
 SubClassOf(<http://purl.org/doves/doves-ontology#Skilled_Nursing_Facility> <http://purl.org/doves/doves-ontology#Setting>)
 
 # Class: <http://purl.org/doves/doves-ontology#Sleep_Disorder_Sign_Control_Outcome> (Sleep Disorder Control Outcome)
@@ -1708,6 +1785,12 @@ AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Toddler_Age
 AnnotationAssertion(skos:definition <http://purl.org/doves/doves-ontology#Toddler_Age_Group> "Toddler Age Group is a Child Age Group defined by the CDC as conatining individuals aged 1-3 years of age.  https://www.cdc.gov/ncbddd/childdevelopment/positiveparenting/toddlers2.html#:~:text=Toddlers%20(2%2D3%20years%20of%20age)")
 SubClassOf(<http://purl.org/doves/doves-ontology#Toddler_Age_Group> <http://purl.org/doves/doves-ontology#Child_Age_Group>)
 
+# Class: <http://purl.org/doves/doves-ontology#Transitional_Care_Unit> (Step Down Unit)
+
+AnnotationAssertion(obo:IAO_0000115 <http://purl.org/doves/doves-ontology#Transitional_Care_Unit> "A Step Down Unit (sometimes called Transitional Care Unit) is a type of Acute Care Hospital Setting defined as an intermediate level of care between the Intensive Care Unit (ICU) and the general medical-surgical wards.")
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Transitional_Care_Unit> "Step Down Unit")
+SubClassOf(<http://purl.org/doves/doves-ontology#Transitional_Care_Unit> <http://purl.org/doves/doves-ontology#Inpatient>)
+
 # Class: <http://purl.org/doves/doves-ontology#Treatment_Adherence_Outcome> (Treatment Adherence Outcome)
 
 AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Treatment_Adherence_Outcome> "Treatment Adherence Outcome"@en)
@@ -1728,8 +1811,10 @@ AnnotationAssertion(Annotation(rdfs:seeAlso <https://behavioraldiabetes.org/scal
 "@en)
 SubClassOf(<http://purl.org/doves/doves-ontology#Type_2_Diabetes_Distress_Scale> <https://purl.org/doves/9caa2510-f3a6-4de8-adcb-c554e91aeba7>)
 
-# Class: <http://purl.org/doves/doves-ontology#Unknown> (<http://purl.org/doves/doves-ontology#Unknown>)
+# Class: <http://purl.org/doves/doves-ontology#Unknown> (Unknown sex)
 
+AnnotationAssertion(obo:IAO_0000115 <http://purl.org/doves/doves-ontology#Unknown> "Unknown sex is a Sex Assigned at Birth defined as a multidimensional biological construct based on anatomy, physiology, genetics, and hormones (sex traits) consistent with indeterminate genitalia and/or chromosomes. Source: https://orwh.od.nih.gov/sex-gender\"")
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Unknown> "Unknown sex")
 SubClassOf(<http://purl.org/doves/doves-ontology#Unknown> <https://purl.org/doves/81955a73-7b46-4cb4-bbae-5c34311aa8a0>)
 
 # Class: <http://purl.org/doves/doves-ontology#Urinary_Sign_Outcome> (Urinary Control Outcome)
@@ -1807,8 +1892,10 @@ AnnotationAssertion(Annotation(rdfs:seeAlso <https://www.thoracic.org/members/as
 "@en)
 SubClassOf(<http://purl.org/doves/doves-ontology#COPD_Assessment_Test_(CAT)> <https://purl.org/doves/9caa2510-f3a6-4de8-adcb-c554e91aeba7>)
 
-# Class: <http://purl.org/doves/doves-ontology#Cardiac_Intensive_Care_Unit_(CICU)> (<http://purl.org/doves/doves-ontology#Cardiac_Intensive_Care_Unit_(CICU)>)
+# Class: <http://purl.org/doves/doves-ontology#Cardiac_Intensive_Care_Unit_(CICU)> (Cardiac Intensive Care Unit (CICU))
 
+AnnotationAssertion(obo:IAO_0000115 <http://purl.org/doves/doves-ontology#Cardiac_Intensive_Care_Unit_(CICU)> "Cardiac Intensive Care Unit Setting is a type of Intensive Care Unit Setting dedicated to patients with acute cardiac issues.")
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Cardiac_Intensive_Care_Unit_(CICU)> "Cardiac Intensive Care Unit (CICU)")
 SubClassOf(<http://purl.org/doves/doves-ontology#Cardiac_Intensive_Care_Unit_(CICU)> <http://purl.org/doves/doves-ontology#Intesive_Care_Unit>)
 
 # Class: <http://purl.org/doves/doves-ontology#Chronic_Respiratory_Disease_Questionnaire_(CRQ)_Outcome> (Chronic Respiratory Disease Questionnaire (CRQ) Outcome)
@@ -1907,8 +1994,10 @@ AnnotationAssertion(Annotation(rdfs:seeAlso <https://www.ncbi.nlm.nih.gov/pmc/ar
 "@en)
 SubClassOf(<http://purl.org/doves/doves-ontology#Modified_Medical_Research_Council_(MMRC)_Dyspnea_Scale> <https://purl.org/doves/9caa2510-f3a6-4de8-adcb-c554e91aeba7>)
 
-# Class: <http://purl.org/doves/doves-ontology#Neonatal_Intensive_Care_Unit_(NICU)> (<http://purl.org/doves/doves-ontology#Neonatal_Intensive_Care_Unit_(NICU)>)
+# Class: <http://purl.org/doves/doves-ontology#Neonatal_Intensive_Care_Unit_(NICU)> (Neonatal Intensive Care Unit (NICU))
 
+AnnotationAssertion(obo:IAO_0000115 <http://purl.org/doves/doves-ontology#Neonatal_Intensive_Care_Unit_(NICU)> "A Neonatal Intensive Care Unit (NICU) is a type of Intensive Care Unit (ICU) dedicated to the care of patients in the Neonatal Age Group.")
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Neonatal_Intensive_Care_Unit_(NICU)> "Neonatal Intensive Care Unit (NICU)")
 SubClassOf(<http://purl.org/doves/doves-ontology#Neonatal_Intensive_Care_Unit_(NICU)> <http://purl.org/doves/doves-ontology#Intesive_Care_Unit>)
 
 # Class: <http://purl.org/doves/doves-ontology#O'Leary-Sant_Symptom_Index_Outcome> (O'Leary-Sant Symptom Index Outcome)
@@ -1937,8 +2026,10 @@ AnnotationAssertion(Annotation(rdfs:seeAlso <https://www.ncbi.nlm.nih.gov/pmc/ar
 "@en)
 SubClassOf(<http://purl.org/doves/doves-ontology#Patient_Activation_Measure_(PAM)_Outcome> <https://purl.org/doves/9caa2510-f3a6-4de8-adcb-c554e91aeba7>)
 
-# Class: <http://purl.org/doves/doves-ontology#Pediatric_Intensive_Care_Unit_(PICU)> (<http://purl.org/doves/doves-ontology#Pediatric_Intensive_Care_Unit_(PICU)>)
+# Class: <http://purl.org/doves/doves-ontology#Pediatric_Intensive_Care_Unit_(PICU)> (Pediatric Intensive Care Unit (PICU))
 
+AnnotationAssertion(obo:IAO_0000115 <http://purl.org/doves/doves-ontology#Pediatric_Intensive_Care_Unit_(PICU)> "A Pediatric Intensive Care Unit (PICU) is a type of Intensive Care Unit (ICU) dedicated to the care of patients in the Pediatric Age Group.")
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Pediatric_Intensive_Care_Unit_(PICU)> "Pediatric Intensive Care Unit (PICU)")
 SubClassOf(<http://purl.org/doves/doves-ontology#Pediatric_Intensive_Care_Unit_(PICU)> <http://purl.org/doves/doves-ontology#Intesive_Care_Unit>)
 
 # Class: <http://purl.org/doves/doves-ontology#Pelvic_Floor_Disability_Index_(PFDI-20)_Outcome> (Pelvic Floor Disability Index (PFDI-20) Outcome)
@@ -2076,6 +2167,7 @@ SubClassOf(<https://purl.org/doves/b10b1490-4dce-4970-bd31-5e59471fa6fb> <https:
 
 # Class: <https://purl.org/doves/b129abd1-3d08-42e9-b1b3-7ed9f235fe93> (Patient Role)
 
+AnnotationAssertion(obo:IAO_0000115 <https://purl.org/doves/b129abd1-3d08-42e9-b1b3-7ed9f235fe93> "Patient Role is a Role describing a patient as a user type of a digital medicine or digital therapeutic application.")
 AnnotationAssertion(rdfs:label <https://purl.org/doves/b129abd1-3d08-42e9-b1b3-7ed9f235fe93> "Patient Role"@en)
 SubClassOf(<https://purl.org/doves/b129abd1-3d08-42e9-b1b3-7ed9f235fe93> <https://purl.org/doves/38552094-2ddf-4e81-b33d-080f5b904cd7>)
 
@@ -2177,9 +2269,10 @@ SubClassOf(<https://purl.org/doves/c0d7e632-dd5d-4843-9f1d-4fd5820e04fa> <https:
 AnnotationAssertion(rdfs:label <https://purl.org/doves/c0ee0de7-f797-47e8-bfc1-991e473018c3> "Undersea and Hyperbaric Medicine"@en)
 SubClassOf(<https://purl.org/doves/c0ee0de7-f797-47e8-bfc1-991e473018c3> <https://purl.org/doves/8d7a95b0-92d1-4312-9894-93b00a1266a4>)
 
-# Class: <https://purl.org/doves/c155802e-cb31-4f1d-89e9-4f161441f74c> (Medical Calculators)
+# Class: <https://purl.org/doves/c155802e-cb31-4f1d-89e9-4f161441f74c> (Medical Calculator Decision Support)
 
-AnnotationAssertion(rdfs:label <https://purl.org/doves/c155802e-cb31-4f1d-89e9-4f161441f74c> "Medical Calculators"@en)
+AnnotationAssertion(obo:IAO_0000115 <https://purl.org/doves/c155802e-cb31-4f1d-89e9-4f161441f74c> "Medical Calculator Decision Support is a Clinical Decision Support Capability that is similar to Medical Calculator Capability, but differs in that the calculation support is built into a clinical decision support pop-up, enabling automated population of certain elements from the electronic health record, and not requiring that the user exits to an external medical calculator.")
+AnnotationAssertion(rdfs:label <https://purl.org/doves/c155802e-cb31-4f1d-89e9-4f161441f74c> "Medical Calculator Decision Support"@en)
 SubClassOf(<https://purl.org/doves/c155802e-cb31-4f1d-89e9-4f161441f74c> <https://purl.org/doves/49f0075d-4218-44ed-a958-1f63ae7f0529>)
 
 # Class: <https://purl.org/doves/c1c003fc-196b-4f8b-b53b-330ad3f6336b> (Epilepsy)
@@ -2192,9 +2285,10 @@ SubClassOf(<https://purl.org/doves/c1c003fc-196b-4f8b-b53b-330ad3f6336b> <https:
 AnnotationAssertion(rdfs:label <https://purl.org/doves/c23323b6-fe6c-445d-8ce8-c8a2b9c0d50b> "Congenital Heart Disease"@en)
 SubClassOf(<https://purl.org/doves/c23323b6-fe6c-445d-8ce8-c8a2b9c0d50b> <https://purl.org/doves/2db872c0-72a7-46c4-a6f6-d260452aefff>)
 
-# Class: <https://purl.org/doves/c242c72d-5ced-4b37-8670-f2834907d963> (Clinical Data Aggregation)
+# Class: <https://purl.org/doves/c242c72d-5ced-4b37-8670-f2834907d963> (Clinical Data Aggregation Capability)
 
-AnnotationAssertion(rdfs:label <https://purl.org/doves/c242c72d-5ced-4b37-8670-f2834907d963> "Clinical Data Aggregation"@en)
+AnnotationAssertion(obo:IAO_0000115 <https://purl.org/doves/c242c72d-5ced-4b37-8670-f2834907d963> "Clinical Data Aggregation Capability is a Technical Capability Area describing a digital medicine or therapeutic's capability to aggregate and group clinical data.")
+AnnotationAssertion(rdfs:label <https://purl.org/doves/c242c72d-5ced-4b37-8670-f2834907d963> "Clinical Data Aggregation Capability"@en)
 SubClassOf(<https://purl.org/doves/c242c72d-5ced-4b37-8670-f2834907d963> <https://purl.org/doves/1ce5511a-c36f-4fb4-97a6-8e1b0642a27d>)
 SubClassOf(<https://purl.org/doves/c242c72d-5ced-4b37-8670-f2834907d963> <https://purl.org/doves/8773470f-b184-4f06-84ed-fcb2a1108574>)
 
@@ -2209,9 +2303,10 @@ AnnotationAssertion(rdfs:label <https://purl.org/doves/c420321e-c648-4ee8-bf15-9
 AnnotationAssertion(skos:definition <https://purl.org/doves/c420321e-c648-4ee8-bf15-9df9800e8bde> "Issue Resolution Outcome is a Product Performance Non-Clinical Outcome that describes the variety of metrics measuring how a digital medicine application vendor handles issues such as bugs, downtime, and other matters raised by end users."@en)
 SubClassOf(<https://purl.org/doves/c420321e-c648-4ee8-bf15-9df9800e8bde> <https://purl.org/doves/707c8680-500a-46e6-9b54-5658cefc409f>)
 
-# Class: <https://purl.org/doves/c6593bc1-6feb-427e-a736-28842e1208bc> (Billing Codes)
+# Class: <https://purl.org/doves/c6593bc1-6feb-427e-a736-28842e1208bc> (Billing Codes Capability)
 
-AnnotationAssertion(rdfs:label <https://purl.org/doves/c6593bc1-6feb-427e-a736-28842e1208bc> "Billing Codes"@en)
+AnnotationAssertion(obo:IAO_0000115 <https://purl.org/doves/c6593bc1-6feb-427e-a736-28842e1208bc> "Billing Codes Capability is a Technical Capability Area describing a digital medicine or therapeutic's capability to provide functionlaity related to medical billing codes.")
+AnnotationAssertion(rdfs:label <https://purl.org/doves/c6593bc1-6feb-427e-a736-28842e1208bc> "Billing Codes Capability"@en)
 SubClassOf(<https://purl.org/doves/c6593bc1-6feb-427e-a736-28842e1208bc> <https://purl.org/doves/1ce5511a-c36f-4fb4-97a6-8e1b0642a27d>)
 
 # Class: <https://purl.org/doves/c6ffecc1-9d5b-4509-806d-fe7464f6421a> (Comprehension Outcome)
@@ -2278,9 +2373,11 @@ AnnotationAssertion(rdfs:label <https://purl.org/doves/cdec99b1-f3e5-4009-bdc5-4
 AnnotationAssertion(skos:definition <https://purl.org/doves/cdec99b1-f3e5-4009-bdc5-49ea965dc503> "Reduced Emergency Department Utilization Outcome is a Healthcare Utilization Outcome that describes a digital medicine application's influence over reducing the amount of emergency room utilization by patient(s)."@en)
 SubClassOf(<https://purl.org/doves/cdec99b1-f3e5-4009-bdc5-49ea965dc503> <https://purl.org/doves/089409f3-106f-4742-a91a-df135a4b4102>)
 
-# Class: <https://purl.org/doves/d042fc04-644c-4ce3-9ea9-c51efd5ac25a> (Data Processing Synthesis or Visualization)
+# Class: <https://purl.org/doves/d042fc04-644c-4ce3-9ea9-c51efd5ac25a> (Data Processing Synthesis or Visualization Capability)
 
-AnnotationAssertion(rdfs:label <https://purl.org/doves/d042fc04-644c-4ce3-9ea9-c51efd5ac25a> "Data Processing Synthesis or Visualization"@en)
+AnnotationAssertion(obo:IAO_0000115 <https://purl.org/doves/d042fc04-644c-4ce3-9ea9-c51efd5ac25a> "")
+AnnotationAssertion(obo:IAO_0000115 <https://purl.org/doves/d042fc04-644c-4ce3-9ea9-c51efd5ac25a> "Data Processing Synthesis or Visualization Capability is a Technical Capability Area describing a digital medicine or therapeutic's capability to process or synthesize data and usually turn those data into meaningul output such as through visualizations.")
+AnnotationAssertion(rdfs:label <https://purl.org/doves/d042fc04-644c-4ce3-9ea9-c51efd5ac25a> "Data Processing Synthesis or Visualization Capability"@en)
 SubClassOf(<https://purl.org/doves/d042fc04-644c-4ce3-9ea9-c51efd5ac25a> <https://purl.org/doves/1ce5511a-c36f-4fb4-97a6-8e1b0642a27d>)
 
 # Class: <https://purl.org/doves/d0864caf-2471-462e-a5d9-a8bf52c7cbf5> (Operating Room Cancellation Outcome)
@@ -2289,9 +2386,10 @@ AnnotationAssertion(rdfs:label <https://purl.org/doves/d0864caf-2471-462e-a5d9-a
 AnnotationAssertion(skos:definition <https://purl.org/doves/d0864caf-2471-462e-a5d9-a8bf52c7cbf5> "Operating Room Cancellation Outcome is an Operating Room Outcome that describes a digital medicine application's ability to influence rate at which scheduled operating room cases are cancelled."@en)
 SubClassOf(<https://purl.org/doves/d0864caf-2471-462e-a5d9-a8bf52c7cbf5> <https://purl.org/doves/5d419b76-6e84-464a-b671-f8c899f6cb81>)
 
-# Class: <https://purl.org/doves/d12f4245-989e-4d9a-a72a-4fc8c9e5a254> (Patient generated health data technology)
+# Class: <https://purl.org/doves/d12f4245-989e-4d9a-a72a-4fc8c9e5a254> (Patient Generated Health Data Technology)
 
-AnnotationAssertion(rdfs:label <https://purl.org/doves/d12f4245-989e-4d9a-a72a-4fc8c9e5a254> "Patient generated health data technology"@en)
+AnnotationAssertion(obo:IAO_0000115 <https://purl.org/doves/d12f4245-989e-4d9a-a72a-4fc8c9e5a254> "Patient Generated Health Data Technology is a Remote Patient Monitoring Technology that creates, records, or gathers health-related data by or from patients (or family members or other caregivers) outside of the clinical setting to help address a health concern. Source: https://www.healthit.gov/topic/scientific-initiatives/pcor/patient-generated-health-data-pghd#:~:text=Patient%2Dgenerated%20health%20data%20(PGHD)%20are%20health%2Drelated,help%20address%20a%20health%20concern.")
+AnnotationAssertion(rdfs:label <https://purl.org/doves/d12f4245-989e-4d9a-a72a-4fc8c9e5a254> "Patient Generated Health Data Technology"@en)
 SubClassOf(<https://purl.org/doves/d12f4245-989e-4d9a-a72a-4fc8c9e5a254> <https://purl.org/doves/f972b78e-ca4f-4811-990b-89b9eb375c93>)
 
 # Class: <https://purl.org/doves/d1302803-32bc-4407-8b39-43d8b3f8faa3> (Cytopathology)
@@ -2364,6 +2462,7 @@ SubClassOf(<https://purl.org/doves/da3392c3-0c35-4aed-8a3a-c3307314a65e> <https:
 
 # Class: <https://purl.org/doves/da5b1476-bbe6-4a2a-8267-886475bcc6f4> (Administrator Role)
 
+AnnotationAssertion(obo:IAO_0000115 <https://purl.org/doves/da5b1476-bbe6-4a2a-8267-886475bcc6f4> "Adminstrator Role is a Role describing a medical administrator as a user type of a digital medicine or digital therapeutic application.")
 AnnotationAssertion(rdfs:label <https://purl.org/doves/da5b1476-bbe6-4a2a-8267-886475bcc6f4> "Administrator Role"@en)
 SubClassOf(<https://purl.org/doves/da5b1476-bbe6-4a2a-8267-886475bcc6f4> <https://purl.org/doves/38552094-2ddf-4e81-b33d-080f5b904cd7>)
 
@@ -2471,6 +2570,7 @@ SubClassOf(<https://purl.org/doves/ec2cd378-2780-47d1-bcfb-a7c4a1ec60eb> <https:
 
 # Class: <https://purl.org/doves/ecb2896b-027f-4dbb-b63c-d0a230014bb2> (Family Role)
 
+AnnotationAssertion(obo:IAO_0000115 <https://purl.org/doves/ecb2896b-027f-4dbb-b63c-d0a230014bb2> "Family Role is a Role describing a family member (typically of a patient) as a user type of a digital medicine or digital therapeutic application.")
 AnnotationAssertion(rdfs:label <https://purl.org/doves/ecb2896b-027f-4dbb-b63c-d0a230014bb2> "Family Role"@en)
 SubClassOf(<https://purl.org/doves/ecb2896b-027f-4dbb-b63c-d0a230014bb2> <https://purl.org/doves/38552094-2ddf-4e81-b33d-080f5b904cd7>)
 
@@ -2530,6 +2630,7 @@ SubClassOf(<https://purl.org/doves/f27262fb-abb0-40d3-86a6-4f080883d020> <https:
 
 # Class: <https://purl.org/doves/f36e2870-61e7-4b51-abcd-8752df25ea68> (Medical Assistant Role)
 
+AnnotationAssertion(obo:IAO_0000115 <https://purl.org/doves/f36e2870-61e7-4b51-abcd-8752df25ea68> "Medical Assistant Role is a Clinician Role describing a medical assistant as a user type of a digital medicine or digital therapeutic application.")
 AnnotationAssertion(rdfs:label <https://purl.org/doves/f36e2870-61e7-4b51-abcd-8752df25ea68> "Medical Assistant Role"@en)
 SubClassOf(<https://purl.org/doves/f36e2870-61e7-4b51-abcd-8752df25ea68> <https://purl.org/doves/13c1b5fc-1104-44fe-9975-74c60a26595f>)
 
@@ -2600,13 +2701,15 @@ AnnotationAssertion(rdfs:label <https://purl.org/doves/f8c83883-9b87-4aa7-9406-6
 AnnotationAssertion(skos:definition <https://purl.org/doves/f8c83883-9b87-4aa7-9406-6e361358faea> "An Adult Person is a Person that is in the Adult Age Group"^^xsd:string)
 EquivalentClasses(<https://purl.org/doves/f8c83883-9b87-4aa7-9406-6e361358faea> ObjectIntersectionOf(<https://purl.org/doves/01d40506-2d2f-4237-a87b-229e268c2f14> ObjectSomeValuesFrom(<https://purl.org/doves/e352e4b8-9c80-45f1-a877-a397b5b33cc1> <https://purl.org/doves/f8c83883-9b87-4aa7-9406-6e361358faea>)))
 
-# Class: <https://purl.org/doves/f921a0bd-b02b-446a-a2c9-6e4a80e8122c> (Non-Patient Appointment Scheduling Feature)
+# Class: <https://purl.org/doves/f921a0bd-b02b-446a-a2c9-6e4a80e8122c> (Patient Appointment Scheduling Capability)
 
-AnnotationAssertion(rdfs:label <https://purl.org/doves/f921a0bd-b02b-446a-a2c9-6e4a80e8122c> "Non-Patient Appointment Scheduling Feature"@en)
+AnnotationAssertion(obo:IAO_0000115 <https://purl.org/doves/f921a0bd-b02b-446a-a2c9-6e4a80e8122c> "Patient Appointment Scheduling Capability is a Technical Capability Area describing a digital medicine or therapeutic's capability to carry out or assist in the process of scheduling patient medical appointments.")
+AnnotationAssertion(rdfs:label <https://purl.org/doves/f921a0bd-b02b-446a-a2c9-6e4a80e8122c> "Patient Appointment Scheduling Capability"@en)
 SubClassOf(<https://purl.org/doves/f921a0bd-b02b-446a-a2c9-6e4a80e8122c> <https://purl.org/doves/1ce5511a-c36f-4fb4-97a6-8e1b0642a27d>)
 
 # Class: <https://purl.org/doves/f972b78e-ca4f-4811-990b-89b9eb375c93> (Remote Patient Monitoring Technology)
 
+AnnotationAssertion(obo:IAO_0000115 <https://purl.org/doves/f972b78e-ca4f-4811-990b-89b9eb375c93> "Remote Patient Monitoring Technology is a Technology that is a type of telehealth in which healthcare providers monitor patients outside the traditional care setting using digital medical devices, such as weight scales, blood pressure monitors, pulse oximeters, and blood glucose meters. The data collected from these devices are then electronically transferred to providers for care management. Source: https://psnet.ahrq.gov/perspective/remote-patient-monitoring")
 AnnotationAssertion(rdfs:label <https://purl.org/doves/f972b78e-ca4f-4811-990b-89b9eb375c93> "Remote Patient Monitoring Technology"@en)
 SubClassOf(<https://purl.org/doves/f972b78e-ca4f-4811-990b-89b9eb375c93> <https://purl.org/doves/894b0e16-237d-40f2-87f0-adaa02cab8c8>)
 
@@ -2759,6 +2862,7 @@ SubClassOf(<https://purl.org/doves/01452e51-c0e3-45b8-a954-7b0af8fdb609> <https:
 
 # Class: <https://purl.org/doves/028c0b85-9a85-4962-97c3-4a6af994781c> (Artificial Intelligence Technology)
 
+AnnotationAssertion(obo:IAO_0000115 <https://purl.org/doves/028c0b85-9a85-4962-97c3-4a6af994781c> "Artificial Intelligence Technology is a Technology defined as a computer system able to perform tasks that normally require human intelligence such as visual perception, speech recognition, decision-making, and translation between languages. Source: Oxford Languages Dictionary")
 AnnotationAssertion(rdfs:label <https://purl.org/doves/028c0b85-9a85-4962-97c3-4a6af994781c> "Artificial Intelligence Technology"@en)
 SubClassOf(<https://purl.org/doves/028c0b85-9a85-4962-97c3-4a6af994781c> <https://purl.org/doves/894b0e16-237d-40f2-87f0-adaa02cab8c8>)
 
@@ -2844,9 +2948,10 @@ AnnotationAssertion(rdfs:label <https://purl.org/doves/1c1d0e62-5c9b-4344-8ff1-9
 AnnotationAssertion(skos:definition <https://purl.org/doves/1c1d0e62-5c9b-4344-8ff1-9e71d1debb38> "A Medication Adherence Outcome is an Treatment Adherence Outcome that reflects an individual's degree of adherence to taking their medications as recommended."@en)
 SubClassOf(<https://purl.org/doves/1c1d0e62-5c9b-4344-8ff1-9e71d1debb38> <http://purl.org/doves/doves-ontology#Treatment_Adherence_Outcome>)
 
-# Class: <https://purl.org/doves/1ce5511a-c36f-4fb4-97a6-8e1b0642a27d> (Technical Feature)
+# Class: <https://purl.org/doves/1ce5511a-c36f-4fb4-97a6-8e1b0642a27d> (Technical Capability Area)
 
-AnnotationAssertion(rdfs:label <https://purl.org/doves/1ce5511a-c36f-4fb4-97a6-8e1b0642a27d> "Technical Feature"@en)
+AnnotationAssertion(obo:IAO_0000115 <https://purl.org/doves/1ce5511a-c36f-4fb4-97a6-8e1b0642a27d> "Technical Capability Area is a Refining Value describing major technical categories of digital medicine or therapeutic products.")
+AnnotationAssertion(rdfs:label <https://purl.org/doves/1ce5511a-c36f-4fb4-97a6-8e1b0642a27d> "Technical Capability Area"@en)
 SubClassOf(<https://purl.org/doves/1ce5511a-c36f-4fb4-97a6-8e1b0642a27d> <https://purl.org/doves/78ceb509-e44b-4d8c-bd47-b457f9d835cb>)
 
 # Class: <https://purl.org/doves/1d38e6de-d0dc-42a1-bf44-e01339371c7b> (HIPAA Compliance Outcome)
@@ -2863,9 +2968,10 @@ SubClassOf(<https://purl.org/doves/1d38e6de-d0dc-42a1-bf44-e01339371c7b> <https:
 AnnotationAssertion(rdfs:label <https://purl.org/doves/1d5f0f8a-b554-4a19-a598-29a058f9c696> "Pediatrics"@en)
 SubClassOf(<https://purl.org/doves/1d5f0f8a-b554-4a19-a598-29a058f9c696> <https://purl.org/doves/1d62d176-3b08-4743-819c-ba79585f3a38>)
 
-# Class: <https://purl.org/doves/1d62d176-3b08-4743-819c-ba79585f3a38> (Specialty)
+# Class: <https://purl.org/doves/1d62d176-3b08-4743-819c-ba79585f3a38> (Medical Specialty)
 
-AnnotationAssertion(rdfs:label <https://purl.org/doves/1d62d176-3b08-4743-819c-ba79585f3a38> "Specialty"@en)
+AnnotationAssertion(obo:IAO_0000115 <https://purl.org/doves/1d62d176-3b08-4743-819c-ba79585f3a38> "Medical Specialty is a Refining Value a defined as a branch of medical practice that is focused on a defined group of patients, diseases, skills, or philosophy. Source: https://en.wikipedia.org/wiki/Medical_specialty")
+AnnotationAssertion(rdfs:label <https://purl.org/doves/1d62d176-3b08-4743-819c-ba79585f3a38> "Medical Specialty"@en)
 SubClassOf(<https://purl.org/doves/1d62d176-3b08-4743-819c-ba79585f3a38> <https://purl.org/doves/78ceb509-e44b-4d8c-bd47-b457f9d835cb>)
 
 # Class: <https://purl.org/doves/1e5fba11-4526-4d36-8799-50f3deb56f12> (Phase 3 Trial Evidence)
@@ -2903,6 +3009,7 @@ SubClassOf(<https://purl.org/doves/12d53a9c-2ead-4a45-8c5f-03b264289d65> <https:
 
 # Class: <https://purl.org/doves/13c1b5fc-1104-44fe-9975-74c60a26595f> (Clinician Role)
 
+AnnotationAssertion(obo:IAO_0000115 <https://purl.org/doves/13c1b5fc-1104-44fe-9975-74c60a26595f> "Clinician Role is a Role describing a healthcare provider as a user type of a digital medicine or digital therapeutic application.")
 AnnotationAssertion(rdfs:label <https://purl.org/doves/13c1b5fc-1104-44fe-9975-74c60a26595f> "Clinician Role"@en)
 SubClassOf(<https://purl.org/doves/13c1b5fc-1104-44fe-9975-74c60a26595f> <https://purl.org/doves/38552094-2ddf-4e81-b33d-080f5b904cd7>)
 
@@ -3035,6 +3142,7 @@ SubClassOf(<https://purl.org/doves/2687f9f2-22d6-4a64-8a86-bb9b3a7de2d5> <https:
 
 # Class: <https://purl.org/doves/29dcd95d-567e-485e-84af-7fb536fa08a4> (Nurse Role)
 
+AnnotationAssertion(obo:IAO_0000115 <https://purl.org/doves/29dcd95d-567e-485e-84af-7fb536fa08a4> "Nursing Role is a Clinician Role describing a nurse as a user type of a digital medicine or digital therapeutic application.")
 AnnotationAssertion(rdfs:label <https://purl.org/doves/29dcd95d-567e-485e-84af-7fb536fa08a4> "Nurse Role"@en)
 SubClassOf(<https://purl.org/doves/29dcd95d-567e-485e-84af-7fb536fa08a4> <https://purl.org/doves/13c1b5fc-1104-44fe-9975-74c60a26595f>)
 
@@ -3063,6 +3171,7 @@ SubClassOf(<https://purl.org/doves/3d59b32e-e247-44e4-a69c-1c704af0c574> <https:
 
 # Class: <https://purl.org/doves/3e2dd533-3e2d-4d1a-a752-570ccebe9fa1> (Male sex)
 
+AnnotationAssertion(obo:IAO_0000115 <https://purl.org/doves/3e2dd533-3e2d-4d1a-a752-570ccebe9fa1> "Male sex is a Sex Assigned at Birth defined as a multidimensional biological construct based on anatomy, physiology, genetics, and hormones (sex traits) consistent with male genitalia and chromosomes. Source: https://orwh.od.nih.gov/sex-gender\"")
 AnnotationAssertion(rdfs:label <https://purl.org/doves/3e2dd533-3e2d-4d1a-a752-570ccebe9fa1> "Male sex"@en)
 SubClassOf(<https://purl.org/doves/3e2dd533-3e2d-4d1a-a752-570ccebe9fa1> <https://purl.org/doves/81955a73-7b46-4cb4-bbae-5c34311aa8a0>)
 
@@ -3072,11 +3181,6 @@ AnnotationAssertion(rdfs:label <https://purl.org/doves/30d8c4b2-30d1-44bb-9903-f
 AnnotationAssertion(Annotation(rdfs:seeAlso <https://www.healthit.gov/isa/united-states-core-data-interoperability-uscdi>) skos:definition <https://purl.org/doves/30d8c4b2-30d1-44bb-9903-f64acf72cbb0> "A United States Core Data for Interoperability (USCDI) Compliance Outcome is a Data Standards Outcome which describes whether a digital medicine application adheres to the UCSDI standardized set of health data classes and constituent data elements for nationwide, interoperable health information exchange. 
 "@en)
 SubClassOf(<https://purl.org/doves/30d8c4b2-30d1-44bb-9903-f64acf72cbb0> <https://purl.org/doves/9f90a5e3-6d96-4127-bcff-143c2831b5bc>)
-
-# Class: <https://purl.org/doves/3002baf7-d232-4c53-8fd6-42475c802599> (Machine learning technology)
-
-AnnotationAssertion(rdfs:label <https://purl.org/doves/3002baf7-d232-4c53-8fd6-42475c802599> "Machine learning technology"@en)
-SubClassOf(<https://purl.org/doves/3002baf7-d232-4c53-8fd6-42475c802599> <https://purl.org/doves/028c0b85-9a85-4962-97c3-4a6af994781c>)
 
 # Class: <https://purl.org/doves/34b6e0c7-74aa-4c1b-9832-92701e4238cb> (Pediatric Hematology-Oncology)
 
@@ -3091,6 +3195,7 @@ SubClassOf(<https://purl.org/doves/360937f7-f234-49f5-9783-73abd2409d9c> <https:
 
 # Class: <https://purl.org/doves/37a002b3-8eec-4341-b3d0-6ccb97d8e42d> (Physician Role)
 
+AnnotationAssertion(obo:IAO_0000115 <https://purl.org/doves/37a002b3-8eec-4341-b3d0-6ccb97d8e42d> "Physician Role is a Clinician Role describing a physician as a user type of a digital medicine or digital therapeutic application.")
 AnnotationAssertion(rdfs:label <https://purl.org/doves/37a002b3-8eec-4341-b3d0-6ccb97d8e42d> "Physician Role"@en)
 SubClassOf(<https://purl.org/doves/37a002b3-8eec-4341-b3d0-6ccb97d8e42d> <https://purl.org/doves/13c1b5fc-1104-44fe-9975-74c60a26595f>)
 
@@ -3101,7 +3206,8 @@ SubClassOf(<https://purl.org/doves/3781adc3-8d90-49e5-82d9-bb7186db46e8> <https:
 
 # Class: <https://purl.org/doves/38552094-2ddf-4e81-b33d-080f5b904cd7> (Role)
 
-AnnotationAssertion(rdfs:label <https://purl.org/doves/38552094-2ddf-4e81-b33d-080f5b904cd7> "Role"@en)
+AnnotationAssertion(obo:IAO_0000115 <https://purl.org/doves/38552094-2ddf-4e81-b33d-080f5b904cd7> "Role is a Refining Value that describes the user type of a digital medicine application."@en)
+AnnotationAssertion(rdfs:label <https://purl.org/doves/38552094-2ddf-4e81-b33d-080f5b904cd7> "Role")
 SubClassOf(<https://purl.org/doves/38552094-2ddf-4e81-b33d-080f5b904cd7> <https://purl.org/doves/78ceb509-e44b-4d8c-bd47-b457f9d835cb>)
 
 # Class: <https://purl.org/doves/386d296c-279d-486b-a316-c8c08390cfd3> (Pediatric Dermatology)
@@ -3109,15 +3215,11 @@ SubClassOf(<https://purl.org/doves/38552094-2ddf-4e81-b33d-080f5b904cd7> <https:
 AnnotationAssertion(rdfs:label <https://purl.org/doves/386d296c-279d-486b-a316-c8c08390cfd3> "Pediatric Dermatology"@en)
 SubClassOf(<https://purl.org/doves/386d296c-279d-486b-a316-c8c08390cfd3> <https://purl.org/doves/9c7d3336-6f55-44fc-86c6-56869858b624>)
 
-# Class: <https://purl.org/doves/4ac898a5-abf6-4bfa-bb64-8d57dddd0dce> (Patient Appointment Scheduling Feature)
+# Class: <https://purl.org/doves/4ac898a5-abf6-4bfa-bb64-8d57dddd0dce> (Patient Appointment Self-Scheduling Capability)
 
-AnnotationAssertion(rdfs:label <https://purl.org/doves/4ac898a5-abf6-4bfa-bb64-8d57dddd0dce> "Patient Appointment Scheduling Feature"@en)
-SubClassOf(<https://purl.org/doves/4ac898a5-abf6-4bfa-bb64-8d57dddd0dce> <https://purl.org/doves/1ce5511a-c36f-4fb4-97a6-8e1b0642a27d>)
-
-# Class: <https://purl.org/doves/4d6d76b2-faab-4560-bfef-63c1436f2f4e> (Sensor Technology)
-
-AnnotationAssertion(rdfs:label <https://purl.org/doves/4d6d76b2-faab-4560-bfef-63c1436f2f4e> "Sensor Technology"@en)
-SubClassOf(<https://purl.org/doves/4d6d76b2-faab-4560-bfef-63c1436f2f4e> <https://purl.org/doves/d12f4245-989e-4d9a-a72a-4fc8c9e5a254>)
+AnnotationAssertion(obo:IAO_0000115 <https://purl.org/doves/4ac898a5-abf6-4bfa-bb64-8d57dddd0dce> "Patient Appointment Self-Scheduling Capability is a Patient Appointment Scheduling Capability of a digital medicine or therapeutic application that conducts or assists with patients scheduling their own appointments.")
+AnnotationAssertion(rdfs:label <https://purl.org/doves/4ac898a5-abf6-4bfa-bb64-8d57dddd0dce> "Patient Appointment Self-Scheduling Capability"@en)
+SubClassOf(<https://purl.org/doves/4ac898a5-abf6-4bfa-bb64-8d57dddd0dce> <https://purl.org/doves/f921a0bd-b02b-446a-a2c9-6e4a80e8122c>)
 
 # Class: <https://purl.org/doves/4dcb77b8-51f4-4b3a-8a61-a4dd9e2c72ae> (Satisfaction Outcome)
 
@@ -3127,6 +3229,7 @@ SubClassOf(<https://purl.org/doves/4dcb77b8-51f4-4b3a-8a61-a4dd9e2c72ae> <https:
 
 # Class: <https://purl.org/doves/4df28317-0241-45a9-b39a-69ef066fd4d5> (Caregiver Role)
 
+AnnotationAssertion(obo:IAO_0000115 <https://purl.org/doves/4df28317-0241-45a9-b39a-69ef066fd4d5> "Caregiver Role is a Role describing a caregiver of a patient as a user type of a digital medicine or digital therapeutic application.")
 AnnotationAssertion(rdfs:label <https://purl.org/doves/4df28317-0241-45a9-b39a-69ef066fd4d5> "Caregiver Role"@en)
 SubClassOf(<https://purl.org/doves/4df28317-0241-45a9-b39a-69ef066fd4d5> <https://purl.org/doves/38552094-2ddf-4e81-b33d-080f5b904cd7>)
 
@@ -3147,9 +3250,10 @@ AnnotationAssertion(obo:IAO_0000115 <https://purl.org/doves/42032214-7b35-46e0-9
 AnnotationAssertion(rdfs:label <https://purl.org/doves/42032214-7b35-46e0-98f9-cd903d8fd464> "Evidence"@en)
 SubClassOf(<https://purl.org/doves/42032214-7b35-46e0-98f9-cd903d8fd464> <https://purl.org/doves/78ceb509-e44b-4d8c-bd47-b457f9d835cb>)
 
-# Class: <https://purl.org/doves/422939fc-63b9-46c1-8891-7a45450a15c8> (Medical Calculators)
+# Class: <https://purl.org/doves/422939fc-63b9-46c1-8891-7a45450a15c8> (Medical Calculator Capability)
 
-AnnotationAssertion(rdfs:label <https://purl.org/doves/422939fc-63b9-46c1-8891-7a45450a15c8> "Medical Calculators"@en)
+AnnotationAssertion(obo:IAO_0000115 <https://purl.org/doves/422939fc-63b9-46c1-8891-7a45450a15c8> "Medical Calculator Capability is a Technical Capability Area defined as a type of medical computer software, whose purpose is to allow easy calculation of various scores and indices, presenting the user with a friendly interface that hides the complexity of the formulas.  Source: https://en.wikipedia.org/wiki/Medical_calculator")
+AnnotationAssertion(rdfs:label <https://purl.org/doves/422939fc-63b9-46c1-8891-7a45450a15c8> "Medical Calculator Capability"@en)
 SubClassOf(<https://purl.org/doves/422939fc-63b9-46c1-8891-7a45450a15c8> <https://purl.org/doves/1ce5511a-c36f-4fb4-97a6-8e1b0642a27d>)
 
 # Class: <https://purl.org/doves/44069093-74c5-49c9-bf1f-f15f45ba21bb> (Phase 2 Trial Evidence)
@@ -3175,9 +3279,10 @@ SubClassOf(<https://purl.org/doves/48e82efa-4411-43fc-a750-995a002e0639> <https:
 AnnotationAssertion(rdfs:label <https://purl.org/doves/487ba129-e6ff-4f8f-bdbb-e1074b485360> "Plastic Surgery"@en)
 SubClassOf(<https://purl.org/doves/487ba129-e6ff-4f8f-bdbb-e1074b485360> <https://purl.org/doves/1d62d176-3b08-4743-819c-ba79585f3a38>)
 
-# Class: <https://purl.org/doves/49f0075d-4218-44ed-a958-1f63ae7f0529> (Clinical Decision Support)
+# Class: <https://purl.org/doves/49f0075d-4218-44ed-a958-1f63ae7f0529> (Clinical Decision Support Capability)
 
-AnnotationAssertion(rdfs:label <https://purl.org/doves/49f0075d-4218-44ed-a958-1f63ae7f0529> "Clinical Decision Support"@en)
+AnnotationAssertion(obo:IAO_0000115 <https://purl.org/doves/49f0075d-4218-44ed-a958-1f63ae7f0529> "Clinical Decision Support Capability is a Technical Capability Area describing a digital medicine or therapeutic's capability to provide functionlaity related to clinical decision support, defined as a process for enhancing health-related decisions and actions with pertinent, organized clinical knowledge and patient informartion to improve health and healthcare delivery. Source: https://www.cdc.gov/opioids/healthcare-admins/ehr/clinical-decision-support.html#:~:text=Print-,What%20Is%20Clinical%20Decision%20Support%3F,improve%20health%20and%20healthcare%20delivery.")
+AnnotationAssertion(rdfs:label <https://purl.org/doves/49f0075d-4218-44ed-a958-1f63ae7f0529> "Clinical Decision Support Capability"@en)
 SubClassOf(<https://purl.org/doves/49f0075d-4218-44ed-a958-1f63ae7f0529> <https://purl.org/doves/1ce5511a-c36f-4fb4-97a6-8e1b0642a27d>)
 SubClassOf(<https://purl.org/doves/49f0075d-4218-44ed-a958-1f63ae7f0529> <https://purl.org/doves/8773470f-b184-4f06-84ed-fcb2a1108574>)
 
@@ -3395,6 +3500,7 @@ EquivalentClasses(<https://purl.org/doves/653ff95b-ac79-4656-a8c1-3bb52f74d8a3> 
 
 # Class: <https://purl.org/doves/657b9d62-19a9-4e32-a7d3-677a72ee4a6e> (Physician Assistant Role)
 
+AnnotationAssertion(obo:IAO_0000115 <https://purl.org/doves/657b9d62-19a9-4e32-a7d3-677a72ee4a6e> "Physician Assistant Role is a Role describing a physician assistant as a user type of a digital medicine or digital therapeutic application.")
 AnnotationAssertion(rdfs:label <https://purl.org/doves/657b9d62-19a9-4e32-a7d3-677a72ee4a6e> "Physician Assistant Role"@en)
 SubClassOf(<https://purl.org/doves/657b9d62-19a9-4e32-a7d3-677a72ee4a6e> <https://purl.org/doves/13c1b5fc-1104-44fe-9975-74c60a26595f>)
 
@@ -3459,6 +3565,7 @@ SubClassOf(<https://purl.org/doves/7c438f59-5039-44a1-be83-bffdb4daa7ce> <https:
 
 # Class: <https://purl.org/doves/7d739656-06a3-4b6c-96c2-52e6b45bc838> (Female sex)
 
+AnnotationAssertion(obo:IAO_0000115 <https://purl.org/doves/7d739656-06a3-4b6c-96c2-52e6b45bc838> "Female sex is a Sex Assigned at Birth defined as a multidimensional biological construct based on anatomy, physiology, genetics, and hormones (sex traits) consistent with female genitalia and chromosomes. Source: https://orwh.od.nih.gov/sex-gender")
 AnnotationAssertion(rdfs:label <https://purl.org/doves/7d739656-06a3-4b6c-96c2-52e6b45bc838> "Female sex"@en)
 SubClassOf(<https://purl.org/doves/7d739656-06a3-4b6c-96c2-52e6b45bc838> <https://purl.org/doves/81955a73-7b46-4cb4-bbae-5c34311aa8a0>)
 
@@ -3496,9 +3603,10 @@ AnnotationAssertion(rdfs:label <https://purl.org/doves/711fcca4-517f-4fc4-afc6-8
 AnnotationAssertion(skos:definition <https://purl.org/doves/711fcca4-517f-4fc4-afc6-8923760ef42f> "A Billing Outcome is a Healthcare Operation Outcome pertaining to the process of billing and/or reimbursement. This may include, for example, increased efficiency in the billing process, among others."@en)
 SubClassOf(<https://purl.org/doves/711fcca4-517f-4fc4-afc6-8923760ef42f> <https://purl.org/doves/1ae3245a-1b7f-40b2-ae3b-74706699204a>)
 
-# Class: <https://purl.org/doves/711ff8c1-cf75-4e87-952b-2bc40c35502c> (Medication Dosing)
+# Class: <https://purl.org/doves/711ff8c1-cf75-4e87-952b-2bc40c35502c> (Medication Dosing Capability)
 
-AnnotationAssertion(rdfs:label <https://purl.org/doves/711ff8c1-cf75-4e87-952b-2bc40c35502c> "Medication Dosing"@en)
+AnnotationAssertion(obo:IAO_0000115 <https://purl.org/doves/711ff8c1-cf75-4e87-952b-2bc40c35502c> "Medication Dosing Capability is a Clinical Decision Support Capability that calculates medication dosing based on a number of parameters such as renal and/or hepatoc function, patient weight, prior medication or therapeutic levels, etc.")
+AnnotationAssertion(rdfs:label <https://purl.org/doves/711ff8c1-cf75-4e87-952b-2bc40c35502c> "Medication Dosing Capability"@en)
 SubClassOf(<https://purl.org/doves/711ff8c1-cf75-4e87-952b-2bc40c35502c> <https://purl.org/doves/49f0075d-4218-44ed-a958-1f63ae7f0529>)
 
 # Class: <https://purl.org/doves/7124f3ed-a489-431c-90ce-c2a5fe7d95bb> (Reduced Costs Outcome)
@@ -3625,7 +3733,7 @@ SubClassOf(<https://purl.org/doves/8081940e-b77f-4aa1-bfcf-0b979f0a2158> <https:
 # Class: <https://purl.org/doves/81955a73-7b46-4cb4-bbae-5c34311aa8a0> (Sex Assigned At Birth)
 
 AnnotationAssertion(rdfs:label <https://purl.org/doves/81955a73-7b46-4cb4-bbae-5c34311aa8a0> "Sex Assigned At Birth"@en)
-AnnotationAssertion(skos:definition <https://purl.org/doves/81955a73-7b46-4cb4-bbae-5c34311aa8a0> "Sex Assigned at Birth follows the categories specified by the Office of the National Coordinator for Health Information Technology as specified in the UCSDI standards https://www.healthit.gov/isa/uscdi-data/sex-assigned-birth")
+AnnotationAssertion(skos:definition <https://purl.org/doves/81955a73-7b46-4cb4-bbae-5c34311aa8a0> "Sex Assigned at Birth is a Refining Value defined according to the categories specified by the Office of the National Coordinator for Health Information Technology as specified in the UCSDI standards to describe the sex of an individual as assigned to them on birth. Source: https://www.healthit.gov/isa/uscdi-data/sex-assigned-birth")
 SubClassOf(<https://purl.org/doves/81955a73-7b46-4cb4-bbae-5c34311aa8a0> <https://purl.org/doves/78ceb509-e44b-4d8c-bd47-b457f9d835cb>)
 
 # Class: <https://purl.org/doves/83bd6951-a315-4e58-bfc5-ef3e6aa80af9> (Public Health and General Preventive Medicine)
@@ -3655,9 +3763,10 @@ AnnotationAssertion(rdfs:label <https://purl.org/doves/840177a9-3e6d-4978-ac7a-8
 AnnotationAssertion(skos:definition <https://purl.org/doves/840177a9-3e6d-4978-ac7a-8580c78443d6> "A Safety Event Outcome is a Clinical Care Outcome that describes the mitigation (or worsening) of a safety event or side effect that a Digital Medicine Application may help mitigate, or that a Digital Medicine Application may cause."@en)
 SubClassOf(<https://purl.org/doves/840177a9-3e6d-4978-ac7a-8580c78443d6> <https://purl.org/doves/93556eac-f0d7-4905-a6f2-6951892fcd82>)
 
-# Class: <https://purl.org/doves/8412e50d-1da0-4f69-bb23-66021ba49442> (Best Practice Alerts)
+# Class: <https://purl.org/doves/8412e50d-1da0-4f69-bb23-66021ba49442> (Best Practice Alerts Capability)
 
-AnnotationAssertion(rdfs:label <https://purl.org/doves/8412e50d-1da0-4f69-bb23-66021ba49442> "Best Practice Alerts"@en)
+AnnotationAssertion(obo:IAO_0000115 <https://purl.org/doves/8412e50d-1da0-4f69-bb23-66021ba49442> "Best Practice Alerts (BPA) Capability is a Clinical Decision Support Capability describing a digital medicine or therapeutic's capability to provide functionality related to an alert notification system, wherein alerts are automated alerts embedded in the hospital's electronic medical/health record or computerized provider order entry system. BPA alerts help to facilitate communication of information to healthcare providers and guide clinical practice. Source: https://academic.oup.com/jamiaopen/article/6/3/ooad056/7235064")
+AnnotationAssertion(rdfs:label <https://purl.org/doves/8412e50d-1da0-4f69-bb23-66021ba49442> "Best Practice Alerts Capability"@en)
 SubClassOf(<https://purl.org/doves/8412e50d-1da0-4f69-bb23-66021ba49442> <https://purl.org/doves/49f0075d-4218-44ed-a958-1f63ae7f0529>)
 
 # Class: <https://purl.org/doves/85c6bea1-aa65-4fe6-9b91-86f7f2d5623f> (Triage Outcome)
@@ -3690,6 +3799,7 @@ SubClassOf(<https://purl.org/doves/888b27ef-4a37-4f2d-b918-a9291ac2b878> <https:
 
 # Class: <https://purl.org/doves/894b0e16-237d-40f2-87f0-adaa02cab8c8> (Technology)
 
+AnnotationAssertion(obo:IAO_0000115 <https://purl.org/doves/894b0e16-237d-40f2-87f0-adaa02cab8c8> "Technology is a Refining Value that describes the tecnology or technologies used by a digital medicine or therapeutic application.")
 AnnotationAssertion(rdfs:label <https://purl.org/doves/894b0e16-237d-40f2-87f0-adaa02cab8c8> "Technology"@en)
 SubClassOf(<https://purl.org/doves/894b0e16-237d-40f2-87f0-adaa02cab8c8> <https://purl.org/doves/78ceb509-e44b-4d8c-bd47-b457f9d835cb>)
 
