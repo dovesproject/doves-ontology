@@ -23,39 +23,43 @@ Declaration(Class(<http://purl.org/doves/ad3e8f0e_7216_4aeb_a35a_1c9802d501c2>))
 Declaration(Class(<http://purl.org/doves/b2d3030b_40f0_4dd1_aff3_54541392be23>))
 Declaration(Class(<http://purl.org/doves/b66e23da_fb2f_44cf_a6b0_632a066bd00a>))
 Declaration(Class(<http://purl.org/doves/b80c62bc_fe83_4ea8_bd0d_280adf6aa06b>))
+Declaration(Class(<http://purl.org/doves/b897832d-5e82-44b2-bbcc-9fe8ec64fea0>))
 Declaration(Class(<http://purl.org/doves/c79ccb8f_0c35_4c25_bf04_037bdd603325>))
 Declaration(Class(<http://purl.org/doves/ca912fb6_a4a7_487e_9646_f0844650b77f>))
+Declaration(Class(<http://purl.org/doves/e63990da-3423-41df-ab19-98af4cec86c7>))
 Declaration(Class(<http://purl.org/doves/efe61c04_f9aa_484c_846c_d7ee7cb02f58>))
 Declaration(Class(<http://purl.org/doves/0b28937e_45cc_4f6f_b7d5_2d9ae70f61a0>))
+Declaration(Class(<http://purl.org/doves/038cf955-bb4a-4b7d-b08f-438c5874a366>))
 Declaration(Class(<http://purl.org/doves/076aaae9_4c06_4338_8a74_c81235747135>))
 Declaration(Class(<http://purl.org/doves/09a5d403_43ff_432e_ac86_d3b86d7d2c21>))
 Declaration(Class(<http://purl.org/doves/095a10bf_86d5_42fd_a30b_4739a084da86>))
+Declaration(Class(<http://purl.org/doves/1bdb4509-d3db-494b-8b39-e50e936586ff>))
 Declaration(Class(<http://purl.org/doves/158f4ae0_7b5e_497b_b880_76df4cdd5fc2>))
 Declaration(Class(<http://purl.org/doves/2fc9b6ba_e3c4_457f_80a0_487b89884fcb>))
 Declaration(Class(<http://purl.org/doves/23303eb4_0fb1_4163_a8a8_b1f7c69ece81>))
 Declaration(Class(<http://purl.org/doves/3a6e2b12_29a0_4da5_9e82_f86f2b4eab90>))
 Declaration(Class(<http://purl.org/doves/36e57509_8558_4378_ba65_55ae88ab64dd>))
 Declaration(Class(<http://purl.org/doves/40cf2995_5d61_4033_9bb6_19893e7e8b93>))
+Declaration(Class(<http://purl.org/doves/5ad3f6db-66cc-44d4-8ab8-3a22adc8d18e>))
 Declaration(Class(<http://purl.org/doves/5c7fc88b_0984_4a0c_9de6_76e196d595ad>))
 Declaration(Class(<http://purl.org/doves/6731f96a_7ed3_4c4f_aba0_96da62fd3349>))
+Declaration(Class(<http://purl.org/doves/75d2e380-c073-4afe-968b-47b432703156>))
 Declaration(Class(<http://purl.org/doves/8818ad03_a459_476e_98c4_213c01f406c4>))
 Declaration(Class(<http://purl.org/doves/9db1e98e_f762_49e4_82fc_c622686a25f9>))
 Declaration(Class(<http://purl.org/doves/9dee6af8_663e_4f00_9025_e3e5432608f8>))
+Declaration(Class(<http://purl.org/doves/9679f145-0775-4eab-8708-480380988bce>))
 Declaration(Class(<http://purl.org/doves/984d6b58_ca68_4969_88a6_dc41fbece229>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#ACL_Title_III-D_Evidence-Based_Program_Certification>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Acute_Rehabilitation_Facility>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Alcohol_Use_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Ambulatory>))
-Declaration(Class(<http://purl.org/doves/doves-ontology#American_Indian_or_Alaska_Native>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Ante-partum_Age_Group>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Anxiety_Control>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Anxiety_Control_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Area_Under_the_Curve>))
-Declaration(Class(<http://purl.org/doves/doves-ontology#Asian>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Bed_Control_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Best_Corrected_Visual_Acuity_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Biofeedback_Technology>))
-Declaration(Class(<http://purl.org/doves/doves-ontology#Black_or_African_American>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Bladder_Emptying_Time_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Bluetooth_SIG_Standard_Compliance_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Breast_Cancer_Screening_Outcome>))
@@ -179,7 +183,6 @@ Declaration(Class(<http://purl.org/doves/doves-ontology#Modified_Specialty_Care_
 Declaration(Class(<http://purl.org/doves/doves-ontology#Multi-dimensional_Lifestyle_Adherence_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Musculoskeletal_Control_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#NIST_800-53_Compliance_Outcome>))
-Declaration(Class(<http://purl.org/doves/doves-ontology#Native_Hawaiian_or_Other_Pacific_Islander>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Nephropathy_Control_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Neuropathy_Sign_Control>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Night_Sweat_Control>))
@@ -208,7 +211,6 @@ Declaration(Class(<http://purl.org/doves/doves-ontology#Proportion_of_Days_Per_M
 Declaration(Class(<http://purl.org/doves/doves-ontology#Proportion_of_Issues_of_each_Priority_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Psychologist_Role>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Quality_of_Patient_Care_Star_Ratings_Outcome>))
-Declaration(Class(<http://purl.org/doves/doves-ontology#Race>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Range_of_Motion_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Rapid_Response_Event_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Reduced_Calendar_Year_Total_Cost_of_Care_Outcome>))
@@ -240,7 +242,6 @@ Declaration(Class(<http://purl.org/doves/doves-ontology#Smoking_Cessation_Adhere
 Declaration(Class(<http://purl.org/doves/doves-ontology#Soc_2_Type_1_Certification_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Soc_2_Type_2_Certification_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Sodium_Intake_Adherence_Outcome>))
-Declaration(Class(<http://purl.org/doves/doves-ontology#Some_Other_Race>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Staffing_Level_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Symptom_Control_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#System_Usability_Scale_Outcome>))
@@ -258,7 +259,6 @@ Declaration(Class(<http://purl.org/doves/doves-ontology#Urinary_Sign_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Vision_Control_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Vision_Related_Quality_of_Life_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Weight_Control_Outcome>))
-Declaration(Class(<http://purl.org/doves/doves-ontology#White>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Work_Productivity_and_Activity>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Work_Productivity_and_Activity_Impairment_Questionnaire>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Young_Adult_Age_Group>))
@@ -722,6 +722,12 @@ AnnotationAssertion(rdfs:label <http://purl.org/doves/b80c62bc_fe83_4ea8_bd0d_28
 AnnotationAssertion(skos:definition <http://purl.org/doves/b80c62bc_fe83_4ea8_bd0d_280adf6aa06b> "An Increased Primary Care Encounter Rate Outcome is a Modified Primary Care Outcome that is influenced by digial medicine applications that increase appropriate healthcare utilization in primary care."@en)
 SubClassOf(<http://purl.org/doves/b80c62bc_fe83_4ea8_bd0d_280adf6aa06b> <https://purl.org/doves/9caefbe3-4e93-461c-ae16-cfd0840e4d89>)
 
+# Class: <http://purl.org/doves/b897832d-5e82-44b2-bbcc-9fe8ec64fea0> (white race)
+
+AnnotationAssertion(obo:IAO_0000115 <http://purl.org/doves/b897832d-5e82-44b2-bbcc-9fe8ec64fea0> "White is a Race defined as a person whose origins are in any of the original peoples of Europe, the Middle East, or North Africa. Source: https://www.nih.gov/nih-style-guide/race-national-origin#white")
+AnnotationAssertion(rdfs:label <http://purl.org/doves/b897832d-5e82-44b2-bbcc-9fe8ec64fea0> "white race"@en)
+SubClassOf(<http://purl.org/doves/b897832d-5e82-44b2-bbcc-9fe8ec64fea0> <http://purl.org/doves/e63990da-3423-41df-ab19-98af4cec86c7>)
+
 # Class: <http://purl.org/doves/c79ccb8f_0c35_4c25_bf04_037bdd603325> (reduction in diabetic ketoacidosis events outcome)
 
 AnnotationAssertion(rdfs:label <http://purl.org/doves/c79ccb8f_0c35_4c25_bf04_037bdd603325> "reduction in diabetic ketoacidosis events outcome"@en)
@@ -734,6 +740,14 @@ SubClassOf(<http://purl.org/doves/c79ccb8f_0c35_4c25_bf04_037bdd603325> <http://
 AnnotationAssertion(rdfs:label <http://purl.org/doves/ca912fb6_a4a7_487e_9646_f0844650b77f> "blood glucose time in range outcome"@en)
 AnnotationAssertion(Annotation(rdfs:seeAlso <https://diabetes.org/tools-support/devices-technology/cgm-time-in-range>) skos:definition <http://purl.org/doves/ca912fb6_a4a7_487e_9646_f0844650b77f> "A Blood Glucose Time in Range Outcome is a Glycemic Control Outcome that describes how much time a person's blood sugar is in range, which is between 70 and 180 mg/dL for most people. "@en)
 SubClassOf(<http://purl.org/doves/ca912fb6_a4a7_487e_9646_f0844650b77f> <http://purl.org/doves/158f4ae0_7b5e_497b_b880_76df4cdd5fc2>)
+
+# Class: <http://purl.org/doves/e63990da-3423-41df-ab19-98af4cec86c7> (race)
+
+AnnotationAssertion(rdfs:label <http://purl.org/doves/e63990da-3423-41df-ab19-98af4cec86c7> "race"@en)
+AnnotationAssertion(skos:definition <http://purl.org/doves/e63990da-3423-41df-ab19-98af4cec86c7> "Race is a Refining Value defined as a social construct meant to group people according to common, visible physical traits. 
+
+Categories of race follow guidance from the United States Census Bureau as of Aug 4, 2021. https://www.census.gov/newsroom/blogs/random-samplings/2021/08/measuring-racial-ethnic-diversity-2020-census.html")
+SubClassOf(<http://purl.org/doves/e63990da-3423-41df-ab19-98af4cec86c7> <https://purl.org/doves/78ceb509-e44b-4d8c-bd47-b457f9d835cb>)
 
 # Class: <http://purl.org/doves/efe61c04_f9aa_484c_846c_d7ee7cb02f58> (gender)
 
@@ -751,6 +765,12 @@ SubClassOf(<http://purl.org/doves/efe61c04_f9aa_484c_846c_d7ee7cb02f58> <https:/
 AnnotationAssertion(rdfs:label <http://purl.org/doves/0b28937e_45cc_4f6f_b7d5_2d9ae70f61a0> "adult age group"@en)
 AnnotationAssertion(skos:definition <http://purl.org/doves/0b28937e_45cc_4f6f_b7d5_2d9ae70f61a0> "Adult Age Group is an Age Group defined by the NIH as those individuals 18 years old or older. https://www.nih.gov/nih-style-guide/age")
 SubClassOf(<http://purl.org/doves/0b28937e_45cc_4f6f_b7d5_2d9ae70f61a0> <https://purl.org/doves/d7fdedbd-6d0d-4d67-bd98-03f4c80c944b>)
+
+# Class: <http://purl.org/doves/038cf955-bb4a-4b7d-b08f-438c5874a366> (native hawaiian or other pacific islander race)
+
+AnnotationAssertion(obo:IAO_0000115 <http://purl.org/doves/038cf955-bb4a-4b7d-b08f-438c5874a366> "Native Hawaiian of Other Pacific Islander is a Race defined as a person who traces their lineage and language to Polynesians, including Tahitians, Maoris and Samoans, or to one of eight groups—Fijian, Guamanian, Hawaiian, Northern Mariana Islander, Palauan, Samoan, Tahitian and Tongan respectively. Source: https://www.nih.gov/nih-style-guide/race-national-origin#:~:text=Asian%2C%20Asian%20American,Philippines%2C%20Thailand%2C%20and%20Vietnam.")
+AnnotationAssertion(rdfs:label <http://purl.org/doves/038cf955-bb4a-4b7d-b08f-438c5874a366> "native hawaiian or other pacific islander race")
+SubClassOf(<http://purl.org/doves/038cf955-bb4a-4b7d-b08f-438c5874a366> <http://purl.org/doves/e63990da-3423-41df-ab19-98af4cec86c7>)
 
 # Class: <http://purl.org/doves/076aaae9_4c06_4338_8a74_c81235747135> (NIST certification outcome)
 
@@ -771,6 +791,12 @@ AnnotationAssertion(skos:altLabel <http://purl.org/doves/095a10bf_86d5_42fd_a30b
 AnnotationAssertion(skos:altLabel <http://purl.org/doves/095a10bf_86d5_42fd_a30b_4739a084da86> "CGM Coefficient of Variation Control Outcome"@en)
 AnnotationAssertion(skos:definition <http://purl.org/doves/095a10bf_86d5_42fd_a30b_4739a084da86> "Contiunuous Glucose Monitor Coefficient of Variation Control Outcome is a Glycemic Control Outcome that describes a digital medicine application's influence over a continuous glucose monitor's coefficient of variation, which is the glucose standard deviation divided by the mean glucose, expressed as a percent. "@en)
 SubClassOf(<http://purl.org/doves/095a10bf_86d5_42fd_a30b_4739a084da86> <http://purl.org/doves/158f4ae0_7b5e_497b_b880_76df4cdd5fc2>)
+
+# Class: <http://purl.org/doves/1bdb4509-d3db-494b-8b39-e50e936586ff> (asian race)
+
+AnnotationAssertion(obo:IAO_0000115 <http://purl.org/doves/1bdb4509-d3db-494b-8b39-e50e936586ff> "Asian is a Race defined as a person whose origins are in any of the original populations of the Far East, Southeast Asia, or the Indian subcontinent, including, for example, Cambodia, China, India, Japan, Korea, Malaysia, Pakistan, the Philippines, Thailand, and Vietnam. Source: https://www.nih.gov/nih-style-guide/race-national-origin#:~:text=Asian%2C%20Asian%20American,Philippines%2C%20Thailand%2C%20and%20Vietnam.")
+AnnotationAssertion(rdfs:label <http://purl.org/doves/1bdb4509-d3db-494b-8b39-e50e936586ff> "asian race"@en)
+SubClassOf(<http://purl.org/doves/1bdb4509-d3db-494b-8b39-e50e936586ff> <http://purl.org/doves/e63990da-3423-41df-ab19-98af4cec86c7>)
 
 # Class: <http://purl.org/doves/158f4ae0_7b5e_497b_b880_76df4cdd5fc2> (glycemic control outcome)
 
@@ -810,6 +836,12 @@ AnnotationAssertion(skos:altLabel <http://purl.org/doves/40cf2995_5d61_4033_9bb6
 AnnotationAssertion(Annotation(rdfs:seeAlso <https://www.hopkinsmedicine.org/johns_hopkins_healthcare/providers_physicians/health_care_performance_measures/hedis/comprehensive_diabetes_care_diabetic_hbA1c_test_controlled_result.html>) skos:definition <http://purl.org/doves/40cf2995_5d61_4033_9bb6_19893e7e8b93> "A Hemoglobin A1C Control Outcome is a Glycemic Control Outcome describes the levels which dictate how controlled a patient's hemoglobin A1C is. Less than 8% indicates control and greater than 9% indicates poor control. "@en)
 SubClassOf(<http://purl.org/doves/40cf2995_5d61_4033_9bb6_19893e7e8b93> <http://purl.org/doves/158f4ae0_7b5e_497b_b880_76df4cdd5fc2>)
 
+# Class: <http://purl.org/doves/5ad3f6db-66cc-44d4-8ab8-3a22adc8d18e> (black or african american race)
+
+AnnotationAssertion(obo:IAO_0000115 <http://purl.org/doves/5ad3f6db-66cc-44d4-8ab8-3a22adc8d18e> "Black or African American is a Race defined as a person whose origins are in any of the Black racial groups of Africa. If appropriate, specific terms such as Haitian or Nigerian may also be used. Black is broader and more inclusive than African American. Source: https://www.nih.gov/nih-style-guide/race-national-origin#:~:text=Asian%2C%20Asian%20American,Philippines%2C%20Thailand%2C%20and%20Vietnam.")
+AnnotationAssertion(rdfs:label <http://purl.org/doves/5ad3f6db-66cc-44d4-8ab8-3a22adc8d18e> "black or african american race")
+SubClassOf(<http://purl.org/doves/5ad3f6db-66cc-44d4-8ab8-3a22adc8d18e> <http://purl.org/doves/e63990da-3423-41df-ab19-98af4cec86c7>)
+
 # Class: <http://purl.org/doves/5c7fc88b_0984_4a0c_9de6_76e196d595ad> (continuous glucose monitor glucose management indicator control outcome)
 
 AnnotationAssertion(rdfs:label <http://purl.org/doves/5c7fc88b_0984_4a0c_9de6_76e196d595ad> "continuous glucose monitor glucose management indicator control outcome"@en)
@@ -824,6 +856,12 @@ SubClassOf(<http://purl.org/doves/5c7fc88b_0984_4a0c_9de6_76e196d595ad> <http://
 AnnotationAssertion(rdfs:label <http://purl.org/doves/6731f96a_7ed3_4c4f_aba0_96da62fd3349> "reduced paid claims outcome"@en)
 AnnotationAssertion(Annotation(rdfs:seeAlso <https://www.lawinsider.com/dictionary/paid-claims#:~:text=Paid%20claims%20means%20actual%20payments%2C%20net%20of%20recoveries%2C%20made%20to,loss%20or%20stop%20loss%20carrier>) skos:definition <http://purl.org/doves/6731f96a_7ed3_4c4f_aba0_96da62fd3349> "Reduced Paid Claims Outcome is a Reduced Costs Outcome describing a digital medicine application's influence on reducing the actual payments, net of recoveries, made to a health and medical services provider or reimbursed to an individual by a carrier, third party administrator, or excess loss of stop loss carrier. "@en)
 SubClassOf(<http://purl.org/doves/6731f96a_7ed3_4c4f_aba0_96da62fd3349> <https://purl.org/doves/7124f3ed-a489-431c-90ce-c2a5fe7d95bb>)
+
+# Class: <http://purl.org/doves/75d2e380-c073-4afe-968b-47b432703156> (some other race)
+
+AnnotationAssertion(obo:IAO_0000115 <http://purl.org/doves/75d2e380-c073-4afe-968b-47b432703156> "Some Other Race is a Race defined by exlcusion as none of the other categories of Race.")
+AnnotationAssertion(rdfs:label <http://purl.org/doves/75d2e380-c073-4afe-968b-47b432703156> "some other race")
+SubClassOf(<http://purl.org/doves/75d2e380-c073-4afe-968b-47b432703156> <http://purl.org/doves/e63990da-3423-41df-ab19-98af4cec86c7>)
 
 # Class: <http://purl.org/doves/8818ad03_a459_476e_98c4_213c01f406c4> (percent of prior authorization approvals outcome)
 
@@ -843,6 +881,12 @@ AnnotationAssertion(rdfs:label <http://purl.org/doves/9dee6af8_663e_4f00_9025_e3
 AnnotationAssertion(skos:altLabel <http://purl.org/doves/9dee6af8_663e_4f00_9025_e3e5432608f8> "Reduction in HSS Events Outcome"@en)
 AnnotationAssertion(skos:definition <http://purl.org/doves/9dee6af8_663e_4f00_9025_e3e5432608f8> "A Reduction in Hyperosmolar Hyperglycemic State Events Outcome is a Reduction in Hyperglycemic Events Outcome which describes the influence of a digital medicine application in reducing hyperosmolar hyperglycemic state events."@en)
 SubClassOf(<http://purl.org/doves/9dee6af8_663e_4f00_9025_e3e5432608f8> <http://purl.org/doves/b2d3030b_40f0_4dd1_aff3_54541392be23>)
+
+# Class: <http://purl.org/doves/9679f145-0775-4eab-8708-480380988bce> (american indian or alaska native race)
+
+AnnotationAssertion(obo:IAO_0000115 <http://purl.org/doves/9679f145-0775-4eab-8708-480380988bce> "American Indian or Alaska Native is a Race referring to a person having origins in any of the original peoples of North and South America (including Central America) and who maintains tribal affiliation or community attachment. Source: https://www.census.gov/history/pdf/c2010br-10.pdf")
+AnnotationAssertion(rdfs:label <http://purl.org/doves/9679f145-0775-4eab-8708-480380988bce> "american indian or alaska native race")
+SubClassOf(<http://purl.org/doves/9679f145-0775-4eab-8708-480380988bce> <http://purl.org/doves/e63990da-3423-41df-ab19-98af4cec86c7>)
 
 # Class: <http://purl.org/doves/984d6b58_ca68_4969_88a6_dc41fbece229> (reduction in glycemic events outcome)
 
@@ -878,12 +922,6 @@ Source: https://www.sciencedirect.com/topics/social-sciences/outpatient-clinic")
 AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Ambulatory> "ambulatory setting")
 SubClassOf(<http://purl.org/doves/doves-ontology#Ambulatory> <http://purl.org/doves/doves-ontology#Setting>)
 
-# Class: <http://purl.org/doves/doves-ontology#American_Indian_or_Alaska_Native> (american indian or alaska native race)
-
-AnnotationAssertion(obo:IAO_0000115 <http://purl.org/doves/doves-ontology#American_Indian_or_Alaska_Native> "American Indian or Alaska Native is a Race referring to a person having origins in any of the original peoples of North and South America (including Central America) and who maintains tribal affiliation or community attachment. Source: https://www.census.gov/history/pdf/c2010br-10.pdf")
-AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#American_Indian_or_Alaska_Native> "american indian or alaska native race")
-SubClassOf(<http://purl.org/doves/doves-ontology#American_Indian_or_Alaska_Native> <http://purl.org/doves/doves-ontology#Race>)
-
 # Class: <http://purl.org/doves/doves-ontology#Ante-partum_Age_Group> (in utero age group)
 
 AnnotationAssertion(obo:IAO_0000115 <http://purl.org/doves/doves-ontology#Ante-partum_Age_Group> "In Utero Age Group is an Age Group defined as a term or pre-term human still in utero.")
@@ -908,12 +946,6 @@ AnnotationAssertion(obo:IAO_0000115 <http://purl.org/doves/doves-ontology#Area_U
 AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Area_Under_the_Curve> "increased area under the curve")
 SubClassOf(<http://purl.org/doves/doves-ontology#Area_Under_the_Curve> <https://purl.org/doves/e8a3913a-2e3c-42c6-b662-a35736ffcada>)
 
-# Class: <http://purl.org/doves/doves-ontology#Asian> (asian race)
-
-AnnotationAssertion(obo:IAO_0000115 <http://purl.org/doves/doves-ontology#Asian> "Asian is a Race defined as a person whose origins are in any of the original populations of the Far East, Southeast Asia, or the Indian subcontinent, including, for example, Cambodia, China, India, Japan, Korea, Malaysia, Pakistan, the Philippines, Thailand, and Vietnam. Source: https://www.nih.gov/nih-style-guide/race-national-origin#:~:text=Asian%2C%20Asian%20American,Philippines%2C%20Thailand%2C%20and%20Vietnam.")
-AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Asian> "asian race"@en)
-SubClassOf(<http://purl.org/doves/doves-ontology#Asian> <http://purl.org/doves/doves-ontology#Race>)
-
 # Class: <http://purl.org/doves/doves-ontology#Bed_Control_Outcome> (bed control outcome)
 
 AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Bed_Control_Outcome> "bed control outcome"@en)
@@ -931,12 +963,6 @@ SubClassOf(<http://purl.org/doves/doves-ontology#Best_Corrected_Visual_Acuity_Ou
 AnnotationAssertion(obo:IAO_0000115 <http://purl.org/doves/doves-ontology#Biofeedback_Technology> "Biofeedback Technology is a Technology defined as a process whereby electronic monitoring of a normally automatic bodily function is used to train someone to acquire voluntary control of that function. Source: Oxford Languages Dictionary")
 AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Biofeedback_Technology> "biofeedback technology")
 SubClassOf(<http://purl.org/doves/doves-ontology#Biofeedback_Technology> <https://purl.org/doves/894b0e16-237d-40f2-87f0-adaa02cab8c8>)
-
-# Class: <http://purl.org/doves/doves-ontology#Black_or_African_American> (black or african american race)
-
-AnnotationAssertion(obo:IAO_0000115 <http://purl.org/doves/doves-ontology#Black_or_African_American> "Black or African American is a Race defined as a person whose origins are in any of the Black racial groups of Africa. If appropriate, specific terms such as Haitian or Nigerian may also be used. Black is broader and more inclusive than African American. Source: https://www.nih.gov/nih-style-guide/race-national-origin#:~:text=Asian%2C%20Asian%20American,Philippines%2C%20Thailand%2C%20and%20Vietnam.")
-AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Black_or_African_American> "black or african american race")
-SubClassOf(<http://purl.org/doves/doves-ontology#Black_or_African_American> <http://purl.org/doves/doves-ontology#Race>)
 
 # Class: <http://purl.org/doves/doves-ontology#Bladder_Emptying_Time_Outcome> (bladder emptying time outcome)
 
@@ -1706,12 +1732,6 @@ AnnotationAssertion(obo:IAO_0000115 <http://purl.org/doves/doves-ontology#NIST_8
 AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#NIST_800-53_Compliance_Outcome> "NIST 800-53 compliance outcome")
 SubClassOf(<http://purl.org/doves/doves-ontology#NIST_800-53_Compliance_Outcome> <https://purl.org/doves/9345fc0a-25dd-4d30-8275-da199ca93713>)
 
-# Class: <http://purl.org/doves/doves-ontology#Native_Hawaiian_or_Other_Pacific_Islander> (native hawaiian or other pacific islander race)
-
-AnnotationAssertion(obo:IAO_0000115 <http://purl.org/doves/doves-ontology#Native_Hawaiian_or_Other_Pacific_Islander> "Native Hawaiian of Other Pacific Islander is a Race defined as a person who traces their lineage and language to Polynesians, including Tahitians, Maoris and Samoans, or to one of eight groups—Fijian, Guamanian, Hawaiian, Northern Mariana Islander, Palauan, Samoan, Tahitian and Tongan respectively. Source: https://www.nih.gov/nih-style-guide/race-national-origin#:~:text=Asian%2C%20Asian%20American,Philippines%2C%20Thailand%2C%20and%20Vietnam.")
-AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Native_Hawaiian_or_Other_Pacific_Islander> "native hawaiian or other pacific islander race")
-SubClassOf(<http://purl.org/doves/doves-ontology#Native_Hawaiian_or_Other_Pacific_Islander> <http://purl.org/doves/doves-ontology#Race>)
-
 # Class: <http://purl.org/doves/doves-ontology#Nephropathy_Control_Outcome> (nephropathy control outcome)
 
 AnnotationAssertion(obo:IAO_0000115 <http://purl.org/doves/doves-ontology#Nephropathy_Control_Outcome> "Nephropathy Control Outcome is a Sign Control Outcome that reflects the control of damage to the nephrons of the kidney as often reflected in routine blood and urine tests.")
@@ -1880,14 +1900,6 @@ SubClassOf(<http://purl.org/doves/doves-ontology#Psychologist_Role> <https://pur
 AnnotationAssertion(obo:IAO_0000115 <http://purl.org/doves/doves-ontology#Quality_of_Patient_Care_Star_Ratings_Outcome> "Quality of Patient Care Star Ratings Outcome is a Healthcare Quality of Care Outcome that describes a digital medicine application's influence on or ability to report/track Quality of Patient Care Star Ratings, a rating system using stars to represent performance of Home Health Agencies that is valuable to consumers. Star ratings can help consumers more quickly identify differences in quality and make use of the information when selecting a health care provider. In addition to summarizing performance, star ratings can also help home organizations identify areas for improvement. They are useful to consumers, consumer advocates, health care providers, and other stakeholders, when updated regularly to present the most current information available. Source: https://www.cms.gov/Medicare/Quality-Initiatives-Patient-Assessment-Instruments/HomeHealthQualityInits/Downloads/Quality-of-Patient-Care-Star-Ratings-Methodology_2019.pdf")
 AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Quality_of_Patient_Care_Star_Ratings_Outcome> "quality of patient care star ratings outcome")
 SubClassOf(<http://purl.org/doves/doves-ontology#Quality_of_Patient_Care_Star_Ratings_Outcome> <http://purl.org/doves/doves-ontology#Healthcare_Quality_of_Care_Outcome>)
-
-# Class: <http://purl.org/doves/doves-ontology#Race> (race)
-
-AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Race> "race"@en)
-AnnotationAssertion(skos:definition <http://purl.org/doves/doves-ontology#Race> "Race is a Refining Value defined as a social construct meant to group people according to common, visible physical traits. 
-
-Categories of race follow guidance from the United States Census Bureau as of Aug 4, 2021. https://www.census.gov/newsroom/blogs/random-samplings/2021/08/measuring-racial-ethnic-diversity-2020-census.html")
-SubClassOf(<http://purl.org/doves/doves-ontology#Race> <https://purl.org/doves/78ceb509-e44b-4d8c-bd47-b457f9d835cb>)
 
 # Class: <http://purl.org/doves/doves-ontology#Range_of_Motion_Outcome> (range of motion outcome)
 
@@ -2075,12 +2087,6 @@ AnnotationAssertion(obo:IAO_0000115 <http://purl.org/doves/doves-ontology#Sodium
 AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Sodium_Intake_Adherence_Outcome> "sodium intake adherence outcome")
 SubClassOf(<http://purl.org/doves/doves-ontology#Sodium_Intake_Adherence_Outcome> <http://purl.org/doves/doves-ontology#Dietary_Adherence_Outcome>)
 
-# Class: <http://purl.org/doves/doves-ontology#Some_Other_Race> (some other race)
-
-AnnotationAssertion(obo:IAO_0000115 <http://purl.org/doves/doves-ontology#Some_Other_Race> "Some Other Race is a Race defined by exlcusion as none of the other categories of Race.")
-AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Some_Other_Race> "some other race")
-SubClassOf(<http://purl.org/doves/doves-ontology#Some_Other_Race> <http://purl.org/doves/doves-ontology#Race>)
-
 # Class: <http://purl.org/doves/doves-ontology#Staffing_Level_Outcome> (staffing level outcome)
 
 AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Staffing_Level_Outcome> "staffing level outcome"@en)
@@ -2185,12 +2191,6 @@ SubClassOf(<http://purl.org/doves/doves-ontology#Vision_Related_Quality_of_Life_
 AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Weight_Control_Outcome> "weight control outcome"@en)
 AnnotationAssertion(skos:definition <http://purl.org/doves/doves-ontology#Weight_Control_Outcome> "Weight Control Outcome is a Sign Control Outcome that describes a digital medicine application's influence over controlling or helping to control a patient's weight."@en)
 SubClassOf(<http://purl.org/doves/doves-ontology#Weight_Control_Outcome> <http://purl.org/doves/doves-ontology#Sign_Control_Outcome>)
-
-# Class: <http://purl.org/doves/doves-ontology#White> (white race)
-
-AnnotationAssertion(obo:IAO_0000115 <http://purl.org/doves/doves-ontology#White> "White is a Race defined as a person whose origins are in any of the original peoples of Europe, the Middle East, or North Africa. Source: https://www.nih.gov/nih-style-guide/race-national-origin#white")
-AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#White> "white race"@en)
-SubClassOf(<http://purl.org/doves/doves-ontology#White> <http://purl.org/doves/doves-ontology#Race>)
 
 # Class: <http://purl.org/doves/doves-ontology#Work_Productivity_and_Activity> (work productivity and activity outcome)
 
