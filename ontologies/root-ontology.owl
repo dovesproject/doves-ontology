@@ -674,9 +674,9 @@ AnnotationAssertion(rdfs:label <https://purl.org/doves/2d8bd602-011c-4327-ad38-8
 
 AnnotationAssertion(rdfs:label <https://purl.org/doves/24dcb20e-39ed-4469-9d8a-ea3808f4fb16> "has accuracy"@en)
 
-# Object Property: <https://purl.org/doves/35053043-d428-432d-9044-1c3c91f72451> (hasAssociatedEvent)
+# Object Property: <https://purl.org/doves/35053043-d428-432d-9044-1c3c91f72451> (has associated event)
 
-AnnotationAssertion(rdfs:label <https://purl.org/doves/35053043-d428-432d-9044-1c3c91f72451> "hasAssociatedEvent"@en)
+AnnotationAssertion(rdfs:label <https://purl.org/doves/35053043-d428-432d-9044-1c3c91f72451> "has associated event"@en)
 
 # Object Property: <https://purl.org/doves/4b61e411-782f-4ccd-9f96-ba45caef73b6> (has sex)
 
