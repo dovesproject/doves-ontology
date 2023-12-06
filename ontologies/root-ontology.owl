@@ -3340,10 +3340,10 @@ AnnotationAssertion(rdfs:label <https://purl.org/doves/1c1d0e62-5c9b-4344-8ff1-9
 AnnotationAssertion(skos:definition <https://purl.org/doves/1c1d0e62-5c9b-4344-8ff1-9e71d1debb38> "A Medication Adherence Outcome is an Treatment Adherence Outcome that reflects an individual's degree of adherence to taking their medications as recommended."@en)
 SubClassOf(<https://purl.org/doves/1c1d0e62-5c9b-4344-8ff1-9e71d1debb38> <http://purl.org/doves/doves-ontology#Treatment_Adherence_Outcome>)
 
-# Class: <https://purl.org/doves/1ce5511a-c36f-4fb4-97a6-8e1b0642a27d> (technical capability area)
+# Class: <https://purl.org/doves/1ce5511a-c36f-4fb4-97a6-8e1b0642a27d> (technical capability)
 
 AnnotationAssertion(obo:IAO_0000115 <https://purl.org/doves/1ce5511a-c36f-4fb4-97a6-8e1b0642a27d> "Technical Capability Area is a Refining Value describing major technical categories of digital medicine or therapeutic products.")
-AnnotationAssertion(rdfs:label <https://purl.org/doves/1ce5511a-c36f-4fb4-97a6-8e1b0642a27d> "technical capability area"@en)
+AnnotationAssertion(rdfs:label <https://purl.org/doves/1ce5511a-c36f-4fb4-97a6-8e1b0642a27d> "technical capability"@en)
 SubClassOf(<https://purl.org/doves/1ce5511a-c36f-4fb4-97a6-8e1b0642a27d> <https://purl.org/doves/78ceb509-e44b-4d8c-bd47-b457f9d835cb>)
 
 # Class: <https://purl.org/doves/1d38e6de-d0dc-42a1-bf44-e01339371c7b> (HIPAA compliance outcome)
