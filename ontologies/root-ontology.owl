@@ -1256,10 +1256,10 @@ AnnotationAssertion(obo:IAO_0000115 <http://purl.org/doves/doves-ontology#Exerci
 AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Exercise_Adherence_outcome> "exercise adherence outcome")
 SubClassOf(<http://purl.org/doves/doves-ontology#Exercise_Adherence_outcome> <http://purl.org/doves/doves-ontology#Lifestyle_Adherence_Outcome>)
 
-# Class: <http://purl.org/doves/doves-ontology#FDA> (FDA approval)
+# Class: <http://purl.org/doves/doves-ontology#FDA> (FDA approval status)
 
-AnnotationAssertion(obo:IAO_0000115 <http://purl.org/doves/doves-ontology#FDA> "FDA Approval is a Regulatory Approval indicating that the Food and Drug Administation (FDA) of the United States indicating that agency has determined that the benefits of the product outweigh the risks for the intended use. Source: https://www.fda.gov/consumers/consumer-updates/it-really-fda-approved")
-AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#FDA> "FDA approval")
+AnnotationAssertion(obo:IAO_0000115 <http://purl.org/doves/doves-ontology#FDA> "FDA approval status is a regulatory approval status indicating that the Food and Drug Administation (FDA) of the United States indicating that agency has determined that the benefits of the product outweigh the risks for the intended use. Source: https://www.fda.gov/consumers/consumer-updates/it-really-fda-approved")
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#FDA> "FDA approval status")
 SubClassOf(<http://purl.org/doves/doves-ontology#FDA> <http://purl.org/doves/doves-ontology#Regulatory_Approval>)
 
 # Class: <http://purl.org/doves/doves-ontology#FDA_Approved> (FDA approved)
@@ -1987,10 +1987,10 @@ AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Reduction_i
 AnnotationAssertion(Annotation(rdfs:seeAlso <https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9291009/>) skos:definition <http://purl.org/doves/doves-ontology#Reduction_in_Falls_Outcome> "A Reduction in Falls Outcome is a Sign Control Outcome related to the decrease in older individuals' prevalence of falls. A reduction in falls improves older individuals' quality of life and safety in their environment. "@en)
 SubClassOf(<http://purl.org/doves/doves-ontology#Reduction_in_Falls_Outcome> <http://purl.org/doves/doves-ontology#Sign_Control_Outcome>)
 
-# Class: <http://purl.org/doves/doves-ontology#Regulatory_Approval> (regulatory approval)
+# Class: <http://purl.org/doves/doves-ontology#Regulatory_Approval> (regulatory approval status)
 
 AnnotationAssertion(obo:IAO_0000115 <http://purl.org/doves/doves-ontology#Regulatory_Approval> "Regulatory Approval is a Refining Value that refers to government regulated approval for safety and efficacy of a digital medicine application or software as a medical device.")
-AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Regulatory_Approval> "regulatory approval")
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Regulatory_Approval> "regulatory approval status")
 SubClassOf(<http://purl.org/doves/doves-ontology#Regulatory_Approval> <https://purl.org/doves/78ceb509-e44b-4d8c-bd47-b457f9d835cb>)
 
 # Class: <http://purl.org/doves/doves-ontology#Regulatory_Category> (regulatory category)
@@ -2265,10 +2265,10 @@ AnnotationAssertion(obo:IAO_0000115 <http://purl.org/doves/doves-ontology#Clinic
 AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Clinician_and_Group_Consumer_Assessment_of_Healthcare_Providers_and_Systems_(CG_CAHPS)_Outcome> "clinician and group consumer assessment of healthcare providers and systems (CG CAHPS) outcome")
 SubClassOf(<http://purl.org/doves/doves-ontology#Clinician_and_Group_Consumer_Assessment_of_Healthcare_Providers_and_Systems_(CG_CAHPS)_Outcome> <http://purl.org/doves/doves-ontology#Healthcare_Quality_of_Care_Outcome>)
 
-# Class: <http://purl.org/doves/doves-ontology#Conformite_Europeenne_(CE)> (conformite europeenne (CE) approval)
+# Class: <http://purl.org/doves/doves-ontology#Conformite_Europeenne_(CE)> (conformite europeenne (CE) approval status)
 
 AnnotationAssertion(obo:IAO_0000115 <http://purl.org/doves/doves-ontology#Conformite_Europeenne_(CE)> "CE Approval (or CE Marking) is a Refining Value indicating that products sold in the European Economic Area have been assessed to meet high safety, health, and environmental protection requirements. Source: https://single-market-economy.ec.europa.eu/single-market/ce-marking_en")
-AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Conformite_Europeenne_(CE)> "conformite europeenne (CE) approval")
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Conformite_Europeenne_(CE)> "conformite europeenne (CE) approval status")
 SubClassOf(<http://purl.org/doves/doves-ontology#Conformite_Europeenne_(CE)> <http://purl.org/doves/doves-ontology#Regulatory_Approval>)
 
 # Class: <http://purl.org/doves/doves-ontology#Continuous_Glucose_Monitor_(CGM)_Wear_Time> (continuous glucose monitor (CGM) wear time outcome)
