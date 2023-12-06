@@ -92,7 +92,6 @@ Declaration(Class(<http://purl.org/doves/doves-ontology#Diabetic_Retinopathy_Exa
 Declaration(Class(<http://purl.org/doves/doves-ontology#Dietary_Adherence_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Digital_Health_Application>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Digital_Health_Assessment_Framework_Certification_Outcome>))
-Declaration(Class(<http://purl.org/doves/doves-ontology#Digital_Medicine_Application>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Digital_Medicine_Assessment_Certification_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Digital_Technology_Assessment_Criteria_Certification_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Digital_Therapeutic_Application>))
@@ -1153,7 +1152,7 @@ SubClassOf(<http://purl.org/doves/doves-ontology#Dietary_Adherence_Outcome> <htt
 
 AnnotationAssertion(obo:IAO_0000115 <http://purl.org/doves/doves-ontology#Digital_Health_Application> "A Digital Health Application includes technologies, platforms, and systems that engage consumers for lifestyle, wellness, and health-related purposes; capture, store, or transmit health data; and/or support life science and clinical operations. Digital Health applications typically do not require clinical evidence, and do not meet the regulatory definition of a medical device and do not require regulatory oversight. Source: https://www.healthxl.com/blog/digital-health-digital-medicine-digital-therapeutics-dtx-whats-the-difference")
 AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Digital_Health_Application> "digital health application")
-SubClassOf(<http://purl.org/doves/doves-ontology#Digital_Health_Application> <http://purl.org/doves/doves-ontology#Regulatory_Category>)
+SubClassOf(<http://purl.org/doves/doves-ontology#Digital_Health_Application> obo:IAO_0000594)
 
 # Class: <http://purl.org/doves/doves-ontology#Digital_Health_Assessment_Framework_Certification_Outcome> (digital medicine assessment framework (DHAF) certification outcome)
 
@@ -1182,11 +1181,6 @@ Technical Security & Stability
 "@en)
 SubClassOf(<http://purl.org/doves/doves-ontology#Digital_Health_Assessment_Framework_Certification_Outcome> <http://purl.org/doves/doves-ontology#Digital_Medicine_Assessment_Certification_Outcome>)
 
-# Class: <http://purl.org/doves/doves-ontology#Digital_Medicine_Application> (digital medicine applications include evidence-based software and/or hardware products that measure and/or intervene in the service of human health. clinical evidence is required, and requirements for regulatory oversight vary. digital medicine products that are classified as medical devices require clearance or approval. digital medicine products used as a tool to develop other drugs, devices, or medical products require regulatory acceptance by the appropriate review division. source: https://www.healthxl.com/blog/digital-health-digital-medicine-digital-therapeutics-dtx-whats-the-difference)
-
-AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Digital_Medicine_Application> "digital medicine applications include evidence-based software and/or hardware products that measure and/or intervene in the service of human health. clinical evidence is required, and requirements for regulatory oversight vary. digital medicine products that are classified as medical devices require clearance or approval. digital medicine products used as a tool to develop other drugs, devices, or medical products require regulatory acceptance by the appropriate review division. source: https://www.healthxl.com/blog/digital-health-digital-medicine-digital-therapeutics-dtx-whats-the-difference")
-SubClassOf(<http://purl.org/doves/doves-ontology#Digital_Medicine_Application> <http://purl.org/doves/doves-ontology#Regulatory_Category>)
-
 # Class: <http://purl.org/doves/doves-ontology#Digital_Medicine_Assessment_Certification_Outcome> (digital medicine assessment certification outcome)
 
 AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Digital_Medicine_Assessment_Certification_Outcome> "digital medicine assessment certification outcome"@en)
@@ -1205,7 +1199,7 @@ SubClassOf(<http://purl.org/doves/doves-ontology#Digital_Technology_Assessment_C
 
 AnnotationAssertion(obo:IAO_0000115 <http://purl.org/doves/doves-ontology#Digital_Therapeutic_Application> "A digital Therapeutic Application is health software intended to treat or alleviate a disease, disorder, or injury by generating and delivering a medical intervention that has a demonstrable positive therapeutic impact on a patient's health. ISO /TR11147:2023(en) It can also be considered to be a digital product that delivers evidence-based therapeutic intervention to prevent, manage, or treat a medical disorder or condition. Digital Therapeutic applications typically require clinical evidence and real world outcomes and must be reviewed and cleared by regulatory bodies as required to support product claims of risk, efficacy, and intended use. Source: https://www.healthxl.com/blog/digital-health-digital-medicine-digital-therapeutics-dtx-whats-the-difference")
 AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Digital_Therapeutic_Application> "digital therapeutic application")
-SubClassOf(<http://purl.org/doves/doves-ontology#Digital_Therapeutic_Application> <http://purl.org/doves/doves-ontology#Regulatory_Category>)
+SubClassOf(<http://purl.org/doves/doves-ontology#Digital_Therapeutic_Application> obo:IAO_0000594)
 
 # Class: <http://purl.org/doves/doves-ontology#Disease_Course_Modification_Outcome> (disease course modification outcome)
 
@@ -2836,8 +2830,12 @@ SubClassOf(<https://purl.org/doves/d8921308-6f79-4d16-8633-d63e9d8ed046> <https:
 
 # Class: <https://purl.org/doves/d9e2bafb-40d3-433f-8047-5f7a81973790> (digital medicine application)
 
+AnnotationAssertion(rdfs:comment <https://purl.org/doves/d9e2bafb-40d3-433f-8047-5f7a81973790> "A digital medicine application is an application that leverages digital technologies to address healthcare outcomes relating to one or more diseases or specialties, using one or more technological approaches, with one or more users at least one of whom is a healthcare professional. Digital medicine applications are conceptually related to Software as a Medical Device (SaMD) or Software in a Medical Device (SiMD)")
 AnnotationAssertion(rdfs:label <https://purl.org/doves/d9e2bafb-40d3-433f-8047-5f7a81973790> "digital medicine application"@en)
-AnnotationAssertion(skos:definition <https://purl.org/doves/d9e2bafb-40d3-433f-8047-5f7a81973790> "A digital medicine application is an application that leverages digital technologies to address healthcare outcomes relating to one or more diseases or specialties, using one or more technological approaches, with one or more users at least one of whom is a healthcare professional. Digital medicine applications are conceptually related to Software as a Medical Device (SaMD) or Software in a Medical Device (SiMD)")
+AnnotationAssertion(rdfs:seeAlso <https://purl.org/doves/d9e2bafb-40d3-433f-8047-5f7a81973790> <https://www.healthxl.com/blog/digital-health-digital-medicine-digital-therapeutics-dtx-whats-the-difference>)
+AnnotationAssertion(skos:definition <https://purl.org/doves/d9e2bafb-40d3-433f-8047-5f7a81973790> "A digital medicine application is a software application that measures and/or intervenes in the service of human health. Clinical evidence is required, and requirements for regulatory oversight vary.  Digital medicine products that are classified as medical devices require clearance or approval. Digital medicine products used as a tool to develop other drugs, devices, or medical products require regulatory acceptance by the appropriate review division. 
+
+Source: https://www.healthxl.com/blog/digital-health-digital-medicine-digital-therapeutics-dtx-whats-the-difference"@en)
 SubClassOf(<https://purl.org/doves/d9e2bafb-40d3-433f-8047-5f7a81973790> obo:IAO_0000594)
 SubClassOf(<https://purl.org/doves/d9e2bafb-40d3-433f-8047-5f7a81973790> ObjectSomeValuesFrom(<https://purl.org/doves/a9867165-15f1-42bd-98ea-98879909af88> <https://purl.org/doves/42032214-7b35-46e0-98f9-cd903d8fd464>))
 SubClassOf(<https://purl.org/doves/d9e2bafb-40d3-433f-8047-5f7a81973790> ObjectSomeValuesFrom(<https://purl.org/doves/bc0c195d-054f-46ef-b11a-7098ecac8258> <https://purl.org/doves/01d40506-2d2f-4237-a87b-229e268c2f14>))
