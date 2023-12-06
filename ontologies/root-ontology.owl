@@ -649,6 +649,10 @@ AnnotationAssertion(rdfs:label <http://purl.org/doves/ca198190_6ba6_4f8d_b67b_98
 
 AnnotationAssertion(rdfs:label <https://purl.org/doves/a9867165-15f1-42bd-98ea-98879909af88> "has evidencetype"@en)
 
+# Object Property: <https://purl.org/doves/bc0c195d-054f-46ef-b11a-7098ecac8258> (has role)
+
+AnnotationAssertion(rdfs:label <https://purl.org/doves/bc0c195d-054f-46ef-b11a-7098ecac8258> "has role"@en)
+
 # Object Property: <https://purl.org/doves/e352e4b8-9c80-45f1-a877-a397b5b33cc1> (has age group)
 
 AnnotationAssertion(rdfs:label <https://purl.org/doves/e352e4b8-9c80-45f1-a877-a397b5b33cc1> "has age group"@en)
