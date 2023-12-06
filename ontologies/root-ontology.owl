@@ -2774,7 +2774,6 @@ SubClassOf(<https://purl.org/doves/cdec99b1-f3e5-4009-bdc5-49ea965dc503> <https:
 
 # Class: <https://purl.org/doves/d042fc04-644c-4ce3-9ea9-c51efd5ac25a> (data processing synthesis or visualization capability)
 
-AnnotationAssertion(obo:IAO_0000115 <https://purl.org/doves/d042fc04-644c-4ce3-9ea9-c51efd5ac25a> "")
 AnnotationAssertion(obo:IAO_0000115 <https://purl.org/doves/d042fc04-644c-4ce3-9ea9-c51efd5ac25a> "Data Processing Synthesis or Visualization Capability is a Technical Capability Area describing a digital medicine or therapeutic's capability to process or synthesize data and usually turn those data into meaningul output such as through visualizations.")
 AnnotationAssertion(rdfs:label <https://purl.org/doves/d042fc04-644c-4ce3-9ea9-c51efd5ac25a> "data processing synthesis or visualization capability"@en)
 SubClassOf(<https://purl.org/doves/d042fc04-644c-4ce3-9ea9-c51efd5ac25a> <https://purl.org/doves/1ce5511a-c36f-4fb4-97a6-8e1b0642a27d>)
