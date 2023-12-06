@@ -627,10 +627,19 @@ Declaration(ObjectProperty(<https://purl.org/doves/35053043-d428-432d-9044-1c3c9
 Declaration(ObjectProperty(<https://purl.org/doves/4b61e411-782f-4ccd-9f96-ba45caef73b6>))
 Declaration(ObjectProperty(<https://purl.org/doves/5b5e21c9-08f7-4c4f-a8ab-18f3914fdabc>))
 Declaration(NamedIndividual(<http://purl.org/doves/4bedc15f_c338_435e_8489_48fe5adb7304>))
+Declaration(AnnotationProperty(<http://purl.org/doves/ca198190_6ba6_4f8d_b67b_9887d40b6b85>))
 Declaration(AnnotationProperty(<http://purl.org/doves/doves-ontology#relates_to>))
 Declaration(AnnotationProperty(rdfs:label))
 Declaration(AnnotationProperty(skos:altLabel))
 Declaration(AnnotationProperty(skos:exactMatch))
+############################
+#   Annotation Properties
+############################
+
+# Annotation Property: <http://purl.org/doves/ca198190_6ba6_4f8d_b67b_9887d40b6b85> (source)
+
+AnnotationAssertion(rdfs:label <http://purl.org/doves/ca198190_6ba6_4f8d_b67b_9887d40b6b85> "source"@en)
+
 
 ############################
 #   Object Properties
@@ -1150,7 +1159,7 @@ SubClassOf(<http://purl.org/doves/doves-ontology#Dietary_Adherence_Outcome> <htt
 
 # Class: <http://purl.org/doves/doves-ontology#Digital_Health_Application> (digital health application)
 
-AnnotationAssertion(obo:IAO_0000115 <http://purl.org/doves/doves-ontology#Digital_Health_Application> "A Digital Health Application includes technologies, platforms, and systems that engage consumers for lifestyle, wellness, and health-related purposes; capture, store, or transmit health data; and/or support life science and clinical operations. Digital Health applications typically do not require clinical evidence, and do not meet the regulatory definition of a medical device and do not require regulatory oversight. Source: https://www.healthxl.com/blog/digital-health-digital-medicine-digital-therapeutics-dtx-whats-the-difference")
+AnnotationAssertion(Annotation(<http://purl.org/doves/ca198190_6ba6_4f8d_b67b_9887d40b6b85> <https://www.healthxl.com/blog/digital-health-digital-medicine-digital-therapeutics-dtx-whats-the-difference>) obo:IAO_0000115 <http://purl.org/doves/doves-ontology#Digital_Health_Application> "A Digital Health Application includes technologies, platforms, and systems that engage consumers for lifestyle, wellness, and health-related purposes; capture, store, or transmit health data; and/or support life science and clinical operations. Digital Health applications typically do not require clinical evidence, and do not meet the regulatory definition of a medical device and do not require regulatory oversight."@en)
 AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Digital_Health_Application> "digital health application")
 SubClassOf(<http://purl.org/doves/doves-ontology#Digital_Health_Application> obo:IAO_0000594)
 
@@ -1197,7 +1206,9 @@ SubClassOf(<http://purl.org/doves/doves-ontology#Digital_Technology_Assessment_C
 
 # Class: <http://purl.org/doves/doves-ontology#Digital_Therapeutic_Application> (digital therapeutic application)
 
-AnnotationAssertion(obo:IAO_0000115 <http://purl.org/doves/doves-ontology#Digital_Therapeutic_Application> "A digital Therapeutic Application is health software intended to treat or alleviate a disease, disorder, or injury by generating and delivering a medical intervention that has a demonstrable positive therapeutic impact on a patient's health. ISO /TR11147:2023(en) It can also be considered to be a digital product that delivers evidence-based therapeutic intervention to prevent, manage, or treat a medical disorder or condition. Digital Therapeutic applications typically require clinical evidence and real world outcomes and must be reviewed and cleared by regulatory bodies as required to support product claims of risk, efficacy, and intended use. Source: https://www.healthxl.com/blog/digital-health-digital-medicine-digital-therapeutics-dtx-whats-the-difference")
+AnnotationAssertion(Annotation(<http://purl.org/doves/ca198190_6ba6_4f8d_b67b_9887d40b6b85> <https://www.healthxl.com/blog/digital-health-digital-medicine-digital-therapeutics-dtx-whats-the-difference>) obo:IAO_0000115 <http://purl.org/doves/doves-ontology#Digital_Therapeutic_Application> "A digital Therapeutic Application is health software intended to treat or alleviate a disease, disorder, or injury by generating and delivering a medical intervention that has a demonstrable positive therapeutic impact on a patient's health. ISO /TR11147:2023(en) It can also be considered to be a digital product that delivers evidence-based therapeutic intervention to prevent, manage, or treat a medical disorder or condition. 
+
+Digital Therapeutic applications typically require clinical evidence and real world outcomes and must be reviewed and cleared by regulatory bodies as required to support product claims of risk, efficacy, and intended use."@en)
 AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Digital_Therapeutic_Application> "digital therapeutic application")
 SubClassOf(<http://purl.org/doves/doves-ontology#Digital_Therapeutic_Application> obo:IAO_0000594)
 
@@ -2832,10 +2843,7 @@ SubClassOf(<https://purl.org/doves/d8921308-6f79-4d16-8633-d63e9d8ed046> <https:
 
 AnnotationAssertion(rdfs:comment <https://purl.org/doves/d9e2bafb-40d3-433f-8047-5f7a81973790> "A digital medicine application is an application that leverages digital technologies to address healthcare outcomes relating to one or more diseases or specialties, using one or more technological approaches, with one or more users at least one of whom is a healthcare professional. Digital medicine applications are conceptually related to Software as a Medical Device (SaMD) or Software in a Medical Device (SiMD)")
 AnnotationAssertion(rdfs:label <https://purl.org/doves/d9e2bafb-40d3-433f-8047-5f7a81973790> "digital medicine application"@en)
-AnnotationAssertion(rdfs:seeAlso <https://purl.org/doves/d9e2bafb-40d3-433f-8047-5f7a81973790> <https://www.healthxl.com/blog/digital-health-digital-medicine-digital-therapeutics-dtx-whats-the-difference>)
-AnnotationAssertion(skos:definition <https://purl.org/doves/d9e2bafb-40d3-433f-8047-5f7a81973790> "A digital medicine application is a software application that measures and/or intervenes in the service of human health. Clinical evidence is required, and requirements for regulatory oversight vary.  Digital medicine products that are classified as medical devices require clearance or approval. Digital medicine products used as a tool to develop other drugs, devices, or medical products require regulatory acceptance by the appropriate review division. 
-
-Source: https://www.healthxl.com/blog/digital-health-digital-medicine-digital-therapeutics-dtx-whats-the-difference"@en)
+AnnotationAssertion(Annotation(<http://purl.org/doves/ca198190_6ba6_4f8d_b67b_9887d40b6b85> <https://www.healthxl.com/blog/digital-health-digital-medicine-digital-therapeutics-dtx-whats-the-difference>) skos:definition <https://purl.org/doves/d9e2bafb-40d3-433f-8047-5f7a81973790> "A digital medicine application is a software application that measures and/or intervenes in the service of human health. Clinical evidence is required, and requirements for regulatory oversight vary.  Digital medicine products that are classified as medical devices require clearance or approval. Digital medicine products used as a tool to develop other drugs, devices, or medical products require regulatory acceptance by the appropriate review division."@en)
 SubClassOf(<https://purl.org/doves/d9e2bafb-40d3-433f-8047-5f7a81973790> obo:IAO_0000594)
 SubClassOf(<https://purl.org/doves/d9e2bafb-40d3-433f-8047-5f7a81973790> ObjectSomeValuesFrom(<https://purl.org/doves/a9867165-15f1-42bd-98ea-98879909af88> <https://purl.org/doves/42032214-7b35-46e0-98f9-cd903d8fd464>))
 SubClassOf(<https://purl.org/doves/d9e2bafb-40d3-433f-8047-5f7a81973790> ObjectSomeValuesFrom(<https://purl.org/doves/bc0c195d-054f-46ef-b11a-7098ecac8258> <https://purl.org/doves/01d40506-2d2f-4237-a87b-229e268c2f14>))
