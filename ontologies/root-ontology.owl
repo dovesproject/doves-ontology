@@ -1353,10 +1353,11 @@ Measures the percentage of individuals who have HbA1C in control, defined as <8%
 Measures the percentage of individuals who are in Poor control, defined by HbA1ct >9.0%"@en)
 SubClassOf(<http://purl.org/doves/doves-ontology#HEDIS_HbA1c_Control> <https://purl.org/doves/494ac5f1-e8d5-40dc-9028-07bbe6f34373>)
 
-# Class: <http://purl.org/doves/doves-ontology#HIE_Integration> (HIE integration)
+# Class: <http://purl.org/doves/doves-ontology#HIE_Integration> (health information exchange integration)
 
 AnnotationAssertion(obo:IAO_0000115 <http://purl.org/doves/doves-ontology#HIE_Integration> "HIE Integration is a Refining Value that describes a digital medicine application's integration with Health Information Exchanges (HIEs).")
-AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#HIE_Integration> "HIE integration")
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#HIE_Integration> "health information exchange integration"@en)
+AnnotationAssertion(skos:altLabel <http://purl.org/doves/doves-ontology#HIE_Integration> "HIE integration"@en)
 SubClassOf(<http://purl.org/doves/doves-ontology#HIE_Integration> <https://purl.org/doves/78ceb509-e44b-4d8c-bd47-b457f9d835cb>)
 
 # Class: <http://purl.org/doves/doves-ontology#HL7_Access_Outcome> (HL7 access outcome)
