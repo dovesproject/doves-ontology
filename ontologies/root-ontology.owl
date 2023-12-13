@@ -16,6 +16,8 @@ Prefix(webprotege:=<http://webprotege.stanford.edu/>)
 Ontology(<http://purl.org/doves/doves-ontology>
 Import(<http://purl.obolibrary.org/obo/mondo-human-disease-extract.owl>)
 Import(<http://www.semanticweb.org/AdverseEventExtract>)
+Annotation(<http://purl.org/dc/terms/description> "The Digital medicine Outcomes Value Set (DOVeS) ontology aims to provide users with a set of ontologically structured healthcare outcomes (clinical, operational, economic, technical, and others) tailored to digital medicine and digital therapeutic applications."@en)
+Annotation(<http://purl.org/dc/terms/title> "Digital medicine Outcomes Value Set (DOVeS) Ontology"@en)
 
 Declaration(Class(obo:IAO_0000594))
 Declaration(Class(<http://purl.org/doves/a43ca2f5_8117_40d7_8487_72f616a86366>))
@@ -627,6 +629,8 @@ Declaration(ObjectProperty(<https://purl.org/doves/35053043-d428-432d-9044-1c3c9
 Declaration(ObjectProperty(<https://purl.org/doves/4b61e411-782f-4ccd-9f96-ba45caef73b6>))
 Declaration(ObjectProperty(<https://purl.org/doves/5b5e21c9-08f7-4c4f-a8ab-18f3914fdabc>))
 Declaration(NamedIndividual(<http://purl.org/doves/4bedc15f_c338_435e_8489_48fe5adb7304>))
+Declaration(AnnotationProperty(<http://purl.org/dc/terms/description>))
+Declaration(AnnotationProperty(<http://purl.org/dc/terms/title>))
 Declaration(AnnotationProperty(<http://purl.org/doves/ca198190_6ba6_4f8d_b67b_9887d40b6b85>))
 Declaration(AnnotationProperty(<http://purl.org/doves/doves-ontology#relates_to>))
 Declaration(AnnotationProperty(rdfs:label))
