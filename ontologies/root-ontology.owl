@@ -700,9 +700,11 @@ AnnotationAssertion(rdfs:label <https://purl.org/doves/5b5e21c9-08f7-4c4f-a8ab-1
 #   Classes
 ############################
 
+
 # Class: obo:IAO_0000594 (software application)
 
 AnnotationAssertion(rdfs:label obo:IAO_0000594 "software application"@en)
+
 
 # Class: obo:OAE_0000001 (Adverse Event Outcome)
 
@@ -2533,9 +2535,11 @@ SubClassOf(<https://purl.org/doves/a93a87f9-7853-4885-9856-28eb1fa52b3b> <https:
 
 # Class: <https://purl.org/doves/acb718e4-eb5d-4c70-aa21-06bddeb9fd05> (example diabetic retinopathy application)
 
+
 AnnotationAssertion(rdfs:comment <https://purl.org/doves/acb718e4-eb5d-4c70-aa21-06bddeb9fd05> "For demo")
 AnnotationAssertion(rdfs:label <https://purl.org/doves/acb718e4-eb5d-4c70-aa21-06bddeb9fd05> "example diabetic retinopathy application"@en)
 AnnotationAssertion(skos:definition <https://purl.org/doves/acb718e4-eb5d-4c70-aa21-06bddeb9fd05> "An digital medicine application that is designed to address outcomes associated with diabetic retinopathy.")
+
 SubClassOf(<https://purl.org/doves/acb718e4-eb5d-4c70-aa21-06bddeb9fd05> <https://purl.org/doves/d9e2bafb-40d3-433f-8047-5f7a81973790>)
 SubClassOf(<https://purl.org/doves/acb718e4-eb5d-4c70-aa21-06bddeb9fd05> ObjectSomeValuesFrom(<https://purl.org/doves/bc0c195d-054f-46ef-b11a-7098ecac8258> <https://purl.org/doves/37a002b3-8eec-4341-b3d0-6ccb97d8e42d>))
 SubClassOf(<https://purl.org/doves/acb718e4-eb5d-4c70-aa21-06bddeb9fd05> ObjectSomeValuesFrom(<https://purl.org/doves/e9bd6438-a483-4c69-a6e6-281376bca09c> <https://purl.org/doves/d8021be1-d620-42b7-8de2-5fd880e31973>))
@@ -2693,7 +2697,6 @@ SubClassOf(<https://purl.org/doves/c23323b6-fe6c-445d-8ce8-c8a2b9c0d50b> <https:
 AnnotationAssertion(obo:IAO_0000115 <https://purl.org/doves/c242c72d-5ced-4b37-8670-f2834907d963> "Clinical Data Aggregation Capability is a Technical Capability Area describing a digital medicine or therapeutic's capability to aggregate and group clinical data.")
 AnnotationAssertion(rdfs:label <https://purl.org/doves/c242c72d-5ced-4b37-8670-f2834907d963> "clinical data aggregation capability"@en)
 SubClassOf(<https://purl.org/doves/c242c72d-5ced-4b37-8670-f2834907d963> <https://purl.org/doves/1ce5511a-c36f-4fb4-97a6-8e1b0642a27d>)
-SubClassOf(<https://purl.org/doves/c242c72d-5ced-4b37-8670-f2834907d963> <https://purl.org/doves/8773470f-b184-4f06-84ed-fcb2a1108574>)
 
 # Class: <https://purl.org/doves/c28dc506-592e-49a4-a783-c382a7b65c35> (Post-Operative length of stay)
 
@@ -2851,8 +2854,10 @@ SubClassOf(<https://purl.org/doves/d8921308-6f79-4d16-8633-d63e9d8ed046> <https:
 
 AnnotationAssertion(rdfs:comment <https://purl.org/doves/d9e2bafb-40d3-433f-8047-5f7a81973790> "A digital medicine application is an application that leverages digital technologies to address healthcare outcomes relating to one or more diseases or specialties, using one or more technological approaches, with one or more users at least one of whom is a healthcare professional. Digital medicine applications are conceptually related to Software as a Medical Device (SaMD) or Software in a Medical Device (SiMD)")
 AnnotationAssertion(rdfs:label <https://purl.org/doves/d9e2bafb-40d3-433f-8047-5f7a81973790> "digital medicine application"@en)
+
 AnnotationAssertion(Annotation(<http://purl.org/doves/ca198190_6ba6_4f8d_b67b_9887d40b6b85> <https://www.healthxl.com/blog/digital-health-digital-medicine-digital-therapeutics-dtx-whats-the-difference>) skos:definition <https://purl.org/doves/d9e2bafb-40d3-433f-8047-5f7a81973790> "A digital medicine application is a software application that measures and/or intervenes in the service of human health. Clinical evidence is required, and requirements for regulatory oversight vary.  Digital medicine products that are classified as medical devices require clearance or approval. Digital medicine products used as a tool to develop other drugs, devices, or medical products require regulatory acceptance by the appropriate review division."@en)
 SubClassOf(<https://purl.org/doves/d9e2bafb-40d3-433f-8047-5f7a81973790> obo:IAO_0000594)
+
 SubClassOf(<https://purl.org/doves/d9e2bafb-40d3-433f-8047-5f7a81973790> ObjectSomeValuesFrom(<https://purl.org/doves/a9867165-15f1-42bd-98ea-98879909af88> <https://purl.org/doves/42032214-7b35-46e0-98f9-cd903d8fd464>))
 SubClassOf(<https://purl.org/doves/d9e2bafb-40d3-433f-8047-5f7a81973790> ObjectSomeValuesFrom(<https://purl.org/doves/bc0c195d-054f-46ef-b11a-7098ecac8258> <https://purl.org/doves/01d40506-2d2f-4237-a87b-229e268c2f14>))
 SubClassOf(<https://purl.org/doves/d9e2bafb-40d3-433f-8047-5f7a81973790> ObjectSomeValuesFrom(<https://purl.org/doves/e9bd6438-a483-4c69-a6e6-281376bca09c> <https://purl.org/doves/1d62d176-3b08-4743-819c-ba79585f3a38>))
@@ -3104,7 +3109,7 @@ SubClassOf(<https://purl.org/doves/f7effc2c-2d5b-405d-840e-9f83b47f3875> <https:
 # Class: <https://purl.org/doves/f8c83883-9b87-4aa7-9406-6e361358faea> (adult person)
 
 AnnotationAssertion(rdfs:label <https://purl.org/doves/f8c83883-9b87-4aa7-9406-6e361358faea> "adult person"@en)
-AnnotationAssertion(skos:definition <https://purl.org/doves/f8c83883-9b87-4aa7-9406-6e361358faea> "An Adult Person is a Person that is in the Adult Age Group")
+AnnotationAssertion(skos:definition <https://purl.org/doves/f8c83883-9b87-4aa7-9406-6e361358faea> "An Adult Person is a Person that is in the Adult Age Group"^^xsd:string)
 EquivalentClasses(<https://purl.org/doves/f8c83883-9b87-4aa7-9406-6e361358faea> ObjectIntersectionOf(<https://purl.org/doves/01d40506-2d2f-4237-a87b-229e268c2f14> ObjectSomeValuesFrom(<https://purl.org/doves/e352e4b8-9c80-45f1-a877-a397b5b33cc1> <https://purl.org/doves/f8c83883-9b87-4aa7-9406-6e361358faea>)))
 
 # Class: <https://purl.org/doves/f921a0bd-b02b-446a-a2c9-6e4a80e8122c> (patient appointment scheduling capability)
@@ -3212,8 +3217,10 @@ EquivalentClasses(<https://purl.org/doves/0b869525-4011-41c4-b250-c261f0a2a2c9> 
 
 # Class: <https://purl.org/doves/0bd86ad9-6ecc-4226-9627-b458ee64cfb1> (example peri-operative guidance application)
 
+
 AnnotationAssertion(rdfs:comment <https://purl.org/doves/0bd86ad9-6ecc-4226-9627-b458ee64cfb1> "For demo")
 AnnotationAssertion(rdfs:label <https://purl.org/doves/0bd86ad9-6ecc-4226-9627-b458ee64cfb1> "example peri-operative guidance application"@en)
+
 SubClassOf(<https://purl.org/doves/0bd86ad9-6ecc-4226-9627-b458ee64cfb1> <https://purl.org/doves/d9e2bafb-40d3-433f-8047-5f7a81973790>)
 SubClassOf(<https://purl.org/doves/0bd86ad9-6ecc-4226-9627-b458ee64cfb1> ObjectSomeValuesFrom(<https://purl.org/doves/bc0c195d-054f-46ef-b11a-7098ecac8258> <https://purl.org/doves/b129abd1-3d08-42e9-b1b3-7ed9f235fe93>))
 SubClassOf(<https://purl.org/doves/0bd86ad9-6ecc-4226-9627-b458ee64cfb1> ObjectSomeValuesFrom(<https://purl.org/doves/bc0c195d-054f-46ef-b11a-7098ecac8258> <https://purl.org/doves/37a002b3-8eec-4341-b3d0-6ccb97d8e42d>))
@@ -3690,7 +3697,6 @@ SubClassOf(<https://purl.org/doves/487ba129-e6ff-4f8f-bdbb-e1074b485360> <https:
 AnnotationAssertion(obo:IAO_0000115 <https://purl.org/doves/49f0075d-4218-44ed-a958-1f63ae7f0529> "Clinical Decision Support Capability is a Technical Capability Area describing a digital medicine or therapeutic's capability to provide functionlaity related to clinical decision support, defined as a process for enhancing health-related decisions and actions with pertinent, organized clinical knowledge and patient informartion to improve health and healthcare delivery. Source: https://www.cdc.gov/opioids/healthcare-admins/ehr/clinical-decision-support.html#:~:text=Print-,What%20Is%20Clinical%20Decision%20Support%3F,improve%20health%20and%20healthcare%20delivery.")
 AnnotationAssertion(rdfs:label <https://purl.org/doves/49f0075d-4218-44ed-a958-1f63ae7f0529> "clinical decision support capability"@en)
 SubClassOf(<https://purl.org/doves/49f0075d-4218-44ed-a958-1f63ae7f0529> <https://purl.org/doves/1ce5511a-c36f-4fb4-97a6-8e1b0642a27d>)
-SubClassOf(<https://purl.org/doves/49f0075d-4218-44ed-a958-1f63ae7f0529> <https://purl.org/doves/8773470f-b184-4f06-84ed-fcb2a1108574>)
 
 # Class: <https://purl.org/doves/494ac5f1-e8d5-40dc-9028-07bbe6f34373> (HEDIS measure diabetes care outcome)
 
@@ -4058,8 +4064,8 @@ SubClassOf(<https://purl.org/doves/77781100-d4c7-44b5-8c07-6588bb65e3fb> <https:
 # Class: <https://purl.org/doves/78ceb509-e44b-4d8c-bd47-b457f9d835cb> (refining value)
 
 AnnotationAssertion(rdfs:label <https://purl.org/doves/78ceb509-e44b-4d8c-bd47-b457f9d835cb> "refining value"@en)
-AnnotationAssertion(skos:definition <https://purl.org/doves/78ceb509-e44b-4d8c-bd47-b457f9d835cb> "A value that can be used to refine the description of a digital medicine application")
-AnnotationAssertion(skos:editorialNote <https://purl.org/doves/78ceb509-e44b-4d8c-bd47-b457f9d835cb> "At some point it would be good to locate subclasses of this class in the appropriate BFO hierarchy location")
+AnnotationAssertion(skos:definition <https://purl.org/doves/78ceb509-e44b-4d8c-bd47-b457f9d835cb> "A value that can be used to refine the description of a digital medicine application"^^xsd:string)
+AnnotationAssertion(skos:editorialNote <https://purl.org/doves/78ceb509-e44b-4d8c-bd47-b457f9d835cb> "At some point it would be good to locate subclasses of this class in the appropriate BFO hierarchy location"^^xsd:string)
 
 # Class: <https://purl.org/doves/78ec0745-1e65-427c-ac33-79d8d72aec4c> (computed tomography)
 
@@ -4201,7 +4207,7 @@ SubClassOf(<https://purl.org/doves/8773470f-b184-4f06-84ed-fcb2a1108574> <https:
 # Class: <https://purl.org/doves/888b27ef-4a37-4f2d-b918-a9291ac2b878> (clinical data transformation)
 
 AnnotationAssertion(rdfs:label <https://purl.org/doves/888b27ef-4a37-4f2d-b918-a9291ac2b878> "clinical data transformation"@en)
-SubClassOf(<https://purl.org/doves/888b27ef-4a37-4f2d-b918-a9291ac2b878> <https://purl.org/doves/8773470f-b184-4f06-84ed-fcb2a1108574>)
+SubClassOf(<https://purl.org/doves/888b27ef-4a37-4f2d-b918-a9291ac2b878> <https://purl.org/doves/1ce5511a-c36f-4fb4-97a6-8e1b0642a27d>)
 
 # Class: <https://purl.org/doves/894b0e16-237d-40f2-87f0-adaa02cab8c8> (technology)
 
