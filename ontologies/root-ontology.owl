@@ -17,6 +17,7 @@ Ontology(<http://purl.org/doves/doves-ontology>
 Import(<http://purl.obolibrary.org/obo/mondo-human-disease-extract.owl>)
 Import(<http://www.semanticweb.org/AdverseEventExtract>)
 
+Declaration(Class(obo:IAO_0000594))
 Declaration(Class(<http://purl.org/doves/a43ca2f5_8117_40d7_8487_72f616a86366>))
 Declaration(Class(<http://purl.org/doves/a61dbcd2_0d2c_4269_a9dd_c34cb9fd5965>))
 Declaration(Class(<http://purl.org/doves/ad3e8f0e_7216_4aeb_a35a_1c9802d501c2>))
@@ -91,7 +92,6 @@ Declaration(Class(<http://purl.org/doves/doves-ontology#Diabetic_Retinopathy_Exa
 Declaration(Class(<http://purl.org/doves/doves-ontology#Dietary_Adherence_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Digital_Health_Application>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Digital_Health_Assessment_Framework_Certification_Outcome>))
-Declaration(Class(<http://purl.org/doves/doves-ontology#Digital_Medicine_Application>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Digital_Medicine_Assessment_Certification_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Digital_Technology_Assessment_Criteria_Certification_Outcome>))
 Declaration(Class(<http://purl.org/doves/doves-ontology#Digital_Therapeutic_Application>))
@@ -627,9 +627,19 @@ Declaration(ObjectProperty(<https://purl.org/doves/35053043-d428-432d-9044-1c3c9
 Declaration(ObjectProperty(<https://purl.org/doves/4b61e411-782f-4ccd-9f96-ba45caef73b6>))
 Declaration(ObjectProperty(<https://purl.org/doves/5b5e21c9-08f7-4c4f-a8ab-18f3914fdabc>))
 Declaration(NamedIndividual(<http://purl.org/doves/4bedc15f_c338_435e_8489_48fe5adb7304>))
+Declaration(AnnotationProperty(<http://purl.org/doves/ca198190_6ba6_4f8d_b67b_9887d40b6b85>))
 Declaration(AnnotationProperty(<http://purl.org/doves/doves-ontology#relates_to>))
 Declaration(AnnotationProperty(rdfs:label))
 Declaration(AnnotationProperty(skos:altLabel))
+Declaration(AnnotationProperty(skos:exactMatch))
+############################
+#   Annotation Properties
+############################
+
+# Annotation Property: <http://purl.org/doves/ca198190_6ba6_4f8d_b67b_9887d40b6b85> (source)
+
+AnnotationAssertion(rdfs:label <http://purl.org/doves/ca198190_6ba6_4f8d_b67b_9887d40b6b85> "source"@en)
+
 
 ############################
 #   Object Properties
@@ -638,6 +648,10 @@ Declaration(AnnotationProperty(skos:altLabel))
 # Object Property: <https://purl.org/doves/a9867165-15f1-42bd-98ea-98879909af88> (has evidencetype)
 
 AnnotationAssertion(rdfs:label <https://purl.org/doves/a9867165-15f1-42bd-98ea-98879909af88> "has evidencetype"@en)
+
+# Object Property: <https://purl.org/doves/bc0c195d-054f-46ef-b11a-7098ecac8258> (has role)
+
+AnnotationAssertion(rdfs:label <https://purl.org/doves/bc0c195d-054f-46ef-b11a-7098ecac8258> "has role"@en)
 
 # Object Property: <https://purl.org/doves/e352e4b8-9c80-45f1-a877-a397b5b33cc1> (has age group)
 
@@ -664,9 +678,9 @@ AnnotationAssertion(rdfs:label <https://purl.org/doves/2d8bd602-011c-4327-ad38-8
 
 AnnotationAssertion(rdfs:label <https://purl.org/doves/24dcb20e-39ed-4469-9d8a-ea3808f4fb16> "has accuracy"@en)
 
-# Object Property: <https://purl.org/doves/35053043-d428-432d-9044-1c3c91f72451> (hasAssociatedEvent)
+# Object Property: <https://purl.org/doves/35053043-d428-432d-9044-1c3c91f72451> (has associated event)
 
-AnnotationAssertion(rdfs:label <https://purl.org/doves/35053043-d428-432d-9044-1c3c91f72451> "hasAssociatedEvent"@en)
+AnnotationAssertion(rdfs:label <https://purl.org/doves/35053043-d428-432d-9044-1c3c91f72451> "has associated event"@en)
 
 # Object Property: <https://purl.org/doves/4b61e411-782f-4ccd-9f96-ba45caef73b6> (has sex)
 
@@ -681,6 +695,12 @@ AnnotationAssertion(rdfs:label <https://purl.org/doves/5b5e21c9-08f7-4c4f-a8ab-1
 ############################
 #   Classes
 ############################
+
+
+# Class: obo:IAO_0000594 (software application)
+
+AnnotationAssertion(rdfs:label obo:IAO_0000594 "software application"@en)
+
 
 # Class: obo:OAE_0000001 (Adverse Event Outcome)
 
@@ -743,7 +763,9 @@ SubClassOf(<http://purl.org/doves/ca912fb6_a4a7_487e_9646_f0844650b77f> <http://
 
 # Class: <http://purl.org/doves/e63990da-3423-41df-ab19-98af4cec86c7> (race)
 
+AnnotationAssertion(rdfs:label <http://purl.org/doves/e63990da-3423-41df-ab19-98af4cec86c7> obo:GSSO_002199)
 AnnotationAssertion(rdfs:label <http://purl.org/doves/e63990da-3423-41df-ab19-98af4cec86c7> "race"@en)
+AnnotationAssertion(rdfs:seeAlso <http://purl.org/doves/e63990da-3423-41df-ab19-98af4cec86c7> "GSSO:002199")
 AnnotationAssertion(skos:definition <http://purl.org/doves/e63990da-3423-41df-ab19-98af4cec86c7> "Race is a Refining Value defined as a social construct meant to group people according to common, visible physical traits. 
 
 Categories of race follow guidance from the United States Census Bureau as of Aug 4, 2021. https://www.census.gov/newsroom/blogs/random-samplings/2021/08/measuring-racial-ethnic-diversity-2020-census.html")
@@ -1143,9 +1165,9 @@ SubClassOf(<http://purl.org/doves/doves-ontology#Dietary_Adherence_Outcome> <htt
 
 # Class: <http://purl.org/doves/doves-ontology#Digital_Health_Application> (digital health application)
 
-AnnotationAssertion(obo:IAO_0000115 <http://purl.org/doves/doves-ontology#Digital_Health_Application> "A Digital Health Application includes technologies, platforms, and systems that engage consumers for lifestyle, wellness, and health-related purposes; capture, store, or transmit health data; and/or support life science and clinical operations. Digital Health applications typically do not require clinical evidence, and do not meet the regulatory definition of a medical device and do not require regulatory oversight. Source: https://www.healthxl.com/blog/digital-health-digital-medicine-digital-therapeutics-dtx-whats-the-difference")
+AnnotationAssertion(Annotation(<http://purl.org/doves/ca198190_6ba6_4f8d_b67b_9887d40b6b85> <https://www.healthxl.com/blog/digital-health-digital-medicine-digital-therapeutics-dtx-whats-the-difference>) obo:IAO_0000115 <http://purl.org/doves/doves-ontology#Digital_Health_Application> "A Digital Health Application includes technologies, platforms, and systems that engage consumers for lifestyle, wellness, and health-related purposes; capture, store, or transmit health data; and/or support life science and clinical operations. Digital Health applications typically do not require clinical evidence, and do not meet the regulatory definition of a medical device and do not require regulatory oversight."@en)
 AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Digital_Health_Application> "digital health application")
-SubClassOf(<http://purl.org/doves/doves-ontology#Digital_Health_Application> <http://purl.org/doves/doves-ontology#Regulatory_Category>)
+SubClassOf(<http://purl.org/doves/doves-ontology#Digital_Health_Application> obo:IAO_0000594)
 
 # Class: <http://purl.org/doves/doves-ontology#Digital_Health_Assessment_Framework_Certification_Outcome> (digital medicine assessment framework (DHAF) certification outcome)
 
@@ -1174,11 +1196,6 @@ Technical Security & Stability
 "@en)
 SubClassOf(<http://purl.org/doves/doves-ontology#Digital_Health_Assessment_Framework_Certification_Outcome> <http://purl.org/doves/doves-ontology#Digital_Medicine_Assessment_Certification_Outcome>)
 
-# Class: <http://purl.org/doves/doves-ontology#Digital_Medicine_Application> (digital medicine applications include evidence-based software and/or hardware products that measure and/or intervene in the service of human health. clinical evidence is required, and requirements for regulatory oversight vary. digital medicine products that are classified as medical devices require clearance or approval. digital medicine products used as a tool to develop other drugs, devices, or medical products require regulatory acceptance by the appropriate review division. source: https://www.healthxl.com/blog/digital-health-digital-medicine-digital-therapeutics-dtx-whats-the-difference)
-
-AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Digital_Medicine_Application> "digital medicine applications include evidence-based software and/or hardware products that measure and/or intervene in the service of human health. clinical evidence is required, and requirements for regulatory oversight vary. digital medicine products that are classified as medical devices require clearance or approval. digital medicine products used as a tool to develop other drugs, devices, or medical products require regulatory acceptance by the appropriate review division. source: https://www.healthxl.com/blog/digital-health-digital-medicine-digital-therapeutics-dtx-whats-the-difference")
-SubClassOf(<http://purl.org/doves/doves-ontology#Digital_Medicine_Application> <http://purl.org/doves/doves-ontology#Regulatory_Category>)
-
 # Class: <http://purl.org/doves/doves-ontology#Digital_Medicine_Assessment_Certification_Outcome> (digital medicine assessment certification outcome)
 
 AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Digital_Medicine_Assessment_Certification_Outcome> "digital medicine assessment certification outcome"@en)
@@ -1195,9 +1212,11 @@ SubClassOf(<http://purl.org/doves/doves-ontology#Digital_Technology_Assessment_C
 
 # Class: <http://purl.org/doves/doves-ontology#Digital_Therapeutic_Application> (digital therapeutic application)
 
-AnnotationAssertion(obo:IAO_0000115 <http://purl.org/doves/doves-ontology#Digital_Therapeutic_Application> "A digital Therapeutic Application is health software intended to treat or alleviate a disease, disorder, or injury by generating and delivering a medical intervention that has a demonstrable positive therapeutic impact on a patient's health. ISO /TR11147:2023(en) It can also be considered to be a digital product that delivers evidence-based therapeutic intervention to prevent, manage, or treat a medical disorder or condition. Digital Therapeutic applications typically require clinical evidence and real world outcomes and must be reviewed and cleared by regulatory bodies as required to support product claims of risk, efficacy, and intended use. Source: https://www.healthxl.com/blog/digital-health-digital-medicine-digital-therapeutics-dtx-whats-the-difference")
+AnnotationAssertion(Annotation(<http://purl.org/doves/ca198190_6ba6_4f8d_b67b_9887d40b6b85> <https://www.healthxl.com/blog/digital-health-digital-medicine-digital-therapeutics-dtx-whats-the-difference>) obo:IAO_0000115 <http://purl.org/doves/doves-ontology#Digital_Therapeutic_Application> "A digital Therapeutic Application is health software intended to treat or alleviate a disease, disorder, or injury by generating and delivering a medical intervention that has a demonstrable positive therapeutic impact on a patient's health. ISO /TR11147:2023(en) It can also be considered to be a digital product that delivers evidence-based therapeutic intervention to prevent, manage, or treat a medical disorder or condition. 
+
+Digital Therapeutic applications typically require clinical evidence and real world outcomes and must be reviewed and cleared by regulatory bodies as required to support product claims of risk, efficacy, and intended use."@en)
 AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Digital_Therapeutic_Application> "digital therapeutic application")
-SubClassOf(<http://purl.org/doves/doves-ontology#Digital_Therapeutic_Application> <http://purl.org/doves/doves-ontology#Regulatory_Category>)
+SubClassOf(<http://purl.org/doves/doves-ontology#Digital_Therapeutic_Application> obo:IAO_0000594)
 
 # Class: <http://purl.org/doves/doves-ontology#Disease_Course_Modification_Outcome> (disease course modification outcome)
 
@@ -1248,10 +1267,10 @@ AnnotationAssertion(obo:IAO_0000115 <http://purl.org/doves/doves-ontology#Exerci
 AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Exercise_Adherence_outcome> "exercise adherence outcome")
 SubClassOf(<http://purl.org/doves/doves-ontology#Exercise_Adherence_outcome> <http://purl.org/doves/doves-ontology#Lifestyle_Adherence_Outcome>)
 
-# Class: <http://purl.org/doves/doves-ontology#FDA> (FDA approval)
+# Class: <http://purl.org/doves/doves-ontology#FDA> (FDA approval status)
 
-AnnotationAssertion(obo:IAO_0000115 <http://purl.org/doves/doves-ontology#FDA> "FDA Approval is a Regulatory Approval indicating that the Food and Drug Administation (FDA) of the United States indicating that agency has determined that the benefits of the product outweigh the risks for the intended use. Source: https://www.fda.gov/consumers/consumer-updates/it-really-fda-approved")
-AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#FDA> "FDA approval")
+AnnotationAssertion(obo:IAO_0000115 <http://purl.org/doves/doves-ontology#FDA> "FDA approval status is a regulatory approval status indicating that the Food and Drug Administation (FDA) of the United States indicating that agency has determined that the benefits of the product outweigh the risks for the intended use. Source: https://www.fda.gov/consumers/consumer-updates/it-really-fda-approved")
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#FDA> "FDA approval status")
 SubClassOf(<http://purl.org/doves/doves-ontology#FDA> <http://purl.org/doves/doves-ontology#Regulatory_Approval>)
 
 # Class: <http://purl.org/doves/doves-ontology#FDA_Approved> (FDA approved)
@@ -1340,10 +1359,11 @@ Measures the percentage of individuals who have HbA1C in control, defined as <8%
 Measures the percentage of individuals who are in Poor control, defined by HbA1ct >9.0%"@en)
 SubClassOf(<http://purl.org/doves/doves-ontology#HEDIS_HbA1c_Control> <https://purl.org/doves/494ac5f1-e8d5-40dc-9028-07bbe6f34373>)
 
-# Class: <http://purl.org/doves/doves-ontology#HIE_Integration> (HIE integration)
+# Class: <http://purl.org/doves/doves-ontology#HIE_Integration> (health information exchange integration)
 
 AnnotationAssertion(obo:IAO_0000115 <http://purl.org/doves/doves-ontology#HIE_Integration> "HIE Integration is a Refining Value that describes a digital medicine application's integration with Health Information Exchanges (HIEs).")
-AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#HIE_Integration> "HIE integration")
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#HIE_Integration> "health information exchange integration"@en)
+AnnotationAssertion(skos:altLabel <http://purl.org/doves/doves-ontology#HIE_Integration> "HIE integration"@en)
 SubClassOf(<http://purl.org/doves/doves-ontology#HIE_Integration> <https://purl.org/doves/78ceb509-e44b-4d8c-bd47-b457f9d835cb>)
 
 # Class: <http://purl.org/doves/doves-ontology#HL7_Access_Outcome> (HL7 access outcome)
@@ -1979,10 +1999,10 @@ AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Reduction_i
 AnnotationAssertion(Annotation(rdfs:seeAlso <https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9291009/>) skos:definition <http://purl.org/doves/doves-ontology#Reduction_in_Falls_Outcome> "A Reduction in Falls Outcome is a Sign Control Outcome related to the decrease in older individuals' prevalence of falls. A reduction in falls improves older individuals' quality of life and safety in their environment. "@en)
 SubClassOf(<http://purl.org/doves/doves-ontology#Reduction_in_Falls_Outcome> <http://purl.org/doves/doves-ontology#Sign_Control_Outcome>)
 
-# Class: <http://purl.org/doves/doves-ontology#Regulatory_Approval> (regulatory approval)
+# Class: <http://purl.org/doves/doves-ontology#Regulatory_Approval> (regulatory approval status)
 
 AnnotationAssertion(obo:IAO_0000115 <http://purl.org/doves/doves-ontology#Regulatory_Approval> "Regulatory Approval is a Refining Value that refers to government regulated approval for safety and efficacy of a digital medicine application or software as a medical device.")
-AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Regulatory_Approval> "regulatory approval")
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Regulatory_Approval> "regulatory approval status")
 SubClassOf(<http://purl.org/doves/doves-ontology#Regulatory_Approval> <https://purl.org/doves/78ceb509-e44b-4d8c-bd47-b457f9d835cb>)
 
 # Class: <http://purl.org/doves/doves-ontology#Regulatory_Category> (regulatory category)
@@ -2257,10 +2277,10 @@ AnnotationAssertion(obo:IAO_0000115 <http://purl.org/doves/doves-ontology#Clinic
 AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Clinician_and_Group_Consumer_Assessment_of_Healthcare_Providers_and_Systems_(CG_CAHPS)_Outcome> "clinician and group consumer assessment of healthcare providers and systems (CG CAHPS) outcome")
 SubClassOf(<http://purl.org/doves/doves-ontology#Clinician_and_Group_Consumer_Assessment_of_Healthcare_Providers_and_Systems_(CG_CAHPS)_Outcome> <http://purl.org/doves/doves-ontology#Healthcare_Quality_of_Care_Outcome>)
 
-# Class: <http://purl.org/doves/doves-ontology#Conformite_Europeenne_(CE)> (conformite europeenne (CE) approval)
+# Class: <http://purl.org/doves/doves-ontology#Conformite_Europeenne_(CE)> (conformite europeenne (CE) approval status)
 
 AnnotationAssertion(obo:IAO_0000115 <http://purl.org/doves/doves-ontology#Conformite_Europeenne_(CE)> "CE Approval (or CE Marking) is a Refining Value indicating that products sold in the European Economic Area have been assessed to meet high safety, health, and environmental protection requirements. Source: https://single-market-economy.ec.europa.eu/single-market/ce-marking_en")
-AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Conformite_Europeenne_(CE)> "conformite europeenne (CE) approval")
+AnnotationAssertion(rdfs:label <http://purl.org/doves/doves-ontology#Conformite_Europeenne_(CE)> "conformite europeenne (CE) approval status")
 SubClassOf(<http://purl.org/doves/doves-ontology#Conformite_Europeenne_(CE)> <http://purl.org/doves/doves-ontology#Regulatory_Approval>)
 
 # Class: <http://purl.org/doves/doves-ontology#Continuous_Glucose_Monitor_(CGM)_Wear_Time> (continuous glucose monitor (CGM) wear time outcome)
@@ -2509,11 +2529,13 @@ SubClassOf(<https://purl.org/doves/a5627207-3c76-4b6c-8c81-f24283570b23> <https:
 AnnotationAssertion(rdfs:label <https://purl.org/doves/a93a87f9-7853-4885-9856-28eb1fa52b3b> "general surgery"@en)
 SubClassOf(<https://purl.org/doves/a93a87f9-7853-4885-9856-28eb1fa52b3b> <https://purl.org/doves/1d62d176-3b08-4743-819c-ba79585f3a38>)
 
-# Class: <https://purl.org/doves/acb718e4-eb5d-4c70-aa21-06bddeb9fd05> (demo - diabetic retinopathy application)
+# Class: <https://purl.org/doves/acb718e4-eb5d-4c70-aa21-06bddeb9fd05> (example diabetic retinopathy application)
 
-AnnotationAssertion(rdfs:comment <https://purl.org/doves/acb718e4-eb5d-4c70-aa21-06bddeb9fd05> "For demo"^^xsd:string)
-AnnotationAssertion(rdfs:label <https://purl.org/doves/acb718e4-eb5d-4c70-aa21-06bddeb9fd05> "demo - diabetic retinopathy application"@en)
-AnnotationAssertion(skos:definition <https://purl.org/doves/acb718e4-eb5d-4c70-aa21-06bddeb9fd05> "An digital medicine application that is designed to address outcomes associated with diabetic retinopathy."^^xsd:string)
+
+AnnotationAssertion(rdfs:comment <https://purl.org/doves/acb718e4-eb5d-4c70-aa21-06bddeb9fd05> "For demo")
+AnnotationAssertion(rdfs:label <https://purl.org/doves/acb718e4-eb5d-4c70-aa21-06bddeb9fd05> "example diabetic retinopathy application"@en)
+AnnotationAssertion(skos:definition <https://purl.org/doves/acb718e4-eb5d-4c70-aa21-06bddeb9fd05> "An digital medicine application that is designed to address outcomes associated with diabetic retinopathy.")
+
 SubClassOf(<https://purl.org/doves/acb718e4-eb5d-4c70-aa21-06bddeb9fd05> <https://purl.org/doves/d9e2bafb-40d3-433f-8047-5f7a81973790>)
 SubClassOf(<https://purl.org/doves/acb718e4-eb5d-4c70-aa21-06bddeb9fd05> ObjectSomeValuesFrom(<https://purl.org/doves/bc0c195d-054f-46ef-b11a-7098ecac8258> <https://purl.org/doves/37a002b3-8eec-4341-b3d0-6ccb97d8e42d>))
 SubClassOf(<https://purl.org/doves/acb718e4-eb5d-4c70-aa21-06bddeb9fd05> ObjectSomeValuesFrom(<https://purl.org/doves/e9bd6438-a483-4c69-a6e6-281376bca09c> <https://purl.org/doves/d8021be1-d620-42b7-8de2-5fd880e31973>))
@@ -2755,7 +2777,6 @@ SubClassOf(<https://purl.org/doves/cdec99b1-f3e5-4009-bdc5-49ea965dc503> <https:
 
 # Class: <https://purl.org/doves/d042fc04-644c-4ce3-9ea9-c51efd5ac25a> (data processing synthesis or visualization capability)
 
-AnnotationAssertion(obo:IAO_0000115 <https://purl.org/doves/d042fc04-644c-4ce3-9ea9-c51efd5ac25a> "")
 AnnotationAssertion(obo:IAO_0000115 <https://purl.org/doves/d042fc04-644c-4ce3-9ea9-c51efd5ac25a> "Data Processing Synthesis or Visualization Capability is a Technical Capability Area describing a digital medicine or therapeutic's capability to process or synthesize data and usually turn those data into meaningul output such as through visualizations.")
 AnnotationAssertion(rdfs:label <https://purl.org/doves/d042fc04-644c-4ce3-9ea9-c51efd5ac25a> "data processing synthesis or visualization capability"@en)
 SubClassOf(<https://purl.org/doves/d042fc04-644c-4ce3-9ea9-c51efd5ac25a> <https://purl.org/doves/1ce5511a-c36f-4fb4-97a6-8e1b0642a27d>)
@@ -2812,6 +2833,7 @@ SubClassOf(<https://purl.org/doves/d70e348b-aceb-489b-b44d-1e43bb90d939> <https:
 
 AnnotationAssertion(obo:IAO_0000115 <https://purl.org/doves/d7fdedbd-6d0d-4d67-bd98-03f4c80c944b> "Age Group is a Refining Value that describes the age category(ies) of a digital medicine application's users.")
 AnnotationAssertion(rdfs:label <https://purl.org/doves/d7fdedbd-6d0d-4d67-bd98-03f4c80c944b> "age group"@en)
+AnnotationAssertion(rdfs:seeAlso <https://purl.org/doves/d7fdedbd-6d0d-4d67-bd98-03f4c80c944b> obo:NCIT_C20587)
 SubClassOf(<https://purl.org/doves/d7fdedbd-6d0d-4d67-bd98-03f4c80c944b> <https://purl.org/doves/78ceb509-e44b-4d8c-bd47-b457f9d835cb>)
 
 # Class: <https://purl.org/doves/d8021be1-d620-42b7-8de2-5fd880e31973> (ophthalmology)
@@ -2826,8 +2848,12 @@ SubClassOf(<https://purl.org/doves/d8921308-6f79-4d16-8633-d63e9d8ed046> <https:
 
 # Class: <https://purl.org/doves/d9e2bafb-40d3-433f-8047-5f7a81973790> (digital medicine application)
 
+AnnotationAssertion(rdfs:comment <https://purl.org/doves/d9e2bafb-40d3-433f-8047-5f7a81973790> "A digital medicine application is an application that leverages digital technologies to address healthcare outcomes relating to one or more diseases or specialties, using one or more technological approaches, with one or more users at least one of whom is a healthcare professional. Digital medicine applications are conceptually related to Software as a Medical Device (SaMD) or Software in a Medical Device (SiMD)")
 AnnotationAssertion(rdfs:label <https://purl.org/doves/d9e2bafb-40d3-433f-8047-5f7a81973790> "digital medicine application"@en)
-AnnotationAssertion(skos:definition <https://purl.org/doves/d9e2bafb-40d3-433f-8047-5f7a81973790> "A digital medicine application is an application that leverages digital technologies to address healthcare outcomes relating to one or more diseases or specialties, using one or more technological approaches, with one or more users at least one of whom is a healthcare professional. Digital medicine applications are conceptually related to Software as a Medical Device (SaMD) or Software in a Medical Device (SiMD)"^^xsd:string)
+
+AnnotationAssertion(Annotation(<http://purl.org/doves/ca198190_6ba6_4f8d_b67b_9887d40b6b85> <https://www.healthxl.com/blog/digital-health-digital-medicine-digital-therapeutics-dtx-whats-the-difference>) skos:definition <https://purl.org/doves/d9e2bafb-40d3-433f-8047-5f7a81973790> "A digital medicine application is a software application that measures and/or intervenes in the service of human health. Clinical evidence is required, and requirements for regulatory oversight vary.  Digital medicine products that are classified as medical devices require clearance or approval. Digital medicine products used as a tool to develop other drugs, devices, or medical products require regulatory acceptance by the appropriate review division."@en)
+SubClassOf(<https://purl.org/doves/d9e2bafb-40d3-433f-8047-5f7a81973790> obo:IAO_0000594)
+
 SubClassOf(<https://purl.org/doves/d9e2bafb-40d3-433f-8047-5f7a81973790> ObjectSomeValuesFrom(<https://purl.org/doves/a9867165-15f1-42bd-98ea-98879909af88> <https://purl.org/doves/42032214-7b35-46e0-98f9-cd903d8fd464>))
 SubClassOf(<https://purl.org/doves/d9e2bafb-40d3-433f-8047-5f7a81973790> ObjectSomeValuesFrom(<https://purl.org/doves/bc0c195d-054f-46ef-b11a-7098ecac8258> <https://purl.org/doves/01d40506-2d2f-4237-a87b-229e268c2f14>))
 SubClassOf(<https://purl.org/doves/d9e2bafb-40d3-433f-8047-5f7a81973790> ObjectSomeValuesFrom(<https://purl.org/doves/e9bd6438-a483-4c69-a6e6-281376bca09c> <https://purl.org/doves/1d62d176-3b08-4743-819c-ba79585f3a38>))
@@ -2929,6 +2955,7 @@ SubClassOf(<https://purl.org/doves/e809c41b-c28d-4364-91d0-d62b8d900f73> <https:
 # Class: <https://purl.org/doves/e849bada-9fc3-4799-b3d4-625dc79093f4> (digital medicine application outcome)
 
 AnnotationAssertion(rdfs:label <https://purl.org/doves/e849bada-9fc3-4799-b3d4-625dc79093f4> "digital medicine application outcome"@en)
+AnnotationAssertion(rdfs:seeAlso <https://purl.org/doves/e849bada-9fc3-4799-b3d4-625dc79093f4> <https://purl.org/doves/e849bada-9fc3-4799-b3d4-625dc79093f4>)
 AnnotationAssertion(skos:definition <https://purl.org/doves/e849bada-9fc3-4799-b3d4-625dc79093f4> "A Digital Medicine Application Outcome is an outcome that associated with developent, use, or of application of, a digital medicine application."@en)
 
 # Class: <https://purl.org/doves/e8a3913a-2e3c-42c6-b662-a35736ffcada> (increased accuracy)
@@ -3184,10 +3211,12 @@ AnnotationAssertion(obo:IAO_0000115 <https://purl.org/doves/0b869525-4011-41c4-b
 AnnotationAssertion(rdfs:label <https://purl.org/doves/0b869525-4011-41c4-b250-c261f0a2a2c9> "adult female person"@en)
 EquivalentClasses(<https://purl.org/doves/0b869525-4011-41c4-b250-c261f0a2a2c9> ObjectIntersectionOf(<https://purl.org/doves/01d40506-2d2f-4237-a87b-229e268c2f14> ObjectSomeValuesFrom(<https://purl.org/doves/e352e4b8-9c80-45f1-a877-a397b5b33cc1> <http://purl.org/doves/0b28937e_45cc_4f6f_b7d5_2d9ae70f61a0>) ObjectSomeValuesFrom(<https://purl.org/doves/4b61e411-782f-4ccd-9f96-ba45caef73b6> <https://purl.org/doves/edd2c14b-bbc5-4eec-8c18-26acc71bcda5>)))
 
-# Class: <https://purl.org/doves/0bd86ad9-6ecc-4226-9627-b458ee64cfb1> (demo - peri-operative guidance application)
+# Class: <https://purl.org/doves/0bd86ad9-6ecc-4226-9627-b458ee64cfb1> (example peri-operative guidance application)
 
-AnnotationAssertion(rdfs:comment <https://purl.org/doves/0bd86ad9-6ecc-4226-9627-b458ee64cfb1> "For demo"^^xsd:string)
-AnnotationAssertion(rdfs:label <https://purl.org/doves/0bd86ad9-6ecc-4226-9627-b458ee64cfb1> "demo - peri-operative guidance application"@en)
+
+AnnotationAssertion(rdfs:comment <https://purl.org/doves/0bd86ad9-6ecc-4226-9627-b458ee64cfb1> "For demo")
+AnnotationAssertion(rdfs:label <https://purl.org/doves/0bd86ad9-6ecc-4226-9627-b458ee64cfb1> "example peri-operative guidance application"@en)
+
 SubClassOf(<https://purl.org/doves/0bd86ad9-6ecc-4226-9627-b458ee64cfb1> <https://purl.org/doves/d9e2bafb-40d3-433f-8047-5f7a81973790>)
 SubClassOf(<https://purl.org/doves/0bd86ad9-6ecc-4226-9627-b458ee64cfb1> ObjectSomeValuesFrom(<https://purl.org/doves/bc0c195d-054f-46ef-b11a-7098ecac8258> <https://purl.org/doves/b129abd1-3d08-42e9-b1b3-7ed9f235fe93>))
 SubClassOf(<https://purl.org/doves/0bd86ad9-6ecc-4226-9627-b458ee64cfb1> ObjectSomeValuesFrom(<https://purl.org/doves/bc0c195d-054f-46ef-b11a-7098ecac8258> <https://purl.org/doves/37a002b3-8eec-4341-b3d0-6ccb97d8e42d>))
@@ -3328,10 +3357,10 @@ AnnotationAssertion(rdfs:label <https://purl.org/doves/1c1d0e62-5c9b-4344-8ff1-9
 AnnotationAssertion(skos:definition <https://purl.org/doves/1c1d0e62-5c9b-4344-8ff1-9e71d1debb38> "A Medication Adherence Outcome is an Treatment Adherence Outcome that reflects an individual's degree of adherence to taking their medications as recommended."@en)
 SubClassOf(<https://purl.org/doves/1c1d0e62-5c9b-4344-8ff1-9e71d1debb38> <http://purl.org/doves/doves-ontology#Treatment_Adherence_Outcome>)
 
-# Class: <https://purl.org/doves/1ce5511a-c36f-4fb4-97a6-8e1b0642a27d> (technical capability area)
+# Class: <https://purl.org/doves/1ce5511a-c36f-4fb4-97a6-8e1b0642a27d> (technical capability)
 
 AnnotationAssertion(obo:IAO_0000115 <https://purl.org/doves/1ce5511a-c36f-4fb4-97a6-8e1b0642a27d> "Technical Capability Area is a Refining Value describing major technical categories of digital medicine or therapeutic products.")
-AnnotationAssertion(rdfs:label <https://purl.org/doves/1ce5511a-c36f-4fb4-97a6-8e1b0642a27d> "technical capability area"@en)
+AnnotationAssertion(rdfs:label <https://purl.org/doves/1ce5511a-c36f-4fb4-97a6-8e1b0642a27d> "technical capability"@en)
 SubClassOf(<https://purl.org/doves/1ce5511a-c36f-4fb4-97a6-8e1b0642a27d> <https://purl.org/doves/78ceb509-e44b-4d8c-bd47-b457f9d835cb>)
 
 # Class: <https://purl.org/doves/1d38e6de-d0dc-42a1-bf44-e01339371c7b> (HIPAA compliance outcome)
