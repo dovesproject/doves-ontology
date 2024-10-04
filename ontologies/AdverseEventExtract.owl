@@ -81,8 +81,8 @@
     <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115">
-        <obo:IAO_0000111 xml:lang="en">definition</obo:IAO_0000111>
         <obo:IAO_0000111>definition</obo:IAO_0000111>
+        <obo:IAO_0000111 xml:lang="en">definition</obo:IAO_0000111>
         <obo:IAO_0000111>textual definition</obo:IAO_0000111>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
         <obo:IAO_0000115 xml:lang="en">The official OBI definition, explaining the meaning of a class or property. Shall be Aristotelian, formalized and normalized. Can be augmented with colloquial definitions.</obo:IAO_0000115>
@@ -110,8 +110,8 @@ We also have the outstanding issue of how to aim different definitions to differ
         <obo:IAO_0000117 xml:lang="en">PERSON:Daniel Schober</obo:IAO_0000117>
         <obo:IAO_0000119 xml:lang="en">GROUP:OBI:&lt;http://purl.obolibrary.org/obo/obi&gt;</obo:IAO_0000119>
         <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
-        <rdfs:label xml:lang="en">definition</rdfs:label>
         <rdfs:label>definition</rdfs:label>
+        <rdfs:label xml:lang="en">definition</rdfs:label>
         <rdfs:label>textual definition</rdfs:label>
     </owl:AnnotationProperty>
     
@@ -177,8 +177,8 @@ We also have the outstanding issue of how to aim different definitions to differ
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
         <obo:IAO_0000115 xml:lang="en">formal citation, e.g. identifier in external database to indicate / attribute source(s) for the definition. Free text indicate / attribute source(s) for the definition. EXAMPLE: Author Name, URI, MeSH Term C04, PUBMED ID, Wiki uri on 31.01.2007</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">PERSON:Daniel Schober</obo:IAO_0000117>
-        <obo:IAO_0000119 xml:lang="en">GROUP:OBI:&lt;http://purl.obolibrary.org/obo/obi&gt;</obo:IAO_0000119>
         <obo:IAO_0000119>Discussion on obo-discuss mailing-list, see http://bit.ly/hgm99w</obo:IAO_0000119>
+        <obo:IAO_0000119 xml:lang="en">GROUP:OBI:&lt;http://purl.obolibrary.org/obo/obi&gt;</obo:IAO_0000119>
         <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
         <rdfs:label>definition source</rdfs:label>
         <rdfs:label xml:lang="en">definition source</rdfs:label>
@@ -452,7 +452,7 @@ The &apos;adverse event&apos; defined in the above paper has now been changed to
         <obo:IAO_0000119>WEB: http://www.fda.gov/Safety/MedWatch/HowToReport/ucm053087.htm</obo:IAO_0000119>
         <obo:IAO_0000119>WEB: http://www.ncbi.nlm.nih.gov/pubmed/25093068</obo:IAO_0000119>
         <rdfs:comment>The OAE official website is: http://www.oae-ontology.org/.</rdfs:comment>
-        <rdfs:label>Adverse Event Outcome</rdfs:label>
+        <rdfs:label>adverse event</rdfs:label>
     </owl:Class>
     
 
@@ -5352,8 +5352,8 @@ Reference: Kumar A, Parillo JE. Shock: pathophysiology, classification and appro
         <obo:IAO_0000119>WEB: http://www.ncbi.nlm.nih.gov/pubmed/16822921</obo:IAO_0000119>
         <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2563769/</obo:IAO_0000119>
         <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pubmed/18436339</obo:IAO_0000119>
-        <obo:OAE_0004334 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10038294</obo:OAE_0004334>
         <obo:OAE_0004334>10003267</obo:OAE_0004334>
+        <obo:OAE_0004334 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10038294</obo:OAE_0004334>
         <rdfs:label>arthritis reactive AE</rdfs:label>
     </owl:Class>
     
@@ -9878,8 +9878,8 @@ Reference: Kumar A, Parillo JE. Shock: pathophysiology, classification and appro
         <obo:IAO_0000118>caecitis AE</obo:IAO_0000118>
         <obo:IAO_0000118>typhlitis AE</obo:IAO_0000118>
         <obo:IAO_0000119>WEB: http://medical-dictionary.thefreedictionary.com/caecitis</obo:IAO_0000119>
-        <obo:OAE_0004334 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10045271</obo:OAE_0004334>
         <obo:OAE_0004334>10006919</obo:OAE_0004334>
+        <obo:OAE_0004334 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10045271</obo:OAE_0004334>
         <rdfs:label>cecitis AE</rdfs:label>
         <rdfs:seeAlso>CTCAE: E11058</rdfs:seeAlso>
         <rdfs:seeAlso>NCIt: C38043</rdfs:seeAlso>
@@ -34267,8 +34267,8 @@ http://en.wikipedia.org/wiki/Cardiac_output</obo:IAO_0000119>
         <obo:IAO_0000115>a urine abnormality AE that has laboratory test results that indicate the presence of free hemoglobin in the urine.</obo:IAO_0000115>
         <obo:IAO_0000117>MW, YH</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">haemoglobinuria AE</obo:IAO_0000118>
-        <obo:OAE_0004334 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10018906</obo:OAE_0004334>
         <obo:OAE_0004334>10019489</obo:OAE_0004334>
+        <obo:OAE_0004334 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10018906</obo:OAE_0004334>
         <rdfs:label>hemoglobinuria AE</rdfs:label>
         <rdfs:seeAlso>CTCAE: E13006</rdfs:seeAlso>
         <rdfs:seeAlso>NCIt: C34677</rdfs:seeAlso>
@@ -58276,5 +58276,5 @@ Ref: http://www.mayoclinic.org/tests-procedures/ana-test/basics/definition/prc-2
 
 
 
-<!-- Generated by the OWL API (version 4.5.25.2023-02-15T19:15:49Z) https://github.com/owlcs/owlapi -->
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
 
