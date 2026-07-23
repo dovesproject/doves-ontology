@@ -32,7 +32,47 @@ DOVeS reuses two external ontologies:
 | `notes/` | Notes on how the imported extracts were produced (e.g. the ROBOT commands used for the Mondo extract). |
 | `queries/` | SPARQL queries used for quality checking (e.g. finding duplicate labels and outcome classes missing the expected "Outcome" label suffix). |
 | `sources/` | Source data used in building the ontology (PROMs, ICD/CCS procedure codes, and the Mondo hierarchy). |
+| `scripts/` | Scripts for regenerating imported extracts (e.g. the Mondo human-disease extract). |
 | `LICENSE` | License file. |
+
+## How it's built
+
+DOVeS is authored directly in [Protégé](https://protege.stanford.edu/) rather
+than produced by an automated build pipeline. The ontology is modular and is
+assembled through OWL imports:
+
+- **`root-ontology.owl`** holds the native DOVeS content — the outcomes taxonomy
+  (asserted `rdfs:subClassOf` hierarchy), human-readable `rdfs:label`s and
+  `IAO_0000115` definitions for the UUID-named classes, `rdfs:seeAlso` links back
+  to source-ontology terms, and a small number of defined classes
+  (`EquivalentClasses` with `has age group` / `has sex` restrictions) that a
+  reasoner uses to classify outcomes along demographic dimensions.
+- It imports **`mondo-human-disease-extract.owl`** (disease/condition outcomes)
+  and **`AdverseEventExtract.owl`** (adverse-event outcomes).
+- **`catalog-v001.xml`** is a Protégé XML catalog that maps each import IRI to its
+  local file, so opening `root-ontology.owl` resolves the imports from this folder
+  rather than the network.
+
+### Regenerating the imported extracts
+
+The Mondo human-disease extract is a MIREOT extract (rooted at `MONDO:0700096`)
+produced with [ROBOT](http://robot.obolibrary.org/). To rebuild it you need ROBOT
+on your `PATH` and a [BioPortal API key](https://bioportal.bioontology.org/account):
+
+```
+BIOPORTAL_API_KEY=xxxxxxxx ./scripts/build-mondo-extract.sh
+```
+
+This downloads Mondo from BioPortal, extracts the human-disease branch, strips
+cross-references and unused annotations, and writes
+`ontologies/mondo-human-disease-extract.owl`.
+
+### Quality checks
+
+The SPARQL queries in `queries/` are run manually against the ontology to catch
+common authoring issues — classes with conflicting labels
+(`duplicate-labels.sparql`) and outcome classes whose label is missing the
+expected `Outcome` suffix (`missing-outcome-suffix.sparql`).
 
 ## Identifiers
 
